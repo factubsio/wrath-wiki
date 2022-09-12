@@ -14,7 +14,7 @@ jobs:
     - name: Setup .NET Core SDK
       uses: actions/setup-dotnet@v2.1.0
     - name: Publish .NET Core Project
-      run: dotnet publish BlazorGitHubPagesDemo.csproj -c Release -o release --nologo
+      run: dotnet publish wrath-wiki.csproj -c Release -o release --nologo
     - name: Push changes
       uses: ptienchuan/deploy-github-pages-action@master
       env:
