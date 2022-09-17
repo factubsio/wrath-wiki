@@ -1,0 +1,351 @@
+{
+  "features": [
+    {
+      "name": "Paladin Proficiencies",
+      "desc": "Paladins are proficient with all simple and {g|Encyclopedia:Weapon_Proficiency}martial weapons{/g}, with all types of armor (heavy, medium, and light), and with shields (except tower shields).",
+      "icon": "gen__PP"
+    },
+    {
+      "name": "Smite Evil",
+      "desc": "Once per day, a paladin can call out to the powers of good to aid her in her struggle against evil. As a {g|Encyclopedia:Swift_Action}swift action{/g}, the paladin chooses one target within sight to smite. If this target is evil, the paladin adds her {g|Encyclopedia:Charisma}Cha{/g} {g|Encyclopedia:Bonus}bonus{/g} (if any) to her {g|Encyclopedia:Attack}attack rolls{/g} and adds her paladin level to all {g|Encyclopedia:Damage}damage rolls{/g} made against the target of her smite, smite evil attacks automatically bypass any {g|Encyclopedia:Damage_Reduction}DR{/g} the creature might possess.\nIn addition, while smite evil is in effect, the paladin gains a deflection bonus equal to her Charisma modifier (if any) to her {g|Encyclopedia:Armor_Class}AC{/g} against attacks made by the target of the smite. If the paladin targets a creature that is not evil, the smite is wasted with no effect.\nThe smite evil lasts until the target dies or the paladin selects a new target. At 4th level, and at every three levels thereafter, the paladin may smite evil one additional time per day.",
+      "icon": "14b8937cec1233349a9d0d7044323cc2"
+    },
+    {
+      "name": "Alignment Restriction",
+      "desc": "A paladin who ceases to be lawful good loses all paladin {g|Encyclopedia:Spell}spells{/g} and class features. She cannot thereafter gain levels as a paladin until she changes the {g|Encyclopedia:Alignment}alignment{/g} back.",
+      "icon": "28f0bda89f59f3842b83887cc4aba9bc"
+    },
+    {
+      "name": "Divine Grace",
+      "desc": "At 2nd level, a paladin gains a {g|Encyclopedia:Bonus}bonus{/g} equal to her {g|Encyclopedia:Charisma}Charisma{/g} bonus (if any) on all {g|Encyclopedia:Saving_Throw}saving throws{/g}.",
+      "icon": "gen__DG"
+    },
+    {
+      "name": "Lay On Hands",
+      "desc": "Beginning at 2nd level, a paladin can {g|Encyclopedia:Healing}heal{/g} wounds (her own or those of others) by {g|Encyclopedia:TouchAttack}touch{/g}. Each day she can use this ability a number of times equal to 1/2 her paladin level plus her {g|Encyclopedia:Charisma}Charisma{/g} modifier. With one use of this ability, a paladin can heal {g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:HP}hit points{/g} of {g|Encyclopedia:Damage}damage{/g} for every two paladin levels she possesses. Using this ability is a {g|Encyclopedia:Standard_Actions}standard action{/g}, unless the paladin targets herself, in which case it is a {g|Encyclopedia:Swift_Action}swift action{/g}.\nAlternatively, a paladin can use this healing power to deal damage to undead creatures, dealing 1d6 points of damage for every two levels the paladin possesses. Using lay on hands in this way requires a successful melee touch {g|Encyclopedia:Attack}attack{/g} and doesn\u0027t provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}. Undead do not receive a {g|Encyclopedia:Saving_Throw}saving throw{/g} against this damage.",
+      "icon": "e35fa1bf7ba8c0148a498d6a3b693f48"
+    },
+    {
+      "name": "Aura of Courage",
+      "desc": "At 3rd level, a paladin is immune to fear (magical or otherwise). Each ally within 10 feet of her gains a \u002B4 morale {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against fear effects.\nThis ability functions only while the paladin is conscious, not if she is {g|Encyclopedia:Injury_Death}unconscious{/g} or dead.",
+      "icon": "df02f67a537a44144b6914015d8c2ea1"
+    },
+    {
+      "name": "Divine Health",
+      "desc": "At 3rd level, a paladin is immune to all diseases, including supernatural and magical diseases, including mummy rot.",
+      "icon": "gen__DH"
+    },
+    {
+      "name": "Mercy",
+      "desc": "At 3rd level, and every three levels thereafter, a paladin can select one mercy.\nEach mercy adds an effect to the paladin\u0027s lay on hands ability. Whenever the paladin uses lay on hands to {g|Encyclopedia:Healing}heal{/g} {g|Encyclopedia:Damage}damage{/g} to one target, the target also receives the additional effects from all of the mercies possessed by the paladin.",
+      "icon": "gen__M"
+    },
+    {
+      "name": "Smite Evil \u2014 Additional Use",
+      "desc": "Once per day, a paladin can call out to the powers of good to aid her in her struggle against evil. As a {g|Encyclopedia:Swift_Action}swift action{/g}, the paladin chooses one target within sight to smite. If this target is evil, the paladin adds her {g|Encyclopedia:Charisma}Cha{/g} {g|Encyclopedia:Bonus}bonus{/g} (if any) to her {g|Encyclopedia:Attack}attack rolls{/g} and adds her paladin level to all {g|Encyclopedia:Damage}damage rolls{/g} made against the target of her smite, smite evil attacks automatically bypass any {g|Encyclopedia:Damage_Reduction}DR{/g} the creature might possess.\nIn addition, while smite evil is in effect, the paladin gains a deflection bonus equal to her Charisma modifier (if any) to her {g|Encyclopedia:Armor_Class}AC{/g} against attacks made by the target of the smite. If the paladin targets a creature that is not evil, the smite is wasted with no effect.\nThe smite evil lasts until the target dies or the paladin selects a new target. At 4th level, and at every three levels thereafter, the paladin may smite evil one additional time per day.",
+      "icon": "14b8937cec1233349a9d0d7044323cc2"
+    },
+    {
+      "name": "Channel Positive Energy",
+      "desc": "When a paladin reaches 4th level, she gains the {g|Encyclopedia:Special_Abilities}supernatural ability{/g} to channel positive energy like a cleric. Using this ability consumes two uses of her lay on hands ability. This energy can be used to cause or {g|Encyclopedia:Healing}heal{/g} {g|Encyclopedia:Damage}damage{/g}, depending on the creatures targeted.\nA paladin channels positive energy and can choose to deal damage to undead creatures or to heal living creatures.\nChanneling positive energy causes a burst that affects all creatures of one type (either undead or living) in a 30-foot radius centered on the paladin. The amount of damage dealt or healed is equal to {g|Encyclopedia:Dice}1d6{/g} points of damage plus 1d6 points of damage for every two paladin levels beyond 1st (2d6 at 4th, 3d6 at 5th, and so on). Creatures that take damage from channeled energy receive a {g|Encyclopedia:Saving_Throw}Will save{/g} to halve the damage. The {g|Encyclopedia:DC}DC{/g} of this save is equal to 10 \u002B 1/2 the paladin\u0027s level \u002B the paladin\u0027s {g|Encyclopedia:Charisma}Charisma{/g} modifier. Creatures healed by channel energy cannot exceed their maximum hit point total\u2014all excess healing is lost.\nThis is a {g|Encyclopedia:Standard_Actions}standard action{/g} that does not provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}.",
+      "icon": "636f55d7ac7635e459967e29e1c71cdd"
+    },
+    {
+      "name": "Divine Bond",
+      "desc": "Upon reaching 5th level, a paladin forms a divine bond with her god. This bond can take one of two forms. Once the form is chosen, it cannot be changed.\nThe first type of bond allows a paladin to form a divine bond with her weapon. As a {g|Encyclopedia:Standard_Actions}standard action{/g}, she can call upon the aid of a celestial spirit for 1 minute per paladin level.\nAt 5th level, this spirit grants the weapon a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g}. For every three levels beyond 5th, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B6 at 20th level. These bonuses can be added to the weapon, stacking with existing weapon bonuses to a maximum of \u002B5.\nAlternatively, they can be used to add any of the following weapon properties: axiomatic, brilliant energy, disruption, flaming, flaming burst, holy, keen, and {g|Encyclopedia:Speed}speed{/g}. Adding these properties consumes an amount of bonus equal to the property\u0027s cost. These bonuses are added to any properties the weapon already has, but duplicate abilities do not stack.\nA paladin can use this ability once per day at 5th level, and one additional time per day for every four levels beyond 5th, to a total of four times per day at 17th level.\nThe second type of bond allows a paladin to gain the service of an unusually {g|Encyclopedia:Intelligence}intelligent{/g}, {g|Encyclopedia:Strength}strong{/g}, and loyal steed to serve her in her crusade against evil. This mount is a heavy horse. This mount functions as a druid\u0027s animal companion, using the paladin\u0027s level as her effective druid level.\nAt 11th level, the mount gains the celestial creature simple template.\nAt 15th level, a paladin\u0027s mount gains {g|Encyclopedia:Spell_Resistance}spell resistance{/g} equal to the paladin\u0027s level \u002B 11.",
+      "icon": "gen__DB"
+    },
+    {
+      "name": "Aura of Resolve",
+      "desc": "At 8th level, a paladin is immune to charm {g|Encyclopedia:Spell}spells{/g} and {g|Encyclopedia:Special_Abilities}spell-like abilities{/g}. Each ally within 10 feet of her gains a \u002B4 morale {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against charm effects.\nThis ability functions only while the paladin is conscious, not if she is {g|Encyclopedia:Injury_Death}unconscious{/g} or dead.",
+      "icon": "80afc29b4d3cdf44a96d7d5ab7038b14"
+    },
+    {
+      "name": "Mark of Justice",
+      "desc": "At 11th level, a paladin can expend two uses of her smite evil ability to grant the ability to smite evil to all allies for 1 minute, using her {g|Encyclopedia:Bonus}bonuses{/g}. As a {g|Encyclopedia:Swift_Action}swift action{/g}, the paladin chooses one target within sight to smite. If this target is evil, the paladin\u0027s allies add her {g|Encyclopedia:Charisma}Charisma{/g} bonus (if any) to their {g|Encyclopedia:Attack}attack rolls{/g} and add her paladin level to all {g|Encyclopedia:Damage}damage rolls{/g} made against the target of her smite. Smite evil attacks automatically bypass any {g|Encyclopedia:Damage_Reduction}DR{/g} the creature might possess.\nIn addition, while smite evil is in effect, the paladin\u0027s allies gain a deflection bonus equal to her Charisma bonus (if any) to their {g|Encyclopedia:Armor_Class}AC{/g} against attacks made by the target of this smite. If the paladin targets a creature that is not evil, this smite is wasted with no effect.",
+      "icon": "7f1b2c99decf9f441b7a9281d8ce3733"
+    },
+    {
+      "name": "Aura of Faith",
+      "desc": "At 14th level, a paladin\u0027s weapons are treated as {g|Encyclopedia:Alignment}good-aligned{/g} for the purposes of overcoming {g|Encyclopedia:Damage_Reduction}damage reduction{/g}. Any {g|Encyclopedia:Attack}attack{/g} made against an enemy within 10 feet of her is treated as good-aligned for the purposes of overcoming {g|Encyclopedia:Damage}damage{/g} reduction.\nThis ability functions only while the paladin is conscious, not if she is {g|Encyclopedia:Injury_Death}unconscious{/g} or dead.",
+      "icon": "ad05c2b9c08927f47ad7236f6bacd11f"
+    },
+    {
+      "name": "Aura of Righteousness",
+      "desc": "At 17th level, a paladin gains {g|Encyclopedia:Damage_Reduction}DR{/g} 5/evil and immunity to compulsion {g|Encyclopedia:Spell}spells{/g} and {g|Encyclopedia:Special_Abilities}spell-like abilities{/g}. Each ally within 10 feet of her gains a \u002B4 morale {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against compulsion effects.\nThis ability functions only while the paladin is conscious, not if she is {g|Encyclopedia:Injury_Death}unconscious{/g} or dead.",
+      "icon": "5895704fc09cae446b64117e3c52e06b"
+    },
+    {
+      "name": "Holy Champion",
+      "desc": "At 20th level, a paladin becomes a conduit for the power of her god. Her {g|Encyclopedia:Damage_Reduction}DR{/g} increases to 10/evil and whenever she channels positive energy or uses lay on hands to {g|Encyclopedia:Healing}heal{/g} a creature, she heals the maximum possible amount.",
+      "icon": "gen__HC"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      6,
+      7
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      10
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [
+      11
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [
+      12
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [
+      13
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [
+      14
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [
+      15
+    ]
+  ],
+  "__ui-groups": [
+    [
+      6,
+      3
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      5,
+      13,
+      11,
+      14,
+      12,
+      15,
+      9,
+      4
+    ],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "name": "Paladin",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "PaladinProficiencies"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "SmiteEvilFeature"
+      },
+      {
+        "level": 4,
+        "feature": 8,
+        "rank": 1,
+        "__debug": "SmiteEvilAdditionalUse"
+      },
+      {
+        "level": 7,
+        "feature": 8,
+        "rank": 2,
+        "__debug": "SmiteEvilAdditionalUse"
+      },
+      {
+        "level": 10,
+        "feature": 8,
+        "rank": 3,
+        "__debug": "SmiteEvilAdditionalUse"
+      },
+      {
+        "level": 13,
+        "feature": 8,
+        "rank": 4,
+        "__debug": "SmiteEvilAdditionalUse"
+      },
+      {
+        "level": 16,
+        "feature": 8,
+        "rank": 5,
+        "__debug": "SmiteEvilAdditionalUse"
+      },
+      {
+        "level": 19,
+        "feature": 8,
+        "rank": 6,
+        "__debug": "SmiteEvilAdditionalUse"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "PaladinAlignmentRestriction"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "DivineGrace"
+      },
+      {
+        "level": 3,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "DivineHealth"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "LayOnHandsFeature"
+      },
+      {
+        "level": 3,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "AuraOfCourageFeature"
+      },
+      {
+        "level": 4,
+        "feature": 9,
+        "rank": -1,
+        "__debug": "ChannelEnergyPaladinFeature"
+      },
+      {
+        "level": 8,
+        "feature": 11,
+        "rank": -1,
+        "__debug": "AuraOfResolveFeature"
+      },
+      {
+        "level": 11,
+        "feature": 12,
+        "rank": -1,
+        "__debug": "AuraOfJusticeFeature"
+      },
+      {
+        "level": 14,
+        "feature": 13,
+        "rank": -1,
+        "__debug": "AuraOfFaithFeature"
+      },
+      {
+        "level": 17,
+        "feature": 14,
+        "rank": -1,
+        "__debug": "AuraOfRighteousnessFeature"
+      },
+      {
+        "level": 20,
+        "feature": 15,
+        "rank": -1,
+        "__debug": "HolyChampion"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "SelectionMercy"
+      },
+      {
+        "level": 6,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "SelectionMercy"
+      },
+      {
+        "level": 9,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "SelectionMercy"
+      },
+      {
+        "level": 12,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "SelectionMercy"
+      },
+      {
+        "level": 15,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "SelectionMercy"
+      },
+      {
+        "level": 18,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "SelectionMercy"
+      }
+    ],
+    [
+      {
+        "level": 5,
+        "feature": 10,
+        "rank": -1,
+        "__debug": "PaladinDivineBondSelection"
+      }
+    ]
+  ]
+}

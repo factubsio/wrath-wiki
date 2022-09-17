@@ -1,0 +1,4952 @@
+[
+{
+
+    "guid": "cdb9de995aa45aa4393706bc8af54f31",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "20.04 - DRAFT\nCL 12\nName\nDescription\nIcon\nPrice\nAbility\nEnhancement",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Menace",
+            "m_Key": "ac9f4d8d-8eae-4d1f-9b8a-e4d9c04337e6",
+            "m_OwnerString": "cdb9de995aa45aa4393706bc8af54f31",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Artisan/HumanFemaleExoticSmith/TheMenanceDuelSwordItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +3 brilliant energy dueling sword grants its wielder a +2 luck {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:CMD}CMD{/g} and a +2 luck bonus to {g|Encyclopedia:CMB}CMB{/g}.",
+            "m_Key": "5238eab9-c178-48b0-8caa-0531f9647b4e",
+            "m_OwnerString": "cdb9de995aa45aa4393706bc8af54f31",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Artisan/HumanFemaleExoticSmith/TheMenanceDuelSwordItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "This is one of the gifts of the royal court master Shaynih\u0027a, who arrived to the Stolen Lands from the foreign land of Vudra in search of her vocation.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "27336f7db7a6bec4782717e705e7951a",
+                "stringkey": "a11c5e0d-fdab-44a5-8005-18f6e90070a1"
+            }
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "a6a66858c165ea248a3ae1f9e0ac6234",
+            "fileid": "21300000"
+        },
+        "m_Cost": "81600",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 96c5d64183f43ef4ea95a5d6f042eb2b (TheMenanceDuelSwortdACMDACMB2 :BlueprintWeaponEnchantment)",
+            "link: 66e9e299c9002ea4bb65b6f300e43770 (BrilliantEnergy :BlueprintWeaponEnchantment)",
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "4d2f7c58fd6683c48bf6f9436e041a92",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Cold Iron Masterwork Dueling Sword",
+            "m_Key": "0cae490c-8659-400f-9bf7-5fc90ac5bdc8",
+            "m_OwnerString": "4d2f7c58fd6683c48bf6f9436e041a92",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/ColdIronMasterwork/ColdIronMasterworkDuelingSword_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "800",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment"
+        ],
+        "CR": "1",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 6b38844e2bffbac48b63036b66e735be (Masterwork :BlueprintWeaponEnchantment)",
+            "link: e5990dc76d2a613409916071c898eee8 (ColdIronWeaponEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "true",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "ColdIron",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "7f2fa59c5b05df849a33e8a49e658137",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Cold Iron Dueling Sword",
+            "m_Key": "44a9774c-23b8-41f9-8bf3-936e2ab47d0a",
+            "m_OwnerString": "7f2fa59c5b05df849a33e8a49e658137",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/ColdIronStandard/ColdIronDuelingSword_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "800",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment"
+        ],
+        "CR": "1",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: e5990dc76d2a613409916071c898eee8 (ColdIronWeaponEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "true",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "ColdIron",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "3f010c19b038b4d47a6c2085a1d18d55",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "75",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "0",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Large",
+        "m_Enchantments": [],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "354f5109f1da7d24c830f37ef3b56cb8",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Masterwork Dueling Sword",
+            "m_Key": "cdb10112-6d33-4040-8e6d-cb404d2694df",
+            "m_OwnerString": "354f5109f1da7d24c830f37ef3b56cb8",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Masterwork/MasterworkDuelingSword_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "400",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment"
+        ],
+        "CR": "1",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 6b38844e2bffbac48b63036b66e735be (Masterwork :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "4697667a33a6774489e5265a955675a5",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "20",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment"
+        ],
+        "CR": "0",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "66106d59fd4615842af854cc9b7cbea4",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "2020",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_IsJunk": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_RE",
+            "Equipment_Trickster"
+        ],
+        "CR": "4",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "HideAbilityInfo": "false",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "dc5a6d57c9c046d4c8580e99ede8b07d",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Corrosive Dueling Sword +1",
+            "m_Key": "d6b6623a-ba78-4f2d-8045-3c872f4eab92",
+            "m_OwnerString": "dc5a6d57c9c046d4c8580e99ede8b07d",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Corrosive/DuelingSwordCorrosivePlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "b41c4dc14a0e8334c834f2968eca6026",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 633b38ff1d11de64a91d490c683ab1c8 (Corrosive :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "695057131a48b4f4884c00f690363f5e",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_Trickster"
+        ],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "526edab827568c64692a6f868f1660eb",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Flaming Dueling Sword +1",
+            "m_Key": "ceeee458-f317-4001-b467-2499f7dcc830",
+            "m_OwnerString": "526edab827568c64692a6f868f1660eb",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Flaming/DuelingSwordFlamingPlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "b41c4dc14a0e8334c834f2968eca6026",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 30f90becaaac51f41bf56641966c4121 (Flaming :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "17b44a04953488a4695a0073aa7f9688",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Frost Dueling Sword +1",
+            "m_Key": "99de98b6-0247-44d4-8ebc-f36f4e12ff67",
+            "m_OwnerString": "17b44a04953488a4695a0073aa7f9688",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Frost/DuelingSwordFrostPlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "b41c4dc14a0e8334c834f2968eca6026",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 421e54078b7719d40915ce0672511d0b (Frost :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "13266fee3617b654d96344a32d7858fb",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Keen Dueling Sword +1",
+            "m_Key": "acd346c5-d97e-4dea-a4ea-3656efb35e69",
+            "m_OwnerString": "13266fee3617b654d96344a32d7858fb",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Keen/DuelingSwordKeenPlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "b41c4dc14a0e8334c834f2968eca6026",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 102a9c8c9b7a75e4fb5844e79deaf4c0 (Keen :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "c1a2a178ff3362c4fa0253d09ee60098",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Shock Dueling Sword +1",
+            "m_Key": "601bb0c5-4d3c-412f-8ef0-b8ebad573bf2",
+            "m_OwnerString": "c1a2a178ff3362c4fa0253d09ee60098",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Shock/DuelingSwordShockPlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "b41c4dc14a0e8334c834f2968eca6026",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 7bda5277d36ad114f9f9fd21d0dab658 (Shock :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "f0a5658e1dac1774182578bb1756dadc",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Radiant Dueling Sword +2",
+            "m_Key": "b5a6d762-bb92-4a56-8862-75e750d4fae5",
+            "m_OwnerString": "f0a5658e1dac1774182578bb1756dadc",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/DuelingSwordPositiveDamagePlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "8e87fa113713f59439936fbe006f22fa",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "d018b18d2559ade489a30a372c8c5342"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "2ad5f541687bc91459e3e6b76e7dc95e"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 5ac5c88157f7dde48a2a5b24caf40131 (Radiant :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "0c2267c75d3b8434d9ef5722d2ea14ad",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Corrosive Dueling Sword +2",
+            "m_Key": "91b50266-f592-4c2f-b2ca-ac7aab6bb918",
+            "m_OwnerString": "0c2267c75d3b8434d9ef5722d2ea14ad",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Corrosive/DuelingSwordCorrosivePlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "8e87fa113713f59439936fbe006f22fa",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "d018b18d2559ade489a30a372c8c5342"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "2ad5f541687bc91459e3e6b76e7dc95e"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 633b38ff1d11de64a91d490c683ab1c8 (Corrosive :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "ea664cd1cf41a4044bbf3e6bcff18ebc",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "e463820543dae8e45a87ad2780608c83",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_Trickster"
+        ],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "160479fedf92ff140910e9fc71dcdc53"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "9451ca86647d1dc4388891776fee27fc"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "66a95a15f361edb4d9ac909e57550b4f",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Flaming Dueling Sword +2",
+            "m_Key": "83559cdc-a5fa-4dbc-a589-aecb54518f4d",
+            "m_OwnerString": "66a95a15f361edb4d9ac909e57550b4f",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Flaming/DuelingSwordFlamingPlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "8e87fa113713f59439936fbe006f22fa",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "d018b18d2559ade489a30a372c8c5342"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "2ad5f541687bc91459e3e6b76e7dc95e"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 30f90becaaac51f41bf56641966c4121 (Flaming :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "030053c415f4d32409daf4a6960b0179",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Frost Dueling Sword +2",
+            "m_Key": "e03b3e3f-b14c-453c-b8c6-ab055df29429",
+            "m_OwnerString": "030053c415f4d32409daf4a6960b0179",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Frost/DuelingSwordFrostPlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "8e87fa113713f59439936fbe006f22fa",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "d018b18d2559ade489a30a372c8c5342"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "2ad5f541687bc91459e3e6b76e7dc95e"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 421e54078b7719d40915ce0672511d0b (Frost :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "96163fd28d2c5b7419034ec2383c4faa",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Shock Dueling Sword +2",
+            "m_Key": "2f59fb76-3288-4f49-a6cf-1de1229cd5a6",
+            "m_OwnerString": "96163fd28d2c5b7419034ec2383c4faa",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Shock/DuelingSwordShockPlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "8e87fa113713f59439936fbe006f22fa",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "d018b18d2559ade489a30a372c8c5342"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "2ad5f541687bc91459e3e6b76e7dc95e"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 7bda5277d36ad114f9f9fd21d0dab658 (Shock :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "ea5d5e301008fde4a9a5d3165df27657",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "e463820543dae8e45a87ad2780608c83",
+            "fileid": "21300000"
+        },
+        "m_Cost": "32000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "13",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "160479fedf92ff140910e9fc71dcdc53"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "9451ca86647d1dc4388891776fee27fc"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 783d7d496da6ac44f9511011fc5f1979 (Enhancement4 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "24af53c42f47498aba581fb856d1540f",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Axiomatic Dueling Sword +3",
+            "m_Key": "b3d2d18b-4a2b-472f-b294-b3384496f74e",
+            "m_OwnerString": "24af53c42f47498aba581fb856d1540f",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints\\Weapons\\Items\\TotalPlus2\\AxiomaticDuelingSwordPlus3_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "b41c4dc14a0e8334c834f2968eca6026",
+            "fileid": "21300000"
+        },
+        "m_Cost": "50300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_IsJunk": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "HideAbilityInfo": "false",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: 0ca43051edefcad4b9b2240aa36dc8d4 (Axiomatic :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "c23265c7960b5c144a200eafda0e7cf1",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "29a1360521bca8e458963f0ae08cfd8e",
+            "fileid": "21300000"
+        },
+        "m_Cost": "50000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "d018b18d2559ade489a30a372c8c5342"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "2ad5f541687bc91459e3e6b76e7dc95e"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "a1d484bb756c45139d8832c29965e902",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Unholy Vicious Dueling Sword +5",
+            "m_Key": "25702773-b5e3-402a-963b-2ebd09d9de00",
+            "m_OwnerString": "a1d484bb756c45139d8832c29965e902",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints\\Weapons\\Items\\TotalPlus7\\UnholyViciousDuelingSwordPlus5_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "8e87fa113713f59439936fbe006f22fa",
+            "fileid": "21300000"
+        },
+        "m_Cost": "128000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_IsJunk": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "d018b18d2559ade489a30a372c8c5342"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "2ad5f541687bc91459e3e6b76e7dc95e"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: a1455a289da208144981e4b1ef92cc56 (ViciousEnchantment :BlueprintWeaponEnchantment)",
+            "link: d05753b8df780fc4bb55b318f06af453 (Unholy :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "0a5e909be70d3c841b09a2f175a6e3ce",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Lord Protector",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "2b23c3321240f3a4f98c14fb1d12961a",
+                "stringkey": "00a44954-b958-4c27-ba25-ab92f1f45d2b"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +2 dueling sword refuses to {g|Encyclopedia:Attack}attack{/g} the ones its wearer swore to protect, imposing a -5 {g|Encyclopedia:Penalty}penalty{/g} to attacks {g|Encyclopedia:Dice}rolls{/g} against friendly targets.",
+            "m_Key": "fc8a1d8b-bf78-4272-968e-b74c9c7da317",
+            "m_OwnerString": "0a5e909be70d3c841b09a2f175a6e3ce",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/LordProtector_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "The handle of this sword is wrapped in batoids leather, and there\u0027s a faded marking on its blade.",
+            "m_Key": "cb457ac3-3f34-497d-9aa5-291c17c5bcaa",
+            "m_OwnerString": "0a5e909be70d3c841b09a2f175a6e3ce",
+            "m_OwnerPropertyPath": "m_FlavorText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/LordProtector_m_FlavorText.json",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "b41c4dc14a0e8334c834f2968eca6026",
+            "fileid": "21300000"
+        },
+        "m_Cost": "7500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: feef0ce49bf8cfa4590201a7fcf6ec66 (LordProtectorEnchant :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "521e505f362c88b48993dd7a18be87ba",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Royal Gift",
+            "m_Key": "2608dc1b-01e8-474b-bc84-07679b921653",
+            "m_OwnerString": "521e505f362c88b48993dd7a18be87ba",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/RoyalGift_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This weapon is a +3 keen dueling sword.",
+            "m_Key": "631900c2-0c0f-411e-9a87-8ad3fb59d032",
+            "m_OwnerString": "521e505f362c88b48993dd7a18be87ba",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/RoyalGift_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "The polished blade is gold-plated, and the hilt is decorated with a silk cord and brushes.",
+            "m_Key": "6bf23483-e025-4a4d-aa2c-f7eede03f675",
+            "m_OwnerString": "521e505f362c88b48993dd7a18be87ba",
+            "m_OwnerPropertyPath": "m_FlavorText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/RoyalGift_m_FlavorText.json",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "8e87fa113713f59439936fbe006f22fa",
+            "fileid": "21300000"
+        },
+        "m_Cost": "64000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "13",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: 102a9c8c9b7a75e4fb5844e79deaf4c0 (Keen :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "a34e72aec02da454a8bbe6b127237413",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Swordsman\u0027s Passion",
+            "m_Key": "d0560616-9155-45f9-855b-8263f4cc393c",
+            "m_OwnerString": "a34e72aec02da454a8bbe6b127237413",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/SwordsmansPassion_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This weapon is a +2 agile dueling sword.",
+            "m_Key": "3a9dd3c0-9eb5-4a06-8720-59793269fa76",
+            "m_OwnerString": "a34e72aec02da454a8bbe6b127237413",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/SwordsmansPassion_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "Any swordlord would be proud to own this weapon as both a great weapon and a piece of art.",
+            "m_Key": "f03f147d-dfa8-4b11-887b-c3ee28ac2e2f",
+            "m_OwnerString": "a34e72aec02da454a8bbe6b127237413",
+            "m_OwnerPropertyPath": "m_FlavorText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/SwordsmansPassion_m_FlavorText.json",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "a6a66858c165ea248a3ae1f9e0ac6234",
+            "fileid": "21300000"
+        },
+        "m_Cost": "20000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: a36ad92c51789b44fa8a1c5c116a1328 (Agile :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "eadd005af80e86a43b510fb1efbb7158",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "8e87fa113713f59439936fbe006f22fa",
+            "fileid": "21300000"
+        },
+        "m_Cost": "50000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "0",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "1e7bb481ce637ba4cbd12a4989ba8022",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Arcane Enforcer",
+            "m_Key": "4fdca5dd-8596-48af-b198-40fcf8050941",
+            "m_OwnerString": "1e7bb481ce637ba4cbd12a4989ba8022",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/LateChapters/ArcaneEnforcerItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +3 dueling sword deals additional {g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Damage}damage{/g}.",
+            "m_Key": "45cdbd3f-011a-4934-b604-f0e1db11a495",
+            "m_OwnerString": "1e7bb481ce637ba4cbd12a4989ba8022",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/LateChapters/ArcaneEnforcerItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "525fdf5473732f64da5ef60420a2aef1",
+            "fileid": "21300000"
+        },
+        "m_Cost": "33000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "15",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: c61988ac4121223468471c301da4709f (ArcaneEnforcerEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "44a13c66284fac9499eba8b4b5489441",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "Dueling Sword +6, speed, 18-20 crit (stackable with IC), agile, stacks buff on target that is never removed, buff increases damage from Legend on that target by 2 forever\n",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Bloodhound",
+            "m_Key": "cb319704-80d1-49af-a0b6-b6ba4e1e5d2c",
+            "m_OwnerString": "44a13c66284fac9499eba8b4b5489441",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/LateChapters_3rdPart/LegendItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +5 {g|Encyclopedia:Speed}speed{/g} agile dueling sword has a 18–20 {g|Encyclopedia:Critical}critical{/g} range. Each successful hit it lands on an enemy grants its wielder a stacking +2 {g|Encyclopedia:Bonus}bonus{/g} to all subsequent {g|Encyclopedia:Damage}damage rolls{/g} with Bloodhound against this enemy.",
+            "m_Key": "30357432-891c-4b96-9c9c-5f61657585fb",
+            "m_OwnerString": "44a13c66284fac9499eba8b4b5489441",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/LateChapters_3rdPart/LegendItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "Once this blade has tasted an enemy\u0027s blood, it will crave for more.",
+            "m_Key": "2fffd6c6-5ab0-458a-a5d4-de175119e642",
+            "m_OwnerString": "44a13c66284fac9499eba8b4b5489441",
+            "m_OwnerPropertyPath": "m_FlavorText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/LateChapters_3rdPart/LegendItem_m_FlavorText.json",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "bff7cd3be3ab03d4b8a8a81f04752cda",
+            "fileid": "21300000"
+        },
+        "m_Cost": "128000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "23",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: f1c0c50108025d546b2554674ea1c006 (Speed :BlueprintWeaponEnchantment)",
+            "link: a36ad92c51789b44fa8a1c5c116a1328 (Agile :BlueprintWeaponEnchantment)",
+            "link: 75ab41a24b6edb54a96ed581ddb50047 (LegendEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "44598b61bad91a64bb28956f4981d739",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Herald of Pain",
+            "m_Key": "01b28210-30bd-48fe-9d9f-4af483b25f1f",
+            "m_OwnerString": "44598b61bad91a64bb28956f4981d739",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/HeraldOfPainItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "Whenever the wielder of this +2 cold iron dueling sword confirms a {g|Encyclopedia:Critical}critical hit{/g} with it, the target become sickened for {g|Encyclopedia:Dice}1d4{/g} {g|Encyclopedia:Combat_Round}rounds{/g}.",
+            "m_Key": "b257a067-d550-4f9a-8c02-c92ac2a4af17",
+            "m_OwnerString": "44598b61bad91a64bb28956f4981d739",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/HeraldOfPainItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "29a1360521bca8e458963f0ae08cfd8e",
+            "fileid": "21300000"
+        },
+        "m_Cost": "20000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "0",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "d018b18d2559ade489a30a372c8c5342"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "2ad5f541687bc91459e3e6b76e7dc95e"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: e5990dc76d2a613409916071c898eee8 (ColdIronWeaponEnchantment :BlueprintWeaponEnchantment)",
+            "link: 2559a443b0b1a1c46abd46c21dedee71 (HeraldOfPainEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "2",
+            "m_Dice": "D10"
+        },
+        "m_OverrideDamageType": "true",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "ColdIron",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "e9c39624664d4c745988d44270e1ad19",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Thundering Burst Dueling Sword +3",
+            "m_Key": "ce4ffa03-91c7-44f5-aa67-d3528c22800a",
+            "m_OwnerString": "e9c39624664d4c745988d44270e1ad19",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter3/ThunderingBurstDualswordPlus3Item_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "b07894d11ef870846a8b86a7dc168dc4",
+            "fileid": "21300000"
+        },
+        "m_Cost": "50000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "7897850d9c594314b87f2c709e1859b3"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "ab2e7e9ecbfc5b542aed97056f6f967b"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: 690e762f7704e1f4aa1ac69ef0ce6a96 (Thundering :BlueprintWeaponEnchantment)",
+            "link: 83bd616525288b34a8f34976b2759ea1 (ThunderingBurst :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "fae29838b6df9414eb788bbe183b345f",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Master Fencer\u0027s Sword",
+            "m_Key": "c83cb2e6-2c4c-450e-a341-7b405914f0cf",
+            "m_OwnerString": "fae29838b6df9414eb788bbe183b345f",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter4/FencemastersSwordItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +4 anarchic dueling sword allows its wielder to add half their rank in {g|Encyclopedia:Mobility}Mobilty{/g} {g|Encyclopedia:Skills}skill{/g} as a {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Damage}damage rolls{/g} on {g|Encyclopedia:Critical}critical hits{/g} and {g|Encyclopedia:Attack_Of_Opportunity}attacks of opportunity{/g}.",
+            "m_Key": "27334277-d339-4788-aef7-5de4eb122604",
+            "m_OwnerString": "fae29838b6df9414eb788bbe183b345f",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter4/FencemastersSwordItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "5ee0005c5c8892448bc5b3d1599a5fb3",
+            "fileid": "21300000"
+        },
+        "m_Cost": "105000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "13",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "0742a7280e70c0643801839a836cded0"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "360b06e28b758774a85f7ac72caa88bb"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 783d7d496da6ac44f9511011fc5f1979 (Enhancement4 :BlueprintWeaponEnchantment)",
+            "link: 57315bc1e1f62a741be0efde688087e9 (Anarchic :BlueprintWeaponEnchantment)",
+            "link: bf730f74037ac844497eeb4b8e29ee0f (FencemastersSwordEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "fbc70b7099e043418658f2840a746e3a",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Blood Freezer",
+            "m_Key": "024a81a0-83d0-44dc-83ea-893f81fc5065",
+            "m_OwnerString": "fbc70b7099e043418658f2840a746e3a",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints\\Weapons\\Items\\UniquePF2\\Chapter5\\UnnamedTemp\\UnnamedChapter5DuelingSwordItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "Whenever the wielder of this +5 bleed icy burst dueling sword confirms a {g|Encyclopedia:Critical}critical hit{/g}, the enemy must pass a {g|Encyclopedia:Saving_Throw}Fortitude saving throw{/g} ({g|Encyclopedia:DC}DC{/g} 31) or become unable to {g|Encyclopedia:Attack}attack{/g} with weapons for 2 {g|Encyclopedia:Combat_Round}rounds{/g}.",
+            "m_Key": "6c1338e4-574c-49c5-816b-94ec9ce43d9b",
+            "m_OwnerString": "fbc70b7099e043418658f2840a746e3a",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints\\Weapons\\Items\\UniquePF2\\Chapter5\\UnnamedTemp\\UnnamedChapter5DuelingSwordItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "a5976441eceb7fa468de23307390f117",
+            "fileid": "21300000"
+        },
+        "m_Cost": "160000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "564e8668669a21a468f058f6f306bfae"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "d39bd8d3c1f520b4f8a8853a516615e5"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 613dbf4cec5945e1babc94870d417754 (BloodFreezerEnchantment :BlueprintWeaponEnchantment)",
+            "link: ac0108944bfaa7e48aa74f407e3944e3 (Bleed :BlueprintWeaponEnchantment)",
+            "link: 564a6924b246d254c920a7c44bf2a58b (IcyBurst :BlueprintWeaponEnchantment)",
+            "link: 421e54078b7719d40915ce0672511d0b (Frost :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "f2ab96365365c44498f645c55eceee35",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean the Talking Weapon",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96b6d9d9fa75e4e44984a3d12c4c63ba",
+                "stringkey": "b29f1539-eb5c-4c09-bd68-b172f3786659"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This is a +1 cold iron ghost touch weapon.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "29acffbc69d1b95449d5ce6613a66ffa",
+                "stringkey": "8227ec85-8b4b-45dc-b6c7-2cd9629205f8"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_RE"
+        ],
+        "CR": "4",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: e5990dc76d2a613409916071c898eee8 (ColdIronWeaponEnchantment :BlueprintWeaponEnchantment)",
+            "link: 47857e1a5a3ec1a46adf6491b1423b4f (GhostTouch :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "true",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "ColdIron",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "09141e69a4dcbf540b1955391a2a7d0c",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean the Talking Weapon",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96b6d9d9fa75e4e44984a3d12c4c63ba",
+                "stringkey": "b29f1539-eb5c-4c09-bd68-b172f3786659"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This is a +3 brilliant energy heartseeker weapon. This weapon can tear the soul of a living enemy: whenever it lands a hit, it deals additional {g|Encyclopedia:Dice}1d6{/g} force {g|Encyclopedia:Damage}damage{/g}.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96d85cdc54d63e14cb734b39ce17c9c1",
+                "stringkey": "92e9d91d-c458-49ef-9629-7836c41cc338"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "e463820543dae8e45a87ad2780608c83",
+            "fileid": "21300000"
+        },
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "160479fedf92ff140910e9fc71dcdc53"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "9451ca86647d1dc4388891776fee27fc"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: 66e9e299c9002ea4bb65b6f300e43770 (BrilliantEnergy :BlueprintWeaponEnchantment)",
+            "link: e252b26686ab66241afdf33f2adaead6 (Heartseeker :BlueprintWeaponEnchantment)",
+            "link: b183bd491793d194c9e4c96cd11769b1 (FinneanChapter3Enchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "52db679d90af3524fb27750e749d9033",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean the Talking Weapon",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96b6d9d9fa75e4e44984a3d12c4c63ba",
+                "stringkey": "b29f1539-eb5c-4c09-bd68-b172f3786659"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "29a1360521bca8e458963f0ae08cfd8e",
+            "fileid": "21300000"
+        },
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "d018b18d2559ade489a30a372c8c5342"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "2ad5f541687bc91459e3e6b76e7dc95e"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 66e9e299c9002ea4bb65b6f300e43770 (BrilliantEnergy :BlueprintWeaponEnchantment)",
+            "link: 6b66e949f348ccd4989a5fd9254f8958 (FinneanChapter5EnchantmentBase :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "0bd93265c5a13c34ca7c86d39eb4fa9c",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "c4b7a463512eb694bbe9571323ede197",
+                "stringkey": "ccb5c705-7ac0-4b1c-ad69-7fcea827ebc9"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "This weapon was once the seat of Finnean\u0027s soul. Now that the soul of the Sarkorian Pathfinder has left the weapon, it has fallen silent forever.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "ceac81e5a8f907d4fb5c6dee3447b300",
+                "stringkey": "35efb8b0-3805-402f-b349-24911dfca762"
+            }
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "b07894d11ef870846a8b86a7dc168dc4",
+            "fileid": "21300000"
+        },
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "7897850d9c594314b87f2c709e1859b3"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "ab2e7e9ecbfc5b542aed97056f6f967b"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: a6f7e3dc443ff114ba68b4648fd33e9f (DuelingSword :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 66e9e299c9002ea4bb65b6f300e43770 (BrilliantEnergy :BlueprintWeaponEnchantment)",
+            "link: 9aa9af4b654662945a410644d3db8d99 (FinneanChapter5EnchantmentLich :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+}]

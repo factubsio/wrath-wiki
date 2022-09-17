@@ -1,0 +1,349 @@
+{
+  "features": [
+    {
+      "name": "Warpriest Weapon and Armor Proficiencies",
+      "desc": "A warpriest is proficient with all simple and {g|Encyclopedia:Weapon_Proficiency}martial weapons{/g}, as well as the favored weapon of his deity, and with all armor (heavy, light, and medium) and shields (except tower shields).",
+      "icon": "gen__WW"
+    },
+    {
+      "name": "Spontaneous Casting",
+      "desc": "A good warpriest (or a neutral warpriest of a good deity) can channel stored {g|Encyclopedia:Spell}spell{/g} energy into {g|Encyclopedia:Healing}healing{/g} spells that he did not prepare ahead of time. The warpriest can expend any prepared spell that isn\u0027t an {g|Encyclopedia:Cantrips_Orisons}orison{/g} to cast any cure spell of the same spell level or lower. A cure spell is any spell with \u0022cure\u0022 in its name.\nAn evil warpriest (or a neutral warpriest of an evil deity) can\u0027t convert spells to cure spells, but can convert them to inflict spells. An inflict spell is any spell with \u0022inflict\u0022 in its name.\nA warpriest that is neither good nor evil and whose deity is neither good nor evil chooses whether he can convert spells into either cure spells or inflict spells. Once this choice is made, it cannot be changed. This choice also determines whether the warpriest channels positive or negative energy (see Channel Energy ability description).",
+      "icon": "gen__SC"
+    },
+    {
+      "name": "Blessings",
+      "desc": "A warpriest\u0027s deity influences his {g|Encyclopedia:Alignment}alignment{/g}, what magic he can perform, his values, and how others see him. Each warpriest can select two blessings from among those granted by his deity (each deity grants the blessings tied to its domains).\nEach blessing grants a minor power at 1st level and a major power at 10th level. A warpriest can call upon the power of his blessings a number of times per day (in any combination) equal to 3 \u002B 1/2 his warpriest level (to a maximum of 13 times per day at 20th level). Each time he calls upon any one of his blessings, it counts against his daily limit. The {g|Encyclopedia:Saving_Throw}save{/g} {g|Encyclopedia:DC}DC{/g} for these blessings is equal to 10 \u002B 1/2 the warpriest\u0027s level \u002B the warpriest\u0027s {g|Encyclopedia:Wisdom}Wisdom{/g} modifier.",
+      "icon": "ac67411e257c6594d932ccf64ef8a93d"
+    },
+    {
+      "name": "Blessings",
+      "desc": "A warpriest\u0027s deity influences his {g|Encyclopedia:Alignment}alignment{/g}, what magic he can perform, his values, and how others see him. Each warpriest can select two blessings from among those granted by his deity (each deity grants the blessings tied to its domains).\nEach blessing grants a minor power at 1st level and a major power at 10th level. A warpriest can call upon the power of his blessings a number of times per day (in any combination) equal to 3 \u002B 1/2 his warpriest level (to a maximum of 13 times per day at 20th level). Each time he calls upon any one of his blessings, it counts against his daily limit. The {g|Encyclopedia:Saving_Throw}save{/g} {g|Encyclopedia:DC}DC{/g} for these blessings is equal to 10 \u002B 1/2 the warpriest\u0027s level \u002B the warpriest\u0027s {g|Encyclopedia:Wisdom}Wisdom{/g} modifier.",
+      "icon": "ac67411e257c6594d932ccf64ef8a93d"
+    },
+    {
+      "name": "Sacred Weapon",
+      "desc": "At 1st level, weapons wielded by a warpriest are charged with the power of his faith. In addition to the favored weapon of his deity, the warpriest can designate a weapon as a sacred weapon by selecting that weapon with the Weapon Focus {g|Encyclopedia:Feat}feat{/g}; if he has multiple Weapon Focus feats, this ability applies to all of them. Whenever the warpriest hits with his sacred weapon, the weapon {g|Encyclopedia:Damage}damage{/g} is based on his level and not the weapon type. The warpriest can decide to use the weapon\u0027s base damage instead of the sacred weapon damage. This increase in damage does not affect any other aspect of the weapon, and doesn\u0027t apply to alchemical items, bombs, or other weapons that only deal {g|Encyclopedia:Energy_Damage}energy damage{/g}.",
+      "icon": "0556cc4f679127b4fb4115a1e52cf3ea"
+    },
+    {
+      "name": "Fervor",
+      "desc": "At 2nd level, a warpriest can draw upon the power of his faith to {g|Encyclopedia:Healing}heal{/g} wounds or harm foes. He can also use this ability to quickly cast {g|Encyclopedia:Spell}spells{/g} that aid in his struggles. This ability can be used a number of times per day equal to 1/2 his warpriest level \u002B his {g|Encyclopedia:Wisdom}Wisdom{/g} modifier. By expending one use of this ability, a good warpriest (or one who worships a good deity) can {g|Encyclopedia:TouchAttack}touch{/g} a creature to heal it of {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Damage}damage{/g}, plus an additional 1d6 points of damage for every 3 warpriest levels he possesses above 2nd (to a maximum of 7d6 at 20th level). Using this ability is a {g|Encyclopedia:Standard_Actions}standard action{/g} (unless the warpriest targets himself, in which case it\u0027s a {g|Encyclopedia:Swift_Action}swift action{/g}). Alternatively, the warpriest can use this ability to harm an undead creature, dealing the same amount of damage he would otherwise heal with a melee touch {g|Encyclopedia:Attack}attack{/g}. Using fervor in this way is a standard {g|Encyclopedia:CA_Types}action{/g} that provokes an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}. Undead do not receive a {g|Encyclopedia:Saving_Throw}saving throw{/g} against this damage. This counts as positive energy.\nAn evil warpriest (or one who worships an evil deity) can use this ability to instead deal damage to living creatures with a melee touch attack and heal undead creatures with a touch. This counts as negative energy.\nA neutral warpriest who worships a neutral deity (or one who is not devoted to a particular deity) uses this ability as a good warpriest if he chose to spontaneously cast cure spells or as an evil warpriest if he chose to spontaneously cast inflict spells.",
+      "icon": "gen__F"
+    },
+    {
+      "name": "Bonus Combat Feat",
+      "desc": "At 3rd level and every 3 levels thereafter, a warpriest gains a bonus {g|Encyclopedia:Feat}feat{/g} in addition to those gained from normal advancement. These bonus feats must be selected from those listed as Combat Feats, sometimes also called \u0022fighter bonus feats.\u0022",
+      "icon": "gen__BCF"
+    },
+    {
+      "name": "Channel Energy",
+      "desc": "Starting at 4th level, a warpriest can release a wave of energy by channeling the power of his faith through his holy (or unholy) symbol. This energy can be used to deal or {g|Encyclopedia:Healing}heal{/g} {g|Encyclopedia:Damage}damage{/g}, depending on the type of energy channeled and the creatures targeted. Using this ability is a {g|Encyclopedia:Standard_Actions}standard action{/g} that expends two uses of his fervor ability and doesn\u0027t provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}. The warpriest must present a holy (or unholy) symbol to use this ability. A good warpriest (or one who worships a good deity) channels positive energy and can choose to heal living creatures or to deal damage to undead creatures. An evil warpriest (or one who worships an evil deity) channels negative energy and can choose to deal damage to living creatures or heal undead creatures. A neutral warpriest who worships a neutral deity (or one who is not devoted to a particular deity) channels positive energy if he chose to spontaneously cast cure {g|Encyclopedia:Spell}spells{/g} or negative energy if he chose to spontaneously cast inflict spells.\nChanneling energy causes a burst that affects all creatures of one type (either undead or living) in a 30-foot radius centered on the warpriest. The amount of damage dealt or healed is equal to the amount listed in the fervor ability. Creatures that take damage from channeled energy must succeed at a {g|Encyclopedia:Saving_Throw}Will saving throw{/g} to halve the damage. The save {g|Encyclopedia:DC}DC{/g} is 10 \u002B 1/2 the warpriest\u0027s level \u002B the warpriest\u0027s {g|Encyclopedia:Wisdom}Wisdom{/g} modifier. Creatures healed by channeled energy cannot exceed their maximum hit point total\u2014all excess healing is lost. A warpriest can choose whether or not to include himself in this effect.",
+      "icon": "gen__CE"
+    },
+    {
+      "name": "Sacred Weapon",
+      "desc": "At 4th level, the warpriest gains the ability to enhance one of his sacred weapons with divine power as a {g|Encyclopedia:Swift_Action}swift action{/g}. This power grants the weapon a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g}. For every 4 levels beyond 4th, this bonus increases by 1 (to a maximum of \u002B5 at 20th level). If the warpriest has more than one sacred weapon, he can enhance another on the following {g|Encyclopedia:Combat_Round}round{/g} by using another swift {g|Encyclopedia:CA_Types}action{/g}. The warpriest can use this ability a number of rounds per day equal to his warpriest level, but these rounds need not be consecutive.\nThese bonuses stack with any existing bonuses the weapon might have, to a maximum of \u002B5. The warpriest can enhance a weapon with any of the following weapon {g|Encyclopedia:Special_Abilities}special abilities{/g}: brilliant energy, flaming, frost, keen, and shock. In addition, if the warpriest is chaotic, he can add anarchic. If he is evil, he can add unholy. If he is good, he can add holy. If he is lawful, he can add axiomatic. Adding any of these special abilities replaces an amount of bonus equal to the special ability\u0027s base cost. Duplicate abilities do not stack. The weapon must have at least a \u002B1 enhancement bonus before any other special abilities can be added.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "name": "Sacred Armor",
+      "desc": "At 7th level, the warpriest gains the ability to enhance his armor with divine power as a {g|Encyclopedia:Swift_Action}swift action{/g}. This power grants the armor a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g}. For every 3 levels beyond 7th, this bonus increases by 1 (to a maximum of \u002B5 at 19th level). The warpriest can use this ability a number of minutes per day equal to his warpriest level. This duration must be used in 1-minute increments, but they don\u0027t need to be consecutive.\nThese bonuses stack with any existing bonuses the armor might have, to a maximum of \u002B5. The warpriest can enhance armor any of the following armor {g|Encyclopedia:Special_Abilities}special abilities{/g}: {g|Encyclopedia:Energy_Resistance}energy resistance{/g} (normal, improved, and greater), fortification (heavy, light, or moderate), glamered, and {g|Encyclopedia:Spell_Resistance}spell resistance{/g} (13, 15, 17, and 19). Adding any of these special abilities replaces an amount of bonus equal to the special ability\u0027s base cost. For this purpose, glamered counts as a \u002B1 bonus, energy resistance counts as \u002B2, improved energy resistance counts as \u002B4, and greater energy resistance counts as \u002B5. Duplicate abilities do not stack. The armor must have at least a \u002B1 enhancement bonus before any other special abilities can be added.",
+      "icon": "3f5c77052d0163a4e9c66fc85ca6b0b4"
+    },
+    {
+      "name": "Sacred Weapon \u002B2",
+      "desc": "At 4th level, the warpriest gains the ability to enhance one of his sacred weapons with divine power as a {g|Encyclopedia:Swift_Action}swift action{/g}. This power grants the weapon a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g}. For every 4 levels beyond 4th, this bonus increases by 1 (to a maximum of \u002B5 at 20th level). If the warpriest has more than one sacred weapon, he can enhance another on the following {g|Encyclopedia:Combat_Round}round{/g} by using another swift {g|Encyclopedia:CA_Types}action{/g}. The warpriest can use this ability a number of rounds per day equal to his warpriest level, but these rounds need not be consecutive.\nThese bonuses stack with any existing bonuses the weapon might have, to a maximum of \u002B5. The warpriest can enhance a weapon with any of the following weapon {g|Encyclopedia:Special_Abilities}special abilities{/g}: brilliant energy, flaming, frost, keen, and shock. In addition, if the warpriest is chaotic, he can add anarchic. If he is evil, he can add unholy. If he is good, he can add holy. If he is lawful, he can add axiomatic. Adding any of these special abilities replaces an amount of bonus equal to the special ability\u0027s base cost. Duplicate abilities do not stack. The weapon must have at least a \u002B1 enhancement bonus before any other special abilities can be added.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "name": "Sacred Armor \u002B2",
+      "desc": "At 7th level, the warpriest gains the ability to enhance his armor with divine power as a {g|Encyclopedia:Swift_Action}swift action{/g}. This power grants the armor a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g}. For every 3 levels beyond 7th, this bonus increases by 1 (to a maximum of \u002B5 at 19th level). The warpriest can use this ability a number of minutes per day equal to his warpriest level. This duration must be used in 1-minute increments, but they don\u0027t need to be consecutive.\nThese bonuses stack with any existing bonuses the armor might have, to a maximum of \u002B5. The warpriest can enhance armor any of the following armor {g|Encyclopedia:Special_Abilities}special abilities{/g}: {g|Encyclopedia:Energy_Resistance}energy resistance{/g} (normal, improved, and greater), fortification (heavy, light, or moderate), glamered, and {g|Encyclopedia:Spell_Resistance}spell resistance{/g} (13, 15, 17, and 19). Adding any of these special abilities replaces an amount of bonus equal to the special ability\u0027s base cost. For this purpose, glamered counts as a \u002B1 bonus, energy resistance counts as \u002B2, improved energy resistance counts as \u002B4, and greater energy resistance counts as \u002B5. Duplicate abilities do not stack. The armor must have at least a \u002B1 enhancement bonus before any other special abilities can be added.",
+      "icon": "3f5c77052d0163a4e9c66fc85ca6b0b4"
+    },
+    {
+      "name": "Sacred Weapon \u002B3",
+      "desc": "At 4th level, the warpriest gains the ability to enhance one of his sacred weapons with divine power as a {g|Encyclopedia:Swift_Action}swift action{/g}. This power grants the weapon a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g}. For every 4 levels beyond 4th, this bonus increases by 1 (to a maximum of \u002B5 at 20th level). If the warpriest has more than one sacred weapon, he can enhance another on the following {g|Encyclopedia:Combat_Round}round{/g} by using another swift {g|Encyclopedia:CA_Types}action{/g}. The warpriest can use this ability a number of rounds per day equal to his warpriest level, but these rounds need not be consecutive.\nThese bonuses stack with any existing bonuses the weapon might have, to a maximum of \u002B5. The warpriest can enhance a weapon with any of the following weapon {g|Encyclopedia:Special_Abilities}special abilities{/g}: brilliant energy, flaming, frost, keen, and shock. In addition, if the warpriest is chaotic, he can add anarchic. If he is evil, he can add unholy. If he is good, he can add holy. If he is lawful, he can add axiomatic. Adding any of these special abilities replaces an amount of bonus equal to the special ability\u0027s base cost. Duplicate abilities do not stack. The weapon must have at least a \u002B1 enhancement bonus before any other special abilities can be added.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "name": "Sacred Armor \u002B3",
+      "desc": "At 7th level, the warpriest gains the ability to enhance his armor with divine power as a {g|Encyclopedia:Swift_Action}swift action{/g}. This power grants the armor a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g}. For every 3 levels beyond 7th, this bonus increases by 1 (to a maximum of \u002B5 at 19th level). The warpriest can use this ability a number of minutes per day equal to his warpriest level. This duration must be used in 1-minute increments, but they don\u0027t need to be consecutive.\nThese bonuses stack with any existing bonuses the armor might have, to a maximum of \u002B5. The warpriest can enhance armor any of the following armor {g|Encyclopedia:Special_Abilities}special abilities{/g}: {g|Encyclopedia:Energy_Resistance}energy resistance{/g} (normal, improved, and greater), fortification (heavy, light, or moderate), glamered, and {g|Encyclopedia:Spell_Resistance}spell resistance{/g} (13, 15, 17, and 19). Adding any of these special abilities replaces an amount of bonus equal to the special ability\u0027s base cost. For this purpose, glamered counts as a \u002B1 bonus, energy resistance counts as \u002B2, improved energy resistance counts as \u002B4, and greater energy resistance counts as \u002B5. Duplicate abilities do not stack. The armor must have at least a \u002B1 enhancement bonus before any other special abilities can be added.",
+      "icon": "3f5c77052d0163a4e9c66fc85ca6b0b4"
+    },
+    {
+      "name": "Sacred Weapon \u002B4",
+      "desc": "At 4th level, the warpriest gains the ability to enhance one of his sacred weapons with divine power as a {g|Encyclopedia:Swift_Action}swift action{/g}. This power grants the weapon a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g}. For every 4 levels beyond 4th, this bonus increases by 1 (to a maximum of \u002B5 at 20th level). If the warpriest has more than one sacred weapon, he can enhance another on the following {g|Encyclopedia:Combat_Round}round{/g} by using another swift {g|Encyclopedia:CA_Types}action{/g}. The warpriest can use this ability a number of rounds per day equal to his warpriest level, but these rounds need not be consecutive.\nThese bonuses stack with any existing bonuses the weapon might have, to a maximum of \u002B5. The warpriest can enhance a weapon with any of the following weapon {g|Encyclopedia:Special_Abilities}special abilities{/g}: brilliant energy, flaming, frost, keen, and shock. In addition, if the warpriest is chaotic, he can add anarchic. If he is evil, he can add unholy. If he is good, he can add holy. If he is lawful, he can add axiomatic. Adding any of these special abilities replaces an amount of bonus equal to the special ability\u0027s base cost. Duplicate abilities do not stack. The weapon must have at least a \u002B1 enhancement bonus before any other special abilities can be added.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "name": "Sacred Armor \u002B4",
+      "desc": "At 7th level, the warpriest gains the ability to enhance his armor with divine power as a {g|Encyclopedia:Swift_Action}swift action{/g}. This power grants the armor a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g}. For every 3 levels beyond 7th, this bonus increases by 1 (to a maximum of \u002B5 at 19th level). The warpriest can use this ability a number of minutes per day equal to his warpriest level. This duration must be used in 1-minute increments, but they don\u0027t need to be consecutive.\nThese bonuses stack with any existing bonuses the armor might have, to a maximum of \u002B5. The warpriest can enhance armor any of the following armor {g|Encyclopedia:Special_Abilities}special abilities{/g}: {g|Encyclopedia:Energy_Resistance}energy resistance{/g} (normal, improved, and greater), fortification (heavy, light, or moderate), glamered, and {g|Encyclopedia:Spell_Resistance}spell resistance{/g} (13, 15, 17, and 19). Adding any of these special abilities replaces an amount of bonus equal to the special ability\u0027s base cost. For this purpose, glamered counts as a \u002B1 bonus, energy resistance counts as \u002B2, improved energy resistance counts as \u002B4, and greater energy resistance counts as \u002B5. Duplicate abilities do not stack. The armor must have at least a \u002B1 enhancement bonus before any other special abilities can be added.",
+      "icon": "3f5c77052d0163a4e9c66fc85ca6b0b4"
+    },
+    {
+      "name": "Sacred Armor \u002B5",
+      "desc": "At 7th level, the warpriest gains the ability to enhance his armor with divine power as a {g|Encyclopedia:Swift_Action}swift action{/g}. This power grants the armor a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g}. For every 3 levels beyond 7th, this bonus increases by 1 (to a maximum of \u002B5 at 19th level). The warpriest can use this ability a number of minutes per day equal to his warpriest level. This duration must be used in 1-minute increments, but they don\u0027t need to be consecutive.\nThese bonuses stack with any existing bonuses the armor might have, to a maximum of \u002B5. The warpriest can enhance armor any of the following armor {g|Encyclopedia:Special_Abilities}special abilities{/g}: {g|Encyclopedia:Energy_Resistance}energy resistance{/g} (normal, improved, and greater), fortification (heavy, light, or moderate), glamered, and {g|Encyclopedia:Spell_Resistance}spell resistance{/g} (13, 15, 17, and 19). Adding any of these special abilities replaces an amount of bonus equal to the special ability\u0027s base cost. For this purpose, glamered counts as a \u002B1 bonus, energy resistance counts as \u002B2, improved energy resistance counts as \u002B4, and greater energy resistance counts as \u002B5. Duplicate abilities do not stack. The armor must have at least a \u002B1 enhancement bonus before any other special abilities can be added.",
+      "icon": "3f5c77052d0163a4e9c66fc85ca6b0b4"
+    },
+    {
+      "name": "Sacred Weapon \u002B5",
+      "desc": "At 4th level, the warpriest gains the ability to enhance one of his sacred weapons with divine power as a {g|Encyclopedia:Swift_Action}swift action{/g}. This power grants the weapon a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g}. For every 4 levels beyond 4th, this bonus increases by 1 (to a maximum of \u002B5 at 20th level). If the warpriest has more than one sacred weapon, he can enhance another on the following {g|Encyclopedia:Combat_Round}round{/g} by using another swift {g|Encyclopedia:CA_Types}action{/g}. The warpriest can use this ability a number of rounds per day equal to his warpriest level, but these rounds need not be consecutive.\nThese bonuses stack with any existing bonuses the weapon might have, to a maximum of \u002B5. The warpriest can enhance a weapon with any of the following weapon {g|Encyclopedia:Special_Abilities}special abilities{/g}: brilliant energy, flaming, frost, keen, and shock. In addition, if the warpriest is chaotic, he can add anarchic. If he is evil, he can add unholy. If he is good, he can add holy. If he is lawful, he can add axiomatic. Adding any of these special abilities replaces an amount of bonus equal to the special ability\u0027s base cost. Duplicate abilities do not stack. The weapon must have at least a \u002B1 enhancement bonus before any other special abilities can be added.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "name": "Aspect of War",
+      "desc": "At 20th level, the warpriest can channel an aspect of war, growing in power and martial ability. Once per day as a {g|Encyclopedia:Swift_Action}swift action{/g}, a warpriest can treat his level as his {g|Encyclopedia:BAB}base attack bonus{/g}, gains {g|Encyclopedia:Damage_Reduction}DR{/g} 10/\u2014, and can move at his full {g|Encyclopedia:Speed}speed{/g} regardless of the armor he is wearing or his encumbrance. In addition, the blessings he calls upon don\u0027t count against his daily limit during this time. This ability lasts for 1 minute.",
+      "icon": "gen__AW"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      5
+    ],
+    [
+      6
+    ],
+    [
+      7,
+      8
+    ],
+    [],
+    [
+      6
+    ],
+    [
+      9
+    ],
+    [
+      10
+    ],
+    [
+      6
+    ],
+    [
+      11
+    ],
+    [],
+    [
+      6,
+      12
+    ],
+    [
+      13
+    ],
+    [],
+    [
+      6
+    ],
+    [
+      14,
+      15
+    ],
+    [],
+    [
+      6
+    ],
+    [
+      16
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "__ui-groups": [
+    [
+      8,
+      10,
+      12,
+      14,
+      17
+    ],
+    [
+      9,
+      11,
+      13,
+      15,
+      16
+    ],
+    [],
+    []
+  ],
+  "name": "Warpriest",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "WarpriestProficiencies"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "WarpriestSpontaneousSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "BlessingSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "SecondBlessingSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "WarpriestSacredWeaponBaseDamageFeature"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "WarpriestFervorHealDamageSelection"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "WarpriestFeatSelection"
+      },
+      {
+        "level": 6,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "WarpriestFeatSelection"
+      },
+      {
+        "level": 9,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "WarpriestFeatSelection"
+      },
+      {
+        "level": 12,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "WarpriestFeatSelection"
+      },
+      {
+        "level": 15,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "WarpriestFeatSelection"
+      },
+      {
+        "level": 18,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "WarpriestFeatSelection"
+      }
+    ],
+    [
+      {
+        "level": 4,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "WarpriestChannelEnergySelection"
+      }
+    ],
+    [
+      {
+        "level": 4,
+        "feature": 8,
+        "rank": -1,
+        "__debug": "SacredWeaponEnchantFeature"
+      },
+      {
+        "level": 8,
+        "feature": 10,
+        "rank": -1,
+        "__debug": "SacredWeaponEnchantPlus2"
+      },
+      {
+        "level": 12,
+        "feature": 12,
+        "rank": -1,
+        "__debug": "SacredWeaponEnchantPlus3"
+      },
+      {
+        "level": 16,
+        "feature": 14,
+        "rank": -1,
+        "__debug": "SacredWeaponEnchantPlus4"
+      },
+      {
+        "level": 20,
+        "feature": 17,
+        "rank": -1,
+        "__debug": "SacredWeaponEnchantPlus5"
+      }
+    ],
+    [
+      {
+        "level": 7,
+        "feature": 9,
+        "rank": -1,
+        "__debug": "SacredArmorFeature"
+      },
+      {
+        "level": 10,
+        "feature": 11,
+        "rank": -1,
+        "__debug": "SacredArmorEnchantPlus2"
+      },
+      {
+        "level": 13,
+        "feature": 13,
+        "rank": -1,
+        "__debug": "SacredArmorEnchantPlus3"
+      },
+      {
+        "level": 16,
+        "feature": 15,
+        "rank": -1,
+        "__debug": "SacredArmorEnchantPlus4"
+      },
+      {
+        "level": 19,
+        "feature": 16,
+        "rank": -1,
+        "__debug": "SacredArmorEnchantPlus5"
+      }
+    ],
+    [
+      {
+        "level": 20,
+        "feature": 18,
+        "rank": -1,
+        "__debug": "WarpriestAspectOfWar"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "features": [
+    {
+      "name": "Alchemist Proficiencies",
+      "desc": "Alchemists are proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g} and bombs. They are also proficient with light armor, but not with shields.",
+      "icon": "gen__AP"
+    },
+    {
+      "name": "Bomb",
+      "desc": "In addition to magical extracts, alchemists are adept at swiftly mixing various volatile chemicals and infusing them with their magical reserves to create powerful bombs that they can hurl at their enemies. An alchemist can use a number of bombs each day equal to his {g|Encyclopedia:Class_Level}class level{/g} \u002B his {g|Encyclopedia:Intelligence}Intelligence{/g} modifier.\nThrown bombs have a range of 30 feet and use the Throw Splash Weapon special {g|Encyclopedia:Attack}attack{/g}. Bombs are considered weapons and can be selected using {g|Encyclopedia:Feat}feats{/g} such as Point-Blank Shot and Weapon Focus. On a direct hit, an alchemist\u0027s bomb inflicts {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Energy_Damage}fire damage{/g} \u002B additional {g|Encyclopedia:Damage}damage{/g} equal to the alchemist\u0027s Intelligence modifier. The damage of an alchemist\u0027s bomb increases by 1d6 points at every odd-numbered alchemist level. Splash damage from an alchemist bomb is always equal to the bomb\u0027s minimum damage (so if the bomb would deal 2d6\u002B4 points of fire damage on a direct hit, its splash damage would be 6 points of fire damage). Those caught in the splash damage can attempt a {g|Encyclopedia:Saving_Throw}Reflex save{/g} for half damage. The {g|Encyclopedia:DC}DC{/g} of this save is equal to 10 \u002B 1/2 the alchemist\u0027s level \u002B the alchemist\u0027s Intelligence modifier.",
+      "icon": "ae202ceef92bfcf4d832368f33f8ebe3"
+    },
+    {
+      "name": "Mutagen",
+      "desc": "At 1st level, an alchemist discovers how to create a mutagen that he can imbibe in order to heighten his physical prowess at the cost of his personality.\nIt\u0027s a {g|Encyclopedia:Standard_Actions}standard action{/g} to drink a mutagen. Upon being imbibed, the mutagen causes the alchemist to grow bulkier and more bestial, granting him a \u002B2 natural armor {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} and a \u002B4 alchemical bonus to the selected {g|Encyclopedia:Ability_Scores}ability score{/g} for 10 minutes per alchemist level. In addition, while the mutagen is in effect, the alchemist takes a \u20132 {g|Encyclopedia:Penalty}penalty{/g} to one of his mental ability scores. If the mutagen enhances his {g|Encyclopedia:Strength}Strength{/g}, it applies a penalty to his {g|Encyclopedia:Intelligence}Intelligence{/g}. If it enhances his {g|Encyclopedia:Dexterity}Dexterity{/g}, it applies a penalty to his {g|Encyclopedia:Wisdom}Wisdom{/g}. If it enhances his {g|Encyclopedia:Constitution}Constitution{/g}, it applies a penalty to his {g|Encyclopedia:Charisma}Charisma{/g}.",
+      "icon": "981f0be0d67a5ad4da26ab33385a6af4"
+    },
+    {
+      "name": "Throw Anything",
+      "desc": "All alchemists gain the Throw Anything {g|Encyclopedia:Feat}feat{/g} as a bonus feat at 1st level. An alchemist adds his {g|Encyclopedia:Intelligence}Intelligence{/g} modifier to {g|Encyclopedia:Damage}damage{/g} done with splash weapons, including the splash damage if any.",
+      "icon": "gen__TA"
+    },
+    {
+      "name": "Brew Potions",
+      "desc": "Allows you to brew potions of {g|Encyclopedia:Spell}spells{/g} up to level 3 during {g|Encyclopedia:Rest}camping{/g}.",
+      "icon": "2133c2bb726d4e3418b339cb9598f936"
+    },
+    {
+      "name": "Discovery",
+      "desc": "At 2nd level, and then again every 2 levels thereafter, an alchemist makes an incredible alchemical discovery. At 20th level, the alchemist makes an additional discovery. Unless otherwise noted, an alchemist cannot select an individual discovery more than once. Some discoveries can only be made if the alchemist has met certain prerequisites first, such as uncovering other discoveries. Only one such discovery can be applied to an individual bomb. The {g|Encyclopedia:DC}DC{/g} of any {g|Encyclopedia:Saving_Throw}saving throw{/g} called for by a discovery is equal to 10 \u002B 1/2 the alchemist\u0027s level \u002B the alchemist\u0027s {g|Encyclopedia:Intelligence}Intelligence{/g} modifier.",
+      "icon": "95c4bb72353edb34082f088a5bd18cb2"
+    },
+    {
+      "name": "Poison Resistance",
+      "desc": "At 2nd level, an alchemist gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Saving_Throw}saving throws{/g} against poison. This bonus increases to \u002B4 at 5th level, and then again to \u002B6 at 8th level. At 10th level, an alchemist becomes completely immune to poison.",
+      "icon": "gen__PR"
+    },
+    {
+      "name": "Poison Immunity",
+      "desc": "At 10th level, an alchemist becomes completely immune to poison.",
+      "icon": "7269f14b47597024ea9ca40d91b94afc"
+    },
+    {
+      "name": "Persistent Mutagen",
+      "desc": "At 14th level, the effects of a mutagen last for 1 hour per level.",
+      "icon": "f46edb81e4e22784bb1036fbcc0ccabf"
+    },
+    {
+      "name": "Grand Discovery",
+      "desc": "At 20th level, the alchemist makes a grand discovery. For many alchemists, the promise of one of these grand discoveries is the primary goal of their experiments and hard work.",
+      "icon": "95c4bb72353edb34082f088a5bd18cb2"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      1
+    ],
+    [
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      5
+    ],
+    [
+      1
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      1
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      1
+    ],
+    [
+      5
+    ],
+    [
+      1
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      1
+    ],
+    [
+      5
+    ],
+    [
+      1
+    ],
+    [
+      5
+    ],
+    [
+      1
+    ],
+    [
+      9,
+      5,
+      5
+    ]
+  ],
+  "__ui-groups": [
+    [
+      2,
+      8,
+      9
+    ],
+    [
+      6,
+      7
+    ],
+    [],
+    [
+      1,
+      9
+    ]
+  ],
+  "name": "Alchemist",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "AlchemistProficiencies"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": 1,
+        "__debug": "AlchemistBombsFeature"
+      },
+      {
+        "level": 3,
+        "feature": 1,
+        "rank": 2,
+        "__debug": "AlchemistBombsFeature"
+      },
+      {
+        "level": 5,
+        "feature": 1,
+        "rank": 3,
+        "__debug": "AlchemistBombsFeature"
+      },
+      {
+        "level": 7,
+        "feature": 1,
+        "rank": 4,
+        "__debug": "AlchemistBombsFeature"
+      },
+      {
+        "level": 9,
+        "feature": 1,
+        "rank": 5,
+        "__debug": "AlchemistBombsFeature"
+      },
+      {
+        "level": 11,
+        "feature": 1,
+        "rank": 6,
+        "__debug": "AlchemistBombsFeature"
+      },
+      {
+        "level": 13,
+        "feature": 1,
+        "rank": 7,
+        "__debug": "AlchemistBombsFeature"
+      },
+      {
+        "level": 15,
+        "feature": 1,
+        "rank": 8,
+        "__debug": "AlchemistBombsFeature"
+      },
+      {
+        "level": 17,
+        "feature": 1,
+        "rank": 9,
+        "__debug": "AlchemistBombsFeature"
+      },
+      {
+        "level": 19,
+        "feature": 1,
+        "rank": 10,
+        "__debug": "AlchemistBombsFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "MutagenFeature"
+      },
+      {
+        "level": 14,
+        "feature": 8,
+        "rank": -1,
+        "__debug": "PersistantMutagen"
+      },
+      {
+        "level": 20,
+        "feature": 9,
+        "rank": -1,
+        "__debug": "GrandDiscoverySelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "AlchemistThrowAnything"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "BrewPotions"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DiscoverySelection"
+      },
+      {
+        "level": 4,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DiscoverySelection"
+      },
+      {
+        "level": 6,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DiscoverySelection"
+      },
+      {
+        "level": 8,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DiscoverySelection"
+      },
+      {
+        "level": 10,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DiscoverySelection"
+      },
+      {
+        "level": 12,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DiscoverySelection"
+      },
+      {
+        "level": 14,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DiscoverySelection"
+      },
+      {
+        "level": 16,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DiscoverySelection"
+      },
+      {
+        "level": 18,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DiscoverySelection"
+      },
+      {
+        "level": 20,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DiscoverySelection"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 6,
+        "rank": 1,
+        "__debug": "PoisonResistance"
+      },
+      {
+        "level": 5,
+        "feature": 6,
+        "rank": 2,
+        "__debug": "PoisonResistance"
+      },
+      {
+        "level": 8,
+        "feature": 6,
+        "rank": 3,
+        "__debug": "PoisonResistance"
+      },
+      {
+        "level": 10,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "PoisonImmunity"
+      }
+    ],
+    [
+      {
+        "level": 20,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DiscoverySelection"
+      }
+    ]
+  ]
+}

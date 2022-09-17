@@ -1,0 +1,4968 @@
+[
+{
+
+    "guid": "84094c6a1e5ba694f9b1b6492d6fcdf3",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "CL - 10",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Greater Sting",
+            "m_Key": "f8b70f3e-adf2-47fe-a057-dbbaff6dba9c",
+            "m_OwnerString": "84094c6a1e5ba694f9b1b6492d6fcdf3",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Artisan/DwarvenMaleArmorsmith/CorrosiveCrossbowArtisanItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +2 corrosive light crossbow deals an extra {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Energy_Damage}acid damage{/g} on a successful hit and has {g|Encyclopedia:Critical}critical hit{/g} multiplier ×3.",
+            "m_Key": "46e3b77d-2a98-4f65-a0d8-9d54278f62f8",
+            "m_OwnerString": "84094c6a1e5ba694f9b1b6492d6fcdf3",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Artisan/DwarvenMaleArmorsmith/CorrosiveCrossbowArtisanItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "This fine piece of equipment was crafted by dwarf Dragn, the {g|Encyclopedia:Skills}skillful{/g} blacksmith, appointed a court master.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "c34c440a330a6df4ca158833035fb30b",
+                "stringkey": "b8453356-4c9e-4b5c-8e46-6adba44a8a94"
+            }
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "cb6c42c404335d74e903a064103421b2",
+            "fileid": "21300000"
+        },
+        "m_Cost": "23600",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 633b38ff1d11de64a91d490c683ab1c8 (Corrosive :BlueprintWeaponEnchantment)",
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 5b1550c536bd09740bf43a6ddd1ad919 (CriticalMultiplierIncrease :BlueprintWeaponEnchantment)",
+            "link: c4d17560bd7d0344d82f08b7b40457f2 (StunOnCrit17 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "8762d9897514dd241b19e32ee9cf3f54",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "12.04.18 - added speed",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Escapist\u0027s Crossbow",
+            "m_Key": "e3cd36bf-0c9a-4378-b334-11b8d42f59ee",
+            "m_OwnerString": "8762d9897514dd241b19e32ee9cf3f54",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Artisan/DwarvenMaleArmorsmith/CrossbowOfEscape_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +3 {g|Encyclopedia:Speed}speed{/g} shock light crossbow grants its wielder the ability to cast dimension door {g|Encyclopedia:Spell}spell{/g} once per day as a 8th level wizard.",
+            "m_Key": "be7ec057-bb20-4b02-b9aa-dd9196a839ff",
+            "m_OwnerString": "8762d9897514dd241b19e32ee9cf3f54",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Artisan/DwarvenMaleArmorsmith/CrossbowOfEscape_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "This fine piece of equipment was crafted by dwarf Dragn, the {g|Encyclopedia:Skills}skillful{/g} blacksmith, appointed a court master.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "c34c440a330a6df4ca158833035fb30b",
+                "stringkey": "b8453356-4c9e-4b5c-8e46-6adba44a8a94"
+            }
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "cb6c42c404335d74e903a064103421b2",
+            "fileid": "21300000"
+        },
+        "m_Cost": "83000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "17",
+        "m_Ability": "link: 5bdc37e4acfa209408334326076a43bc (DimensionDoor :BlueprintAbility)",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "true",
+        "CasterLevel": "8",
+        "SpellLevel": "4",
+        "DC": "0",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 7bda5277d36ad114f9f9fd21d0dab658 (Shock :BlueprintWeaponEnchantment)",
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: f1c0c50108025d546b2554674ea1c006 (Speed :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "30467908b55bf0643a9257eb5c72f452",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Cold Iron Masterwork Light Crossbow",
+            "m_Key": "4b48f63b-d5e3-4db5-80e4-abebc50b8d20",
+            "m_OwnerString": "30467908b55bf0643a9257eb5c72f452",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/ColdIronMasterwork/ColdIronMasterworkLightCrossbow_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "800",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_RE"
+        ],
+        "CR": "1",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 6b38844e2bffbac48b63036b66e735be (Masterwork :BlueprintWeaponEnchantment)",
+            "link: e5990dc76d2a613409916071c898eee8 (ColdIronWeaponEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "true",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "ColdIron",
+                "Form": "Piercing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "920c966944f98c14e9180237642b2d86",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "75",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "0",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Large",
+        "m_Enchantments": [],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "01067a23c0cd2c54eb2d41f139f7fde7",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Masterwork Light Crossbow",
+            "m_Key": "e9a45e7c-4211-4b97-9ac8-eefb1b78202a",
+            "m_OwnerString": "01067a23c0cd2c54eb2d41f139f7fde7",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Masterwork/MasterworkLightCrossbow_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "400",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment"
+        ],
+        "CR": "1",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 6b38844e2bffbac48b63036b66e735be (Masterwork :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "511c97c1ea111444aa186b1a58496664",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "36",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment"
+        ],
+        "CR": "0",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "f5528acb89757ab4fb9350f45cc4f3b4",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "2035",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_IsJunk": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_RE",
+            "Equipment_Trickster"
+        ],
+        "CR": "4",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "HideAbilityInfo": "false",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "40502e8beabca3644b26241a7ce512f3",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Corrosive Light Crossbow +1",
+            "m_Key": "5bd6bdc1-1f8a-4419-aaf0-558862987bd1",
+            "m_OwnerString": "40502e8beabca3644b26241a7ce512f3",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Corrosive/LightCrossbowCorrosivePlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "a2259c455eaf07442a162b3bc26ec383",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 633b38ff1d11de64a91d490c683ab1c8 (Corrosive :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "1fb0ea666a65a004dac6327d0e6682bc",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "a2259c455eaf07442a162b3bc26ec383",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_Trickster"
+        ],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "a8f3b8289f49c524994ba01f9ec91392"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "18e09aabefbf3094b8cd657ba44d97dc",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Flaming Light Crossbow +1",
+            "m_Key": "262eb678-206f-40f8-9b29-63b0bdc38207",
+            "m_OwnerString": "18e09aabefbf3094b8cd657ba44d97dc",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Flaming/LightCrossbowFlamingPlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "a2259c455eaf07442a162b3bc26ec383",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 30f90becaaac51f41bf56641966c4121 (Flaming :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "3927f754dcf0efd41a5b1d9d5f1660fa",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Frost Light Crossbow +1",
+            "m_Key": "3453e273-abe9-4add-944b-4350d6295445",
+            "m_OwnerString": "3927f754dcf0efd41a5b1d9d5f1660fa",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Frost/LightCrossbowFrostPlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "a2259c455eaf07442a162b3bc26ec383",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 421e54078b7719d40915ce0672511d0b (Frost :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "c9df543e97b905b4590d8b00f8fb0fed",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Shock Light Crossbow +1",
+            "m_Key": "75af7155-a743-4c4c-bffd-9543733c9932",
+            "m_OwnerString": "c9df543e97b905b4590d8b00f8fb0fed",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Shock/LightCrossbowShockPlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "a2259c455eaf07442a162b3bc26ec383",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 7bda5277d36ad114f9f9fd21d0dab658 (Shock :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "233c609004b5d45469287ca3f0b36cb9",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Holy Light Crossbow +1",
+            "m_Key": "b30adfdd-a1b5-463a-8b40-e5b8660dcdc3",
+            "m_OwnerString": "233c609004b5d45469287ca3f0b36cb9",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/HolyLightCrossbowPlus1Item_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "15000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment"
+        ],
+        "CR": "0",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 28a9964d81fedae44bae3ca45710c140 (Holy :BlueprintWeaponEnchantment)",
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "19b62c46d247f9e47931fb6da5978651",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Corrosive Light Crossbow +2",
+            "m_Key": "c1dfd277-fca0-4e24-bd7d-765839e1903c",
+            "m_OwnerString": "19b62c46d247f9e47931fb6da5978651",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Corrosive/LightCrossbowCorrosivePlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "67b23c8f8b02ee544817a6419b67f7fc",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 633b38ff1d11de64a91d490c683ab1c8 (Corrosive :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "8ee3176eb0ed29c418120b04dbb76aa9",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "a2259c455eaf07442a162b3bc26ec383",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_Trickster"
+        ],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "a8f3b8289f49c524994ba01f9ec91392"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "1958bdc04bbc3a64ca93e980dd7d2894",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Flaming Light Crossbow +2",
+            "m_Key": "8de6fe23-9510-464e-98a3-7f4c480ca6ac",
+            "m_OwnerString": "1958bdc04bbc3a64ca93e980dd7d2894",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Flaming/LightCrossbowFlamingPlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "67b23c8f8b02ee544817a6419b67f7fc",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 30f90becaaac51f41bf56641966c4121 (Flaming :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "9df761756093c624bb6515dff73c6d74",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Frost Light Crossbow +2",
+            "m_Key": "dca9ed24-daf2-4f30-a087-14d4cdec6d7e",
+            "m_OwnerString": "9df761756093c624bb6515dff73c6d74",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Frost/LightCrossbowFrostPlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "67b23c8f8b02ee544817a6419b67f7fc",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 421e54078b7719d40915ce0672511d0b (Frost :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "aa2e68663c7effa448d1841666fa9194",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Keen Light Crossbow +2",
+            "m_Key": "a2fa39dd-80c5-43e0-a69f-6779eb9939da",
+            "m_OwnerString": "aa2e68663c7effa448d1841666fa9194",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Keen/LightCrossbowKeenPlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "67b23c8f8b02ee544817a6419b67f7fc",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "0",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 102a9c8c9b7a75e4fb5844e79deaf4c0 (Keen :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "cdbbf9234f2b19649ac6aaa1e1ce1e3e",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Shock Light Crossbow +2",
+            "m_Key": "a6da5830-8e72-44cf-be80-9a6d531bb8f9",
+            "m_OwnerString": "cdbbf9234f2b19649ac6aaa1e1ce1e3e",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Shock/LightCrossbowShockPlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "67b23c8f8b02ee544817a6419b67f7fc",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 7bda5277d36ad114f9f9fd21d0dab658 (Shock :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "8e527432bd9e5d44d85f891827601f2a",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "67b23c8f8b02ee544817a6419b67f7fc",
+            "fileid": "21300000"
+        },
+        "m_Cost": "32000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "13",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "c782a6b263f40954b9bdbe67f34c1e34"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 783d7d496da6ac44f9511011fc5f1979 (Enhancement4 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "c6f3a5ef61e39154dae388d76e981e85",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c3cd7395d76f05b469d05d41b899af6f",
+            "fileid": "21300000"
+        },
+        "m_Cost": "50000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "7f1938f2a5f239c44b0fad70118353c0"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "98d2a39f43b14f33acc17c83f39dd39e",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Elder Flaming Burst Light Crossbow +5",
+            "m_Key": "f60a152d-c8e8-4c23-900c-0e5eeae3f4d1",
+            "m_OwnerString": "98d2a39f43b14f33acc17c83f39dd39e",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints\\Weapons\\Items\\TotalPlus7\\ElderFlamingBurstLightCrossbowPlus5_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "67b23c8f8b02ee544817a6419b67f7fc",
+            "fileid": "21300000"
+        },
+        "m_Cost": "162000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_IsJunk": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "c782a6b263f40954b9bdbe67f34c1e34"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 1735064e8f614d8ca0a065b5e051dbc1 (ElderFlaming :BlueprintWeaponEnchantment)",
+            "link: 9ab28e024ad2448f8c76c9f60b398e6a (ElderFlamingBurst :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "88ab4bc7a0204b64c8a328c82688f370",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Lawbringer",
+            "m_Key": "b8a460ee-6203-4ceb-848a-1dd5484f403d",
+            "m_OwnerString": "88ab4bc7a0204b64c8a328c82688f370",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/LateChapters/LawbringerItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +5 axiomatic light crossbow ends the barbarian\u0027s Rage on hit.",
+            "m_Key": "d062d1ee-a1ed-4774-a6ee-839975065e1b",
+            "m_OwnerString": "88ab4bc7a0204b64c8a328c82688f370",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/LateChapters/LawbringerItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "The holy weapon of Abadar — god of law, trade, and civilization.",
+            "m_Key": "f58ce838-e986-42e8-994e-c476451af4ef",
+            "m_OwnerString": "88ab4bc7a0204b64c8a328c82688f370",
+            "m_OwnerPropertyPath": "m_FlavorText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/LateChapters/LawbringerItem_m_FlavorText.json",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "da1eb967b8aa7bb4494befa39e485bdc",
+            "fileid": "21300000"
+        },
+        "m_Cost": "117500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "22",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 0ca43051edefcad4b9b2240aa36dc8d4 (Axiomatic :BlueprintWeaponEnchantment)",
+            "link: ccdcbc9b853fe2147adc281d12f0c2c4 (LawbringerEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "137fc6acf3f645a40a3ec041b472ba86",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "All Outsider Bane, Brilliant Energy Light Crossbow +3\tLight Crossbow Dwarven Arcane\r\n",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Planar Hunter",
+            "m_Key": "83672f3c-2b4d-4129-8eb0-cc13086a9c41",
+            "m_OwnerString": "137fc6acf3f645a40a3ec041b472ba86",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/LateChapters/PlanarHunterLightCrossbowItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "+3 outsider bane brilliant energy light crossbow",
+            "m_Key": "ca6d9102-d3ee-4185-9c59-9b8109dbcac4",
+            "m_OwnerString": "137fc6acf3f645a40a3ec041b472ba86",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/LateChapters/PlanarHunterLightCrossbowItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c3cd7395d76f05b469d05d41b899af6f",
+            "fileid": "21300000"
+        },
+        "m_Cost": "27500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "18",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: 234177d5807909f44b8c91ed3c9bf7ac (BaneOutsiderChaotic :BlueprintWeaponEnchantment)",
+            "link: 20ba9055c6ae1e44ca270c03feacc53b (BaneOutsiderEvil :BlueprintWeaponEnchantment)",
+            "link: a876de94b916b7249a77d090cb9be4f3 (BaneOutsiderGood :BlueprintWeaponEnchantment)",
+            "link: 3a6f564c8ea2d1941a45b19fa16e59f5 (BaneOutsiderLawful :BlueprintWeaponEnchantment)",
+            "link: 4e30e79c500e5af4b86a205cc20436f2 (BaneOutsiderNeutral :BlueprintWeaponEnchantment)",
+            "link: 66e9e299c9002ea4bb65b6f300e43770 (BrilliantEnergy :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "9ca5147f3c2ccbe42bc7597ce2dcdecf",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Silver Hawk",
+            "m_Key": "a54ebca8-7ca0-4e9b-8bf5-a9053ffba69e",
+            "m_OwnerString": "9ca5147f3c2ccbe42bc7597ce2dcdecf",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter1/LightCrossbowOfForceItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "Whenever this +1 light crossbow confirms a {g|Encyclopedia:Critical}critical hit{/g}, it deals {g|Encyclopedia:Dice}2d4{/g} force {g|Encyclopedia:Damage}damage{/g} to all enemies in a 10-foot radius.",
+            "m_Key": "3cd4a3c7-1df1-4e99-ad33-e71c9726e49f",
+            "m_OwnerString": "9ca5147f3c2ccbe42bc7597ce2dcdecf",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter1/LightCrossbowOfForceItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "7000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "4",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: ab8a55286a311f4439bbf6aac42030b9 (LightCrossbowOfForceEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "261454b61c1429a4fa822dfc961e3b74",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Light Crossbow of Oracle\u0027s Misery",
+            "m_Key": "625d0501-ef38-4ff7-a2ff-09692abab7d3",
+            "m_OwnerString": "261454b61c1429a4fa822dfc961e3b74",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter1/LongspearOfOraclesMiseryItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "Whenever this +2 light crossbow confirms a {g|Encyclopedia:Critical}critical hit{/g}, if wielded by an oracle, the target must pass a {g|Encyclopedia:Saving_Throw}Will saving throw{/g} ({g|Encyclopedia:DC}DC{/g} 22) or suffer from the same effect as the oracle\u0027s curse gave on level 1, without any of its benefits. This effect can be removed with the remove curse {g|Encyclopedia:Spell}spell{/g}.",
+            "m_Key": "0072d0d5-df18-41c4-8d86-d84b434cb401",
+            "m_OwnerString": "261454b61c1429a4fa822dfc961e3b74",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter1/LongspearOfOraclesMiseryItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "baa07751287be7a419041f54f7dd0371",
+            "fileid": "21300000"
+        },
+        "m_Cost": "15500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "4",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "6cecca0fc5425e444b09aba4d342be33"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: f381cbe4cbd016745a9a41d7ee90dd98 (LongspearOfOraclesMiseryEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "8c070e744c36a1a4e9077197c169b157",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Firestarter",
+            "m_Key": "0767ee1d-4036-4c37-9fbc-604f77d7864c",
+            "m_OwnerString": "8c070e744c36a1a4e9077197c169b157",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter3/FirestarterItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +3 flaming light crossbow grants its wielder a +2 insight {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} against non-living creatures. It also grants a +4 bonus on {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Dice}rolls{/g}.",
+            "m_Key": "c3d5779e-4389-40ca-a189-cdb10fa5746a",
+            "m_OwnerString": "8c070e744c36a1a4e9077197c169b157",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter3/FirestarterItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "baa07751287be7a419041f54f7dd0371",
+            "fileid": "21300000"
+        },
+        "m_Cost": "60000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "6cecca0fc5425e444b09aba4d342be33"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: 30f90becaaac51f41bf56641966c4121 (Flaming :BlueprintWeaponEnchantment)",
+            "link: e62aca8d726d17f4ea4116eb37470d15 (FirestarterEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "ba7ad1364a6759c469a5ea698b0fd9eb",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Life Deliverer",
+            "m_Key": "eb2d9c5a-879e-452a-bcab-c55dbfb0cb2d",
+            "m_OwnerString": "ba7ad1364a6759c469a5ea698b0fd9eb",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints\\Weapons\\Items\\UniquePF2\\Chapter4\\LifeDelivererItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +4 undead bane light crossbow allows its wielder to cast {g|Encyclopedia:Healing}healing{/g} {g|Encyclopedia:Spell}spells{/g} as though they had the {g|Encyclopedia:Reach}Reach{/g} Spell {g|Encyclopedia:Feat}feat{/g}.\\nReach Spell: You can alter a spell with a range of {g|Encyclopedia:TouchAttack}touch{/g}, close, or medium to increase its range by one range category, using the following order: touch, close, medium, and long.",
+            "m_Key": "f3e600e4-e1c1-4f42-90be-324023862530",
+            "m_OwnerString": "ba7ad1364a6759c469a5ea698b0fd9eb",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints\\Weapons\\Items\\UniquePF2\\Chapter4\\LifeDelivererItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "da1eb967b8aa7bb4494befa39e485bdc",
+            "fileid": "21300000"
+        },
+        "m_Cost": "108000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "13",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "56b884a8b55a70c4d956792c366a1937"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "94c352fba5390434fbd963b1a036e2cc"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 783d7d496da6ac44f9511011fc5f1979 (Enhancement4 :BlueprintWeaponEnchantment)",
+            "link: eebb4d3f20b8caa43af1fed8f2773328 (BaneUndead :BlueprintWeaponEnchantment)",
+            "link: 9c9f4645812e4dad97ad4ac1633328bb (LifeDelivererEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "6d86e6cb7f9e40538f3d6dc434f19fba",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Explosive Fervor",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "e8a41074c0d347a40922d51c1ec362ca",
+                "stringkey": "5c77dcbb-99ff-4b4c-bd92-df300b91f2c7"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "Whenever the wielder of this +5 holy flaming burst light crossbow hits an enemy, all enemies in a 5-foot radius suffer {g|Encyclopedia:Dice}3d6{/g} holy {g|Encyclopedia:Damage}damage{/g}. Successful {g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} ({g|Encyclopedia:DC}DC{/g} 30) halves the damage. In addition, swarms cannot make a Reflex save against this effect and always suffer full damage.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "80005b63be949404e95d3db5e835c947",
+                "stringkey": "3c84ee57-64bb-4169-8ca4-f4498ab47321"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "da1eb967b8aa7bb4494befa39e485bdc",
+            "fileid": "21300000"
+        },
+        "m_Cost": "200000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_IsJunk": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "HideAbilityInfo": "false",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "56b884a8b55a70c4d956792c366a1937"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 28a9964d81fedae44bae3ca45710c140 (Holy :BlueprintWeaponEnchantment)",
+            "link: 3f032a3cd54e57649a0cdad0434bf221 (FlamingBurst :BlueprintWeaponEnchantment)",
+            "link: 30f90becaaac51f41bf56641966c4121 (Flaming :BlueprintWeaponEnchantment)",
+            "link: ec6c3df98da7413fa21ffa5680802762 (ExplosiveFervorEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "522a61a048e1fb54da6087a2a9274cd2",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Shadowkiss",
+            "m_Key": "5e6a2566-5374-4748-a4e4-69e4a83669af",
+            "m_OwnerString": "522a61a048e1fb54da6087a2a9274cd2",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter5/ShadowkissNocticulasItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This weapon is a +5 unholy bane all light crossbow.",
+            "m_Key": "bfe68f7e-e752-49a1-8f5e-d04e3e1905ad",
+            "m_OwnerString": "522a61a048e1fb54da6087a2a9274cd2",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter5/ShadowkissNocticulasItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "b896c2b6fe40646439cb1e22c0bba6db",
+            "fileid": "21300000"
+        },
+        "m_Cost": "150000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment"
+        ],
+        "CR": "0",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "3c649b20883ee8346b7fa14daf1c3154"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: d05753b8df780fc4bb55b318f06af453 (Unholy :BlueprintWeaponEnchantment)",
+            "link: 1a93ab9c46e48f3488178733be29342a (BaneEverything :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "Normal",
+                "Alignment": "Good",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "ColdIron",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "b715c2a672c3435469044cea8e79c244",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Light Crossbow of the Attractive Impulse",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "60788d983e08540458edb6aad59dc79d",
+                "stringkey": "9d0255c5-f064-4d88-9d58-8994c998e930"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This is an intermediate step of relic creation.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "df7fcf361d062cf4c941f3863e564014",
+                "stringkey": "75f37c59-a98d-4672-bea8-c1b4996d0efb"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "This item is adorned with a precious gemstone known as the Attractive Impulse.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "63a68138e6aeeb04f9f52795e3c34138",
+                "stringkey": "ecf4b6c4-3373-49a6-ada1-c601b4a5dc3b"
+            }
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "34b770a95bb1b29458bc5a434191df09",
+            "fileid": "21300000"
+        },
+        "m_Cost": "63000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "true",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "5d09db39c3b5d144d80a6c6f501391fc"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "2cdc803d9f3e17f4abcef6916f962c60",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Passion\u0027s Sweet Poison",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "e222ecd60bfbbbb4b87f8ad2d09a8614",
+                "stringkey": "b6d0bb92-f270-44bc-88bf-3fc67a5c689d"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "Whenever the wielder of this +3 light crossbow lands the first hit in a {g|Encyclopedia:Combat_Round}round{/g} against an enemy, that enemy\u0027s consciousness and love to all life awaken. The enemy starts doubting that violence is an answer and thus will suffer -{g|Encyclopedia:Dice}1d4{/g} {g|Encyclopedia:Penalty}penalty{/g} on {g|Encyclopedia:Attack}attack rolls{/g} for one round.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "cc037c100a41f1f44ac04fd65cca405e",
+                "stringkey": "28ad3baf-06e5-4ee9-b902-076454d25972"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "At the time when the Azlanti Empire was still savoring its golden age of might and glory, the name of Hecatrix was familiar to everyone in the City of Golden Gates. Hecatrix was the queen of courtesans and the most beautiful of women. Her heart-winning power was so great that even kings and queens could not harm her — the cruelest assassins would prostrate themselves at her feet like loyal hounds. Impressed by her beauty and sensuality, the goddesses Shelyn and Calistria decided she should be their priestess and quarreled ferociously over her. Shrewd Hecatrix never was a chooser. She always wanted it all, so she praised each goddess in secret when her rival was not present. She was collecting all the blessings of Shelyn and Calistria in a beautiful gem until one night the truth about her deception was revealed. Both goddesses were enraged by her betrayal, and while the kind Shelyn forgave the traitress, Calistria decided to destroy her. In the course of an unbridled wine-fueled nocturnal orgy of debauchery, the queen of the courtesans was torn to pieces by a crowd driven mad with lust.\\nNo one paid any heed to Hecatrix for two hundred years until one day the sin-soaked soul of a succubus with a magnificent scarlet gemstone on her bosom awakened in the Abyss. The gemstone was called the Attractive Impulse. The gem combined the passion and lust of the queen of courtesans with the blessings of two goddesses, which together forged a dangerous and alluring relic.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "54a54fec9254c90439ad1b3ac9ed0125",
+                "stringkey": "0df23425-6c73-47f5-b68a-db51ebc85a5c"
+            }
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "34b770a95bb1b29458bc5a434191df09",
+            "fileid": "21300000"
+        },
+        "m_Cost": "84000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "5d09db39c3b5d144d80a6c6f501391fc"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: 2324aa11dd8b45549a6e3dcd1e47a2bb (AmberLoveLightCrossbowEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "ddd930462aea5454bad2ba2d63e14f74",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Devouring Lust",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "4285e58547963a7469048cdda236c668",
+                "stringkey": "f6cb02b0-d3d3-4c4c-8b38-d8f295c40038"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "Whenever the wielder of this +3 unholy light crossbow lands a hit, the enemy must pass a {g|Encyclopedia:Saving_Throw}Will saving throw{/g} ({g|Encyclopedia:DC}DC{/g} 20) or their armor is sundered for {g|Encyclopedia:Dice}1d3{/g} {g|Encyclopedia:Combat_Round}rounds{/g}.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "a466a28d4a6dcdd4e9109a1599ecf6b9",
+                "stringkey": "97b14f5b-5c16-427a-bd74-e35ea2eaeafb"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "At the time when the Azlanti Empire was still savoring its golden age of might and glory, the name of Hecatrix was familiar to everyone in the City of Golden Gates. Hecatrix was the queen of courtesans and the most beautiful of women. Her heart-winning power was so great that even kings and queens could not harm her — the cruelest assassins would prostrate themselves at her feet like loyal hounds. Impressed by her beauty and sensuality, the goddesses Shelyn and Calistria decided she should be their priestess and quarreled ferociously over her. Shrewd Hecatrix never was a chooser. She always wanted it all, so she praised each goddess in secret when her rival was not present. She was collecting all the blessings of Shelyn and Calistria in a beautiful gem until one night the truth about her deception was revealed. Both goddesses were enraged by her betrayal, and while the kind Shelyn forgave the traitress, Calistria decided to destroy her. In the course of an unbridled wine-fueled nocturnal orgy of debauchery, the queen of the courtesans was torn to pieces by a crowd driven mad with lust.\\nNo one paid any heed to Hecatrix for two hundred years until one day the sin-soaked soul of a succubus with a magnificent scarlet gemstone on her bosom awakened in the Abyss. The gemstone was called the Attractive Impulse. The gem combined the passion and lust of the queen of courtesans with the blessings of two goddesses, which together forged a dangerous and alluring relic.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "54a54fec9254c90439ad1b3ac9ed0125",
+                "stringkey": "0df23425-6c73-47f5-b68a-db51ebc85a5c"
+            }
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "34b770a95bb1b29458bc5a434191df09",
+            "fileid": "21300000"
+        },
+        "m_Cost": "84000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "5d09db39c3b5d144d80a6c6f501391fc"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: d05753b8df780fc4bb55b318f06af453 (Unholy :BlueprintWeaponEnchantment)",
+            "link: 99ee077a2bb409b41b77a5732f6d2de5 (AmberLustLightCrossbowEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "fd76c99a3f65e3f4fa73b6753d7f500c",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean the Talking Weapon",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96b6d9d9fa75e4e44984a3d12c4c63ba",
+                "stringkey": "b29f1539-eb5c-4c09-bd68-b172f3786659"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This is a +1 cold iron ghost touch weapon.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "29acffbc69d1b95449d5ce6613a66ffa",
+                "stringkey": "8227ec85-8b4b-45dc-b6c7-2cd9629205f8"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_RE"
+        ],
+        "CR": "4",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: e5990dc76d2a613409916071c898eee8 (ColdIronWeaponEnchantment :BlueprintWeaponEnchantment)",
+            "link: 47857e1a5a3ec1a46adf6491b1423b4f (GhostTouch :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "true",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "ColdIron",
+                "Form": "Piercing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "b48aa6a368a24824b9ac901b55b0c289",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean the Talking Weapon",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96b6d9d9fa75e4e44984a3d12c4c63ba",
+                "stringkey": "b29f1539-eb5c-4c09-bd68-b172f3786659"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This is a +3 brilliant energy heartseeker weapon. This weapon can tear the soul of a living enemy: whenever it lands a hit, it deals additional {g|Encyclopedia:Dice}1d6{/g} force {g|Encyclopedia:Damage}damage{/g}.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96d85cdc54d63e14cb734b39ce17c9c1",
+                "stringkey": "92e9d91d-c458-49ef-9629-7836c41cc338"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "67b23c8f8b02ee544817a6419b67f7fc",
+            "fileid": "21300000"
+        },
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "c782a6b263f40954b9bdbe67f34c1e34"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: 66e9e299c9002ea4bb65b6f300e43770 (BrilliantEnergy :BlueprintWeaponEnchantment)",
+            "link: e252b26686ab66241afdf33f2adaead6 (Heartseeker :BlueprintWeaponEnchantment)",
+            "link: b183bd491793d194c9e4c96cd11769b1 (FinneanChapter3Enchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "a90018d1841186c4e9335d5392bacfa9",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean the Talking Weapon",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96b6d9d9fa75e4e44984a3d12c4c63ba",
+                "stringkey": "b29f1539-eb5c-4c09-bd68-b172f3786659"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c3cd7395d76f05b469d05d41b899af6f",
+            "fileid": "21300000"
+        },
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "7f1938f2a5f239c44b0fad70118353c0"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 66e9e299c9002ea4bb65b6f300e43770 (BrilliantEnergy :BlueprintWeaponEnchantment)",
+            "link: 6b66e949f348ccd4989a5fd9254f8958 (FinneanChapter5EnchantmentBase :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "bcaf26636c251c347b8b6d4f113f0678",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "c4b7a463512eb694bbe9571323ede197",
+                "stringkey": "ccb5c705-7ac0-4b1c-ad69-7fcea827ebc9"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "This weapon was once the seat of Finnean\u0027s soul. Now that the soul of the Sarkorian Pathfinder has left the weapon, it has fallen silent forever.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "ceac81e5a8f907d4fb5c6dee3447b300",
+                "stringkey": "35efb8b0-3805-402f-b349-24911dfca762"
+            }
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "34b770a95bb1b29458bc5a434191df09",
+            "fileid": "21300000"
+        },
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "5d09db39c3b5d144d80a6c6f501391fc"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: d525e7a6d8d5aa648a976ac41194b8d0 (LightCrossbow :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 66e9e299c9002ea4bb65b6f300e43770 (BrilliantEnergy :BlueprintWeaponEnchantment)",
+            "link: 9aa9af4b654662945a410644d3db8d99 (FinneanChapter5EnchantmentLich :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+}]

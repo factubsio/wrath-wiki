@@ -1,0 +1,106 @@
+{
+  "features": [
+    {
+      "name": "Diverse Training",
+      "desc": "An eldritch knight adds his level to any levels of fighter he might have for the purpose of meeting the prerequisites for {g|Encyclopedia:Feat}feats{/g} (if he has no fighter levels, treat his eldritch knight levels as levels of fighter). He also adds his level to any levels in an arcane {g|Encyclopedia:Spell}spellcasting{/g} class for the purpose of meeting the prerequisites for feats.",
+      "icon": "ef075f9e062a6464fa67961e33c9fd6b"
+    },
+    {
+      "name": "Bonus Combat Feat",
+      "desc": "At 1st level, an eldritch knight may choose a {g|Encyclopedia:Bonus}bonus{/g} combat {g|Encyclopedia:Feat}feat{/g}. This is in addition to the feats that a character of any class normally gets from advancing levels. The character must still meet any prerequisites for these bonus feats. An eldritch knight gains an additional combat feat at 5th and 9th level.",
+      "icon": "gen__BCF"
+    },
+    {
+      "name": "Arcane Spellcasting",
+      "desc": "At 2nd level, and at every level thereafter, an eldritch knight gains new {g|Encyclopedia:Spell}spells{/g} per day as if he had also gained a level in an arcane spellcasting class he belonged to before adding the prestige class. He does not, however, gain any other benefit a character of that class would have gained, except for additional spells per day, spells known, and an increased effective level of spellcasting. If a character had more than one arcane spellcasting class before becoming an eldritch knight, he must decide to which class he adds the new level for purposes of determining spells per day.",
+      "icon": "gen__AS"
+    },
+    {
+      "name": "Spell Critical",
+      "desc": "At 10th level, whenever an eldritch knight successfully confirms a {g|Encyclopedia:Critical}critical hit{/g}, the next {g|Encyclopedia:Spell}spell{/g} he casts within 2 {g|Encyclopedia:Combat_Round}rounds{/g} will be cast as {g|Encyclopedia:Swift_Action}swift action{/g}, as if quickened.",
+      "icon": "15d11c952fdc96b45849f312f3931192"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1
+    ],
+    [
+      2
+    ],
+    [],
+    [],
+    [
+      1
+    ],
+    [],
+    [],
+    [],
+    [
+      1
+    ],
+    [
+      3
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "__ui-groups": [],
+  "name": "Eldritch Knight",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "EldritchKnightDiverseTraining"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "EldritchKnightFeatSelection"
+      },
+      {
+        "level": 5,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "EldritchKnightFeatSelection"
+      },
+      {
+        "level": 9,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "EldritchKnightFeatSelection"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "EldritchKnightSpellbookSelection"
+      }
+    ],
+    [
+      {
+        "level": 10,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "EldritchKnightSpellCriticalFeature"
+      }
+    ]
+  ]
+}

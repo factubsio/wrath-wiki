@@ -1,0 +1,380 @@
+{
+  "features": [
+    {
+      "name": "Burn",
+      "desc": "At 1st level, a kineticist can overexert herself to channel more power than normal, pushing past the limit of what is safe for her body by accepting burn. Some of her wild talents allow her to accept burn in exchange for a greater effect, while others require her to accept a certain amount of burn to use that talent at all. For each point of burn she accepts, a kineticist takes (1 per {g|Encyclopedia:Character_Level}character level{/g}) points of\u00A0nonlethal {g|Encyclopedia:Damage}damage{/g}. This damage can\u0027t be {g|Encyclopedia:Healing}healed{/g} by any means other than getting a full night\u0027s {g|Encyclopedia:Rest}rest{/g}, which removes all burn and associated\u00A0nonlethal damage. Nonlethal damage from burn can\u0027t be reduced or redirected, and a kineticist incapable of taking\u00A0nonlethal damage\u00A0can\u0027t accept burn. A kineticist can accept only 1 point of burn per {g|Encyclopedia:Combat_Round}round{/g}. This limit rises to 2 points of burn at 6th level, and rises by 1 additional point every 3 levels thereafter. A kineticist can\u0027t choose to accept burn if it would put her total number of points of burn higher than (3 \u002B her\u00A0{g|Encyclopedia:Constitution}Constitution{/g}\u00A0modifier), though she can be forced to accept more burn from a source outside her control. A kineticist who has accepted burn never benefits from abilities that allow her to ignore or alter the effects she receives from\u00A0nonlethal damage.",
+      "icon": "gen__B"
+    },
+    {
+      "name": "Weapon and Armor Proficiency",
+      "desc": "Kineticists are proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g} and light armor, but not shields.",
+      "icon": "gen__WAP"
+    },
+    {
+      "name": "Elemental Focus",
+      "desc": "At 1st level, a kineticist chooses one primary element on which to focus. This element determines how she accesses the raw power of the\u00A0Ethereal Plane, and grants her access to specific wild talents and additional class {g|Encyclopedia:Skills}skills{/g}. She gains her selected element\u0027s basic utility wild talent (basic aerokinesis, etc.) as a {g|Encyclopedia:Bonus}bonus{/g} wild talent.",
+      "icon": "gen__EF"
+    },
+    {
+      "name": "Infusion",
+      "desc": "At 1st level, a kineticist gains an infusion wild talent from the list of options available based on her elemental focus. She gains additional infusions at 3rd, 5th, 9th, 11th, 13th, 17th, and 19th levels. By using infusions along with her kinetic blasts, a kineticist can alter her kinetic blasts to suit her needs. Infusions come in two types, each of which changes a kinetic blast differently: a substance infusion causes an additional effect, while a form infusion causes the kinetic blast to manifest in a different way. Each infusion can alter only certain kinds of kinetic blasts, which are listed in its Associated Blasts entry. Each time the kineticist uses one of her kinetic blast wild talents, she can apply up to one associated form infusion and up to one associated substance infusion.\nSome infusions change the {g|Encyclopedia:CA_Types}action{/g} required to activate a kinetic blast or entirely transform the kinetic blast\u0027s normal effects.\nThe burn cost listed in each infusion\u0027s Burn entry is added to the burn cost of the kinetic blast the infusion modifies.\nThe {g|Encyclopedia:DC}DC{/g} for a {g|Encyclopedia:Saving_Throw}save{/g} against an infusion is based on the associated kinetic blast\u0027s effective {g|Encyclopedia:Spell}spell{/g} level, not the level of the infusion. The DCs for form infusions are calculated using the kineticist\u0027s\u00A0{g|Encyclopedia:Dexterity}Dexterity{/g} modifier instead of her\u00A0{g|Encyclopedia:Constitution}Constitution{/g}\u00A0modifier. When a kineticist modifies a kinetic blast with a form infusion and a substance infusion that both require saving throws, each target first attempts a saving throw against the form infusion. If a target succeeds and a successful save negates the infusion\u0027s effects, the entire kinetic blast is negated; otherwise, the target then attempts a saving throw against the substance infusion. If a kineticist\u0027s form and substance infusions both alter the kinetic blast\u0027s {g|Encyclopedia:Damage}damage{/g}, apply the substance infusion\u0027s alteration first.",
+      "icon": "1f5f5d7356e6b6448bfd6d507a7893d8"
+    },
+    {
+      "name": "Kinetic Blast",
+      "desc": "At 1st level, a kineticist gains a kinetic blast wild talent of her choice. This kinetic blast must be a simple blast that matches her element.\nAs a\u00A0{g|Encyclopedia:Standard_Actions}standard action{/g}, the kineticist can unleash a kinetic blast at a single target in close range. She must have at least one hand free to aim the blast. All {g|Encyclopedia:Damage}damage{/g} from a kinetic blast is treated as magic for the purpose of bypassing\u00A0{g|Encyclopedia:Damage_Reduction}damage reduction{/g}. Kinetic blasts count as a type of weapon for the purpose of {g|Encyclopedia:Feat}feats{/g} such as\u00A0Weapon Focus. The kineticist is never considered to be wielding or gripping the kinetic blast, and she can\u0027t use\u00A0Vital Strike\u00A0feats with kinetic blasts. Even the weakest kinetic blast involves a sizable mass of elemental matter or energy, so kinetic blasts always deal full damage to swarms of any {g|Encyclopedia:Size}size{/g} (though only area blasts deal extra damage to swarms).\nEach simple blast is either a physical blast or an energy blast.\nPhysical blasts are {g|Encyclopedia:RangedAttack}ranged attacks{/g} that deal an amount of damage equal to {g|Encyclopedia:Dice}1d6{/g}\u002B1 \u002B the kineticist\u0027s\u00A0{g|Encyclopedia:Constitution}Constitution{/g}\u00A0modifier, increasing by 1d6\u002B1 for every 2 kineticist levels beyond 1st. {g|Encyclopedia:Spell_Resistance}Spell resistance{/g} doesn\u0027t apply against physical blasts.\nEnergy blasts are ranged {g|Encyclopedia:TouchAttack}touch attacks{/g} that deal an amount of damage equal to 1d6 \u002B 1/2 the kineticist\u0027s\u00A0Constitution\u00A0modifier, increasing by 1d6 for every 2 kineticist levels beyond 1st.\nComposite blasts combine elements to form a new blast. When a kineticist gains a new element through\u00A0expanded element, she gains access to all composite blasts for which she qualifies.\nMost composite blasts are either physical or energy blasts, like simple blasts.\nPhysical composite blasts deal an amount of damage equal to 2d6\u002B2 \u002B the kineticist\u0027s\u00A0Constitution\u00A0modifier, increasing by 2d6\u002B2 for every 2 kineticist levels beyond 1st.\nEnergy composite blasts deal an amount of damage equal to 2d6 \u002B 1/2 the kineticist\u0027s\u00A0Constitution\u00A0modifier, increasing by 2d6 for every 2 kineticist levels beyond 1st.",
+      "icon": "gen__KB"
+    },
+    {
+      "name": "Wild Talents",
+      "desc": "A kineticist can use wild talents \u2014 magical abilities similar to {g|Encyclopedia:Spell}spells{/g} but drawn from the kineticist\u0027s innate psychic talent and usable at will. Wild talents are typically\u00A0{g|Encyclopedia:Special_Abilities}spell-like abilities{/g}\u00A0(though some are\u00A0supernatural\u00A0abilities), and take a\u00A0{g|Encyclopedia:Standard_Actions}standard action{/g}\u00A0to use unless otherwise noted. Every wild talent has an effective spell level. A kineticist can always select 1st-level wild talents, but she can select a wild talent of a higher level only if her kineticist level is at least double the wild talent\u0027s effective spell level. Kinetic blast and defense wild talents are always considered to have an effective spell level equal to 1/2 the kineticist\u0027s {g|Encyclopedia:Class_Level}class level{/g} (to a maximum effective spell level of 9th at kineticist level 18th). Unless otherwise noted, the {g|Encyclopedia:DC}DC{/g} for a {g|Encyclopedia:Saving_Throw}saving throw{/g} against a wild talent is equal to 10 \u002B the wild talent\u0027s effective spell level \u002B the kineticist\u0027s {g|Encyclopedia:Constitution}Constitution{/g}\u00A0modifier. The kineticist uses her\u00A0Constitution modifier on all\u00A0{g|Encyclopedia:Concentration}concentration{/g}\u00A0{g|Encyclopedia:Check}checks{/g} for wild talents. In addition to the wild talents she gains from her other class features, at 2nd level and every 2 levels thereafter, a kineticist selects a new utility wild talent from the list of options available to her. A kineticist can select only universal wild talents or those that match her element.",
+      "icon": "gen__WT"
+    },
+    {
+      "name": "Elemental Overflow",
+      "desc": "At 3rd level, a kineticist\u0027s body surges with energy from her chosen element whenever she accepts burn. In addition, she receives a {g|Encyclopedia:Bonus}bonus{/g} on her\u00A0{g|Encyclopedia:Attack}attack rolls{/g}\u00A0with kinetic blasts equal to the total number of points of burn she currently has, to a maximum bonus of \u002B1 for every 3 kineticist levels she possesses. She also receives a bonus on {g|Encyclopedia:Damage}damage rolls{/g} with her kinetic blast equal to double the bonus on\u00A0attack {g|Encyclopedia:Dice}rolls{/g}.\nAs a kineticist\u0027s body becomes more and more suffused with her element, she begins to gain more powerful benefits.\nStarting at 6th level, whenever she has at least 3 points of burn, the kineticist gains a \u002B2\u00A0{g|Encyclopedia:Size}size{/g} bonus\u00A0to two physical {g|Encyclopedia:Ability_Scores}ability scores{/g} of her choice. She also gains a chance to ignore the effects of a\u00A0{g|Encyclopedia:Critical}critical hit{/g} or\u00A0sneak attack\u00A0equal to 5% for every current point of burn. At 11th level, whenever the kineticist has at least 5 points of burn, these bonuses increase to a \u002B4\u00A0size bonus\u00A0to one physical ability score of her choice and a \u002B2\u00A0size bonus\u00A0to each of her other two physical ability scores.\nAt 16th level, whenever the kineticist has at least 7 points of burn, these bonuses increase to a \u002B6\u00A0size bonus\u00A0to one physical ability score of her choice, a \u002B4\u00A0size bonus\u00A0to a second physical ability score of her choice, and a \u002B2\u00A0size bonus\u00A0to the remaining physical ability score.",
+      "icon": "gen__EO"
+    },
+    {
+      "name": "Metakinesis \u2014 Empowered",
+      "desc": "At 5th level, a kineticist gains the ability to alter her kinetic blasts as if with\u00A0metamagic {g|Encyclopedia:Feat}feats{/g}\u00A0by accepting burn. By accepting 1 point of burn, she can empower her kinetic blast (as if using\u00A0Empower {g|Encyclopedia:Spell}Spell{/g}). At 9th level, by accepting 2 points of burn, she can maximize her kinetic blast as if using\u00A0Maximize Spell. At 13th level, by accepting 3 points of burn, she can quicken her kinetic blast as if using\u00A0Quicken Spell.",
+      "icon": "3c7ea7228ae2fdb4a9a87d7fdf3465cc"
+    },
+    {
+      "name": "Expanded Element",
+      "desc": "At 7th level, a kineticist learns to use another element or expands her understanding of her own element. She can choose any element, including her primary element. She gains one of that element\u0027s simple blast wild talents that she does not already possess, if any. She also gains all composite blast wild talents whose prerequisites she meets. She doesn\u0027t gain the defensive wild talent of the expanded element unless she later selects it with the\u00A0expanded defense\u00A0utility wild talent.\nAt 15th level, the kineticist can either select a new element or expand her understanding of her original element. She can\u0027t select the same element she selected at 7th level. She gains all the benefits from her new expanded element as listed above.",
+      "icon": "gen__EE"
+    },
+    {
+      "name": "Metakinesis \u2014 Maximized",
+      "desc": "At 5th level, a kineticist gains the ability to alter her kinetic blasts as if with\u00A0metamagic {g|Encyclopedia:Feat}feats{/g}\u00A0by accepting burn. By accepting 1 point of burn, she can empower her kinetic blast (as if using\u00A0Empower {g|Encyclopedia:Spell}Spell{/g}). At 9th level, by accepting 2 points of burn, she can maximize her kinetic blast as if using\u00A0Maximize Spell. At 13th level, by accepting 3 points of burn, she can quicken her kinetic blast as if using\u00A0Quicken Spell.",
+      "icon": "ee077ba5f8174f148a74c4543e58fac9"
+    },
+    {
+      "name": "Supercharge",
+      "desc": "At 11th level, when using gather power as a\u00A0{g|Encyclopedia:Move_Action}move action{/g}, a kineticist can reduce the total burn cost of a single wild talent by 2 points instead of 1. When using gather power for 1 full {g|Encyclopedia:Combat_Round}round{/g}, she can reduce the burn cost of a single wild talent by 3 points instead of 2.",
+      "icon": "gen__S"
+    },
+    {
+      "name": "Metakinesis \u2014 Quicken",
+      "desc": "At 5th level, a kineticist gains the ability to alter her kinetic blasts as if with\u00A0metamagic {g|Encyclopedia:Feat}feats{/g}\u00A0by accepting burn. By accepting 1 point of burn, she can empower her kinetic blast (as if using\u00A0Empower {g|Encyclopedia:Spell}Spell{/g}). At 9th level, by accepting 2 points of burn, she can maximize her kinetic blast as if using\u00A0Maximize Spell. At 13th level, by accepting 3 points of burn, she can quicken her kinetic blast as if using\u00A0Quicken Spell.",
+      "icon": "ed900c6a7b1c40341b9aa325c6068e37"
+    },
+    {
+      "name": "Expanded Element",
+      "desc": "At 7th level, a kineticist learns to use another element or expands her understanding of her own element. She can choose any element, including her primary element. She gains one of that element\u0027s simple blast wild talents that she does not already possess, if any. She also gains all composite blast wild talents whose prerequisites she meets. She doesn\u0027t gain the defensive wild talent of the expanded element unless she later selects it with the\u00A0expanded defense\u00A0utility wild talent.\nAt 15th level, the kineticist can either select a new element or expand her understanding of her original element. She can\u0027t select the same element she selected at 7th level. She gains all the benefits from her new expanded element as listed above.",
+      "icon": "gen__EE"
+    },
+    {
+      "name": "Composite Specialization",
+      "desc": "At 16th level, a kineticist becomes more adept at creating composite blasts. She reduces the burn cost of all composite blasts by 1 point.\nThis can\u0027t reduce the cost of a composite blast below 0 points.",
+      "icon": "gen__CS"
+    },
+    {
+      "name": "Metakinetic Master",
+      "desc": "At 19th level, a kineticist chooses one type of metakinesis, such as empower or quicken. She reduces the burn cost of that metakinesis by 1 point (to a minimum of 0 points).",
+      "icon": "gen__MM"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      5
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      5
+    ],
+    [
+      8
+    ],
+    [
+      5
+    ],
+    [
+      3,
+      9
+    ],
+    [
+      5
+    ],
+    [
+      3,
+      10
+    ],
+    [
+      5
+    ],
+    [
+      3,
+      11
+    ],
+    [
+      5
+    ],
+    [
+      12
+    ],
+    [
+      5,
+      13
+    ],
+    [
+      3
+    ],
+    [
+      5
+    ],
+    [
+      3,
+      14
+    ],
+    [
+      5
+    ]
+  ],
+  "__ui-groups": [
+    [
+      3
+    ],
+    [
+      2,
+      8,
+      12,
+      13
+    ],
+    [
+      7,
+      14,
+      9,
+      11
+    ],
+    [],
+    [
+      10,
+      6
+    ]
+  ],
+  "name": "Kineticist",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "BurnFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "KineticistProficiencies"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "ElementalFocusSelection"
+      },
+      {
+        "level": 7,
+        "feature": 8,
+        "rank": -1,
+        "__debug": "SecondatyElementalFocusSelection"
+      },
+      {
+        "level": 15,
+        "feature": 12,
+        "rank": -1,
+        "__debug": "ThirdElementalFocusSelection"
+      },
+      {
+        "level": 16,
+        "feature": 13,
+        "rank": -1,
+        "__debug": "CompositeBlastSpecialisation"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "InfusionSelection"
+      },
+      {
+        "level": 3,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "InfusionSelection"
+      },
+      {
+        "level": 5,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "InfusionSelection"
+      },
+      {
+        "level": 9,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "InfusionSelection"
+      },
+      {
+        "level": 11,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "InfusionSelection"
+      },
+      {
+        "level": 13,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "InfusionSelection"
+      },
+      {
+        "level": 17,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "InfusionSelection"
+      },
+      {
+        "level": 19,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "InfusionSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "KineticBlastProgression"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "WildTalentSelection"
+      },
+      {
+        "level": 4,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "WildTalentSelection"
+      },
+      {
+        "level": 6,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "WildTalentSelection"
+      },
+      {
+        "level": 8,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "WildTalentSelection"
+      },
+      {
+        "level": 10,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "WildTalentSelection"
+      },
+      {
+        "level": 12,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "WildTalentSelection"
+      },
+      {
+        "level": 14,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "WildTalentSelection"
+      },
+      {
+        "level": 16,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "WildTalentSelection"
+      },
+      {
+        "level": 18,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "WildTalentSelection"
+      },
+      {
+        "level": 20,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "WildTalentSelection"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "ElementalOverflowBonusFeature"
+      },
+      {
+        "level": 11,
+        "feature": 10,
+        "rank": -1,
+        "__debug": "Supercharge"
+      }
+    ],
+    [
+      {
+        "level": 5,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "MetakinesisEmpowerFeature"
+      },
+      {
+        "level": 9,
+        "feature": 9,
+        "rank": -1,
+        "__debug": "MetakinesisMaximizedFeature"
+      },
+      {
+        "level": 13,
+        "feature": 11,
+        "rank": -1,
+        "__debug": "MetakinesisQuickenFeature"
+      },
+      {
+        "level": 19,
+        "feature": 14,
+        "rank": -1,
+        "__debug": "MetakinesisMaster"
+      }
+    ]
+  ]
+}

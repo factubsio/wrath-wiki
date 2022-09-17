@@ -1,0 +1,246 @@
+{
+  "features": [
+    {
+      "name": "Animal Companion",
+      "desc": "Unlike normal animals of its kind, an animal companion\u0027s {g|Encyclopedia:Hit_Dice}Hit Dice{/g}, abilities, {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Feat}feats{/g} advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in {g|Encyclopedia:Size}size{/g} when their druid reaches 4th or 7th level, depending on the companion.",
+      "icon": "736cb7b0def6ff147b921c75c54a81a0"
+    },
+    {
+      "name": "Weapon and Armor Proficiency",
+      "desc": "A hunter is proficient with all simple and {g|Encyclopedia:Weapon_Proficiency}martial weapons{/g} and with light armor, medium armor, and shields (except tower shields).",
+      "icon": "gen__WAP"
+    },
+    {
+      "name": "Animal Focus",
+      "desc": "At 1st level, the hunter can grant an animal aspect to her animal companion. Unlike with the hunter herself, there is no duration on the animal aspect applied to her animal companion. An aspect applied in this way remains in effect until the hunter changes it.\nIf the hunter\u0027s animal companion is dead, the hunter can apply her companion\u0027s animal focus to herself instead of her animal companion.\nAdditionally, a hunter can take on the aspect of an animal as a {g|Encyclopedia:Swift_Action}swift action{/g}. She gets the same benefits as the current animal companion focus. The hunter can use this ability for a number of minutes per day equal to her level. This duration does not need to be consecutive, but must be spent in 1-minute increments.",
+      "icon": "f53faf1e665cee144ad20fd2d16501d4"
+    },
+    {
+      "name": "Nature Sense",
+      "desc": "A hunter gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Lore_Nature}Lore (nature){/g} {g|Encyclopedia:Check}checks{/g}.",
+      "icon": "733daf4652e9cad4d853fadfcbf6ed46"
+    },
+    {
+      "name": "Woodland Stride",
+      "desc": "At 3rd level, you can move through any sort difficult terrain at your normal {g|Encyclopedia:Speed}speed{/g} and without taking {g|Encyclopedia:Damage}damage{/g} or suffering any other impairment.",
+      "icon": "b38e3032f469bc14696d7270d6e7b5f2"
+    },
+    {
+      "name": "Precise Companion",
+      "desc": "At 2nd level, a hunter chooses either Precise Shot or Outflank as a bonus {g|Encyclopedia:Feat}feat{/g}. She does not need to meet the prerequisites for this feat.",
+      "icon": "gen__PC"
+    },
+    {
+      "name": "Hunter Tactics",
+      "desc": "At 3rd level, the hunter automatically grants her teamwork {g|Encyclopedia:Feat}feats{/g} to her animal companion. The companion doesn\u0027t need to meet the prerequisites of these teamwork feats.",
+      "icon": "ddf30d3e62eb1b94a9e3c1f1901f0102"
+    },
+    {
+      "name": "Teamwork Feat",
+      "desc": "At 3rd level and every 3 levels thereafter, the hunter gains a bonus teamwork {g|Encyclopedia:Feat}feat{/g} in addition to those gained from normal advancement. The hunter must meet the prerequisites of the selected bonus teamwork feat.",
+      "icon": "8dd271d8a75a63e4dbdee2f5c396dfbe"
+    },
+    {
+      "name": "Second Animal Focus",
+      "desc": "At 8th level, whenever a hunter uses her animal focus ability, she selects two different animal aspects for herself instead of one, and can assign two aspects to her companion instead of one.",
+      "icon": "f53faf1e665cee144ad20fd2d16501d4"
+    },
+    {
+      "name": "Raise Animal Companion",
+      "desc": "At 10th level, a hunter gains raise animal companion as a {g|Encyclopedia:Special_Abilities}spell-like ability{/g}. At 16th level, this functions as resurrection instead of raise dead, but otherwise operates as normal.",
+      "icon": "eb22d7b246ad2be44ac8b84d9a6fd3d3"
+    },
+    {
+      "name": "One with the Wild",
+      "desc": "At 17th level, the hunter\u0027s animal companion are respected or even feared by other animals.\nThe hunter and her companion can attempt to demoralize all animals in a 30-foot radius as a {g|Encyclopedia:Swift_Action}swift action{/g}, as if using dazzling display.",
+      "icon": "3f34af3e1886c654889e0656215500c4"
+    },
+    {
+      "name": "Master Hunter",
+      "desc": "At 20th level, a hunter becomes a master hunter. He gains the ability to receive the animal focus benefits any amount of times per day.",
+      "icon": "819497a606556814293d5e36231b7cbd"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [],
+    [],
+    [
+      7
+    ],
+    [],
+    [
+      8
+    ],
+    [
+      7
+    ],
+    [
+      9
+    ],
+    [],
+    [
+      7
+    ],
+    [],
+    [],
+    [
+      7
+    ],
+    [],
+    [
+      10
+    ],
+    [
+      7
+    ],
+    [],
+    [
+      11
+    ]
+  ],
+  "__ui-groups": [],
+  "name": "Hunter",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "AnimalCompanionSelectionHunter"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "HunterProficiencies"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "HunterAnimalFocusFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "NatureSense"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "BloodlineFeyWoodlandStride"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "HunterPreciseCompanion"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "HunterTactics"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "HunterTeamworkFeatSelection"
+      },
+      {
+        "level": 6,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "HunterTeamworkFeatSelection"
+      },
+      {
+        "level": 9,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "HunterTeamworkFeatSelection"
+      },
+      {
+        "level": 12,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "HunterTeamworkFeatSelection"
+      },
+      {
+        "level": 15,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "HunterTeamworkFeatSelection"
+      },
+      {
+        "level": 18,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "HunterTeamworkFeatSelection"
+      }
+    ],
+    [
+      {
+        "level": 8,
+        "feature": 8,
+        "rank": -1,
+        "__debug": "HunterExtraAnimalFocus"
+      }
+    ],
+    [
+      {
+        "level": 10,
+        "feature": 9,
+        "rank": -1,
+        "__debug": "HunterRaiseCompanion"
+      }
+    ],
+    [
+      {
+        "level": 17,
+        "feature": 10,
+        "rank": -1,
+        "__debug": "HunterOneWithTheWildFeature"
+      }
+    ],
+    [
+      {
+        "level": 20,
+        "feature": 11,
+        "rank": -1,
+        "__debug": "MasterHunter"
+      }
+    ]
+  ]
+}

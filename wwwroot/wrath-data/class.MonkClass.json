@@ -1,0 +1,502 @@
+{
+  "features": [
+    {
+      "name": "Flurry of Blows",
+      "desc": "At 1st level, a monk can make a flurry of blows as a full {g|Encyclopedia:Attack}attack{/g}. When making a flurry of blows, the monk can make one additional attack at his highest {g|Encyclopedia:BAB}base attack bonus{/g}. This additional attack stacks with the {g|Encyclopedia:Bonus}bonus{/g} attacks from haste and other similar effects. When using this ability, the monk can make these attacks with any combination of his {g|Encyclopedia:UnarmedAttack}unarmed{/g} strikes and weapons that have the monk special weapon quality. He takes no {g|Encyclopedia:Penalty}penalty{/g} for using multiple weapons when making a flurry of blows, but he does not gain any additional attacks beyond what\u0027s already granted by the flurry for doing so. (He can still gain additional attacks from a high base attack bonus, from this ability, and from haste and similar effects).\nAt 11th level, a monk can make an additional attack at his highest base attack bonus whenever he makes a flurry of blows. This stacks with the first attack from this ability and additional attacks from haste and similar effects.",
+      "icon": "4ee67cde629a9d14cb40a3560510d06b"
+    },
+    {
+      "name": "Improved Unarmed Strike",
+      "desc": "You are considered to be armed even when {g|Encyclopedia:UnarmedAttack}unarmed{/g} \u2014 you can make unarmed {g|Encyclopedia:Attack}attacks{/g} that deal {g|Encyclopedia:Dice}1d3{/g} {g|Encyclopedia:Damage_Type}bludgeoning damage{/g} (if Medium; 1d2 if Small).",
+      "icon": "d60046ccc24387f4e8f6ecb5278ef88f"
+    },
+    {
+      "name": "AC Bonus",
+      "desc": "When unarmored and unencumbered, the monk adds his {g|Encyclopedia:Wisdom}Wisdom{/g} {g|Encyclopedia:Bonus}bonus{/g} (if any) to his {g|Encyclopedia:Armor_Class}AC{/g} and {g|Encyclopedia:CMD}CMD{/g}. In addition, a monk gains a \u002B1 bonus to AC and CMD at 4th level. This bonus increases by 1 for every four monk levels thereafter, up to a maximum of \u002B5 at 20th level.\nThese bonuses to AC apply even against {g|Encyclopedia:TouchAttack}touch attacks{/g} or when the monk is {g|Encyclopedia:Flat_Footed}flat-footed{/g}. He loses these bonuses when he is immobilized or {g|Encyclopedia:Helpless}helpless{/g}, when he wears any armor, when he carries a shield, or when he carries a medium or heavy load.",
+      "icon": "gen__ACB"
+    },
+    {
+      "name": "Stunning Fist",
+      "desc": "You know just where to strike to temporarily stun a foe.\nYou must use this {g|Encyclopedia:Feat}feat{/g} before you make your {g|Encyclopedia:Attack}attack{/g} (thus, a failed attack {g|Encyclopedia:Dice}roll{/g} ruins the attempt). Stunning Fist forces a foe {g|Encyclopedia:Damage}damaged{/g} by your {g|Encyclopedia:UnarmedAttack}unarmed attack{/g} to make a {g|Encyclopedia:Saving_Throw}Fortitude saving throw{/g} ({g|Encyclopedia:DC}DC{/g} 10 \u002B half your {g|Encyclopedia:Character_Level}character level{/g} \u002B your {g|Encyclopedia:Wisdom}Wis{/g} modifier), in addition to dealing damage normally. A defender who fails this saving throw is stunned for 1 {g|Encyclopedia:Combat_Round}round{/g} (until just before your next turn). A stunned character drops everything held, can\u0027t take {g|Encyclopedia:CA_Types}actions{/g}, loses any {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g}, and takes a \u20132 {g|Encyclopedia:Penalty}penalty{/g} to AC. You may attempt a stunning attack once per day for every four levels you have attained, and no more than once per round. Constructs, oozes, plants, undead, {g|Encyclopedia:Incorporeal_Touch_Attack}incorporeal{/g} creatures, and creatures immune to {g|Encyclopedia:Critical}critical hits{/g} cannot be stunned.",
+      "icon": "bb4d74bc9f2b4ec499a8d4373c6be254"
+    },
+    {
+      "name": "Unarmed Strike",
+      "desc": "At 1st level, a monk gains Improved Unarmed Strike as a bonus {g|Encyclopedia:Feat}feat{/g}. The {g|Encyclopedia:Damage}damage{/g} dealt by a Medium monk\u0027s {g|Encyclopedia:UnarmedAttack}unarmed{/g} strike increases with level: {g|Encyclopedia:Dice}1d6{/g} at levels 1\u20133, 1d8 at levels 4\u20137, 1d10 at levels 8\u201311, 2d6 at levels 12\u201315, 2d8 at levels 16\u201319, and 2d10 at level 20.\nIf the monk is Small, his unarmed strike damage increases as follows: 1d4 at levels 1\u20133, 1d6 at levels 4\u20137, 1d8 at levels 8\u201311, 1d10 at levels 12\u201315, 2d6 at levels 16\u201319, and 2d8 at level 20.\nIf the monk is Large, his unarmed strike damage increases as follows: 1d8 at levels 1\u20133, 2d6 at levels 4\u20137, 2d8 at levels 8\u201311, 3d6 at levels 12\u201315, 3d8 at levels 16\u201319, and 4d8 at level 20.",
+      "icon": "gen__US"
+    },
+    {
+      "name": "Monk Bonus Feat",
+      "desc": "At 1st level, 2nd level, and every 4 levels thereafter, a monk can select a bonus {g|Encyclopedia:Feat}feat{/g}. These feats must be taken from the following list: Combat Reflexes, Dodge, Crane Style, Blind Fight, Improved {g|Encyclopedia:Initiative}Initiative{/g}, Deflect Arrows.\nAt 6th level, the following feats are added to the list: Improved Trip, Improved Disarm\nAt 10th level, the following feats are added to the list: Improved {g|Encyclopedia:Critical}Critical{/g}, Improved Blind Fight.\nA monk need not have any of the prerequisites normally required for these feats to select them.",
+      "icon": "gen__MBF"
+    },
+    {
+      "name": "Monk Proficiencies",
+      "desc": "Monks are proficient with the club, crossbow (light or heavy), dagger, handaxe, javelin, kama, nunchaku, quarterstaff, sai, shortsword, shortspear, shuriken, siangham, sling, spear, and any weapon with the monk special weapon quality.\nMonks are not proficient with any armor or shields.\nWhen wearing armor, using a shield, or carrying a medium or heavy load, a monk loses his {g|Encyclopedia:Armor_Class}AC{/g} {g|Encyclopedia:Bonus}bonus{/g}, as well as his fast movement and flurry of blows abilities.",
+      "icon": "gen__MP"
+    },
+    {
+      "name": "Evasion",
+      "desc": "A character can avoid even magical and unusual {g|Encyclopedia:Attack}attacks{/g} with great agility. If a character makes a successful {g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} against an attack that normally deals half {g|Encyclopedia:Damage}damage{/g} on a successful save, he instead takes no damage. A {g|Encyclopedia:Helpless}helpless{/g} character does not gain the benefit of evasion.",
+      "icon": "b571fe5defdcf67489e23c8f115f1f2c"
+    },
+    {
+      "name": "Ki Pool",
+      "desc": "At 3rd level, a monk gains a pool of ki points, supernatural energy he can use to accomplish amazing {g|Encyclopedia:Feat}feats{/g}. The number of points in a monk\u0027s ki pool is equal to 1/2 his monk level \u002B his {g|Encyclopedia:Wisdom}Wisdom{/g} modifier. As long as he has at least 1 point in his ki pool, he can make a ki strike.\nAt 3rd level, ki strike allows his {g|Encyclopedia:UnarmedAttack}unarmed attacks{/g} to be treated as magic weapons for the purpose of overcoming {g|Encyclopedia:Damage_Reduction}damage reduction{/g}.\nAt 7th level, his unarmed {g|Encyclopedia:Attack}attacks{/g} are also treated as cold iron and silver for the purpose of overcoming {g|Encyclopedia:Damage}damage{/g} reduction.\nAt 10th level, his unarmed attacks are also treated as lawful weapons for the purpose of overcoming damage reduction.\nAt 16th level, his unarmed attacks are treated as adamantine weapons for the purpose of overcoming damage reduction and bypassing hardness.\nBy spending 1 point from his ki pool as a {g|Encyclopedia:Swift_Action}swift action{/g}, a monk can make one additional unarmed strike at his highest attack {g|Encyclopedia:Bonus}bonus{/g} when making a flurry of blows attack. This bonus attack stacks with all bonus attacks gained from flurry of blows, as well as those from haste and similar effects. A monk gains additional powers that consume points from his ki pool as he gains levels.\nThe ki pool is replenished each morning after 8 hours of {g|Encyclopedia:Rest}rest{/g} or meditation; these hours do not need to be consecutive.",
+      "icon": "gen__KP"
+    },
+    {
+      "name": "Fast Movement",
+      "desc": "At 3rd level, a monk gains a \u002B10 enhancement {g|Encyclopedia:Bonus}bonus{/g} to his base {g|Encyclopedia:Speed}speed{/g}. A monk in armor or carrying a medium or heavy load loses this extra speed.\nFor every 3 levels above 3rd, the bonus improves by 10 feet.",
+      "icon": "gen__FM"
+    },
+    {
+      "name": "Ki Strike \u2014 Magic",
+      "desc": "At 3rd level, ki strike allows the monk\u0027s {g|Encyclopedia:UnarmedAttack}unarmed attacks{/g} to be treated as magic weapons for the purpose of overcoming {g|Encyclopedia:Damage_Reduction}damage reduction{/g}.",
+      "icon": "gen__KSM"
+    },
+    {
+      "name": "Still Mind",
+      "desc": "At 4th level, a monk gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against Enchantment {g|Encyclopedia:Spell}spells{/g} and effects.",
+      "icon": "gen__SM"
+    },
+    {
+      "name": "Ki Power",
+      "desc": "At 4th level and every 2 levels thereafter, a monk can select one ki power. These powers allow the monk to perform amazing feats of mystical power and acrobatic prowess by expending points from his ki pool. Once a ki power is selected, it cannot be changed. Some ki powers require the monk to be of a specific level or higher before they can be chosen. Unless otherwise noted, a monk cannot select an individual ki power more than once.",
+      "icon": "c62236db837b42a429010ff1a2f399e0"
+    },
+    {
+      "name": "Stunning Fist: Fatigue",
+      "desc": "This ability works as Stunning Fist, but it makes the target fatigued for 1 minute on a failed {g|Encyclopedia:Saving_Throw}save{/g} instead of stunning for 1 {g|Encyclopedia:Combat_Round}round{/g}.",
+      "icon": "a493eecbde8654e4b957fd1752c00e23"
+    },
+    {
+      "name": "Purity of Body",
+      "desc": "At 5th level, a monk gains immunity to all diseases, including supernatural and magical diseases.",
+      "icon": "7258fa010a8cb184bbcf9e5160043b46"
+    },
+    {
+      "name": "Style Strike",
+      "desc": "At 5th level, a monk can learn one type of style strike. Whenever he makes a flurry of blows, he can designate one of his {g|Encyclopedia:UnarmedAttack}unarmed{/g} strikes as a style strike. This {g|Encyclopedia:Attack}attack{/g} is resolved as normal, but it has an additional effect depending on the type of strike chosen. At 9th level, and every 4 levels thereafter, a monk learns an additional style strike. He must choose which style strike to apply before the attack {g|Encyclopedia:Dice}roll{/g} is made. At 15th level, he can designate up to two of his unarmed strikes each {g|Encyclopedia:Combat_Round}round{/g} as a style strike, and each one can be a different type.",
+      "icon": "gen__SS"
+    },
+    {
+      "name": "Monk Bonus Feat",
+      "desc": "At 1st level, 2nd level, and every 4 levels thereafter, a monk can select a bonus {g|Encyclopedia:Feat}feat{/g}. These feats must be taken from the following list: Combat Reflexes, Dodge, Crane Style, Blind Fight, Improved {g|Encyclopedia:Initiative}Initiative{/g}, Deflect Arrows.\nAt 6th level, the following feats are added to the list: Improved Trip, Improved Disarm\nAt 10th level, the following feats are added to the list: Improved {g|Encyclopedia:Critical}Critical{/g}, Improved Blind Fight.\nA monk need not have any of the prerequisites normally required for these feats to select them.",
+      "icon": "gen__MBF"
+    },
+    {
+      "name": "Ki Strike \u2014 Cold Iron and Silver",
+      "desc": "At 7th level, the monk\u0027s {g|Encyclopedia:UnarmedAttack}unarmed attacks{/g} are treated as cold iron and silver for the purpose of overcoming {g|Encyclopedia:Damage_Reduction}damage reduction{/g}.",
+      "icon": "gen__KS"
+    },
+    {
+      "name": "Stunning Fist: Sicken",
+      "desc": "This ability works as Stunning Fist, but it makes the target sickened for 1 minute on a failed {g|Encyclopedia:Saving_Throw}save{/g} instead of stunning for 1 {g|Encyclopedia:Combat_Round}round{/g}.",
+      "icon": "5ae50af8c818c5d48aa8a78084dc066e"
+    },
+    {
+      "name": "Improved Evasion",
+      "desc": "This ability works like evasion, except that while the character still takes no {g|Encyclopedia:Damage}damage{/g} on a successful {g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} against {g|Encyclopedia:Attack}attacks{/g}, he henceforth takes only half damage on a failed save. A {g|Encyclopedia:Helpless}helpless{/g} character does not gain the benefit of improved evasion.",
+      "icon": "b571fe5defdcf67489e23c8f115f1f2c"
+    },
+    {
+      "name": "Ki Strike \u2014 Lawful",
+      "desc": "At 10th level, the monk\u0027s {g|Encyclopedia:UnarmedAttack}unarmed attacks{/g} are treated as lawful weapons for the purpose of overcoming {g|Encyclopedia:Damage_Reduction}damage reduction{/g}.",
+      "icon": "gen__KSL"
+    },
+    {
+      "name": "Monk Bonus Feat",
+      "desc": "At 1st level, 2nd level, and every 4 levels thereafter, a monk can select a bonus {g|Encyclopedia:Feat}feat{/g}. These feats must be taken from the following list: Combat Reflexes, Dodge, Crane Style, Blind Fight, Improved {g|Encyclopedia:Initiative}Initiative{/g}, Deflect Arrows.\nAt 6th level, the following feats are added to the list: Improved Trip, Improved Disarm\nAt 10th level, the following feats are added to the list: Improved {g|Encyclopedia:Critical}Critical{/g}, Improved Blind Fight.\nA monk need not have any of the prerequisites normally required for these feats to select them.",
+      "icon": "gen__MBF"
+    },
+    {
+      "name": "Ki Strike \u2014 Adamantine",
+      "desc": "At 16th level, the monk\u0027s {g|Encyclopedia:UnarmedAttack}unarmed attacks{/g} are treated as adamantine weapons for the purpose of overcoming {g|Encyclopedia:Damage_Reduction}damage reduction{/g} and bypassing hardness.",
+      "icon": "gen__KSA"
+    },
+    {
+      "name": "Ki Power: Perfect Self",
+      "desc": "At 20th level, a monk becomes a magical creature. The monk gains {g|Encyclopedia:Damage_Reduction}damage reduction{/g} 10/chaotic, which allows him to ignore the first 10 points of {g|Encyclopedia:Damage}damage{/g} from any {g|Encyclopedia:Attack}attack{/g} made by a nonchaotic weapon or by any {g|Encyclopedia:NaturalAttack}natural attack{/g} made by a creature that doesn\u0027t have similar damage reduction.",
+      "icon": "gen__KP"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      8,
+      9,
+      10
+    ],
+    [
+      11,
+      12,
+      13
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      16,
+      12
+    ],
+    [
+      17
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      19,
+      15
+    ],
+    [
+      20,
+      21,
+      12
+    ],
+    [],
+    [
+      12
+    ],
+    [
+      15
+    ],
+    [
+      12,
+      21
+    ],
+    [],
+    [
+      22,
+      12
+    ],
+    [
+      15
+    ],
+    [
+      12,
+      21
+    ],
+    [],
+    [
+      12,
+      23
+    ]
+  ],
+  "__ui-groups": [
+    [
+      4
+    ],
+    [
+      22,
+      17,
+      20,
+      10
+    ],
+    [
+      5,
+      21,
+      16
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      7,
+      19
+    ],
+    [
+      12,
+      8
+    ],
+    [
+      3,
+      13,
+      18
+    ],
+    [
+      15
+    ],
+    [],
+    [],
+    []
+  ],
+  "name": "Monk",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MonkFlurryOfBlowstUnlock"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "ImprovedUnarmedStrike"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "MonkACBonusUnlock"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "StunningFist"
+      },
+      {
+        "level": 4,
+        "feature": 13,
+        "rank": -1,
+        "__debug": "StunningFistFatigueFeature"
+      },
+      {
+        "level": 8,
+        "feature": 18,
+        "rank": -1,
+        "__debug": "StunningFistSickenedFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "MonkUnarmedStrike"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "MonkBonusFeatSelectionLevel1"
+      },
+      {
+        "level": 2,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "MonkBonusFeatSelectionLevel1"
+      },
+      {
+        "level": 6,
+        "feature": 16,
+        "rank": -1,
+        "__debug": "MonkBonusFeatSelectionLevel6"
+      },
+      {
+        "level": 10,
+        "feature": 21,
+        "rank": -1,
+        "__debug": "MonkBonusFeatSelectionLevel10"
+      },
+      {
+        "level": 14,
+        "feature": 21,
+        "rank": -1,
+        "__debug": "MonkBonusFeatSelectionLevel10"
+      },
+      {
+        "level": 18,
+        "feature": 21,
+        "rank": -1,
+        "__debug": "MonkBonusFeatSelectionLevel10"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "MonkWeaponProficiency"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "Evasion"
+      },
+      {
+        "level": 9,
+        "feature": 19,
+        "rank": -1,
+        "__debug": "ImprovedEvasion"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 8,
+        "rank": -1,
+        "__debug": "KiPowerFeature"
+      },
+      {
+        "level": 4,
+        "feature": 12,
+        "rank": -1,
+        "__debug": "MonkKiPowerSelection"
+      },
+      {
+        "level": 6,
+        "feature": 12,
+        "rank": -1,
+        "__debug": "MonkKiPowerSelection"
+      },
+      {
+        "level": 8,
+        "feature": 12,
+        "rank": -1,
+        "__debug": "MonkKiPowerSelection"
+      },
+      {
+        "level": 10,
+        "feature": 12,
+        "rank": -1,
+        "__debug": "MonkKiPowerSelection"
+      },
+      {
+        "level": 12,
+        "feature": 12,
+        "rank": -1,
+        "__debug": "MonkKiPowerSelection"
+      },
+      {
+        "level": 14,
+        "feature": 12,
+        "rank": -1,
+        "__debug": "MonkKiPowerSelection"
+      },
+      {
+        "level": 16,
+        "feature": 12,
+        "rank": -1,
+        "__debug": "MonkKiPowerSelection"
+      },
+      {
+        "level": 18,
+        "feature": 12,
+        "rank": -1,
+        "__debug": "MonkKiPowerSelection"
+      },
+      {
+        "level": 20,
+        "feature": 12,
+        "rank": -1,
+        "__debug": "MonkKiPowerSelection"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 9,
+        "rank": -1,
+        "__debug": "MonkFastMovementUnlock"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 10,
+        "rank": -1,
+        "__debug": "KiStrikeMagic"
+      },
+      {
+        "level": 7,
+        "feature": 17,
+        "rank": -1,
+        "__debug": "KiStrikeColdIronSilver"
+      },
+      {
+        "level": 10,
+        "feature": 20,
+        "rank": -1,
+        "__debug": "KiStrikeLawful"
+      },
+      {
+        "level": 16,
+        "feature": 22,
+        "rank": -1,
+        "__debug": "KiStrikeAdamantine"
+      }
+    ],
+    [
+      {
+        "level": 4,
+        "feature": 11,
+        "rank": -1,
+        "__debug": "StillMind"
+      }
+    ],
+    [
+      {
+        "level": 5,
+        "feature": 14,
+        "rank": -1,
+        "__debug": "PurityOfBody"
+      }
+    ],
+    [
+      {
+        "level": 5,
+        "feature": 15,
+        "rank": -1,
+        "__debug": "MonkStyleStrike"
+      },
+      {
+        "level": 9,
+        "feature": 15,
+        "rank": -1,
+        "__debug": "MonkStyleStrike"
+      },
+      {
+        "level": 13,
+        "feature": 15,
+        "rank": -1,
+        "__debug": "MonkStyleStrike"
+      },
+      {
+        "level": 17,
+        "feature": 15,
+        "rank": -1,
+        "__debug": "MonkStyleStrike"
+      }
+    ],
+    [
+      {
+        "level": 20,
+        "feature": 23,
+        "rank": -1,
+        "__debug": "KiPerfectSelfFeature"
+      }
+    ]
+  ]
+}

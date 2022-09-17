@@ -1,0 +1,263 @@
+{
+  "features": [
+    {
+      "name": "Mythic Ability",
+      "desc": "At 1st rank and every odd mythic rank thereafter, select one new mythic ability.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Angelic Halo",
+      "desc": "Mythic Angel gains a celestial halo. Each ally within 50 feet of the Angel gains a {g|Encyclopedia:Bonus}bonus{/g} equal to half Angel\u0027s mythic rank plus 1 to {g|Encyclopedia:Armor_Class}AC{/g} and {g|Encyclopedia:Saving_Throw}saving throws{/g} against {g|Encyclopedia:Attack}attacks{/g} made or effects created by evil creatures.",
+      "icon": "60d015e2455d860409d108778ca338ad"
+    },
+    {
+      "name": "Sword of Heaven",
+      "desc": "Angels can imbue their weapons with holy power. Weapons imbued with holy power deal an additional {g|Encyclopedia:Dice}2d6{/g} holy {g|Encyclopedia:Damage}damage{/g} on {g|Encyclopedia:Attack}attacks{/g}, while {g|Encyclopedia:Spell}spells{/g} and abilities used while holding imbued weapons deal an additional 2 dice of damage or {g|Encyclopedia:Healing}heal{/g} an additional 2 dice of damage.\nYou can use Sword of Heaven a number of times per day equal to 1 plus half your mythic rank.",
+      "icon": "3d320d4d92527fc47bfe130a255fe265"
+    },
+    {
+      "name": "Mythic Spellbook",
+      "desc": "At 3rd rank, Angel receives the ability to cast mythic {g|Encyclopedia:Spell}spells{/g}. He can either choose to take it as part of an existing full divine spellcaster spellbook, or as a standalone spellbook.\nStandalone spellbook has an independent progression and spell slots. The number of its spell slots can\u0027t be increased with the Abundant Casting mythic feat.\nIn case of merging spellbooks the maximum caster level of the spells within it is 30, and you can use spell slots from the original spellbook to cast mythic spells. Raising the caster level makes spells more powerful. The number of spell slots can be increased with the Abundant Casting mythic feat. Spontaneous spellcasters get the new known spells from their original class and from mythic path independently: the original class\u0027s progression doesn\u0027t change, and every mythic rank increase gives additional known spells.\nIf you are multiclassing, it is recommended to use the standalone spellbook.",
+      "icon": "gen__MS"
+    },
+    {
+      "name": "Mythic Feat",
+      "desc": "Mythic characters gain mythic {g|Encyclopedia:Feat}feats{/g} every even mythic rank. These feats can be selected only as part of mythic advancement, not as part of a character\u0027s normal advancement or in place of any other bonus feat.\nMost mythic feats require a non-mythic feat as a prerequisite. These mythic feats enhance the benefits of their prerequisite feats, making them truly awe-inspiring. If a character doesn\u0027t possess any of the necessary prerequisite feats when she gains a mythic feat, she can wait to select a mythic feat until the next time she gains a mythic rank or level.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Improved Sword of Heaven",
+      "desc": "At 2nd, 4th, 6th, 8th, and 10th mythic ranks, an Angel can select an improvement to the Sword of Heaven ability. Improvements that are available at 8th and 10th ranks are significantly more powerful.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Improved Angelic Halo",
+      "desc": "At 5th, 7th, and 9th mythic rank, an Angel can select an improvement to the Angelic Halo ability.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Halo\u0027s Holy Aura",
+      "desc": "Angel\u0027s Halo now emanates an aura similar to the effect of holy aura {g|Encyclopedia:Spell}spell{/g}.\nA brilliant divine radiance surrounds the subjects, protecting them from {g|Encyclopedia:Attack}attacks{/g}, granting them {g|Encyclopedia:Spell_Resistance}resistance to spells{/g} cast by evil creatures, and causing evil creatures to become blinded when they strike the subjects. This abjuration has four effects.\nFirst, each warded creature gains a \u002B4 deflection {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} and a \u002B4 resistance bonus on {g|Encyclopedia:Saving_Throw}saves{/g}. Unlike protection from evil, this benefit applies against all attacks, not just against attacks by evil creatures.\nSecond, each warded creature gains spell resistance 20 \u002B Angel\u0027s mythic rank against evil spells and spells cast by evil creatures.\nThird, the abjuration protects from all mind-affecting spells and effects.\nFinally, if an evil creature succeeds on a {g|Encyclopedia:MeleeAttack}melee attack{/g} against a creature warded by a holy aura, the offending attacker is blinded (Fortitude save negates, as blindness, but against holy aura\u0027s save {g|Encyclopedia:DC}DC{/g}) equal 10 \u002B half your character level \u002B your mythic rank \u002B your highest ability modifier.",
+      "icon": "60d015e2455d860409d108778ca338ad"
+    },
+    {
+      "name": "Greater Sword of Heaven",
+      "desc": "At 2nd, 4th, 6th, 8th, and 10th mythic ranks, an Angel can select an improvement to the Sword of Heaven ability. Improvements that are available at 8th and 10th ranks are significantly more powerful.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Wings",
+      "desc": "You gain a pair of wings that grant a \u002B3 dodge {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:MeleeAttack}melee attacks{/g} and an immunity to ground based effects, such as difficult terrain.",
+      "icon": "24592e942f5650148aa0d774257c6da3"
+    },
+    {
+      "name": "Sword of Holy Healing",
+      "desc": "Whenever the angel activates the Sword of Heaven ability, it restores him 10 HP, heals all ability damage and removes the following negative conditions: blind, confused, dazed, dazzled, diseased, exhausted, fatigued, nauseated, poisoned, sickened, stunned. It also dispells the effects of the feeblemind spell and ecorche\u0027s Seize Skin ability.",
+      "icon": "3d320d4d92527fc47bfe130a255fe265"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      0,
+      7,
+      6
+    ],
+    [
+      4,
+      8,
+      9
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      4,
+      8,
+      10
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "__ui-groups": [],
+  "name": "Angel",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      },
+      {
+        "level": 3,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      },
+      {
+        "level": 5,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      },
+      {
+        "level": 7,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "AngelHaloFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "AngelSwordFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "AngelIncorporateSpellbook"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 4,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 6,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 8,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "AngelSwordImprovementsSelection"
+      },
+      {
+        "level": 4,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "AngelSwordImprovementsSelection"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "AngelHaloImprovementsSelection"
+      },
+      {
+        "level": 5,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "AngelHaloImprovementsSelection"
+      },
+      {
+        "level": 7,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "AngelHaloImprovementsSelection"
+      }
+    ],
+    [
+      {
+        "level": 5,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "AngelHaloArchonsAuraFeature"
+      }
+    ],
+    [
+      {
+        "level": 6,
+        "feature": 8,
+        "rank": -1,
+        "__debug": "AngelSwordGreaterImprovementsSelection"
+      },
+      {
+        "level": 8,
+        "feature": 8,
+        "rank": -1,
+        "__debug": "AngelSwordGreaterImprovementsSelection"
+      }
+    ],
+    [
+      {
+        "level": 6,
+        "feature": 9,
+        "rank": -1,
+        "__debug": "FeatureWingsAngel"
+      }
+    ],
+    [
+      {
+        "level": 8,
+        "feature": 10,
+        "rank": -1,
+        "__debug": "AngelSwordMassHealFeature"
+      }
+    ]
+  ]
+}

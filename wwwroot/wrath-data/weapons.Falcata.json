@@ -1,0 +1,4950 @@
+[
+{
+
+    "guid": "d9a8c180e13a4cc9a19c1ee53d604265",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cstring-not-present\u003e",
+            "m_Key": "ece31924-0073-4508-a5dc-bd0d99033f59",
+            "m_OwnerString": "d9a8c180e13a4cc9a19c1ee53d604265",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints\\Items\\Weapons\\DLC3\\DLC3_DemonbaneFalcataWeaponItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cstring-not-present\u003e",
+            "m_Key": "5ef0f055-ff1c-41db-9d6f-0c28489af23e",
+            "m_OwnerString": "d9a8c180e13a4cc9a19c1ee53d604265",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints\\Items\\Weapons\\DLC3\\DLC3_DemonbaneFalcataWeaponItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "1eb9481d6cc90b749b7c0f5ffe5c8254",
+            "fileid": "21300000"
+        },
+        "m_Cost": "10",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_IsJunk": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "SwordPut",
+        "m_InventoryTakeSound": "SwordTake",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "0",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "SlashingOneHanded",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "68c2ae8067956394e8cd3fb8b00afa92"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "4683631625ab0d54c9a2c53cee226481"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "Medium",
+            "m_SoundType": "SlashMetal",
+            "m_WhooshSound": "Weapon_1H_Slashing_Medium_Attack",
+            "m_MissSoundType": "MediumMetal",
+            "m_EquipSound": "Weapons_1H_Slashing_Equip",
+            "m_UnequipSound": "Weapons_1H_Slashing_Remove",
+            "m_InventoryEquipSound": "SwordEquip",
+            "m_InventoryPutSound": "SwordPut",
+            "m_InventoryTakeSound": "SwordTake"
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 102a9c8c9b7a75e4fb5844e79deaf4c0 (Keen :BlueprintWeaponEnchantment)",
+            "link: e5990dc76d2a613409916071c898eee8 (ColdIronWeaponEnchantment :BlueprintWeaponEnchantment)",
+            "link: 1c6ad04291af4c21897f0f25259e6690 (DLC3_DemonbaneFalcataEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "db4c0b468836b49478a5dfca2dd79883",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "20.04 - DRAFT\nCL 11\nName\nDescription\nIcon\nPrice\nAbility\nEnhancement",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Fervent Edge",
+            "m_Key": "8a1c8b8b-52b1-46f0-a8c7-c16cfa0e1890",
+            "m_OwnerString": "db4c0b468836b49478a5dfca2dd79883",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Artisan/HumanFemaleExoticSmith/FerventEdgeFalcataItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +3 furious brass falcata grants its wielder the ability to cast righteous might {g|Encyclopedia:Spell}spell{/g} once per day as a 9th level cleric.",
+            "m_Key": "3eadbbbc-dd77-41c9-8fac-6fd773ec9462",
+            "m_OwnerString": "db4c0b468836b49478a5dfca2dd79883",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Artisan/HumanFemaleExoticSmith/FerventEdgeFalcataItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "This is one of the gifts of the royal court master Shaynih\u0027a, who arrived to the Stolen Lands from the foreign land of Vudra in search of her vocation.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "27336f7db7a6bec4782717e705e7951a",
+                "stringkey": "a11c5e0d-fdab-44a5-8005-18f6e90070a1"
+            }
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "075dfdd0d6750394d850dc529fd9c306",
+            "fileid": "21300000"
+        },
+        "m_Cost": "59000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "22",
+        "m_Ability": "link: 90810e5cf53bf854293cbd5ea1066252 (RighteousMight :BlueprintAbility)",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "true",
+        "CasterLevel": "9",
+        "SpellLevel": "5",
+        "DC": "0",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 5e0e5de297c229f42b00c5b1738b50fa (Brass :BlueprintWeaponEnchantment)",
+            "link: b606a3f5daa76cc40add055613970d2a (Furious :BlueprintWeaponEnchantment)",
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "20ede3b1e8b9baf448b6064e471522ef",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Cold Iron Masterwork Falcata",
+            "m_Key": "b34c954e-b86f-4f5f-b209-0ac55d81650b",
+            "m_OwnerString": "20ede3b1e8b9baf448b6064e471522ef",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/ColdIronMasterwork/ColdIronMasterworkFalcata_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "800",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment"
+        ],
+        "CR": "1",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 6b38844e2bffbac48b63036b66e735be (Masterwork :BlueprintWeaponEnchantment)",
+            "link: e5990dc76d2a613409916071c898eee8 (ColdIronWeaponEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "true",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "ColdIron",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "413c2458f8e7a2c48a47723271a1fbb1",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Cold Iron Falcata",
+            "m_Key": "0c725146-5995-49a5-9836-116728e212df",
+            "m_OwnerString": "413c2458f8e7a2c48a47723271a1fbb1",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/ColdIronStandard/ColdIronFalcata_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "800",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment"
+        ],
+        "CR": "1",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: e5990dc76d2a613409916071c898eee8 (ColdIronWeaponEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "true",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "ColdIron",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "ccfede348adf9bc43a434d4d601f28f7",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "75",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "0",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Large",
+        "m_Enchantments": [],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "833083b0efacf80499135953d66a0c45",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Masterwork Falcata",
+            "m_Key": "49550d6f-ea80-4a5d-8a7b-3f4d2651e874",
+            "m_OwnerString": "833083b0efacf80499135953d66a0c45",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Masterwork/MasterworkFalcata_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "400",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment"
+        ],
+        "CR": "1",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 6b38844e2bffbac48b63036b66e735be (Masterwork :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "ee28827188e12a64ba75222b37ac8092",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "20",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment"
+        ],
+        "CR": "0",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "babd2990d6ff6734d8a755a36cf8ad40",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "2018",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_IsJunk": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_RE",
+            "Equipment_Trickster"
+        ],
+        "CR": "4",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "HideAbilityInfo": "false",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "02f4a90d95808a64eb80d3ea95097dd4",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Shock Falcata +1",
+            "m_Key": "9cb521cf-714b-48ff-bdc1-ba8759a09f86",
+            "m_OwnerString": "02f4a90d95808a64eb80d3ea95097dd4",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/FalcataShockPlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "075dfdd0d6750394d850dc529fd9c306",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 7bda5277d36ad114f9f9fd21d0dab658 (Shock :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "8f7fec55c28f6774d8af2eebde700772",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Corrosive Falcata +1",
+            "m_Key": "e55b99a1-8c75-4d1c-babd-81ecc0bf0ddd",
+            "m_OwnerString": "8f7fec55c28f6774d8af2eebde700772",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Corrosive/FalcataCorrosivePlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "075dfdd0d6750394d850dc529fd9c306",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 633b38ff1d11de64a91d490c683ab1c8 (Corrosive :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "9b90a5b27e1a8994bae5cbb7298e1c15",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "075dfdd0d6750394d850dc529fd9c306",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_Trickster"
+        ],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "37d7052c7444390419685b1989c59c83",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Flaming Falcata +1",
+            "m_Key": "88a02b14-e720-41a6-8205-6985dd49a7a1",
+            "m_OwnerString": "37d7052c7444390419685b1989c59c83",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Flaming/FalcataFlamingPlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "075dfdd0d6750394d850dc529fd9c306",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 30f90becaaac51f41bf56641966c4121 (Flaming :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "7c1d7d45764fd4845a5797a70997b516",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Frost Falcata +1",
+            "m_Key": "64bd08e3-ebb2-4948-a96d-fcf397af4c5a",
+            "m_OwnerString": "7c1d7d45764fd4845a5797a70997b516",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Frost/FalcataFrostPlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "075dfdd0d6750394d850dc529fd9c306",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 421e54078b7719d40915ce0672511d0b (Frost :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "ebf79bbb94795c344b376e3d46e7df29",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Keen Falcata +1",
+            "m_Key": "b373f8dc-e5e0-49be-8c31-ccbb97cb5186",
+            "m_OwnerString": "ebf79bbb94795c344b376e3d46e7df29",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Keen/FalcataKeenPlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "075dfdd0d6750394d850dc529fd9c306",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 102a9c8c9b7a75e4fb5844e79deaf4c0 (Keen :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "72834b597b5f28c49b57d8cfe820c96b",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Shock Falcata +1",
+            "m_Key": "1e16a370-81fd-4c39-9f75-3619aac70dd1",
+            "m_OwnerString": "72834b597b5f28c49b57d8cfe820c96b",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Shock/FalcataShockPlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "075dfdd0d6750394d850dc529fd9c306",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 7bda5277d36ad114f9f9fd21d0dab658 (Shock :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "3357e43ddef305542a089be4b9c1e485",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Holy Falcata +1",
+            "m_Key": "1f469ff8-c387-44f1-9c45-eedb0d892039",
+            "m_OwnerString": "3357e43ddef305542a089be4b9c1e485",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/FalcataHolyPlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "075dfdd0d6750394d850dc529fd9c306",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_IsJunk": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "HideAbilityInfo": "false",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 28a9964d81fedae44bae3ca45710c140 (Holy :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "8805591cc4c7b6342ad8584cd74d16eb",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Corrosive Falcata +2",
+            "m_Key": "4d891dce-25d6-4ef0-aaff-3ebf1ad8ab06",
+            "m_OwnerString": "8805591cc4c7b6342ad8584cd74d16eb",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Corrosive/FalcataCorrosivePlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "bb13595f2bce19f4989e7ba20024ac15",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_IsJunk": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "b5e8276baee72d547b45480aa4e6e554"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "5b6209c442f2b0342bf8a589a2fbef19"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 633b38ff1d11de64a91d490c683ab1c8 (Corrosive :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "678a667e5223d54419ea5deeb86c82f0",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "bb13595f2bce19f4989e7ba20024ac15",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_Trickster"
+        ],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "b5e8276baee72d547b45480aa4e6e554"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "5b6209c442f2b0342bf8a589a2fbef19"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "324c50e4d9179d74488c3fed44450bfd",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Flaming Falcata +2",
+            "m_Key": "afe5182f-5377-47ed-9e83-137f5a0db987",
+            "m_OwnerString": "324c50e4d9179d74488c3fed44450bfd",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Flaming/FalcataFlamingPlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "bb13595f2bce19f4989e7ba20024ac15",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "b5e8276baee72d547b45480aa4e6e554"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "5b6209c442f2b0342bf8a589a2fbef19"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 30f90becaaac51f41bf56641966c4121 (Flaming :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "4004b1c8ce59d104ba7ac9d8dc4a60ac",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Frost Falcata +2",
+            "m_Key": "75812448-d2cd-47f7-b1e1-b1b33c9a060f",
+            "m_OwnerString": "4004b1c8ce59d104ba7ac9d8dc4a60ac",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Frost/FalcataFrostPlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "bb13595f2bce19f4989e7ba20024ac15",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "b5e8276baee72d547b45480aa4e6e554"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "5b6209c442f2b0342bf8a589a2fbef19"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 421e54078b7719d40915ce0672511d0b (Frost :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "e5fa42bb37689e1489a44ee90ee13bf6",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Shock Falcata +2",
+            "m_Key": "e04dd501-20bb-45ef-b6a2-2b4e779eb848",
+            "m_OwnerString": "e5fa42bb37689e1489a44ee90ee13bf6",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Shock/FalcataShockPlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "bb13595f2bce19f4989e7ba20024ac15",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "b5e8276baee72d547b45480aa4e6e554"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "5b6209c442f2b0342bf8a589a2fbef19"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 7bda5277d36ad114f9f9fd21d0dab658 (Shock :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "31af1e336482fb545ae24c3150e66891",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "bb13595f2bce19f4989e7ba20024ac15",
+            "fileid": "21300000"
+        },
+        "m_Cost": "32000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "13",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "b5e8276baee72d547b45480aa4e6e554"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "5b6209c442f2b0342bf8a589a2fbef19"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 783d7d496da6ac44f9511011fc5f1979 (Enhancement4 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "3f29c6655dcbb7b459fe2676d4900c7d",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "bb13595f2bce19f4989e7ba20024ac15",
+            "fileid": "21300000"
+        },
+        "m_Cost": "50000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "b5e8276baee72d547b45480aa4e6e554"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "5b6209c442f2b0342bf8a589a2fbef19"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "50a1a46fa04c4099847d90232e6163e4",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Elder Frost Falcata +5",
+            "m_Key": "afbb2bc6-1a94-433d-96e1-9adaca11112d",
+            "m_OwnerString": "50a1a46fa04c4099847d90232e6163e4",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints\\Weapons\\Items\\TotalPlus7\\FalcataPlus6_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "bb13595f2bce19f4989e7ba20024ac15",
+            "fileid": "21300000"
+        },
+        "m_Cost": "162000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_IsJunk": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "b5e8276baee72d547b45480aa4e6e554"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "5b6209c442f2b0342bf8a589a2fbef19"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: c9c2580b9b6c43e992acae157615deb5 (ElderFrost :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "aa726088e7616f34f8fa2aed8e12efe4",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Decapitator",
+            "m_Key": "609ea1f4-dfa0-42a8-b5fd-6a0c4314b369",
+            "m_OwnerString": "aa726088e7616f34f8fa2aed8e12efe4",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/Decapitator_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This weapon is a +2 keen furious falcata.",
+            "m_Key": "41230448-618f-4cb5-aac4-0d1504e0913f",
+            "m_OwnerString": "aa726088e7616f34f8fa2aed8e12efe4",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/Decapitator_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "Perfect for doing exactly what its name implies.",
+            "m_Key": "2537600b-aa0d-4ea6-a815-bcc923bf91ec",
+            "m_OwnerString": "aa726088e7616f34f8fa2aed8e12efe4",
+            "m_OwnerPropertyPath": "m_FlavorText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/Decapitator_m_FlavorText.json",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "075dfdd0d6750394d850dc529fd9c306",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "13",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: b606a3f5daa76cc40add055613970d2a (Furious :BlueprintWeaponEnchantment)",
+            "link: 102a9c8c9b7a75e4fb5844e79deaf4c0 (Keen :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "83514f1188e2764429faa191be608284",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "075dfdd0d6750394d850dc529fd9c306",
+            "fileid": "21300000"
+        },
+        "m_Cost": "50000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "0",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "81a7580425fe6f44087377d397170424",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Adamantine Falcata +3",
+            "m_Key": "cae96e14-b9d4-4ffd-9d0a-0eafdb343a0c",
+            "m_OwnerString": "81a7580425fe6f44087377d397170424",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/EE/AdamantineFalcataPlus3_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "bb13595f2bce19f4989e7ba20024ac15",
+            "fileid": "21300000"
+        },
+        "m_Cost": "22400",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "14",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: ab39e7d59dd12f4429ffef5dca88dc7b (AdamantineWeaponEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "true",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "Adamantite",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "a3081b5219943ad4b9d88a5569a70146",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Ceremonial Falcata",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "b9c49be144698be4ba6612adeb93ba79",
+                "stringkey": "1cd93714-7b5a-43bd-9ede-d00d6e61542e"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +2 falcata grants its wearer a +5 morale {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Persuasion}Persuasion checks{/g}. Whenever the wielder uses Dazzling Display, all affected enemies suffer {g|Encyclopedia:Dice}1d8{/g} sonic {g|Encyclopedia:Damage}damage{/g}.",
+            "m_Key": "879d4075-f2f5-4068-8160-99437f1e0079",
+            "m_OwnerString": "a3081b5219943ad4b9d88a5569a70146",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/CeremonialFalcataItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "e3aaf6120ffa1664dbb99b6210b67ff6",
+            "fileid": "21300000"
+        },
+        "m_Cost": "30000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "d26b2020e3ab8674cbf002c91b7d97a2"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "d59747b0b894180468a17bb445772e92"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: db23a8d4abcd1c04ab2e0859a20c272a (CeremonialFalcataEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "544bc6189c3fd964ebf593054452d9ed",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Pain Channeler",
+            "m_Key": "173c6de4-80b5-4e60-b423-f6024995643f",
+            "m_OwnerString": "544bc6189c3fd964ebf593054452d9ed",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter1/PainChannelerItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +1 falcata grants its wearer a +2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g} for all {g|Encyclopedia:TouchAttack}touch attacks{/g}.",
+            "m_Key": "733224cb-9939-4971-8e29-e8f13f56d5e2",
+            "m_OwnerString": "544bc6189c3fd964ebf593054452d9ed",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter1/PainChannelerItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "7400",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_RE"
+        ],
+        "CR": "4",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: f38f856dbf4c82f4395b9ab6918312f6 (PainChannelerEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "fa77ef271c437ee4581cf4ffc4a1ad69",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Invigorating Heartseeker Falcata +3",
+            "m_Key": "a9ebcca0-8f69-4bc1-90f9-62962077006b",
+            "m_OwnerString": "fa77ef271c437ee4581cf4ffc4a1ad69",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter3/InvigoratingHeartseekerFalcataPlus3Item_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "075dfdd0d6750394d850dc529fd9c306",
+            "fileid": "21300000"
+        },
+        "m_Cost": "50000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_IsJunk": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "HideAbilityInfo": "false",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: e252b26686ab66241afdf33f2adaead6 (Heartseeker :BlueprintWeaponEnchantment)",
+            "link: 102a9c8c9b7a75e4fb5844e79deaf4c0 (Keen :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "46c4588370506bd4284b9508bb58a4ec",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Nightmare",
+            "m_Key": "bd819b05-faa5-43f9-8ac2-57d054de4061",
+            "m_OwnerString": "46c4588370506bd4284b9508bb58a4ec",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter3/NightmareItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +3 unholy falcata was corrupted by demons. It feeds on fear. Whenever it lands a hit on a shaken or frightened enemy, the target must pass a {g|Encyclopedia:Saving_Throw}Fortitude saving throw{/g} ({g|Encyclopedia:DC}DC{/g} 22) or become prone for 1 {g|Encyclopedia:Combat_Round}round{/g} and suffer {g|Encyclopedia:Dice}1d12{/g} negative {g|Encyclopedia:Energy_Damage}energy damage{/g}.",
+            "m_Key": "063fec01-4143-4f4d-b2dc-72042365ba8f",
+            "m_OwnerString": "46c4588370506bd4284b9508bb58a4ec",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter3/NightmareItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "640ed38bcacdcf244bd5946017598ae4",
+            "fileid": "21300000"
+        },
+        "m_Cost": "67500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "b5e8276baee72d547b45480aa4e6e554"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: d05753b8df780fc4bb55b318f06af453 (Unholy :BlueprintWeaponEnchantment)",
+            "link: 0b97533c96610c4469438befcc425819 (NightmareEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "3e14db6284db73d40b4a4b99943e2018",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Artificial Predator",
+            "m_Key": "c7803dda-9f50-462f-82c4-84e6b48de6ea",
+            "m_OwnerString": "3e14db6284db73d40b4a4b99943e2018",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter4/ArtificialPredatorItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "Whenever the wielder of this +4 cruel bleed falcata is engaged in melee with a single enemy and there are no other enemies in a 15-foot range, the enemy gets a -2 {g|Encyclopedia:Penalty}penalty{/g} on {g|Encyclopedia:Attack}attack rolls{/g} and {g|Encyclopedia:Saving_Throw}saving throws{/g}.",
+            "m_Key": "48dace7a-21fd-4f72-b3d4-d3e79438653a",
+            "m_OwnerString": "3e14db6284db73d40b4a4b99943e2018",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter4/ArtificialPredatorItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "e3aaf6120ffa1664dbb99b6210b67ff6",
+            "fileid": "21300000"
+        },
+        "m_Cost": "100000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "13",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "44447569da0863d40ae96d2a412820e1"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 783d7d496da6ac44f9511011fc5f1979 (Enhancement4 :BlueprintWeaponEnchantment)",
+            "link: 629c383ffb407224398bb71d1bd95d14 (CruelEnchantment :BlueprintWeaponEnchantment)",
+            "link: ac0108944bfaa7e48aa74f407e3944e3 (Bleed :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "3f79eeb3d66b4c3db0c77c46eb02434c",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Disemboweler",
+            "m_Key": "bb83d0a3-6524-482c-ac93-8ec588b58c86",
+            "m_OwnerString": "3f79eeb3d66b4c3db0c77c46eb02434c",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints\\Weapons\\Items\\UniquePF2\\Chapter5\\DisembowelerItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +5 vicious sacrificial falcata allows its wearer to deal additional {g|Encyclopedia:Dice}3d6{/g} {g|Encyclopedia:Damage_Type}slashing damage{/g} against Medium and smaller enemies on hit.",
+            "m_Key": "94c29d28-4c42-4452-a2bf-d2a69274c582",
+            "m_OwnerString": "3f79eeb3d66b4c3db0c77c46eb02434c",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints\\Weapons\\Items\\UniquePF2\\Chapter5\\DisembowelerItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "bb13595f2bce19f4989e7ba20024ac15",
+            "fileid": "21300000"
+        },
+        "m_Cost": "150000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "b5e8276baee72d547b45480aa4e6e554"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "5b6209c442f2b0342bf8a589a2fbef19"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: a1455a289da208144981e4b1ef92cc56 (ViciousEnchantment :BlueprintWeaponEnchantment)",
+            "link: b7f029a31452b26408bc75d715227993 (Sacrificial :BlueprintWeaponEnchantment)",
+            "link: 38970e861eb243ad9ebf95c5ef067d54 (DisembowelerEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "0b86db762e9e8b746bf13f4a20b89c1a",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean the Talking Weapon",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96b6d9d9fa75e4e44984a3d12c4c63ba",
+                "stringkey": "b29f1539-eb5c-4c09-bd68-b172f3786659"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This is a +1 cold iron ghost touch weapon.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "29acffbc69d1b95449d5ce6613a66ffa",
+                "stringkey": "8227ec85-8b4b-45dc-b6c7-2cd9629205f8"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_RE"
+        ],
+        "CR": "4",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: e5990dc76d2a613409916071c898eee8 (ColdIronWeaponEnchantment :BlueprintWeaponEnchantment)",
+            "link: 47857e1a5a3ec1a46adf6491b1423b4f (GhostTouch :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "true",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "ColdIron",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "13f0a60db6ba5104581c4af9ad58fadf",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean the Talking Weapon",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96b6d9d9fa75e4e44984a3d12c4c63ba",
+                "stringkey": "b29f1539-eb5c-4c09-bd68-b172f3786659"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This is a +3 brilliant energy heartseeker weapon. This weapon can tear the soul of a living enemy: whenever it lands a hit, it deals additional {g|Encyclopedia:Dice}1d6{/g} force {g|Encyclopedia:Damage}damage{/g}.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96d85cdc54d63e14cb734b39ce17c9c1",
+                "stringkey": "92e9d91d-c458-49ef-9629-7836c41cc338"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "bb13595f2bce19f4989e7ba20024ac15",
+            "fileid": "21300000"
+        },
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "b5e8276baee72d547b45480aa4e6e554"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "5b6209c442f2b0342bf8a589a2fbef19"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: 66e9e299c9002ea4bb65b6f300e43770 (BrilliantEnergy :BlueprintWeaponEnchantment)",
+            "link: e252b26686ab66241afdf33f2adaead6 (Heartseeker :BlueprintWeaponEnchantment)",
+            "link: b183bd491793d194c9e4c96cd11769b1 (FinneanChapter3Enchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "89219cd5f40ecf34cb8763073ac91a84",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean the Talking Weapon",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96b6d9d9fa75e4e44984a3d12c4c63ba",
+                "stringkey": "b29f1539-eb5c-4c09-bd68-b172f3786659"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "bb13595f2bce19f4989e7ba20024ac15",
+            "fileid": "21300000"
+        },
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "b5e8276baee72d547b45480aa4e6e554"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "5b6209c442f2b0342bf8a589a2fbef19"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 66e9e299c9002ea4bb65b6f300e43770 (BrilliantEnergy :BlueprintWeaponEnchantment)",
+            "link: 6b66e949f348ccd4989a5fd9254f8958 (FinneanChapter5EnchantmentBase :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "7930cf0f52ea4274abbe67dfa711ff63",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "c4b7a463512eb694bbe9571323ede197",
+                "stringkey": "ccb5c705-7ac0-4b1c-ad69-7fcea827ebc9"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "This weapon was once the seat of Finnean\u0027s soul. Now that the soul of the Sarkorian Pathfinder has left the weapon, it has fallen silent forever.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "ceac81e5a8f907d4fb5c6dee3447b300",
+                "stringkey": "35efb8b0-3805-402f-b349-24911dfca762"
+            }
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "1eb9481d6cc90b749b7c0f5ffe5c8254",
+            "fileid": "21300000"
+        },
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "68c2ae8067956394e8cd3fb8b00afa92"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "4683631625ab0d54c9a2c53cee226481"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 1af5621e2ae551e42bd1dd6744d98639 (Falcata :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 66e9e299c9002ea4bb65b6f300e43770 (BrilliantEnergy :BlueprintWeaponEnchantment)",
+            "link: 9aa9af4b654662945a410644d3db8d99 (FinneanChapter5EnchantmentLich :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+}]

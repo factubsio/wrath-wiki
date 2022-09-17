@@ -1,0 +1,139 @@
+{
+  "features": [
+    {
+      "name": "Mythic Ability",
+      "desc": "At 1st rank and every odd mythic rank thereafter, select one new mythic ability.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Bypass Epic Damage Reduction",
+      "desc": "Your mythic powers allows you to bypass {g|Encyclopedia:Damage_Reduction}damage reduction{/g} N/Epic.",
+      "icon": "592ac2887857bd74a8bd0eef3057fb2b"
+    },
+    {
+      "name": "Mythic Feat",
+      "desc": "Mythic characters gain mythic {g|Encyclopedia:Feat}feats{/g} every even mythic rank. These feats can be selected only as part of mythic advancement, not as part of a character\u0027s normal advancement or in place of any other bonus feat.\nMost mythic feats require a non-mythic feat as a prerequisite. These mythic feats enhance the benefits of their prerequisite feats, making them truly awe-inspiring. If a character doesn\u0027t possess any of the necessary prerequisite feats when she gains a mythic feat, she can wait to select a mythic feat until the next time she gains a mythic rank or level.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1
+    ],
+    [
+      2
+    ],
+    [
+      0
+    ],
+    [
+      2
+    ],
+    [
+      0
+    ],
+    [
+      2
+    ],
+    [
+      0
+    ],
+    [
+      2
+    ],
+    [
+      0
+    ],
+    [
+      2
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "__ui-groups": [],
+  "name": "Mythic Companion",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      },
+      {
+        "level": 3,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      },
+      {
+        "level": 5,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      },
+      {
+        "level": 7,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      },
+      {
+        "level": 9,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "MythicBypassEpicDR"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 4,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 6,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 8,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 10,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      }
+    ]
+  ]
+}

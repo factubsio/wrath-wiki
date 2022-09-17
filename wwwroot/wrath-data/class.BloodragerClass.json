@@ -1,0 +1,240 @@
+{
+  "features": [
+    {
+      "name": "Fast Movement",
+      "desc": "A bloodrager\u0027s land {g|Encyclopedia:Speed}speed{/g} is faster than is normal for his {g|Encyclopedia:Race}race{/g} by 10 feet. This benefit applies only when he is wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this {g|Encyclopedia:Bonus}bonus{/g} before modifying the bloodrager\u0027s speed due to any armor worn or load carried. This bonus stacks with any other bonuses to the bloodrager\u0027s land speed.",
+      "icon": "d70eceda5f3a35646b828323eb30f065"
+    },
+    {
+      "name": "Bloodline",
+      "desc": "Each bloodrager has a source of magic somewhere in his heritage that empowers his bloodrages, bonus {g|Encyclopedia:Feat}feats{/g}, and bonus {g|Encyclopedia:Spell}spells{/g}. Sometimes this source reflects a distant blood relationship to a powerful being, or is due to an extreme event involving such a creature somewhere in his family\u0027s past. Regardless of the source, this influence manifests in a number of ways. A bloodrager must pick one bloodline upon taking his first level of bloodrager. Once made, this choice cannot be changed.\nThe bloodrager gains bloodline powers at 1st level, 4th level, and every 4 levels thereafter. The bloodline powers a bloodrager gains are described in his chosen bloodline. For all spell-like bloodline powers, treat the character\u0027s bloodrager level as the {g|Encyclopedia:Caster_Level}caster level{/g}.\nAt 6th level and every 3 levels thereafter, a bloodrager receives one bonus feat chosen from a list specific to each bloodline. The bloodrager must meet the prerequisites for these bonus feats. At 7th, 10th, 13th, and 16th levels, a bloodrager learns an additional spell derived from his bloodline.\nIf the bloodrager takes levels in another class that grants a bloodline, the bloodlines must be the same type.",
+      "icon": "650c5bc6072405448b2d9a2288de926d"
+    },
+    {
+      "name": "Bloodrage",
+      "desc": "The bloodrager\u0027s source of internal power grants him the ability to bloodrage.\nAt 1st level, a bloodrager can bloodrage for a number of {g|Encyclopedia:Combat_Round}rounds{/g} per day equal to 4 \u002B his {g|Encyclopedia:Constitution}Constitution{/g} modifier. At each level after 1st, he can bloodrage for 2 additional rounds per day. Temporary increases to Constitution (such as those gained from bloodraging or {g|Encyclopedia:Spell}spells{/g} like bear\u0027s endurance) don\u0027t increase the total number of rounds that a bloodrager can bloodrage per day. The total number of rounds of bloodrage per day is renewed after resting for 8 hours, although these hours need not be consecutive.\nWhile in a bloodrage, a bloodrager gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:MeleeAttack}melee attack{/g} {g|Encyclopedia:Dice}rolls{/g}, melee {g|Encyclopedia:Damage}damage rolls{/g}, thrown weapon damage rolls, and Will {g|Encyclopedia:Saving_Throw}saving throws{/g}. In addition, he takes a -2 {g|Encyclopedia:Penalty}penalty{/g} to {g|Encyclopedia:Armor_Class}Armor Class{/g}. He also gains 2 temporary {g|Encyclopedia:HP}hit points{/g} per {g|Encyclopedia:Hit_Dice}Hit Die{/g}. These temporary hit points are lost first when a character takes damage, disappear when the bloodrage ends, and are not replenished if the bloodrager enters a bloodrage again within 1 minute of his previous bloodrage.\nIf a bloodrager falls {g|Encyclopedia:Injury_Death}unconscious{/g}, his bloodrage immediately ends, placing him in peril of death.\nBloodrage counts as the barbarian\u0027s rage class feature for the purpose of {g|Encyclopedia:Feat}feat{/g} prerequisites, feat abilities, magic item abilities, and spell effects.",
+      "icon": "e50a89f2ba396f44489e16b06713612f"
+    },
+    {
+      "name": "Bloodrager Proficiencies",
+      "desc": "Bloodragers are proficient with all simple and {g|Encyclopedia:Weapon_Proficiency}martial weapons{/g}, light armor, medium armor, and shields (except tower shields). A bloodrager can cast bloodrager {g|Encyclopedia:Spell}spells{/g} while wearing light armor or medium armor without incurring the normal {g|Encyclopedia:Spell_Fail_Chance}arcane spell failure chance{/g}. This does not affect the arcane spell failure chance for arcane spells received from other classes. Like other arcane spellcasters, a bloodrager wearing heavy armor or wielding a shield incurs a chance of arcane spell failure if the spell in question has somatic components.",
+      "icon": "gen__BP"
+    },
+    {
+      "name": "Uncanny Dodge",
+      "desc": "The character can react to danger before her senses would normally allow her to do so. She cannot be caught {g|Encyclopedia:Flat_Footed}flat-footed{/g}, nor does she lose her {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} if the {g|Encyclopedia:Attack}attacker{/g} is invisible. She still loses her Dexterity bonus to AC if immobilized. A character with this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the feint {g|Encyclopedia:CA_Types}action{/g} against her.\nIf a character already has uncanny dodge from a different class, she automatically gains improved uncanny dodge instead.",
+      "icon": "f549aced0cfe8a7469985214a71d9503"
+    },
+    {
+      "name": "Blood Sanctuary",
+      "desc": "At 3rd level, due to the power of his blood, a bloodrager can stand confidently amid the effects of {g|Encyclopedia:Spell}spells{/g} cast by himself or his allies. He gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against spells that he or an ally casts.",
+      "icon": "d70eceda5f3a35646b828323eb30f065"
+    },
+    {
+      "name": "Improved Uncanny Dodge",
+      "desc": "The character can no longer be {g|Encyclopedia:Flanking}flanked{/g}.\nThis defense denies another rogue the ability to sneak {g|Encyclopedia:Attack}attack{/g} the character by flanking her, unless the attacker has at least four more rogue levels than the target does.",
+      "icon": "f549aced0cfe8a7469985214a71d9503"
+    },
+    {
+      "name": "Damage Reduction",
+      "desc": "At 7th level, a bloodrager gains {g|Encyclopedia:Damage_Reduction}damage reduction{/g}. Subtract 1 from the {g|Encyclopedia:Damage}damage{/g} the bloodrager takes each time he is dealt damage from a weapon or a {g|Encyclopedia:NaturalAttack}natural attack{/g}. At 10th level, and every 3 levels thereafter, this damage reduction increases by 1 point. Damage Reduction can reduce damage to 0, but not below 0.",
+      "icon": "da043f7009753c5418615fb68cf7b198"
+    },
+    {
+      "name": "Greater Bloodrage",
+      "desc": "At 11th level, when a bloodrager enters a bloodrage, the {g|Encyclopedia:Bonus}bonus{/g} to his {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} increases to \u002B3 and the morale bonus on his Will {g|Encyclopedia:Saving_Throw}saves{/g} increases to \u002B3. In addition, upon entering a bloodrage, the bloodrager can cast a bloodrager {g|Encyclopedia:Spell}spell{/g} he knows of 2nd level or lower as a {g|Encyclopedia:Swift_Action}swift action{/g}. The spell must have a \u0022{g|Encyclopedia:TouchAttack}Touch{/g}\u0022 or \u0022Self\u0022 range. This use consumes a bloodrager spell slot, as if he had cast the spell; he must have the spell slot available to take advantage of this effect.\nGreater bloodrage counts as the barbarian\u0027s greater rage ability for the purposes of {g|Encyclopedia:Feat}feat{/g} prerequisites, feat abilities, magic item abilities, and spell effects.",
+      "icon": "e50a89f2ba396f44489e16b06713612f"
+    },
+    {
+      "name": "Indomitable Will",
+      "desc": "At 14th level, a bloodrager gains a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on Will {g|Encyclopedia:Saving_Throw}saves{/g} to {g|Encyclopedia:Spell_Resistance}resist Enchantment spells{/g} while bloodraging. This bonus stacks with all other modifiers, including the morale bonus on Will saves he also receives during his bloodrage.",
+      "icon": "gen__IW"
+    },
+    {
+      "name": "Tireless Bloodrage",
+      "desc": "At 17th level, a bloodrager no longer becomes fatigued at the end of his bloodrage.",
+      "icon": "gen__TB"
+    },
+    {
+      "name": "Mighty Bloodrage",
+      "desc": "At 20th level, when a bloodrager enters a bloodrage, the morale {g|Encyclopedia:Bonus}bonus{/g} to his {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} increases to \u002B4, and the morale bonus on his Will {g|Encyclopedia:Saving_Throw}saves{/g} increases to \u002B4. Furthermore, the {g|Encyclopedia:Spell}spell{/g} he can apply to himself at the beginning of a bloodrage due to the greater bloodrage class feature is not limited to only spells of 2nd level or lower.",
+      "icon": "gen__MB"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4
+    ],
+    [
+      5
+    ],
+    [],
+    [
+      6
+    ],
+    [],
+    [
+      7
+    ],
+    [],
+    [],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [],
+    [
+      7
+    ],
+    [
+      9
+    ],
+    [],
+    [
+      7
+    ],
+    [
+      10
+    ],
+    [],
+    [
+      7
+    ],
+    [
+      11
+    ]
+  ],
+  "__ui-groups": [],
+  "name": "Bloodrager",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "BloodragerFastMovement"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "BloodragerBloodlineSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "BloodragerRageFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "BloodragerProficiencies"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 4,
+        "rank": 1,
+        "__debug": "UncannyDodgeChecker"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "BloodragerBloodSanctuary"
+      }
+    ],
+    [
+      {
+        "level": 5,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "ImprovedUncannyDodge"
+      }
+    ],
+    [
+      {
+        "level": 7,
+        "feature": 7,
+        "rank": 1,
+        "__debug": "BloodragerDamageReduction"
+      },
+      {
+        "level": 10,
+        "feature": 7,
+        "rank": 2,
+        "__debug": "BloodragerDamageReduction"
+      },
+      {
+        "level": 13,
+        "feature": 7,
+        "rank": 3,
+        "__debug": "BloodragerDamageReduction"
+      },
+      {
+        "level": 16,
+        "feature": 7,
+        "rank": 4,
+        "__debug": "BloodragerDamageReduction"
+      },
+      {
+        "level": 19,
+        "feature": 7,
+        "rank": 5,
+        "__debug": "BloodragerDamageReduction"
+      }
+    ],
+    [
+      {
+        "level": 11,
+        "feature": 8,
+        "rank": -1,
+        "__debug": "BloodragerGreaterBloodrage"
+      }
+    ],
+    [
+      {
+        "level": 14,
+        "feature": 9,
+        "rank": -1,
+        "__debug": "BloodragerIndomitableWill"
+      }
+    ],
+    [
+      {
+        "level": 17,
+        "feature": 10,
+        "rank": -1,
+        "__debug": "BloodragerTirelessBloodrage"
+      }
+    ],
+    [
+      {
+        "level": 20,
+        "feature": 11,
+        "rank": -1,
+        "__debug": "BloodragerMightyBloodrage"
+      }
+    ]
+  ]
+}

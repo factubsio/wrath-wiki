@@ -1,0 +1,373 @@
+{
+  "features": [
+    {
+      "name": "Bardic Knowledge",
+      "desc": "A skald adds 1/2 his {g|Encyclopedia:Class_Level}class level{/g} (minimum 1) on all Knowledge and Lore {g|Encyclopedia:Skills}skill checks{/g}.",
+      "icon": "97e8e68d46f4b6540a262536bf5acf1e"
+    },
+    {
+      "name": "Weapon and Armor Proficiency",
+      "desc": "A skald is proficient with all simple and {g|Encyclopedia:Weapon_Proficiency}martial weapons{/g}, light and medium armor, and shields (except tower shields). A skald can cast skald {g|Encyclopedia:Spell}spells{/g} while wearing light or medium armor and even using a shield without incurring the normal {g|Encyclopedia:Spell_Fail_Chance}arcane spell failure chance{/g}. This does not affect the arcane spell failure chance for arcane spells received from other classes. Like other arcane spellcasters, a skald wearing heavy armor incurs a chance of arcane spell failure if the spell in question has somatic components.",
+      "icon": "gen__WAP"
+    },
+    {
+      "name": "Inspired Rage",
+      "desc": "At 1st level, affected allies gain a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:MeleeAttack}melee attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} and a \u002B1 bonus on Will {g|Encyclopedia:Saving_Throw}saving throws{/g}, but also take a \u20131 {g|Encyclopedia:Penalty}penalty{/g} to {g|Encyclopedia:Armor_Class}AC{/g}. While under the effects of inspired rage, allies other than the skald cannot use any ability that requires patience or {g|Encyclopedia:Concentration}concentration{/g}. At 4th level and every 4 levels thereafter, the song\u0027s bonuses on Will saves increase by 1; the penalty to AC doesn\u0027t change. At 8th and 16th levels, the song\u0027s bonuses to {g|Encyclopedia:Attack}attack{/g} and damage increase by 1. (Unlike the barbarian\u0027s rage ability, those affected are not fatigued after the song ends.)",
+      "icon": "gen__IR"
+    },
+    {
+      "name": "Bonus Feat",
+      "desc": "At 1st level, skald gets a bonus {g|Encyclopedia:Feat}feat{/g} from the list.",
+      "icon": "gen__BF"
+    },
+    {
+      "name": "Scribe scrolls",
+      "desc": "Allows you to craft scrolls during camping.",
+      "icon": "gen__S"
+    },
+    {
+      "name": "Skald Talent",
+      "desc": "As a skald gains {g|Encyclopedia:XP}experience{/g}, he learns a number of talents that aid him and confound his foes. At 2nd level, a skald gains a rogue talent, as the rogue class feature of the same name. At 7th level and every 5 levels thereafter, the skald gains an additional rogue talent. A skald cannot select a rogue talent that modifies the sneak {g|Encyclopedia:Attack}attack{/g} ability.",
+      "icon": "gen__ST"
+    },
+    {
+      "name": "Well-Versed",
+      "desc": "At 2nd level, the skald becomes resistant to sonic effects. The skald gains a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} made against bardic performance, as well as all sonic effects.",
+      "icon": "gen__WV"
+    },
+    {
+      "name": "Rage Powers",
+      "desc": "At 3rd level and every 3 levels thereafter, a skald learns a rage power that affects the skald and any allies under the influence of his inspired rage.\nIf a rage power requires another rage power (such as disruptive, which requires superstition), the skald cannot grant that rage power to allies unless he can also grant that power\u0027s prerequisite. He may add multiple rage powers to an inspired rage at the same time using this ability (such as granting superstition and disruptive simultaneously).\nIf a rage power can only be used a certain number of times per day or per rage (such as renewed vigor), each ally affected by the inspired rage song is subject to that limit (with once per rage abilities limited to once per inspired rage).\nIf the skald has rage powers from another source, he can use those rage powers during an inspired rage.\nIf the skald has the ability to rage from another source, he can use his skald rage powers during that rage as well.",
+      "icon": "gen__RP"
+    },
+    {
+      "name": "Uncanny Dodge",
+      "desc": "The character can react to danger before her senses would normally allow her to do so. She cannot be caught {g|Encyclopedia:Flat_Footed}flat-footed{/g}, nor does she lose her {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} if the {g|Encyclopedia:Attack}attacker{/g} is invisible. She still loses her Dexterity bonus to AC if immobilized. A character with this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the feint {g|Encyclopedia:CA_Types}action{/g} against her.\nIf a character already has uncanny dodge from a different class, she automatically gains improved uncanny dodge instead.",
+      "icon": "f549aced0cfe8a7469985214a71d9503"
+    },
+    {
+      "name": "Song of Strength",
+      "desc": "At 6th level, a skald can use raging song to inspire his allies to superhuman {g|Encyclopedia:Feat}feats{/g} of {g|Encyclopedia:Strength}strength{/g}. While the skald uses this performance, allies within 50 feet who can hear the skald may add 1/2 the skald\u0027s level to all Strength-based {g|Encyclopedia:Skills}skill checks{/g}.",
+      "icon": "5cf60420ab4e00943bf22e51a615be9d"
+    },
+    {
+      "name": "Lore Master",
+      "desc": "At 7th level, the skald becomes a master of many different types of lore, and can choose to take 10 on any Knowledge {g|Encyclopedia:Skills}skill check{/g} that he has ranks in.",
+      "icon": "4ea9589bae6982447bfd5ce5b9cb1b3a"
+    },
+    {
+      "name": "Raging Song (Move Action)",
+      "desc": "At 7th level, a skald can start a raging song as a {g|Encyclopedia:Move_Action}move action{/g} instead of a {g|Encyclopedia:Standard_Actions}standard action{/g}.",
+      "icon": "10ef9d0fc57354943adb2c1dbc78062f"
+    },
+    {
+      "name": "Improved Uncanny Dodge",
+      "desc": "The character can no longer be {g|Encyclopedia:Flanking}flanked{/g}.\nThis defense denies another rogue the ability to sneak {g|Encyclopedia:Attack}attack{/g} the character by flanking her, unless the attacker has at least four more rogue levels than the target does.",
+      "icon": "f549aced0cfe8a7469985214a71d9503"
+    },
+    {
+      "name": "Damage Reduction",
+      "desc": "At 9th level, a skald gains {g|Encyclopedia:Damage_Reduction}damage reduction{/g}. Subtract 1 from the {g|Encyclopedia:Damage}damage{/g} the skald takes each time he is dealt damage from a weapon or a {g|Encyclopedia:NaturalAttack}natural attack{/g}. At 14th and 19th levels, this damage reduction increases by 1. Damage Reduction can reduce damage to 0, but not below 0. Additionally, the skald grants this DR to all allies affected by his inspired rage.",
+      "icon": "907f3ced5b254124ba6bebfeb1e6db09"
+    },
+    {
+      "name": "Dirge of Doom",
+      "desc": "At 10th level, a skald can create a sense of growing dread in his enemies, causing them to become shaken. This only affects enemies that are within 50 feet and able to hear the skald\u0027s performance. The effect persists for as long as the enemy is within 50 feet and the skald continues his performance. This cannot cause a creature to become frightened or panicked, even if the targets are already shaken from another effect. This is a sonic mind-affecting fear effect, and relies on audible components.",
+      "icon": "4b2833bc4f93c8645a710f3186f74fd0"
+    },
+    {
+      "name": "Raging Song (Swift Action)",
+      "desc": "At 13th level, a skald can start a raging song as a {g|Encyclopedia:Swift_Action}swift action{/g} instead of a {g|Encyclopedia:Standard_Actions}standard action{/g}.",
+      "icon": "d640d7e8c2b9ed94d8df7eacf2c28949"
+    },
+    {
+      "name": "Song of the Fallen",
+      "desc": "At 14th level, a skald can temporarily revive dead allies to continue fighting, with the same limitations as raise dead. The skald brings all allies within 50 feet back to life. The revived allies are alive but staggered. Each {g|Encyclopedia:Combat_Round}round{/g}, the skald may expend another 1 round of raging song to keep them alive for another round. The allies automatically die if the skald ends this performance or is interrupted.",
+      "icon": "d2d07f0dfe9fade448b004e36c4306a5"
+    },
+    {
+      "name": "Master Skald",
+      "desc": "At 20th level, a skald\u0027s inspired rage no longer gives allies a {g|Encyclopedia:Penalty}penalty{/g} to {g|Encyclopedia:Armor_Class}AC{/g}, nor limits what {g|Encyclopedia:Skills}skills{/g} or abilities they can use. Additionally, they act as if under a haste effect.",
+      "icon": "gen__MS"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [],
+    [
+      7,
+      9
+    ],
+    [
+      10,
+      5,
+      11
+    ],
+    [
+      12
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      14
+    ],
+    [],
+    [
+      7,
+      5
+    ],
+    [
+      15
+    ],
+    [
+      16,
+      13
+    ],
+    [
+      7
+    ],
+    [],
+    [
+      5
+    ],
+    [
+      7
+    ],
+    [
+      13
+    ],
+    [
+      17
+    ]
+  ],
+  "__ui-groups": [
+    [],
+    []
+  ],
+  "name": "Skald",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "SkaldBardicKnowledge"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "SkaldProficiencies"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "InspiredRage"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "SkaldFeatSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "ScribingScrolls"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "SkaldTalentSelection"
+      },
+      {
+        "level": 7,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "SkaldTalentSelection"
+      },
+      {
+        "level": 12,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "SkaldTalentSelection"
+      },
+      {
+        "level": 17,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "SkaldTalentSelection"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "SkaldWellVersed"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "SkaldRagePowerSelection"
+      },
+      {
+        "level": 6,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "SkaldRagePowerSelection"
+      },
+      {
+        "level": 9,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "SkaldRagePowerSelection"
+      },
+      {
+        "level": 12,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "SkaldRagePowerSelection"
+      },
+      {
+        "level": 15,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "SkaldRagePowerSelection"
+      },
+      {
+        "level": 18,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "SkaldRagePowerSelection"
+      }
+    ],
+    [
+      {
+        "level": 4,
+        "feature": 8,
+        "rank": 1,
+        "__debug": "UncannyDodgeChecker"
+      }
+    ],
+    [
+      {
+        "level": 6,
+        "feature": 9,
+        "rank": -1,
+        "__debug": "SongOfStrength"
+      }
+    ],
+    [
+      {
+        "level": 7,
+        "feature": 10,
+        "rank": -1,
+        "__debug": "SkaldLoreMaster"
+      }
+    ],
+    [
+      {
+        "level": 7,
+        "feature": 11,
+        "rank": -1,
+        "__debug": "SKaldMovePerformance"
+      }
+    ],
+    [
+      {
+        "level": 8,
+        "feature": 12,
+        "rank": -1,
+        "__debug": "ImprovedUncannyDodge"
+      }
+    ],
+    [
+      {
+        "level": 9,
+        "feature": 13,
+        "rank": 1,
+        "__debug": "SkaldDR"
+      },
+      {
+        "level": 14,
+        "feature": 13,
+        "rank": 2,
+        "__debug": "SkaldDR"
+      },
+      {
+        "level": 19,
+        "feature": 13,
+        "rank": 3,
+        "__debug": "SkaldDR"
+      }
+    ],
+    [
+      {
+        "level": 10,
+        "feature": 14,
+        "rank": -1,
+        "__debug": "DirgeOfDoom"
+      }
+    ],
+    [
+      {
+        "level": 13,
+        "feature": 15,
+        "rank": -1,
+        "__debug": "SkaldSwiftPerformance"
+      }
+    ],
+    [
+      {
+        "level": 14,
+        "feature": 16,
+        "rank": -1,
+        "__debug": "SongOfTheFallen"
+      }
+    ],
+    [
+      {
+        "level": 20,
+        "feature": 17,
+        "rank": -1,
+        "__debug": "MasterSkald"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,5354 @@
+[
+{
+
+    "guid": "ad2adea4e3d3b8b4eb239dcd382ed235",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Cold Iron Masterwork Kukri",
+            "m_Key": "7c38ddb9-158f-425d-9311-4973b607bfc9",
+            "m_OwnerString": "ad2adea4e3d3b8b4eb239dcd382ed235",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/ColdIronMasterwork/ColdIronMasterworkKukri_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "6dd57a8ddc23b4847a003d9965c4fdf1",
+            "fileid": "21300000"
+        },
+        "m_Cost": "800",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_RE"
+        ],
+        "CR": "1",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 6b38844e2bffbac48b63036b66e735be (Masterwork :BlueprintWeaponEnchantment)",
+            "link: e5990dc76d2a613409916071c898eee8 (ColdIronWeaponEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "true",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "ColdIron",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "d29f4f3f854fb8e43983e0983f2698fa",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Cold Iron Kukri",
+            "m_Key": "7d41f0a8-1077-4958-9c1e-76b4ec833874",
+            "m_OwnerString": "d29f4f3f854fb8e43983e0983f2698fa",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/ColdIronStandard/ColdIronKukri_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "6dd57a8ddc23b4847a003d9965c4fdf1",
+            "fileid": "21300000"
+        },
+        "m_Cost": "800",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_RE"
+        ],
+        "CR": "1",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: e5990dc76d2a613409916071c898eee8 (ColdIronWeaponEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "true",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "ColdIron",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "486056a715b373c4690b219701550280",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "75",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "0",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Large",
+        "m_Enchantments": [],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "da97ded5a2cfb944691b785763ad341e",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Masterwork Kukri",
+            "m_Key": "29d68e90-809f-460c-a2a4-c5ff2de04b31",
+            "m_OwnerString": "da97ded5a2cfb944691b785763ad341e",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Masterwork/MasterworkKukri_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "6dd57a8ddc23b4847a003d9965c4fdf1",
+            "fileid": "21300000"
+        },
+        "m_Cost": "400",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment"
+        ],
+        "CR": "1",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 6b38844e2bffbac48b63036b66e735be (Masterwork :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "3125ac6c819db9f4697312710699b637",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "8",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment"
+        ],
+        "CR": "0",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "cece2e26b026b244fba86a2075fc9811",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "2008",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_IsJunk": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_RE",
+            "Equipment_Trickster"
+        ],
+        "CR": "4",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "HideAbilityInfo": "false",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "e6dcc688e09e0c44493f62563a7d12ba",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Agile Kukri +1",
+            "m_Key": "259841a1-3e1c-40a9-a652-5d3840686372",
+            "m_OwnerString": "e6dcc688e09e0c44493f62563a7d12ba",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Agile/KukriAgilePlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "8df1999f1cfe0ac44b7ffa77dfafaf7e",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: a36ad92c51789b44fa8a1c5c116a1328 (Agile :BlueprintWeaponEnchantment)",
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "321ae0728b24bf14ebee547bca2bc0ff",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Corrosive Kukri +1",
+            "m_Key": "0b26f123-59d0-48a8-9c02-e8cc92bd82fd",
+            "m_OwnerString": "321ae0728b24bf14ebee547bca2bc0ff",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Corrosive/KukriCorrosivePlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "8df1999f1cfe0ac44b7ffa77dfafaf7e",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 633b38ff1d11de64a91d490c683ab1c8 (Corrosive :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "ce7ef76c973ecfc47ba7515a743c8fd4",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "8df1999f1cfe0ac44b7ffa77dfafaf7e",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_Trickster"
+        ],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "82070fa5fdcdab64483d74a74179f0ad"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "7dac888a9059da14a9d2c53d8652721f",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Flaming Kukri +1",
+            "m_Key": "5d273243-8bc7-44b4-996c-9e2059e970d8",
+            "m_OwnerString": "7dac888a9059da14a9d2c53d8652721f",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Flaming/KukriFlamingPlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "8df1999f1cfe0ac44b7ffa77dfafaf7e",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 30f90becaaac51f41bf56641966c4121 (Flaming :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "081be63fdb6d7b04b9be46d3dab0d59a",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Frost Kukri +1",
+            "m_Key": "06d66bed-affb-4850-82bf-ec3ba5ff5df8",
+            "m_OwnerString": "081be63fdb6d7b04b9be46d3dab0d59a",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Frost/KukriFrostPlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "8df1999f1cfe0ac44b7ffa77dfafaf7e",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 421e54078b7719d40915ce0672511d0b (Frost :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "426864d35201dc2479e33a0015326ebd",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Keen Kukri +1",
+            "m_Key": "1c59bd02-881c-4a1c-8b46-ff9ccf5bfe4f",
+            "m_OwnerString": "426864d35201dc2479e33a0015326ebd",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Keen/KukriKeenPlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "8df1999f1cfe0ac44b7ffa77dfafaf7e",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 102a9c8c9b7a75e4fb5844e79deaf4c0 (Keen :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "d66b34c6c47ddb849a6d244b94f67055",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Shock Kukri +1",
+            "m_Key": "e71fae7c-c541-4395-9952-a3a2ad88ec0f",
+            "m_OwnerString": "d66b34c6c47ddb849a6d244b94f67055",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Shock/KukriShockPlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "8df1999f1cfe0ac44b7ffa77dfafaf7e",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 7bda5277d36ad114f9f9fd21d0dab658 (Shock :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "0984f5d4dc23c71418948f0b69de6c58",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Radiant Kukri +1",
+            "m_Key": "740f7571-4647-4f7d-84bf-461ca1c574bc",
+            "m_OwnerString": "0984f5d4dc23c71418948f0b69de6c58",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/RadiantKukriPlus1Item_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "18000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment"
+        ],
+        "CR": "0",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 5ac5c88157f7dde48a2a5b24caf40131 (Radiant :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "57f776cd1c197ec449f86326d08f00f5",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Corrosive Kukri +2",
+            "m_Key": "354768b7-4b3e-4ca3-b0f3-b0a805490c21",
+            "m_OwnerString": "57f776cd1c197ec449f86326d08f00f5",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Corrosive/KukriCorrosivePlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c83b0ef47d6344d4cb3f8fa5a06616a8",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 633b38ff1d11de64a91d490c683ab1c8 (Corrosive :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "04284ae47696e4e4fa5fbdfe9e1f04cf",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c83b0ef47d6344d4cb3f8fa5a06616a8",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_Trickster"
+        ],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "1b33d7336424d5443869b9fdd3f56016"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "9b8bc1a3360b5194b89611427ca278e2",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Flaming Kukri +2",
+            "m_Key": "69257c5f-d67f-431c-b01e-1b4ef36beca1",
+            "m_OwnerString": "9b8bc1a3360b5194b89611427ca278e2",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Flaming/KukriFlamingPlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c83b0ef47d6344d4cb3f8fa5a06616a8",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 30f90becaaac51f41bf56641966c4121 (Flaming :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "a7c87a7a378724a4f8c6b935f301c0ac",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Frost Kukri +2",
+            "m_Key": "731aec55-718e-4511-80f6-c6005ab595fc",
+            "m_OwnerString": "a7c87a7a378724a4f8c6b935f301c0ac",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Frost/KukriFrostPlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c83b0ef47d6344d4cb3f8fa5a06616a8",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 421e54078b7719d40915ce0672511d0b (Frost :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "149e4a9415875a34c8752ec4744b4f84",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Shock Kukri +2",
+            "m_Key": "d4668ca3-169e-4639-9ad4-28045227d292",
+            "m_OwnerString": "149e4a9415875a34c8752ec4744b4f84",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Shock/KukriShockPlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c83b0ef47d6344d4cb3f8fa5a06616a8",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 7bda5277d36ad114f9f9fd21d0dab658 (Shock :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "212fa0badb9949409db33ad243333064",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "8df1999f1cfe0ac44b7ffa77dfafaf7e",
+            "fileid": "21300000"
+        },
+        "m_Cost": "32000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "13",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: 102a9c8c9b7a75e4fb5844e79deaf4c0 (Keen :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "83b6fb2af8cf98c4fb347e932ff6f7c4",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "a4ce167b47d926241b21bfe7cdb67dff",
+            "fileid": "21300000"
+        },
+        "m_Cost": "32000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "13",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "6c85dd32d78cc354683015177826d89b"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "9bc0e0c791def344fa917accbdd264c7"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 783d7d496da6ac44f9511011fc5f1979 (Enhancement4 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "86cae2531ed5df641aa57e5fb24a88c0",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "04ca370815ba49843b5fc344125be321",
+            "fileid": "21300000"
+        },
+        "m_Cost": "50000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "cb5766741c93f244bbc84b20b8ce5c62"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "fd71238a845d381418520e79ec7caeca"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "9fcfd9534c32459ab83960b8d4faceba",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Ultrasound Heartseeker Kukri +5",
+            "m_Key": "5c8aa79b-ff08-4049-b151-13e4e1757290",
+            "m_OwnerString": "9fcfd9534c32459ab83960b8d4faceba",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints\\Weapons\\Items\\TotalPlus7\\KukriPlus6_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c83b0ef47d6344d4cb3f8fa5a06616a8",
+            "fileid": "21300000"
+        },
+        "m_Cost": "98000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_IsJunk": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: e252b26686ab66241afdf33f2adaead6 (Heartseeker :BlueprintWeaponEnchantment)",
+            "link: 582849db96824254ebcc68f0b7484e51 (Ultrasound :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "d7958455107164b47a78eb303bab51ad",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Gift of Death",
+            "m_Key": "4180d3f9-97a8-427d-af2f-1de93b57f0a7",
+            "m_OwnerString": "d7958455107164b47a78eb303bab51ad",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/GiftOfDeath_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This weapon is a +2 unholy kukri.",
+            "m_Key": "33704bc2-663f-4917-b4a3-ca5f76f3d662",
+            "m_OwnerString": "d7958455107164b47a78eb303bab51ad",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/GiftOfDeath_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "The handle of this kukri is made of human bone.",
+            "m_Key": "cd5494ed-1f85-4c9e-ab6f-e617b34026b2",
+            "m_OwnerString": "d7958455107164b47a78eb303bab51ad",
+            "m_OwnerPropertyPath": "m_FlavorText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/GiftOfDeath_m_FlavorText.json",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "a319d3a7677c2fc4089c2203636fe866",
+            "fileid": "21300000"
+        },
+        "m_Cost": "21000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "15",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: d05753b8df780fc4bb55b318f06af453 (Unholy :BlueprintWeaponEnchantment)",
+            "link: 2fa378b52d997da4e814af3c48d88d35 (AgainstHelplessPlus2 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "70ad3d3a88d1a02469b54205d82ce8c3",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Mother\u0027s Care",
+            "m_Key": "cc93bdfb-6914-48ca-89f4-a8bfddf6cc8c",
+            "m_OwnerString": "70ad3d3a88d1a02469b54205d82ce8c3",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/MothersCare_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This weapon is a +2 frost keen kukri.",
+            "m_Key": "91249e83-6534-4860-8743-6e30211194e4",
+            "m_OwnerString": "70ad3d3a88d1a02469b54205d82ce8c3",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/MothersCare_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "This chilly kukri is dedicated to Lamashtu, the Mother of Monsters.",
+            "m_Key": "260e01a3-02f6-4895-9fb5-dd998eea04f6",
+            "m_OwnerString": "70ad3d3a88d1a02469b54205d82ce8c3",
+            "m_OwnerPropertyPath": "m_FlavorText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/MothersCare_m_FlavorText.json",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "b06527bedc97c4444a7b785361263347",
+            "fileid": "21300000"
+        },
+        "m_Cost": "20000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "13",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 102a9c8c9b7a75e4fb5844e79deaf4c0 (Keen :BlueprintWeaponEnchantment)",
+            "link: 421e54078b7719d40915ce0672511d0b (Frost :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "565dd292fabbfb147b5279746cb63b85",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Mother\u0027s Warmth",
+            "m_Key": "9baebf12-dc42-4a6c-810a-d8b9f5dc9ff4",
+            "m_OwnerString": "565dd292fabbfb147b5279746cb63b85",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/MothersWarmth_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This weapon is a +2 flaming keen kukri.",
+            "m_Key": "307dba7f-e22a-4620-94bb-988233dbd0a3",
+            "m_OwnerString": "565dd292fabbfb147b5279746cb63b85",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/MothersWarmth_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "This fiery kukri is dedicated to Lamashtu, the Mother of Monsters.",
+            "m_Key": "731c7301-0b30-4a57-ba8a-080bec900f01",
+            "m_OwnerString": "565dd292fabbfb147b5279746cb63b85",
+            "m_OwnerPropertyPath": "m_FlavorText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/MothersWarmth_m_FlavorText.json",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "b06527bedc97c4444a7b785361263347",
+            "fileid": "21300000"
+        },
+        "m_Cost": "20000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "13",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 102a9c8c9b7a75e4fb5844e79deaf4c0 (Keen :BlueprintWeaponEnchantment)",
+            "link: 30f90becaaac51f41bf56641966c4121 (Flaming :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "92cfdd028ba3bff4f9f29858f81b1c71",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "Парные Kukri +5, x3 crit, first attack against the enemy in combat deals additional 6d6 damage (при ударе вешает бафф который спадает в конце боя, пока баффа нет наносит на 4д6 больше урона), разные баффы для двух кукрей\r\n",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Weasel\u0027s Bite",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "d79ab24062185ff4799b5de141914721",
+                "stringkey": "06fff3bf-e92c-40e3-99ae-d2c6182636f4"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +5 kukri has a ×3 {g|Encyclopedia:Critical}critical{/g} multiplier. Whenever a creature is hit by it for the first time during a combat, it deals an additional {g|Encyclopedia:Dice}6d6{/g} {g|Encyclopedia:Damage}damage{/g}.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "17992d961eeeb464789fe5f5b9e86a4b",
+                "stringkey": "d6f27084-088b-4ffa-9edd-c6a79371b1bb"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "50924b8e8e2eabf4da61a545b24bf7d7",
+            "fileid": "21300000"
+        },
+        "m_Cost": "74000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "23",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 5b1550c536bd09740bf43a6ddd1ad919 (CriticalMultiplierIncrease :BlueprintWeaponEnchantment)",
+            "link: a84ce675e3ba8034eb3a7f9c71027572 (BetrayalFirstEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "8b6da0c2cead68d49bbc95316db2883f",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "Парные Kukri +5, x3 crit, first attack against the enemy in combat deals additional 6d6 damage (при ударе вешает бафф который спадает в конце боя, пока баффа нет наносит на 4д6 больше урона), разные баффы для двух кукрей\r\n",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Weasel\u0027s Claw",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "3f4db17aad291354fa08b3cf5d1641fd",
+                "stringkey": "751320db-ca11-4899-9fbf-aac77f4a618b"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +5 kukri has a ×3 {g|Encyclopedia:Critical}critical{/g} multiplier. Whenever a creature is hit by it for the first time during a combat, it deals an additional {g|Encyclopedia:Dice}6d6{/g} {g|Encyclopedia:Damage}damage{/g}.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "5d340d011991a5c429fd8976d4543e91",
+                "stringkey": "6d675f21-a43f-458a-941a-0e14ab19babc"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "50924b8e8e2eabf4da61a545b24bf7d7",
+            "fileid": "21300000"
+        },
+        "m_Cost": "74000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "23",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 5b1550c536bd09740bf43a6ddd1ad919 (CriticalMultiplierIncrease :BlueprintWeaponEnchantment)",
+            "link: fd5e7a558417be24a883ed60c656d8cc (BetrayalSecondEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "cd2bb6783419f35439457b3bdf83744e",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "кукри нок-нока  (ламаштианские, трофей)",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Cold Blood",
+            "m_Key": "e261fac2-e5a9-4a40-a8bb-76d4ffed524b",
+            "m_OwnerString": "cd2bb6783419f35439457b3bdf83744e",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/LateChapters_4thPart/ColdBloodItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This weapon is a +4 freezing Kukri.",
+            "m_Key": "31165fd7-877d-4097-b739-67a77a49693a",
+            "m_OwnerString": "cd2bb6783419f35439457b3bdf83744e",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/LateChapters_4thPart/ColdBloodItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "Greyt troffee! Pruff Nok-Nok REEL HERO!",
+            "m_Key": "fb3bbca9-8c97-4ae1-8c4e-3ca976bc45af",
+            "m_OwnerString": "cd2bb6783419f35439457b3bdf83744e",
+            "m_OwnerPropertyPath": "m_FlavorText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/LateChapters_4thPart/ColdBloodItem_m_FlavorText.json",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "04ca370815ba49843b5fc344125be321",
+            "fileid": "21300000"
+        },
+        "m_Cost": "72000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "22",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 783d7d496da6ac44f9511011fc5f1979 (Enhancement4 :BlueprintWeaponEnchantment)",
+            "link: a36ad92c51789b44fa8a1c5c116a1328 (Agile :BlueprintWeaponEnchantment)",
+            "link: 00049f6046b20394091b29702c6e9617 (Ice2d6 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "6929f2f0de978dd4a9ae0d4f03278a03",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "кукри нок-нока (ламаштианские, трофей)",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Fiery Blood",
+            "m_Key": "75fff991-1f19-4f45-b4a2-eb10cdb58c90",
+            "m_OwnerString": "6929f2f0de978dd4a9ae0d4f03278a03",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/LateChapters_4thPart/FieryBloodItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This weapon is a +4 incinerating Kukri.",
+            "m_Key": "9c8f44e3-158e-49f3-b0b4-e07782f06e60",
+            "m_OwnerString": "6929f2f0de978dd4a9ae0d4f03278a03",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/LateChapters_4thPart/FieryBloodItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "Greyt troffee! Pruff Nok-Nok REEL HERO!",
+            "m_Key": "012cda37-605f-435b-8ceb-de5484f96839",
+            "m_OwnerString": "6929f2f0de978dd4a9ae0d4f03278a03",
+            "m_OwnerPropertyPath": "m_FlavorText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/LateChapters_4thPart/FieryBloodItem_m_FlavorText.json",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "04ca370815ba49843b5fc344125be321",
+            "fileid": "21300000"
+        },
+        "m_Cost": "72000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "19",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 783d7d496da6ac44f9511011fc5f1979 (Enhancement4 :BlueprintWeaponEnchantment)",
+            "link: 5e0e5de297c229f42b00c5b1738b50fa (Brass :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "afab96bdb52d22f4796eb365c3f5df8c",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "Кукри, +4, +2 против хелплесс врагов (sacrificial енчант, называется что-то с helpless  в названии)",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Swift Injustice",
+            "m_Key": "3d7b8776-4b47-47d1-a348-51baef4f8894",
+            "m_OwnerString": "afab96bdb52d22f4796eb365c3f5df8c",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/RiversJusticeQuest/FalseJusticeItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +4 kukri deals additional 2 {g|Encyclopedia:Damage}damage{/g} to {g|Encyclopedia:Helpless}helpless{/g} targets.",
+            "m_Key": "c9f9fcc7-c606-4bd4-a06b-294ff826b560",
+            "m_OwnerString": "afab96bdb52d22f4796eb365c3f5df8c",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/RiversJusticeQuest/FalseJusticeItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "The marking on the blade insists that this kukri was forged by one of the pirate blacksmiths of the Black Marquis.",
+            "m_Key": "d45c65e7-067a-4ad7-999f-9be7fbc83910",
+            "m_OwnerString": "afab96bdb52d22f4796eb365c3f5df8c",
+            "m_OwnerPropertyPath": "m_FlavorText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/RiversJusticeQuest/FalseJusticeItem_m_FlavorText.json",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "04ca370815ba49843b5fc344125be321",
+            "fileid": "21300000"
+        },
+        "m_Cost": "35800",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 783d7d496da6ac44f9511011fc5f1979 (Enhancement4 :BlueprintWeaponEnchantment)",
+            "link: b7f029a31452b26408bc75d715227993 (Sacrificial :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "71bb275ec1b130f4e857ea001582dd17",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Blizzard Touch",
+            "m_Key": "9728a027-66e9-403f-b4ac-3d0d0a09b1aa",
+            "m_OwnerString": "71bb275ec1b130f4e857ea001582dd17",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/BlizzardTouchItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "Whenever this +3 shock frost kukri confirms a {g|Encyclopedia:Critical}critical hit{/g} on an enemy, the target must pass a {g|Encyclopedia:Saving_Throw}Fortitude saving throw{/g} ({g|Encyclopedia:DC}DC{/g} 25) or become prone for {g|Encyclopedia:Dice}1d4{/g} {g|Encyclopedia:Combat_Round}rounds{/g}.",
+            "m_Key": "b2d3afc8-388f-41d0-bec7-e7b3e226ba9b",
+            "m_OwnerString": "71bb275ec1b130f4e857ea001582dd17",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/BlizzardTouchItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "8df1999f1cfe0ac44b7ffa77dfafaf7e",
+            "fileid": "21300000"
+        },
+        "m_Cost": "66000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "82070fa5fdcdab64483d74a74179f0ad"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "34a111e7fbe82104e9f1184ad45a51aa"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: 7bda5277d36ad114f9f9fd21d0dab658 (Shock :BlueprintWeaponEnchantment)",
+            "link: 421e54078b7719d40915ce0672511d0b (Frost :BlueprintWeaponEnchantment)",
+            "link: b81ea7c1750560d4696e39a071377be7 (BlizzardTouchEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "860d8aed27a52404cb87ed22813a2600",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Grace of Peace",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "222b6a318cc55d141bf88a98f1854bde",
+                "stringkey": "c345b55e-f548-4750-9fa7-7c4a3f6ef8a3"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +1 cold iron kukri deals an additional +2 {g|Encyclopedia:Damage}damage{/g} against undead creatures.",
+            "m_Key": "c56b7ded-efb0-4b86-9b53-91a53af8a8ef",
+            "m_OwnerString": "860d8aed27a52404cb87ed22813a2600",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter1/FinalPacifierItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "A fearsome-looking blade that once belonged to a common crusader. There are fourteen notches visible on its simple hilt.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "dee4c48c46b4efb40a8666d63eece42e",
+                "stringkey": "1d80359e-3264-4518-9136-220a40380b0e"
+            }
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "a4ce167b47d926241b21bfe7cdb67dff",
+            "fileid": "21300000"
+        },
+        "m_Cost": "7300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "4",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "6c85dd32d78cc354683015177826d89b"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "9bc0e0c791def344fa917accbdd264c7"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: b5325493e73e6834391218b932567e2b (FinalPacifierEnchantment :BlueprintWeaponEnchantment)",
+            "link: e5990dc76d2a613409916071c898eee8 (ColdIronWeaponEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "true",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "ColdIron",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "332197e85cbb8ac4dbd35578ef41ee9c",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Shock Flaming Corrosive Cold Iron Kukri +3",
+            "m_Key": "73af5e41-90ef-4417-beae-784bc56a2f29",
+            "m_OwnerString": "332197e85cbb8ac4dbd35578ef41ee9c",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter3/ShockFlamingCorrisveColdIronKukriPlus3Item_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "a319d3a7677c2fc4089c2203636fe866",
+            "fileid": "21300000"
+        },
+        "m_Cost": "72000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_IsJunk": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "aab5d1f9eb0bfa74582533e7f975ba66"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "69e105368576b224db1d9fb60b77cc8e"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: 7bda5277d36ad114f9f9fd21d0dab658 (Shock :BlueprintWeaponEnchantment)",
+            "link: 30f90becaaac51f41bf56641966c4121 (Flaming :BlueprintWeaponEnchantment)",
+            "link: 633b38ff1d11de64a91d490c683ab1c8 (Corrosive :BlueprintWeaponEnchantment)",
+            "link: e5990dc76d2a613409916071c898eee8 (ColdIronWeaponEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "true",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "ColdIron",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "3ba4ce0f30e6cc945ac96b5374649efd",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Abrupt End",
+            "m_Key": "3564b358-5934-4e08-ac0f-7518d571d74e",
+            "m_OwnerString": "3ba4ce0f30e6cc945ac96b5374649efd",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter4/AbruptEndItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "The wielder of this +4 shocking burst kukri gets a +2 insight {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Attack}attack rolls{/g} against enemies armed with shields and a +2 bonus to {g|Encyclopedia:Damage}damage rolls{/g} against enemies armed with {g|Encyclopedia:Light_Weapon}two-handed{/g} weapons.",
+            "m_Key": "8e8462a3-b953-423d-854a-ca9885d4a999",
+            "m_OwnerString": "3ba4ce0f30e6cc945ac96b5374649efd",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter4/AbruptEndItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "b06527bedc97c4444a7b785361263347",
+            "fileid": "21300000"
+        },
+        "m_Cost": "118000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "13",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "f439ef83d68835c4b90d732ce65285ed"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "5bafb5cc6162d4f4dbb159a91ed7c462"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 783d7d496da6ac44f9511011fc5f1979 (Enhancement4 :BlueprintWeaponEnchantment)",
+            "link: 914d7ee77fb09d846924ca08bccee0ff (ShockingBurst :BlueprintWeaponEnchantment)",
+            "link: 66f1ac1f205e99f4e83c9b3aa8f0b0b1 (AbruptEndEnchantment :BlueprintWeaponEnchantment)",
+            "link: 7bda5277d36ad114f9f9fd21d0dab658 (Shock :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "a8607f74bc89404d85d1605fa2346a75",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Astringent Pacifier",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "d011660684dc0584e9e62d35827b65ba",
+                "stringkey": "e3683c87-338b-4c7a-9191-1850494c9824"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "Whenever the wielder of this +5 caustic sacrificial kukri lands a killing blow, all enemies in a 15-foot radius must pass a {g|Encyclopedia:Saving_Throw}Will saving throw{/g} ({g|Encyclopedia:DC}DC{/g} 32) or become panicked for 3 {g|Encyclopedia:Combat_Round}rounds{/g}. It also grants a +15 competence {g|Encyclopedia:Bonus}bonus{/g} on Persuasion {g|Encyclopedia:Skills}skill checks{/g} made to intimidate.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "672be1ae54667f04a81332a4035df6f7",
+                "stringkey": "bde58483-2a1d-4220-9d5d-13dc116ecaf8"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "ec345ea557cd4134c839c70f8f2d2193",
+            "fileid": "21300000"
+        },
+        "m_Cost": "170000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "3466f4a656d56bc4d9fd22c546f9b8f8"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "f0978508dce61064995d38f88749f01e"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 2becfef47bec13940b9ee71f1b14d2dd (Corrosive2d6 :BlueprintWeaponEnchantment)",
+            "link: b7f029a31452b26408bc75d715227993 (Sacrificial :BlueprintWeaponEnchantment)",
+            "link: b5d3a19e9a7f436aa7396b18e81c2cc7 (AstringentPacifierEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "18da1866d76528648b7846e5fd07b99b",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean the Talking Weapon",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96b6d9d9fa75e4e44984a3d12c4c63ba",
+                "stringkey": "b29f1539-eb5c-4c09-bd68-b172f3786659"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This is a +1 cold iron ghost touch weapon.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "29acffbc69d1b95449d5ce6613a66ffa",
+                "stringkey": "8227ec85-8b4b-45dc-b6c7-2cd9629205f8"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "6dd57a8ddc23b4847a003d9965c4fdf1",
+            "fileid": "21300000"
+        },
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_RE"
+        ],
+        "CR": "4",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: e5990dc76d2a613409916071c898eee8 (ColdIronWeaponEnchantment :BlueprintWeaponEnchantment)",
+            "link: 47857e1a5a3ec1a46adf6491b1423b4f (GhostTouch :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "true",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "ColdIron",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "9effb1436eefe56439a40dc04da0beac",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean the Talking Weapon",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96b6d9d9fa75e4e44984a3d12c4c63ba",
+                "stringkey": "b29f1539-eb5c-4c09-bd68-b172f3786659"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This is a +3 brilliant energy heartseeker weapon. This weapon can tear the soul of a living enemy: whenever it lands a hit, it deals additional {g|Encyclopedia:Dice}1d6{/g} force {g|Encyclopedia:Damage}damage{/g}.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96d85cdc54d63e14cb734b39ce17c9c1",
+                "stringkey": "92e9d91d-c458-49ef-9629-7836c41cc338"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c83b0ef47d6344d4cb3f8fa5a06616a8",
+            "fileid": "21300000"
+        },
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: 66e9e299c9002ea4bb65b6f300e43770 (BrilliantEnergy :BlueprintWeaponEnchantment)",
+            "link: e252b26686ab66241afdf33f2adaead6 (Heartseeker :BlueprintWeaponEnchantment)",
+            "link: b183bd491793d194c9e4c96cd11769b1 (FinneanChapter3Enchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "b5bba7c5b9bf4ab4d9cfb99346c5475f",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean the Talking Weapon",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96b6d9d9fa75e4e44984a3d12c4c63ba",
+                "stringkey": "b29f1539-eb5c-4c09-bd68-b172f3786659"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c83b0ef47d6344d4cb3f8fa5a06616a8",
+            "fileid": "21300000"
+        },
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 66e9e299c9002ea4bb65b6f300e43770 (BrilliantEnergy :BlueprintWeaponEnchantment)",
+            "link: 6b66e949f348ccd4989a5fd9254f8958 (FinneanChapter5EnchantmentBase :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "8cda05f38a1d490469e9173bb4235868",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "c4b7a463512eb694bbe9571323ede197",
+                "stringkey": "ccb5c705-7ac0-4b1c-ad69-7fcea827ebc9"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "This weapon was once the seat of Finnean\u0027s soul. Now that the soul of the Sarkorian Pathfinder has left the weapon, it has fallen silent forever.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "ceac81e5a8f907d4fb5c6dee3447b300",
+                "stringkey": "35efb8b0-3805-402f-b349-24911dfca762"
+            }
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "a319d3a7677c2fc4089c2203636fe866",
+            "fileid": "21300000"
+        },
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "aab5d1f9eb0bfa74582533e7f975ba66"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": {
+                "AssetId": "69e105368576b224db1d9fb60b77cc8e"
+            },
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 006ecd4715809b343b7001e859e3ddb2 (Kukri :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 66e9e299c9002ea4bb65b6f300e43770 (BrilliantEnergy :BlueprintWeaponEnchantment)",
+            "link: 9aa9af4b654662945a410644d3db8d99 (FinneanChapter5EnchantmentLich :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+}]

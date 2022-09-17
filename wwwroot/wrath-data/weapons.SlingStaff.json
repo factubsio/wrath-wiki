@@ -1,0 +1,4309 @@
+[
+{
+
+    "guid": "7b7089e1b48724d4a8366628ab7b69e7",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "22.04 - DRAFT\nCL 12",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Avalanche",
+            "m_Key": "d6e0db3c-35d3-4297-aa97-3b0aa0019d0e",
+            "m_OwnerString": "7b7089e1b48724d4a8366628ab7b69e7",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Artisan/HumanFemaleExoticSmith/AvalancheHeavRepCrossBowItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +3 frost halfling sling staff grants its wielder a +2 morale {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Damage}damage{/g}, and an ability to cast stone call {g|Encyclopedia:Spell}spell{/g} once per day as a 7th level wizard.",
+            "m_Key": "dfb57d07-911c-4cd1-9789-82ec937d8ee1",
+            "m_OwnerString": "7b7089e1b48724d4a8366628ab7b69e7",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Artisan/HumanFemaleExoticSmith/AvalancheHeavRepCrossBowItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "This is one of the gifts of the royal court master Shaynih\u0027a, who arrived to the Stolen Lands from the foreign land of Vudra in search of her vocation.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "27336f7db7a6bec4782717e705e7951a",
+                "stringkey": "a11c5e0d-fdab-44a5-8005-18f6e90070a1"
+            }
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c74f741c15578384f80f33c6594c5fe5",
+            "fileid": "21300000"
+        },
+        "m_Cost": "56700",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "17",
+        "m_Ability": "link: 5181c2ed0190fc34b8a1162783af5bf4 (StoneCall :BlueprintAbility)",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "true",
+        "CasterLevel": "7",
+        "SpellLevel": "2",
+        "DC": "0",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 421e54078b7719d40915ce0672511d0b (Frost :BlueprintWeaponEnchantment)",
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: ac58b7c26ba3c2c47bddc9fe14265e76 (AvalancheHeavRepCrossBowAddDama2 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "ac8ac83697d92de40bb3b011d40f437c",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "19.04 - DRAFT\nCL 9\n",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Carefree Hunter",
+            "m_Key": "5b75f31f-19a5-4da5-af8f-aa269f6df23c",
+            "m_OwnerString": "ac8ac83697d92de40bb3b011d40f437c",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Artisan/HumanFemaleExoticSmith/GreenskinHunterHandCrosbwItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +2 halfling sling staff grants its wielder a +2 morale {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Dexterity}Dexterity{/g}, and a +5 luck bonus on {g|Encyclopedia:Mobility}Mobility{/g} {g|Encyclopedia:Skills}skill checks{/g}.",
+            "m_Key": "52b5d5da-56b2-4aee-a589-fec7c0eacb87",
+            "m_OwnerString": "ac8ac83697d92de40bb3b011d40f437c",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Artisan/HumanFemaleExoticSmith/GreenskinHunterHandCrosbwItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "This is one of the gifts of the royal court master Shaynih\u0027a, who arrived to the Stolen Lands from the foreign land of Vudra in search of her vocation.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "27336f7db7a6bec4782717e705e7951a",
+                "stringkey": "a11c5e0d-fdab-44a5-8005-18f6e90070a1"
+            }
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "09f6b07106aa97143b52c9fa05be5623",
+            "fileid": "21300000"
+        },
+        "m_Cost": "38760",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "15",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: ab0108b67cfc2a849926a79ece0fdddc (BaneOrcGoblin1d6 :BlueprintWeaponEnchantment)",
+            "link: bd19e1e9b58c0d5468c6ec6a8c76a640 (GreenskinHunterHandCrosbwMobility5 :BlueprintWeaponEnchantment)",
+            "link: eb5ec62d7384c904890b3753c6975c05 (GreenskinHunterHandCrosbwDex2 :BlueprintWeaponEnchantment)",
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "e69d2d56ba7347c4b8917f36e1b26954",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "75",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "0",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Large",
+        "m_Enchantments": [],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "9f6b88554d5eb564ab2d247ab11f40b0",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Masterwork Sling Staff",
+            "m_Key": "8ed7794a-3930-4f32-b15a-e434e3042031",
+            "m_OwnerString": "9f6b88554d5eb564ab2d247ab11f40b0",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Masterwork/MasterworkSlingStaff_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "400",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment"
+        ],
+        "CR": "1",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 6b38844e2bffbac48b63036b66e735be (Masterwork :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "dda1a4f8cbf8ad34ca7845ca17313e86",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "20",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment"
+        ],
+        "CR": "0",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "643b5b476b7fc1942aa24a50dedc8de4",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "2020",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_IsJunk": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_RE",
+            "Equipment_Trickster"
+        ],
+        "CR": "4",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "HideAbilityInfo": "false",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "e518082197151ed41bbe243e78ab539d",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Corrosive Sling Staff +1",
+            "m_Key": "07faa297-5378-4024-b2bd-72b8e843a956",
+            "m_OwnerString": "e518082197151ed41bbe243e78ab539d",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Corrosive/SlingStaffCorrosivePlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "09f6b07106aa97143b52c9fa05be5623",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 633b38ff1d11de64a91d490c683ab1c8 (Corrosive :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "1dc78587aa10b0849b863f57615ddce2",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "09f6b07106aa97143b52c9fa05be5623",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_Trickster"
+        ],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "d7a044c03e7c97f44a28a28ab07de827",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Flaming Sling Staff +1",
+            "m_Key": "9f4cff80-e371-4894-9db3-d09ce7218722",
+            "m_OwnerString": "d7a044c03e7c97f44a28a28ab07de827",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Flaming/SlingStaffFlamingPlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "09f6b07106aa97143b52c9fa05be5623",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 30f90becaaac51f41bf56641966c4121 (Flaming :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "4a626f48303ad4b41ac6ee70e8531557",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Frost Sling Staff +1",
+            "m_Key": "38171a81-8364-4648-92e3-1c2859580cec",
+            "m_OwnerString": "4a626f48303ad4b41ac6ee70e8531557",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Frost/SlingStaffFrostPlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "09f6b07106aa97143b52c9fa05be5623",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 421e54078b7719d40915ce0672511d0b (Frost :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "ddda56625782ba544b1a531a69e50431",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Shock Sling Staff +1",
+            "m_Key": "eeea510c-9124-46b5-a3a0-20cc33b19aa7",
+            "m_OwnerString": "ddda56625782ba544b1a531a69e50431",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus2/Shock/SlingStaffShockPlus1_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "09f6b07106aa97143b52c9fa05be5623",
+            "fileid": "21300000"
+        },
+        "m_Cost": "8300",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "7",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: 7bda5277d36ad114f9f9fd21d0dab658 (Shock :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "626d739056d6f674e8e457fe9667c56e",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Corrosive Sling Staff +2",
+            "m_Key": "2af82326-ad80-40b4-b2c7-e5891247e989",
+            "m_OwnerString": "626d739056d6f674e8e457fe9667c56e",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Corrosive/SlingStaffCorrosivePlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c74f741c15578384f80f33c6594c5fe5",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "dbfb88269254a2d4cb10e9063163a981"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 633b38ff1d11de64a91d490c683ab1c8 (Corrosive :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "69245594968164347b63b2ddc3c24eef",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c74f741c15578384f80f33c6594c5fe5",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_Trickster"
+        ],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "dbfb88269254a2d4cb10e9063163a981"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "a751301901870ef4796f631787b843ba",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Flaming Sling Staff +2",
+            "m_Key": "cd2d9f06-7556-4e75-b1d3-b35dcfd9c6d9",
+            "m_OwnerString": "a751301901870ef4796f631787b843ba",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Flaming/SlingStaffFlamingPlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c74f741c15578384f80f33c6594c5fe5",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "dbfb88269254a2d4cb10e9063163a981"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 30f90becaaac51f41bf56641966c4121 (Flaming :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "9faed757f9aed774ea657ac9dbaca1f2",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Frost Sling Staff +2",
+            "m_Key": "5c91a316-f9fd-42d8-b55e-ee807bb1ff35",
+            "m_OwnerString": "9faed757f9aed774ea657ac9dbaca1f2",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Frost/SlingStaffFrostPlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c74f741c15578384f80f33c6594c5fe5",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "dbfb88269254a2d4cb10e9063163a981"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 421e54078b7719d40915ce0672511d0b (Frost :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "12d84dd86f098f7458da72cf8f74a053",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Shock Sling Staff +2",
+            "m_Key": "13875e71-9eae-44a4-afab-e75c28084765",
+            "m_OwnerString": "12d84dd86f098f7458da72cf8f74a053",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/TotalPlus3/Shock/SlingStaffShockPlus2_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c74f741c15578384f80f33c6594c5fe5",
+            "fileid": "21300000"
+        },
+        "m_Cost": "18500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "dbfb88269254a2d4cb10e9063163a981"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 7bda5277d36ad114f9f9fd21d0dab658 (Shock :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "db4d0076c83d9434a9e8557f805d7b9a",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c74f741c15578384f80f33c6594c5fe5",
+            "fileid": "21300000"
+        },
+        "m_Cost": "32000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "13",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "dbfb88269254a2d4cb10e9063163a981"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 783d7d496da6ac44f9511011fc5f1979 (Enhancement4 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "565ba27cf9808ae4285cf360df076723",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c74f741c15578384f80f33c6594c5fe5",
+            "fileid": "21300000"
+        },
+        "m_Cost": "50000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "dbfb88269254a2d4cb10e9063163a981"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "1b21029e3b24ae34eab9a7ff9fd37fd0",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Vengeance of the Meek",
+            "m_Key": "b252eaa9-3103-4a90-ad9e-baaf599ea7d8",
+            "m_OwnerString": "1b21029e3b24ae34eab9a7ff9fd37fd0",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/VengeanceOfTheMeek_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This weapon is a +2 giant bane sling staff.",
+            "m_Key": "dc53cad3-76ef-45e3-be77-6588b95804fc",
+            "m_OwnerString": "1b21029e3b24ae34eab9a7ff9fd37fd0",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/VengeanceOfTheMeek_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "Many communities on Golarion live in constant fear of giants, and this leads towards the creation of items like this one.",
+            "m_Key": "aae77fd4-0e37-4ba8-b13f-b4ff1b8d387d",
+            "m_OwnerString": "1b21029e3b24ae34eab9a7ff9fd37fd0",
+            "m_OwnerPropertyPath": "m_FlavorText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/Chapter2/VengeanceOfTheMeek_m_FlavorText.json",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c74f741c15578384f80f33c6594c5fe5",
+            "fileid": "21300000"
+        },
+        "m_Cost": "23000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: dcecb5f2ffacfd44ead0ed4f8846445d (BaneHumanoidGiant :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "2f33db8e7a502d542b6fd8eae9102b89",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Arsonist\u0027s Slingstaff",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "88029e10e5aa48444a15d238e4d0c87b",
+                "stringkey": "a106b2dc-5507-4398-8183-874e5cb67a4e"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "Whenever the wielder of this +4 flaming burst slingstaff casts a {g|Encyclopedia:Spell}spell{/g} with fire descriptor, that spell deals +1 point of {g|Encyclopedia:Damage}damage{/g} per die {g|Encyclopedia:Dice}rolled{/g}.",
+            "m_Key": "50522e74-e043-48f9-b1f1-bb81f5122757",
+            "m_OwnerString": "2f33db8e7a502d542b6fd8eae9102b89",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/Unique/EE/IgnitionItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "09f6b07106aa97143b52c9fa05be5623",
+            "fileid": "21300000"
+        },
+        "m_Cost": "72000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "23",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 783d7d496da6ac44f9511011fc5f1979 (Enhancement4 :BlueprintWeaponEnchantment)",
+            "link: 30f90becaaac51f41bf56641966c4121 (Flaming :BlueprintWeaponEnchantment)",
+            "link: 3f032a3cd54e57649a0cdad0434bf221 (FlamingBurst :BlueprintWeaponEnchantment)",
+            "link: caba1e469267a9e428f72e9e10796b84 (IgnitionEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "534cfe8a353d3644497684241ce2d19f",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Hazard",
+            "m_Key": "97450c42-c3d0-494a-81fb-92ebb2b27f1d",
+            "m_OwnerString": "534cfe8a353d3644497684241ce2d19f",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/TheHazardItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "Whenever the wielder of this +2 sling staff lands a hit with it, the enemy must pass a Reflex ({g|Encyclopedia:DC}DC{/g} 14) {g|Encyclopedia:Saving_Throw}saving throw{/g} or suffer a random {g|Encyclopedia:Penalty}penalty{/g} of -1 to Will, Reflex, or Fortitude saving throws until the end of combat. This effect stacks.",
+            "m_Key": "bd980889-10f0-4d5b-8e02-deeb7ef1f65e",
+            "m_OwnerString": "534cfe8a353d3644497684241ce2d19f",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/TheHazardItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "2cf696ae5fa56ee43b99511db3aebcd4",
+            "fileid": "21300000"
+        },
+        "m_Cost": "27500",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "0",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "82d2b7beed4bf72458785ec9d96a055d"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: eb2faccc4c9487d43b3575d7e77ff3f5 (Enhancement2 :BlueprintWeaponEnchantment)",
+            "link: 27a9cc2e1b8155c439c9b7e3eca94d72 (TheHazardEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "3522da20bbde3ff43a19990c64533fd8",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Nature\u0027s Agony",
+            "m_Key": "a875d18e-49b0-4047-95d7-762880542663",
+            "m_OwnerString": "3522da20bbde3ff43a19990c64533fd8",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter3/NaturesAgonyItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This +3 sling staff is imbued with nature\u0027s agony. Whenever the wielder enters combat the weapon shrieks and creaks. All enemies within a 30-foot range have to pass a {g|Encyclopedia:Saving_Throw}Will saving throw{/g} ({g|Encyclopedia:DC}DC{/g} 23) or suffer {g|Encyclopedia:Dice}3d6{/g} sonic {g|Encyclopedia:Damage}damage{/g} for 1d4 {g|Encyclopedia:Combat_Round}rounds{/g}. This weapon also adds +2 to the DC for all saving throws against {g|Encyclopedia:Spell}spells{/g} with sonic descriptor the wielder casts.",
+            "m_Key": "c4ff2b53-30d8-40d0-94dc-01efba348052",
+            "m_OwnerString": "3522da20bbde3ff43a19990c64533fd8",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter3/NaturesAgonyItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c74f741c15578384f80f33c6594c5fe5",
+            "fileid": "21300000"
+        },
+        "m_Cost": "61000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "dbfb88269254a2d4cb10e9063163a981"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: 52b3ae0972d97a3499ff44e76bd89ae6 (NaturesAgonyEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "d84f6cc2f3f58d74888f502dc3d4fa3a",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Decay Spreader",
+            "m_Key": "397f83a3-f380-4cd0-84f3-0efe76ace5c2",
+            "m_OwnerString": "d84f6cc2f3f58d74888f502dc3d4fa3a",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter4/DecaySpreaderItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "The wielder of this +5 corrosive sling staff gets a +2 {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Damage}damage rolls{/g} for every corpse within a 50-foot range from them.",
+            "m_Key": "76c0e5f1-9c96-4734-bfaa-038cfe04ce40",
+            "m_OwnerString": "d84f6cc2f3f58d74888f502dc3d4fa3a",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints/Weapons/Items/UniquePF2/Chapter4/DecaySpreaderItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c74f741c15578384f80f33c6594c5fe5",
+            "fileid": "21300000"
+        },
+        "m_Cost": "110000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "dbfb88269254a2d4cb10e9063163a981"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 633b38ff1d11de64a91d490c683ab1c8 (Corrosive :BlueprintWeaponEnchantment)",
+            "link: 7256972c474b47e1bb2b6e9b220f28d5 (DecaySpreaderEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "979e5ca29d444084aa1cf7534d2e8424",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Oak of Thunder",
+            "m_Key": "a4c34208-742a-4baa-b4f8-d01f1ca5e196",
+            "m_OwnerString": "979e5ca29d444084aa1cf7534d2e8424",
+            "m_OwnerPropertyPath": "m_DisplayNameText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints\\Weapons\\Items\\UniquePF2\\Chapter5\\UnnamedTemp\\UnnamedChapter5SlingStaffItem_m_DisplayNameText.json",
+            "Shared": "null"
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "Whenever the wielder of this +5 thundering burst sling staff suffers 30 or more {g|Encyclopedia:Damage}damage{/g} in a single hit, he gets 2 additional {g|Encyclopedia:Attack}attacks{/g} with this sling staff per {g|Encyclopedia:Combat_Round}round{/g} for 3 rounds.",
+            "m_Key": "bc56ab30-8c8f-4f34-af8d-73febc18fb84",
+            "m_OwnerString": "979e5ca29d444084aa1cf7534d2e8424",
+            "m_OwnerPropertyPath": "m_DescriptionText",
+            "m_JsonPath": "Strings/Mechanics/Blueprints\\Weapons\\Items\\UniquePF2\\Chapter5\\UnnamedTemp\\UnnamedChapter5SlingStaffItem_m_DescriptionText.json",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c74f741c15578384f80f33c6594c5fe5",
+            "fileid": "21300000"
+        },
+        "m_Cost": "240000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_IsJunk": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "HideAbilityInfo": "false",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "dbfb88269254a2d4cb10e9063163a981"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 6972dd5ae56d473da36ac121608aceff (OakOfThunderEnchantment :BlueprintWeaponEnchantment)",
+            "link: 83bd616525288b34a8f34976b2759ea1 (ThunderingBurst :BlueprintWeaponEnchantment)",
+            "link: 690e762f7704e1f4aa1ac69ef0ce6a96 (Thundering :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "c3a4222dc63341e5a077ac74b33dc466",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Flame\u0027s Hatred",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "9d4ed2f8ad8d7264fb3e794a194bf7f5",
+                "stringkey": "bc48d3ca-3fe6-446d-9150-c1bd0e9b57f4"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "Whenever the wielder of this +5 vicious weapon lands a consequent hit in a full-{g|Encyclopedia:Combat_Round}round{/g} {g|Encyclopedia:Attack}attack{/g}, it deals additional {g|Encyclopedia:Damage}damage{/g} equal to the number of hits multiplied by 3.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "52d2ddb66f481534b891f39de1652f16",
+                "stringkey": "bd20cc70-f3d6-4ac7-84d6-53c7c903848c"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "Djail Kann was an eccentric and capricious demon, indifferent to power and violence but a great lover of riddles and puzzles. It was he who captured the mysterious Collector that had been preying upon Alushinyrra\u0027s nobility and it was he who returned Ar-Mikheth\u0027s stolen golden carbuncle, but his most famous investigation is by far the case of the burning gladiators.\\nOne day, a bunch of slaves stepped onto the sand of the Battlebliss arena unbidden. They were cloaked in flames but did not scream, silently carrying the bodies of their slain jailers on the tips of their spears. Having formed a column before the demons, awestruck at the sight, they spoke in a single voice: \"I have been taken from, so now I take.\" A moment later, they vanished in a conflagration that incinerated most of the spectators, leaving only charred words on the ashen floor of the arena: \"For pain and fire.\"\\nThis incident was just the beginning. The killings in the arena continued, with gladiators seemingly losing their minds and attacking the guards, catching fire, and burning to ash alongside their tormentors. All that remained were the cryptic words: \"For pain and fire.\" Shamira the Ardent Dream commanded Djail to solve the mystery of these unusual deaths.\\nDjail took a cup of blood and on every wall of the arena, wrote the following: \"I have taken from you. And I will take again.\" Having issued this challenge to the unknown killer, Djail waited — but not for long, because the bloody letters caught fire. Djail proclaimed he had solved the riddle and would reveal the answer to everyone on the next day. The next moment, a dozen thralls turned into pillars of flame and surrounded Djail. In a single voice, they asked: \"Do you think you have exposed me, demon? What do you even know, you arrogant fiend?\"\\n\"I know your name. You are Nemarius, a demigod born of the goddess Sekhmet. You and your wife-to-be were captured and forced to fight to the death in the arena. She fell, and you set yourself on fire out of grief, but were never truly gone. Your spirit is bound to this object!\" Smiling, Djail presented the brand used to mark the slaves as the arena\u0027s property. \"I used my sorcerous sight to watch you light up my words, and I felt where the threads of your spells converge. This brand left its mark on your skin and the skin of your beloved bride. It was also used to mark the slaves whose minds you dominate and use as the instruments of your revenge. Or am I wrong?\"\\nThe burning gladiators howled in Nemarius\u0027s voice, but it was too late. Djail cast a spell on the brand that trapped the vengeful demigod, defeating and disempowering his foe.\\nThe tradition of using hot iron to mark the gladiators ceased, and the fate of Nemarius\u0027s brand remains unknown up to this very day.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "53013bb105f677649a2d96d3995d6020",
+                "stringkey": "2465ec1e-7760-4338-b81b-3e2fa23532af"
+            }
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "5240e131f22117c4b9f1438ba64aab0f",
+            "fileid": "21300000"
+        },
+        "m_Cost": "200000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "dbfb88269254a2d4cb10e9063163a981"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: a1455a289da208144981e4b1ef92cc56 (ViciousEnchantment :BlueprintWeaponEnchantment)",
+            "link: af376a7a80ef46a1a9449c437a0b01fd (NemaryStigma_HatredEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "5b895f89c9984840b6406d444b25d042",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Nemarius\u0027s Sling",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "0793e323e0e0e994aba90b9434290104",
+                "stringkey": "cf9f21fc-668d-46e9-9198-e041a24a5b61"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This is an intermediate step of relic creation.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "df7fcf361d062cf4c941f3863e564014",
+                "stringkey": "75f37c59-a98d-4672-bea8-c1b4996d0efb"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "Djail Kann was an eccentric and capricious demon, indifferent to power and violence but a great lover of riddles and puzzles. It was he who captured the mysterious Collector that had been preying upon Alushinyrra\u0027s nobility and it was he who returned Ar-Mikheth\u0027s stolen golden carbuncle, but his most famous investigation is by far the case of the burning gladiators.\\nOne day, a bunch of slaves stepped onto the sand of the Battlebliss arena unbidden. They were cloaked in flames but did not scream, silently carrying the bodies of their slain jailers on the tips of their spears. Having formed a column before the demons, awestruck at the sight, they spoke in a single voice: \"I have been taken from, so now I take.\" A moment later, they vanished in a conflagration that incinerated most of the spectators, leaving only charred words on the ashen floor of the arena: \"For pain and fire.\"\\nThis incident was just the beginning. The killings in the arena continued, with gladiators seemingly losing their minds and attacking the guards, catching fire, and burning to ash alongside their tormentors. All that remained were the cryptic words: \"For pain and fire.\" Shamira the Ardent Dream commanded Djail to solve the mystery of these unusual deaths.\\nDjail took a cup of blood and on every wall of the arena, wrote the following: \"I have taken from you. And I will take again.\" Having issued this challenge to the unknown killer, Djail waited — but not for long, because the bloody letters caught fire. Djail proclaimed he had solved the riddle and would reveal the answer to everyone on the next day. The next moment, a dozen thralls turned into pillars of flame and surrounded Djail. In a single voice, they asked: \"Do you think you have exposed me, demon? What do you even know, you arrogant fiend?\"\\n\"I know your name. You are Nemarius, a demigod born of the goddess Sekhmet. You and your wife-to-be were captured and forced to fight to the death in the arena. She fell, and you set yourself on fire out of grief, but were never truly gone. Your spirit is bound to this object!\" Smiling, Djail presented the brand used to mark the slaves as the arena\u0027s property. \"I used my sorcerous sight to watch you light up my words, and I felt where the threads of your spells converge. This brand left its mark on your skin and the skin of your beloved bride. It was also used to mark the slaves whose minds you dominate and use as the instruments of your revenge. Or am I wrong?\"\\nThe burning gladiators howled in Nemarius\u0027s voice, but it was too late. Djail cast a spell on the brand that trapped the vengeful demigod, defeating and disempowering his foe.\\nThe tradition of using hot iron to mark the gladiators ceased, and the fate of Nemarius\u0027s brand remains unknown up to this very day.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "53013bb105f677649a2d96d3995d6020",
+                "stringkey": "2465ec1e-7760-4338-b81b-3e2fa23532af"
+            }
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "5240e131f22117c4b9f1438ba64aab0f",
+            "fileid": "21300000"
+        },
+        "m_Cost": "150000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "true",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "dbfb88269254a2d4cb10e9063163a981"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "a43a27bb8b214d4797d975cb5800e615",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Flame\u0027s Cleansing",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "6db42d1d68527ef4fa5cba6dbad4b8ea",
+                "stringkey": "eb492668-83d4-4693-be65-4a8c8bf02ff3"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "Whenever the wielder of this +5 flaming burst weapon lands a first hit against a new enemy, the enemy must pass {g|Encyclopedia:Saving_Throw}Fortitude saving throw{/g} ({g|Encyclopedia:DC}DC{/g} 32) or catch on cursed fire which makes it unable to cast {g|Encyclopedia:Spell}spells{/g} for {g|Encyclopedia:Dice}1d3{/g} {g|Encyclopedia:Combat_Round}rounds{/g}.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "eb2c86f3b41fdb748a838bad8b4d9611",
+                "stringkey": "1caf9a37-ec8c-4ce7-a1fa-7316d0a1f563"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "Djail Kann was an eccentric and capricious demon, indifferent to power and violence but a great lover of riddles and puzzles. It was he who captured the mysterious Collector that had been preying upon Alushinyrra\u0027s nobility and it was he who returned Ar-Mikheth\u0027s stolen golden carbuncle, but his most famous investigation is by far the case of the burning gladiators.\\nOne day, a bunch of slaves stepped onto the sand of the Battlebliss arena unbidden. They were cloaked in flames but did not scream, silently carrying the bodies of their slain jailers on the tips of their spears. Having formed a column before the demons, awestruck at the sight, they spoke in a single voice: \"I have been taken from, so now I take.\" A moment later, they vanished in a conflagration that incinerated most of the spectators, leaving only charred words on the ashen floor of the arena: \"For pain and fire.\"\\nThis incident was just the beginning. The killings in the arena continued, with gladiators seemingly losing their minds and attacking the guards, catching fire, and burning to ash alongside their tormentors. All that remained were the cryptic words: \"For pain and fire.\" Shamira the Ardent Dream commanded Djail to solve the mystery of these unusual deaths.\\nDjail took a cup of blood and on every wall of the arena, wrote the following: \"I have taken from you. And I will take again.\" Having issued this challenge to the unknown killer, Djail waited — but not for long, because the bloody letters caught fire. Djail proclaimed he had solved the riddle and would reveal the answer to everyone on the next day. The next moment, a dozen thralls turned into pillars of flame and surrounded Djail. In a single voice, they asked: \"Do you think you have exposed me, demon? What do you even know, you arrogant fiend?\"\\n\"I know your name. You are Nemarius, a demigod born of the goddess Sekhmet. You and your wife-to-be were captured and forced to fight to the death in the arena. She fell, and you set yourself on fire out of grief, but were never truly gone. Your spirit is bound to this object!\" Smiling, Djail presented the brand used to mark the slaves as the arena\u0027s property. \"I used my sorcerous sight to watch you light up my words, and I felt where the threads of your spells converge. This brand left its mark on your skin and the skin of your beloved bride. It was also used to mark the slaves whose minds you dominate and use as the instruments of your revenge. Or am I wrong?\"\\nThe burning gladiators howled in Nemarius\u0027s voice, but it was too late. Djail cast a spell on the brand that trapped the vengeful demigod, defeating and disempowering his foe.\\nThe tradition of using hot iron to mark the gladiators ceased, and the fate of Nemarius\u0027s brand remains unknown up to this very day.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "53013bb105f677649a2d96d3995d6020",
+                "stringkey": "2465ec1e-7760-4338-b81b-3e2fa23532af"
+            }
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "5240e131f22117c4b9f1438ba64aab0f",
+            "fileid": "21300000"
+        },
+        "m_Cost": "200000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "dbfb88269254a2d4cb10e9063163a981"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 30f90becaaac51f41bf56641966c4121 (Flaming :BlueprintWeaponEnchantment)",
+            "link: 3f032a3cd54e57649a0cdad0434bf221 (FlamingBurst :BlueprintWeaponEnchantment)",
+            "link: cd91d1799456458ca063b3bce51f629f (NemaryStigma_MagicSealingEnchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "d849fc0e8b824e39aacd21a101894add",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Flame\u0027s Will",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "4435b28ea2140e84da64afcfbe868bd7",
+                "stringkey": "6593aebb-09f7-4924-9e42-e6fc90b984b1"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "Whenever the wielder of this +5 axiomatic weapon lands a hit against a new enemy, it marks it with \"Obedience\". Such mark can only be on 1 target at a time. If the bearer of this mark tries to {g|Encyclopedia:Attack}attack{/g} the owner of the weapon, it must pass a {g|Encyclopedia:Saving_Throw}Will saving throw{/g} ({g|Encyclopedia:DC}DC{/g} 29) or suffer -3 {g|Encyclopedia:Penalty}penalty{/g} on attack {g|Encyclopedia:Dice}rolls{/g} and a -8 penalty on {g|Encyclopedia:Damage}damage rolls{/g} for 2 {g|Encyclopedia:Combat_Round}rounds{/g}.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "93d33903032bc6842b1f25d02a3a2cbb",
+                "stringkey": "5b2520cb-78dc-42e5-a60f-c06446374274"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "Djail Kann was an eccentric and capricious demon, indifferent to power and violence but a great lover of riddles and puzzles. It was he who captured the mysterious Collector that had been preying upon Alushinyrra\u0027s nobility and it was he who returned Ar-Mikheth\u0027s stolen golden carbuncle, but his most famous investigation is by far the case of the burning gladiators.\\nOne day, a bunch of slaves stepped onto the sand of the Battlebliss arena unbidden. They were cloaked in flames but did not scream, silently carrying the bodies of their slain jailers on the tips of their spears. Having formed a column before the demons, awestruck at the sight, they spoke in a single voice: \"I have been taken from, so now I take.\" A moment later, they vanished in a conflagration that incinerated most of the spectators, leaving only charred words on the ashen floor of the arena: \"For pain and fire.\"\\nThis incident was just the beginning. The killings in the arena continued, with gladiators seemingly losing their minds and attacking the guards, catching fire, and burning to ash alongside their tormentors. All that remained were the cryptic words: \"For pain and fire.\" Shamira the Ardent Dream commanded Djail to solve the mystery of these unusual deaths.\\nDjail took a cup of blood and on every wall of the arena, wrote the following: \"I have taken from you. And I will take again.\" Having issued this challenge to the unknown killer, Djail waited — but not for long, because the bloody letters caught fire. Djail proclaimed he had solved the riddle and would reveal the answer to everyone on the next day. The next moment, a dozen thralls turned into pillars of flame and surrounded Djail. In a single voice, they asked: \"Do you think you have exposed me, demon? What do you even know, you arrogant fiend?\"\\n\"I know your name. You are Nemarius, a demigod born of the goddess Sekhmet. You and your wife-to-be were captured and forced to fight to the death in the arena. She fell, and you set yourself on fire out of grief, but were never truly gone. Your spirit is bound to this object!\" Smiling, Djail presented the brand used to mark the slaves as the arena\u0027s property. \"I used my sorcerous sight to watch you light up my words, and I felt where the threads of your spells converge. This brand left its mark on your skin and the skin of your beloved bride. It was also used to mark the slaves whose minds you dominate and use as the instruments of your revenge. Or am I wrong?\"\\nThe burning gladiators howled in Nemarius\u0027s voice, but it was too late. Djail cast a spell on the brand that trapped the vengeful demigod, defeating and disempowering his foe.\\nThe tradition of using hot iron to mark the gladiators ceased, and the fate of Nemarius\u0027s brand remains unknown up to this very day.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "53013bb105f677649a2d96d3995d6020",
+                "stringkey": "2465ec1e-7760-4338-b81b-3e2fa23532af"
+            }
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "5240e131f22117c4b9f1438ba64aab0f",
+            "fileid": "21300000"
+        },
+        "m_Cost": "200000",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_ForceStackable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "dbfb88269254a2d4cb10e9063163a981"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "8ef37aa9c08351a47b2a1677b1317cff",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean the Talking Weapon",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96b6d9d9fa75e4e44984a3d12c4c63ba",
+                "stringkey": "b29f1539-eb5c-4c09-bd68-b172f3786659"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This is a +1 cold iron ghost touch weapon.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "29acffbc69d1b95449d5ce6613a66ffa",
+                "stringkey": "8227ec85-8b4b-45dc-b6c7-2cd9629205f8"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": "null",
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [
+            "Equipment_RE"
+        ],
+        "CR": "4",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": "null",
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: d42fc23b92c640846ac137dc26e000d4 (Enhancement1 :BlueprintWeaponEnchantment)",
+            "link: e5990dc76d2a613409916071c898eee8 (ColdIronWeaponEnchantment :BlueprintWeaponEnchantment)",
+            "link: 47857e1a5a3ec1a46adf6491b1423b4f (GhostTouch :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "true",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "ColdIron",
+                "Form": "Bludgeoning",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "c08bcfd8d5bd0cb40ad2ea4211d67e81",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean the Talking Weapon",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96b6d9d9fa75e4e44984a3d12c4c63ba",
+                "stringkey": "b29f1539-eb5c-4c09-bd68-b172f3786659"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "This is a +3 brilliant energy heartseeker weapon. This weapon can tear the soul of a living enemy: whenever it lands a hit, it deals additional {g|Encyclopedia:Dice}1d6{/g} force {g|Encyclopedia:Damage}damage{/g}.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96d85cdc54d63e14cb734b39ce17c9c1",
+                "stringkey": "92e9d91d-c458-49ef-9629-7836c41cc338"
+            }
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c74f741c15578384f80f33c6594c5fe5",
+            "fileid": "21300000"
+        },
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "10",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "dbfb88269254a2d4cb10e9063163a981"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: 80bb8a737579e35498177e1e3c75899b (Enhancement3 :BlueprintWeaponEnchantment)",
+            "link: 66e9e299c9002ea4bb65b6f300e43770 (BrilliantEnergy :BlueprintWeaponEnchantment)",
+            "link: e252b26686ab66241afdf33f2adaead6 (Heartseeker :BlueprintWeaponEnchantment)",
+            "link: b183bd491793d194c9e4c96cd11769b1 (FinneanChapter3Enchantment :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "5966fdd35b5d8464a892e872dfb5cd0c",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "null",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean the Talking Weapon",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "96b6d9d9fa75e4e44984a3d12c4c63ba",
+                "stringkey": "b29f1539-eb5c-4c09-bd68-b172f3786659"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c74f741c15578384f80f33c6594c5fe5",
+            "fileid": "21300000"
+        },
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "dbfb88269254a2d4cb10e9063163a981"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 66e9e299c9002ea4bb65b6f300e43770 (BrilliantEnergy :BlueprintWeaponEnchantment)",
+            "link: 6b66e949f348ccd4989a5fd9254f8958 (FinneanChapter5EnchantmentBase :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+},
+{
+
+    "guid": "7eb4f32866716e94eba8e8f3f9739dbe",
+    "__root": {
+        "$type": "c00f723cccf2d314198c42a572c631fd, BlueprintItemWeapon",
+        "PrototypeLink": "",
+        "m_Overrides": [],
+        "Components": [],
+        "Comment": "",
+        "m_DisplayNameText": {
+            "LocalisedValue": "Finnean",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "c4b7a463512eb694bbe9571323ede197",
+                "stringkey": "ccb5c705-7ac0-4b1c-ad69-7fcea827ebc9"
+            }
+        },
+        "m_DescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_FlavorText": {
+            "LocalisedValue": "This weapon was once the seat of Finnean\u0027s soul. Now that the soul of the Sarkorian Pathfinder has left the weapon, it has fallen silent forever.",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": {
+                "assetguid": "ceac81e5a8f907d4fb5c6dee3447b300",
+                "stringkey": "35efb8b0-3805-402f-b349-24911dfca762"
+            }
+        },
+        "m_NonIdentifiedNameText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_NonIdentifiedDescriptionText": {
+            "LocalisedValue": "\u003cnull-string\u003e",
+            "m_Key": "",
+            "m_OwnerString": "",
+            "m_OwnerPropertyPath": "",
+            "m_JsonPath": "",
+            "Shared": "null"
+        },
+        "m_Icon": {
+            "guid": "c74f741c15578384f80f33c6594c5fe5",
+            "fileid": "21300000"
+        },
+        "m_Cost": "0",
+        "m_Weight": "0.0",
+        "m_IsNotable": "false",
+        "m_Destructible": "false",
+        "m_ShardItem": "null",
+        "m_MiscellaneousType": "None",
+        "m_InventoryPutSound": "",
+        "m_InventoryTakeSound": "",
+        "NeedSkinningForCollect": "false",
+        "TrashLootTypes": [],
+        "CR": "16",
+        "m_Ability": "null",
+        "m_ActivatableAbility": "null",
+        "SpendCharges": "true",
+        "Charges": "1",
+        "RestoreChargesOnRest": "false",
+        "CasterLevel": "1",
+        "SpellLevel": "1",
+        "DC": "11",
+        "IsNonRemovable": "false",
+        "m_EquipmentEntity": "null",
+        "m_EquipmentEntityAlternatives": [],
+        "m_ForcedRampColorPresetIndex": "0",
+        "m_VisualParameters": {
+            "m_Projectiles": [],
+            "m_WeaponAnimationStyle": "None",
+            "m_SpecialAnimation": "None",
+            "m_WeaponModel": {
+                "AssetId": "dbfb88269254a2d4cb10e9063163a981"
+            },
+            "m_WeaponBeltModelOverride": "null",
+            "m_WeaponSheathModelOverride": "null",
+            "m_OverrideAttachSlots": "false",
+            "m_PossibleAttachSlots": [],
+            "m_ReachFXThresholdBonus": "0.0",
+            "m_SoundSize": "None",
+            "m_SoundType": "None",
+            "m_WhooshSound": "",
+            "m_MissSoundType": "None",
+            "m_EquipSound": "",
+            "m_UnequipSound": "",
+            "m_InventoryEquipSound": "",
+            "m_InventoryPutSound": "",
+            "m_InventoryTakeSound": ""
+        },
+        "m_Type": "link: 25da2dc95ed4a6b419608c678f2a9cc3 (SlingStaff :BlueprintWeaponType)",
+        "m_Size": "Medium",
+        "m_Enchantments": [
+            "link: bdba267e951851449af552aa9f9e3992 (Enhancement5 :BlueprintWeaponEnchantment)",
+            "link: 66e9e299c9002ea4bb65b6f300e43770 (BrilliantEnergy :BlueprintWeaponEnchantment)",
+            "link: 9aa9af4b654662945a410644d3db8d99 (FinneanChapter5EnchantmentLich :BlueprintWeaponEnchantment)"
+        ],
+        "m_OverrideDamageDice": "false",
+        "m_DamageDice": {
+            "m_Rolls": "0",
+            "m_Dice": "Zero"
+        },
+        "m_OverrideDamageType": "false",
+        "m_DamageType": {
+            "Type": "Physical",
+            "Common": {
+                "Reality": "0",
+                "Alignment": "0",
+                "Precision": "false"
+            },
+            "Physical": {
+                "Material": "0",
+                "Form": "Slashing",
+                "Enhancement": "0",
+                "EnhancementTotal": "0"
+            },
+            "Energy": "Fire"
+        },
+        "Double": "false",
+        "m_SecondWeapon": "null",
+        "KeepInPolymorph": "false",
+        "m_OverrideShardItem": "false",
+        "m_OverrideDestructible": "false",
+        "m_AlwaysPrimary": "false"
+    }
+}]

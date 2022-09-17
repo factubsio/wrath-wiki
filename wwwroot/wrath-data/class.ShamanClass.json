@@ -1,0 +1,217 @@
+{
+  "features": [
+    {
+      "name": "Spirit",
+      "desc": "A shaman forms a mystical bond with the spirits of the world. She forms a lasting bond with a single spirit, which grants a number of abilities and defines many of her other class features.\nAt 1st level, a shaman gains the spirit ability granted by her chosen spirit. She adds the {g|Encyclopedia:Spell}spells{/g} granted by that spirit to the list of spells that she can cast using spirit magic. She also adds the hexes possessed by that spirit to the list of hexes that she can use with the hex and wandering hex class features.\nAt 8th level, the shaman gains the abilities listed in the greater version of her selected spirit. At 16th level, the shaman gains the abilities listed for the true version of her selected spirit.",
+      "icon": "gen__S"
+    },
+    {
+      "name": "Spirit Animal",
+      "desc": "At 1st level, a shaman forms a close bond with a spirit animal tied to her chosen spirit. This animal is her conduit to the spirit world, guiding her along the path to enlightenment. The animal also aids a shaman by granting her a {g|Encyclopedia:Special_Abilities}special ability{/g}. A shaman must commune with her spirit animal each day to prepare her {g|Encyclopedia:Spell}spells{/g}.",
+      "icon": "gen__SA"
+    },
+    {
+      "name": "Simple Weapon Proficiency",
+      "desc": "You become proficient with all Simple Weapons.",
+      "icon": "11ab2b30adcd57341827dc076a172994"
+    },
+    {
+      "name": "Armor Proficiency (Light Armor)",
+      "desc": "You become proficient with Light Armor.",
+      "icon": "e3dea060055729a499d590cde35985bc"
+    },
+    {
+      "name": "Armor Proficiency (Medium Armor)",
+      "desc": "You become proficient with Medium Armor.",
+      "icon": "e3dea060055729a499d590cde35985bc"
+    },
+    {
+      "name": "Hex",
+      "desc": "A shaman learns a number of magical tricks, called hexes, which grant her powers or weaken foes. At 2nd level, a shaman learns one hex. At 4th, 8th, 10th, 12th, 16th, 18th, and 20th level, the shaman learns new hexes. A shaman can select from any of the hexes available to her chosen spirit. A shaman cannot select a hex more than once unless noted otherwise.\nUsing a hex is a {g|Encyclopedia:Standard_Actions}standard action{/g} that doesn\u0027t provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g} unless otherwise noted. The {g|Encyclopedia:Saving_Throw}saving throw{/g} {g|Encyclopedia:DC}DC{/g} to resist a hex is equal to 10 \u002B 1/2 the shaman\u0027s level \u002B the shaman\u0027s {g|Encyclopedia:Wisdom}Wisdom{/g} modifier.",
+      "icon": "08de7d6c711522448b11138d6785d59f"
+    },
+    {
+      "name": "Wandering Spirit",
+      "desc": "At 4th level, a shaman can form a temporary bond with a spirit other than the one selected using her spirit class feature. She must make this selection each day when preparing her {g|Encyclopedia:Spell}spells{/g}. While this feature is active, she gains the spirit ability granted by the spirit. She also adds the spells granted by that spirit to her list of spells that she can cast using spirit magic. She does not add the hexes from her wandering spirit to her list of hexes that she can choose from with the hex class feature. At 12th level, she gains the abilities listed in the greater version of her wandering spirit. At 20th level, she gains the ability listed in the true version of her wandering spirit.",
+      "icon": "gen__WS"
+    },
+    {
+      "name": "Wandering Hex",
+      "desc": "At 6th level, a shaman can temporarily gain the use of one of the hexes possessed by either one of her spirits. She must make this selection each day when she prepares her {g|Encyclopedia:Spell}spells{/g}. For the purposes of this ability, she can select any hex possessed by her spirit or wandering spirit. If she selects it from her wandering spirit, she loses the hex immediately if she bonds with another spirit, although she can then select a different hex to gain using this ability, from either her spirit or her new wandering spirit. At 14th level, a shaman can select two wandering hexes each day instead of one. This ability otherwise functions as the hex class feature.",
+      "icon": "gen__WH"
+    },
+    {
+      "name": "Wandering Hex",
+      "desc": "At 6th level, a shaman can temporarily gain the use of one of the hexes possessed by either one of her spirits. She must make this selection each day when she prepares her {g|Encyclopedia:Spell}spells{/g}. For the purposes of this ability, she can select any hex possessed by her spirit or wandering spirit. If she selects it from her wandering spirit, she loses the hex immediately if she bonds with another spirit, although she can then select a different hex to gain using this ability, from either her spirit or her new wandering spirit. At 14th level, a shaman can select two wandering hexes each day instead of one. This ability otherwise functions as the hex class feature.",
+      "icon": "gen__WH"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      5
+    ],
+    [],
+    [
+      5,
+      6
+    ],
+    [],
+    [
+      7
+    ],
+    [],
+    [
+      5
+    ],
+    [],
+    [
+      5
+    ],
+    [],
+    [
+      5
+    ],
+    [],
+    [
+      8
+    ],
+    [],
+    [
+      5
+    ],
+    [],
+    [
+      5
+    ],
+    [],
+    [
+      5
+    ]
+  ],
+  "__ui-groups": [],
+  "name": "Shaman",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "ShamanSPiritSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "ShamanSpiritAnimalSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "SimpleWeaponProficiency"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "LightArmorProficiency"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "MediumArmorProficiency"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "ShamanHexSelection"
+      },
+      {
+        "level": 4,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "ShamanHexSelection"
+      },
+      {
+        "level": 8,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "ShamanHexSelection"
+      },
+      {
+        "level": 10,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "ShamanHexSelection"
+      },
+      {
+        "level": 12,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "ShamanHexSelection"
+      },
+      {
+        "level": 16,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "ShamanHexSelection"
+      },
+      {
+        "level": 18,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "ShamanHexSelection"
+      },
+      {
+        "level": 20,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "ShamanHexSelection"
+      }
+    ],
+    [
+      {
+        "level": 4,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "ShamanWanderingSpiritFeature"
+      }
+    ],
+    [
+      {
+        "level": 6,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "ShamanWanderingHexFeature"
+      }
+    ],
+    [
+      {
+        "level": 14,
+        "feature": 8,
+        "rank": -1,
+        "__debug": "ShamanWanderingHexFeature2"
+      }
+    ]
+  ]
+}

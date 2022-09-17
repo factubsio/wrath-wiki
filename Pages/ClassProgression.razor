@@ -1,0 +1,133 @@
+﻿@page "/class-progression"
+@using System.Text.Json
+@inject HttpClient Http
+
+<PageTitle>Class</PageTitle>
+
+<h1>Class Preview</h1>
+
+@if (model == null)
+{
+	<p><em>Loading...</em></p>
+}
+else
+{
+	<div class="chargen-sheet">
+		<div class="content">
+			<table class="progression-table">
+				<tr>
+					@for (var i = 1; i < 21; i++)
+					{
+						<th><div class="level-header">@i</div></th>
+					}
+				</tr>
+				<tr>
+					<td colspacolspan="20"><div class="banner"><span>Feats</span></div></td>
+				</tr>
+				<tr>
+					<td colspacolspan="20"><div class="banner"><span>@(model.name)</span></div></td>
+				</tr>
+				@foreach (var row in model.Rows)
+				{
+					<tr>
+						@foreach (var (f, rank) in row)
+						{
+							@if (f == -1)
+							{
+								<td class="chupa-slot"></td>
+							}
+							else if (model.features[f].icon != null)
+							{
+								<td class="chupa-slot">
+									<div class="feature">
+										<img class="progression-feature" src="/icons/@(model.features[f].icon).png">
+										@*<img class="selection-badge" src="/icons-custom/selection.png">*@
+										@if (rank != -1)
+										{
+											<img class="rank-badge" src="/icons-custom/r@(rank).png">
+										}
+									</div>
+								</td>
+							}
+							else
+							{
+								<td class="chupa-slot">@model.RenderFeature(f, rank)</td>
+							}
+						}
+					</tr>
+				}
+			</table>
+		</div>
+	</div>
+}
+
+@code {
+	private Progression? model;
+
+	protected override async Task OnInitializedAsync()
+	{
+		model = await Http.GetFromJsonAsync<Progression>("wrath-data/class.AlchemistClass.json", new JsonSerializerOptions()
+			{
+				IncludeFields = true,
+			});
+	}
+
+	public class LocalFeature
+	{
+		public string? name;
+		public string? desc;
+		public string? icon;
+	}
+	public class RowEntry
+	{
+		public int level;
+		public int feature;
+		public int rank;
+	}
+
+	public class Progression
+	{
+		public List<LocalFeature> features = new();
+		public List<List<RowEntry>> layout = new();
+		public string? name;
+
+		public IEnumerable<IEnumerable<(int, int)>> Rows => layout.OrderByDescending(r => r.Count).Select(ExpandRow);
+
+		public static IEnumerable<(int, int)> ExpandRow(List<RowEntry> row)
+		{
+
+			var next = row.GetEnumerator();
+			bool n = next.MoveNext();
+			for (int i = 1; i <= 20; i++)
+			{
+				if (n && next.Current.level == i)
+				{
+					yield return (next.Current.feature, next.Current.rank);
+					n = next.MoveNext();
+				}
+				else
+				{
+					yield return (-1, -1);
+				}
+			}
+		}
+
+		public string RenderFeature(int f, int rank)
+		{
+			if (features[f] == null)
+			{
+				return "<error>";
+			}
+
+			string name = features[f]?.name ?? "<error>";
+			if (rank != -1)
+			{
+				return $"{name}[{rank}]";
+			}
+			else
+			{
+				return name;
+			}
+		}
+	}
+}

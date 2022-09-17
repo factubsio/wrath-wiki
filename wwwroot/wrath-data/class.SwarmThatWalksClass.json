@@ -1,0 +1,211 @@
+{
+  "features": [
+    {
+      "name": "Host of the Great Swarm",
+      "desc": "You become a Host of the Great Swarm, which now lives inside your body. This symbiosis gives you Fast {g|Encyclopedia:Healing}Healing{/g} and additional {g|Encyclopedia:HP}hit points{/g} depending on the {g|Encyclopedia:Size}size{/g} of the swarm.\nTo increase the size of the swarm you need to devour other living beings.",
+      "icon": "gen__HGS"
+    },
+    {
+      "name": "Devour",
+      "desc": "You send a part of your swarm to devour a corpse to increase the {g|Encyclopedia:Size}size{/g} of your swarm.\nThe increase depends on the CR of the devoured corpse. When the amount of eaten enemies hits a threshold, you gain permanently increased {g|Encyclopedia:Bonus}bonuses{/g} from other Swarm That Walks abilities.",
+      "icon": "b03bab6bf5291bb4298d86543b8b11da"
+    },
+    {
+      "name": "Swarm Feast",
+      "desc": "Your swarm flies out of your body and starts {g|Encyclopedia:Attack}attacking{/g} all enemies in a 50-foot radius. Every {g|Encyclopedia:Combat_Round}round{/g} all enemies in the area are dealt (4 plus your swarm {g|Encyclopedia:Size}size{/g}) {g|Encyclopedia:Dice}d6{/g} {g|Encyclopedia:Physical_Damage}physical damage{/g}. If they die while in the area, they are automatically devoured.\nAny ranged or ranged {g|Encyclopedia:TouchAttack}touch attacks{/g} against you have a 50% chance to miss.\nUsing this ability cancels Swarm Form and Swarm Infest.",
+      "icon": "8f9b12577a22f074d86760f2ecb1868a"
+    },
+    {
+      "name": "Swarm Form",
+      "desc": "You return all of the swarm into your body. You gain {g|Encyclopedia:Damage_Reduction}DR{/g} 5/- plus your swarm {g|Encyclopedia:Size}size{/g} and a {g|Encyclopedia:Bonus}bonus{/g} to natural armor equal to (4 plus your swarm size).\nUsing this ability cancels Swarm Infest and Swarm Feast.",
+      "icon": "c327f790b74743b4e8b2b4c784962288"
+    },
+    {
+      "name": "Swarm Infest",
+      "desc": "You send a part of your swarm to infest an enemy. It makes the target blind and deals {g|Encyclopedia:Dice}8d8{/g} {g|Encyclopedia:Physical_Damage}physical damage{/g} each {g|Encyclopedia:Combat_Round}round{/g}. This {g|Encyclopedia:Damage}damage{/g} increases by 2d8 for each point of your swarm size. If the target dies while under this effect, it\u0027s automatically devoured.\nWhen the ability ends (by activating Swarm Form ability), you are {g|Encyclopedia:Healing}healed{/g} for the amount of damage you\u0027ve dealt to the enemy with Swarm Infest.\nAdditionally, the target must make a {g|Encyclopedia:Saving_Throw}Will saving throw{/g} ({g|Encyclopedia:DC}DC{/g} = 15 \u002B double your mythic rank) or become panicked.\nUsing this ability cancels Swarm Form and Swarm Feast.",
+      "icon": "dbc7d7b7f8fc58c4bbefb1fed0576273"
+    },
+    {
+      "name": "Mythic Feat",
+      "desc": "Mythic characters gain mythic {g|Encyclopedia:Feat}feats{/g} every even mythic rank. These feats can be selected only as part of mythic advancement, not as part of a character\u0027s normal advancement or in place of any other bonus feat.\nMost mythic feats require a non-mythic feat as a prerequisite. These mythic feats enhance the benefits of their prerequisite feats, making them truly awe-inspiring. If a character doesn\u0027t possess any of the necessary prerequisite feats when she gains a mythic feat, she can wait to select a mythic feat until the next time she gains a mythic rank or level.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Swarm Clone",
+      "desc": "You gain the ability to make your own clones using the swarm. They have all your abilities, but separate inventory. You can simultaneously have one clone per three points of your swarm size, but no more than one clone at 8 mythic rank, two clones at 9 mythic rank and five clones at 10 mythic rank.",
+      "icon": "52dc4663041f34249ac7d69108191801"
+    },
+    {
+      "name": "Eye of the Swarm",
+      "desc": "From now on, you are made of the Swarm. You gain {g|Encyclopedia:Damage_Reduction}damage reduction{/g} of a swarm and immunity to {g|Encyclopedia:Attack_Of_Opportunity}attacks of opportunity{/g}. You {g|Encyclopedia:Strength}Strength{/g} and {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Ability_Scores}ability scores{/g} increase by (4 plus your swarm {g|Encyclopedia:Size}size{/g}). You gain immunity to most effect affecting a normal mortal body, such as poison, disease, paralysis and stun.\nAdditionally, while Swarm Form is active, all your {g|Encyclopedia:Attack}attacks{/g} deal additional (4 plus your swarm size) {g|Encyclopedia:Damage}damage{/g} and any opponent that attacks you in melee combat is dealt (4 plus your swarm size) {g|Encyclopedia:Dice}d6{/g} of damage.",
+      "icon": "gen__ES"
+    },
+    {
+      "name": "Mythic Ability",
+      "desc": "At 1st rank and every odd mythic rank thereafter, select one new mythic ability.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Swarm Clone",
+      "desc": "You gain the ability to make your own clones using the swarm. They have all your abilities, but separate inventory. You can simultaneously have one clone per three points of your swarm size, but no more than one clone at 8 mythic rank, two clones at 9 mythic rank and five clones at 10 mythic rank.",
+      "icon": "52dc4663041f34249ac7d69108191801"
+    },
+    {
+      "name": "The Swarm",
+      "desc": "You become The Swarm.\nYour {g|Encyclopedia:Intelligence}Intelligence{/g}, {g|Encyclopedia:Wisdom}Wisdom{/g} and {g|Encyclopedia:Charisma}Charisma{/g} {g|Encyclopedia:Ability_Scores}ability scores{/g} are increased by 4 plus your swarm {g|Encyclopedia:Size}size{/g}, you gain {g|Encyclopedia:Spell_Resistance}Spell Resistance{/g} equal to 25 plus your swarm size, and you gain immunity to most harmful conditions.\nYou are also immune to exhaustion and fatigue effects. Your swarm form grants you a \u002B10 profane bonus on Stealth skills checks for Camouflage role and a \u002B10 profane bonus on Perception skill checks for Night Watch during rest and movement on global map.",
+      "icon": "gen__TS"
+    },
+    {
+      "name": "Swarm Clone",
+      "desc": "You gain the ability to make your own clones using the swarm. They have all your abilities, but separate inventory. You can simultaneously have one clone per three points of your swarm size, but no more than one clone at 8 mythic rank, two clones at 9 mythic rank and five clones at 10 mythic rank.",
+      "icon": "52dc4663041f34249ac7d69108191801"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    [
+      7,
+      8,
+      9
+    ],
+    [
+      10,
+      11,
+      5
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "__ui-groups": [
+    [
+      6,
+      9,
+      11
+    ]
+  ],
+  "name": "Swarm That Walks",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "HostFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "SwarmDevourFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "SwarmFeastFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "SwarmFormFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "SwarmINfestFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 3,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "LocustCloneLevel08Feature"
+      },
+      {
+        "level": 2,
+        "feature": 9,
+        "rank": -1,
+        "__debug": "LocustCloneLevel09Feature"
+      },
+      {
+        "level": 3,
+        "feature": 11,
+        "rank": -1,
+        "__debug": "LocustCloneLevel10Feature"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "EyeOfTheSwarmFeature"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 8,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 10,
+        "rank": -1,
+        "__debug": "TheSwarm"
+      }
+    ]
+  ]
+}

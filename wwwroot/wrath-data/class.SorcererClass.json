@@ -1,0 +1,122 @@
+{
+  "features": [
+    {
+      "name": "Sorcerer Proficiencies",
+      "desc": "Sorcerers are proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g}. They are not proficient with any type of armor or shield. Armor interferes with a sorcerer\u0027s gestures, which can cause her {g|Encyclopedia:Spell}spells{/g} with somatic components to fail.",
+      "icon": "gen__SP"
+    },
+    {
+      "name": "Cantrips",
+      "desc": "Sorcerers can cast a number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
+      "icon": "gen__C"
+    },
+    {
+      "name": "Bloodline",
+      "desc": "Each sorcerer has a source of magic somewhere in her heritage that grants her {g|Encyclopedia:Spell}spells{/g}, bonus {g|Encyclopedia:Feat}feats{/g}, an additional class {g|Encyclopedia:Skills}skill{/g}, and other {g|Encyclopedia:Special_Abilities}special abilities{/g}. This source can represent a blood relation or an extreme event involving a creature somewhere in the family\u0027s past. For example, a sorcerer might have a dragon as a distant relative or her grandfather might have signed a terrible contract with a devil. Regardless of the source, this influence manifests in a number of ways as the sorcerer gains levels. A sorcerer must pick one bloodline upon taking her first level of sorcerer. Once made, this choice cannot be changed.\nFilled with magical power that screams for release, sorcery is not so much a calling as a blessing \u2014 or a curse. For some sorcerers, this arcane birthright manifests in subtle and carefully controlled ways, assisting in their manipulation of others or the pursuit of lofty goals. For others, it is wild and unpredictable, the primal and explosive lashing out of a power greater than themselves.\nAt 3rd level, and every two levels thereafter, a sorcerer learns an additional spell, derived from her bloodline. These spells are in addition to the number of spells given at new levels. These spells cannot be exchanged for different spells at higher levels.\nAt 7th level, and every six levels thereafter, a sorcerer receives one bonus feat, chosen from a list specific to each bloodline. The sorcerer must meet the prerequisites for these bonus feats.",
+      "icon": "gen__B"
+    },
+    {
+      "name": "Sorcerer Bonus Feat",
+      "desc": "At 1st level, a sorcerer gains a bonus {g|Encyclopedia:Feat}feat{/g}. At each such opportunity, she can choose a metamagic feat, {g|Encyclopedia:Spell}spell{/g} focus feat, or any other spellcaster feat. The sorcerer must still meet all prerequisites for a bonus feat, including {g|Encyclopedia:Caster_Level}caster level{/g} minimums.",
+      "icon": "gen__SBF"
+    },
+    {
+      "name": "Bloodline Feat Selection",
+      "desc": "At 7th level, and every six levels thereafter, a sorcerer receives one bonus {g|Encyclopedia:Feat}feat{/g}, chosen from a list specific to each bloodline. The sorcerer must meet the prerequisites for these bonus feats.",
+      "icon": "gen__BFS"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      4
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      4
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      4
+    ],
+    []
+  ],
+  "__ui-groups": [
+    [
+      3,
+      4
+    ]
+  ],
+  "name": "Sorcerer",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "SorcererProficiencies"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "SorcererCantripsFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "SorcererBloodlineSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "SorcererBonusFeat"
+      },
+      {
+        "level": 7,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "SorcererFeatSelection"
+      },
+      {
+        "level": 13,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "SorcererFeatSelection"
+      },
+      {
+        "level": 19,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "SorcererFeatSelection"
+      }
+    ]
+  ]
+}

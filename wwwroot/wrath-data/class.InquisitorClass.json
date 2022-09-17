@@ -1,0 +1,355 @@
+{
+  "features": [
+    {
+      "name": "Inquisitor Proficiencies",
+      "desc": "An inquisitor is proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g}, plus the longbow, shortbow, and the favored weapon of her deity. She is also proficient with light armor, medium armor, and shields (except tower shields).",
+      "icon": "gen__IP"
+    },
+    {
+      "name": "Orisons",
+      "desc": "Inquisitors can cast a number of {g|Encyclopedia:Cantrips_Orisons}orisons{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
+      "icon": "gen__O"
+    },
+    {
+      "name": "Stern Gaze",
+      "desc": "Inquisitors are skilled at sensing deception and intimidating their foes. An inquisitor receives a morale {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Persuasion}Persuasion{/g} skill {g|Encyclopedia:Check}checks{/g} made for intimidation and {g|Encyclopedia:Perception}Perception checks{/g} equal to 1/2 her inquisitor level (minimum \u002B1).",
+      "icon": "692ffe6dcfac10c418a29519cfd646b8"
+    },
+    {
+      "name": "Domain Selection",
+      "desc": "A divine caster\u0027s deity influences their {g|Encyclopedia:Alignment}alignment{/g}, what magic they can perform, their values, and how others see them. The character chooses domains (in quantity depending on their class) from among those belonging to their deity. A character can select an alignment domain (Chaos, Evil, Good, or Law) only if their own alignment matches that domain.\nEach domain grants a number of domain powers, dependent upon the level of the divine caster.\nClerics also gain a number of bonus {g|Encyclopedia:Spell}spells{/g}. A cleric gains one domain spell slot for each level of cleric spell they can cast, from 1st on up. Each day, a cleric can prepare one of the spells from their two domains in that slot. If a domain spell is not on the cleric spell list, a cleric can prepare it only in a domain spell slot. Domain spells cannot be used to cast spells spontaneously.",
+      "icon": "ad05c2b9c08927f47ad7236f6bacd11f"
+    },
+    {
+      "name": "Judgment",
+      "desc": "Starting at 1st level, an inquisitor can pronounce judgment upon her foes as a {g|Encyclopedia:Swift_Action}swift action{/g}. Starting when the judgment is made, the inquisitor receives a {g|Encyclopedia:Bonus}bonus{/g} or {g|Encyclopedia:Special_Abilities}special ability{/g} based on the type of judgment made.\nAt 1st level, an inquisitor can use this ability once per day. At 4th level and every three levels thereafter, the inquisitor can use this ability one additional time per day. Once activated, this ability lasts until the combat ends, at which point all of the bonuses immediately end.\nWhen the inquisitor uses this ability, she must select one type of judgment to make. As a swift {g|Encyclopedia:CA_Types}action{/g}, she can change this judgment to another type.",
+      "icon": "49c7d448bff859744a0aa4bf3c58cd5b"
+    },
+    {
+      "name": "Cunning Initiative",
+      "desc": "At 2nd level, an inquisitor adds her {g|Encyclopedia:Wisdom}Wisdom{/g} modifier on {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}checks{/g}, in addition to her {g|Encyclopedia:Dexterity}Dexterity{/g} modifier.",
+      "icon": "gen__CI"
+    },
+    {
+      "name": "Solo Tactics",
+      "desc": "At 3rd level, all of the inquisitor\u0027s allies are treated as if they possessed the same teamwork {g|Encyclopedia:Feat}feats{/g} as the inquisitor for the purpose of determining whether the inquisitor receives a {g|Encyclopedia:Bonus}bonus{/g} from her teamwork feats. Her allies do not receive any bonuses from these feats unless they actually possess the feats themselves. The allies\u0027 positioning and {g|Encyclopedia:CA_Types}actions{/g} must still meet the prerequisites listed in the teamwork feat for the inquisitor to receive the listed bonus.",
+      "icon": "gen__ST"
+    },
+    {
+      "name": "Teamwork Feat",
+      "desc": "At 3rd level, and every three levels thereafter, the inquisitor gains a bonus {g|Encyclopedia:Feat}feat{/g} in addition to those gained from normal advancement. These bonus feats must be selected from those listed as teamwork feats. The inquisitor must meet the prerequisites of the selected bonus feat.",
+      "icon": "8dd271d8a75a63e4dbdee2f5c396dfbe"
+    },
+    {
+      "name": "Judgment",
+      "desc": "Starting at 1st level, an inquisitor can pronounce judgment upon her foes as a {g|Encyclopedia:Swift_Action}swift action{/g}. Starting when the judgment is made, the inquisitor receives a {g|Encyclopedia:Bonus}bonus{/g} or {g|Encyclopedia:Special_Abilities}special ability{/g} based on the type of judgment made.\nAt 1st level, an inquisitor can use this ability once per day. At 4th level and every three levels thereafter, the inquisitor can use this ability one additional time per day. Once activated, this ability lasts until the combat ends, at which point all of the bonuses immediately end.\nWhen the inquisitor uses this ability, she must select one type of judgment to make. As a swift {g|Encyclopedia:CA_Types}action{/g}, she can change this judgment to another type.",
+      "icon": "49c7d448bff859744a0aa4bf3c58cd5b"
+    },
+    {
+      "name": "Bane",
+      "desc": "At 5th level, an inquisitor can imbue one of her weapons with the bane weapon {g|Encyclopedia:Special_Abilities}special ability{/g} as a {g|Encyclopedia:Swift_Action}swift action{/g}.\nA bane weapon excels against certain foes. Against a designated foe, the weapon\u0027s enhancement {g|Encyclopedia:Bonus}bonus{/g} is \u002B2 better than its actual bonus. It also deals an extra {g|Encyclopedia:Dice}2d6{/g} points of {g|Encyclopedia:Damage}damage{/g} against such foes.\nThis ability only functions while the inquisitor wields the weapon. If dropped or taken, the weapon resumes granting this ability if it is returned to the inquisitor before the duration expires.\nThis ability lasts for a number of {g|Encyclopedia:Combat_Round}rounds{/g} per day equal to the inquisitor\u0027s level. These rounds do not need to be consecutive.",
+      "icon": "437fd3ba18904234696faf0f93c17aac"
+    },
+    {
+      "name": "Second Judgment",
+      "desc": "At 8th level, whenever an inquisitor uses her judgment ability, she selects two different judgments, instead of one. This only consumes one use of her judgment ability. As a {g|Encyclopedia:Swift_Action}swift action{/g}, she can change one of these judgments to another type.",
+      "icon": "7c8efbd1129b371428be7754181a4104"
+    },
+    {
+      "name": "Stalwart",
+      "desc": "At 11th level, an inquisitor can use mental and physical resiliency to avoid certain {g|Encyclopedia:Attack}attacks{/g}. If she makes a Fortitude or {g|Encyclopedia:Saving_Throw}Will saving throw{/g} against an attack that has a halved {g|Encyclopedia:Damage}damage{/g} on a successful save, she instead avoids the damage entirely. This ability can only be used if the inquisitor is wearing light armor, medium armor, or no armor.",
+      "icon": "gen__S"
+    },
+    {
+      "name": "Greater Bane",
+      "desc": "At 12th level, whenever an inquisitor uses her bane ability, the amount of bonus {g|Encyclopedia:Damage}damage{/g} dealt by the weapon against creatures of the selected type increases to {g|Encyclopedia:Dice}4d6{/g}.",
+      "icon": "437fd3ba18904234696faf0f93c17aac"
+    },
+    {
+      "name": "Exploit Weakness",
+      "desc": "At 14th level, the inquisitor learns to take advantage of any opportunity that presents itself. Whenever the inquisitor scores a {g|Encyclopedia:Critical}critical hit{/g}, she ignores any {g|Encyclopedia:Damage_Reduction}damage reduction{/g} the target might have. In addition, if the target has {g|Encyclopedia:Regeneration}regeneration{/g}, the creature loses regeneration on the {g|Encyclopedia:Combat_Round}round{/g} following the critical hit and can die normally during that round. Creatures whose regeneration always functions are immune to this ability.",
+      "icon": "fca17227026aa5346993963496450fbb"
+    },
+    {
+      "name": "Third Judgment",
+      "desc": "At 16th level, whenever an inquisitor uses her judgment ability, she selects three different judgments, instead of just two. This only consumes one use of her judgment ability. As a {g|Encyclopedia:Swift_Action}swift action{/g}, the inquisitor can change one of these judgments to another type.",
+      "icon": "7258fa010a8cb184bbcf9e5160043b46"
+    },
+    {
+      "name": "True Judgment",
+      "desc": "At 20th level, an inquisitor can call true judgment down upon a foe during combat. Whenever an inquisitor uses her judgment ability, the inquisitor can invoke true judgment on a foe as a {g|Encyclopedia:Swift_Action}swift action{/g}. Once declared, the inquisitor can make a single {g|Encyclopedia:Attack}attack{/g}. If the attack hits, it deals {g|Encyclopedia:Damage}damage{/g} normally and the target must make a {g|Encyclopedia:Saving_Throw}Fortitude save{/g} or die. The {g|Encyclopedia:DC}DC{/g} of this save is equal to 10 \u002B 1/2 the inquisitor\u0027s level \u002B the inquisitor\u0027s {g|Encyclopedia:Wisdom}Wisdom{/g} modifier. Regardless of whether or not the save is made, the target creature is immune to the inquisitor\u0027s true judgment ability for 24 hours.",
+      "icon": "32647606f1accbb4d9e64f65ae2b771c"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      8
+    ],
+    [
+      9
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [
+      10
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [
+      11
+    ],
+    [
+      12,
+      7
+    ],
+    [
+      8
+    ],
+    [
+      13
+    ],
+    [
+      7
+    ],
+    [
+      8,
+      14
+    ],
+    [],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [
+      15
+    ]
+  ],
+  "__ui-groups": [
+    [
+      4,
+      8,
+      10,
+      14,
+      15,
+      13
+    ],
+    [],
+    [],
+    [
+      6,
+      11,
+      5,
+      9,
+      2,
+      12
+    ],
+    [
+      2,
+      12,
+      9,
+      4,
+      8,
+      14
+    ],
+    [],
+    []
+  ],
+  "name": "Inquisitor",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "InquisitorProficiencies"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "InquisitorOrisonsFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "SternGaze"
+      },
+      {
+        "level": 2,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "CunningInitiative"
+      },
+      {
+        "level": 3,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "SoloTactics"
+      },
+      {
+        "level": 5,
+        "feature": 9,
+        "rank": -1,
+        "__debug": "InquisitorBaneNormalFeatureAdd"
+      },
+      {
+        "level": 11,
+        "feature": 11,
+        "rank": -1,
+        "__debug": "Stalwart"
+      },
+      {
+        "level": 12,
+        "feature": 12,
+        "rank": -1,
+        "__debug": "InquisitorBaneGreaterFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "DomainsSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "JudgmentFeature"
+      },
+      {
+        "level": 4,
+        "feature": 8,
+        "rank": 1,
+        "__debug": "JudgmentAdditionalUse"
+      },
+      {
+        "level": 7,
+        "feature": 8,
+        "rank": 2,
+        "__debug": "JudgmentAdditionalUse"
+      },
+      {
+        "level": 8,
+        "feature": 10,
+        "rank": -1,
+        "__debug": "SecondJudgment"
+      },
+      {
+        "level": 10,
+        "feature": 8,
+        "rank": 3,
+        "__debug": "JudgmentAdditionalUse"
+      },
+      {
+        "level": 13,
+        "feature": 8,
+        "rank": 4,
+        "__debug": "JudgmentAdditionalUse"
+      },
+      {
+        "level": 14,
+        "feature": 13,
+        "rank": -1,
+        "__debug": "ExploitWeakness"
+      },
+      {
+        "level": 16,
+        "feature": 8,
+        "rank": 5,
+        "__debug": "JudgmentAdditionalUse"
+      },
+      {
+        "level": 19,
+        "feature": 8,
+        "rank": 6,
+        "__debug": "JudgmentAdditionalUse"
+      },
+      {
+        "level": 20,
+        "feature": 15,
+        "rank": -1,
+        "__debug": "TrueJudgmentFeature"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "TeamworkFeat"
+      },
+      {
+        "level": 6,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "TeamworkFeat"
+      },
+      {
+        "level": 9,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "TeamworkFeat"
+      },
+      {
+        "level": 12,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "TeamworkFeat"
+      },
+      {
+        "level": 15,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "TeamworkFeat"
+      },
+      {
+        "level": 18,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "TeamworkFeat"
+      }
+    ],
+    [
+      {
+        "level": 16,
+        "feature": 14,
+        "rank": -1,
+        "__debug": "ThirdJudgment"
+      }
+    ]
+  ]
+}

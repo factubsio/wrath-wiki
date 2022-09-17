@@ -1,0 +1,415 @@
+{
+  "features": [
+    {
+      "name": "Sneak Attack",
+      "desc": "If a character can catch an opponent when he is unable to defend himself effectively from her {g|Encyclopedia:Attack}attack{/g}, she can strike a vital spot for extra {g|Encyclopedia:Damage}damage{/g}.\nThe character\u0027s attack deals extra damage anytime her target would be denied a {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} (whether the target actually has a Dexterity bonus or not), or when the character {g|Encyclopedia:Flanking}flanks{/g} her target. This extra damage is {g|Encyclopedia:Dice}1d6{/g} and increases by 1d6 at later levels. This additional damage is precision damage and is not multiplied on a {g|Encyclopedia:Critical}critical hit{/g}.\nThe character must be able to see the target well enough to pick out a vital spot and must be able to {g|Encyclopedia:Reach}reach{/g} such a spot.",
+      "icon": "02ef137cda22e9b4aa9af681fba45909"
+    },
+    {
+      "name": "Rogue Proficiencies",
+      "desc": "Rogues are proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g}, plus the hand crossbow, rapier, sap, shortsword, and shortbow. They are proficient with light armor, but not with shields.",
+      "icon": "3714ca959287da54cbf82164d3a8805b"
+    },
+    {
+      "name": "Weapon Finesse",
+      "desc": "With a {g|Encyclopedia:Light_Weapon}light weapon{/g}, elven curve blade, estoc, or rapier made for a creature of your {g|Encyclopedia:Size}size{/g} category, you may use your {g|Encyclopedia:Dexterity}Dexterity{/g} modifier instead of your {g|Encyclopedia:Strength}Strength{/g} modifier on {g|Encyclopedia:Attack}attack rolls{/g}.",
+      "icon": "8caa05fdede890c47819c45ccfa0380a"
+    },
+    {
+      "name": "Trapfinding",
+      "desc": "A rogue adds 1/2 her level on {g|Encyclopedia:Perception}Perception checks{/g}.",
+      "icon": "521a6d3932c3ab4448a6eb95782dae06"
+    },
+    {
+      "name": "Evasion",
+      "desc": "A character can avoid even magical and unusual {g|Encyclopedia:Attack}attacks{/g} with great agility. If a character makes a successful {g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} against an attack that normally deals half {g|Encyclopedia:Damage}damage{/g} on a successful save, he instead takes no damage. A {g|Encyclopedia:Helpless}helpless{/g} character does not gain the benefit of evasion.",
+      "icon": "b571fe5defdcf67489e23c8f115f1f2c"
+    },
+    {
+      "name": "Rogue Talent",
+      "desc": "As a rogue gains {g|Encyclopedia:XP}experience{/g}, she learns a number of talents that aid her and confound her foes. Starting at 2nd level, a rogue gains one rogue talent. She gains an additional rogue talent for every 2 levels of rogue attained after 2nd level. A rogue cannot select an individual talent more than once, unless its description says otherwise.",
+      "icon": "ed9b1a97cb614b44883755a04df47351"
+    },
+    {
+      "name": "Finesse Training",
+      "desc": "At 1st level, a rogue gains Weapon Finesse as a bonus {g|Encyclopedia:Feat}feat{/g}. In addition, starting at 3rd level, she can select any one type of weapon that can be used with Weapon Finesse (such as rapiers or daggers). Once this choice is made, it cannot be changed. Whenever she makes a successful {g|Encyclopedia:MeleeAttack}melee attack{/g} with the selected weapon, she adds her {g|Encyclopedia:Dexterity}Dexterity{/g} modifier instead of her {g|Encyclopedia:Strength}Strength{/g} modifier to the {g|Encyclopedia:Damage}damage roll{/g}. If any effect would prevent the rogue from adding her Strength modifier to the damage {g|Encyclopedia:Dice}roll{/g}, she does not add her Dexterity modifier. The rogue can select a second weapon at 11th level and a third at 19th level.",
+      "icon": "gen__FT"
+    },
+    {
+      "name": "Danger Sense",
+      "desc": "At 3rd level, a rogue gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on Reflex {g|Encyclopedia:Saving_Throw}saves{/g} to avoid traps and a \u002B1 dodge bonus to {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:Attack}attacks{/g} made by traps. These bonuses increase by 1 every 3 rogue levels thereafter (to a maximum of \u002B6 at 18th level).",
+      "icon": "7ab9a8025ca271d43a8debfa01fd17c3"
+    },
+    {
+      "name": "Debilitating Injury",
+      "desc": "At 4th level, whenever a rogue deals sneak {g|Encyclopedia:Attack}attack{/g} {g|Encyclopedia:Damage}damage{/g} to a foe, she can also debilitate the target of her attack, causing it to take a {g|Encyclopedia:Penalty}penalty{/g} for 1 {g|Encyclopedia:Combat_Round}round{/g} (this is in addition to any penalty caused by a rogue talent or other {g|Encyclopedia:Special_Abilities}special ability{/g}). The rogue can choose to apply any one of the following penalties when the damage is dealt.\nBewildered: The target becomes bewildered, taking a \u20132 penalty to {g|Encyclopedia:Armor_Class}AC{/g}. The target takes an additional \u20132 penalty to AC against all attacks made by the rogue. At 10th level and 16th level, the penalty to AC against attacks made by the rogue increases by \u20132 (to a total maximum of \u20138).\nDisoriented: The target takes a \u20132 penalty on attack {g|Encyclopedia:Dice}rolls{/g}. In addition, the target takes an additional \u20132 penalty on all attack rolls it makes against the rogue. At 10th level and 16th level, the penalty on attack rolls made against the rogue increases by \u20132 (to a total maximum of \u20138).\nHampered: All of the target\u0027s speeds are reduced by half (to a minimum of 5 feet).\nThese penalties do not stack with themselves, but additional attacks that deal sneak attack damage extend the duration by 1 round. A creature cannot suffer from more than one penalty from this ability at a time. If a new penalty is applied, the old penalty immediately ends. Any form of {g|Encyclopedia:Healing}healing{/g} applied to a target suffering from one of these penalties also removes the penalty.",
+      "icon": "a3419f049afb93e408a80f9b13dd9bb7"
+    },
+    {
+      "name": "Uncanny Dodge",
+      "desc": "The character can react to danger before her senses would normally allow her to do so. She cannot be caught {g|Encyclopedia:Flat_Footed}flat-footed{/g}, nor does she lose her {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} if the {g|Encyclopedia:Attack}attacker{/g} is invisible. She still loses her Dexterity bonus to AC if immobilized. A character with this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the feint {g|Encyclopedia:CA_Types}action{/g} against her.\nIf a character already has uncanny dodge from a different class, she automatically gains improved uncanny dodge instead.",
+      "icon": "f549aced0cfe8a7469985214a71d9503"
+    },
+    {
+      "name": "Improved Uncanny Dodge",
+      "desc": "The character can no longer be {g|Encyclopedia:Flanking}flanked{/g}.\nThis defense denies another rogue the ability to sneak {g|Encyclopedia:Attack}attack{/g} the character by flanking her, unless the attacker has at least four more rogue levels than the target does.",
+      "icon": "f549aced0cfe8a7469985214a71d9503"
+    },
+    {
+      "name": "Advanced Talents",
+      "desc": "After 10th level, a character can choose one of the advanced rogue talents in place of a rogue talent.",
+      "icon": "57a5e3232472df44bac5df62ed9f8cdd"
+    },
+    {
+      "name": "Master Strike",
+      "desc": "Upon reaching 20th level, a rogue becomes incredibly deadly when dealing sneak {g|Encyclopedia:Attack}attack{/g} {g|Encyclopedia:Damage}damage{/g}. Each time the rogue deals sneak attack damage, she can slay the target. The target receives a {g|Encyclopedia:Saving_Throw}Fortitude save{/g} to negate the {g|Encyclopedia:Injury_Death}death{/g} effect. The {g|Encyclopedia:DC}DC{/g} of this save is equal to 10 \u002B 1/2 the rogue\u0027s level \u002B the rogue\u0027s {g|Encyclopedia:Dexterity}Dexterity{/g} modifier. Once a creature has been the target of a master strike, regardless of whether or not the save is made, that creature is immune to that rogue\u0027s master strike for 24 hours.",
+      "icon": "394cd8e77836d6f4fb021a143f71d994"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      0,
+      6,
+      7
+    ],
+    [
+      5,
+      8,
+      9
+    ],
+    [
+      0
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      0
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      5,
+      11
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      0
+    ],
+    [
+      5
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      5
+    ],
+    [
+      0
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      5,
+      12
+    ]
+  ],
+  "__ui-groups": [
+    [
+      10
+    ],
+    [
+      0,
+      12
+    ],
+    [
+      4,
+      8,
+      11
+    ]
+  ],
+  "name": "Rogue",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": 1,
+        "__debug": "SneakAttack"
+      },
+      {
+        "level": 3,
+        "feature": 0,
+        "rank": 2,
+        "__debug": "SneakAttack"
+      },
+      {
+        "level": 5,
+        "feature": 0,
+        "rank": 3,
+        "__debug": "SneakAttack"
+      },
+      {
+        "level": 7,
+        "feature": 0,
+        "rank": 4,
+        "__debug": "SneakAttack"
+      },
+      {
+        "level": 9,
+        "feature": 0,
+        "rank": 5,
+        "__debug": "SneakAttack"
+      },
+      {
+        "level": 11,
+        "feature": 0,
+        "rank": 6,
+        "__debug": "SneakAttack"
+      },
+      {
+        "level": 13,
+        "feature": 0,
+        "rank": 7,
+        "__debug": "SneakAttack"
+      },
+      {
+        "level": 15,
+        "feature": 0,
+        "rank": 8,
+        "__debug": "SneakAttack"
+      },
+      {
+        "level": 17,
+        "feature": 0,
+        "rank": 9,
+        "__debug": "SneakAttack"
+      },
+      {
+        "level": 19,
+        "feature": 0,
+        "rank": 10,
+        "__debug": "SneakAttack"
+      },
+      {
+        "level": 20,
+        "feature": 12,
+        "rank": -1,
+        "__debug": "MasterStrike"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "RogueProficiencies"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "WeaponFinesse"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": 1,
+        "__debug": "Trapfinding"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "Evasion"
+      },
+      {
+        "level": 4,
+        "feature": 8,
+        "rank": 1,
+        "__debug": "DebilitatingInjury"
+      },
+      {
+        "level": 10,
+        "feature": 11,
+        "rank": 1,
+        "__debug": "AdvanceTalents"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "RogueTalentSelection"
+      },
+      {
+        "level": 4,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "RogueTalentSelection"
+      },
+      {
+        "level": 6,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "RogueTalentSelection"
+      },
+      {
+        "level": 8,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "RogueTalentSelection"
+      },
+      {
+        "level": 10,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "RogueTalentSelection"
+      },
+      {
+        "level": 12,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "RogueTalentSelection"
+      },
+      {
+        "level": 14,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "RogueTalentSelection"
+      },
+      {
+        "level": 16,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "RogueTalentSelection"
+      },
+      {
+        "level": 18,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "RogueTalentSelection"
+      },
+      {
+        "level": 20,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "RogueTalentSelection"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "FinesseTrainingSelection"
+      },
+      {
+        "level": 11,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "FinesseTrainingSelection"
+      },
+      {
+        "level": 19,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "FinesseTrainingSelection"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 7,
+        "rank": 1,
+        "__debug": "DangerSenseRogue"
+      },
+      {
+        "level": 6,
+        "feature": 7,
+        "rank": 2,
+        "__debug": "DangerSenseRogue"
+      },
+      {
+        "level": 9,
+        "feature": 7,
+        "rank": 3,
+        "__debug": "DangerSenseRogue"
+      },
+      {
+        "level": 12,
+        "feature": 7,
+        "rank": 4,
+        "__debug": "DangerSenseRogue"
+      },
+      {
+        "level": 15,
+        "feature": 7,
+        "rank": 5,
+        "__debug": "DangerSenseRogue"
+      },
+      {
+        "level": 18,
+        "feature": 7,
+        "rank": 6,
+        "__debug": "DangerSenseRogue"
+      }
+    ],
+    [
+      {
+        "level": 4,
+        "feature": 9,
+        "rank": 1,
+        "__debug": "UncannyDodgeChecker"
+      }
+    ],
+    [
+      {
+        "level": 8,
+        "feature": 10,
+        "rank": -1,
+        "__debug": "ImprovedUncannyDodge"
+      }
+    ]
+  ]
+}

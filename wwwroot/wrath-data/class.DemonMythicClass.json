@@ -1,0 +1,321 @@
+{
+  "features": [
+    {
+      "name": "Mythic Ability",
+      "desc": "At 1st rank and every odd mythic rank thereafter, select one new mythic ability.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Demonic Rage",
+      "desc": "The power of the Abyss courses through the Demon waiting to be unleashed. The Demon can enter a demonic rage as a {g|Encyclopedia:Free_Action}free action{/g}. The demonic rage lasts until the end of combat. While in demonic rage, the Demon gains \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g}, {g|Encyclopedia:Damage}damage rolls{/g}, {g|Encyclopedia:Caster_Level}caster level{/g} {g|Encyclopedia:Check}checks{/g} and Reflex saving throws. The {g|Encyclopedia:DC}DC{/g} for all {g|Encyclopedia:Saving_Throw}saving throws{/g} against Demon\u0027s {g|Encyclopedia:Spell}spells{/g} and abilities are increased by 2. These benefits increase by 1 at 6th and 9th mythic ranks.\nYou can use Demonic Rage 3 times per day. Number of uses increases by 1 at 6th and 9th mythic ranks.",
+      "icon": "a836c08b3c34e694886c94a6b9ddfb16"
+    },
+    {
+      "name": "Demonic Claws",
+      "desc": "The demon can grow claws at will, gaining two claw {g|Encyclopedia:Attack}attacks{/g}. These attacks are considered primary attacks and are made at the demon\u0027s full {g|Encyclopedia:BAB}base attack bonus{/g}. The claws deal {g|Encyclopedia:Dice}1d8{/g} points of {g|Encyclopedia:Damage_Type}slashing damage{/g} (1d6 if Small) plus the demon\u0027s {g|Encyclopedia:Strength}Strength{/g} modifier. If one of the claws is used in concert with a weapon held in the other hand, the claw attack is made at the demon\u0027s full base attack {g|Encyclopedia:Bonus}bonus{/g} \u20135 and deals 1d8 {g|Encyclopedia:Damage}damage{/g} plus half the demon\u0027s Strength modifier.",
+      "icon": "9100e5f2e80631d47822697ae833a4b6"
+    },
+    {
+      "name": "Demonic Charge",
+      "desc": "As a {g|Encyclopedia:Move_Action}move action{/g}, you can teleport to the target enemy, dealing {g|Encyclopedia:Dice}2d6{/g} unholy {g|Encyclopedia:Damage}damage{/g} per mythic rank to all enemies in a 10-foot range around the beginning point of the teleport and at the end point. An enemy can only be damaged by this ability once per {g|Encyclopedia:Combat_Round}round{/g}.",
+      "icon": "bd9474d3530414c4bb7cf4f7f48ded48"
+    },
+    {
+      "name": "Mythic Feat",
+      "desc": "Mythic characters gain mythic {g|Encyclopedia:Feat}feats{/g} every even mythic rank. These feats can be selected only as part of mythic advancement, not as part of a character\u0027s normal advancement or in place of any other bonus feat.\nMost mythic feats require a non-mythic feat as a prerequisite. These mythic feats enhance the benefits of their prerequisite feats, making them truly awe-inspiring. If a character doesn\u0027t possess any of the necessary prerequisite feats when she gains a mythic feat, she can wait to select a mythic feat until the next time she gains a mythic rank or level.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Demonic Aspect",
+      "desc": "Starting at the 4th mythic rank and every rank thereafter, Demon gains a Demonic Aspect. These aspects use other Demons as inspiration and allow the Demon to focus the rage more effectively.",
+      "icon": "a836c08b3c34e694886c94a6b9ddfb16"
+    },
+    {
+      "name": "Extra Minor Aspect",
+      "desc": "You can now use one more minor aspect simultaneously.",
+      "icon": "gen__EMA"
+    },
+    {
+      "name": "Major Demonic Aspect",
+      "desc": "At 5th rank and at 7th rank, Demon gains a Major Demonic Aspect. These aspects use more powerful demons as inspiration and allow the Demon to focus the rage more effectively.",
+      "icon": "a836c08b3c34e694886c94a6b9ddfb16"
+    },
+    {
+      "name": "True Demonkind",
+      "desc": "At 5th mythic rank, you gain immunity to poisons and electricity.",
+      "icon": "9100e5f2e80631d47822697ae833a4b6"
+    },
+    {
+      "name": "Deadly Natural Weapons",
+      "desc": "All demon\u0027s {g|Encyclopedia:NaturalAttack}natural weapons{/g} ignore {g|Encyclopedia:Damage_Reduction}damage reduction{/g} of demons and count as having \u002B2 enhancement {g|Encyclopedia:Bonus}bonus{/g}. Additionally, all demon\u0027s natural {g|Encyclopedia:Attack}attacks{/g} count as primary.",
+      "icon": "gen__DNW"
+    },
+    {
+      "name": "Wings",
+      "desc": "You gain a pair of wings that grant a \u002B3 dodge {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:MeleeAttack}melee attacks{/g} and an immunity to ground based effects, such as difficult terrain.",
+      "icon": "24592e942f5650148aa0d774257c6da3"
+    },
+    {
+      "name": "Demon Lord Aspect",
+      "desc": "At the 9th mythic rank, Demon gains a Lord Demonic Aspect and another one on 10th mythic rank. These aspects use demon lords as inspiration and allow the Demon to focus the rage more effectively.",
+      "icon": "a836c08b3c34e694886c94a6b9ddfb16"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      0,
+      5,
+      6,
+      7,
+      7,
+      8
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      0,
+      7,
+      9,
+      5
+    ],
+    [
+      4,
+      5,
+      6,
+      10
+    ],
+    [
+      0,
+      5,
+      11
+    ],
+    [
+      4,
+      5,
+      11
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "__ui-groups": [],
+  "name": "Demon",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      },
+      {
+        "level": 3,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      },
+      {
+        "level": 5,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      },
+      {
+        "level": 7,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "DemonRageFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "DemonClawsFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "DemonChargeFeature"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 4,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 6,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 8,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DemonAspectSelection"
+      },
+      {
+        "level": 3,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DemonAspectSelection"
+      },
+      {
+        "level": 4,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DemonAspectSelection"
+      },
+      {
+        "level": 5,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DemonAspectSelection"
+      },
+      {
+        "level": 6,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DemonAspectSelection"
+      },
+      {
+        "level": 7,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DemonAspectSelection"
+      },
+      {
+        "level": 8,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DemonAspectSelection"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 6,
+        "rank": 1,
+        "__debug": "DemonAspectExtraAspect"
+      },
+      {
+        "level": 6,
+        "feature": 6,
+        "rank": 2,
+        "__debug": "DemonAspectExtraAspect"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "DemonMajorAspectSelection"
+      },
+      {
+        "level": 5,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "DemonMajorAspectSelection"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "DemonMajorAspectSelection"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 8,
+        "rank": -1,
+        "__debug": "DemonImprovedImmunities"
+      }
+    ],
+    [
+      {
+        "level": 5,
+        "feature": 9,
+        "rank": -1,
+        "__debug": "DemonNaturalAttackFeatureLevel5"
+      }
+    ],
+    [
+      {
+        "level": 6,
+        "feature": 10,
+        "rank": -1,
+        "__debug": "FeatureWingsDemon"
+      }
+    ],
+    [
+      {
+        "level": 7,
+        "feature": 11,
+        "rank": -1,
+        "__debug": "DemonLordAspectSelection"
+      },
+      {
+        "level": 8,
+        "feature": 11,
+        "rank": -1,
+        "__debug": "DemonLordAspectSelection"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "features": [
+    {
+      "name": "Mythic Ability",
+      "desc": "At 1st rank and every odd mythic rank thereafter, select one new mythic ability.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Mythic Trick",
+      "desc": "Mythic Tricksters can find creative uses for their {g|Encyclopedia:Skills}skills{/g}.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Sneak Attack",
+      "desc": "If a character can catch an opponent when he is unable to defend himself effectively from her {g|Encyclopedia:Attack}attack{/g}, she can strike a vital spot for extra {g|Encyclopedia:Damage}damage{/g}.\nThe character\u0027s attack deals extra damage anytime her target would be denied a {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} (whether the target actually has a Dexterity bonus or not), or when the character {g|Encyclopedia:Flanking}flanks{/g} her target. This extra damage is {g|Encyclopedia:Dice}1d6{/g} and increases by 1d6 at later levels. This additional damage is precision damage and is not multiplied on a {g|Encyclopedia:Critical}critical hit{/g}.\nThe character must be able to see the target well enough to pick out a vital spot and must be able to {g|Encyclopedia:Reach}reach{/g} such a spot.",
+      "icon": "02ef137cda22e9b4aa9af681fba45909"
+    },
+    {
+      "name": "Sneaky Quack",
+      "desc": "If a character can catch an ally when they are unable to defend themselves effectively from her {g|Encyclopedia:Healing}healing{/g}, she can heal a vital spot for extra healing.\nThe character\u0027s heal heals extra {g|Encyclopedia:Damage}damage{/g} anytime her target would be denied a {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} (whether the target actually has a Dexterity bonus or not), or when the character {g|Encyclopedia:Flanking}flanks{/g} her target. This extra healing is {g|Encyclopedia:Dice}1d6{/g} per die of your sneak {g|Encyclopedia:Attack}attack{/g}. This additional healing is precision healing.",
+      "icon": "gen__SQ"
+    },
+    {
+      "name": "Mythic Feat",
+      "desc": "Mythic characters gain mythic {g|Encyclopedia:Feat}feats{/g} every even mythic rank. These feats can be selected only as part of mythic advancement, not as part of a character\u0027s normal advancement or in place of any other bonus feat.\nMost mythic feats require a non-mythic feat as a prerequisite. These mythic feats enhance the benefits of their prerequisite feats, making them truly awe-inspiring. If a character doesn\u0027t possess any of the necessary prerequisite feats when she gains a mythic feat, she can wait to select a mythic feat until the next time she gains a mythic rank or level.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Improved Mythic Trick",
+      "desc": "Mythic Tricksters can find creative uses for their {g|Encyclopedia:Skills}skills{/g}.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Greater Mythic Trick",
+      "desc": "Mythic Tricksters can find creative uses for their {g|Encyclopedia:Skills}skills{/g}.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      2,
+      3
+    ],
+    [
+      4,
+      1,
+      5
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      4,
+      1,
+      5
+    ],
+    [
+      0,
+      1,
+      6,
+      2
+    ],
+    [
+      4,
+      1,
+      5
+    ],
+    [
+      0,
+      1,
+      5,
+      2
+    ],
+    [
+      4,
+      1,
+      6
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "__ui-groups": [
+    [
+      5,
+      6
+    ]
+  ],
+  "name": "Trickster",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      },
+      {
+        "level": 3,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      },
+      {
+        "level": 5,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      },
+      {
+        "level": 7,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "TricksterRank1Selection"
+      },
+      {
+        "level": 2,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "TricksterRank1Selection"
+      },
+      {
+        "level": 3,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "TricksterRank1Selection"
+      },
+      {
+        "level": 4,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "TricksterRank1Selection"
+      },
+      {
+        "level": 5,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "TricksterRank1Selection"
+      },
+      {
+        "level": 6,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "TricksterRank1Selection"
+      },
+      {
+        "level": 7,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "TricksterRank1Selection"
+      },
+      {
+        "level": 8,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "TricksterRank1Selection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": 1,
+        "__debug": "SneakAttack"
+      },
+      {
+        "level": 3,
+        "feature": 2,
+        "rank": 2,
+        "__debug": "SneakAttack"
+      },
+      {
+        "level": 5,
+        "feature": 2,
+        "rank": 3,
+        "__debug": "SneakAttack"
+      },
+      {
+        "level": 7,
+        "feature": 2,
+        "rank": 4,
+        "__debug": "SneakAttack"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": 1,
+        "__debug": "SneakAttack"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "TricksterSneakyQuack"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 4,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 6,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 8,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "TricksterRank2Selection"
+      },
+      {
+        "level": 4,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "TricksterRank2Selection"
+      },
+      {
+        "level": 5,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "TricksterRank3Selection"
+      },
+      {
+        "level": 6,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "TricksterRank2Selection"
+      },
+      {
+        "level": 7,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "TricksterRank2Selection"
+      },
+      {
+        "level": 8,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "TricksterRank3Selection"
+      }
+    ]
+  ]
+}

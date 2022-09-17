@@ -1,0 +1,221 @@
+{
+  "features": [
+    {
+      "name": "Mythic Ability",
+      "desc": "At 1st rank and every odd mythic rank thereafter, select one new mythic ability.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Skeletal Champion",
+      "desc": "You get a powerful undead minion \u2014 a skeletal champion. It will become more powerful as you gain new mythic ranks. Just like your companions, this skeletal champion can use any items and also has all the {g|Encyclopedia:Weapon_Proficiency}weapon proficiencies{/g}. Being undead, it is also subject to all the {g|Encyclopedia:Bonus}bonuses{/g} undead get being under the command of the Mythic Lich.",
+      "icon": "9fde21ec42b9ac5439d9ac5dea4cb190"
+    },
+    {
+      "name": "Lich Powers",
+      "desc": "You select unique lich powers.",
+      "icon": "gen__LP"
+    },
+    {
+      "name": "Mythic Feat",
+      "desc": "Mythic characters gain mythic {g|Encyclopedia:Feat}feats{/g} every even mythic rank. These feats can be selected only as part of mythic advancement, not as part of a character\u0027s normal advancement or in place of any other bonus feat.\nMost mythic feats require a non-mythic feat as a prerequisite. These mythic feats enhance the benefits of their prerequisite feats, making them truly awe-inspiring. If a character doesn\u0027t possess any of the necessary prerequisite feats when she gains a mythic feat, she can wait to select a mythic feat until the next time she gains a mythic rank or level.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Lord Beyond the Grave",
+      "desc": "You can use command undead at will. All undead under your command within 50 feet of you gain a {g|Encyclopedia:Bonus}bonus{/g} to their {g|Encyclopedia:Strength}Strength{/g}, {g|Encyclopedia:Dexterity}Dexterity{/g}, and {g|Encyclopedia:Charisma}Charisma{/g} equal to half your mythic rank plus 1. Their {g|Encyclopedia:Attack}attacks{/g} now ignore {g|Encyclopedia:Damage_Reduction}damage reduction{/g} except N/-.",
+      "icon": "4b3ba911443e8a84e9ef6bffc7d54ebb"
+    },
+    {
+      "name": "Skeleton Upgrade Selection",
+      "desc": "",
+      "icon": "gen__SUS"
+    },
+    {
+      "name": "{Name}, L{mf|ord|ady} of Death",
+      "desc": "Leader of a small cult of undead, created by h{mf|is|er} own hands, {name} became famous as the indomitable commander of the Fifth Mendevian Crusade against the Worldwound. Determined to destroy the forces of the Abyss at any cost, {mf||s}he ventured on the path of the L{mf|ord|ady} of Death. For millennia, powerful necromancers have dreamed of a power that could rival the divine. They have created cults in their own names, and attracted many followers. Thanks to h{mf|is|er} legendary powers, {name} has managed to achieve much greater success than the others: {mf||s}he has acquired a talent to bestow divine spells upon h{mf|is|er} followers. From that moment, the undead created by h{mf|im|er} needed no other deities to cast spells.\nDomains: Death, Evil, Strength, War.",
+      "icon": "3392ed4ccb6718c4cb3a928a446bd292"
+    },
+    {
+      "name": "Dark Rites",
+      "desc": "Lich, and all his companions in a 30-foot radius, cast {g|Encyclopedia:Spell}spells{/g} as if their {g|Encyclopedia:Caster_Level}caster level{/g} was 2 levels higher.",
+      "icon": "d17492d9072395143adc390df6454b71"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ],
+    [
+      0,
+      6,
+      7
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      0
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      3,
+      5
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "__ui-groups": [],
+  "name": "Lich",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      },
+      {
+        "level": 3,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      },
+      {
+        "level": 5,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      },
+      {
+        "level": 7,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "MythicLichSkeletonSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "LichUniqueAbilitiesSelection"
+      },
+      {
+        "level": 4,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "LichUniqueAbilitiesSelection"
+      },
+      {
+        "level": 7,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "LichUniqueAbilitiesSelection"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 4,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 6,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 8,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "LichAuraBolsterUndeadFeature"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "LichSkeletalUpgradeSelection"
+      },
+      {
+        "level": 6,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "LichSkeletalUpgradeSelection"
+      },
+      {
+        "level": 8,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "LichSkeletalUpgradeSelection"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "LichDeityFeature"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "DarkRitesFeature"
+      }
+    ]
+  ]
+}

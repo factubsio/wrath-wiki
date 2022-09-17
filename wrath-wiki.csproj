@@ -11,4 +11,14 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.8" PrivateAssets="all" />
   </ItemGroup>
 
+	<PropertyGroup>
+		<BlazorCacheBootResources>false</BlazorCacheBootResources>
+	</PropertyGroup>
+
+	<ItemGroup>
+    <Folder Include="wwwroot\icons\" />
+    <Folder Include="wwwroot\icons-custom\" />
+    <Folder Include="wwwroot\ui\" />
+  </ItemGroup>
+
 </Project>

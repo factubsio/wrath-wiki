@@ -1,0 +1,408 @@
+{
+  "features": [
+    {
+      "name": "Arcane Pool",
+      "desc": "At 1st level, the magus gains a reservoir of mystical arcane energy that he can draw upon to fuel his powers and enhance his weapon. This arcane pool has a number of points equal to 1/2 his magus level (minimum 1) \u002B his {g|Encyclopedia:Intelligence}Intelligence{/g} modifier. The pool refreshes once per day when the magus prepares his {g|Encyclopedia:Spell}spells{/g}.\nAt 1st level, a magus can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant any weapon he is holding a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Multiple uses of this ability do not stack with themselves.\nAt 5th level, these bonuses can be used to add any of the following weapon properties: flaming, flaming burst, frost, icy burst, keen, shock, shocking burst, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These properties are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other properties can be added. These bonuses and properties are decided when the arcane pool point is spent and cannot be changed until the next time the magus uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the magus.\nA magus can only enhance one weapon in this way at one time. If he uses this ability again, the first use immediately ends.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "name": "Spell Combat",
+      "desc": "At 1st level, a magus learns to cast {g|Encyclopedia:Spell}spells{/g} and wield his weapons at the same time. This functions much like two-weapon fighting, but the off-hand weapon is a spell that is being cast. To use this ability, the magus must have one hand free, while wielding a light or {g|Encyclopedia:Light_Weapon}one-handed{/g} melee weapon in the other hand. As a {g|Encyclopedia:Full_Round_Action}full-round action{/g}, he can make all of his {g|Encyclopedia:Attack}attacks{/g} with his melee weapon at a \u20132 {g|Encyclopedia:Penalty}penalty{/g} and can also cast any spell from the magus spell list with a {g|Encyclopedia:Casting_Time}casting time{/g} of 1 {g|Encyclopedia:Standard_Actions}standard action{/g} (any attack {g|Encyclopedia:Dice}roll{/g} made as part of this spell also takes this penalty).",
+      "icon": "d7f95c54ea7a4b24f91b3f01cd84e251"
+    },
+    {
+      "name": "Magus Proficiencies",
+      "desc": "A magus is proficient with all simple and {g|Encyclopedia:Weapon_Proficiency}martial weapons{/g}. A magus is also proficient with light armor. He can cast magus {g|Encyclopedia:Spell}spells{/g} while wearing light armor without incurring the normal {g|Encyclopedia:Spell_Fail_Chance}arcane spell failure chance{/g}. Like any other arcane spellcaster, a magus wearing medium armor, heavy armor, or a shield incurs a chance of arcane spell failure. A multiclass magus still incurs the normal arcane spell failure chance for arcane spells received from other classes.",
+      "icon": "3714ca959287da54cbf82164d3a8805b"
+    },
+    {
+      "name": "Cantrips",
+      "desc": "Magi can cast a number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
+      "icon": "a9810d27cad67b5448c99283aabedaad"
+    },
+    {
+      "name": "Spellstrike",
+      "desc": "At 2nd level, whenever a magus casts a {g|Encyclopedia:Spell}spell{/g} with a range of \u0022{g|Encyclopedia:TouchAttack}touch{/g}\u0022 from the magus spell list, he can deliver the spell through any weapon he is wielding as part of a {g|Encyclopedia:MeleeAttack}melee attack{/g}.\nInstead of the free melee touch {g|Encyclopedia:Attack}attack{/g} normally allowed to deliver the spell, a magus can make one free melee attack with his weapon (at his highest {g|Encyclopedia:BAB}base attack bonus{/g}) as part of casting this spell. If successful, this melee attack deals its normal {g|Encyclopedia:Damage}damage{/g} as well as the effects of the spell. If the magus makes this attack in concert with spell combat, this melee attack takes all the {g|Encyclopedia:Penalty}penalties{/g} accrued by spell combat melee attacks.\nThis attack uses the weapon\u0027s {g|Encyclopedia:Critical}critical{/g} range (20, 19\u201320, or 18\u201320 and modified by the keen weapon property or similar effects), but the spell effect only deals \u00D72 damage on a successful critical hit, while the weapon damage uses its own critical modifier.",
+      "icon": "681734e59fe8acd4e8fc2b3ae745726f"
+    },
+    {
+      "name": "Magus Arcana",
+      "desc": "As he gains levels, a magus learns arcane secrets tailored to his specific way of blending martial puissance and magical {g|Encyclopedia:Skills}skill{/g}. Starting at 3rd level, a magus gains one magus arcana. He gains an additional magus arcana for every three levels of magus attained after 3rd level. Unless specifically noted in a magus arcana\u0027s description, a magus cannot select a particular magus arcana more than once.",
+      "icon": "15d11c952fdc96b45849f312f3931192"
+    },
+    {
+      "name": "Spell Recall",
+      "desc": "At 4th level, the magus learns to use his arcane pool to recall {g|Encyclopedia:Spell}spells{/g} he has already cast. With a {g|Encyclopedia:Swift_Action}swift action{/g} he can recall any single magus spell that he has already prepared and cast that day by expending a number of points from his arcane pool equal to the spell\u0027s level (minimum 1). The spell is prepared again, just as if it had not been cast.",
+      "icon": "75adafb59a8fa904f885a9a4fa16fc95"
+    },
+    {
+      "name": "Magus Bonus Feat",
+      "desc": "\u003Cnull-string\u003E",
+      "icon": "53a4e13e9b8bfd34eb3f770ec000809f"
+    },
+    {
+      "name": "Arcane Weapon (\u002B2)",
+      "desc": "At 1st level, a magus can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant any weapon he is holding a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Multiple uses of this ability do not stack with themselves.\nAt 5th level, these bonuses can be used to add any of the following weapon properties: flaming, flaming burst, frost, icy burst, keen, shock, shocking burst, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These properties are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other properties can be added. These bonuses and properties are decided when the arcane pool point is spent and cannot be changed until the next time the magus uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the magus.\nA magus can only enhance one weapon in this way at one time. If he uses this ability again, the first use immediately ends.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "name": "Arcane Medium Armor",
+      "desc": "At 7th level, a magus gains proficiency with medium armor. A magus can cast magus {g|Encyclopedia:Spell}spells{/g} while wearing medium armor without incurring the normal {g|Encyclopedia:Spell_Fail_Chance}arcane spell failure chance{/g}. Like any other arcane spellcaster, a magus wearing heavy armor or using a shield incurs a chance of arcane spell failure.",
+      "icon": "3f5c77052d0163a4e9c66fc85ca6b0b4"
+    },
+    {
+      "name": "Improved Spell Combat",
+      "desc": "At 8th level, the magus\u0027s ability to cast {g|Encyclopedia:Spell}spells{/g} and make {g|Encyclopedia:MeleeAttack}melee attacks{/g} improves. When using the spell combat ability, the magus receives a \u002B2 circumstance {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Concentration}concentration checks{/g}.",
+      "icon": "d7f95c54ea7a4b24f91b3f01cd84e251"
+    },
+    {
+      "name": "Arcane Weapon (\u002B3)",
+      "desc": "At 1st level, a magus can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant any weapon he is holding a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Multiple uses of this ability do not stack with themselves.\nAt 5th level, these bonuses can be used to add any of the following weapon properties: flaming, flaming burst, frost, icy burst, keen, shock, shocking burst, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These properties are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other properties can be added. These bonuses and properties are decided when the arcane pool point is spent and cannot be changed until the next time the magus uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the magus.\nA magus can only enhance one weapon in this way at one time. If he uses this ability again, the first use immediately ends.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "name": "Fighter Training",
+      "desc": "Starting at 10th level, a magus counts 1/2 his total magus level as his fighter level for the purpose of qualifying for {g|Encyclopedia:Feat}feats{/g}. If he has levels in fighter, these levels stack.",
+      "icon": "ef075f9e062a6464fa67961e33c9fd6b"
+    },
+    {
+      "name": "Improved Spell Recall",
+      "desc": "At 11th level, the magus\u0027s ability to recall {g|Encyclopedia:Spell}spells{/g} using his arcane pool becomes more efficient. Whenever he recalls a spell with spell recall, he expends a number of points from his arcane pool equal to 1/2 the spell\u0027s level (minimum 1).",
+      "icon": "75adafb59a8fa904f885a9a4fa16fc95"
+    },
+    {
+      "name": "Arcane Weapon (\u002B4)",
+      "desc": "At 1st level, a magus can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant any weapon he is holding a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Multiple uses of this ability do not stack with themselves.\nAt 5th level, these bonuses can be used to add any of the following weapon properties: flaming, flaming burst, frost, icy burst, keen, shock, shocking burst, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These properties are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other properties can be added. These bonuses and properties are decided when the arcane pool point is spent and cannot be changed until the next time the magus uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the magus.\nA magus can only enhance one weapon in this way at one time. If he uses this ability again, the first use immediately ends.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "name": "Arcane Heavy Armor",
+      "desc": "At 13th level, a magus gains proficiency with heavy armor. A magus can cast magus {g|Encyclopedia:Spell}spells{/g} while wearing heavy armor without incurring the normal {g|Encyclopedia:Spell_Fail_Chance}arcane spell failure chance{/g}. Like any other arcane spellcaster, a magus using a shield incurs a chance of arcane spell failure.",
+      "icon": "d539b4dbcdf2b494a9b550c65ddb7179"
+    },
+    {
+      "name": "Greater Spell Combat",
+      "desc": "At 14th level, the magus gains the ability to seamlessly cast {g|Encyclopedia:Spell}spells{/g} and make {g|Encyclopedia:MeleeAttack}melee attacks{/g}. Whenever he uses the spell combat ability, his {g|Encyclopedia:Concentration}concentration check{/g} {g|Encyclopedia:Bonus}bonus{/g} from Improved Spell Combat increases to \u002B4.",
+      "icon": "d7f95c54ea7a4b24f91b3f01cd84e251"
+    },
+    {
+      "name": "Counterstrike",
+      "desc": "At 16th level, whenever an enemy within {g|Encyclopedia:Reach}reach{/g} of the magus successfully casts a {g|Encyclopedia:Spell}spell{/g} defensively, that enemy provokes an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g} from the magus after the spell is complete.",
+      "icon": "332f09eb98a30f741ad6b36c99fc128a"
+    },
+    {
+      "name": "Arcane Weapon (\u002B5)",
+      "desc": "At 1st level, a magus can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant any weapon he is holding a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Multiple uses of this ability do not stack with themselves.\nAt 5th level, these bonuses can be used to add any of the following weapon properties: flaming, flaming burst, frost, icy burst, keen, shock, shocking burst, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These properties are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other properties can be added. These bonuses and properties are decided when the arcane pool point is spent and cannot be changed until the next time the magus uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the magus.\nA magus can only enhance one weapon in this way at one time. If he uses this ability again, the first use immediately ends.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "name": "Greater Spell Access",
+      "desc": "At 19th level, the magus gains access to an expanded {g|Encyclopedia:Spell}spell{/g} list. He learns 6 spells of any levels from 1st to 6th from the wizard\u0027s spell list and places them into his spellbook as magus spells of their wizard level.",
+      "icon": "15d11c952fdc96b45849f312f3931192"
+    },
+    {
+      "name": "True Magus",
+      "desc": "At 20th level, the magus becomes a master of {g|Encyclopedia:Spell}spells{/g} and combat. Whenever he uses his spell combat ability, he does not need to make a {g|Encyclopedia:Concentration}concentration check{/g} to cast the spell defensively.\nWhenever the magus uses spell combat, he can choose to either increase the {g|Encyclopedia:DC}DC{/g} to {g|Encyclopedia:Spell_Resistance}resist his spells{/g} by 2, grant himself a \u002B2 circumstance {g|Encyclopedia:Bonus}bonus{/g} on any {g|Encyclopedia:Check}checks{/g} made to overcome spell resistance, or grant himself a \u002B2 circumstance bonus on all {g|Encyclopedia:Attack}attack rolls{/g}.",
+      "icon": "gen__TM"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4
+    ],
+    [
+      5
+    ],
+    [
+      6
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      5
+    ],
+    [
+      9
+    ],
+    [
+      10
+    ],
+    [
+      11,
+      5
+    ],
+    [
+      12
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      5
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      16
+    ],
+    [
+      5
+    ],
+    [
+      17
+    ],
+    [
+      7,
+      18
+    ],
+    [
+      5
+    ],
+    [
+      19
+    ],
+    [
+      20
+    ]
+  ],
+  "__ui-groups": [
+    [
+      0,
+      8,
+      11,
+      14,
+      18
+    ],
+    [],
+    [
+      1,
+      10,
+      16,
+      19
+    ],
+    [
+      5,
+      20
+    ],
+    [
+      4,
+      17
+    ],
+    [],
+    [
+      5,
+      20
+    ],
+    [
+      6,
+      13,
+      19
+    ],
+    [
+      9,
+      15,
+      12
+    ]
+  ],
+  "name": "Magus",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "ArcanePoolFeature"
+      },
+      {
+        "level": 5,
+        "feature": 8,
+        "rank": -1,
+        "__debug": "ArcaneWeaponPlus2"
+      },
+      {
+        "level": 9,
+        "feature": 11,
+        "rank": -1,
+        "__debug": "ArcaneWeaponPlus3"
+      },
+      {
+        "level": 13,
+        "feature": 14,
+        "rank": -1,
+        "__debug": "ArcaneWeaponPlus4"
+      },
+      {
+        "level": 17,
+        "feature": 18,
+        "rank": -1,
+        "__debug": "ArcaneWeaponPlus5"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "SpellCombatFeature"
+      },
+      {
+        "level": 8,
+        "feature": 10,
+        "rank": -1,
+        "__debug": "ImprovedSpellCombat"
+      },
+      {
+        "level": 14,
+        "feature": 16,
+        "rank": -1,
+        "__debug": "GreaterSpellCombat"
+      },
+      {
+        "level": 19,
+        "feature": 19,
+        "rank": -1,
+        "__debug": "GreaterSpellAccess"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "MagusProficiencies"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "MagusCantripsFeature"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "SpellStrikeFeature"
+      },
+      {
+        "level": 16,
+        "feature": 17,
+        "rank": -1,
+        "__debug": "Counterstrike"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "MagusArcanaSelection"
+      },
+      {
+        "level": 6,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "MagusArcanaSelection"
+      },
+      {
+        "level": 9,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "MagusArcanaSelection"
+      },
+      {
+        "level": 12,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "MagusArcanaSelection"
+      },
+      {
+        "level": 15,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "MagusArcanaSelection"
+      },
+      {
+        "level": 18,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "MagusArcanaSelection"
+      },
+      {
+        "level": 20,
+        "feature": 20,
+        "rank": -1,
+        "__debug": "TrueMagusFeature"
+      }
+    ],
+    [
+      {
+        "level": 4,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "MagusSpellRecallFeature"
+      },
+      {
+        "level": 11,
+        "feature": 13,
+        "rank": -1,
+        "__debug": "MagusImprovedSpellRecallFeature"
+      }
+    ],
+    [
+      {
+        "level": 5,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "MagusFeatSelection"
+      },
+      {
+        "level": 11,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "MagusFeatSelection"
+      },
+      {
+        "level": 17,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "MagusFeatSelection"
+      }
+    ],
+    [
+      {
+        "level": 7,
+        "feature": 9,
+        "rank": -1,
+        "__debug": "ArcaneMediumArmor"
+      },
+      {
+        "level": 10,
+        "feature": 12,
+        "rank": -1,
+        "__debug": "FighterTraining"
+      },
+      {
+        "level": 13,
+        "feature": 15,
+        "rank": -1,
+        "__debug": "ArcaneHeavyArmor"
+      }
+    ]
+  ]
+}

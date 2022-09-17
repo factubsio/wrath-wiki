@@ -1,0 +1,185 @@
+{
+  "features": [
+    {
+      "name": "\u003Cnull-string\u003E",
+      "desc": "The Gold Dragon gains immunity to poison, disease, fear, confusion, paralysis and sleep. He also gains resistance to all energies equal to (his {g|Encyclopedia:Character_Level}character level{/g} plus half his mythic rank).\nIf any of your {g|Encyclopedia:Saving_Throw}saving throws{/g} {g|Encyclopedia:Bonus}bonuses{/g} before modifiers is less than (5 \u002B your mythic rank), you gain a bonus up to that number.\nIf any of your attributes before modifiers is less than 14, you gain a bonus up to that number.\nYour highest ability score gets a \u002B4 bonus.\nAll your {g|Encyclopedia:Hit_Dice}hit dice{/g} are now {g|Encyclopedia:Dice}d12{/g}.\nAny {g|Encyclopedia:Spell}spells{/g} dealing {g|Encyclopedia:Damage}damage{/g} now change their dice to d6, if it was not d6 or greater. If it already was d6 or greater, instead the spell deals one additional point of damage per dice rolled.\nAll your weapons count as \u002B5 weapons.",
+      "icon": "gen__"
+    },
+    {
+      "name": "Gold Dragon Breath",
+      "desc": "You gain the ability to breath holy energy, {g|Encyclopedia:Attack}attacking{/g} all enemies in a 50-foot cone, dealing ({g|Encyclopedia:Character_Level}character level{/g} plus half mythic rank){g|Encyclopedia:Dice}d8{/g} {g|Encyclopedia:Energy_Damage}holy damage{/g}. A successful {g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} ({g|Encyclopedia:DC}DC{/g} = 10 \u002B half your character level \u002B your mythic rank \u002B your highest ability modifier) halves the {g|Encyclopedia:Damage}damage{/g}.\nAny enemy hit by the breath attack also gains a -1 {g|Encyclopedia:Penalty}penalty{/g} on all d20 rolls, while all enemies who failed the Reflex saving throw gain -2 penalty.\nYou can use your breath attack once every 1d4 {g|Encyclopedia:Combat_Round}rounds{/g}.",
+      "icon": "536bc7698500b4240abfd27f4d2aa7a9"
+    },
+    {
+      "name": "Mythic Feat",
+      "desc": "Mythic characters gain mythic {g|Encyclopedia:Feat}feats{/g} every even mythic rank. These feats can be selected only as part of mythic advancement, not as part of a character\u0027s normal advancement or in place of any other bonus feat.\nMost mythic feats require a non-mythic feat as a prerequisite. These mythic feats enhance the benefits of their prerequisite feats, making them truly awe-inspiring. If a character doesn\u0027t possess any of the necessary prerequisite feats when she gains a mythic feat, she can wait to select a mythic feat until the next time she gains a mythic rank or level.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Wings",
+      "desc": "You gain a pair of wings that grant a \u002B3 dodge {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:MeleeAttack}melee attacks{/g} and an immunity to ground based effects, such as difficult terrain.",
+      "icon": "24592e942f5650148aa0d774257c6da3"
+    },
+    {
+      "name": "Perfect Mind",
+      "desc": "The Gold Dragon gains immunity to mind-affecting effects and {g|Encyclopedia:Spell_Resistance}spell resistance{/g} equal to 15 plus your {g|Encyclopedia:Character_Level}character level{/g} and half your mythic rank.\nIf your {g|Encyclopedia:BAB}base attack bonus{/g} is less than 15 plus mythic rank, you gain a {g|Encyclopedia:Bonus}bonus{/g} up to that number.\nAll {g|Encyclopedia:Skills}skills{/g} become class skills for you. If you have less ranks in a skill than your mythic rank, you gain a bonus up to that number.\nIf any of your attributes before modifiers is less than 18, you gain a bonus up to that number.\nBonus to your highest ability score score increases to \u002B6.\nAny {g|Encyclopedia:Spell}spells{/g} dealing {g|Encyclopedia:Damage}damage{/g} now change their dice to {g|Encyclopedia:Dice}d8{/g}, if it was not d8 or greater. If it was d8 or greater, the spell instead plus one bonus to damage per die.",
+      "icon": "gen__PM"
+    },
+    {
+      "name": "Dragon Feat",
+      "desc": "You can select any {g|Encyclopedia:Feat}feat{/g}, ignoring its prerequisites.",
+      "icon": "gen__DF"
+    },
+    {
+      "name": "Gold Dragon Form",
+      "desc": "You can assume the form of a Gold Dragon. You gain the following abilities: a \u002B10 {g|Encyclopedia:Size}size{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Strength}Strength{/g}, a \u002B8 size bonus to {g|Encyclopedia:Constitution}Constitution{/g}, a \u002B8 form natural armor bonus, Blindsense 60 feet. You also gain one bite ({g|Encyclopedia:Dice}2d8{/g}), two claws (2d6), two wing {g|Encyclopedia:Attack}attacks{/g} (1d8), and one tail slap attack (2d6).",
+      "icon": "a6dc79e6b9d54114180425123ec2cd9f"
+    },
+    {
+      "name": "Mythic Ability",
+      "desc": "At 1st rank and every odd mythic rank thereafter, select one new mythic ability.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Perfect Soul",
+      "desc": "The Gold Dragon gains immunity to cold, fire, electricity and acid, energy drain and negative energy. All your {g|Encyclopedia:Damage}damage{/g} is now {g|Encyclopedia:Energy_Damage}holy damage{/g}.\nAny {g|Encyclopedia:Spell}spells{/g} dealing damage now change their dice to {g|Encyclopedia:Dice}d10{/g}, if it was not d10 or greater. If it was d10 or greater, the spell instead plus one {g|Encyclopedia:Bonus}bonus{/g} to damage per die.\nBonus to your highest ability score score increases to \u002B8.",
+      "icon": "gen__PS"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      5,
+      5,
+      6,
+      7
+    ],
+    [
+      8,
+      2
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "__ui-groups": [],
+  "name": "Gold Dragon",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "DragonLevel1Immunities"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "GoldenDragonBreathFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 3,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "FeatureWingsDraconicGold"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "DragonLevel2Immunities"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DragonLevel2FeatSelection"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DragonLevel2FeatSelection"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "DragonLevel2FeatSelection"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "DragonFormFeature"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 8,
+        "rank": -1,
+        "__debug": "DragonLevel3Immunities"
+      }
+    ]
+  ]
+}

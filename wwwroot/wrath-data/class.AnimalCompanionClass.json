@@ -1,0 +1,91 @@
+{
+  "features": [
+    {
+      "name": "Evasion",
+      "desc": "A character can avoid even magical and unusual {g|Encyclopedia:Attack}attacks{/g} with great agility. If a character makes a successful {g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} against an attack that normally deals half {g|Encyclopedia:Damage}damage{/g} on a successful save, he instead takes no damage. A {g|Encyclopedia:Helpless}helpless{/g} character does not gain the benefit of evasion.",
+      "icon": "b571fe5defdcf67489e23c8f115f1f2c"
+    },
+    {
+      "name": "Devotion",
+      "desc": "An animal companion gains a \u002B4 morale {g|Encyclopedia:Bonus}bonus{/g} on Will {g|Encyclopedia:Saving_Throw}saves{/g} against Enchantment {g|Encyclopedia:Spell}spells{/g} and effects.",
+      "icon": "gen__D"
+    },
+    {
+      "name": "Multiattack",
+      "desc": "This creature is particularly {g|Encyclopedia:Skills}skilled{/g} at making {g|Encyclopedia:Attack}attacks{/g} with its {g|Encyclopedia:NaturalAttack}natural weapons{/g}.\nPrerequisite: Three or more natural attacks.\nBenefit: The creature\u0027s secondary attacks with natural weapons take only a \u20132 {g|Encyclopedia:Penalty}penalty{/g}.\nNormal: Without this {g|Encyclopedia:Feat}feat{/g}, the creature\u0027s secondary attacks with natural weapons take a \u20135 penalty.",
+      "icon": "gen__M"
+    },
+    {
+      "name": "Improved Evasion",
+      "desc": "This ability works like evasion, except that while the character still takes no {g|Encyclopedia:Damage}damage{/g} on a successful {g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} against {g|Encyclopedia:Attack}attacks{/g}, he henceforth takes only half damage on a failed save. A {g|Encyclopedia:Helpless}helpless{/g} character does not gain the benefit of improved evasion.",
+      "icon": "b571fe5defdcf67489e23c8f115f1f2c"
+    }
+  ],
+  "progression": [
+    [],
+    [],
+    [],
+    [
+      0
+    ],
+    [],
+    [],
+    [
+      1
+    ],
+    [],
+    [],
+    [
+      2
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      3
+    ],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "__ui-groups": [],
+  "name": "Animal Companion",
+  "layout": [
+    [
+      {
+        "level": 3,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "Evasion"
+      }
+    ],
+    [
+      {
+        "level": 6,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "AnimalCompanionDevotion"
+      }
+    ],
+    [
+      {
+        "level": 9,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "Multiattack"
+      }
+    ],
+    [
+      {
+        "level": 15,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "ImprovedEvasion"
+      }
+    ]
+  ]
+}

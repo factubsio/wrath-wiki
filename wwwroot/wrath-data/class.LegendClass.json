@@ -1,0 +1,60 @@
+{
+  "features": [
+    {
+      "name": "Legend",
+      "desc": "All your {g|Encyclopedia:Ability_Scores}ability scores{/g} are increased by 4. Your level cap has become 40 (you still can only get 20 levels in one character class), and the amount of {g|Encyclopedia:XP}XP{/g} needed to level up is drastically decreased.",
+      "icon": "gen__L"
+    },
+    {
+      "name": "Legend\u0027s Corruption Resistance",
+      "desc": "The Legend\u0027s powers are beyond the abyssal corruption\u0027s {g|Encyclopedia:Reach}reach{/g}. The Legend and all companions can {g|Encyclopedia:Rest}rest{/g} up to 5 times after the Legend had cleared all the corruption from themselves at safe place.",
+      "icon": "5895704fc09cae446b64117e3c52e06b"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "__ui-groups": [],
+  "name": "Legend",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "LegendFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "Legend_UniqueRestFeature"
+      }
+    ]
+  ]
+}

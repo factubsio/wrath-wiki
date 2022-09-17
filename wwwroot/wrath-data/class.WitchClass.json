@@ -1,0 +1,182 @@
+{
+  "features": [
+    {
+      "name": "Witch\u0027s Familiar",
+      "desc": "At 1st level, a witch forms a close bond with a familiar, a creature that teaches her magic and helps to guide her along her path. Familiars also aid a witch by granting her {g|Encyclopedia:Skills}skill{/g} {g|Encyclopedia:Bonus}bonuses{/g}, additional {g|Encyclopedia:Spell}spells{/g}, and help with some types of magic.\nA witch must commune with her familiar each day to prepare her spells. Familiars store all of the spells that a witch knows, and a witch cannot prepare a spell that is not stored by her familiar. A witch\u0027s familiar begins play storing all of the 0-level witch spells plus three 1st level spells of the witch\u0027s choice. The witch also selects a number of additional 1st-level spells equal to her {g|Encyclopedia:Intelligence}Intelligence{/g} modifier to store in her familiar. At each new witch level, she adds two new spells of any spell level or levels that she can cast (based on her new witch level) to her familiar. A witch can also add additional spells to her familiar through a special ritual.",
+      "icon": "4ac7761414491a844876769879e9fbad"
+    },
+    {
+      "name": "Patron",
+      "desc": "At 1st level, when a witch gains her familiar, she must also select a patron. This patron is a vague and mysterious force, granting the witch power for reasons that she might not entirely understand. While these forces need not be named, they typically hold influence over one of the following forces.\nAt 2nd level, and every two levels thereafter, a witch\u0027s patron adds new {g|Encyclopedia:Spell}spells{/g} to a witch\u0027s list of spells known. These spells are also automatically added to the list of spells stored by the familiar. The spells gained depend upon the patron chosen.",
+      "icon": "gen__P"
+    },
+    {
+      "name": "Hex",
+      "desc": "Witches learn a number of magic tricks, called hexes, that grant them powers or weaken foes. At 1st level, a witch gains one hex of her choice. She gains an additional hex at 2nd level and for every 2 levels attained after 2nd level. A witch cannot select an individual hex more than once.\nUsing a hex is a {g|Encyclopedia:Standard_Actions}standard action{/g} that doesn\u0027t provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g} unless otherwise noted. The {g|Encyclopedia:Saving_Throw}saving throw{/g} {g|Encyclopedia:DC}DC{/g} to resist a hex is equal to 10 \u002B half the witch\u0027s level \u002B the witch\u0027s {g|Encyclopedia:Intelligence}Intelligence{/g} modifier. For Stigmatized Witch the saving throw use {g|Encyclopedia:Charisma}Charisma{/g} modifier instead of Intelligence modifier.",
+      "icon": "08de7d6c711522448b11138d6785d59f"
+    },
+    {
+      "name": "Simple Weapon Proficiency",
+      "desc": "You become proficient with all Simple Weapons.",
+      "icon": "11ab2b30adcd57341827dc076a172994"
+    },
+    {
+      "name": "Improved Hex",
+      "desc": "\u003Cnull-string\u003E",
+      "icon": "gen__IH"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      2
+    ],
+    [],
+    [
+      2
+    ],
+    [],
+    [
+      2
+    ],
+    [],
+    [
+      2
+    ],
+    [],
+    [
+      2
+    ],
+    [],
+    [
+      2
+    ],
+    [],
+    [
+      2
+    ],
+    [],
+    [
+      2
+    ],
+    [],
+    [
+      2
+    ],
+    [],
+    [
+      2
+    ]
+  ],
+  "__ui-groups": [],
+  "name": "Witch",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "WitchFamiliarSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "WitchPatronSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "WitchHexSelection"
+      },
+      {
+        "level": 2,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "WitchHexSelection"
+      },
+      {
+        "level": 4,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "WitchHexSelection"
+      },
+      {
+        "level": 6,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "WitchHexSelection"
+      },
+      {
+        "level": 8,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "WitchHexSelection"
+      },
+      {
+        "level": 10,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "WitchHexSelection"
+      },
+      {
+        "level": 12,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "WitchHexSelection"
+      },
+      {
+        "level": 14,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "WitchHexSelection"
+      },
+      {
+        "level": 16,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "WitchHexSelection"
+      },
+      {
+        "level": 18,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "WitchHexSelection"
+      },
+      {
+        "level": 20,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "WitchHexSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "SimpleWeaponProficiency"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "WitchBetterHexProgression"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "features": [
+    {
+      "name": "Bard Proficiencies",
+      "desc": "A bard is proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g}, plus the longsword, rapier, shortsword and shortbow. Bards are also proficient with light armor and shields (except tower shields). A bard can cast bard {g|Encyclopedia:Spell}spells{/g} while wearing light armor and using a shield without incurring the normal {g|Encyclopedia:Spell_Fail_Chance}arcane spell failure chance{/g}. Like any other arcane spellcaster, a bard wearing medium or heavy armor incurs a chance of arcane spell failure. A multiclass bard still incurs the normal arcane spell failure chance for arcane spells received from other classes.",
+      "icon": "3714ca959287da54cbf82164d3a8805b"
+    },
+    {
+      "name": "Cantrips",
+      "desc": "Bards can cast a number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
+      "icon": "60fe3c2dbd23eae45843f2334f960ec5"
+    },
+    {
+      "name": "Inspire Courage",
+      "desc": "A 1st-level bard can use his performance to inspire courage in his allies (including himself), bolstering them against fear and improving their combat abilities. To be affected, an ally must be able to perceive the bard\u0027s performance. An affected ally receives a \u002B1 morale {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against charm and fear effects and a \u002B1 competence bonus on {g|Encyclopedia:Attack}attack{/g} and weapon {g|Encyclopedia:Damage}damage rolls{/g}. At 5th level, and every six bard levels thereafter, this bonus increases by \u002B1, to a maximum of \u002B4 at 17th level.",
+      "icon": "d0a4f8c927ac1b14baf16aeb18d25255"
+    },
+    {
+      "name": "Bardic Knowledge",
+      "desc": "A bard adds half his {g|Encyclopedia:Class_Level}class level{/g} (minimum 1) to all Knowledge and Lore {g|Encyclopedia:Skills}skill checks{/g} and may make all Knowledge and Lore skill {g|Encyclopedia:Check}checks{/g} untrained.",
+      "icon": "97e8e68d46f4b6540a262536bf5acf1e"
+    },
+    {
+      "name": "Bard Talent",
+      "desc": "As a bard gains {g|Encyclopedia:XP}experience{/g}, she learns a number of talents that aid her and confound her foes. At 2nd level, a bard gains a rogue talent, as the rogue class feature of the same name. At 6th level and every 4 levels thereafter, the bard gains an additional rogue talent. A bard cannot select a rogue talent that modifies the sneak {g|Encyclopedia:Attack}attack{/g} ability.",
+      "icon": "dd1d914ed167801448b86b5b4afb3a43"
+    },
+    {
+      "name": "Well-Versed",
+      "desc": "At 2nd level, the bard becomes resistant to the bardic performance of others, and to sonic effects in general. The bard gains a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} made against bardic performance and sonic effects.",
+      "icon": "ad05c2b9c08927f47ad7236f6bacd11f"
+    },
+    {
+      "name": "Inspire Competence",
+      "desc": "A bard of 3rd level or higher can use his performance to help allies succeed at a task. They must be within 30 feet and able to see and hear the bard. They get a \u002B2 competence {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Skills}skill checks{/g} as long as they continue to hear the bard\u0027s performance. This bonus increases by \u002B1 for every four levels the bard has attained beyond 3rd (\u002B3 at 7th, \u002B4 at 11th, \u002B5 at 15th, and \u002B6 at 19th).",
+      "icon": "ca3c9eb264e969e44a9eb2b105793706"
+    },
+    {
+      "name": "Lore Master",
+      "desc": "At 5th level, the bard becomes a master of lore and can take 10 on any Knowledge or Lore {g|Encyclopedia:Skills}skill check{/g} that he has ranks in. A bard can choose not to take 10 and can instead {g|Encyclopedia:Dice}roll{/g} normally.",
+      "icon": "4ea9589bae6982447bfd5ce5b9cb1b3a"
+    },
+    {
+      "name": "Fascinate",
+      "desc": "At 6th level, a bard can use his performance to cause one or more creatures to become fascinated with him. Each creature to be fascinated must be within 30 feet.\nEach creature within range receives a {g|Encyclopedia:Saving_Throw}Will save{/g} ({g|Encyclopedia:DC}DC{/g} 10 \u002B 1/2 the bard\u0027s level \u002B the bard\u0027s {g|Encyclopedia:Charisma}Cha{/g} modifier) to negate the effect. If a creature\u0027s saving throw succeeds, the bard cannot attempt to fascinate that creature again for 24 hours. If its saving throw fails, the creature stands quietly and observes the performance for as long as the bard continues to maintain it. Any {g|Encyclopedia:Damage}damage{/g} to the target automatically breaks the effect.",
+      "icon": "c9de51f6f6dba914ca22cb4ecb09d6ad"
+    },
+    {
+      "name": "Bardic Performance (Move Action)",
+      "desc": "At 7th level, a bard can start a bardic performance as a {g|Encyclopedia:Move_Action}move action{/g} instead of a {g|Encyclopedia:Standard_Actions}standard action{/g}.",
+      "icon": "10ef9d0fc57354943adb2c1dbc78062f"
+    },
+    {
+      "name": "Dirge of Doom",
+      "desc": "A bard of 8th level or higher can use his performance to foster a sense of growing dread in his enemies, causing them to become shaken. To be affected, an enemy must be within 30 feet and able to see and hear the bard\u0027s performance. The effect persists for as long as the enemy is within 30 feet and the bard continues the performance.",
+      "icon": "4b2833bc4f93c8645a710f3186f74fd0"
+    },
+    {
+      "name": "Inspire Greatness",
+      "desc": "A bard of 9th level or higher can use his performance to inspire greatness in all allies within 30 feet, granting extra fighting capability. A creature inspired with greatness gains 2 {g|Encyclopedia:Bonus}bonus{/g} {g|Encyclopedia:Hit_Dice}Hit Dice{/g} (d10s), the commensurate number of temporary {g|Encyclopedia:HP}hit points{/g} (apply the target\u0027s {g|Encyclopedia:Constitution}Constitution{/g} modifier, if any, to these bonus Hit Dice), a \u002B2 competence bonus on {g|Encyclopedia:Attack}attack rolls{/g}, and a \u002B1 competence bonus on Fortitude {g|Encyclopedia:Saving_Throw}saves{/g}.",
+      "icon": "db949c48bfd50584bbf1d9189947aec3"
+    },
+    {
+      "name": "Jack of All Trades",
+      "desc": "The bard gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Skills}skill checks{/g}.",
+      "icon": "28f0bda89f59f3842b83887cc4aba9bc"
+    },
+    {
+      "name": "Soothing Performance",
+      "desc": "A bard of 12th level or higher can use his performance to create an effect equivalent to a mass {g|Encyclopedia:Healing}cure{/g} serious wounds, using the bard\u0027s level as the {g|Encyclopedia:Caster_Level}caster level{/g}. In addition, this performance removes the fatigued, sickened, and shaken condition from all those affected. Using this ability requires 4 {g|Encyclopedia:Combat_Round}rounds{/g} of continuous performance.",
+      "icon": "93d8f2f3ba10b9d4f919d0119379db6b"
+    },
+    {
+      "name": "Bardic Performance (Swift Action)",
+      "desc": "At 13th level, a bard can start a bardic performance as a {g|Encyclopedia:Swift_Action}swift action{/g}.",
+      "icon": "d640d7e8c2b9ed94d8df7eacf2c28949"
+    },
+    {
+      "name": "Frightening Tune",
+      "desc": "A bard of 14th level or higher can use his performance to cause fear in his enemies. To be affected, an enemy must be able to hear the bard perform and be within 30 feet. Each enemy within range receives a {g|Encyclopedia:Saving_Throw}Will save{/g} ({g|Encyclopedia:DC}DC{/g} 10 \u002B 1/2 the bard\u0027s level \u002B the bard\u0027s {g|Encyclopedia:Charisma}Charisma{/g} modifier) to negate the effect. If the save succeeds, the creature is immune to this ability for 24 hours. If the save fails, the target becomes frightened and flees for as long as the target can hear the bard\u0027s performance.",
+      "icon": "dade8d83fd332b7469b2df1f0937f9d2"
+    },
+    {
+      "name": "Inspire Heroics",
+      "desc": "A bard of 15th level or higher can inspire tremendous heroism in all allies within 30 feet. Inspired creatures gain a \u002B4 morale {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} and a \u002B4 dodge bonus to {g|Encyclopedia:Armor_Class}AC{/g}. The effect lasts for as long as the targets are able to witness the performance.",
+      "icon": "f7ca41169c72978449dbc7c8ac15c6a9"
+    },
+    {
+      "name": "Deadly Performance",
+      "desc": "A bard of 20th level can use his performance to cause one enemy to die from joy or sorrow. To be affected, the target must be able to see and hear the bard perform for 1 full {g|Encyclopedia:Combat_Round}round{/g} and be within 30 feet. The target receives a {g|Encyclopedia:Saving_Throw}Will save{/g} ({g|Encyclopedia:DC}DC{/g} 10 \u002B 1/2 the bard\u0027s level \u002B the bard\u0027s {g|Encyclopedia:Charisma}Cha{/g} modifier) to negate the effect. If a creature\u0027s saving throw succeeds, the target is staggered for {g|Encyclopedia:Dice}1d4{/g} rounds, and the bard cannot use deadly performance on that creature again for 24 hours. If a creature\u0027s saving throw fails, it dies.",
+      "icon": "8b253facfc143f34583fb8a3c71f74e3"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      6
+    ],
+    [],
+    [
+      2,
+      7
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      10
+    ],
+    [
+      11
+    ],
+    [
+      12,
+      4
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      13
+    ],
+    [
+      14
+    ],
+    [
+      15,
+      4
+    ],
+    [
+      6,
+      16
+    ],
+    [],
+    [
+      2
+    ],
+    [
+      4
+    ],
+    [
+      6
+    ],
+    [
+      17
+    ]
+  ],
+  "__ui-groups": [
+    [
+      3,
+      12,
+      6
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      10,
+      8,
+      15,
+      17
+    ],
+    [
+      5,
+      11,
+      13,
+      16
+    ],
+    [],
+    [],
+    []
+  ],
+  "name": "Bard",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "BardProficiencies"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "BardCantripsFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": 1,
+        "__debug": "InspireCourageFeature"
+      },
+      {
+        "level": 5,
+        "feature": 2,
+        "rank": 2,
+        "__debug": "InspireCourageFeature"
+      },
+      {
+        "level": 11,
+        "feature": 2,
+        "rank": 3,
+        "__debug": "InspireCourageFeature"
+      },
+      {
+        "level": 17,
+        "feature": 2,
+        "rank": 4,
+        "__debug": "InspireCourageFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "BardicKnowledge"
+      },
+      {
+        "level": 3,
+        "feature": 6,
+        "rank": 1,
+        "__debug": "InspireCompetenceFeature"
+      },
+      {
+        "level": 7,
+        "feature": 6,
+        "rank": 2,
+        "__debug": "InspireCompetenceFeature"
+      },
+      {
+        "level": 10,
+        "feature": 12,
+        "rank": -1,
+        "__debug": "BardJackOfAllTrades"
+      },
+      {
+        "level": 11,
+        "feature": 6,
+        "rank": 3,
+        "__debug": "InspireCompetenceFeature"
+      },
+      {
+        "level": 15,
+        "feature": 6,
+        "rank": 4,
+        "__debug": "InspireCompetenceFeature"
+      },
+      {
+        "level": 19,
+        "feature": 6,
+        "rank": 5,
+        "__debug": "InspireCompetenceFeature"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "BardTalentSelection"
+      },
+      {
+        "level": 6,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "BardTalentSelection"
+      },
+      {
+        "level": 10,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "BardTalentSelection"
+      },
+      {
+        "level": 14,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "BardTalentSelection"
+      },
+      {
+        "level": 18,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "BardTalentSelection"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "BardWellVersed"
+      },
+      {
+        "level": 9,
+        "feature": 11,
+        "rank": 1,
+        "__debug": "InspireGreatnessFeature"
+      },
+      {
+        "level": 12,
+        "feature": 13,
+        "rank": -1,
+        "__debug": "SoothingPerformanceFeature"
+      },
+      {
+        "level": 15,
+        "feature": 16,
+        "rank": 1,
+        "__debug": "InspireHeroicsFeature"
+      }
+    ],
+    [
+      {
+        "level": 5,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "BardLoreMaster"
+      }
+    ],
+    [
+      {
+        "level": 6,
+        "feature": 8,
+        "rank": -1,
+        "__debug": "FascinateFeature"
+      },
+      {
+        "level": 8,
+        "feature": 10,
+        "rank": -1,
+        "__debug": "DirgeOfDoomFeature"
+      },
+      {
+        "level": 14,
+        "feature": 15,
+        "rank": -1,
+        "__debug": "FrighteningTuneFeature"
+      },
+      {
+        "level": 20,
+        "feature": 17,
+        "rank": -1,
+        "__debug": "DeadlyPerformanceFeature"
+      }
+    ],
+    [
+      {
+        "level": 7,
+        "feature": 9,
+        "rank": -1,
+        "__debug": "BardMovePerformance"
+      },
+      {
+        "level": 13,
+        "feature": 14,
+        "rank": -1,
+        "__debug": "BardSwiftPerformance"
+      }
+    ]
+  ]
+}

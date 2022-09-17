@@ -1,0 +1,150 @@
+{
+  "features": [
+    {
+      "name": "Wizard Bonus Feat",
+      "desc": "At 1st, 5th, 10th, 15th, and 20th level, a wizard gains a bonus {g|Encyclopedia:Feat}feat{/g}. At each such opportunity, he can choose a metamagic feat, {g|Encyclopedia:Spell}spell{/g} focus feat, or any other spellcaster feat. The wizard must still meet all prerequisites for a bonus feat, including {g|Encyclopedia:Caster_Level}caster level{/g} minimums.",
+      "icon": "gen__WBF"
+    },
+    {
+      "name": "Cantrips",
+      "desc": "Wizards can cast a number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
+      "icon": "gen__C"
+    },
+    {
+      "name": "Specialist School",
+      "desc": "A wizard can choose to specialize in one {g|Encyclopedia:Magic_School}school of magic{/g}, gaining additional {g|Encyclopedia:Spell}spells{/g} and powers based on that school. This choice must be made at 1st level, and once made, it cannot be changed. A wizard that does not select a school receives the universalist school instead.\nEach arcane school gives the wizard a number of school powers. In addition, specialist wizards receive an additional spell slot of each spell level he can cast, from 1st on up. Each day, a wizard can prepare a spell from his specialty school in that slot. This spell must be in the wizard\u0027s spellbook. A wizard can select a spell modified by a metamagic {g|Encyclopedia:Feat}feat{/g} to prepare in his school slot, but it uses up a higher-level spell slot. Wizards with the universalist school do not receive a school slot.",
+      "icon": "gen__SS"
+    },
+    {
+      "name": "Wizard Proficiencies",
+      "desc": "Wizards are proficient with the club, dagger, heavy crossbow, light crossbow, and quarterstaff, but not with any type of armor or shield. Armor interferes with a wizard\u0027s movements, which can cause his {g|Encyclopedia:Spell}spells{/g} with somatic components to fail.",
+      "icon": "gen__WP"
+    },
+    {
+      "name": "Arcane Bond",
+      "desc": "At 1st level, wizards form a powerful bond with an object or a creature. This bond can take one of two forms: a familiar or a bonded object. A familiar is a magical pet that enhances the wizard\u0027s {g|Encyclopedia:Skills}skills{/g} and senses, while a bonded object is an item a wizard can use to cast additional {g|Encyclopedia:Spell}spells{/g}.",
+      "icon": "6257839464a212a41bcf625029a2a2dd"
+    },
+    {
+      "name": "Scribe scrolls",
+      "desc": "Allows you to craft scrolls during camping.",
+      "icon": "gen__S"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    [],
+    [],
+    [],
+    [
+      0
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      0
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      0
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      0
+    ]
+  ],
+  "__ui-groups": [
+    []
+  ],
+  "name": "Wizard",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "WizardFeatSelection"
+      },
+      {
+        "level": 5,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "WizardFeatSelection"
+      },
+      {
+        "level": 10,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "WizardFeatSelection"
+      },
+      {
+        "level": 15,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "WizardFeatSelection"
+      },
+      {
+        "level": 20,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "WizardFeatSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "WizardCantripsFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "SpecialistSchoolSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "WizardProficiencies"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "ArcaneBondSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "ScribingScrolls"
+      }
+    ]
+  ]
+}

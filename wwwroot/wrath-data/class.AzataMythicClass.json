@@ -1,0 +1,214 @@
+{
+  "features": [
+    {
+      "name": "Mythic Ability",
+      "desc": "At 1st rank and every odd mythic rank thereafter, select one new mythic ability.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Dragon Companion",
+      "desc": "At 3rd rank, Azata gets a Dragon as an animal companion. Unlike normal animals of its kind, an animal companion\u0027s {g|Encyclopedia:Hit_Dice}Hit Dice{/g}, abilities, {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Feat}feats{/g} advance as the Azata gains mythic ranks.",
+      "icon": "a6dc79e6b9d54114180425123ec2cd9f"
+    },
+    {
+      "name": "Song of Heroic Resolve",
+      "desc": "Azata starts a performance that grants all allies within 50 feet a luck {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Saving_Throw}saving throws{/g} equal to half her mythic rank. Whenever an ally under this effect makes a successful saving throw, that ally is {g|Encyclopedia:Healing}healed{/g} for a number of {g|Encyclopedia:HP}hit points{/g} equal to {g|Encyclopedia:Dice}2d6{/g} \u002B Azata\u0027s mythic rank.",
+      "icon": "f6cfa18c51311ed47ad3a25011823a92"
+    },
+    {
+      "name": "Mythic Feat",
+      "desc": "Mythic characters gain mythic {g|Encyclopedia:Feat}feats{/g} every even mythic rank. These feats can be selected only as part of mythic advancement, not as part of a character\u0027s normal advancement or in place of any other bonus feat.\nMost mythic feats require a non-mythic feat as a prerequisite. These mythic feats enhance the benefits of their prerequisite feats, making them truly awe-inspiring. If a character doesn\u0027t possess any of the necessary prerequisite feats when she gains a mythic feat, she can wait to select a mythic feat until the next time she gains a mythic rank or level.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Superpowers",
+      "desc": "Azata can choose from her superpowers to enhance herself.",
+      "icon": "7c8efbd1129b371428be7754181a4104"
+    },
+    {
+      "name": "Song of Broken Chains",
+      "desc": "Azata starts a performance that grants all allies within 50 feet a freedom of movement effect and immunity to compulsion {g|Encyclopedia:Spell}spells{/g} and {g|Encyclopedia:Special_Abilities}spell-like abilities{/g}.",
+      "icon": "ca3c9eb264e969e44a9eb2b105793706"
+    },
+    {
+      "name": "Song of Defiance",
+      "desc": "Azata starts a performance that grants all allies within 50 feet {g|Encyclopedia:Damage_Reduction}DR{/g} 5/lawful and {g|Encyclopedia:Regeneration}Regeneration{/g} 5 (lawful).",
+      "icon": "ca3c9eb264e969e44a9eb2b105793706"
+    },
+    {
+      "name": "Song of Courageous Defender",
+      "desc": "Azata starts a performance that grants a chosen companion {g|Encyclopedia:Damage_Reduction}DR{/g} 5/- and immunity to fear effects. All enemies in the 50-foot range from the Azata must pass a {g|Encyclopedia:Saving_Throw}Will saving throw{/g} or be forced to {g|Encyclopedia:Attack}attack{/g} a chosen companion. Base DC to this saving throw is equal 10 \u002B half your character level \u002B your mythic rank \u002B your highest ability modifier.",
+      "icon": "ca3c9eb264e969e44a9eb2b105793706"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      3,
+      4,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0
+    ],
+    [
+      3,
+      4
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "__ui-groups": [],
+  "name": "Azata",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      },
+      {
+        "level": 3,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      },
+      {
+        "level": 5,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      },
+      {
+        "level": 7,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "DragonAzataCompanionFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "SongOfHeroicResolveFeature"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 4,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 6,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 8,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "AzataSuperpowersSelection"
+      },
+      {
+        "level": 4,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "AzataSuperpowersSelection"
+      },
+      {
+        "level": 6,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "AzataSuperpowersSelection"
+      },
+      {
+        "level": 8,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "AzataSuperpowersSelection"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "SongOfBrokenChainsFeature"
+      }
+    ],
+    [
+      {
+        "level": 4,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "SongOfDefianceFeature"
+      }
+    ],
+    [
+      {
+        "level": 5,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "SongOfCourageousDefenderFeature"
+      }
+    ]
+  ]
+}

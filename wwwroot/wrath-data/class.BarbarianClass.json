@@ -1,0 +1,352 @@
+{
+  "features": [
+    {
+      "name": "Fast Movement",
+      "desc": "A barbarian\u0027s land {g|Encyclopedia:Speed}speed{/g} is faster than the norm for her {g|Encyclopedia:Race}race{/g} by \u002B10 feet. This benefit applies only when she is wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this {g|Encyclopedia:Bonus}bonus{/g} before modifying the barbarian\u0027s speed because of any load carried or armor worn. This bonus stacks with any other bonuses to the barbarian\u0027s land speed.",
+      "icon": "d70eceda5f3a35646b828323eb30f065"
+    },
+    {
+      "name": "Rage",
+      "desc": "A barbarian can call upon inner reserves of {g|Encyclopedia:Strength}strength{/g} and ferocity, granting her additional combat prowess. At 1st level, a barbarian can rage for a number of {g|Encyclopedia:Combat_Round}rounds{/g} per day equal to 4 \u002B her {g|Encyclopedia:Constitution}Constitution{/g} modifier. For each level after 1st she possesses, the barbarian can rage for 2 additional rounds per day. Temporary increases to Constitution, such as that gained from bear\u0027s endurance, do not increase the total number of rounds that a barbarian can rage per day. A barbarian can enter a rage as a {g|Encyclopedia:Free_Action}free action{/g}. The total number of rounds of rage per day is renewed after resting for 8 hours, although these hours need not be consecutive.\nWhile in a rage, a barbarian gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:MeleeAttack}melee attack{/g} {g|Encyclopedia:Dice}rolls{/g}, melee {g|Encyclopedia:Damage}damage rolls{/g}, thrown weapon damage rolls, and Will {g|Encyclopedia:Saving_Throw}saving throws{/g}. In addition, she takes a \u20132 {g|Encyclopedia:Penalty}penalty{/g} to {g|Encyclopedia:Armor_Class}Armor Class{/g}. She also gains 2 temporary {g|Encyclopedia:HP}hit points{/g} per {g|Encyclopedia:Hit_Dice}Hit Die{/g}. These temporary hit points are lost first when a character takes damage, disappear when the rage ends, and are not replenished if the barbarian enters a rage again within 1 minute of her previous rage. While in a rage, a barbarian cannot cast {g|Encyclopedia:Spell}spells{/g}.\nA barbarian can end her rage as a free {g|Encyclopedia:CA_Types}action{/g}, and is fatigued for 1 minute after a rage ends. A barbarian can\u0027t enter a new rage while fatigued or exhausted, but can otherwise enter a rage multiple times per day. If a barbarian falls {g|Encyclopedia:Injury_Death}unconscious{/g}, her rage immediately ends.",
+      "icon": "e50a89f2ba396f44489e16b06713612f"
+    },
+    {
+      "name": "Barbarian Proficiencies",
+      "desc": "A barbarian is proficient with all simple and {g|Encyclopedia:Weapon_Proficiency}martial weapons{/g}, light armor, medium armor, and shields (except tower shields).",
+      "icon": "gen__BP"
+    },
+    {
+      "name": "Rage Power",
+      "desc": "As a barbarian gains levels, she learns to use her rage in new ways. Starting at 2nd level, a barbarian gains a rage power. She gains another rage power for every two levels of barbarian attained after 2nd level. A barbarian gains the benefits of rage powers only while raging, and some of these powers require the barbarian to take an {g|Encyclopedia:CA_Types}action{/g} first. Unless otherwise noted, a barbarian cannot select an individual power more than once.",
+      "icon": "gen__RP"
+    },
+    {
+      "name": "Uncanny Dodge",
+      "desc": "The character can react to danger before her senses would normally allow her to do so. She cannot be caught {g|Encyclopedia:Flat_Footed}flat-footed{/g}, nor does she lose her {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} if the {g|Encyclopedia:Attack}attacker{/g} is invisible. She still loses her Dexterity bonus to AC if immobilized. A character with this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the feint {g|Encyclopedia:CA_Types}action{/g} against her.\nIf a character already has uncanny dodge from a different class, she automatically gains improved uncanny dodge instead.",
+      "icon": "f549aced0cfe8a7469985214a71d9503"
+    },
+    {
+      "name": "Danger Sense",
+      "desc": "At 3rd level, a barbarian gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on Reflex {g|Encyclopedia:Saving_Throw}saves{/g} to avoid traps and a \u002B1 dodge bonus to {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:Attack}attacks{/g} by traps. These bonuses increase by 1 every 3 levels thereafter (to a maximum of \u002B6 at 18th level).",
+      "icon": "7ab9a8025ca271d43a8debfa01fd17c3"
+    },
+    {
+      "name": "Improved Uncanny Dodge",
+      "desc": "The character can no longer be {g|Encyclopedia:Flanking}flanked{/g}.\nThis defense denies another rogue the ability to sneak {g|Encyclopedia:Attack}attack{/g} the character by flanking her, unless the attacker has at least four more rogue levels than the target does.",
+      "icon": "f549aced0cfe8a7469985214a71d9503"
+    },
+    {
+      "name": "Damage Reduction",
+      "desc": "At 7th level, a barbarian gains {g|Encyclopedia:Damage_Reduction}damage reduction{/g}. Subtract 1 from the {g|Encyclopedia:Damage}damage{/g} the barbarian takes each time she is dealt damage from a weapon or a {g|Encyclopedia:NaturalAttack}natural attack{/g}. At 10th level, and every three barbarian levels thereafter (13th, 16th, and 19th level), this damage reduction rises by 1 point. Damage reduction can reduce damage to 0 but not below 0.",
+      "icon": "da043f7009753c5418615fb68cf7b198"
+    },
+    {
+      "name": "Greater Rage",
+      "desc": "At 11th level, a barbarian\u0027s {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:MeleeAttack}melee attack{/g} {g|Encyclopedia:Dice}rolls{/g}, melee {g|Encyclopedia:Damage}damage rolls{/g}, thrown weapon damage rolls, and Will {g|Encyclopedia:Saving_Throw}saves{/g} while raging increases to \u002B3. In addition, the amount of temporary {g|Encyclopedia:HP}hit points{/g} gained when entering a rage increases to 3 per {g|Encyclopedia:Hit_Dice}Hit Die{/g}.",
+      "icon": "70827deff24041146834b72273b6a6be"
+    },
+    {
+      "name": "Indomitable Will",
+      "desc": "While in rage, a barbarian of 14th level or higher gains a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on Will {g|Encyclopedia:Saving_Throw}saves{/g} to {g|Encyclopedia:Spell_Resistance}resist Enchantment spells{/g}. This bonus stacks with all other modifiers, including the morale bonus on Will saves she also receives during her rage.",
+      "icon": "4918bc76a78b4c64c8f85a848e5ed1c2"
+    },
+    {
+      "name": "Tireless Rage",
+      "desc": "Starting at 17th level, a barbarian no longer becomes fatigued at the end of her rage.",
+      "icon": "6803e805ca874084395c30178cb6eb10"
+    },
+    {
+      "name": "Mighty Rage",
+      "desc": "At 20th level, a barbarian\u0027s {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:MeleeAttack}melee attack{/g} {g|Encyclopedia:Dice}rolls{/g}, melee {g|Encyclopedia:Damage}damage rolls{/g}, thrown weapon damage rolls, and Will {g|Encyclopedia:Saving_Throw}saves{/g} while raging increases to \u002B4. In addition, the amount of temporary {g|Encyclopedia:HP}hit points{/g} gained when entering a rage increases to 4 per {g|Encyclopedia:Hit_Dice}Hit Die{/g}.",
+      "icon": "c2c12f7a9431a394eb56d983d16b235a"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5
+    ],
+    [
+      3
+    ],
+    [
+      6
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      7
+    ],
+    [
+      3
+    ],
+    [
+      5
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      8
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      7
+    ],
+    [
+      3,
+      9
+    ],
+    [
+      5
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      10
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      7
+    ],
+    [
+      3,
+      11
+    ]
+  ],
+  "__ui-groups": [
+    [
+      1,
+      11,
+      8,
+      10
+    ],
+    [
+      9
+    ],
+    [
+      0
+    ]
+  ],
+  "name": "Barbarian",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "FastMovement"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "RageFeature"
+      },
+      {
+        "level": 11,
+        "feature": 8,
+        "rank": -1,
+        "__debug": "GreaterRageFeature"
+      },
+      {
+        "level": 17,
+        "feature": 10,
+        "rank": -1,
+        "__debug": "TirelessRage"
+      },
+      {
+        "level": 20,
+        "feature": 11,
+        "rank": -1,
+        "__debug": "MightyRage"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "BarbarianProficiencies"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "RagePowerSelection"
+      },
+      {
+        "level": 4,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "RagePowerSelection"
+      },
+      {
+        "level": 6,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "RagePowerSelection"
+      },
+      {
+        "level": 8,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "RagePowerSelection"
+      },
+      {
+        "level": 10,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "RagePowerSelection"
+      },
+      {
+        "level": 12,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "RagePowerSelection"
+      },
+      {
+        "level": 14,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "RagePowerSelection"
+      },
+      {
+        "level": 16,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "RagePowerSelection"
+      },
+      {
+        "level": 18,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "RagePowerSelection"
+      },
+      {
+        "level": 20,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "RagePowerSelection"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 4,
+        "rank": 1,
+        "__debug": "UncannyDodgeChecker"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 5,
+        "rank": 1,
+        "__debug": "DangerSenseBarbarian"
+      },
+      {
+        "level": 6,
+        "feature": 5,
+        "rank": 2,
+        "__debug": "DangerSenseBarbarian"
+      },
+      {
+        "level": 9,
+        "feature": 5,
+        "rank": 3,
+        "__debug": "DangerSenseBarbarian"
+      },
+      {
+        "level": 12,
+        "feature": 5,
+        "rank": 4,
+        "__debug": "DangerSenseBarbarian"
+      },
+      {
+        "level": 15,
+        "feature": 5,
+        "rank": 5,
+        "__debug": "DangerSenseBarbarian"
+      },
+      {
+        "level": 18,
+        "feature": 5,
+        "rank": 6,
+        "__debug": "DangerSenseBarbarian"
+      }
+    ],
+    [
+      {
+        "level": 5,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "ImprovedUncannyDodge"
+      }
+    ],
+    [
+      {
+        "level": 7,
+        "feature": 7,
+        "rank": 1,
+        "__debug": "DamageReduction"
+      },
+      {
+        "level": 10,
+        "feature": 7,
+        "rank": 2,
+        "__debug": "DamageReduction"
+      },
+      {
+        "level": 13,
+        "feature": 7,
+        "rank": 3,
+        "__debug": "DamageReduction"
+      },
+      {
+        "level": 16,
+        "feature": 7,
+        "rank": 4,
+        "__debug": "DamageReduction"
+      },
+      {
+        "level": 19,
+        "feature": 7,
+        "rank": 5,
+        "__debug": "DamageReduction"
+      }
+    ],
+    [
+      {
+        "level": 14,
+        "feature": 9,
+        "rank": -1,
+        "__debug": "IndomitableWill"
+      }
+    ]
+  ]
+}

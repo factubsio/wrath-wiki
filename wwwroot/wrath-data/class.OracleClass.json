@@ -1,0 +1,157 @@
+{
+  "features": [
+    {
+      "name": "Oracle\u0027s Curse",
+      "desc": "Each oracle is cursed, but this curse comes with a benefit as well as a hindrance. This choice is made at 1st level, and once made, it cannot be changed. The oracle\u0027s curse cannot be removed or dispelled without the aid of a deity. An oracle\u0027s curse is based on her oracle level plus one for every two levels or {g|Encyclopedia:Hit_Dice}Hit Dice{/g} other than oracle.",
+      "icon": "1ef34a0fc900e0b4697c9558fd46957f"
+    },
+    {
+      "name": "Oracle Proficiencies",
+      "desc": "Oracles are proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g}, light armor, medium armor, and shields (except tower shields).",
+      "icon": "gen__OP"
+    },
+    {
+      "name": "Mystery",
+      "desc": "Each oracle draws upon a divine mystery to grant her {g|Encyclopedia:Spell}spells{/g} and powers. This mystery also grants additional class {g|Encyclopedia:Skills}skills{/g} and other {g|Encyclopedia:Special_Abilities}special abilities{/g}. This mystery can represent a devotion to one ideal, prayers to deities that support the concept, or a natural calling to champion a cause. Regardless of its source, the mystery manifests in a number of ways as the oracle gains levels. An oracle must pick one mystery upon taking her first level of oracle. Once made, this choice cannot be changed.\nAt 2nd level, and every two levels thereafter, an oracle learns an additional spell derived from her mystery.",
+      "icon": "502e74fc2b35b154a980c87519208b64"
+    },
+    {
+      "name": "Revelation",
+      "desc": "At 1st level, 3rd level, and every four levels thereafter (7th, 11th, and so on), an oracle uncovers a new secret about her mystery that grants her powers and abilities. The oracle must select a revelation from the list of revelations available to her mystery. If a revelation is chosen at a later level, the oracle gains all of the abilities and {g|Encyclopedia:Bonus}bonuses{/g} granted by that revelation based on her current level. Unless otherwise noted, activating the power of a revelation is a {g|Encyclopedia:Standard_Actions}standard action{/g}.\nUnless otherwise noted, the {g|Encyclopedia:DC}DC{/g} to {g|Encyclopedia:Saving_Throw}save{/g} against these revelations is equal to 10 \u002B 1/2 the oracle\u0027s level \u002B the oracle\u0027s {g|Encyclopedia:Charisma}Charisma{/g} modifier.",
+      "icon": "f168300883709474193903c2ddb5cc86"
+    },
+    {
+      "name": "Additional Spells",
+      "desc": "In addition to the {g|Encyclopedia:Spell}spells{/g} gained by oracles as they gain levels, each oracle also adds all of either the {g|Encyclopedia:Healing}cure{/g} spells or the inflict spells to her list of spells known (cure spells include all spells with \u0022cure\u0022 in the name, inflict spells include all spells with \u0022inflict\u0022 in the name). These spells are added as soon as the oracle is capable of casting them. This choice is made when the oracle gains her first level and cannot be changed.",
+      "icon": "gen__AS"
+    },
+    {
+      "name": "Final Revelation",
+      "desc": "At 20th level, an oracle learns the final revelation about her mystery, granting her amazing powers and abilities. The nature of these {g|Encyclopedia:Bonus}bonuses{/g} depends upon the oracle\u0027s mystery.",
+      "icon": "gen__FR"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [],
+    [
+      3
+    ],
+    [],
+    [],
+    [],
+    [
+      3
+    ],
+    [],
+    [],
+    [],
+    [
+      3
+    ],
+    [],
+    [],
+    [],
+    [
+      3
+    ],
+    [],
+    [],
+    [],
+    [
+      3
+    ],
+    [
+      5
+    ]
+  ],
+  "__ui-groups": [],
+  "name": "Oracle",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "OracleCurseSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "OracleProficiency"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "OracleMysterySelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "OracleRevelationSelection"
+      },
+      {
+        "level": 3,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "OracleRevelationSelection"
+      },
+      {
+        "level": 7,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "OracleRevelationSelection"
+      },
+      {
+        "level": 11,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "OracleRevelationSelection"
+      },
+      {
+        "level": 15,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "OracleRevelationSelection"
+      },
+      {
+        "level": 19,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "OracleRevelationSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "OracleCureOrInflictSelection"
+      }
+    ],
+    [
+      {
+        "level": 20,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "OracleFinalRevelation"
+      }
+    ]
+  ]
+}

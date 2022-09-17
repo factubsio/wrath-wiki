@@ -1,0 +1,167 @@
+{
+  "features": [
+    {
+      "name": "Hell\u0027s Decree",
+      "desc": "As you become a Devil, you gain the ability to issue Hell\u0027s Decrees a number of times per day equal to his mythic rank.\nIf a {g|Encyclopedia:Saving_Throw}saving throw{/g} is involved, its {g|Encyclopedia:DC}DC{/g} is 10 \u002B double the devil\u0027s mythic rank.",
+      "icon": "8f886bef0a16f8a4a9c6ecaa2be11b2a"
+    },
+    {
+      "name": "Hell\u0027s Dominance",
+      "desc": "You gain the ability to use dominate monster as a {g|Encyclopedia:Special_Abilities}spell-like ability{/g} at will. Additionally, you gain fire resistance 20 and a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against poison.",
+      "icon": "gen__HD"
+    },
+    {
+      "name": "Mythic Feat",
+      "desc": "Mythic characters gain mythic {g|Encyclopedia:Feat}feats{/g} every even mythic rank. These feats can be selected only as part of mythic advancement, not as part of a character\u0027s normal advancement or in place of any other bonus feat.\nMost mythic feats require a non-mythic feat as a prerequisite. These mythic feats enhance the benefits of their prerequisite feats, making them truly awe-inspiring. If a character doesn\u0027t possess any of the necessary prerequisite feats when she gains a mythic feat, she can wait to select a mythic feat until the next time she gains a mythic rank or level.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Wings",
+      "desc": "You gain a pair of wings that grant a \u002B3 dodge {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:MeleeAttack}melee attacks{/g} and an immunity to ground based effects, such as difficult terrain.",
+      "icon": "24592e942f5650148aa0d774257c6da3"
+    },
+    {
+      "name": "Hell\u0027s Seal",
+      "desc": "The Devil gains the ability to place Hell\u0027s Seals on allies. They activate when certain conditions are met.\nYou can use this ability a number of times per day equal to your mythic rank, but only one seal can be placed on a single ally at one time.",
+      "icon": "ce646c86f61e5f7409c934aec2acd79b"
+    },
+    {
+      "name": "Hell\u0027s Vengeance",
+      "desc": "You gain the ability to use hellfire ray and power word stun as {g|Encyclopedia:Special_Abilities}spell-like abilities{/g} at will. Additionally, you gain immunity to fire, cold and acid resistance 10, and all your weapons count as being Lawful and Evil.",
+      "icon": "gen__HV"
+    },
+    {
+      "name": "Mythic Ability",
+      "desc": "At 1st rank and every odd mythic rank thereafter, select one new mythic ability.",
+      "icon": "fd12994eae19de5489d6ae37e29fd6b0"
+    },
+    {
+      "name": "Hell\u0027s Authority",
+      "desc": "You gain the ability to use the authority of Hell to shape mythic powers into other forms. Three times per day, you can gain the ability to use Sword of Heaven ability with one improvement or Demonic rage with one aspect for the next ten minutes.",
+      "icon": "gen__HA"
+    },
+    {
+      "name": "Hell\u0027s Rule",
+      "desc": "You gain the ability to use overwhelming presence and power word kill as {g|Encyclopedia:Special_Abilities}spell-like abilities{/g} at will.",
+      "icon": "gen__HR"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6
+    ],
+    [
+      7,
+      8,
+      2
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "__ui-groups": [],
+  "name": "Devil",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "HellsDecreeFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "DominateMonsterFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      },
+      {
+        "level": 3,
+        "feature": 2,
+        "rank": -1,
+        "__debug": "MythicFeatSelection"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "FeatureWingsDevil"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "HellsSealFeature"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "HellfireFeature"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "MythicAbilitySelection"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "HellsPowersFeature"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 8,
+        "rank": -1,
+        "__debug": "OverwhelmingFeature"
+      }
+    ]
+  ]
+}

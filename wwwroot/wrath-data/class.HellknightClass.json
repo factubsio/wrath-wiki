@@ -1,0 +1,194 @@
+{
+  "features": [
+    {
+      "name": "Smite Chaos",
+      "desc": "Once per day, a Hellknight can call out to the powers of law to aid him in his struggle against chaos. As a {g|Encyclopedia:Swift_Action}swift action{/g}, the Hellknight chooses one target within sight to smite. If this target is chaotic, the Hellknight adds his {g|Encyclopedia:Charisma}Charisma{/g} {g|Encyclopedia:Bonus}bonus{/g} (if any) to his {g|Encyclopedia:Attack}attack rolls{/g} and adds twice his Hellknight level to all {g|Encyclopedia:Damage}damage rolls{/g} made against the target of his smite. Smite chaos attacks automatically bypass any {g|Encyclopedia:Damage_Reduction}DR{/g} the creature might possess. In addition, while smite chaos is in effect, the Hellknight gains a deflection bonus equal to his Charisma modifier (if any) to his {g|Encyclopedia:Armor_Class}AC{/g} against attacks made by the target of the smite.\nIf the Hellknight targets a creature that is not chaotic, the smite is wasted with no effect.\nThe smite chaos lasts until the target dies or the Hellknight selects a new target. At 4th level, and at every three levels thereafter, the Hellknight may smite chaos one additional time per day.",
+      "icon": "14b8937cec1233349a9d0d7044323cc2"
+    },
+    {
+      "name": "Order",
+      "desc": "A character must choose one Hellknight order to join at 1st level. The choice of order determines what disciplines the character gains later access to.",
+      "icon": "gen__O"
+    },
+    {
+      "name": "Armor Training",
+      "desc": "Starting at 3rd level, a fighter learns to be more {g|Encyclopedia:Combat_Maneuvers}maneuverable{/g} while wearing armor. Whenever he is wearing armor, he reduces the armor {g|Encyclopedia:Check}check{/g} {g|Encyclopedia:Penalty}penalty{/g} by 1 (to a minimum of 0) and increases the maximum {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} allowed by his armor by 1. Every four levels thereafter (7th, 11th, and 15th), these bonuses increase by \u002B1 each time, to a maximum \u20134 reduction of the {g|Encyclopedia:Armor_Check_Penalty}armor check penalty{/g} and a \u002B4 increase of the {g|Encyclopedia:Max_Dex_Bonus}maximum Dexterity bonus{/g} allowed.\nIn addition, a fighter can also move at his normal {g|Encyclopedia:Speed}speed{/g} while wearing medium armor. At 7th level, a fighter can move at his normal speed while wearing heavy armor.",
+      "icon": "d539b4dbcdf2b494a9b550c65ddb7179"
+    },
+    {
+      "name": "Force of Will",
+      "desc": "At 3rd level, a Hellknight gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on Will {g|Encyclopedia:Saving_Throw}saves{/g} against {g|Encyclopedia:Spell}spells{/g} with any one of the following subschools or descriptors: charm, compulsion, fear. At 6th level, the Hellknight chooses another subschool or descriptor from the list and gains a \u002B2 bonus on his Will save against spells of that type, and the bonus provided by his first selection increases to \u002B4. At 9th level, he chooses from the list again, and both previous selections increase by \u002B2, so that he has a \u002B6, a \u002B4, and a \u002B2 bonus, respectively, against spells of three different groups.",
+      "icon": "gen__FW"
+    },
+    {
+      "name": "Disciplines",
+      "desc": "At 3rd level, a Hellknight gains access to his first discipline. At 6th level, the Hellknight gains a second discipline. At 9th level, the Hellknight gains his third discipline. When applicable, the {g|Encyclopedia:Saving_Throw}save{/g} {g|Encyclopedia:DC}DC{/g} to resist a discipline\u0027s effect is equal to DC 10 \u002B the Hellknight\u0027s level \u002B his {g|Encyclopedia:Charisma}Charisma{/g} modifier. The Hellknight can use any one discipline a number of times per day equal to the total number of disciplines he has access to, so at 3rd level he can use his discipline once per day. At 6th level, he can use both disciplines twice per day each. At 9th level, he can use all three of his disciplines three times per day.",
+      "icon": "gen__D"
+    },
+    {
+      "name": "Lawbringer",
+      "desc": "At 7th level, a Hellknight\u0027s {g|Encyclopedia:Attack}attacks{/g} are treated as being lawful for the purpose of overcoming {g|Encyclopedia:Damage_Reduction}damage reduction{/g}.",
+      "icon": "gen__L"
+    },
+    {
+      "name": "Infernal Armor",
+      "desc": "As long as he wears armor, a 9th-level Hellknight gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Persuasion}Persuasion checks{/g}. In addition, while wearing the armor, he gains resistance to fire 30, resistance to acid 10, and resistance to cold 10.",
+      "icon": "gen__IA"
+    },
+    {
+      "name": "Hell\u0027s Knight",
+      "desc": "At 10th level, a Hellknight can grant a weapon he wields one of the following {g|Encyclopedia:Special_Abilities}special abilities{/g}: axiomatic, flaming burst, or unholy. Additionally, Hellknight becomes immune to fire while wearing armor.",
+      "icon": "gen__HK"
+    }
+  ],
+  "progression": [
+    [],
+    [
+      0,
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [],
+    [
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5
+    ],
+    [
+      2
+    ],
+    [
+      3,
+      6,
+      4
+    ],
+    [
+      7
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "__ui-groups": [],
+  "name": "Hellknight",
+  "layout": [
+    [
+      {
+        "level": 1,
+        "feature": 0,
+        "rank": -1,
+        "__debug": "SmiteChaosFeature"
+      }
+    ],
+    [
+      {
+        "level": 1,
+        "feature": 1,
+        "rank": -1,
+        "__debug": "HellKnightOrderSelection"
+      }
+    ],
+    [
+      {
+        "level": 2,
+        "feature": 2,
+        "rank": 1,
+        "__debug": "ArmorTraining"
+      },
+      {
+        "level": 5,
+        "feature": 2,
+        "rank": 2,
+        "__debug": "ArmorTraining"
+      },
+      {
+        "level": 8,
+        "feature": 2,
+        "rank": 3,
+        "__debug": "ArmorTraining"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "ForceOfWillSelection"
+      },
+      {
+        "level": 6,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "ForceOfWillSelection"
+      },
+      {
+        "level": 9,
+        "feature": 3,
+        "rank": -1,
+        "__debug": "ForceOfWillSelection"
+      }
+    ],
+    [
+      {
+        "level": 3,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "HellknightDisciplineSelection"
+      },
+      {
+        "level": 6,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "HellknightDisciplineSelection"
+      },
+      {
+        "level": 9,
+        "feature": 4,
+        "rank": -1,
+        "__debug": "HellknightDisciplineSelection"
+      }
+    ],
+    [
+      {
+        "level": 7,
+        "feature": 5,
+        "rank": -1,
+        "__debug": "HellKnightLawbringer"
+      }
+    ],
+    [
+      {
+        "level": 9,
+        "feature": 6,
+        "rank": -1,
+        "__debug": "HellKnightInfernalArmor"
+      }
+    ],
+    [
+      {
+        "level": 10,
+        "feature": 7,
+        "rank": -1,
+        "__debug": "Hellknight10Feature"
+      }
+    ]
+  ]
+}

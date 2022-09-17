@@ -1,0 +1,65 @@
+﻿@page "/weapons"
+@using System.Text.Json
+@inject HttpClient Http
+
+<PageTitle>Weapons</PageTitle>
+
+<h1>Weapon List</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+@if (weapons == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var weapon in weapons)
+            {
+                <tr>
+                    <td>@weapon.__root?.m_DisplayNameText?.LocalisedValue</td>
+                    <td>@weapon.__root?.m_DescriptionText?.LocalisedValue</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private WeaponWrapper[]? weapons;
+
+    protected override async Task OnInitializedAsync()
+    {
+        weapons = await Http.GetFromJsonAsync<WeaponWrapper[]>("wrath-data/weapons.Bardiche.json", new JsonSerializerOptions() {
+            IncludeFields = true,
+        });
+
+        if (weapons is null) return;
+
+        var w = weapons[0];
+        Console.WriteLine("Hello");
+    }
+
+    public class WeaponWrapper {
+        public string? guid { get; set; }
+        public WeaponBlueprint? __root { get; set; }
+    }
+
+    public class LocalisedString {
+        public string? LocalisedValue;
+    }
+
+    public class WeaponBlueprint {
+        public LocalisedString? m_DisplayNameText { get; set; }
+        public LocalisedString? m_DescriptionText { get; set; }
+        public LocalisedString? m_FlavorText { get; set; }
+    }
+ }
