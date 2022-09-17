@@ -1,8 +1,14 @@
 ﻿@page "/class-progression"
+@page "/wrath-wiki/class-progression"
 @using System.Text.Json
 @inject HttpClient Http
 
 <PageTitle>Class</PageTitle>
+
+<HeadContent>
+	<base href="/wrath-wiki/" />
+	<blah></blah>
+</HeadContent>
 
 <h1>Class Preview</h1>
 
@@ -40,11 +46,11 @@ else
 							{
 								<td class="chupa-slot">
 									<div class="feature">
-										<img class="progression-feature" src="/icons/@(model.features[f].icon).png">
+										<img class="progression-feature" src="icons/@(model.features[f].icon).png">
 										@*<img class="selection-badge" src="/icons-custom/selection.png">*@
 										@if (rank != -1)
 										{
-											<img class="rank-badge" src="/icons-custom/r@(rank).png">
+											<img class="rank-badge" src="icons-custom/r@(rank).png">
 										}
 									</div>
 								</td>
