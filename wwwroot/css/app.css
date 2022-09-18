@@ -130,10 +130,23 @@ table.progression-table {
 }
 
 .rank-badge {
+    top: 0%;
+    right: 0%;
+    left: auto;
+    bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(icons-custom/r.png);
+    background-size: cover;
+    background-position: center;
     position: absolute;
-    left: 4px;
-    top: -4px;
-    padding: 0;
+    width: 22px;
+    height: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 30px;
 }
 .content {
     padding: 0;
