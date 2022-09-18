@@ -156,6 +156,36 @@
         "feature": 1,
         "rank": -1,
         "__debug": "AssassinCreatePoison"
+      },
+      {
+        "level": 2,
+        "feature": 5,
+        "rank": 1,
+        "__debug": "UncannyDodgeChecker"
+      },
+      {
+        "level": 5,
+        "feature": 7,
+        "rank": 1,
+        "__debug": "AssassinCreatePoisonConUnlock"
+      },
+      {
+        "level": 8,
+        "feature": 8,
+        "rank": -1,
+        "__debug": "AssassinHideInPlainSight"
+      },
+      {
+        "level": 9,
+        "feature": 9,
+        "rank": 1,
+        "__debug": "AssassinCreatePoisonIncreasedSavingThrows"
+      },
+      {
+        "level": 10,
+        "feature": 10,
+        "rank": -1,
+        "__debug": "AssassinCreatePoisonSwift"
       }
     ],
     [
@@ -164,6 +194,12 @@
         "feature": 2,
         "rank": -1,
         "__debug": "AssassinDeathAttack"
+      },
+      {
+        "level": 10,
+        "feature": 11,
+        "rank": -1,
+        "__debug": "AssassinDeathAttackStandard"
       }
     ],
     [
@@ -206,14 +242,7 @@
         "__debug": "AssassinPoisonResistance"
       }
     ],
-    [
-      {
-        "level": 2,
-        "feature": 5,
-        "rank": 1,
-        "__debug": "UncannyDodgeChecker"
-      }
-    ],
+    [],
     [
       {
         "level": 3,
@@ -228,45 +257,10 @@
         "__debug": "AssassinCreatePoisonIncreasedDuration"
       }
     ],
-    [
-      {
-        "level": 5,
-        "feature": 7,
-        "rank": 1,
-        "__debug": "AssassinCreatePoisonConUnlock"
-      }
-    ],
-    [
-      {
-        "level": 8,
-        "feature": 8,
-        "rank": -1,
-        "__debug": "AssassinHideInPlainSight"
-      }
-    ],
-    [
-      {
-        "level": 9,
-        "feature": 9,
-        "rank": 1,
-        "__debug": "AssassinCreatePoisonIncreasedSavingThrows"
-      }
-    ],
-    [
-      {
-        "level": 10,
-        "feature": 10,
-        "rank": -1,
-        "__debug": "AssassinCreatePoisonSwift"
-      }
-    ],
-    [
-      {
-        "level": 10,
-        "feature": 11,
-        "rank": -1,
-        "__debug": "AssassinDeathAttackStandard"
-      }
-    ]
+    [],
+    [],
+    [],
+    [],
+    []
   ]
 }
