@@ -1,39 +1,76 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">wrath-wiki</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-</div>
+﻿<div>
 
-<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
-    <nav class="flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="weapons">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Weapons
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="class-progression">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Classes
-            </NavLink>
-        </div>
-    </nav>
+	<nav class="class-nav">
+	@foreach (var item in Classes)
+	{
+		<div class="nav-item px-3">
+			<NavLink class="class-nav-link" href="@item.Href" Match="NavLinkMatch.All">
+				@item.Name
+			</NavLink>
+		</div>
+
+	}
+
+		@*
+		<div class="nav-item px-3">
+		<NavLink class="nav-link" href="weapons">
+		<span class="oi oi-list-rich" aria-hidden="true"></span> Weapons
+		</NavLink>
+		</div>
+		<div class="nav-item px-3">
+		<NavLink class="nav-link" href="class-progression">
+		<span class="oi oi-list-rich" aria-hidden="true"></span> Classes
+		</NavLink>
+		</div>
+		*@
+	</nav>
 </div>
 
 @code {
-    private bool collapseNavMenu = true;
+	private bool collapseNavMenu = true;
 
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+	public class ClassLink {
+		public readonly string Name;
+		public string Href => $"class-progression/{Name}/Base";
+		public ClassLink(string name) {
+			Name = name;
+		}
+	}
 
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
+	public List<ClassLink> Classes = new()
+	{
+		new("Alchemist"),
+		new("Arcanist"),
+		new("Barbarian"),
+		new("Bard"),
+		new("Bloodrager"),
+		new("Cavalier"),
+		new("Cleric"),
+		new("Druid"),
+		new("Fighter"),
+		new("Hunter"),
+		new("Inquisitor"),
+		new("Kineticist"),
+		new("Magus"),
+		new("Monk"),
+		new("Oracle"),
+		new("Paladin"),
+		new("Ranger"),
+		new("Rogue"),
+		new("Shaman"),
+		new("Skald"),
+		new("Slayer"),
+		new("Sorcerer"),
+		new("Warpriest"),
+		new("Witch"),
+		new("Wizard"),
+
+	};
+
+	private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+	private void ToggleNavMenu()
+	{
+		collapseNavMenu = !collapseNavMenu;
+	}
 }

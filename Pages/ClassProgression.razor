@@ -1,14 +1,9 @@
-﻿@page "/class-progression"
-@page "/wrath-wiki/class-progression"
+﻿@page "/class-progression/{ClassName}/{ArchetypeName}"
+@page "/wrath-wiki/class-progression/{ClassName}/{ArchetypeName}"
 @using System.Text.Json
 @inject HttpClient Http
 
 <PageTitle>Class</PageTitle>
-
-<HeadContent>
-	<base href="/wrath-wiki/" />
-	<blah></blah>
-</HeadContent>
 
 <h1>Class Preview</h1>
 
@@ -70,9 +65,15 @@ else
 @code {
 	private Progression? model;
 
-	protected override async Task OnInitializedAsync()
+	[Parameter]
+	public string? ClassName { get; set; }
+
+	[Parameter]
+	public string? ArchetypeName { get; set; }
+
+	protected override async Task OnParametersSetAsync()
 	{
-		model = await Http.GetFromJsonAsync<Progression>("wrath-data/class.AlchemistClass.json", new JsonSerializerOptions()
+		model = await Http.GetFromJsonAsync<Progression>($"wrath-data/class.{ClassName}Class.json", new JsonSerializerOptions()
 			{
 				IncludeFields = true,
 			});
