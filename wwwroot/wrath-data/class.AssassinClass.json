@@ -1,121 +1,79 @@
 {
+  "__ui-groups": [],
   "features": [
     {
+      "__index": 0,
       "name": "Sneak Attack",
       "desc": "If a character can catch an opponent when he is unable to defend himself effectively from her {g|Encyclopedia:Attack}attack{/g}, she can strike a vital spot for extra {g|Encyclopedia:Damage}damage{/g}.\nThe character\u0027s attack deals extra damage anytime her target would be denied a {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} (whether the target actually has a Dexterity bonus or not), or when the character {g|Encyclopedia:Flanking}flanks{/g} her target. This extra damage is {g|Encyclopedia:Dice}1d6{/g} and increases by 1d6 at later levels. This additional damage is precision damage and is not multiplied on a {g|Encyclopedia:Critical}critical hit{/g}.\nThe character must be able to see the target well enough to pick out a vital spot and must be able to {g|Encyclopedia:Reach}reach{/g} such a spot.",
       "icon": "02ef137cda22e9b4aa9af681fba45909"
     },
     {
+      "__index": 1,
       "name": "Poison Use",
       "desc": "Assassins specialize in poison use. Every day they create special combat poisons, the number of their doses equal to 3 \u002B assassin level, which they can use to envenom their melee weapons. As a {g|Encyclopedia:Move_Action}move action{/g}, an assassin can apply one of the poisons to their melee weapon, and the next successful {g|Encyclopedia:Attack}attack{/g} applies it to the target. {g|Encyclopedia:Saving_Throw}Save{/g} {g|Encyclopedia:DC}DC{/g} of all poisons is 10 \u002B assassin level \u002B {g|Encyclopedia:Intelligence}Int{/g} modifier. If the attack that applied the poison was a sneak attack, the DC is increased by 2.\nAt 1st level, an assassin has access to poisons that deal {g|Encyclopedia:Dice}1d4{/g} stat {g|Encyclopedia:Damage}damage{/g} to {g|Encyclopedia:Strength}Strength{/g} or {g|Encyclopedia:Dexterity}Dexterity{/g} for 4 {g|Encyclopedia:Combat_Round}rounds{/g}.\nAt 3rd and 7th levels, the duration of the poisons increases by 1 round.\nAt 5th level, an assassin gains access to poison that deals {g|Encyclopedia:Constitution}Constitution{/g} damage.\nAt 9th level, the number of successful saving throws needed to remove the poison increases to 2.\nAt 10th level, an assassin can apply the poisons as a move or a {g|Encyclopedia:Swift_Action}swift action{/g}.",
       "icon": "gen__PU"
     },
     {
+      "__index": 2,
       "name": "Death Attack",
       "desc": "An assassin can make a special {g|Encyclopedia:Attack}attack{/g} with a melee weapon against a target that doesn\u0027t know about the assassin. The attack has the additional effect of possibly either paralyzing or killing the target (assassin\u0027s choice). {g|Encyclopedia:Injury_Death}Death{/g} attack is a {g|Encyclopedia:Full_Round_Action}full-round action{/g}. The death attack fails if the target detects the assassin or recognizes the assassin as an enemy. If the victim of such a death attack fails a {g|Encyclopedia:Saving_Throw}Fortitude save{/g} ({g|Encyclopedia:DC}DC{/g} 10 \u002B the assassin\u0027s {g|Encyclopedia:Class_Level}class level{/g} \u002B the assassin\u0027s {g|Encyclopedia:Intelligence}Int{/g} modifier) against the kill effect, they die. If the saving throw fails against the paralysis effect, the victim is rendered {g|Encyclopedia:Helpless}helpless{/g} and unable to act for {g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Combat_Round}rounds{/g} plus 1 round per level of the assassin. If the victim\u0027s saving throw succeeds, the attack is just a normal attack.\nAt 10th level, the death attack becomes a {g|Encyclopedia:Standard_Actions}standard action{/g}.",
       "icon": "gen__DA"
     },
     {
+      "__index": 3,
       "name": "Assassin Proficiencies",
       "desc": "Assassins are proficient with the crossbow, dagger, rapier, shortbow, and shortsword. Assassins are proficient with light armor but not with shields.",
       "icon": "gen__AP"
     },
     {
+      "__index": 4,
       "name": "Save Bonus Against Poison",
       "desc": "At 2nd level, the assassin gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against poisons. This bonus increases by \u002B1 every two levels.",
       "icon": "gen__SB"
     },
     {
+      "__index": 5,
       "name": "Uncanny Dodge",
       "desc": "The character can react to danger before her senses would normally allow her to do so. She cannot be caught {g|Encyclopedia:Flat_Footed}flat-footed{/g}, nor does she lose her {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} if the {g|Encyclopedia:Attack}attacker{/g} is invisible. She still loses her Dexterity bonus to AC if immobilized. A character with this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the feint {g|Encyclopedia:CA_Types}action{/g} against her.\nIf a character already has uncanny dodge from a different class, she automatically gains improved uncanny dodge instead.",
       "icon": "f549aced0cfe8a7469985214a71d9503"
     },
     {
+      "__index": 6,
       "name": "Poison Use \u2014 Increased Duration",
       "desc": "At 3rd and 7th level, the duration of the poisons increases by 1 {g|Encyclopedia:Combat_Round}round{/g}.",
       "icon": "gen__PU"
     },
     {
+      "__index": 7,
       "name": "Poison Use \u2014 Constitution",
       "desc": "At 5th level, an assassin gains access to poison that deals {g|Encyclopedia:Constitution}Constitution{/g} {g|Encyclopedia:Damage}damage{/g}.",
       "icon": "gen__PUC"
     },
     {
+      "__index": 8,
       "name": "Hide In Plain Sight",
       "desc": "At 8th level, an assassin can use the {g|Encyclopedia:Stealth}Stealth{/g} {g|Encyclopedia:Skills}skill{/g} even while being observed. An assassin can hide himself from view in the open without having anything to actually hide behind.",
       "icon": "gen__HI"
     },
     {
+      "__index": 9,
       "name": "Poison Use \u2014 Increased Successful {g|Encyclopedia:Saving_Throw}Saves{/g} to Remove",
       "desc": "At 9th level, the number of successes needed to remove the poison increases to 2.",
       "icon": "gen__PU"
     },
     {
+      "__index": 10,
       "name": "Poison Use \u2014 Swift",
       "desc": "At 10th level, an assassin can apply the poisons as a move or a {g|Encyclopedia:Swift_Action}swift action{/g}.",
       "icon": "gen__PUS"
     },
     {
+      "__index": 11,
       "name": "Death Attack \u2014 Standard",
       "desc": "At 10th level, the {g|Encyclopedia:Injury_Death}death{/g} {g|Encyclopedia:Attack}attack{/g} becomes a {g|Encyclopedia:Standard_Actions}standard action{/g}.",
       "icon": "gen__DAS"
     }
   ],
-  "progression": [
-    [],
-    [
-      0,
-      1,
-      2,
-      3
-    ],
-    [
-      4,
-      5
-    ],
-    [
-      0,
-      6
-    ],
-    [
-      4
-    ],
-    [
-      0,
-      7
-    ],
-    [
-      4
-    ],
-    [
-      0,
-      6
-    ],
-    [
-      4,
-      8
-    ],
-    [
-      0,
-      9
-    ],
-    [
-      4,
-      10,
-      11
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
-  ],
-  "__ui-groups": [],
   "name": "Assassin",
   "layout": [
     [
@@ -123,31 +81,31 @@
         "level": 1,
         "feature": 0,
         "rank": 1,
-        "__debug": "SneakAttack"
+        "archType": 0
       },
       {
         "level": 3,
         "feature": 0,
         "rank": 2,
-        "__debug": "SneakAttack"
+        "archType": 0
       },
       {
         "level": 5,
         "feature": 0,
         "rank": 3,
-        "__debug": "SneakAttack"
+        "archType": 0
       },
       {
         "level": 7,
         "feature": 0,
         "rank": 4,
-        "__debug": "SneakAttack"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 0,
         "rank": 5,
-        "__debug": "SneakAttack"
+        "archType": 0
       }
     ],
     [
@@ -155,37 +113,37 @@
         "level": 1,
         "feature": 1,
         "rank": -1,
-        "__debug": "AssassinCreatePoison"
+        "archType": 0
       },
       {
         "level": 2,
         "feature": 5,
         "rank": 1,
-        "__debug": "UncannyDodgeChecker"
+        "archType": 0
       },
       {
         "level": 5,
         "feature": 7,
         "rank": 1,
-        "__debug": "AssassinCreatePoisonConUnlock"
+        "archType": 0
       },
       {
         "level": 8,
         "feature": 8,
         "rank": -1,
-        "__debug": "AssassinHideInPlainSight"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 9,
         "rank": 1,
-        "__debug": "AssassinCreatePoisonIncreasedSavingThrows"
+        "archType": 0
       },
       {
         "level": 10,
         "feature": 10,
         "rank": -1,
-        "__debug": "AssassinCreatePoisonSwift"
+        "archType": 0
       }
     ],
     [
@@ -193,13 +151,13 @@
         "level": 1,
         "feature": 2,
         "rank": -1,
-        "__debug": "AssassinDeathAttack"
+        "archType": 0
       },
       {
         "level": 10,
         "feature": 11,
         "rank": -1,
-        "__debug": "AssassinDeathAttackStandard"
+        "archType": 0
       }
     ],
     [
@@ -207,7 +165,7 @@
         "level": 1,
         "feature": 3,
         "rank": -1,
-        "__debug": "AssassinProficiencies"
+        "archType": 0
       }
     ],
     [
@@ -215,31 +173,31 @@
         "level": 2,
         "feature": 4,
         "rank": 1,
-        "__debug": "AssassinPoisonResistance"
+        "archType": 0
       },
       {
         "level": 4,
         "feature": 4,
         "rank": 2,
-        "__debug": "AssassinPoisonResistance"
+        "archType": 0
       },
       {
         "level": 6,
         "feature": 4,
         "rank": 3,
-        "__debug": "AssassinPoisonResistance"
+        "archType": 0
       },
       {
         "level": 8,
         "feature": 4,
         "rank": 4,
-        "__debug": "AssassinPoisonResistance"
+        "archType": 0
       },
       {
         "level": 10,
         "feature": 4,
         "rank": 5,
-        "__debug": "AssassinPoisonResistance"
+        "archType": 0
       }
     ],
     [],
@@ -248,13 +206,13 @@
         "level": 3,
         "feature": 6,
         "rank": 1,
-        "__debug": "AssassinCreatePoisonIncreasedDuration"
+        "archType": 0
       },
       {
         "level": 7,
         "feature": 6,
         "rank": 2,
-        "__debug": "AssassinCreatePoisonIncreasedDuration"
+        "archType": 0
       }
     ],
     [],
@@ -262,5 +220,6 @@
     [],
     [],
     []
-  ]
+  ],
+  "archetypes": []
 }

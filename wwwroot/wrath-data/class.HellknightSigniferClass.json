@@ -1,95 +1,61 @@
 {
+  "__ui-groups": [],
   "features": [
     {
+      "__index": 0,
       "name": "Order",
       "desc": "A character must choose one Hellknight order to join at 1st level. The choice of order determines what disciplines the character gains later access to.",
       "icon": "gen__O"
     },
     {
+      "__index": 1,
       "name": "Weapon and Armor Proficiency",
       "desc": "A Hellknight signifer gains proficiency with heavy armor.",
       "icon": "gen__WAP"
     },
     {
+      "__index": 2,
       "name": "Hellknight signifer spellcasting",
       "desc": "At 1st level, and at every level thereafter, a Hellknight signifer gains new {g|Encyclopedia:Spell}spells{/g} per day as if he had also gained a level in a spellcasting class he belonged to before adding the prestige class. He does not, however, gain any other benefit a character of that class would have gained, except for additional spells per day, spells known, and an increased effective level of spellcasting. If a character had more than one spellcasting class before becoming a Hellknight signifer, he must decide to which class he adds the new level for purposes of determining spells per day.",
       "icon": "gen__H"
     },
     {
+      "__index": 3,
       "name": "Arcane Armor Expertise",
       "desc": "At 2nd level, if a Hellknight signifer has the Arcane Armor Training {g|Encyclopedia:Feat}feat{/g}, he gains Arcane Armor Mastery as a bonus feat.",
       "icon": "gen__AAE"
     },
     {
+      "__index": 4,
       "name": "Signifer Armor Training",
       "desc": "At 3rd level, while a Hellknight signifer wears armor, he reduces the armor {g|Encyclopedia:Check}check{/g} {g|Encyclopedia:Penalty}penalty{/g} by 1 (to a minimum of 0), and reduces the {g|Encyclopedia:Spell_Fail_Chance}arcane spell failure chance{/g} by 5%.\nAt 8th level, he reduces his {g|Encyclopedia:Armor_Check_Penalty}armor check penalty{/g} by an additional 1, and reduces his arcane {g|Encyclopedia:Spell}spell{/g} failure by an additional 5%.\nAdditionally, a Hellknight signifer\u0027s {g|Encyclopedia:Speed}speed{/g} is not reduced by wearing medium or heavy armor.",
       "icon": "gen__SAT"
     },
     {
+      "__index": 5,
       "name": "Assiduous Gaze",
       "desc": "At 4th level a Hellknight signifer gains the assiduous gaze ability. He can use it for the number of {g|Encyclopedia:Combat_Round}rounds{/g} equal to his {g|Encyclopedia:Class_Level}class level{/g} once per day. He gains the benefits of True Seeing for the duration.\nAt 7th level, a Hellknight signifer can use this ability two times per day.",
       "icon": "gen__AG"
     },
     {
+      "__index": 6,
       "name": "Discern Lies",
       "desc": "At 6th level, a Hellknight signifer gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against {g|Encyclopedia:Spell}spells{/g} of Illusion school.",
       "icon": "gen__DL"
     },
     {
+      "__index": 7,
       "name": "Infernal Resilience",
       "desc": "At 9th level, a Hellknight signifer gains {g|Encyclopedia:Damage_Reduction}DR{/g} 5/chaotic and becomes immune to poison.",
       "icon": "gen__IR"
     },
     {
+      "__index": 8,
       "name": "Diabolic Harbinger",
       "desc": "At 10th level, while wearing his signifer mask, a Hellknight signifer is immune to blindness, gazes and vision-based effects and gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Persuasion}Persuasion{/g} {g|Encyclopedia:Skills}skill checks{/g}.",
       "icon": "gen__DH"
     }
   ],
-  "progression": [
-    [],
-    [
-      0,
-      1,
-      2
-    ],
-    [
-      3
-    ],
-    [
-      4
-    ],
-    [
-      5
-    ],
-    [],
-    [
-      6
-    ],
-    [
-      5
-    ],
-    [
-      4
-    ],
-    [
-      7
-    ],
-    [
-      8
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
-  ],
-  "__ui-groups": [],
   "name": "Hellknight Signifer",
   "layout": [
     [
@@ -97,31 +63,31 @@
         "level": 1,
         "feature": 0,
         "rank": -1,
-        "__debug": "HellKnightOrderSelection"
+        "archType": 0
       },
       {
         "level": 2,
         "feature": 3,
         "rank": -1,
-        "__debug": "HellknightSigniferArcaneArmorExpertise"
+        "archType": 0
       },
       {
         "level": 6,
         "feature": 6,
         "rank": -1,
-        "__debug": "HellknightSigniferDiscernLies"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 7,
         "rank": -1,
-        "__debug": "HellknightSigniferInfernalResilience"
+        "archType": 0
       },
       {
         "level": 10,
         "feature": 8,
         "rank": -1,
-        "__debug": "HellknightSigniferDiabolicHarbringer"
+        "archType": 0
       }
     ],
     [
@@ -129,7 +95,7 @@
         "level": 1,
         "feature": 1,
         "rank": -1,
-        "__debug": "HellknightSigniferProficiency"
+        "archType": 0
       }
     ],
     [
@@ -137,7 +103,7 @@
         "level": 1,
         "feature": 2,
         "rank": -1,
-        "__debug": "HellknightSigniferSpellbook"
+        "archType": 0
       }
     ],
     [],
@@ -146,13 +112,13 @@
         "level": 3,
         "feature": 4,
         "rank": 1,
-        "__debug": "HellknightSigniferArmorTraining"
+        "archType": 0
       },
       {
         "level": 8,
         "feature": 4,
         "rank": 2,
-        "__debug": "HellknightSigniferArmorTraining"
+        "archType": 0
       }
     ],
     [
@@ -160,17 +126,18 @@
         "level": 4,
         "feature": 5,
         "rank": -1,
-        "__debug": "HellknightSigniferAssiduous GazeFeature"
+        "archType": 0
       },
       {
         "level": 7,
         "feature": 5,
         "rank": -1,
-        "__debug": "HellknightSigniferAssiduous GazeFeature"
+        "archType": 0
       }
     ],
     [],
     [],
     []
-  ]
+  ],
+  "archetypes": []
 }

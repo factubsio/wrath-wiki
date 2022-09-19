@@ -1,15 +1,29 @@
-﻿<div>
+﻿@inject NavigationManager NavigationManager
+@implements IDisposable
+
+<div>
 
 	<nav class="class-nav">
-	@foreach (var item in Classes)
-	{
-		<div class="nav-item px-3">
-			<NavLink class="class-nav-link" href="@item.Href" Match="NavLinkMatch.All">
-				@item.Name
-			</NavLink>
-		</div>
+		@foreach (var c in Classes)
+		{
+			<div class="nav-item px-3">
+				<NavLink class="class-nav-link" href="@c.Base.Href" Match="NavLinkMatch.All">
+					@c.Base.Display
+				</NavLink>
+				<img src="ui/UI_Journal_BigMenuArrow.png" class="@ClassExpandClass(c.Base.Name)" />
+			</div>
 
-	}
+			<div id="@c.ClassId" class="@(ArchetypeClass(c.Base.Name))">
+				@foreach (var a in c.Archetypes)
+				{
+					<div class="nav-item px-3">
+						<NavLink class="class-nav-link" href="@a.Href" Match="NavLinkMatch.All">
+							@a.Display
+						</NavLink>
+					</div>
+				}
+			</div>
+		}
 
 		@*
 		<div class="nav-item px-3">
@@ -29,42 +43,191 @@
 @code {
 	private bool collapseNavMenu = true;
 
-	public class ClassLink {
-		public readonly string Name;
-		public string Href => $"class-progression/{Name}/Base";
-		public ClassLink(string name) {
-			Name = name;
+	public string ClassExpandClass(string name)
+	{
+		var path = new Uri(NavigationManager.Uri).AbsolutePath;
+		if (path.StartsWith($"/class-progression/{name}"))
+		{
+			return "class-expand expanded";
+		}
+		else
+		{
+			return "class-expand";
 		}
 	}
 
-	public List<ClassLink> Classes = new()
+	public string ArchetypeClass(string name)
 	{
-		new("Alchemist"),
-		new("Arcanist"),
-		new("Barbarian"),
-		new("Bard"),
-		new("Bloodrager"),
-		new("Cavalier"),
-		new("Cleric"),
-		new("Druid"),
-		new("Fighter"),
-		new("Hunter"),
-		new("Inquisitor"),
-		new("Kineticist"),
-		new("Magus"),
-		new("Monk"),
-		new("Oracle"),
-		new("Paladin"),
-		new("Ranger"),
-		new("Rogue"),
-		new("Shaman"),
-		new("Shifter"),
-		new("Skald"),
-		new("Slayer"),
-		new("Sorcerer"),
-		new("Warpriest"),
-		new("Witch"),
-		new("Wizard"),
+		var path = new Uri(NavigationManager.Uri).AbsolutePath;
+		if (path.StartsWith($"/class-progression/{name}"))
+		{
+			return "archetype-list";
+		}
+		else
+		{
+			return "archetype-list hidden";
+		}
+	}
+
+	void IDisposable.Dispose()
+	{
+		NavigationManager.LocationChanged -= LocationChanged;
+	}
+
+	public class ClassLink
+	{
+		public readonly string Name;
+		public readonly string Archetype;
+
+		public ClassLink(string name, string archetype)
+		{
+			Archetype = archetype;
+			Name = name;
+		}
+
+		public string Display => Archetype == "Base" ? Name : Archetype;
+		public string Href => $"class-progression/{Name}{(Archetype == "Base" ? "" : "/" + Archetype)}";
+	}
+
+
+	public class ClassWithArchetypes
+	{
+		public readonly ClassLink Base;
+		public readonly List<ClassLink> Archetypes;
+
+		public string ClassId => $"class-{Base.Name}-archetypes";
+
+		public ClassWithArchetypes(string baseName, params string[] archetypes)
+		{
+			Base = new(baseName, "Base");
+			Archetypes = archetypes.Select(a => new ClassLink(baseName, a)).ToList();
+		}
+	}
+
+	protected override Task OnInitializedAsync()
+	{
+		NavigationManager.LocationChanged += LocationChanged;
+		return base.OnInitializedAsync();
+	}
+
+	void LocationChanged(object? sender, LocationChangedEventArgs e)
+	{
+		StateHasChanged();
+	}
+
+
+
+	public List<ClassWithArchetypes> Classes = new()
+	{
+		new("Alchemist",
+			"Grenadier", "Vivisectionist", "Chirurgeon", "Preservationist", "Metamorph", "Incense Synthesizer"
+		),
+		new("Arcanist",
+			"Brown-Fur Transmuter", "Eldritch Font", "Unlettered Arcanist", "White Mage", "Phantasmal Mage", "Nature Mage"
+		),
+		new("Barbarian",
+			"Armored Hulk", "Mad Dog", "Invulnerable Rager", "Beastkin Berserker", "Pack Rager", "Instinctual Warrior"
+		),
+		new("Bard",
+			"Archaeologist", "Thundercaller", "Flame Dancer", "Tranquil Whisperer", "Dirge Bard", "Beast Tamer"
+		),
+		new("Bloodrager",
+			"Bloodrider", "Greenrager", "Primalist", "Spelleater", "Steelblood", "Reformed Fiend", "Mixed-Blood Rager"
+		),
+		new("Cavalier",
+			"Beast Rider", "Disciple of the Pike", "Knight of the Wall", "Gendarme", "Standard Bearer", "Fearsome Leader", "Cavalier of the Paw"
+		),
+		new("Cleric",
+			"Angelfire Apostle", "Crusader", "Herald Caller", "Ecclesitheurge", "Demonbane Priest", "Priest of Balance"
+		),
+		new("Druid",
+			"Blight Druid", "Defender of the True World", "Feyspeaker", "Drovier", "Elemental Rampager", "Primal Druid"
+		),
+		new("Fighter",
+			"Dragonheir Scion", "Aldori Defender", "Tower Shield Specialist", "Two-Handed Fighter", "Armiger", "Mutation Warrior"
+		),
+		new("Hunter",
+			"Divine Hunter", "Urban Hunter", "Colluding Scoundrel", "Forester", "Wandering Marksman", "Divine Hound"
+		),
+		new("Inquisitor",
+			"Faith Hunter", "Monster Tactician", "Tactical Leader", "Sacred Huntsmaster", "Sanctified Slayer", "Judge"
+		),
+		new("Kineticist",
+			"Dark Elementalist", "Psychokineticist", "Kinetic Knight", "Blood Kineticist", "Overwhelming Soul", "Elemental Engine"
+		),
+		new("Magus",
+			"Eldritch Scion", "Sword Saint", "Eldritch Archer", "Hexcrafter", "Armored Battlemage", "Spell Dancer", "Arcane Rider"
+		),
+		new("Monk",
+			"Scaled Fist", "Sensei", "Traditional Monk", "Zen Archer", "Sohei", "Student of Stone", "Quarterstaff Master"
+		),
+		new("Oracle",
+			"Lone Strider", "Enlightened Philosopher", "Divine Herbalist", "Seeker", "Possessed Oracle", "Purifier", "Wind Whisperer"
+		),
+		new("Paladin",
+			"Divine Hunter", "Hospitaler", "Divine Guardian", "Warrior of the Holy Light", "Martyr", "Divine Scion", "Stonelord"
+		),
+		new("Ranger",
+			"Demonslayer", "Freebooter", "Flamewarden", "Stormwalker", "Espionage Expert", "Nomad"
+		),
+		new("Rogue",
+			"Eldritch Scoundrel", "Knife Master", "Thug", "Sylvan Trickster", "Underground Chemist", "Rowdy", "Master of All"
+		),
+		new("Shaman",
+			"Possessed Shaman", "Spirit Hunter", "Spirit Warden", "Unsworn Shaman", "Witch Doctor", "Wildland Shaman", "Shadow Shaman"
+		),
+		new("Skald",
+			"Battle Scion", "Court Poet", "Demon Dancer", "Herald of the Horn", "Hunt Caller", "Battle Singer"
+		),
+		new("Slayer",
+			"Vanguard", "Deliverer", "Spawn Slayer", "Executioner", "Stygian Slayer", "Arcane Enforcer", "Imitator"
+		),
+		new("Sorcerer",
+			"Empyreal Sorcerer", "Sylvan Sorcerer", "Sage Sorcerer", "Crossblooded", "Seeker", "Nine Tailed Heir", "Overwhelming Mage"
+		),
+		new("Warpriest",
+			"Champion of The Faith", "Cult Leader", "Feral Champion", "Disenchanter", "Shieldbearer", "Proclaimer"
+		),
+		new("Witch",
+			"Stigmatized Witch", "Hagbound", "Hex Channeler", "Ley Line Guardian", "Witch of the Veil", "Elemental Witch"
+		),
+		new("Wizard",
+			"Arcane Bomber", "Thassilonian Specialist", "Scroll Savant", "Exploiter Wizard", "Elemental Specialist", "Spell Master", "Cruoromancer"
+		),
+
+		//new("Alchemist",
+		//		"Grenadier",
+		//		"Vivisectionist",
+		//		"Chirurgeon",
+		//		"Preservationist",
+		//		"Metamorph",
+		//		"Incense Synthesizer"),
+
+		//new("Arcanist"),
+		//new("Barbarian"),
+		//new("Bard"),
+		//new("Bloodrager"),
+		//new("Cavalier"),
+		//new("Cleric"),
+		//new("Druid"),
+		//new("Fighter"),
+		//new("Hunter"),
+		//new("Inquisitor"),
+		//new("Kineticist"),
+		//new("Magus"),
+		//new("Monk"),
+		//new("Oracle"),
+		//new("Paladin"),
+		//new("Ranger"),
+		//new("Rogue"),
+		//new("Shaman"),
+		//new("Shifter"),
+		//new("Skald"),
+		//new("Slayer"),
+		//new("Sorcerer"),
+		//new("Warpriest"),
+		//new("Witch"),
+		//new("Wizard"),
 
 	};
 

@@ -1,107 +1,67 @@
 {
+  "__ui-groups": [],
   "features": [
     {
+      "__index": 0,
       "name": "Know Your Enemy",
       "desc": "As a {g|Encyclopedia:Move_Action}move action{/g}, a student of war can study a foe she can see and attempt a Knowledge {g|Encyclopedia:Check}check{/g} appropriate to the creature\u0027s type. Success grants her a \u002B1 insight {g|Encyclopedia:Bonus}bonus{/g} against her enemy, which can be applied via one of the following stances (chosen when the check is attempted) to the indicated statistics and {g|Encyclopedia:Dice}rolls{/g}.\nDefensive Stance: The bonus applies to {g|Encyclopedia:Armor_Class}Armor Class{/g} and on {g|Encyclopedia:Saving_Throw}saving throws{/g} against the target\u0027s {g|Encyclopedia:Attack}attacks{/g}. At 6th level, the student of war gets a \u002B3 bonus to her AC against {g|Encyclopedia:Attack_Of_Opportunity}attacks of opportunity{/g}.\nMartial Stance: The bonus applies on attack and {g|Encyclopedia:Damage}damage rolls{/g} against the target. At 6th level, the student of war gets a \u002B3 bonus to her {g|Encyclopedia:Critical}Crit{/g} confirmation rolls while in Martial stance.\nTactical Stance: The bonus applies on {g|Encyclopedia:Combat_Maneuvers}combat maneuver{/g} checks and to {g|Encyclopedia:CMD}CMD{/g} when initiating or defending against combat maneuvers.\nA student of war can change her stance as a move {g|Encyclopedia:CA_Types}action{/g}. The bonus increases to \u002B2 at 4th level and \u002B3 at 7th level.\nAt 7th level, the student can use this ability as a {g|Encyclopedia:Swift_Action}swift action{/g} rather than a move action.",
       "icon": "gen__KYE"
     },
     {
+      "__index": 1,
       "name": "Additional Class Skill",
       "desc": "At 1st level and every two levels after, student of war gains one {g|Encyclopedia:Skills}skill{/g} as a class skill.",
       "icon": "gen__ACS"
     },
     {
+      "__index": 2,
       "name": "Combat Feat",
       "desc": "At 2nd, 5th, and 8th levels, a student of war gains a {g|Encyclopedia:Bonus}bonus{/g} combat {g|Encyclopedia:Feat}feat{/g}.",
       "icon": "gen__CF"
     },
     {
+      "__index": 3,
       "name": "Mind Over Metal",
       "desc": "At 2nd level, a student of war can use her {g|Encyclopedia:Intelligence}Intelligence{/g} modifier in place of her {g|Encyclopedia:Dexterity}Dexterity{/g} modifier for determining her {g|Encyclopedia:Armor_Class}Armor Class{/g}. The armor\u0027s normal maximum Dexterity {g|Encyclopedia:Bonus}bonus{/g} still applies (limiting how much of the character\u0027s Intelligence bonus she can apply to her AC).",
       "icon": "gen__MOM"
     },
     {
+      "__index": 4,
       "name": "Anticipate",
       "desc": "At 3rd level, student of war can withstand even mental and unusual {g|Encyclopedia:Attack}attacks{/g} with great will. If she makes a successful {g|Encyclopedia:Saving_Throw}Will saving throw{/g} against an attack that normally deals half {g|Encyclopedia:Damage}damage{/g} on a successful save, she instead takes no damage.",
       "icon": "gen__A"
     },
     {
+      "__index": 5,
       "name": "Martial Stance \u2014 Critical Focus",
       "desc": "At 4th level, the student of war gets a \u002B3 {g|Encyclopedia:Bonus}bonus{/g} to her {g|Encyclopedia:Critical}critical hit{/g} confirmation {g|Encyclopedia:Dice}rolls{/g} while in martial stance.",
       "icon": "gen__MS"
     },
     {
+      "__index": 6,
       "name": "Telling Blow",
       "desc": "At 6th level, a student of war can aim her blows at the weakest point in a studied foe\u0027s defense, ignoring up to 5 points of {g|Encyclopedia:Damage_Reduction}damage reduction{/g}. This does not apply to {g|Encyclopedia:Damage}damage{/g} reduction without a type (such as DR 10/-). This ability cannot be used against creatures that are immune to {g|Encyclopedia:Critical}critical hits{/g} or otherwise lack discernible weak points.",
       "icon": "gen__TB"
     },
     {
+      "__index": 7,
       "name": "Defensive Stance \u2014 Mobility",
       "desc": "At 6th level, the student of war gets a \u002B3 {g|Encyclopedia:Bonus}bonus{/g} to her {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:Attack_Of_Opportunity}attacks of opportunity{/g} while in defensive stance.",
       "icon": "gen__DSM"
     },
     {
+      "__index": 8,
       "name": "Nemesis",
       "desc": "At 9th level, once per day as a {g|Encyclopedia:Swift_Action}swift action{/g}, a student of war can focus on a weapon she holds and render it anathema to her studied foe. The weapon gains the bane {g|Encyclopedia:Special_Abilities}special ability{/g} for 1 minute.",
       "icon": "gen__N"
     },
     {
+      "__index": 9,
       "name": "Deadly Blow",
       "desc": "At 10th level, a student of war can find weak spots where none should exist. A student of war who uses her know your enemy ability can ignore the target\u0027s {g|Encyclopedia:Damage_Reduction}damage reduction{/g} and immunity to {g|Encyclopedia:Critical}critical hits{/g}.",
       "icon": "gen__DB"
     }
   ],
-  "progression": [
-    [],
-    [
-      0,
-      1
-    ],
-    [
-      2,
-      3
-    ],
-    [
-      4,
-      1
-    ],
-    [
-      0,
-      5
-    ],
-    [
-      2,
-      1
-    ],
-    [
-      6,
-      7
-    ],
-    [
-      1
-    ],
-    [
-      2
-    ],
-    [
-      1,
-      8
-    ],
-    [
-      9
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
-  ],
-  "__ui-groups": [],
   "name": "Student of War",
   "layout": [
     [
@@ -109,13 +69,13 @@
         "level": 1,
         "feature": 0,
         "rank": 1,
-        "__debug": "StudentOfWarKnowYourEnemyFeature"
+        "archType": 0
       },
       {
         "level": 4,
         "feature": 0,
         "rank": 2,
-        "__debug": "StudentOfWarKnowYourEnemyFeature"
+        "archType": 0
       }
     ],
     [
@@ -123,31 +83,31 @@
         "level": 1,
         "feature": 1,
         "rank": -1,
-        "__debug": "StudentOfWarAdditionalSKillSelection"
+        "archType": 0
       },
       {
         "level": 3,
         "feature": 1,
         "rank": -1,
-        "__debug": "StudentOfWarAdditionalSKillSelection"
+        "archType": 0
       },
       {
         "level": 5,
         "feature": 1,
         "rank": -1,
-        "__debug": "StudentOfWarAdditionalSKillSelection"
+        "archType": 0
       },
       {
         "level": 7,
         "feature": 1,
         "rank": -1,
-        "__debug": "StudentOfWarAdditionalSKillSelection"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 1,
         "rank": -1,
-        "__debug": "StudentOfWarAdditionalSKillSelection"
+        "archType": 0
       }
     ],
     [
@@ -155,19 +115,19 @@
         "level": 2,
         "feature": 2,
         "rank": -1,
-        "__debug": "StudentOfWarCombatFeatSelection"
+        "archType": 0
       },
       {
         "level": 5,
         "feature": 2,
         "rank": -1,
-        "__debug": "StudentOfWarCombatFeatSelection"
+        "archType": 0
       },
       {
         "level": 8,
         "feature": 2,
         "rank": -1,
-        "__debug": "StudentOfWarCombatFeatSelection"
+        "archType": 0
       }
     ],
     [
@@ -175,37 +135,37 @@
         "level": 2,
         "feature": 3,
         "rank": -1,
-        "__debug": "StudentOfWarMindOverMetal"
+        "archType": 0
       },
       {
         "level": 3,
         "feature": 4,
         "rank": -1,
-        "__debug": "StudentOfWarAnticipate"
+        "archType": 0
       },
       {
         "level": 4,
         "feature": 5,
         "rank": -1,
-        "__debug": "StudentOfWarKnowYourEnemyMartialStanceExtraFeature"
+        "archType": 0
       },
       {
         "level": 6,
         "feature": 6,
         "rank": -1,
-        "__debug": "StudentOfWarTellingBlow"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 8,
         "rank": -1,
-        "__debug": "StudentOfWarNemesis"
+        "archType": 0
       },
       {
         "level": 10,
         "feature": 9,
         "rank": -1,
-        "__debug": "StudentOfWarDeadlyBlow"
+        "archType": 0
       }
     ],
     [],
@@ -216,10 +176,11 @@
         "level": 6,
         "feature": 7,
         "rank": -1,
-        "__debug": "StudentOfWarKnowYourEnemyDefensiveStanceExtraFeature"
+        "archType": 0
       }
     ],
     [],
     []
-  ]
+  ],
+  "archetypes": []
 }

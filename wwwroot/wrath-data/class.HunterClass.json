@@ -1,119 +1,265 @@
 {
+  "__ui-groups": [],
   "features": [
     {
+      "__index": 0,
       "name": "Animal Companion",
       "desc": "Unlike normal animals of its kind, an animal companion\u0027s {g|Encyclopedia:Hit_Dice}Hit Dice{/g}, abilities, {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Feat}feats{/g} advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in {g|Encyclopedia:Size}size{/g} when their druid reaches 4th or 7th level, depending on the companion.",
       "icon": "736cb7b0def6ff147b921c75c54a81a0"
     },
     {
+      "__index": 1,
       "name": "Weapon and Armor Proficiency",
       "desc": "A hunter is proficient with all simple and {g|Encyclopedia:Weapon_Proficiency}martial weapons{/g} and with light armor, medium armor, and shields (except tower shields).",
       "icon": "gen__WAP"
     },
     {
+      "__index": 2,
       "name": "Animal Focus",
       "desc": "At 1st level, the hunter can grant an animal aspect to her animal companion. Unlike with the hunter herself, there is no duration on the animal aspect applied to her animal companion. An aspect applied in this way remains in effect until the hunter changes it.\nIf the hunter\u0027s animal companion is dead, the hunter can apply her companion\u0027s animal focus to herself instead of her animal companion.\nAdditionally, a hunter can take on the aspect of an animal as a {g|Encyclopedia:Swift_Action}swift action{/g}. She gets the same benefits as the current animal companion focus. The hunter can use this ability for a number of minutes per day equal to her level. This duration does not need to be consecutive, but must be spent in 1-minute increments.",
       "icon": "f53faf1e665cee144ad20fd2d16501d4"
     },
     {
+      "__index": 3,
       "name": "Nature Sense",
       "desc": "A hunter gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Lore_Nature}Lore (nature){/g} {g|Encyclopedia:Check}checks{/g}.",
       "icon": "733daf4652e9cad4d853fadfcbf6ed46"
     },
     {
+      "__index": 4,
       "name": "Woodland Stride",
       "desc": "At 3rd level, you can move through any sort difficult terrain at your normal {g|Encyclopedia:Speed}speed{/g} and without taking {g|Encyclopedia:Damage}damage{/g} or suffering any other impairment.",
       "icon": "b38e3032f469bc14696d7270d6e7b5f2"
     },
     {
+      "__index": 5,
       "name": "Precise Companion",
       "desc": "At 2nd level, a hunter chooses either Precise Shot or Outflank as a bonus {g|Encyclopedia:Feat}feat{/g}. She does not need to meet the prerequisites for this feat.",
       "icon": "gen__PC"
     },
     {
+      "__index": 6,
       "name": "Hunter Tactics",
       "desc": "At 3rd level, the hunter automatically grants her teamwork {g|Encyclopedia:Feat}feats{/g} to her animal companion. The companion doesn\u0027t need to meet the prerequisites of these teamwork feats.",
       "icon": "ddf30d3e62eb1b94a9e3c1f1901f0102"
     },
     {
+      "__index": 7,
       "name": "Teamwork Feat",
       "desc": "At 3rd level and every 3 levels thereafter, the hunter gains a bonus teamwork {g|Encyclopedia:Feat}feat{/g} in addition to those gained from normal advancement. The hunter must meet the prerequisites of the selected bonus teamwork feat.",
       "icon": "8dd271d8a75a63e4dbdee2f5c396dfbe"
     },
     {
+      "__index": 8,
       "name": "Second Animal Focus",
       "desc": "At 8th level, whenever a hunter uses her animal focus ability, she selects two different animal aspects for herself instead of one, and can assign two aspects to her companion instead of one.",
       "icon": "f53faf1e665cee144ad20fd2d16501d4"
     },
     {
+      "__index": 9,
       "name": "Raise Animal Companion",
       "desc": "At 10th level, a hunter gains raise animal companion as a {g|Encyclopedia:Special_Abilities}spell-like ability{/g}. At 16th level, this functions as resurrection instead of raise dead, but otherwise operates as normal.",
       "icon": "eb22d7b246ad2be44ac8b84d9a6fd3d3"
     },
     {
+      "__index": 10,
       "name": "One with the Wild",
       "desc": "At 17th level, the hunter\u0027s animal companion are respected or even feared by other animals.\nThe hunter and her companion can attempt to demoralize all animals in a 30-foot radius as a {g|Encyclopedia:Swift_Action}swift action{/g}, as if using dazzling display.",
       "icon": "3f34af3e1886c654889e0656215500c4"
     },
     {
+      "__index": 11,
       "name": "Master Hunter",
       "desc": "At 20th level, a hunter becomes a master hunter. He gains the ability to receive the animal focus benefits any amount of times per day.",
       "icon": "819497a606556814293d5e36231b7cbd"
+    },
+    {
+      "__index": 12,
+      "name": "Domain Selection",
+      "desc": "At 3rd level, a divine hunter learns to call upon the power of her deity. The divine hunter must select one domain from those available to her deity. She gains the granted powers of this domain, using (her hunter level \u2013 2) as her cleric level for determining when the powers are gained and what effects they have. Once she chooses this domain, it cannot be changed.\nIf the divine hunter selects the animal domain, she does not gain a second animal companion upon reaching an effective cleric level of 4th. When the divine hunter would gain that ability, her animal companion instead gains two {g|Encyclopedia:Ability_Scores}ability score{/g} points increases (gaining \u002B1 to two different ability scores or \u002B2 to one ability score).\nIn addition, the divine hunter adds the 1-level domain {g|Encyclopedia:Spell}spell{/g} from her domain to her list of spells known. She adds the 2-level domain spell at 6th level, the 3-level domain spell at 9th level, the 4-level domain spell at 12th level, the 5-level domain spell at 15th level, and the 6-level domain spell at 18th level.",
+      "icon": "ad05c2b9c08927f47ad7236f6bacd11f"
+    },
+    {
+      "__index": 13,
+      "name": "Otherworldly Companion",
+      "desc": "At 3rd level, a hunter\u0027s companion takes on otherworldly features. If the divine hunter is good, the animal companion gains the celestial template. If the hunter is evil, the animal companion gains the fiendish template. If the hunter is neutral, she must choose either the celestial or fiendish template; once this choice is made, it cannot be changed.",
+      "icon": "gen__OC"
+    },
+    {
+      "__index": 14,
+      "name": "Animal Companion",
+      "desc": "Unlike normal animals of its kind, an animal companion\u0027s {g|Encyclopedia:Hit_Dice}Hit Dice{/g}, abilities, {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Feat}feats{/g} advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in {g|Encyclopedia:Size}size{/g} when their druid reaches 4th or 7th level, depending on the companion.",
+      "icon": "736cb7b0def6ff147b921c75c54a81a0"
+    },
+    {
+      "__index": 15,
+      "name": "Animal Insight",
+      "desc": "At 5th level, an urban hunter and her animal companion learn to combine their insights to defeat deception and manipulation. As long as they are within 30 feet of each other, both hunter and animal companion gain an insight {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Perception}Perception checks{/g} equal to half the urban hunter\u0027s hunter level. They also gain a \u002B2 insight bonus on {g|Encyclopedia:Saving_Throw}saving throws{/g} against mind-affecting effects.",
+      "icon": "5dd7f7b3794d86d42ad4f93b5b1a443b"
+    },
+    {
+      "__index": 16,
+      "name": "Captor",
+      "desc": "At 6th level and every 3 levels thereafter, the urban hunter selects a bonus {g|Encyclopedia:Feat}feat{/g} from the following list to be gained by both the hunter and her animal companion. Neither the hunter nor her animal companion needs to meet the prerequisites for these bonus feats.",
+      "icon": "d7935df254e25574aa31ddd6299eeef6"
+    },
+    {
+      "__index": 17,
+      "name": "Captor",
+      "desc": "At 6th level and every 3 levels thereafter, the urban hunter selects a bonus {g|Encyclopedia:Feat}feat{/g} from the following list to be gained by both the hunter and her animal companion. Neither the hunter nor her animal companion needs to meet the prerequisites for these bonus feats.",
+      "icon": "d7935df254e25574aa31ddd6299eeef6"
+    },
+    {
+      "__index": 18,
+      "name": "Captor",
+      "desc": "At 6th level and every 3 levels thereafter, the urban hunter selects a bonus {g|Encyclopedia:Feat}feat{/g} from the following list to be gained by both the hunter and her animal companion. Neither the hunter nor her animal companion needs to meet the prerequisites for these bonus feats.",
+      "icon": "d7935df254e25574aa31ddd6299eeef6"
+    },
+    {
+      "__index": 19,
+      "name": "Frightful Ferocity",
+      "desc": "At 17th level, an urban hunter and her animal companion can each attempt an Intimidate {g|Encyclopedia:Check}check{/g} to demoralize a foe as a {g|Encyclopedia:Swift_Action}swift action{/g}.",
+      "icon": "5dd7f7b3794d86d42ad4f93b5b1a443b"
+    },
+    {
+      "__index": 20,
+      "name": "Scapegoat",
+      "desc": "A colluding scoundrel is adept at redirecting a foe\u0027s hostility toward another creature, creating openings for her own {g|Encyclopedia:Attack}attacks{/g}. A number of times per day equal to her hunter level, as a {g|Encyclopedia:Swift_Action}swift action{/g}, she can target one foe within 30 feet and designate one willing ally adjacent to that foe as a scapegoat. For the following minute, the target takes a \u20132 {g|Encyclopedia:Penalty}penalty{/g} on attacks against any creature other than the designated scapegoat, and the target has a 10% {g|Encyclopedia:Spell_Fail_Chance}spell failure chance{/g} on {g|Encyclopedia:Spell}spells{/g} that don\u0027t target the scapegoat or include the scapegoat in their area of effect. The penalty increases to \u20134 at 8th level and \u20136 at 15th level.\nThe colluding scoundrel can designate her animal companion as a scapegoat without it counting against her daily uses of this ability.",
+      "icon": "534e7634a27b6f74a8773dfb82092da8"
+    },
+    {
+      "__index": 21,
+      "name": "Backstabber",
+      "desc": "At 8th level, a colluding scoundrel deals {g|Encyclopedia:Dice}2d6{/g} additional points of {g|Encyclopedia:Damage}damage{/g} on {g|Encyclopedia:Attack}attacks{/g} against a target {g|Encyclopedia:Threatened_Area}threatened{/g} by an ally currently designated as the scapegoat. This increases to 3d6 points of damage at 15th level.\nThis is precision damage and is not multiplied on a {g|Encyclopedia:Critical}critical hit{/g}, but it does stack with sneak attack and similar effects.",
+      "icon": "5dd7f7b3794d86d42ad4f93b5b1a443b"
+    },
+    {
+      "__index": 22,
+      "name": "Master Backstabber",
+      "desc": "At 20th level, a colluding scoundrel becomes a master at dispatching distracted targets. As a {g|Encyclopedia:Standard_Actions}standard action{/g}, she can make a single {g|Encyclopedia:Attack}attack{/g} against a foe that is taking the {g|Encyclopedia:Penalty}penalties{/g} of her scapegoat ability and is adjacent to an ally currently designated as the scapegoat.\nIf the attack hits, the target takes {g|Encyclopedia:Damage}damage{/g} normally and must succeed at a {g|Encyclopedia:Saving_Throw}Fortitude saving throw{/g} ({g|Encyclopedia:DC}DC{/g} = 10 \u002B half the colluding scoundrel\u0027s level \u002B her {g|Encyclopedia:Wisdom}Wisdom{/g} modifier) or be slain. Whether or not the target succeeds, it cannot be targeted by this ability again (by any colluding scoundrel) for 24 hours.",
+      "icon": "5dd7f7b3794d86d42ad4f93b5b1a443b"
+    },
+    {
+      "__index": 23,
+      "name": "Animal Focus",
+      "desc": "As a forester has no animal companion, the aspects granted by this ability always apply to the forester herself, just as if a normal hunter\u0027s companion were dead.",
+      "icon": "gen__AF"
+    },
+    {
+      "__index": 24,
+      "name": "Bonus Combat Feat",
+      "desc": "At 1st level, and at every even level thereafter, a fighter gains a bonus {g|Encyclopedia:Feat}feat{/g} in addition to those gained from normal advancement (meaning that the fighter gains a feat at every level). These bonus feats must be selected from those listed as Combat Feats, sometimes also called \u0022fighter bonus feats.\u0022",
+      "icon": "gen__BCF"
+    },
+    {
+      "__index": 25,
+      "name": "Tactician",
+      "desc": "At 3rd level as a {g|Encyclopedia:Standard_Actions}standard action{/g}, a forester can grant the benefits of one teamwork {g|Encyclopedia:Feat}feat{/g} to all allies within 30 feet who can see and hear her. Allies retain the use of this bonus feat for 3 {g|Encyclopedia:Combat_Round}rounds{/g} plus 1 round for every 2 levels the forester has. Allies do not need to meet the prerequisites of these bonus feats. The forester can use this ability once per day at 3rd level, plus one additional time per day at 7th level and every 5 levels thereafter.\nThis replaces hunter tactics.",
+      "icon": "gen__T"
+    },
+    {
+      "__index": 26,
+      "name": "Evasion",
+      "desc": "A character can avoid even magical and unusual {g|Encyclopedia:Attack}attacks{/g} with great agility. If a character makes a successful {g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} against an attack that normally deals half {g|Encyclopedia:Damage}damage{/g} on a successful save, he instead takes no damage. A {g|Encyclopedia:Helpless}helpless{/g} character does not gain the benefit of evasion.",
+      "icon": "b571fe5defdcf67489e23c8f115f1f2c"
+    },
+    {
+      "__index": 27,
+      "name": "Favored Terrain",
+      "desc": "At 3rd level, a ranger may select a type of terrain. The ranger gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}checks{/g} and {g|Encyclopedia:Lore_Nature}Lore (nature){/g}, {g|Encyclopedia:Perception}Perception{/g}, and {g|Encyclopedia:Stealth}Stealth{/g} {g|Encyclopedia:Skills}skill checks{/g} when he is in this terrain.\nAt 8th level and every five levels thereafter, the ranger may select an additional favored terrain. In addition, at each such interval, the skill bonus and initiative bonus in any one favored terrain (including the one just selected, if so desired) increases by \u002B2.",
+      "icon": "68dec1b1949ef5b4680689f9dbe458ed"
+    },
+    {
+      "__index": 28,
+      "name": "Camouflage",
+      "desc": "At 7th level, a forester can use the {g|Encyclopedia:Stealth}Stealth{/g} {g|Encyclopedia:Skills}skill{/g} to hide in any of her favored terrains, even if the terrain doesn\u0027t grant cover or {g|Encyclopedia:Concealment}concealment{/g}.\nThis replaces {g|Encyclopedia:Bonus}bonus{/g} tricks.",
+      "icon": "0c5fe93277546e342bc17b7503e00b62"
+    },
+    {
+      "__index": 29,
+      "name": "Breath of Life",
+      "desc": "At 10th level, a forester can cast breath of life once per day as a {g|Encyclopedia:Special_Abilities}spell-like ability{/g}. This replaces raise animal companion.",
+      "icon": "0c5fe93277546e342bc17b7503e00b62"
+    },
+    {
+      "__index": 30,
+      "name": "Improved Evasion",
+      "desc": "This ability works like evasion, except that while the character still takes no {g|Encyclopedia:Damage}damage{/g} on a successful {g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} against {g|Encyclopedia:Attack}attacks{/g}, he henceforth takes only half damage on a failed save. A {g|Encyclopedia:Helpless}helpless{/g} character does not gain the benefit of improved evasion.",
+      "icon": "b571fe5defdcf67489e23c8f115f1f2c"
+    },
+    {
+      "__index": 31,
+      "name": "Terrain Expertise",
+      "desc": "At 11th level, a forester learns total expertise over one terrain he has already selected for favorite terrain. When dealing with creatures on that terrain, the forester treats his favored terrain {g|Encyclopedia:Bonus}bonus{/g} for that terrain as a favored enemy bonus (as the ranger class feature) against those creatures. This bonus overlaps (does not stack with) bonuses gained when fighting a favored enemy. Each terrain dominance grants additional abilities",
+      "icon": "gen__TE"
+    },
+    {
+      "__index": 32,
+      "name": "Hide in Plain Sight",
+      "desc": "A ranger of 17th level or higher can use the Camouflage in any terrain.",
+      "icon": "0c5fe93277546e342bc17b7503e00b62"
+    },
+    {
+      "__index": 33,
+      "name": "Planned Distraction",
+      "desc": "At 3rd level, whenever the hunter {g|Encyclopedia:Attack}attacks{/g} the enemy who is engaged in melee combat with his animal companion, the hunter gets a \u002B1 circumstance {g|Encyclopedia:Bonus}bonus{/g} to attack and {g|Encyclopedia:Damage}damage{/g}. This bonus increases to \u002B2 at 12th level and to a \u002B3 at 18th level.",
+      "icon": "5dd7f7b3794d86d42ad4f93b5b1a443b"
+    },
+    {
+      "__index": 34,
+      "name": "Self-Reliance",
+      "desc": "At 6th level, whenever the animal companion is 10 feet or more away from the hunter, it gets a morale {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} equal to \u002B1 for each hunter\u0027s 4 levels.",
+      "icon": "5dd7f7b3794d86d42ad4f93b5b1a443b"
+    },
+    {
+      "__index": 35,
+      "name": "Emergency Swap",
+      "desc": "At 9th level once per encounter level for a {g|Encyclopedia:Standard_Actions}standard action{/g}, the wandering marksman can swap his animal companion and himself without provoking {g|Encyclopedia:Attack_Of_Opportunity}Attack of Opportunity{/g} if they are within a 30-foot range to each other.",
+      "icon": "5dd7f7b3794d86d42ad4f93b5b1a443b"
+    },
+    {
+      "__index": 36,
+      "name": "Imminent Attack",
+      "desc": "At 15th level hunter as a standard can shoot an ammunition 3 times per day, which marks all enemies in a 10-foot area as prey. Against such creatures the animal companion gets a \u002B3 morale {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage{/g}, and its attacks bypass {g|Encyclopedia:Damage_Reduction}DR{/g} N/cold iron, N/mithral, N/adamantine, and hardness. Whenever the animal companion kills a marked enemy, all its attacks\u0027 {g|Encyclopedia:Critical}critical{/g} range increases by 1 until the end of combat. Multiple applications of this effect stack.",
+      "icon": "5dd7f7b3794d86d42ad4f93b5b1a443b"
+    },
+    {
+      "__index": 37,
+      "name": "Animal Companion",
+      "desc": "Unlike normal animals of its kind, an animal companion\u0027s {g|Encyclopedia:Hit_Dice}Hit Dice{/g}, abilities, {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Feat}feats{/g} advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in {g|Encyclopedia:Size}size{/g} when their druid reaches 4th or 7th level, depending on the companion.",
+      "icon": "736cb7b0def6ff147b921c75c54a81a0"
+    },
+    {
+      "__index": 38,
+      "name": "Judgment",
+      "desc": "Starting at 1st level, an inquisitor can pronounce judgment upon her foes as a {g|Encyclopedia:Swift_Action}swift action{/g}. Starting when the judgment is made, the inquisitor receives a {g|Encyclopedia:Bonus}bonus{/g} or {g|Encyclopedia:Special_Abilities}special ability{/g} based on the type of judgment made.\nAt 1st level, an inquisitor can use this ability once per day. At 4th level and every three levels thereafter, the inquisitor can use this ability one additional time per day. Once activated, this ability lasts until the combat ends, at which point all of the bonuses immediately end.\nWhen the inquisitor uses this ability, she must select one type of judgment to make. As a swift {g|Encyclopedia:CA_Types}action{/g}, she can change this judgment to another type.",
+      "icon": "49c7d448bff859744a0aa4bf3c58cd5b"
+    },
+    {
+      "__index": 39,
+      "name": "Companion Judgment",
+      "desc": "Divine Hound gains the inquisitor\u0027s Judgment ability. Additionally, he shares all the {g|Encyclopedia:Bonus}bonuses{/g} gained from Judgment with his animal companion.",
+      "icon": "gen__CJ"
+    },
+    {
+      "__index": 40,
+      "name": "Judgment",
+      "desc": "Starting at 1st level, an inquisitor can pronounce judgment upon her foes as a {g|Encyclopedia:Swift_Action}swift action{/g}. Starting when the judgment is made, the inquisitor receives a {g|Encyclopedia:Bonus}bonus{/g} or {g|Encyclopedia:Special_Abilities}special ability{/g} based on the type of judgment made.\nAt 1st level, an inquisitor can use this ability once per day. At 4th level and every three levels thereafter, the inquisitor can use this ability one additional time per day. Once activated, this ability lasts until the combat ends, at which point all of the bonuses immediately end.\nWhen the inquisitor uses this ability, she must select one type of judgment to make. As a swift {g|Encyclopedia:CA_Types}action{/g}, she can change this judgment to another type.",
+      "icon": "49c7d448bff859744a0aa4bf3c58cd5b"
+    },
+    {
+      "__index": 41,
+      "name": "Second Judgment",
+      "desc": "At 8th level, whenever an inquisitor uses her judgment ability, she selects two different judgments, instead of one. This only consumes one use of her judgment ability. As a {g|Encyclopedia:Swift_Action}swift action{/g}, she can change one of these judgments to another type.",
+      "icon": "7c8efbd1129b371428be7754181a4104"
+    },
+    {
+      "__index": 42,
+      "name": "Third Judgment",
+      "desc": "At 16th level, whenever an inquisitor uses her judgment ability, she selects three different judgments, instead of just two. This only consumes one use of her judgment ability. As a {g|Encyclopedia:Swift_Action}swift action{/g}, the inquisitor can change one of these judgments to another type.",
+      "icon": "7258fa010a8cb184bbcf9e5160043b46"
     }
   ],
-  "progression": [
-    [],
-    [
-      0,
-      1,
-      2,
-      3
-    ],
-    [
-      4,
-      5
-    ],
-    [
-      6,
-      7
-    ],
-    [],
-    [],
-    [
-      7
-    ],
-    [],
-    [
-      8
-    ],
-    [
-      7
-    ],
-    [
-      9
-    ],
-    [],
-    [
-      7
-    ],
-    [],
-    [],
-    [
-      7
-    ],
-    [],
-    [
-      10
-    ],
-    [
-      7
-    ],
-    [],
-    [
-      11
-    ]
-  ],
-  "__ui-groups": [],
   "name": "Hunter",
   "layout": [
     [
@@ -121,43 +267,43 @@
         "level": 1,
         "feature": 0,
         "rank": -1,
-        "__debug": "AnimalCompanionSelectionHunter"
+        "archType": 0
       },
       {
         "level": 2,
         "feature": 4,
         "rank": -1,
-        "__debug": "BloodlineFeyWoodlandStride"
+        "archType": 0
       },
       {
         "level": 3,
         "feature": 6,
         "rank": -1,
-        "__debug": "HunterTactics"
+        "archType": 0
       },
       {
         "level": 8,
         "feature": 8,
         "rank": -1,
-        "__debug": "HunterExtraAnimalFocus"
+        "archType": 0
       },
       {
         "level": 10,
         "feature": 9,
         "rank": -1,
-        "__debug": "HunterRaiseCompanion"
+        "archType": 0
       },
       {
         "level": 17,
         "feature": 10,
         "rank": -1,
-        "__debug": "HunterOneWithTheWildFeature"
+        "archType": 0
       },
       {
         "level": 20,
         "feature": 11,
         "rank": -1,
-        "__debug": "MasterHunter"
+        "archType": 0
       }
     ],
     [
@@ -165,13 +311,13 @@
         "level": 1,
         "feature": 1,
         "rank": -1,
-        "__debug": "HunterProficiencies"
+        "archType": 0
       },
       {
         "level": 2,
         "feature": 5,
         "rank": -1,
-        "__debug": "HunterPreciseCompanion"
+        "archType": 0
       }
     ],
     [
@@ -179,7 +325,7 @@
         "level": 1,
         "feature": 2,
         "rank": -1,
-        "__debug": "HunterAnimalFocusFeature"
+        "archType": 0
       }
     ],
     [
@@ -187,7 +333,7 @@
         "level": 1,
         "feature": 3,
         "rank": -1,
-        "__debug": "NatureSense"
+        "archType": 0
       }
     ],
     [],
@@ -198,42 +344,1120 @@
         "level": 3,
         "feature": 7,
         "rank": -1,
-        "__debug": "HunterTeamworkFeatSelection"
+        "archType": 0
       },
       {
         "level": 6,
         "feature": 7,
         "rank": -1,
-        "__debug": "HunterTeamworkFeatSelection"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 7,
         "rank": -1,
-        "__debug": "HunterTeamworkFeatSelection"
+        "archType": 0
       },
       {
         "level": 12,
         "feature": 7,
         "rank": -1,
-        "__debug": "HunterTeamworkFeatSelection"
+        "archType": 0
       },
       {
         "level": 15,
         "feature": 7,
         "rank": -1,
-        "__debug": "HunterTeamworkFeatSelection"
+        "archType": 0
       },
       {
         "level": 18,
         "feature": 7,
         "rank": -1,
-        "__debug": "HunterTeamworkFeatSelection"
+        "archType": 0
       }
     ],
     [],
     [],
     [],
     []
+  ],
+  "archetypes": [
+    {
+      "name": "Divine Hunter",
+      "id": "f996f0a18e5d945459e710ee3a6dd485",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 8,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 2,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 13,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [],
+        [
+          {
+            "level": 3,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 6,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 12,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 15,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 18,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 12,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        []
+      ]
+    },
+    {
+      "name": "Urban Hunter",
+      "id": "f1341c61c77092643ae63d7cb52f83f8",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 5,
+            "feature": 15,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 6,
+            "feature": 17,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 8,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 10,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 20,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 2,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 19,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [],
+        [
+          {
+            "level": 3,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 6,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 12,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 15,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 18,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 14,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [
+          {
+            "level": 6,
+            "feature": 16,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 16,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [
+          {
+            "level": 12,
+            "feature": 18,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 15,
+            "feature": 18,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 18,
+            "feature": 18,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        []
+      ]
+    },
+    {
+      "name": "Colluding Scoundrel",
+      "id": "34963fc6d87354c4fa85eb76f122c41c",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 8,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 10,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 11,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 2,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 21,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 22,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [],
+        [
+          {
+            "level": 3,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Forester",
+      "id": "74ee8172df6782f4792ea0f8647dea34",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 4,
+            "feature": 26,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 7,
+            "feature": 28,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 8,
+            "feature": 8,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 10,
+            "feature": 9,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 30,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 14,
+            "feature": 32,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 17,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 2,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 3,
+            "feature": 25,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 10,
+            "feature": 29,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [],
+        [
+          {
+            "level": 3,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 23,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 24,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 7,
+            "feature": 24,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 13,
+            "feature": 24,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 19,
+            "feature": 24,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [],
+        [
+          {
+            "level": 5,
+            "feature": 27,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 27,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 13,
+            "feature": 27,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 17,
+            "feature": 27,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [],
+        [],
+        [
+          {
+            "level": 11,
+            "feature": 31,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 15,
+            "feature": 31,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 19,
+            "feature": 31,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        []
+      ]
+    },
+    {
+      "name": "Wandering Marksman",
+      "id": "0be343c549776574286730b33ae5c676",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 6,
+            "feature": 34,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 8,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 35,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 10,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 36,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 17,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 2,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 33,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [],
+        [
+          {
+            "level": 3,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 6,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 12,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 15,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 18,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Divine Hound",
+      "id": "339659f6b09b4136bf8c2b2c3df87c65",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 8,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 10,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 42,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 17,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 11,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 2,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 41,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [],
+        [
+          {
+            "level": 3,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 37,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 38,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 39,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 4,
+            "feature": 40,
+            "rank": 1,
+            "archType": 1
+          },
+          {
+            "level": 7,
+            "feature": 40,
+            "rank": 2,
+            "archType": 1
+          },
+          {
+            "level": 10,
+            "feature": 40,
+            "rank": 3,
+            "archType": 1
+          },
+          {
+            "level": 13,
+            "feature": 40,
+            "rank": 4,
+            "archType": 1
+          },
+          {
+            "level": 16,
+            "feature": 40,
+            "rank": 5,
+            "archType": 1
+          },
+          {
+            "level": 19,
+            "feature": 40,
+            "rank": 6,
+            "archType": 1
+          }
+        ],
+        [],
+        []
+      ]
+    }
   ]
 }

@@ -1,152 +1,4 @@
 {
-  "features": [
-    {
-      "name": "Sneak Attack",
-      "desc": "If a character can catch an opponent when he is unable to defend himself effectively from her {g|Encyclopedia:Attack}attack{/g}, she can strike a vital spot for extra {g|Encyclopedia:Damage}damage{/g}.\nThe character\u0027s attack deals extra damage anytime her target would be denied a {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} (whether the target actually has a Dexterity bonus or not), or when the character {g|Encyclopedia:Flanking}flanks{/g} her target. This extra damage is {g|Encyclopedia:Dice}1d6{/g} and increases by 1d6 at later levels. This additional damage is precision damage and is not multiplied on a {g|Encyclopedia:Critical}critical hit{/g}.\nThe character must be able to see the target well enough to pick out a vital spot and must be able to {g|Encyclopedia:Reach}reach{/g} such a spot.",
-      "icon": "02ef137cda22e9b4aa9af681fba45909"
-    },
-    {
-      "name": "Rogue Proficiencies",
-      "desc": "Rogues are proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g}, plus the hand crossbow, rapier, sap, shortsword, and shortbow. They are proficient with light armor, but not with shields.",
-      "icon": "3714ca959287da54cbf82164d3a8805b"
-    },
-    {
-      "name": "Weapon Finesse",
-      "desc": "With a {g|Encyclopedia:Light_Weapon}light weapon{/g}, elven curve blade, estoc, or rapier made for a creature of your {g|Encyclopedia:Size}size{/g} category, you may use your {g|Encyclopedia:Dexterity}Dexterity{/g} modifier instead of your {g|Encyclopedia:Strength}Strength{/g} modifier on {g|Encyclopedia:Attack}attack rolls{/g}.",
-      "icon": "8caa05fdede890c47819c45ccfa0380a"
-    },
-    {
-      "name": "Trapfinding",
-      "desc": "A rogue adds 1/2 her level on {g|Encyclopedia:Perception}Perception checks{/g}.",
-      "icon": "521a6d3932c3ab4448a6eb95782dae06"
-    },
-    {
-      "name": "Evasion",
-      "desc": "A character can avoid even magical and unusual {g|Encyclopedia:Attack}attacks{/g} with great agility. If a character makes a successful {g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} against an attack that normally deals half {g|Encyclopedia:Damage}damage{/g} on a successful save, he instead takes no damage. A {g|Encyclopedia:Helpless}helpless{/g} character does not gain the benefit of evasion.",
-      "icon": "b571fe5defdcf67489e23c8f115f1f2c"
-    },
-    {
-      "name": "Rogue Talent",
-      "desc": "As a rogue gains {g|Encyclopedia:XP}experience{/g}, she learns a number of talents that aid her and confound her foes. Starting at 2nd level, a rogue gains one rogue talent. She gains an additional rogue talent for every 2 levels of rogue attained after 2nd level. A rogue cannot select an individual talent more than once, unless its description says otherwise.",
-      "icon": "ed9b1a97cb614b44883755a04df47351"
-    },
-    {
-      "name": "Finesse Training",
-      "desc": "At 1st level, a rogue gains Weapon Finesse as a bonus {g|Encyclopedia:Feat}feat{/g}. In addition, starting at 3rd level, she can select any one type of weapon that can be used with Weapon Finesse (such as rapiers or daggers). Once this choice is made, it cannot be changed. Whenever she makes a successful {g|Encyclopedia:MeleeAttack}melee attack{/g} with the selected weapon, she adds her {g|Encyclopedia:Dexterity}Dexterity{/g} modifier instead of her {g|Encyclopedia:Strength}Strength{/g} modifier to the {g|Encyclopedia:Damage}damage roll{/g}. If any effect would prevent the rogue from adding her Strength modifier to the damage {g|Encyclopedia:Dice}roll{/g}, she does not add her Dexterity modifier. The rogue can select a second weapon at 11th level and a third at 19th level.",
-      "icon": "gen__FT"
-    },
-    {
-      "name": "Danger Sense",
-      "desc": "At 3rd level, a rogue gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on Reflex {g|Encyclopedia:Saving_Throw}saves{/g} to avoid traps and a \u002B1 dodge bonus to {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:Attack}attacks{/g} made by traps. These bonuses increase by 1 every 3 rogue levels thereafter (to a maximum of \u002B6 at 18th level).",
-      "icon": "7ab9a8025ca271d43a8debfa01fd17c3"
-    },
-    {
-      "name": "Debilitating Injury",
-      "desc": "At 4th level, whenever a rogue deals sneak {g|Encyclopedia:Attack}attack{/g} {g|Encyclopedia:Damage}damage{/g} to a foe, she can also debilitate the target of her attack, causing it to take a {g|Encyclopedia:Penalty}penalty{/g} for 1 {g|Encyclopedia:Combat_Round}round{/g} (this is in addition to any penalty caused by a rogue talent or other {g|Encyclopedia:Special_Abilities}special ability{/g}). The rogue can choose to apply any one of the following penalties when the damage is dealt.\nBewildered: The target becomes bewildered, taking a \u20132 penalty to {g|Encyclopedia:Armor_Class}AC{/g}. The target takes an additional \u20132 penalty to AC against all attacks made by the rogue. At 10th level and 16th level, the penalty to AC against attacks made by the rogue increases by \u20132 (to a total maximum of \u20138).\nDisoriented: The target takes a \u20132 penalty on attack {g|Encyclopedia:Dice}rolls{/g}. In addition, the target takes an additional \u20132 penalty on all attack rolls it makes against the rogue. At 10th level and 16th level, the penalty on attack rolls made against the rogue increases by \u20132 (to a total maximum of \u20138).\nHampered: All of the target\u0027s speeds are reduced by half (to a minimum of 5 feet).\nThese penalties do not stack with themselves, but additional attacks that deal sneak attack damage extend the duration by 1 round. A creature cannot suffer from more than one penalty from this ability at a time. If a new penalty is applied, the old penalty immediately ends. Any form of {g|Encyclopedia:Healing}healing{/g} applied to a target suffering from one of these penalties also removes the penalty.",
-      "icon": "a3419f049afb93e408a80f9b13dd9bb7"
-    },
-    {
-      "name": "Uncanny Dodge",
-      "desc": "The character can react to danger before her senses would normally allow her to do so. She cannot be caught {g|Encyclopedia:Flat_Footed}flat-footed{/g}, nor does she lose her {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} if the {g|Encyclopedia:Attack}attacker{/g} is invisible. She still loses her Dexterity bonus to AC if immobilized. A character with this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the feint {g|Encyclopedia:CA_Types}action{/g} against her.\nIf a character already has uncanny dodge from a different class, she automatically gains improved uncanny dodge instead.",
-      "icon": "f549aced0cfe8a7469985214a71d9503"
-    },
-    {
-      "name": "Improved Uncanny Dodge",
-      "desc": "The character can no longer be {g|Encyclopedia:Flanking}flanked{/g}.\nThis defense denies another rogue the ability to sneak {g|Encyclopedia:Attack}attack{/g} the character by flanking her, unless the attacker has at least four more rogue levels than the target does.",
-      "icon": "f549aced0cfe8a7469985214a71d9503"
-    },
-    {
-      "name": "Advanced Talents",
-      "desc": "After 10th level, a character can choose one of the advanced rogue talents in place of a rogue talent.",
-      "icon": "57a5e3232472df44bac5df62ed9f8cdd"
-    },
-    {
-      "name": "Master Strike",
-      "desc": "Upon reaching 20th level, a rogue becomes incredibly deadly when dealing sneak {g|Encyclopedia:Attack}attack{/g} {g|Encyclopedia:Damage}damage{/g}. Each time the rogue deals sneak attack damage, she can slay the target. The target receives a {g|Encyclopedia:Saving_Throw}Fortitude save{/g} to negate the {g|Encyclopedia:Injury_Death}death{/g} effect. The {g|Encyclopedia:DC}DC{/g} of this save is equal to 10 \u002B 1/2 the rogue\u0027s level \u002B the rogue\u0027s {g|Encyclopedia:Dexterity}Dexterity{/g} modifier. Once a creature has been the target of a master strike, regardless of whether or not the save is made, that creature is immune to that rogue\u0027s master strike for 24 hours.",
-      "icon": "394cd8e77836d6f4fb021a143f71d994"
-    }
-  ],
-  "progression": [
-    [],
-    [
-      0,
-      1,
-      2,
-      3
-    ],
-    [
-      4,
-      5
-    ],
-    [
-      0,
-      6,
-      7
-    ],
-    [
-      5,
-      8,
-      9
-    ],
-    [
-      0
-    ],
-    [
-      5,
-      7
-    ],
-    [
-      0
-    ],
-    [
-      5,
-      10
-    ],
-    [
-      0,
-      7
-    ],
-    [
-      5,
-      11
-    ],
-    [
-      0,
-      6
-    ],
-    [
-      5,
-      7
-    ],
-    [
-      0
-    ],
-    [
-      5
-    ],
-    [
-      0,
-      7
-    ],
-    [
-      5
-    ],
-    [
-      0
-    ],
-    [
-      5,
-      7
-    ],
-    [
-      0,
-      6
-    ],
-    [
-      5,
-      12
-    ]
-  ],
   "__ui-groups": [
     [
       10
@@ -161,6 +13,224 @@
       11
     ]
   ],
+  "features": [
+    {
+      "__index": 0,
+      "name": "Sneak Attack",
+      "desc": "If a character can catch an opponent when he is unable to defend himself effectively from her {g|Encyclopedia:Attack}attack{/g}, she can strike a vital spot for extra {g|Encyclopedia:Damage}damage{/g}.\nThe character\u0027s attack deals extra damage anytime her target would be denied a {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} (whether the target actually has a Dexterity bonus or not), or when the character {g|Encyclopedia:Flanking}flanks{/g} her target. This extra damage is {g|Encyclopedia:Dice}1d6{/g} and increases by 1d6 at later levels. This additional damage is precision damage and is not multiplied on a {g|Encyclopedia:Critical}critical hit{/g}.\nThe character must be able to see the target well enough to pick out a vital spot and must be able to {g|Encyclopedia:Reach}reach{/g} such a spot.",
+      "icon": "02ef137cda22e9b4aa9af681fba45909"
+    },
+    {
+      "__index": 1,
+      "name": "Rogue Proficiencies",
+      "desc": "Rogues are proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g}, plus the hand crossbow, rapier, sap, shortsword, and shortbow. They are proficient with light armor, but not with shields.",
+      "icon": "3714ca959287da54cbf82164d3a8805b"
+    },
+    {
+      "__index": 2,
+      "name": "Weapon Finesse",
+      "desc": "With a {g|Encyclopedia:Light_Weapon}light weapon{/g}, elven curve blade, estoc, or rapier made for a creature of your {g|Encyclopedia:Size}size{/g} category, you may use your {g|Encyclopedia:Dexterity}Dexterity{/g} modifier instead of your {g|Encyclopedia:Strength}Strength{/g} modifier on {g|Encyclopedia:Attack}attack rolls{/g}.",
+      "icon": "8caa05fdede890c47819c45ccfa0380a"
+    },
+    {
+      "__index": 3,
+      "name": "Trapfinding",
+      "desc": "A rogue adds 1/2 her level on {g|Encyclopedia:Perception}Perception checks{/g}.",
+      "icon": "521a6d3932c3ab4448a6eb95782dae06"
+    },
+    {
+      "__index": 4,
+      "name": "Evasion",
+      "desc": "A character can avoid even magical and unusual {g|Encyclopedia:Attack}attacks{/g} with great agility. If a character makes a successful {g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} against an attack that normally deals half {g|Encyclopedia:Damage}damage{/g} on a successful save, he instead takes no damage. A {g|Encyclopedia:Helpless}helpless{/g} character does not gain the benefit of evasion.",
+      "icon": "b571fe5defdcf67489e23c8f115f1f2c"
+    },
+    {
+      "__index": 5,
+      "name": "Rogue Talent",
+      "desc": "As a rogue gains {g|Encyclopedia:XP}experience{/g}, she learns a number of talents that aid her and confound her foes. Starting at 2nd level, a rogue gains one rogue talent. She gains an additional rogue talent for every 2 levels of rogue attained after 2nd level. A rogue cannot select an individual talent more than once, unless its description says otherwise.",
+      "icon": "ed9b1a97cb614b44883755a04df47351"
+    },
+    {
+      "__index": 6,
+      "name": "Finesse Training",
+      "desc": "At 1st level, a rogue gains Weapon Finesse as a bonus {g|Encyclopedia:Feat}feat{/g}. In addition, starting at 3rd level, she can select any one type of weapon that can be used with Weapon Finesse (such as rapiers or daggers). Once this choice is made, it cannot be changed. Whenever she makes a successful {g|Encyclopedia:MeleeAttack}melee attack{/g} with the selected weapon, she adds her {g|Encyclopedia:Dexterity}Dexterity{/g} modifier instead of her {g|Encyclopedia:Strength}Strength{/g} modifier to the {g|Encyclopedia:Damage}damage roll{/g}. If any effect would prevent the rogue from adding her Strength modifier to the damage {g|Encyclopedia:Dice}roll{/g}, she does not add her Dexterity modifier. The rogue can select a second weapon at 11th level and a third at 19th level.",
+      "icon": "gen__FT"
+    },
+    {
+      "__index": 7,
+      "name": "Danger Sense",
+      "desc": "At 3rd level, a rogue gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on Reflex {g|Encyclopedia:Saving_Throw}saves{/g} to avoid traps and a \u002B1 dodge bonus to {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:Attack}attacks{/g} made by traps. These bonuses increase by 1 every 3 rogue levels thereafter (to a maximum of \u002B6 at 18th level).",
+      "icon": "7ab9a8025ca271d43a8debfa01fd17c3"
+    },
+    {
+      "__index": 8,
+      "name": "Debilitating Injury",
+      "desc": "At 4th level, whenever a rogue deals sneak {g|Encyclopedia:Attack}attack{/g} {g|Encyclopedia:Damage}damage{/g} to a foe, she can also debilitate the target of her attack, causing it to take a {g|Encyclopedia:Penalty}penalty{/g} for 1 {g|Encyclopedia:Combat_Round}round{/g} (this is in addition to any penalty caused by a rogue talent or other {g|Encyclopedia:Special_Abilities}special ability{/g}). The rogue can choose to apply any one of the following penalties when the damage is dealt.\nBewildered: The target becomes bewildered, taking a \u20132 penalty to {g|Encyclopedia:Armor_Class}AC{/g}. The target takes an additional \u20132 penalty to AC against all attacks made by the rogue. At 10th level and 16th level, the penalty to AC against attacks made by the rogue increases by \u20132 (to a total maximum of \u20138).\nDisoriented: The target takes a \u20132 penalty on attack {g|Encyclopedia:Dice}rolls{/g}. In addition, the target takes an additional \u20132 penalty on all attack rolls it makes against the rogue. At 10th level and 16th level, the penalty on attack rolls made against the rogue increases by \u20132 (to a total maximum of \u20138).\nHampered: All of the target\u0027s speeds are reduced by half (to a minimum of 5 feet).\nThese penalties do not stack with themselves, but additional attacks that deal sneak attack damage extend the duration by 1 round. A creature cannot suffer from more than one penalty from this ability at a time. If a new penalty is applied, the old penalty immediately ends. Any form of {g|Encyclopedia:Healing}healing{/g} applied to a target suffering from one of these penalties also removes the penalty.",
+      "icon": "a3419f049afb93e408a80f9b13dd9bb7"
+    },
+    {
+      "__index": 9,
+      "name": "Uncanny Dodge",
+      "desc": "The character can react to danger before her senses would normally allow her to do so. She cannot be caught {g|Encyclopedia:Flat_Footed}flat-footed{/g}, nor does she lose her {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} if the {g|Encyclopedia:Attack}attacker{/g} is invisible. She still loses her Dexterity bonus to AC if immobilized. A character with this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the feint {g|Encyclopedia:CA_Types}action{/g} against her.\nIf a character already has uncanny dodge from a different class, she automatically gains improved uncanny dodge instead.",
+      "icon": "f549aced0cfe8a7469985214a71d9503"
+    },
+    {
+      "__index": 10,
+      "name": "Improved Uncanny Dodge",
+      "desc": "The character can no longer be {g|Encyclopedia:Flanking}flanked{/g}.\nThis defense denies another rogue the ability to sneak {g|Encyclopedia:Attack}attack{/g} the character by flanking her, unless the attacker has at least four more rogue levels than the target does.",
+      "icon": "f549aced0cfe8a7469985214a71d9503"
+    },
+    {
+      "__index": 11,
+      "name": "Advanced Talents",
+      "desc": "After 10th level, a character can choose one of the advanced rogue talents in place of a rogue talent.",
+      "icon": "57a5e3232472df44bac5df62ed9f8cdd"
+    },
+    {
+      "__index": 12,
+      "name": "Master Strike",
+      "desc": "Upon reaching 20th level, a rogue becomes incredibly deadly when dealing sneak {g|Encyclopedia:Attack}attack{/g} {g|Encyclopedia:Damage}damage{/g}. Each time the rogue deals sneak attack damage, she can slay the target. The target receives a {g|Encyclopedia:Saving_Throw}Fortitude save{/g} to negate the {g|Encyclopedia:Injury_Death}death{/g} effect. The {g|Encyclopedia:DC}DC{/g} of this save is equal to 10 \u002B 1/2 the rogue\u0027s level \u002B the rogue\u0027s {g|Encyclopedia:Dexterity}Dexterity{/g} modifier. Once a creature has been the target of a master strike, regardless of whether or not the save is made, that creature is immune to that rogue\u0027s master strike for 24 hours.",
+      "icon": "394cd8e77836d6f4fb021a143f71d994"
+    },
+    {
+      "__index": 13,
+      "name": "Cantrips",
+      "desc": "Eldritch scoundrels can cast a number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
+      "icon": "cc1c65de94f966d4a92796604c7c2f91"
+    },
+    {
+      "__index": 14,
+      "name": "Eldritch Scoundrel",
+      "desc": "Rogues are proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g}, plus the hand crossbow, rapier, shortsword, and shortbow.\nAn eldritch scoundrel is not proficient with any armor or shields. Armor sometimes interferes with an eldritch scoundrel\u0027s gestures, which can cause her {g|Encyclopedia:Spell}spells{/g} with somatic components to fail.",
+      "icon": "3714ca959287da54cbf82164d3a8805b"
+    },
+    {
+      "__index": 15,
+      "name": "Scribe scrolls",
+      "desc": "Allows you to craft scrolls during camping.",
+      "icon": "gen__S"
+    },
+    {
+      "__index": 16,
+      "name": "Sneak Stab",
+      "desc": "A knife master focuses her ability to deal sneak {g|Encyclopedia:Attack}attack{/g} {g|Encyclopedia:Damage}damage{/g} with daggers and similar weapons to such a degree that she can deal more sneak attack damage with those weapons at the expense of sneak attacks with other weapons. When she makes a sneak attack with a dagger, kukri, punching dagger, starknife, or sai, she uses d8s to {g|Encyclopedia:Dice}roll{/g} sneak attack damage instead of d6s. For sneak attacks with all other weapons, she uses d4s instead of d6s.",
+      "icon": "592ac2887857bd74a8bd0eef3057fb2b"
+    },
+    {
+      "__index": 17,
+      "name": "Blade Sense",
+      "desc": "At 3rd level, a knife master is so {g|Encyclopedia:Skills}skilled{/g} in combat involving light blades that she gains a \u002B1 dodge {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:Attack}attacks{/g} made against her with light blades. This bonus increases by \u002B1 for every three levels, to a maximum of \u002B6 at 18th level.",
+      "icon": "6b05ab19eaa7bb14e966da4a562b52f8"
+    },
+    {
+      "__index": 18,
+      "name": "Frightening",
+      "desc": "Whenever a thug successfully uses {g|Encyclopedia:Persuasion}Persuasion{/g} to demoralize a creature, the duration of the shaken condition is increased by 1 {g|Encyclopedia:Combat_Round}round{/g}.\nIn addition, if the target is shaken for 4 or more rounds, the thug makes the target frightened for 1 round.",
+      "icon": "gen__F"
+    },
+    {
+      "__index": 19,
+      "name": "Brutal Beating",
+      "desc": "At 3rd level, whenever a thug deals sneak {g|Encyclopedia:Attack}attack{/g} {g|Encyclopedia:Damage}damage{/g}, she can choose to forgo {g|Encyclopedia:Dice}1d6{/g} points of sneak attack damage to make the target sickened for a number of {g|Encyclopedia:Combat_Round}rounds{/g} equal to 1/2 her rogue level. This ability does not stack with itself \u2014 only the most recent duration applies.",
+      "icon": "da759c3583cbf4245ac4ad7c64f7c5d3"
+    },
+    {
+      "__index": 20,
+      "name": "Fey Tricks",
+      "desc": "A sylvan trickster can select a witch hex in place of a rogue talent. At 10th level, the sylvan trickster can select a hex or major hex in place of a rogue talent. At 18th level, a sylvan trickster can select a hex, major hex, or grand hex in place of a rogue talent. She cannot select any hex more than once.\nThis alters rogue talents.",
+      "icon": "ed9b1a97cb614b44883755a04df47351"
+    },
+    {
+      "__index": 21,
+      "name": "Resist Nature\u0027s Lure",
+      "desc": "Starting at 4th level, a druid gains a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against the {g|Encyclopedia:Spell}spell{/g}-like and {g|Encyclopedia:Special_Abilities}supernatural abilities{/g} of fey and plants.",
+      "icon": "d4960a0f7e7cc6843bf6d675985fd381"
+    },
+    {
+      "__index": 22,
+      "name": "Fey Resistance",
+      "desc": "At 8th level, a sylvan trickster gains {g|Encyclopedia:Damage_Reduction}DR{/g} 2/cold iron. At 11th level and every 3 levels thereafter, this {g|Encyclopedia:Damage}damage{/g} reduction increases by 2 (to a maximum of DR 10/cold iron at 20th level).",
+      "icon": "0bdc70867b7677348abbcb274c72f765"
+    },
+    {
+      "__index": 23,
+      "name": "Major Hexes",
+      "desc": "Starting at 10th level, and every two levels thereafter, a witch can choose a major hex whenever she could select a new hex.",
+      "icon": "7786ee06467b28646924873af49d9ab4"
+    },
+    {
+      "__index": 24,
+      "name": "Grand Hex",
+      "desc": "Starting at 18th level, and every two levels thereafter, a witch can choose a grand hex whenever she could select a new hex.",
+      "icon": "2e66f42b6bb05f144ad8745b746c644f"
+    },
+    {
+      "__index": 25,
+      "name": "Brew Potions",
+      "desc": "Allows you to brew potions of {g|Encyclopedia:Spell}spells{/g} up to level 3 during {g|Encyclopedia:Rest}camping{/g}.",
+      "icon": "2133c2bb726d4e3418b339cb9598f936"
+    },
+    {
+      "__index": 26,
+      "name": "Chemical Weapons",
+      "desc": "At 2nd level, an underground chemist is able to retrieve an alchemical item as if drawing a weapon. She adds her {g|Encyclopedia:Intelligence}Intelligence{/g} modifier to {g|Encyclopedia:Damage}damage{/g} dealt with splash weapons, including any splash damage. She also gains the Throw Anything {g|Encyclopedia:Feat}feat{/g} as a bonus feat.",
+      "icon": "gen__CW"
+    },
+    {
+      "__index": 27,
+      "name": "Precise Splash Weapons",
+      "desc": "At 4th level, an underground chemist can deal sneak {g|Encyclopedia:Attack}attack{/g} {g|Encyclopedia:Damage}damage{/g} with splash weapons.\nThis ability replaces the rogue talent gained at 4th level.",
+      "icon": "4de416a2b282ab645b2b3fcef137ff1e"
+    },
+    {
+      "__index": 28,
+      "name": "Discovery",
+      "desc": "At 10th level, an underground chemist can select one of the following alchemist discoveries in place of a rogue talent: enhance potion, extend potion, mummification, nauseating flesh, preserve organs or spontaneous {g|Encyclopedia:Healing}healing{/g}. She uses her rogue level as her alchemist level for determining the effects of her discoveries and whether she is able to select one.\nThis ability alters advanced talents.",
+      "icon": "ed9b1a97cb614b44883755a04df47351"
+    },
+    {
+      "__index": 29,
+      "name": "Martial Weapons Proficiency",
+      "desc": "You become proficient with all Martial Weapons.",
+      "icon": "4f7a69c8c0e877149ac5f0ee124343e8"
+    },
+    {
+      "__index": 30,
+      "name": "Vital Strike",
+      "desc": "You make a single {g|Encyclopedia:Attack}attack{/g} that deals significantly more {g|Encyclopedia:Damage}damage{/g} than normal.\nBenefit: As a {g|Encyclopedia:Standard_Actions}standard action{/g}, you can make one attack at your highest {g|Encyclopedia:BAB}base attack bonus{/g} that deals additional damage. {g|Encyclopedia:Dice}Roll{/g} the weapon\u0027s damage dice for the attack twice and add the results together before adding {g|Encyclopedia:Bonus}bonuses{/g} from {g|Encyclopedia:Strength}Strength{/g}, weapon abilities (such as flaming), precision-based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a {g|Encyclopedia:Critical}critical hit{/g}, but are added to the total.",
+      "icon": "404da4170a5832c48aa17a55f052988f"
+    },
+    {
+      "__index": 31,
+      "name": "Vital Force",
+      "desc": "Rowdy adds {g|Encyclopedia:Dice}2d6{/g} additional {g|Encyclopedia:Damage}damage{/g} per sneak {g|Encyclopedia:Attack}attack{/g} die to the damage of his vital strike. This is precision damage.",
+      "icon": "gen__VF"
+    },
+    {
+      "__index": 32,
+      "name": "Improved Vital Strike",
+      "desc": "You can make a single {g|Encyclopedia:Attack}attack{/g} that deals a large amount of {g|Encyclopedia:Damage}damage{/g}.\nBenefit: As a {g|Encyclopedia:Standard_Actions}standard action{/g}, you can make one attack at your highest {g|Encyclopedia:BAB}base attack bonus{/g} that deals additional damage. {g|Encyclopedia:Dice}Roll{/g} the weapon\u0027s damage dice for the attack three times and add the results together before adding {g|Encyclopedia:Bonus}bonuses{/g} from {g|Encyclopedia:Strength}Strength{/g}, weapon abilities (such as flaming), precision-based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a {g|Encyclopedia:Critical}critical hit{/g}, but are added to the total.",
+      "icon": "404da4170a5832c48aa17a55f052988f"
+    },
+    {
+      "__index": 33,
+      "name": "Greater Vital Strike",
+      "desc": "You can make a single {g|Encyclopedia:Attack}attack{/g} that deals incredible {g|Encyclopedia:Damage}damage{/g}.\nBenefit: As a {g|Encyclopedia:Standard_Actions}standard action{/g}, you can make one attack at your highest {g|Encyclopedia:BAB}base attack bonus{/g} that deals additional damage. {g|Encyclopedia:Dice}Roll{/g} the weapon\u0027s damage dice for the attack four times and add the results together before adding {g|Encyclopedia:Bonus}bonuses{/g} from {g|Encyclopedia:Strength}Strength{/g}, weapon abilities (such as flaming), precision based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a {g|Encyclopedia:Critical}critical hit{/g}, but are added to the total.",
+      "icon": "404da4170a5832c48aa17a55f052988f"
+    },
+    {
+      "__index": 34,
+      "name": "Bardic Knowledge",
+      "desc": "A bard adds half his {g|Encyclopedia:Class_Level}class level{/g} (minimum 1) to all Knowledge and Lore {g|Encyclopedia:Skills}skill checks{/g} and may make all Knowledge and Lore skill {g|Encyclopedia:Check}checks{/g} untrained.",
+      "icon": "97e8e68d46f4b6540a262536bf5acf1e"
+    },
+    {
+      "__index": 35,
+      "name": "Skill Focus",
+      "desc": "At 3rd level, and every 6 levels after, Master of All gains the {g|Encyclopedia:Skills}Skill{/g} Focus {g|Encyclopedia:Feat}feat{/g}.",
+      "icon": "gen__SF"
+    }
+  ],
   "name": "Rogue",
   "layout": [
     [
@@ -168,67 +238,67 @@
         "level": 1,
         "feature": 0,
         "rank": 1,
-        "__debug": "SneakAttack"
+        "archType": 0
       },
       {
         "level": 3,
         "feature": 0,
         "rank": 2,
-        "__debug": "SneakAttack"
+        "archType": 0
       },
       {
         "level": 5,
         "feature": 0,
         "rank": 3,
-        "__debug": "SneakAttack"
+        "archType": 0
       },
       {
         "level": 7,
         "feature": 0,
         "rank": 4,
-        "__debug": "SneakAttack"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 0,
         "rank": 5,
-        "__debug": "SneakAttack"
+        "archType": 0
       },
       {
         "level": 11,
         "feature": 0,
         "rank": 6,
-        "__debug": "SneakAttack"
+        "archType": 0
       },
       {
         "level": 13,
         "feature": 0,
         "rank": 7,
-        "__debug": "SneakAttack"
+        "archType": 0
       },
       {
         "level": 15,
         "feature": 0,
         "rank": 8,
-        "__debug": "SneakAttack"
+        "archType": 0
       },
       {
         "level": 17,
         "feature": 0,
         "rank": 9,
-        "__debug": "SneakAttack"
+        "archType": 0
       },
       {
         "level": 19,
         "feature": 0,
         "rank": 10,
-        "__debug": "SneakAttack"
+        "archType": 0
       },
       {
         "level": 20,
         "feature": 12,
         "rank": -1,
-        "__debug": "MasterStrike"
+        "archType": 0
       }
     ],
     [
@@ -236,19 +306,13 @@
         "level": 1,
         "feature": 1,
         "rank": -1,
-        "__debug": "RogueProficiencies"
+        "archType": 0
       },
       {
         "level": 4,
         "feature": 9,
         "rank": 1,
-        "__debug": "UncannyDodgeChecker"
-      },
-      {
-        "level": 8,
-        "feature": 10,
-        "rank": -1,
-        "__debug": "ImprovedUncannyDodge"
+        "archType": 0
       }
     ],
     [
@@ -256,7 +320,7 @@
         "level": 1,
         "feature": 2,
         "rank": -1,
-        "__debug": "WeaponFinesse"
+        "archType": 0
       }
     ],
     [
@@ -264,7 +328,7 @@
         "level": 1,
         "feature": 3,
         "rank": 1,
-        "__debug": "Trapfinding"
+        "archType": 0
       }
     ],
     [
@@ -272,19 +336,19 @@
         "level": 2,
         "feature": 4,
         "rank": -1,
-        "__debug": "Evasion"
+        "archType": 0
       },
       {
         "level": 4,
         "feature": 8,
         "rank": 1,
-        "__debug": "DebilitatingInjury"
+        "archType": 0
       },
       {
         "level": 10,
         "feature": 11,
         "rank": 1,
-        "__debug": "AdvanceTalents"
+        "archType": 0
       }
     ],
     [
@@ -292,61 +356,61 @@
         "level": 2,
         "feature": 5,
         "rank": -1,
-        "__debug": "RogueTalentSelection"
+        "archType": 0
       },
       {
         "level": 4,
         "feature": 5,
         "rank": -1,
-        "__debug": "RogueTalentSelection"
+        "archType": 0
       },
       {
         "level": 6,
         "feature": 5,
         "rank": -1,
-        "__debug": "RogueTalentSelection"
+        "archType": 0
       },
       {
         "level": 8,
         "feature": 5,
         "rank": -1,
-        "__debug": "RogueTalentSelection"
+        "archType": 0
       },
       {
         "level": 10,
         "feature": 5,
         "rank": -1,
-        "__debug": "RogueTalentSelection"
+        "archType": 0
       },
       {
         "level": 12,
         "feature": 5,
         "rank": -1,
-        "__debug": "RogueTalentSelection"
+        "archType": 0
       },
       {
         "level": 14,
         "feature": 5,
         "rank": -1,
-        "__debug": "RogueTalentSelection"
+        "archType": 0
       },
       {
         "level": 16,
         "feature": 5,
         "rank": -1,
-        "__debug": "RogueTalentSelection"
+        "archType": 0
       },
       {
         "level": 18,
         "feature": 5,
         "rank": -1,
-        "__debug": "RogueTalentSelection"
+        "archType": 0
       },
       {
         "level": 20,
         "feature": 5,
         "rank": -1,
-        "__debug": "RogueTalentSelection"
+        "archType": 0
       }
     ],
     [
@@ -354,19 +418,19 @@
         "level": 3,
         "feature": 6,
         "rank": -1,
-        "__debug": "FinesseTrainingSelection"
+        "archType": 0
       },
       {
         "level": 11,
         "feature": 6,
         "rank": -1,
-        "__debug": "FinesseTrainingSelection"
+        "archType": 0
       },
       {
         "level": 19,
         "feature": 6,
         "rank": -1,
-        "__debug": "FinesseTrainingSelection"
+        "archType": 0
       }
     ],
     [
@@ -374,40 +438,2115 @@
         "level": 3,
         "feature": 7,
         "rank": 1,
-        "__debug": "DangerSenseRogue"
+        "archType": 0
       },
       {
         "level": 6,
         "feature": 7,
         "rank": 2,
-        "__debug": "DangerSenseRogue"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 7,
         "rank": 3,
-        "__debug": "DangerSenseRogue"
+        "archType": 0
       },
       {
         "level": 12,
         "feature": 7,
         "rank": 4,
-        "__debug": "DangerSenseRogue"
+        "archType": 0
       },
       {
         "level": 15,
         "feature": 7,
         "rank": 5,
-        "__debug": "DangerSenseRogue"
+        "archType": 0
       },
       {
         "level": 18,
         "feature": 7,
         "rank": 6,
-        "__debug": "DangerSenseRogue"
+        "archType": 0
       }
     ],
     [],
-    []
+    [
+      {
+        "level": 8,
+        "feature": 10,
+        "rank": -1,
+        "archType": 0
+      }
+    ]
+  ],
+  "archetypes": [
+    {
+      "name": "Eldritch Scoundrel",
+      "id": "57f93dd8423c97c49989501281296c4a",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 0,
+            "rank": 2,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 0,
+            "rank": 3,
+            "archType": -1
+          },
+          {
+            "level": 7,
+            "feature": 0,
+            "rank": 4,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 0,
+            "rank": 5,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 0,
+            "rank": 6,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 0,
+            "rank": 7,
+            "archType": -1
+          },
+          {
+            "level": 15,
+            "feature": 0,
+            "rank": 8,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 0,
+            "rank": 9,
+            "archType": -1
+          },
+          {
+            "level": 19,
+            "feature": 0,
+            "rank": 10,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 4,
+            "feature": 9,
+            "rank": 1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": 1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 8,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 11,
+            "rank": 1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 8,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 16,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 7,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 7,
+            "rank": 2,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 7,
+            "rank": 3,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 7,
+            "rank": 4,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 7,
+            "rank": 5,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 7,
+            "rank": 6,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 8,
+            "feature": 10,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 13,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 14,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 15,
+            "rank": -1,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Knife Master",
+      "id": "9e94d1847e6f331478e5a714659220ce",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 0,
+            "rank": 2,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 0,
+            "rank": 3,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 0,
+            "rank": 4,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 0,
+            "rank": 5,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 0,
+            "rank": 6,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 0,
+            "rank": 7,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 0,
+            "rank": 8,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 0,
+            "rank": 9,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 0,
+            "rank": 10,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 9,
+            "rank": 1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": 1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 8,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 11,
+            "rank": 1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 7,
+            "rank": 1,
+            "archType": -1
+          },
+          {
+            "level": 6,
+            "feature": 7,
+            "rank": 2,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 7,
+            "rank": 3,
+            "archType": -1
+          },
+          {
+            "level": 12,
+            "feature": 7,
+            "rank": 4,
+            "archType": -1
+          },
+          {
+            "level": 15,
+            "feature": 7,
+            "rank": 5,
+            "archType": -1
+          },
+          {
+            "level": 18,
+            "feature": 7,
+            "rank": 6,
+            "archType": -1
+          }
+        ],
+        [],
+        [
+          {
+            "level": 8,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 16,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 17,
+            "rank": 1,
+            "archType": 1
+          },
+          {
+            "level": 6,
+            "feature": 17,
+            "rank": 2,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 17,
+            "rank": 3,
+            "archType": 1
+          },
+          {
+            "level": 12,
+            "feature": 17,
+            "rank": 4,
+            "archType": 1
+          },
+          {
+            "level": 15,
+            "feature": 17,
+            "rank": 5,
+            "archType": 1
+          },
+          {
+            "level": 18,
+            "feature": 17,
+            "rank": 6,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Thug",
+      "id": "b5f0b25e1519d27479018353b51fd349",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 0,
+            "rank": 2,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 0,
+            "rank": 3,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 0,
+            "rank": 4,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 0,
+            "rank": 5,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 0,
+            "rank": 6,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 0,
+            "rank": 7,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 0,
+            "rank": 8,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 0,
+            "rank": 9,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 0,
+            "rank": 10,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 19,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 4,
+            "feature": 9,
+            "rank": 1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": 1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 8,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 11,
+            "rank": 1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 7,
+            "rank": 1,
+            "archType": -1
+          },
+          {
+            "level": 6,
+            "feature": 7,
+            "rank": 2,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 7,
+            "rank": 3,
+            "archType": -1
+          },
+          {
+            "level": 12,
+            "feature": 7,
+            "rank": 4,
+            "archType": -1
+          },
+          {
+            "level": 15,
+            "feature": 7,
+            "rank": 5,
+            "archType": -1
+          },
+          {
+            "level": 18,
+            "feature": 7,
+            "rank": 6,
+            "archType": -1
+          }
+        ],
+        [],
+        [
+          {
+            "level": 8,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 18,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        []
+      ]
+    },
+    {
+      "name": "Sylvan Trickster",
+      "id": "490394869f666c141bf8647b1a365220",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 0,
+            "rank": 2,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 0,
+            "rank": 3,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 0,
+            "rank": 4,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 0,
+            "rank": 5,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 0,
+            "rank": 6,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 0,
+            "rank": 7,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 0,
+            "rank": 8,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 0,
+            "rank": 9,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 0,
+            "rank": 10,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 9,
+            "rank": 1,
+            "archType": -1
+          },
+          {
+            "level": 10,
+            "feature": 23,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 18,
+            "feature": 24,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 21,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": 1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 8,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 11,
+            "rank": 1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 4,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 8,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 10,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 14,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 16,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 7,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 7,
+            "rank": 2,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 7,
+            "rank": 3,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 7,
+            "rank": 4,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 7,
+            "rank": 5,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 7,
+            "rank": 6,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 8,
+            "feature": 10,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 4,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 6,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 8,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 10,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 12,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 14,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 16,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 18,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [
+          {
+            "level": 8,
+            "feature": 22,
+            "rank": 1,
+            "archType": 1
+          },
+          {
+            "level": 11,
+            "feature": 22,
+            "rank": 2,
+            "archType": 1
+          },
+          {
+            "level": 14,
+            "feature": 22,
+            "rank": 3,
+            "archType": 1
+          },
+          {
+            "level": 17,
+            "feature": 22,
+            "rank": 4,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 22,
+            "rank": 5,
+            "archType": 1
+          }
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Underground Chemist",
+      "id": "b4f5741d42c4cb04abf5ab3fe33f6fc5",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 0,
+            "rank": 2,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 0,
+            "rank": 3,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 0,
+            "rank": 4,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 0,
+            "rank": 5,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 0,
+            "rank": 6,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 0,
+            "rank": 7,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 0,
+            "rank": 8,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 0,
+            "rank": 9,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 0,
+            "rank": 10,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 2,
+            "feature": 26,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 4,
+            "feature": 9,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 28,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 27,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": 1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 4,
+            "feature": 8,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 11,
+            "rank": 1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 7,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 7,
+            "rank": 2,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 7,
+            "rank": 3,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 7,
+            "rank": 4,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 7,
+            "rank": 5,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 7,
+            "rank": 6,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 8,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 25,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Rowdy",
+      "id": "4dbc4b7f2d5149ce83854bffa72035ce",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 0,
+            "rank": 2,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 0,
+            "rank": 3,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 0,
+            "rank": 4,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 0,
+            "rank": 5,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 0,
+            "rank": 6,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 0,
+            "rank": 7,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 0,
+            "rank": 8,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 0,
+            "rank": 9,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 0,
+            "rank": 10,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 9,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 32,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 11,
+            "feature": 33,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": 1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 4,
+            "feature": 8,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 11,
+            "rank": 1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 6,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 19,
+            "feature": 6,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 7,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 7,
+            "rank": 2,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 7,
+            "rank": 3,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 7,
+            "rank": 4,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 7,
+            "rank": 5,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 7,
+            "rank": 6,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 8,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 29,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 30,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 31,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Master of All",
+      "id": "bd4e70bfb89a452b876713d61b9b8eb2",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 0,
+            "rank": 2,
+            "archType": -1
+          },
+          {
+            "level": 5,
+            "feature": 0,
+            "rank": 3,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 0,
+            "rank": 4,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 0,
+            "rank": 5,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 0,
+            "rank": 6,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 0,
+            "rank": 7,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 0,
+            "rank": 8,
+            "archType": -1
+          },
+          {
+            "level": 17,
+            "feature": 0,
+            "rank": 9,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 0,
+            "rank": 10,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 9,
+            "rank": 1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": 1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 8,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 11,
+            "rank": 1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 7,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 7,
+            "rank": 2,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 7,
+            "rank": 3,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 7,
+            "rank": 4,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 7,
+            "rank": 5,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 7,
+            "rank": 6,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 8,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 34,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 35,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 35,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 15,
+            "feature": 35,
+            "rank": -1,
+            "archType": 1
+          }
+        ]
+      ]
+    }
   ]
 }

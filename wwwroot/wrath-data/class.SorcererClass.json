@@ -1,70 +1,179 @@
 {
-  "features": [
-    {
-      "name": "Sorcerer Proficiencies",
-      "desc": "Sorcerers are proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g}. They are not proficient with any type of armor or shield. Armor interferes with a sorcerer\u0027s gestures, which can cause her {g|Encyclopedia:Spell}spells{/g} with somatic components to fail.",
-      "icon": "gen__SP"
-    },
-    {
-      "name": "Cantrips",
-      "desc": "Sorcerers can cast a number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
-      "icon": "gen__C"
-    },
-    {
-      "name": "Bloodline",
-      "desc": "Each sorcerer has a source of magic somewhere in her heritage that grants her {g|Encyclopedia:Spell}spells{/g}, bonus {g|Encyclopedia:Feat}feats{/g}, an additional class {g|Encyclopedia:Skills}skill{/g}, and other {g|Encyclopedia:Special_Abilities}special abilities{/g}. This source can represent a blood relation or an extreme event involving a creature somewhere in the family\u0027s past. For example, a sorcerer might have a dragon as a distant relative or her grandfather might have signed a terrible contract with a devil. Regardless of the source, this influence manifests in a number of ways as the sorcerer gains levels. A sorcerer must pick one bloodline upon taking her first level of sorcerer. Once made, this choice cannot be changed.\nFilled with magical power that screams for release, sorcery is not so much a calling as a blessing \u2014 or a curse. For some sorcerers, this arcane birthright manifests in subtle and carefully controlled ways, assisting in their manipulation of others or the pursuit of lofty goals. For others, it is wild and unpredictable, the primal and explosive lashing out of a power greater than themselves.\nAt 3rd level, and every two levels thereafter, a sorcerer learns an additional spell, derived from her bloodline. These spells are in addition to the number of spells given at new levels. These spells cannot be exchanged for different spells at higher levels.\nAt 7th level, and every six levels thereafter, a sorcerer receives one bonus feat, chosen from a list specific to each bloodline. The sorcerer must meet the prerequisites for these bonus feats.",
-      "icon": "gen__B"
-    },
-    {
-      "name": "Sorcerer Bonus Feat",
-      "desc": "At 1st level, a sorcerer gains a bonus {g|Encyclopedia:Feat}feat{/g}. At each such opportunity, she can choose a metamagic feat, {g|Encyclopedia:Spell}spell{/g} focus feat, or any other spellcaster feat. The sorcerer must still meet all prerequisites for a bonus feat, including {g|Encyclopedia:Caster_Level}caster level{/g} minimums.",
-      "icon": "gen__SBF"
-    },
-    {
-      "name": "Bloodline Feat Selection",
-      "desc": "At 7th level, and every six levels thereafter, a sorcerer receives one bonus {g|Encyclopedia:Feat}feat{/g}, chosen from a list specific to each bloodline. The sorcerer must meet the prerequisites for these bonus feats.",
-      "icon": "gen__BFS"
-    }
-  ],
-  "progression": [
-    [],
-    [
-      0,
-      1,
-      2,
-      3
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      4
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      4
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      4
-    ],
-    []
-  ],
   "__ui-groups": [
     [
       3,
       4
     ]
+  ],
+  "features": [
+    {
+      "__index": 0,
+      "name": "Sorcerer Proficiencies",
+      "desc": "Sorcerers are proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g}. They are not proficient with any type of armor or shield. Armor interferes with a sorcerer\u0027s gestures, which can cause her {g|Encyclopedia:Spell}spells{/g} with somatic components to fail.",
+      "icon": "gen__SP"
+    },
+    {
+      "__index": 1,
+      "name": "Cantrips",
+      "desc": "Sorcerers can cast a number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
+      "icon": "gen__C"
+    },
+    {
+      "__index": 2,
+      "name": "Bloodline",
+      "desc": "Each sorcerer has a source of magic somewhere in her heritage that grants her {g|Encyclopedia:Spell}spells{/g}, bonus {g|Encyclopedia:Feat}feats{/g}, an additional class {g|Encyclopedia:Skills}skill{/g}, and other {g|Encyclopedia:Special_Abilities}special abilities{/g}. This source can represent a blood relation or an extreme event involving a creature somewhere in the family\u0027s past. For example, a sorcerer might have a dragon as a distant relative or her grandfather might have signed a terrible contract with a devil. Regardless of the source, this influence manifests in a number of ways as the sorcerer gains levels. A sorcerer must pick one bloodline upon taking her first level of sorcerer. Once made, this choice cannot be changed.\nFilled with magical power that screams for release, sorcery is not so much a calling as a blessing \u2014 or a curse. For some sorcerers, this arcane birthright manifests in subtle and carefully controlled ways, assisting in their manipulation of others or the pursuit of lofty goals. For others, it is wild and unpredictable, the primal and explosive lashing out of a power greater than themselves.\nAt 3rd level, and every two levels thereafter, a sorcerer learns an additional spell, derived from her bloodline. These spells are in addition to the number of spells given at new levels. These spells cannot be exchanged for different spells at higher levels.\nAt 7th level, and every six levels thereafter, a sorcerer receives one bonus feat, chosen from a list specific to each bloodline. The sorcerer must meet the prerequisites for these bonus feats.",
+      "icon": "gen__B"
+    },
+    {
+      "__index": 3,
+      "name": "Sorcerer Bonus Feat",
+      "desc": "At 1st level, a sorcerer gains a bonus {g|Encyclopedia:Feat}feat{/g}. At each such opportunity, she can choose a metamagic feat, {g|Encyclopedia:Spell}spell{/g} focus feat, or any other spellcaster feat. The sorcerer must still meet all prerequisites for a bonus feat, including {g|Encyclopedia:Caster_Level}caster level{/g} minimums.",
+      "icon": "gen__SBF"
+    },
+    {
+      "__index": 4,
+      "name": "Bloodline Feat Selection",
+      "desc": "At 7th level, and every six levels thereafter, a sorcerer receives one bonus {g|Encyclopedia:Feat}feat{/g}, chosen from a list specific to each bloodline. The sorcerer must meet the prerequisites for these bonus feats.",
+      "icon": "gen__BFS"
+    },
+    {
+      "__index": 5,
+      "name": "Empyreal Bloodline",
+      "desc": "Your heavenly power derives from insight rather than force of personality.",
+      "icon": "24592e942f5650148aa0d774257c6da3"
+    },
+    {
+      "__index": 6,
+      "name": "Cantrips",
+      "desc": "Sorcerers can cast a number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
+      "icon": "gen__C"
+    },
+    {
+      "__index": 7,
+      "name": "Sylvan Bloodline",
+      "desc": "Your ties to nature have more to do with creatures than with capriciousness.",
+      "icon": "736cb7b0def6ff147b921c75c54a81a0"
+    },
+    {
+      "__index": 8,
+      "name": "Animal Companion",
+      "desc": "Unlike normal animals of its kind, an animal companion\u0027s {g|Encyclopedia:Hit_Dice}Hit Dice{/g}, abilities, {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Feat}feats{/g} advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in {g|Encyclopedia:Size}size{/g} when their druid reaches 4th or 7th level, depending on the companion.",
+      "icon": "736cb7b0def6ff147b921c75c54a81a0"
+    },
+    {
+      "__index": 9,
+      "name": "Sage Sorcerer",
+      "desc": "Your magic comes from the knowledge and traditions that your bloodline accumulated through the generations, not just from force of personality. You use your {g|Encyclopedia:Intelligence}Intelligence{/g}, rather than your {g|Encyclopedia:Charisma}Charisma{/g}, to determine all class features and effects relating to your sorcerer class, such as bonus {g|Encyclopedia:Spell}spells{/g} per day, the maximum spell level you can cast, the {g|Encyclopedia:Saving_Throw}save{/g} DCs of your spells, and the number of daily uses of your bloodline powers.",
+      "icon": "15d11c952fdc96b45849f312f3931192"
+    },
+    {
+      "__index": 10,
+      "name": "Cantrips",
+      "desc": "Sorcerers can cast a number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
+      "icon": "gen__C"
+    },
+    {
+      "__index": 11,
+      "name": "Secondary Bloodline",
+      "desc": "A crossblooded sorcerer gains additional bloodline as a secondary bloodline. She receives only {g|Encyclopedia:Bonus}bonus{/g} class {g|Encyclopedia:Skills}skill{/g} and bonus {g|Encyclopedia:Spell}spells{/g} from this bloodline.",
+      "icon": "gen__SB"
+    },
+    {
+      "__index": 12,
+      "name": "Reduced Spellbook",
+      "desc": "A crossblooded sorcerer has one fewer spell known at each level than regular sorcerer.",
+      "icon": "gen__RS"
+    },
+    {
+      "__index": 13,
+      "name": "Seeker\u0027s Trapfinding",
+      "desc": "Seekers often look to ancient devices, old tomes, and strange magical items in order to learn more about their oracle mysteries. As a result of this curiosity and thanks to an innate knack at deciphering the strange and weird, a seeker gains {g|Encyclopedia:Trickery}Trickery{/g} as a class {g|Encyclopedia:Skills}skill{/g}. In addition, at 1st level, a seeker adds half his oracle level on Trickery skill {g|Encyclopedia:Check}checks{/g} (minimum \u002B1).",
+      "icon": "gen__ST"
+    },
+    {
+      "__index": 14,
+      "name": "Bloodline",
+      "desc": "Each sorcerer has a source of magic somewhere in her heritage that grants her {g|Encyclopedia:Spell}spells{/g}, bonus {g|Encyclopedia:Feat}feats{/g}, an additional class {g|Encyclopedia:Skills}skill{/g}, and other {g|Encyclopedia:Special_Abilities}special abilities{/g}. This source can represent a blood relation or an extreme event involving a creature somewhere in the family\u0027s past. For example, a sorcerer might have a dragon as a distant relative or her grandfather might have signed a terrible contract with a devil. Regardless of the source, this influence manifests in a number of ways as the sorcerer gains levels. A sorcerer must pick one bloodline upon taking her first level of sorcerer. Once made, this choice cannot be changed.\nFilled with magical power that screams for release, sorcery is not so much a calling as a blessing \u2014 or a curse. For some sorcerers, this arcane birthright manifests in subtle and carefully controlled ways, assisting in their manipulation of others or the pursuit of lofty goals. For others, it is wild and unpredictable, the primal and explosive lashing out of a power greater than themselves.\nAt 3rd level, and every two levels thereafter, a sorcerer learns an additional spell, derived from her bloodline. These spells are in addition to the number of spells given at new levels. These spells cannot be exchanged for different spells at higher levels.\nAt 7th level, and every six levels thereafter, a sorcerer receives one bonus feat, chosen from a list specific to each bloodline. The sorcerer must meet the prerequisites for these bonus feats.",
+      "icon": "gen__B"
+    },
+    {
+      "__index": 15,
+      "name": "Seeker Bonus Feat",
+      "desc": "At 5th, 10th and 15th level, Seeker gains a bonus {g|Encyclopedia:Feat}feat{/g} from the list:",
+      "icon": "gen__SBF"
+    },
+    {
+      "__index": 16,
+      "name": "Bloodline (Nine-Tailed Heir)",
+      "desc": "A nine tailed heir chooses sorcerer\u0027s bloodline as usual, but she will not learn additional {g|Encyclopedia:Spell}spells{/g} derived from her bloodline.\nAt 7th level, and every six levels thereafter, a nine-tailed heir receives one bonus {g|Encyclopedia:Feat}feat{/g}, chosen from a list specific to each bloodline. The nine-tailed heir must meet the prerequisites for these bonus feats.",
+      "icon": "gen__BN"
+    },
+    {
+      "__index": 17,
+      "name": "Magical Tail",
+      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
+      "icon": "8be423c9d9d24ef46918d747408e9192"
+    },
+    {
+      "__index": 18,
+      "name": "Magical Tail",
+      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
+      "icon": "8be423c9d9d24ef46918d747408e9192"
+    },
+    {
+      "__index": 19,
+      "name": "Magical Tail",
+      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
+      "icon": "8be423c9d9d24ef46918d747408e9192"
+    },
+    {
+      "__index": 20,
+      "name": "Magical Tail",
+      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
+      "icon": "8be423c9d9d24ef46918d747408e9192"
+    },
+    {
+      "__index": 21,
+      "name": "Magical Tail",
+      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
+      "icon": "8be423c9d9d24ef46918d747408e9192"
+    },
+    {
+      "__index": 22,
+      "name": "Magical Tail",
+      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
+      "icon": "8be423c9d9d24ef46918d747408e9192"
+    },
+    {
+      "__index": 23,
+      "name": "Magical Tail",
+      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
+      "icon": "8be423c9d9d24ef46918d747408e9192"
+    },
+    {
+      "__index": 24,
+      "name": "Magical Tail",
+      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
+      "icon": "8be423c9d9d24ef46918d747408e9192"
+    },
+    {
+      "__index": 25,
+      "name": "Magical Tail",
+      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
+      "icon": "8be423c9d9d24ef46918d747408e9192"
+    },
+    {
+      "__index": 26,
+      "name": "Overwhelming Penetration",
+      "desc": "At 1st level, an overwhelming mage gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Caster_Level}caster level{/g} {g|Encyclopedia:Check}checks{/g} made to overcome a target\u0027s {g|Encyclopedia:Spell_Resistance}spell resistance{/g}. This bonus increases by \u002B1 for every 6 levels thereafter.",
+      "icon": "gen__OP"
+    },
+    {
+      "__index": 27,
+      "name": "Overwhelming Spell",
+      "desc": "At 6th level, an overwhelming mage gains the ability to sacrifice a {g|Encyclopedia:Spell}spell{/g} slot of 3rd level or higher to increase the {g|Encyclopedia:Saving_Throw}saving throw{/g} {g|Encyclopedia:DC}DC{/g} of the next spell he casts during the next two {g|Encyclopedia:Combat_Round}rounds{/g}, equal to one third of the sacrificed spell level.",
+      "icon": "gen__OS"
+    }
   ],
   "name": "Sorcerer",
   "layout": [
@@ -73,7 +182,7 @@
         "level": 1,
         "feature": 0,
         "rank": -1,
-        "__debug": "SorcererProficiencies"
+        "archType": 0
       }
     ],
     [
@@ -81,7 +190,7 @@
         "level": 1,
         "feature": 1,
         "rank": -1,
-        "__debug": "SorcererCantripsFeature"
+        "archType": 0
       }
     ],
     [
@@ -89,7 +198,7 @@
         "level": 1,
         "feature": 2,
         "rank": -1,
-        "__debug": "SorcererBloodlineSelection"
+        "archType": 0
       }
     ],
     [
@@ -97,26 +206,624 @@
         "level": 1,
         "feature": 3,
         "rank": -1,
-        "__debug": "SorcererBonusFeat"
+        "archType": 0
       },
       {
         "level": 7,
         "feature": 4,
         "rank": -1,
-        "__debug": "SorcererFeatSelection"
+        "archType": 0
       },
       {
         "level": 13,
         "feature": 4,
         "rank": -1,
-        "__debug": "SorcererFeatSelection"
+        "archType": 0
       },
       {
         "level": 19,
         "feature": 4,
         "rank": -1,
-        "__debug": "SorcererFeatSelection"
+        "archType": 0
       }
     ]
+  ],
+  "archetypes": [
+    {
+      "name": "Empyreal Sorcerer",
+      "id": "aa00d945f7cf6c34c909a29a25f2df38",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 5,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 6,
+            "rank": -1,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Sylvan Sorcerer",
+      "id": "711d5024ecc75f346b9cda609c3a1f83",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 7,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 8,
+            "rank": -1,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Sage Sorcerer",
+      "id": "00b990c8be2117e45ae6514ee4ef561c",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 9,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 10,
+            "rank": -1,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Crossblooded",
+      "id": "e66a112ab57f69e418f1f11d5d2f3248",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 11,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 12,
+            "rank": -1,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Seeker",
+      "id": "7229db6fc0b07af4180e783eed43c4d9",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 13,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 14,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 5,
+            "feature": 15,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 10,
+            "feature": 15,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 15,
+            "feature": 15,
+            "rank": -1,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Nine Tailed Heir",
+      "id": "65a630aa291f65047b90a2af5df75d83",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 17,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 5,
+            "feature": 18,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 7,
+            "feature": 19,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 11,
+            "feature": 21,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 13,
+            "feature": 22,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 15,
+            "feature": 23,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 17,
+            "feature": 24,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 19,
+            "feature": 25,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 16,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Overwhelming Mage",
+      "id": "734917ec8b8542378c1d35519439d67f",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 27,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 7,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 13,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 19,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 26,
+            "rank": 1,
+            "archType": 1
+          },
+          {
+            "level": 7,
+            "feature": 26,
+            "rank": 2,
+            "archType": 1
+          },
+          {
+            "level": 13,
+            "feature": 26,
+            "rank": 3,
+            "archType": 1
+          },
+          {
+            "level": 19,
+            "feature": 26,
+            "rank": 4,
+            "archType": 1
+          }
+        ],
+        []
+      ]
+    }
   ]
 }

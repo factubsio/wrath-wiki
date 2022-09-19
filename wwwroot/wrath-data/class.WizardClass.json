@@ -1,76 +1,164 @@
 {
+  "__ui-groups": [
+    []
+  ],
   "features": [
     {
+      "__index": 0,
       "name": "Wizard Bonus Feat",
       "desc": "At 1st, 5th, 10th, 15th, and 20th level, a wizard gains a bonus {g|Encyclopedia:Feat}feat{/g}. At each such opportunity, he can choose a metamagic feat, {g|Encyclopedia:Spell}spell{/g} focus feat, or any other spellcaster feat. The wizard must still meet all prerequisites for a bonus feat, including {g|Encyclopedia:Caster_Level}caster level{/g} minimums.",
       "icon": "gen__WBF"
     },
     {
+      "__index": 1,
       "name": "Cantrips",
       "desc": "Wizards can cast a number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
       "icon": "gen__C"
     },
     {
+      "__index": 2,
       "name": "Specialist School",
       "desc": "A wizard can choose to specialize in one {g|Encyclopedia:Magic_School}school of magic{/g}, gaining additional {g|Encyclopedia:Spell}spells{/g} and powers based on that school. This choice must be made at 1st level, and once made, it cannot be changed. A wizard that does not select a school receives the universalist school instead.\nEach arcane school gives the wizard a number of school powers. In addition, specialist wizards receive an additional spell slot of each spell level he can cast, from 1st on up. Each day, a wizard can prepare a spell from his specialty school in that slot. This spell must be in the wizard\u0027s spellbook. A wizard can select a spell modified by a metamagic {g|Encyclopedia:Feat}feat{/g} to prepare in his school slot, but it uses up a higher-level spell slot. Wizards with the universalist school do not receive a school slot.",
       "icon": "gen__SS"
     },
     {
+      "__index": 3,
       "name": "Wizard Proficiencies",
       "desc": "Wizards are proficient with the club, dagger, heavy crossbow, light crossbow, and quarterstaff, but not with any type of armor or shield. Armor interferes with a wizard\u0027s movements, which can cause his {g|Encyclopedia:Spell}spells{/g} with somatic components to fail.",
       "icon": "gen__WP"
     },
     {
+      "__index": 4,
       "name": "Arcane Bond",
       "desc": "At 1st level, wizards form a powerful bond with an object or a creature. This bond can take one of two forms: a familiar or a bonded object. A familiar is a magical pet that enhances the wizard\u0027s {g|Encyclopedia:Skills}skills{/g} and senses, while a bonded object is an item a wizard can use to cast additional {g|Encyclopedia:Spell}spells{/g}.",
       "icon": "6257839464a212a41bcf625029a2a2dd"
     },
     {
+      "__index": 5,
       "name": "Scribe scrolls",
       "desc": "Allows you to craft scrolls during camping.",
       "icon": "gen__S"
+    },
+    {
+      "__index": 6,
+      "name": "Opposition School",
+      "desc": "A wizard that chooses to specialize in one {g|Encyclopedia:Magic_School}school of magic{/g} must select two other schools as his opposition schools, representing knowledge sacrificed in one area of arcane lore to gain mastery in another. A wizard who prepares {g|Encyclopedia:Spell}spells{/g} from his opposition schools must use two spell slots of that level to prepare the spell.",
+      "icon": "gen__OS"
+    },
+    {
+      "__index": 7,
+      "name": "Arcane Bombs",
+      "desc": "At 1st level, the arcane bomber gains an ability nearly identical to the alchemist\u0027s bomb ability. Unlike the alchemist, at 1st level, the arcane bomber chooses one type of energy from the following list: acid, cold, fire, and electricity. He can throw bombs of that type, but cannot modify them with discoveries. An arcane bomber can use a number of bombs each day equal to his {g|Encyclopedia:Class_Level}class level{/g} \u002B his {g|Encyclopedia:Intelligence}Intelligence{/g} modifier.\nThrown bombs have a range of 30 feet and use the Throw Splash Weapon special {g|Encyclopedia:Attack}attack{/g}. Bombs are considered weapons and can be selected using {g|Encyclopedia:Feat}feats{/g} such as Point-Blank Shot and Weapon Focus. On a direct hit, an arcane bomber\u0027s bomb inflicts {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Damage}damage{/g} of the chosen energy type \u002B additional damage equal to the arcane bomber\u0027s Intelligence modifier. The damage of an arcane bomber\u0027s bomb increases by 1d6 points at every odd-numbered arcane bomber level. Splash damage from an arcane bomber\u0027s bomb is always equal to the bomb\u0027s minimum damage (so if the bomb would deal 2d6\u002B4 points of damage of the chosen energy type on a direct hit, its splash damage would be 6 points of damage of chosen energy type). Those caught in the splash damage can attempt a {g|Encyclopedia:Saving_Throw}Reflex save{/g} for half damage. The {g|Encyclopedia:DC}DC{/g} of this save is equal to 10 \u002B 1/2 the arcane bomber\u0027s level \u002B the arcane bomber\u0027s Intelligence modifier.",
+      "icon": "gen__AB"
+    },
+    {
+      "__index": 8,
+      "name": "Spellblast Bombs",
+      "desc": "At 1st level, as a {g|Encyclopedia:Swift_Action}swift action{/g}, an arcane bomber can sacrifice one of his {g|Encyclopedia:Spell}spells{/g} to empower the next bomb he throws during his turn. When he does, he gains a {g|Encyclopedia:Bonus}bonus{/g} to hit with the next bomb he throws before the end of his turn equal to the level of the spell he sacrificed, and a bonus to {g|Encyclopedia:Damage}damage{/g} equal to twice the level of the spell.",
+      "icon": "111096ed195a9114ab106ec8ab938d4c"
+    },
+    {
+      "__index": 9,
+      "name": "Thassilonian Specialist",
+      "desc": "Benefits: A Thassilonian specialist wizard receives two additional {g|Encyclopedia:Spell}spell{/g} slots of each spell level he can cast. These bonus spell slots must both be used to prepare the same spell from the wizard\u0027s school of specialization, allowing the wizard to cast that spell twice. The wizard cannot use these slots to prepare two different spells, even if they are of the school he is specialized in.\nRestrictions: A Thassilonian specialist does not get to customize his choice for opposition schools \u2014 that choice is selected for him when he chooses his specialization. These restrictions are more significant than those most wizards follow, and are known as prohibited schools. A Thassilonian wizard can never prepare a spell that is in one of his prohibited schools \u2014 he treats these spells as if they were not on the wizard spell list. If using a spell trigger or spell completion item to cast a spell from one of his prohibited schools, he must use the {g|Encyclopedia:Use_Magic_Device}Use Magic Device{/g} {g|Encyclopedia:Skills}skill{/g} to do so.",
+      "icon": "gen__TS"
+    },
+    {
+      "__index": 10,
+      "name": "Scroll Focus",
+      "desc": "A scroll savant adds half his {g|Encyclopedia:Class_Level}class level{/g} (minimum 1) as a {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Use_Magic_Device}Use Magic Device checks{/g}. He will always take 10 on Use Magic Device {g|Encyclopedia:Check}checks{/g} to cast a {g|Encyclopedia:Spell}spell{/g} from a scroll if 10 on a {g|Encyclopedia:Dice}roll{/g} is enough for a successful {g|Encyclopedia:Skills}skill check{/g}.",
+      "icon": "gen__SF"
+    },
+    {
+      "__index": 11,
+      "name": "Scroll Specialization",
+      "desc": "At 5th level, whenever the scroll savant uses a\u00A0scroll, he calculates the {g|Encyclopedia:DC}DC{/g} for any {g|Encyclopedia:Spell}spell{/g} it contains using his\u00A0{g|Encyclopedia:Intelligence}Intelligence{/g}\u00A0modifier, instead of the minimum modifier needed to cast a spell of that level.",
+      "icon": "gen__SS"
+    },
+    {
+      "__index": 12,
+      "name": "Scroll Mastery",
+      "desc": "At 10th level, a scroll savant can use his own {g|Encyclopedia:Caster_Level}caster level{/g} instead of the item\u0027s caster level when using a scroll.",
+      "icon": "gen__SM"
+    },
+    {
+      "__index": 13,
+      "name": "Arcane Reservoir",
+      "desc": "An arcanist has an innate pool of magical energy that she can draw upon to fuel her arcanist exploits and enhance her {g|Encyclopedia:Spell}spells{/g}. The arcanist\u0027s arcane reservoir can hold a maximum amount of magical energy equal to 3 \u002B the arcanist\u0027s level. Each day, when preparing spells, the arcanist\u0027s arcane reservoir fills with raw magical energy, gaining a number of points equal to 3 \u002B half her arcanist level. Any points she had from the previous day are lost. She can also regain these points through the consume spells class feature and some arcanist exploits. The arcane reservoir can never hold more points than the maximum amount noted above; points gained in excess of this total are lost.\nPoints from the arcanist reservoir are used to fuel many of the arcanist\u0027s powers. In addition, the arcanist can expend 1 point from her arcane reservoir as a {g|Encyclopedia:Free_Action}free action{/g} whenever she casts an arcanist spell. If she does, she can choose to increase the {g|Encyclopedia:Caster_Level}caster level{/g} by 1 or increase the spell\u0027s {g|Encyclopedia:DC}DC{/g} by 1. She can expend no more than 1 point from her reservoir on a given spell in this way.",
+      "icon": "9adc084dc47b0c44eaf3bd92e7732c34"
+    },
+    {
+      "__index": 14,
+      "name": "Exploiter Exploit",
+      "desc": "At 1st level and every 4 levels thereafter, the exploiter wizard gains a single arcanist exploit. An exploiter wizard exploit cannot be selected more than once. Once an exploiter wizard exploit has been selected, it cannot be changed. Most exploiter wizard exploits require the exploiter wizard to expend points from her arcane reservoir to function. Unless otherwise noted, the {g|Encyclopedia:Saving_Throw}saving throw{/g} {g|Encyclopedia:DC}DC{/g} for an exploiter wizard exploit is equal to 10 \u002B half the wizard\u0027s level \u002B the wizard\u0027s {g|Encyclopedia:Intelligence}Intelligence{/g} modifier.",
+      "icon": "15d11c952fdc96b45849f312f3931192"
+    },
+    {
+      "__index": 15,
+      "name": "Greater Exploits",
+      "desc": "At 11th level and every 2 levels thereafter, an arcanist can choose one of the greater exploits in place of an arcanist exploit.",
+      "icon": "gen__GE"
+    },
+    {
+      "__index": 16,
+      "name": "Specialist School \u2014 Evocation",
+      "desc": "Evokers revel in the raw power of magic, and can use it to create and destroy with shocking ease.\nIntense {g|Encyclopedia:Spell}Spells{/g}: Whenever you cast an evocation spell that deals hit point {g|Encyclopedia:Damage}damage{/g}, add 1/2 your wizard level to the damage (minimum \u002B1). This {g|Encyclopedia:Bonus}bonus{/g} only applies once to a spell, not once per missile or ray, and cannot be split between multiple missiles or rays. This damage is of the same type as the spell. At 20th level, whenever you cast an Evocation spell, you can {g|Encyclopedia:Dice}roll{/g} twice to penetrate a creature\u0027s {g|Encyclopedia:Spell_Resistance}spell resistance{/g} and take the better result.\nForce Missile: As a {g|Encyclopedia:Standard_Actions}standard action{/g}, you can unleash a force missile that automatically strikes a foe, as magic missile. The force missile deals 1d4 points of damage plus the damage from your intense spells evocation power. This is a force effect. You can use this ability a number of times per day equal to 3 \u002B your {g|Encyclopedia:Intelligence}Intelligence{/g} modifier.\nElemental Wall: At 8th level, one per day you can create a wall of energy. You can choose fire, cold, acid or {g|Encyclopedia:Energy_Damage}electricity damage{/g}. The elemental wall otherwise functions like wall of fire. At 12th level and every 4 levels thereafter, you can use this ability one additional time per day, to a maximum of 4 times at level 20.",
+      "icon": "be681571f9dd5e74ca5aa7c323936c27"
+    },
+    {
+      "__index": 17,
+      "name": "Focused Element",
+      "desc": "At 1st level, elemental specialist selects one element. He gains the ability to convert elemental {g|Encyclopedia:Spell}spell{/g} {g|Encyclopedia:Damage}damage{/g} to his chosen element.\nAt 15th level, his spells of the chosen element also deal half of the damage as untyped damage.",
+      "icon": "gen__FE"
+    },
+    {
+      "__index": 18,
+      "name": "Specialist School \u2014 Universalist",
+      "desc": "Wizards who do not specialize (known as as universalists) have the most diversity of all arcane {g|Encyclopedia:Spell}spellcasters{/g}.\nHand of the Apprentice: You cause your melee weapon to fly from your grasp and strike a foe before instantly returning to you. As a {g|Encyclopedia:Standard_Actions}standard action{/g}, you can make a single {g|Encyclopedia:Attack}attack{/g} using a melee weapon at a range of 30 feet. This attack is treated as a {g|Encyclopedia:RangedAttack}ranged attack{/g} with a thrown weapon, except that you add your {g|Encyclopedia:Intelligence}Intelligence{/g} modifier on the attack {g|Encyclopedia:Dice}roll{/g} instead of your {g|Encyclopedia:Dexterity}Dexterity{/g} modifier ({g|Encyclopedia:Damage}damage{/g} still relies on {g|Encyclopedia:Strength}Strength{/g}). This ability cannot be used to perform a {g|Encyclopedia:Combat_Maneuvers}combat maneuver{/g}. You can use this ability a number of times per day equal to 3 \u002B your Intelligence modifier.\nMetamagic Mastery: At 8th level, you can extend or alter the range of your next spell as though using the Extend or {g|Encyclopedia:Reach}Reach{/g} spell {g|Encyclopedia:Feat}feat{/g} accordingly. You can use this ability once per day at 8th level and one additional time per day for every two wizard levels you possess beyond 8th.\nExtend spell: An extended spell lasts twice as long as normal. A spell with a duration of {g|Encyclopedia:Concentration}concentration{/g}, instantaneous, or permanent is not affected by this feat.\nReach spell: You can alter a spell with a range of {g|Encyclopedia:TouchAttack}touch{/g}, close, or medium to increase its range by one range category, using the following order: touch, close, medium, and long. Spells modified by this feat that require melee touch attacks instead require ranged touch attacks.\nAt 12th level, you can empower your next spell as though using the Empower Spell feat. Empowering costs 2 daily usages of metamagic mastery.\nEmpowered spell: All variable, numeric effects of an empowered spell are increased by half including {g|Encyclopedia:Bonus}bonuses{/g} to those dice rolls. {g|Encyclopedia:Saving_Throw}Saving throws{/g} and opposed rolls are not affected, nor are spells without random variables.\nAt 16th level, you can maximize your next spell as though using the Maximize Spell feat. Maximizing costs 3 daily usages of metamagic mastery.\nMaximized spell: All variable, numeric effects of a spell modified by this feat are maximized. Saving throws and opposed rolls are not affected, nor are spells without random variables.\nAt 20th level, you can quicken your next spell as though using the Quicken Spell feat. Quickening costs 4 daily usages of metamagic mastery.\nQuicken Spell: Casting a quickened spell is a {g|Encyclopedia:Swift_Action}swift action{/g}. You can perform another {g|Encyclopedia:CA_Types}action{/g}, even casting another spell, in the same {g|Encyclopedia:Combat_Round}round{/g} as you cast a quickened spell. A spell whose {g|Encyclopedia:Casting_Time}casting time{/g} is more than 1 round or 1 {g|Encyclopedia:Full_Round_Action}full-round action{/g} cannot be quickened.",
+      "icon": "ebb20d8bd4dd4f247bfc36e5f3deeab2"
+    },
+    {
+      "__index": 19,
+      "name": "Arcane Bond \u2014 Object",
+      "desc": "A bonded object can be used once per day to restore any one {g|Encyclopedia:Spell}spell{/g} that the wizard had prepared for this day.",
+      "icon": "6257839464a212a41bcf625029a2a2dd"
+    },
+    {
+      "__index": 20,
+      "name": "Focused Spells",
+      "desc": "At 1st level, once per day the {g|Encyclopedia:Spell}spell{/g} master\u0027s understanding of spells allows him to increase his {g|Encyclopedia:Caster_Level}caster level{/g} by 4 for a single spell cast. He can do this twice per day at 8th level, and three times per day at 16th level.",
+      "icon": "gen__FS"
+    },
+    {
+      "__index": 21,
+      "name": "Item Bond Specialization",
+      "desc": "At 5th level and every 5 levels thereafter, {g|Encyclopedia:Spell}Spell{/g} Master gains an additional use of his Item Bond class feature.",
+      "icon": "gen__IBS"
+    },
+    {
+      "__index": 22,
+      "name": "Blood Infusion",
+      "desc": "When a cruoromancer casts a {g|Encyclopedia:Spell}spell{/g} of the necromancy school, he can opt to infuse that spell with his undead-tainted blood as a {g|Encyclopedia:Swift_Action}swift action{/g}. As he increases in level, the power and effects of such infusions become more potent. Each time a cruoromancer uses blood infusion, he drains a portion of his own blood either by cutting himself with a blade or by opening a scab from a previous wound. When he does this, he takes an amount of {g|Encyclopedia:Damage}damage{/g} equal to {g|Encyclopedia:Dice}1d4{/g} \u002B half his wizard level. A cruoromancer can only affect a spell with a single type of blood infusion.\nAt 1st level, he can infuse his Necromancy spells in either of the following ways:\nFocused Infusion: When the cruoromancer uses this infusion, he adds \u002B1 to the {g|Encyclopedia:DC}DC{/g} of the infused Necromancy spell.\nSickening Infusion: When the cruoromancer uses this infusion, any creature damaged by the infused Necromancy spell becomes sickened for 1 {g|Encyclopedia:Combat_Round}round{/g}.",
+      "icon": "gen__BI"
+    },
+    {
+      "__index": 23,
+      "name": "Specialist School \u2014 Necromancy",
+      "desc": "The dread and feared necromancer commands undead and uses the foul power of unlife against his enemies.\nPower over Undead: You receive Turn Undead as a bonus {g|Encyclopedia:Feat}feat{/g}. You can channel energy a number of times per day equal to 3 \u002B your {g|Encyclopedia:Intelligence}Intelligence{/g} modifier, but only to use this feat. The {g|Encyclopedia:DC}DC{/g} to {g|Encyclopedia:Saving_Throw}save{/g} against these feats is equal to 10 \u002B 1/2 your wizard level \u002B your {g|Encyclopedia:Charisma}Charisma{/g} modifier. At 20th level, undead cannot add their channel resistance to the save against this ability.\nGrave {g|Encyclopedia:TouchAttack}Touch{/g}: As a {g|Encyclopedia:Standard_Actions}standard action{/g}, you can make a melee touch {g|Encyclopedia:Attack}attack{/g} that causes a living creature to become shaken for a number of {g|Encyclopedia:Combat_Round}rounds{/g} equal to 1/2 your wizard level (minimum 1). If you touch a shaken creature with this ability, it becomes frightened for 1 round if it has fewer {g|Encyclopedia:Hit_Dice}Hit Dice{/g} than your wizard level. You can use this ability a number of times per day equal to 3 \u002B your Intelligence modifier.\nLife Sight: At 8th level, you gain blindsight to a range of 10 feet for a number of rounds per day equal to your wizard level. This ability only allows you to detect living creatures and undead creatures. This sight also tells you whether a creature is living or undead. Constructs and other creatures that are neither living nor undead cannot be seen with this ability. The range of this ability increases by 10 feet at 12th level, and by an additional 10 feet for every four levels beyond 12th. These rounds do not need to be consecutive.",
+      "icon": "3392ed4ccb6718c4cb3a928a446bd292"
+    },
+    {
+      "__index": 24,
+      "name": "Commanding Infusion",
+      "desc": "When using this infusion with animate dead, the summoned skeletons gain \u002B4 enhancement {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Strength}Strength{/g} and {g|Encyclopedia:Constitution}Constitution{/g}, as if affected by Augment Summoning {g|Encyclopedia:Feat}feat{/g}.",
+      "icon": "gen__CI"
+    },
+    {
+      "__index": 25,
+      "name": "Perfect Infusion",
+      "desc": "At 20th level, a cruoromancer can use his blood infusions without taking {g|Encyclopedia:Damage}damage{/g}.",
+      "icon": "gen__PI"
     }
-  ],
-  "progression": [
-    [],
-    [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    [],
-    [],
-    [],
-    [
-      0
-    ],
-    [],
-    [],
-    [],
-    [],
-    [
-      0
-    ],
-    [],
-    [],
-    [],
-    [],
-    [
-      0
-    ],
-    [],
-    [],
-    [],
-    [],
-    [
-      0
-    ]
-  ],
-  "__ui-groups": [
-    []
   ],
   "name": "Wizard",
   "layout": [
@@ -79,31 +167,31 @@
         "level": 1,
         "feature": 0,
         "rank": -1,
-        "__debug": "WizardFeatSelection"
+        "archType": 0
       },
       {
         "level": 5,
         "feature": 0,
         "rank": -1,
-        "__debug": "WizardFeatSelection"
+        "archType": 0
       },
       {
         "level": 10,
         "feature": 0,
         "rank": -1,
-        "__debug": "WizardFeatSelection"
+        "archType": 0
       },
       {
         "level": 15,
         "feature": 0,
         "rank": -1,
-        "__debug": "WizardFeatSelection"
+        "archType": 0
       },
       {
         "level": 20,
         "feature": 0,
         "rank": -1,
-        "__debug": "WizardFeatSelection"
+        "archType": 0
       }
     ],
     [
@@ -111,7 +199,7 @@
         "level": 1,
         "feature": 1,
         "rank": -1,
-        "__debug": "WizardCantripsFeature"
+        "archType": 0
       }
     ],
     [
@@ -119,7 +207,7 @@
         "level": 1,
         "feature": 2,
         "rank": -1,
-        "__debug": "SpecialistSchoolSelection"
+        "archType": 0
       }
     ],
     [
@@ -127,7 +215,7 @@
         "level": 1,
         "feature": 3,
         "rank": -1,
-        "__debug": "WizardProficiencies"
+        "archType": 0
       }
     ],
     [
@@ -135,7 +223,7 @@
         "level": 1,
         "feature": 4,
         "rank": -1,
-        "__debug": "ArcaneBondSelection"
+        "archType": 0
       }
     ],
     [
@@ -143,8 +231,785 @@
         "level": 1,
         "feature": 5,
         "rank": -1,
-        "__debug": "ScribingScrolls"
+        "archType": 0
       }
     ]
+  ],
+  "archetypes": [
+    {
+      "name": "Arcane Bomber",
+      "id": "17b26d5302cd3e243a281a0beec6256b",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 6,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 6,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 6,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 6,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 7,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 8,
+            "rank": -1,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Thassilonian Specialist",
+      "id": "55a8ce15e30d71547a44c69bb2e8a84f",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 9,
+            "rank": -1,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Scroll Savant",
+      "id": "f43c78692a4e10d43a38bd6aedf53c1b",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 5,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 10,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 15,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 11,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 10,
+            "feature": 12,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 10,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Exploiter Wizard",
+      "id": "6d2027b4eec590c41adb5caeb7bb026d",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 15,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 13,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 14,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 5,
+            "feature": 14,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 14,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 13,
+            "feature": 14,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 17,
+            "feature": 14,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        []
+      ]
+    },
+    {
+      "name": "Elemental Specialist",
+      "id": "c4a866cef5134632a8a3ef5696f45a5b",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 16,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 6,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 17,
+            "rank": -1,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Spell Master",
+      "id": "bb571f1b6cea462e99db7893685a0982",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 10,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 20,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 18,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 19,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 5,
+            "feature": 21,
+            "rank": 1,
+            "archType": 1
+          },
+          {
+            "level": 10,
+            "feature": 21,
+            "rank": 2,
+            "archType": 1
+          },
+          {
+            "level": 15,
+            "feature": 21,
+            "rank": 3,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 21,
+            "rank": 4,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Cruoromancer",
+      "id": "8789dcfc6f8e4fe49d80b90472ea6993",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 10,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 24,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 25,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 22,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 23,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        []
+      ]
+    }
   ]
 }

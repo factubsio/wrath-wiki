@@ -1,5 +1,5 @@
-﻿@page "/class-progression/{ClassName}/{ArchetypeName}"
-@page "/wrath-wiki/class-progression/{ClassName}/{ArchetypeName}"
+﻿@page "/class-progression/{ClassName}/{ArchetypeName?}"
+@page "/wrath-wiki/class-progression/{ClassName}/{ArchetypeName?}"
 @using System.Text.Json
 @inject HttpClient Http
 
@@ -28,18 +28,18 @@ else
 				<tr>
 					<td colspan="20"><div class="banner"><span>@(model.name)</span></div></td>
 				</tr>
-				@foreach (var row in model.Rows)
+				@foreach (var row in Rows)
 				{
 					<tr>
-						@foreach (var (f, rank) in row)
+						@foreach (var (f, rank, last, addRemove) in row)
 						{
 							@if (f == -1)
 							{
-								<td class="chupa-slot"></td>
+								<td class="chupa-slot @(last ? "last-level" : "")"></td>
 							}
 							else if (model.features[f].icon != null)
 							{
-								<td class="chupa-slot">
+								<td class="chupa-slot @(last ? "last-level" : "")">
 									<div class="feature">
 										<img class="progression-feature" src="icons/@(model.features[f].icon).png">
 										@*<img class="selection-badge" src="/icons-custom/selection.png">*@
@@ -47,12 +47,20 @@ else
 										{
 											<div class="rank-badge">@(rank)</div>
 										}
+										@if (addRemove == -1)
+										{
+											<div class="feature-removed"></div>
+										}
+										@if (addRemove == 1)
+										{
+											<div class="feature-added"></div>
+										}
 									</div>
 								</td>
 							}
 							else
 							{
-								<td class="chupa-slot">@model.RenderFeature(f, rank)</td>
+								<td class="chupa-slot @(last ? "last-level" : "")">@model.RenderFeature(f, rank)</td>
 							}
 						}
 					</tr>
@@ -90,17 +98,36 @@ else
 		public int level;
 		public int feature;
 		public int rank;
+		public int archType;
+	}
+
+	public class Archetype
+	{
+		public string id = "";
+		public string name = "";
+		public List<List<RowEntry>> layout = new();
+	}
+
+	public IEnumerable<IEnumerable<(int, int, bool, int)>> Rows
+	{
+		get {
+			if (ArchetypeName == null)
+				return model!.Rows(model!.layout);
+			else
+				return model!.Rows(model!.archetypes.First(a => a.name.Equals(ArchetypeName, StringComparison.OrdinalIgnoreCase))!.layout);
+		}
 	}
 
 	public class Progression
 	{
+		public List<Archetype> archetypes = new();
 		public List<LocalFeature> features = new();
 		public List<List<RowEntry>> layout = new();
 		public string? name;
 
-		public IEnumerable<IEnumerable<(int, int)>> Rows => layout.OrderByDescending(r => r.Count).Select(ExpandRow);
+		public IEnumerable<IEnumerable<(int, int, bool, int)>> Rows(List<List<RowEntry>> layout) => layout.OrderByDescending(r => r.Count).Where(r => r.Count > 0).Select(ExpandRow);
 
-		public static IEnumerable<(int, int)> ExpandRow(List<RowEntry> row)
+		private static IEnumerable<(int, int, bool, int)> ExpandRow(List<RowEntry> row)
 		{
 
 			var next = row.GetEnumerator();
@@ -109,12 +136,12 @@ else
 			{
 				if (n && next.Current.level == i)
 				{
-					yield return (next.Current.feature, next.Current.rank);
+					yield return (next.Current.feature, next.Current.rank, i == 20, next.Current.archType);
 					n = next.MoveNext();
 				}
 				else
 				{
-					yield return (-1, -1);
+					yield return (-1, -1, i == 20, 0);
 				}
 			}
 		}

@@ -1,70 +1,43 @@
 {
+  "__ui-groups": [],
   "features": [
     {
+      "__index": 0,
       "name": "Winter Witch Spellbook",
       "desc": "When a new winter witch level is gained, the character gains new {g|Encyclopedia:Spell}spells{/g} per day as if she had also gained a level in witch or shaman spellcasting class she belonged to before she added the prestige class. Additionally, at 2nd level, and every two level after, a winter witch gets a new hex depending on the chosen spellcasting class.",
       "icon": "gen__WWS"
     },
     {
+      "__index": 1,
       "name": "Cold Specialization",
       "desc": "At 1st level, a winter witch\u0027s mastery of the cold becomes so great that any {g|Encyclopedia:Spell}spell{/g} with cold descriptor she casts has its {g|Encyclopedia:Saving_Throw}saving throw{/g} {g|Encyclopedia:DC}DC{/g} increased by 1. Additionally, all spells with fire descriptor she casts have their saving throw DC decreased by 1.\nAt 5th and 10th level this {g|Encyclopedia:Bonus}bonus{/g} and {g|Encyclopedia:Penalty}penalty{/g} are increased by 1, up to a maximum of 3.",
       "icon": "gen__CS"
     },
     {
+      "__index": 2,
       "name": "Frost Power",
       "desc": "Winter witch levels stack with shaman levels to determine the power of shaman hexes and frost spirit abilities, and with witch levels to determine the power of witch hexes and access to major and grand hexes, and for acquiring patron {g|Encyclopedia:Spell}spells{/g}.",
       "icon": "gen__FP"
     },
     {
+      "__index": 3,
       "name": "Freezing Cold",
       "desc": "At 3rd level, a winter witch\u0027s {g|Encyclopedia:Spell}spells{/g} become incredibly cold, increasing their {g|Encyclopedia:Caster_Level}caster level{/g} by 1. At 6th level this {g|Encyclopedia:Bonus}bonus{/g} increases to 2.",
       "icon": "gen__FC"
     },
     {
+      "__index": 4,
       "name": "Freezing Cold",
       "desc": "At 3rd level, a winter witch\u0027s {g|Encyclopedia:Spell}spells{/g} become incredibly cold, increasing their {g|Encyclopedia:Caster_Level}caster level{/g} by 1. At 6th level this {g|Encyclopedia:Bonus}bonus{/g} increases to 2.",
       "icon": "gen__FC"
     },
     {
+      "__index": 5,
       "name": "Unearthly Cold",
       "desc": "At 8th level, a winter witch\u0027s {g|Encyclopedia:Spell}spells{/g} that deal {g|Encyclopedia:Energy_Damage}cold damage{/g} become horrendously cold. Half the cold {g|Encyclopedia:Damage}damage{/g} caused by these effects comes from an otherworldly power and is not subject to being reduced by resistance or immunity to cold-based {g|Encyclopedia:Attack}attacks{/g}.",
       "icon": "gen__UC"
     }
   ],
-  "progression": [
-    [],
-    [
-      0,
-      1,
-      2
-    ],
-    [],
-    [
-      3
-    ],
-    [],
-    [],
-    [
-      4
-    ],
-    [],
-    [
-      5
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
-  ],
-  "__ui-groups": [],
   "name": "Winter Witch",
   "layout": [
     [
@@ -72,25 +45,25 @@
         "level": 1,
         "feature": 0,
         "rank": -1,
-        "__debug": "WinterWitchSpellbookSelection"
+        "archType": 0
       },
       {
         "level": 3,
         "feature": 3,
         "rank": -1,
-        "__debug": "WinterWitchFreezingCold"
+        "archType": 0
       },
       {
         "level": 6,
         "feature": 4,
         "rank": -1,
-        "__debug": "WinterWitchFreezingColdUpgradeFeature"
+        "archType": 0
       },
       {
         "level": 8,
         "feature": 5,
         "rank": -1,
-        "__debug": "WinterWitchUnearthlyCold"
+        "archType": 0
       }
     ],
     [
@@ -98,7 +71,7 @@
         "level": 1,
         "feature": 1,
         "rank": -1,
-        "__debug": "WinterWitchColdSpecialization"
+        "archType": 0
       }
     ],
     [
@@ -106,11 +79,12 @@
         "level": 1,
         "feature": 2,
         "rank": -1,
-        "__debug": "WinterWitchFrostPower"
+        "archType": 0
       }
     ],
     [],
     [],
     []
-  ]
+  ],
+  "archetypes": []
 }

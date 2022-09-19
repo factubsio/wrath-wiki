@@ -1,92 +1,157 @@
 {
+  "__ui-groups": [],
   "features": [
     {
+      "__index": 0,
       "name": "Cantrips",
       "desc": "Arcanists can cast number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they do not consume spell slots.",
       "icon": "gen__C"
     },
     {
+      "__index": 1,
       "name": "Arcanist Proficiencies",
       "desc": "Arcanists are proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g}. They are not proficient with any type of armor or shield. Armor interferes with an arcanist\u0027s gestures, which can cause her {g|Encyclopedia:Spell}spells{/g} with somatic components to fail.",
       "icon": "gen__AP"
     },
     {
+      "__index": 2,
       "name": "Arcane Reservoir",
       "desc": "An arcanist has an innate pool of magical energy that she can draw upon to fuel her arcanist exploits and enhance her {g|Encyclopedia:Spell}spells{/g}. The arcanist\u0027s arcane reservoir can hold a maximum amount of magical energy equal to 3 \u002B the arcanist\u0027s level. Each day, when preparing spells, the arcanist\u0027s arcane reservoir fills with raw magical energy, gaining a number of points equal to 3 \u002B half her arcanist level. Any points she had from the previous day are lost. She can also regain these points through the consume spells class feature and some arcanist exploits. The arcane reservoir can never hold more points than the maximum amount noted above; points gained in excess of this total are lost.\nPoints from the arcanist reservoir are used to fuel many of the arcanist\u0027s powers. In addition, the arcanist can expend 1 point from her arcane reservoir as a {g|Encyclopedia:Free_Action}free action{/g} whenever she casts an arcanist spell. If she does, she can choose to increase the {g|Encyclopedia:Caster_Level}caster level{/g} by 1 or increase the spell\u0027s {g|Encyclopedia:DC}DC{/g} by 1. She can expend no more than 1 point from her reservoir on a given spell in this way.",
       "icon": "9adc084dc47b0c44eaf3bd92e7732c34"
     },
     {
+      "__index": 3,
       "name": "Consume Spells",
       "desc": "At 1st level, an arcanist can expend an available arcanist {g|Encyclopedia:Spell}spell{/g} slot as a {g|Encyclopedia:Move_Action}move action{/g}, making it unavailable for the rest of the day, just as if she had used it to cast a spell. She can use this ability a number of times per day equal to her {g|Encyclopedia:Charisma}Charisma{/g} modifier (minimum 1). Doing this adds a number of points to her arcane reservoir equal to the level of the spell slot consumed. She cannot consume {g|Encyclopedia:Cantrips_Orisons}cantrips{/g} (0 level spells) in this way. Points gained in excess of the reservoir\u0027s maximum are lost.",
       "icon": "75adafb59a8fa904f885a9a4fa16fc95"
     },
     {
+      "__index": 4,
       "name": "Arcanist Exploits",
       "desc": "By bending and sometimes even breaking the rules of magic, the arcanist learns to exploit gaps and exceptions in the laws of magic. Some of these exploits allow her to break down various forms of magic, adding their essence to her arcane reservoir. At 1st level and every 2 levels thereafter, the arcanist learns a new arcane exploit. An arcanist exploit cannot be selected more than once. Once an arcanist exploit has been selected, it cannot be changed. Most arcanist exploits require the arcanist to expend points from her arcane reservoir to function. Unless otherwise noted, the {g|Encyclopedia:Saving_Throw}saving throw{/g} {g|Encyclopedia:DC}DC{/g} for an arcanist exploit is equal to 10 \u002B half the arcanist\u0027s level \u002B the arcanist\u0027s {g|Encyclopedia:Charisma}Charisma{/g} modifier.",
       "icon": "15d11c952fdc96b45849f312f3931192"
     },
     {
+      "__index": 5,
       "name": "Greater Exploits",
       "desc": "At 11th level and every 2 levels thereafter, an arcanist can choose one of the greater exploits in place of an arcanist exploit.",
       "icon": "gen__GE"
     },
     {
+      "__index": 6,
       "name": "Magical Supremacy",
       "desc": "At 20th level, the arcanist learns how to convert her arcane reservoir into {g|Encyclopedia:Spell}spells{/g} and back again. She can cast any spell she has prepared by expending a number of points from her arcane reservoir equal to the level of the spell to be cast instead of expending a spell slot.",
       "icon": "gen__MS"
+    },
+    {
+      "__index": 7,
+      "name": "Powerful Change",
+      "desc": "At 3rd level, the brown-fur transmuter learns to harness the power of her magic to empower her transmutations. Whenever the brown-fur transmuter casts a transmutation {g|Encyclopedia:Spell}spell{/g} using one of her arcanist spell slots, she can expend 1 point from her arcane reservoir as a {g|Encyclopedia:Free_Action}free action{/g} to bolster the spell. If the spell grants a {g|Encyclopedia:Bonus}bonus{/g} to an {g|Encyclopedia:Ability_Scores}ability score{/g}, the bonus then increases by 2. The brown-fur transmuter cannot expend more than 1 point from her arcane reservoir in this way.",
+      "icon": "59321f61ffe8274459794b35cda42265"
+    },
+    {
+      "__index": 8,
+      "name": "Share Transmutation",
+      "desc": "At 9th level, the brown-fur transmuter can target others with her transmutation {g|Encyclopedia:Spell}spells{/g}. A brown-fur transmuter can expend 1 point from her arcane reservoir to change any transmutation spell with a range of personal to a range of {g|Encyclopedia:TouchAttack}touch{/g}.",
+      "icon": "3543e4da38cd6db4d84e17b006a311a2"
+    },
+    {
+      "__index": 9,
+      "name": "Transmutation Supremacy",
+      "desc": "At 20th level, the brown-fur transmuter learns to fully master the power of transmutation. Whenever she casts a transmutation {g|Encyclopedia:Spell}spell{/g}, it is treated as it were affected by the Extend Spell {g|Encyclopedia:Feat}feat{/g} without altering the {g|Encyclopedia:Casting_Time}casting time{/g} or slot used. Whenever she uses her powerful change ability, the {g|Encyclopedia:Bonus}bonus{/g} increases by 4 instead of 2. Her share transmutation ability can now target a willing creature within close range.",
+      "icon": "gen__TS"
+    },
+    {
+      "__index": 10,
+      "name": "Font of Power",
+      "desc": "An eldritch font gains one additional {g|Encyclopedia:Spell}spell{/g} slot for each level of arcanist spell she can cast. However, the number of spells of each level that she can prepare reduces by 1. If this reduces her spells prepared for a level to 0, she still gains spell slots of that level, which can be used to cast spells using metamagic {g|Encyclopedia:Feat}feats{/g}.",
+      "icon": "gen__FP"
+    },
+    {
+      "__index": 11,
+      "name": "Eldritch Surge",
+      "desc": "At 3rd level, an eldritch font can, as a {g|Encyclopedia:Swift_Action}swift action{/g}, pour more power into her {g|Encyclopedia:Spell}spells{/g} and abilities. She can add 2 to the {g|Encyclopedia:Caster_Level}caster level{/g} and {g|Encyclopedia:DC}DC{/g} of a spell, or increase her effective arcanist level by 2 when using an arcanist exploit. She becomes fatigued upon using this ability. If she is already fatigued, she becomes exhausted. If she\u0027s already exhausted, she cannot use this ability. This ability does not stack with spending points from her arcane reservoir to increase the spell\u0027s caster level or DC (as the arcane reservoir class feature).",
+      "icon": "a725f24371ade0e49841787932560bac"
+    },
+    {
+      "__index": 12,
+      "name": "Improved Surge",
+      "desc": "At 7th level, an eldritch font can use her eldritch surge ability to make two {g|Encyclopedia:Attack}attack rolls{/g} associated with a {g|Encyclopedia:Spell}spell{/g} and take the better result.",
+      "icon": "gen__IS"
+    },
+    {
+      "__index": 13,
+      "name": "Greater Surge",
+      "desc": "At 13th level, an eldritch font can use her eldritch surge ability to force a creature to {g|Encyclopedia:Dice}reroll{/g} a {g|Encyclopedia:Saving_Throw}saving throw{/g} against one {g|Encyclopedia:Spell}spell{/g} or arcanist exploit and take the lower value. The eldritch font must declare the use of this ability before the result of that creature\u0027s saving throw is revealed. If the spell or arcanist exploit affects more than one target, only one target is affected by this ability.",
+      "icon": "e96602b365d935a4982434cb904af6ce"
+    },
+    {
+      "__index": 14,
+      "name": "Bottomless Well",
+      "desc": "At 20th level, once per day an eldritch font can spend a {g|Encyclopedia:Full_Round_Action}full-round action{/g} to refuel herself. Doing so allows her to prepare new {g|Encyclopedia:Spell}spells{/g} and regain points of arcane reservoir equal to 1/2 her level.",
+      "icon": "gen__BW"
+    },
+    {
+      "__index": 15,
+      "name": "Witch Spells",
+      "desc": "An unlettered arcanist follows a different arcane tradition. She uses the witch {g|Encyclopedia:Spell}spell{/g} list instead of the wizard/sorcerer spell list.",
+      "icon": "gen__WS"
+    },
+    {
+      "__index": 16,
+      "name": "Familiar",
+      "desc": "An unlettered arcanist does not keep a {g|Encyclopedia:Spell}spellbook{/g}. Instead, she gains a familiar in which she stores her spells as a witch does, though she does not gain a witch\u0027s patron. Treat her arcanist level as her witch level for determining the abilities and benefits granted by the familiar. Anything that would allow an unlettered arcanist to add spells to her spellbook allows her to add spells to her familiar instead.",
+      "icon": "gen__F"
+    },
+    {
+      "__index": 17,
+      "name": "Spontaneous Healing",
+      "desc": "At 1st level, a white mage can expend 1 point from her arcane reservoir to use one of her {g|Encyclopedia:Spell}spell{/g} slots to cast a {g|Encyclopedia:Healing}cure{/g} spell (any spell with \u0022cure\u0022 in its name) from the cleric spell list as if it were on her spell list and prepared. The spell must be of a level the arcanist can cast. At 10th level, the white mage can expend 5 points from her arcane reservoir and a spell slot of at least 5th level to cast breath of life.",
+      "icon": "gen__SH"
+    },
+    {
+      "__index": 18,
+      "name": "Spontaneous Healing",
+      "desc": "At 1st level, a white mage can expend 1 point from her arcane reservoir to use one of her {g|Encyclopedia:Spell}spell{/g} slots to cast a {g|Encyclopedia:Healing}cure{/g} spell (any spell with \u0022cure\u0022 in its name) from the cleric spell list as if it were on her spell list and prepared. The spell must be of a level the arcanist can cast. At 10th level, the white mage can expend 5 points from her arcane reservoir and a spell slot of at least 5th level to cast breath of life.",
+      "icon": "gen__SH"
+    },
+    {
+      "__index": 19,
+      "name": "Arcane Metamagic",
+      "desc": "A phantasmal mage loses an ability to increase {g|Encyclopedia:Caster_Level}caster level{/g} of the next {g|Encyclopedia:Spell}spell{/g} using her arcane reservoir but instead gains a number of powerful metamagic abilities at 5th, 11th and 17th levels.",
+      "icon": "15d11c952fdc96b45849f312f3931192"
+    },
+    {
+      "__index": 20,
+      "name": "Arcane Metamagic",
+      "desc": "At 5th level the phantasmal mage can spend 1 point from her arcane reservoir as a {g|Encyclopedia:Free_Action}free action{/g} to make next arcanist Illusion {g|Encyclopedia:Spell}spell{/g} she casts in 2 {g|Encyclopedia:Combat_Round}rounds{/g} Extended, {g|Encyclopedia:Reach}Reach{/g} or Selective, as per using the corresponding metamagic {g|Encyclopedia:Feat}feat{/g}.",
+      "icon": "e27dd6c9eccc3f54cac0247a93b8a34d"
+    },
+    {
+      "__index": 21,
+      "name": "Arcane Metamagic",
+      "desc": "At 11th level the phantasmal mage can spend 2 points from her arcane reservoir as a {g|Encyclopedia:Free_Action}free action{/g} to make next arcanist Illusion {g|Encyclopedia:Spell}spell{/g} she casts in 2 {g|Encyclopedia:Combat_Round}rounds{/g} Persistent or Empowered, as per using the corresponding metamagic {g|Encyclopedia:Feat}feat{/g}.",
+      "icon": "e27dd6c9eccc3f54cac0247a93b8a34d"
+    },
+    {
+      "__index": 22,
+      "name": "Arcane Metamagic",
+      "desc": "At 17th level the phantasmal mage can spend 3 points from her arcane reservoir as a {g|Encyclopedia:Free_Action}free action{/g} to make next arcanist Illusion {g|Encyclopedia:Spell}spell{/g} she casts in 2 {g|Encyclopedia:Combat_Round}rounds{/g} Maximized or 4 points to make it Quickened, as per using the corresponding metamagic {g|Encyclopedia:Feat}feat{/g}.",
+      "icon": "e27dd6c9eccc3f54cac0247a93b8a34d"
+    },
+    {
+      "__index": 23,
+      "name": "Metamagic Supremacy",
+      "desc": "At 20th level the cost of phantasmal mage\u0027s metamagic abilities is reduced by 1 arcane pool point.",
+      "icon": "gen__MS"
+    },
+    {
+      "__index": 24,
+      "name": "Nature Magic",
+      "desc": "Nature Mage loses access to arcanist\u0027s {g|Encyclopedia:Spell}spell{/g} list, and instead uses druid\u0027s spell list. His spells are still considered arcane spells, and use his {g|Encyclopedia:Intelligence}intelligence{/g} modifier to determine the {g|Encyclopedia:DC}DC{/g} of the spells and number of additional spells per day.",
+      "icon": "6d9403c18a2ccfc4bbd0917562f51866"
     }
   ],
-  "progression": [
-    [],
-    [
-      0,
-      1,
-      2,
-      3,
-      4
-    ],
-    [],
-    [
-      4
-    ],
-    [],
-    [
-      4
-    ],
-    [],
-    [
-      4
-    ],
-    [],
-    [
-      4
-    ],
-    [],
-    [
-      5,
-      4
-    ],
-    [],
-    [
-      4
-    ],
-    [],
-    [
-      4
-    ],
-    [],
-    [
-      4
-    ],
-    [],
-    [
-      4
-    ],
-    [
-      6
-    ]
-  ],
-  "__ui-groups": [],
   "name": "Arcanist",
   "layout": [
     [
@@ -94,19 +159,19 @@
         "level": 1,
         "feature": 0,
         "rank": -1,
-        "__debug": "ArcanistCantripsFeature"
+        "archType": 0
       },
       {
         "level": 11,
         "feature": 5,
         "rank": -1,
-        "__debug": "ArcanistGreaterExploitsFeature"
+        "archType": 0
       },
       {
         "level": 20,
         "feature": 6,
         "rank": -1,
-        "__debug": "ArcanistMagicalSupremacy"
+        "archType": 0
       }
     ],
     [
@@ -114,7 +179,7 @@
         "level": 1,
         "feature": 1,
         "rank": -1,
-        "__debug": "ArcanistProficiencies"
+        "archType": 0
       }
     ],
     [
@@ -122,7 +187,7 @@
         "level": 1,
         "feature": 2,
         "rank": -1,
-        "__debug": "ArcanistArcaneReservoirFeature"
+        "archType": 0
       }
     ],
     [
@@ -130,7 +195,7 @@
         "level": 1,
         "feature": 3,
         "rank": -1,
-        "__debug": "ArcanistConsumeSpellsFeature"
+        "archType": 0
       }
     ],
     [
@@ -138,64 +203,882 @@
         "level": 1,
         "feature": 4,
         "rank": -1,
-        "__debug": "ArcanistExploitSelection"
+        "archType": 0
       },
       {
         "level": 3,
         "feature": 4,
         "rank": -1,
-        "__debug": "ArcanistExploitSelection"
+        "archType": 0
       },
       {
         "level": 5,
         "feature": 4,
         "rank": -1,
-        "__debug": "ArcanistExploitSelection"
+        "archType": 0
       },
       {
         "level": 7,
         "feature": 4,
         "rank": -1,
-        "__debug": "ArcanistExploitSelection"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 4,
         "rank": -1,
-        "__debug": "ArcanistExploitSelection"
+        "archType": 0
       },
       {
         "level": 11,
         "feature": 4,
         "rank": -1,
-        "__debug": "ArcanistExploitSelection"
+        "archType": 0
       },
       {
         "level": 13,
         "feature": 4,
         "rank": -1,
-        "__debug": "ArcanistExploitSelection"
+        "archType": 0
       },
       {
         "level": 15,
         "feature": 4,
         "rank": -1,
-        "__debug": "ArcanistExploitSelection"
+        "archType": 0
       },
       {
         "level": 17,
         "feature": 4,
         "rank": -1,
-        "__debug": "ArcanistExploitSelection"
+        "archType": 0
       },
       {
         "level": 19,
         "feature": 4,
         "rank": -1,
-        "__debug": "ArcanistExploitSelection"
+        "archType": 0
       }
     ],
     [],
     []
+  ],
+  "archetypes": [
+    {
+      "name": "Brown-Fur Transmuter",
+      "id": "ce63b2df8c6c12649b02c278e73d8bfa",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 7,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 8,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 11,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 6,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 9,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 5,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Eldritch Font",
+      "id": "2f35608fc073c04448a9c162a20852ce",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 11,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 7,
+            "feature": 12,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 11,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 13,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 6,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 14,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 5,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 15,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 10,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Unlettered Arcanist",
+      "id": "44f3ba33839a87f48a66b2b9b2f7c69b",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 15,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 16,
+            "rank": -1,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "White Mage",
+      "id": "5f2fa2e0d1cf1ca428af7e24c443d868",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 18,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 11,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 3,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 17,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        []
+      ]
+    },
+    {
+      "name": "Phantasmal Mage",
+      "id": "e9d0ee69305049fe8400a066010dbcd1",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 11,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 22,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 6,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 21,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 23,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 7,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 13,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 19,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 19,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Nature Mage",
+      "id": "26185cfb81b34e778ad370407300de9a",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 24,
+            "rank": -1,
+            "archType": 1
+          }
+        ]
+      ]
+    }
   ]
 }

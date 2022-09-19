@@ -1,54 +1,4 @@
 {
-  "features": [
-    {
-      "name": "Cleric Proficiencies",
-      "desc": "Clerics are proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g}, light armor, medium armor, and shields (except tower shields). Clerics are also proficient with the favored weapon of their deities.",
-      "icon": "3714ca959287da54cbf82164d3a8805b"
-    },
-    {
-      "name": "Channel Energy",
-      "desc": "Regardless of {g|Encyclopedia:Alignment}alignment{/g}, any cleric can release a wave of energy by channeling the power of her faith through her holy (or unholy) symbol. This energy can be used to cause or {g|Encyclopedia:Healing}heal{/g} {g|Encyclopedia:Damage}damage{/g}, depending on the type of energy channeled and the creatures targeted.\nA good cleric (or a neutral cleric who worships a good deity) channels positive energy and can choose to deal damage to undead creatures or to heal living creatures. An evil cleric (or a neutral cleric who worships an evil deity) channels negative energy and can choose to deal damage to living creatures or to heal undead creatures. A neutral cleric of a neutral deity must choose whether she channels positive or negative energy. Once this choice is made, it cannot be reversed. This decision also determines whether the cleric can cast spontaneous cure or inflict {g|Encyclopedia:Spell}spells{/g}.\nChanneling energy causes a burst that affects all creatures of one type (either undead or living) in a 30-foot radius centered on the cleric. The amount of damage dealt or healed is equal to {g|Encyclopedia:Dice}1d6{/g} points of damage plus 1d6 points of damage for every two cleric levels beyond 1st (2d6 at 3rd, 3d6 at 5th, and so on). Creatures that take damage from channeled energy receive a {g|Encyclopedia:Saving_Throw}Will save{/g} to halve the damage. The {g|Encyclopedia:DC}DC{/g} of this save is equal to 10 \u002B 1/2 the cleric\u0027s level \u002B the cleric\u0027s {g|Encyclopedia:Charisma}Charisma{/g} modifier. Creatures healed by channel energy cannot exceed their maximum hit point total\u2014all excess healing is lost. A cleric may channel energy a number of times per day equal to 3 \u002B her Charisma modifier. This is a {g|Encyclopedia:Standard_Actions}standard action{/g} that does not provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}. A cleric can choose whether or not to include herself in this effect.",
-      "icon": "gen__CE"
-    },
-    {
-      "name": "Domain Selection",
-      "desc": "A divine caster\u0027s deity influences their {g|Encyclopedia:Alignment}alignment{/g}, what magic they can perform, their values, and how others see them. The character chooses domains (in quantity depending on their class) from among those belonging to their deity. A character can select an alignment domain (Chaos, Evil, Good, or Law) only if their own alignment matches that domain.\nEach domain grants a number of domain powers, dependent upon the level of the divine caster.\nClerics also gain a number of bonus {g|Encyclopedia:Spell}spells{/g}. A cleric gains one domain spell slot for each level of cleric spell they can cast, from 1st on up. Each day, a cleric can prepare one of the spells from their two domains in that slot. If a domain spell is not on the cleric spell list, a cleric can prepare it only in a domain spell slot. Domain spells cannot be used to cast spells spontaneously.",
-      "icon": "ad05c2b9c08927f47ad7236f6bacd11f"
-    },
-    {
-      "name": "Domain Selection",
-      "desc": "A divine caster\u0027s deity influences their {g|Encyclopedia:Alignment}alignment{/g}, what magic they can perform, their values, and how others see them. The character chooses domains (in quantity depending on their class) from among those belonging to their deity. A character can select an alignment domain (Chaos, Evil, Good, or Law) only if their own alignment matches that domain.\nEach domain grants a number of domain powers, dependent upon the level of the divine caster.\nClerics also gain a number of bonus {g|Encyclopedia:Spell}spells{/g}. A cleric gains one domain spell slot for each level of cleric spell they can cast, from 1st on up. Each day, a cleric can prepare one of the spells from their two domains in that slot. If a domain spell is not on the cleric spell list, a cleric can prepare it only in a domain spell slot. Domain spells cannot be used to cast spells spontaneously.",
-      "icon": "ad05c2b9c08927f47ad7236f6bacd11f"
-    }
-  ],
-  "progression": [
-    [],
-    [
-      0,
-      1,
-      2,
-      3
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
-  ],
   "__ui-groups": [
     [
       1
@@ -57,6 +7,218 @@
     [],
     []
   ],
+  "features": [
+    {
+      "__index": 0,
+      "name": "Cleric Proficiencies",
+      "desc": "Clerics are proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g}, light armor, medium armor, and shields (except tower shields). Clerics are also proficient with the favored weapon of their deities.",
+      "icon": "3714ca959287da54cbf82164d3a8805b"
+    },
+    {
+      "__index": 1,
+      "name": "Channel Energy",
+      "desc": "Regardless of {g|Encyclopedia:Alignment}alignment{/g}, any cleric can release a wave of energy by channeling the power of her faith through her holy (or unholy) symbol. This energy can be used to cause or {g|Encyclopedia:Healing}heal{/g} {g|Encyclopedia:Damage}damage{/g}, depending on the type of energy channeled and the creatures targeted.\nA good cleric (or a neutral cleric who worships a good deity) channels positive energy and can choose to deal damage to undead creatures or to heal living creatures. An evil cleric (or a neutral cleric who worships an evil deity) channels negative energy and can choose to deal damage to living creatures or to heal undead creatures. A neutral cleric of a neutral deity must choose whether she channels positive or negative energy. Once this choice is made, it cannot be reversed. This decision also determines whether the cleric can cast spontaneous cure or inflict {g|Encyclopedia:Spell}spells{/g}.\nChanneling energy causes a burst that affects all creatures of one type (either undead or living) in a 30-foot radius centered on the cleric. The amount of damage dealt or healed is equal to {g|Encyclopedia:Dice}1d6{/g} points of damage plus 1d6 points of damage for every two cleric levels beyond 1st (2d6 at 3rd, 3d6 at 5th, and so on). Creatures that take damage from channeled energy receive a {g|Encyclopedia:Saving_Throw}Will save{/g} to halve the damage. The {g|Encyclopedia:DC}DC{/g} of this save is equal to 10 \u002B 1/2 the cleric\u0027s level \u002B the cleric\u0027s {g|Encyclopedia:Charisma}Charisma{/g} modifier. Creatures healed by channel energy cannot exceed their maximum hit point total\u2014all excess healing is lost. A cleric may channel energy a number of times per day equal to 3 \u002B her Charisma modifier. This is a {g|Encyclopedia:Standard_Actions}standard action{/g} that does not provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}. A cleric can choose whether or not to include herself in this effect.",
+      "icon": "gen__CE"
+    },
+    {
+      "__index": 2,
+      "name": "Domain Selection",
+      "desc": "A divine caster\u0027s deity influences their {g|Encyclopedia:Alignment}alignment{/g}, what magic they can perform, their values, and how others see them. The character chooses domains (in quantity depending on their class) from among those belonging to their deity. A character can select an alignment domain (Chaos, Evil, Good, or Law) only if their own alignment matches that domain.\nEach domain grants a number of domain powers, dependent upon the level of the divine caster.\nClerics also gain a number of bonus {g|Encyclopedia:Spell}spells{/g}. A cleric gains one domain spell slot for each level of cleric spell they can cast, from 1st on up. Each day, a cleric can prepare one of the spells from their two domains in that slot. If a domain spell is not on the cleric spell list, a cleric can prepare it only in a domain spell slot. Domain spells cannot be used to cast spells spontaneously.",
+      "icon": "ad05c2b9c08927f47ad7236f6bacd11f"
+    },
+    {
+      "__index": 3,
+      "name": "Domain Selection",
+      "desc": "A divine caster\u0027s deity influences their {g|Encyclopedia:Alignment}alignment{/g}, what magic they can perform, their values, and how others see them. The character chooses domains (in quantity depending on their class) from among those belonging to their deity. A character can select an alignment domain (Chaos, Evil, Good, or Law) only if their own alignment matches that domain.\nEach domain grants a number of domain powers, dependent upon the level of the divine caster.\nClerics also gain a number of bonus {g|Encyclopedia:Spell}spells{/g}. A cleric gains one domain spell slot for each level of cleric spell they can cast, from 1st on up. Each day, a cleric can prepare one of the spells from their two domains in that slot. If a domain spell is not on the cleric spell list, a cleric can prepare it only in a domain spell slot. Domain spells cannot be used to cast spells spontaneously.",
+      "icon": "ad05c2b9c08927f47ad7236f6bacd11f"
+    },
+    {
+      "__index": 4,
+      "name": "Armor Proficiency",
+      "desc": "Angelfire apostles are only proficient with light armor.",
+      "icon": "3714ca959287da54cbf82164d3a8805b"
+    },
+    {
+      "__index": 5,
+      "name": "Diminished Spellcasting",
+      "desc": "An angelfire apostle is less concerned with the traditional divine magic that many religious adherents receive. The angelfire apostle receives one fewer {g|Encyclopedia:Spell}spell{/g} slot at each spell level. When an angelfire apostle gets no spells per day at a spell level, he can cast domain spells of that level normally, but can only cast nondomain spells of that level if he gets them as bonus spells.",
+      "icon": "gen__DS"
+    },
+    {
+      "__index": 6,
+      "name": "Extra Channel (Cleric)",
+      "desc": "You can channel energy two additional times per day.",
+      "icon": "26c6945ce6b092a45a9a3fcce08a9c1d"
+    },
+    {
+      "__index": 7,
+      "name": "Channel Positive Energy",
+      "desc": "A good cleric (or a neutral cleric who worships a good deity) channels positive energy and can choose to deal {g|Encyclopedia:Damage}damage{/g} to undead creatures or to {g|Encyclopedia:Healing}heal{/g} living creatures.\nChanneling energy causes a burst that either heals all living creatures or damages all undead creatures in a 30-foot radius centered on the cleric. The amount of damage dealt or healed is equal to {g|Encyclopedia:Dice}1d6{/g} points of damage plus 1d6 points of damage for every two cleric levels beyond 1st (2d6 at 3rd, 3d6 at 5th, and so on). Creatures that take damage from channeled energy receive a {g|Encyclopedia:Saving_Throw}Will save{/g} to halve the damage. The {g|Encyclopedia:DC}DC{/g} of this save is equal to 10 \u002B 1/2 the cleric\u0027s level \u002B the cleric\u0027s {g|Encyclopedia:Charisma}Charisma{/g} modifier. Creatures healed by channel energy cannot exceed their maximum hit point total\u2014all excess healing is lost. A cleric may channel energy a number of times per day equal to 3 \u002B her Charisma modifier. This is a {g|Encyclopedia:Standard_Actions}standard action{/g} that does not provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}. A cleric can choose whether or not to include herself in this effect.\nA good cleric (or a neutral cleric of a good deity) can also channel stored {g|Encyclopedia:Spell}spell{/g} energy into healing spells that she did not prepare ahead of time. The cleric can \u0022lose\u0022 any prepared spell that is not an {g|Encyclopedia:Cantrips_Orisons}orison{/g} or domain spell in order to cast any cure spell of the same spell level or lower (a cure spell is any spell with \u0022cure\u0022 in its name).",
+      "icon": "636f55d7ac7635e459967e29e1c71cdd"
+    },
+    {
+      "__index": 8,
+      "name": "Versatile Healing Channel",
+      "desc": "At 5th level, the angelfire apostle can spend two uses of his channel energy ability to cast remove blindness or lesser {g|Encyclopedia:Healing}restoration{/g} as a {g|Encyclopedia:Special_Abilities}spell-like ability{/g}.\nAt 7th level, he can choose remove disease or remove paralysis.\nAt 9th level, he can choose neutralize poison.\nAt 11th level, he can choose breath of life.\nAt 13th level, he can choose heal.\nAt 17th level, he can choose restoration.\nAt 19th level, he can choose resurrection.",
+      "icon": "036486612d8e7b74ca5954950834e2f4"
+    },
+    {
+      "__index": 9,
+      "name": "Versatile {g|Encyclopedia:Healing}Healing{/g} Channel \u2014 Remove Disease, Remove Paralysis",
+      "desc": "At 5th level, the angelfire apostle can spend two uses of his channel energy ability to cast remove blindness or lesser {g|Encyclopedia:Healing}restoration{/g} as a {g|Encyclopedia:Special_Abilities}spell-like ability{/g}.\nAt 7th level, he can choose remove disease or remove paralysis.\nAt 9th level, he can choose neutralize poison.\nAt 11th level, he can choose breath of life.\nAt 13th level, he can choose heal.\nAt 17th level, he can choose restoration.\nAt 19th level, he can choose resurrection.",
+      "icon": "036486612d8e7b74ca5954950834e2f4"
+    },
+    {
+      "__index": 10,
+      "name": "Versatile Healing Channel \u2014 Neutralize Poison",
+      "desc": "At 5th level, the angelfire apostle can spend two uses of his channel energy ability to cast remove blindness or lesser {g|Encyclopedia:Healing}restoration{/g} as a {g|Encyclopedia:Special_Abilities}spell-like ability{/g}.\nAt 7th level, he can choose remove disease or remove paralysis.\nAt 9th level, he can choose neutralize poison.\nAt 11th level, he can choose breath of life.\nAt 13th level, he can choose heal.\nAt 17th level, he can choose restoration.\nAt 19th level, he can choose resurrection.",
+      "icon": "036486612d8e7b74ca5954950834e2f4"
+    },
+    {
+      "__index": 11,
+      "name": "Cleansing Flames",
+      "desc": "At 9th level, the angelfire apostle becomes a direct conduit for the righteous power of his deity. Whenever the angelfire apostle casts a {g|Encyclopedia:Spell}spell{/g}, for 1 {g|Encyclopedia:Combat_Round}round{/g} he can unleash a blast of flames as a {g|Encyclopedia:Swift_Action}swift action{/g} by expending one use of his channel energy ability. The flames deal {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Damage}damage{/g} per spell level of the highest level spell he can cast to all enemies in a 20-foot radius. Half of the damage is {g|Encyclopedia:Energy_Damage}fire damage{/g}, and half is raw divine power not subject to fire resistance or immunity. Any creature in the area can halve the damage with a successful {g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} ({g|Encyclopedia:DC}DC{/g} 10 \u002B half angelfire apostle level \u002B {g|Encyclopedia:Charisma}Charisma{/g} modifier).",
+      "icon": "gen__CF"
+    },
+    {
+      "__index": 12,
+      "name": "Versatile Healing Channel \u2014 Breath of Life",
+      "desc": "At 5th level, the angelfire apostle can spend two uses of his channel energy ability to cast remove blindness or lesser {g|Encyclopedia:Healing}restoration{/g} as a {g|Encyclopedia:Special_Abilities}spell-like ability{/g}.\nAt 7th level, he can choose remove disease or remove paralysis.\nAt 9th level, he can choose neutralize poison.\nAt 11th level, he can choose breath of life.\nAt 13th level, he can choose heal.\nAt 17th level, he can choose restoration.\nAt 19th level, he can choose resurrection.",
+      "icon": "036486612d8e7b74ca5954950834e2f4"
+    },
+    {
+      "__index": 13,
+      "name": "Versatile Healing Channel \u2014 Heal",
+      "desc": "At 5th level, the angelfire apostle can spend two uses of his channel energy ability to cast remove blindness or lesser {g|Encyclopedia:Healing}restoration{/g} as a {g|Encyclopedia:Special_Abilities}spell-like ability{/g}.\nAt 7th level, he can choose remove disease or remove paralysis.\nAt 9th level, he can choose neutralize poison.\nAt 11th level, he can choose breath of life.\nAt 13th level, he can choose heal.\nAt 17th level, he can choose restoration.\nAt 19th level, he can choose resurrection.",
+      "icon": "036486612d8e7b74ca5954950834e2f4"
+    },
+    {
+      "__index": 14,
+      "name": "Versatile Healing Channel \u2014 Restoration",
+      "desc": "At 5th level, the angelfire apostle can spend two uses of his channel energy ability to cast remove blindness or lesser {g|Encyclopedia:Healing}restoration{/g} as a {g|Encyclopedia:Special_Abilities}spell-like ability{/g}.\nAt 7th level, he can choose remove disease or remove paralysis.\nAt 9th level, he can choose neutralize poison.\nAt 11th level, he can choose breath of life.\nAt 13th level, he can choose heal.\nAt 17th level, he can choose restoration.\nAt 19th level, he can choose resurrection.",
+      "icon": "036486612d8e7b74ca5954950834e2f4"
+    },
+    {
+      "__index": 15,
+      "name": "Versatile Healing Channel \u2014 Resurrection",
+      "desc": "At 5th level, the angelfire apostle can spend two uses of his channel energy ability to cast remove blindness or lesser {g|Encyclopedia:Healing}restoration{/g} as a {g|Encyclopedia:Special_Abilities}spell-like ability{/g}.\nAt 7th level, he can choose remove disease or remove paralysis.\nAt 9th level, he can choose neutralize poison.\nAt 11th level, he can choose breath of life.\nAt 13th level, he can choose heal.\nAt 17th level, he can choose restoration.\nAt 19th level, he can choose resurrection.",
+      "icon": "036486612d8e7b74ca5954950834e2f4"
+    },
+    {
+      "__index": 16,
+      "name": "Crusader Bonus Feat",
+      "desc": "A crusader gains a bonus {g|Encyclopedia:Feat}feat{/g} at 1st level, then again at 5th level and every five levels thereafter (to a maximum of five at 20th level). These bonus feats must be chosen from the following list: Heavy Armor Proficiency, Shield Bash, {g|Encyclopedia:Weapon_Proficiency}Martial Weapon{/g} Proficiency, Saving Shield, Shield Focus, Tower Shield Proficiency, and Weapon Focus.\nAt 10th level, a crusader may also choose from the following feats: Greater Weapon Focus, Improved {g|Encyclopedia:Critical}Critical{/g}, and Weapon Specialization.\nAt 20th level, a crusader may also choose Greater Weapon Specialization. A crusader need not meet the normal class- or level-based prerequisites for these bonus feats.",
+      "icon": "gen__CBF"
+    },
+    {
+      "__index": 17,
+      "name": "Crusader Bonus Feat",
+      "desc": "A crusader gains a bonus {g|Encyclopedia:Feat}feat{/g} at 1st level, then again at 5th level and every five levels thereafter (to a maximum of five at 20th level). These bonus feats must be chosen from the following list: Heavy Armor Proficiency, Shield Bash, {g|Encyclopedia:Weapon_Proficiency}Martial Weapon{/g} Proficiency, Saving Shield, Shield Focus, Tower Shield Proficiency, and Weapon Focus.\nAt 10th level, a crusader may also choose from the following feats: Greater Weapon Focus, Improved {g|Encyclopedia:Critical}Critical{/g}, and Weapon Specialization.\nAt 20th level, a crusader may also choose Greater Weapon Specialization. A crusader need not meet the normal class- or level-based prerequisites for these bonus feats.",
+      "icon": "gen__CBF"
+    },
+    {
+      "__index": 18,
+      "name": "Crusader Bonus Feat",
+      "desc": "A crusader gains a bonus {g|Encyclopedia:Feat}feat{/g} at 1st level, then again at 5th level and every five levels thereafter (to a maximum of five at 20th level). These bonus feats must be chosen from the following list: Heavy Armor Proficiency, Shield Bash, {g|Encyclopedia:Weapon_Proficiency}Martial Weapon{/g} Proficiency, Saving Shield, Shield Focus, Tower Shield Proficiency, and Weapon Focus.\nAt 10th level, a crusader may also choose from the following feats: Greater Weapon Focus, Improved {g|Encyclopedia:Critical}Critical{/g}, and Weapon Specialization.\nAt 20th level, a crusader may also choose Greater Weapon Specialization. A crusader need not meet the normal class- or level-based prerequisites for these bonus feats.",
+      "icon": "gen__CBF"
+    },
+    {
+      "__index": 19,
+      "name": "Dedicated Summoner",
+      "desc": "A herald caller depends on summoned allies to overcome her foes, which affords her little experience with the martial pursuits typical of other clerics and a narrower spiritual focus. A herald caller can choose only one domain from her deity\u0027s list of domains, rather than the normal two domains, and she doesn\u0027t gain proficiency with medium armor or shields.",
+      "icon": "d0aecf2808a9b4f42a041b03da08afe1"
+    },
+    {
+      "__index": 20,
+      "name": "Call Heralds",
+      "desc": "A herald caller can channel stored {g|Encyclopedia:Spell}spell{/g} energy into summoning spells that she hasn\u0027t prepared ahead of time. She can lose a prepared spell in order to cast any summon monster spell of the same level.",
+      "icon": "9eefcb33aa0a0ea4bab27c48d12a5f75"
+    },
+    {
+      "__index": 21,
+      "name": "Mighty Heralds",
+      "desc": "At 4th level, a herald caller receives Augment Summoning as a bonus {g|Encyclopedia:Feat}feat{/g}.\nAugment Summoning: Your summoned creatures are more powerful and robust.\nEach creature you conjure with any summon {g|Encyclopedia:Spell}spell{/g} gains a \u002B4 enhancement {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Strength}Strength{/g} and {g|Encyclopedia:Constitution}Constitution{/g} for the duration of the spell that summoned it.",
+      "icon": "d2d07f0dfe9fade448b004e36c4306a5"
+    },
+    {
+      "__index": 22,
+      "name": "Numerous Heralds",
+      "desc": "At 8th level, a herald caller receives Superior Summoning as a bonus {g|Encyclopedia:Feat}feat{/g}.\nSuperior Summoning: You can summon more creatures. Each time you cast a summoning {g|Encyclopedia:Spell}spell{/g} that conjures more than one creature, add one to the total number of creatures summoned.",
+      "icon": "f0cdd7077207ef147a99cefed698ad6f"
+    },
+    {
+      "__index": 23,
+      "name": "Blessing of the Faithful",
+      "desc": "As a {g|Encyclopedia:Standard_Actions}standard action{/g}, the ecclesitheurge can bless one ally within close range (30 ft). A blessed ally gains a \u002B2 sacred {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g}, {g|Encyclopedia:Skills}skill checks{/g}, {g|Encyclopedia:Ability_Scores}ability checks{/g}, {g|Encyclopedia:Saving_Throw}saving throws{/g}, and to {g|Encyclopedia:Armor_Class}AC{/g} until the ecclesitheurge\u0027s next turn. The ecclesitheurge can expend 1 use of channel energy when activating this ability to increase the duration to a number of {g|Encyclopedia:Combat_Round}rounds{/g} equal to the number of dice of his channel energy.",
+      "icon": "7f1b2c99decf9f441b7a9281d8ce3733"
+    },
+    {
+      "__index": 24,
+      "name": "Ecclesitheurge\u0027s Proficiencies",
+      "desc": "An ecclesitheurge is proficient with the club, dagger, heavy crossbow, light crossbow, quarterstaff, and the favored weapon of his deity, but he\u0027s not proficient with any type of armor or shield.",
+      "icon": "5b972d20bb6f39140b70b6bf6535f98c"
+    },
+    {
+      "__index": 25,
+      "name": "Domain Mastery",
+      "desc": "At 1st level, when an ecclesitheurge chooses his cleric domains, he designates one as his primary domain and the other as his secondary domain. An ecclesitheurge can use his non-domain {g|Encyclopedia:Spell}spell{/g} slots to prepare spells from his primary domain\u0027s spell list. Each day when he prepares spells, an ecclesitheurge can select a different domain granted by his deity to gain access to that domain\u0027s spell list instead of his secondary domain spell list. He does not lose access to his actual secondary domain\u0027s granted powers or gain access to the other domain\u0027s granted powers.",
+      "icon": "ad05c2b9c08927f47ad7236f6bacd11f"
+    },
+    {
+      "__index": 26,
+      "name": "Bonded Holy Symbol",
+      "desc": "A bonded object can be used once per day to restore any one {g|Encyclopedia:Spell}spell{/g} that the ecclesitheurge had prepared for that day.",
+      "icon": "6257839464a212a41bcf625029a2a2dd"
+    },
+    {
+      "__index": 27,
+      "name": "Armor Proficiency (Heavy Armor)",
+      "desc": "Demonbane priest is proficient with heavy armor in addition to all standard cleric proficiencies.",
+      "icon": "e3dea060055729a499d590cde35985bc"
+    },
+    {
+      "__index": 28,
+      "name": "Diminished Spellcasting",
+      "desc": "Demonbane priest chooses only one domain from his deity\u0027s list of domains rather than the normal two domains. In all other respects, this works like and replaces the standard cleric domain ability.",
+      "icon": "3ae0931b2c5abf947a813ef1f583f2dc"
+    },
+    {
+      "__index": 29,
+      "name": "Demonic Knowledge",
+      "desc": "When making {g|Encyclopedia:Knowledge_Arcana}Knowledge (arcana){/g} {g|Encyclopedia:Check}checks{/g}, demonbane priest gains a {g|Encyclopedia:Bonus}bonus{/g} on the check equal to half his {g|Encyclopedia:Class_Level}class level{/g} (minimum \u002B1).",
+      "icon": "3ae0931b2c5abf947a813ef1f583f2dc"
+    },
+    {
+      "__index": 30,
+      "name": "Teamwork Feat",
+      "desc": "At 4th level and 8th level, the cleric gains a bonus {g|Encyclopedia:Feat}feat{/g}.\nThis must be a teamwork feat, {g|Encyclopedia:Spell}Spell{/g} Penetration or Greater Spell Penetration. The cleric must meet the prerequisites of the selected bonus feat.",
+      "icon": "gen__TF"
+    },
+    {
+      "__index": 31,
+      "name": "Channel Negative Energy",
+      "desc": "An evil cleric (or a neutral cleric who worships an evil deity) channels negative energy and can choose to deal {g|Encyclopedia:Damage}damage{/g} to living creatures or to {g|Encyclopedia:Healing}heal{/g} undead creatures.\nChanneling energy causes a burst that either heals all undead creatures or damages all living creatures in a 30-foot radius centered on the cleric. The amount of damage dealt or healed is equal to {g|Encyclopedia:Dice}1d6{/g} points of damage plus 1d6 points of damage for every two cleric levels beyond 1st (2d6 at 3rd, 3d6 at 5th, and so on). Creatures that take damage from channeled energy receive a {g|Encyclopedia:Saving_Throw}Will save{/g} to halve the damage. The {g|Encyclopedia:DC}DC{/g} of this save is equal to 10 \u002B 1/2 the cleric\u0027s level \u002B the cleric\u0027s {g|Encyclopedia:Charisma}Charisma{/g} modifier. Creatures healed by channel energy cannot exceed their maximum hit point total\u2014all excess healing is lost. A cleric may channel energy a number of times per day equal to 3 \u002B her Charisma modifier. This is a {g|Encyclopedia:Standard_Actions}standard action{/g} that does not provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}. A cleric can choose whether or not to include herself in this effect.\nAn evil cleric (or a neutral cleric of an evil deity) can also channel stored {g|Encyclopedia:Spell}spell{/g} energy into wounding spells that she did not prepare ahead of time. The cleric can \u0022lose\u0022 any prepared spell that is not an {g|Encyclopedia:Cantrips_Orisons}orison{/g} or domain spell in order to cast any inflict spell of the same spell level (an inflict spell is any spell with \u0022inflict\u0022 in its name).",
+      "icon": "8d9bfdf249f5e2a4784909b2c26fdbb3"
+    },
+    {
+      "__index": 32,
+      "name": "Energy Equilibrium",
+      "desc": "When a priest of balance casts the positive channel energy or {g|Encyclopedia:Healing}cure{/g} wounds {g|Encyclopedia:Spell}spell{/g}, he strengthens the next negative channel energy or inflict wounds spell. Similarly, if he casts the negative channel energy or inflict wounds spell, he strengthens his next positive channel energy or cure wounds spell.\nCure and inflict wounds spells strengthened this way have their {g|Encyclopedia:Caster_Level}caster level{/g} increased by 2.\nChannel energy abilities strengthened this way deal or heal {g|Encyclopedia:Dice}1d6{/g} more {g|Encyclopedia:Damage}damage{/g}.",
+      "icon": "906345c8087d948469dbac7d9f36ccdb"
+    },
+    {
+      "__index": 33,
+      "name": "Empowered Equilibrium",
+      "desc": "{g|Encyclopedia:Healing}Cure{/g} and inflict wounds affected by Energy Equilibrium become Empowered when cast.\nChannel energy abilities affected by Energy Equilibrium deal or heal {g|Encyclopedia:Dice}2d6{/g} more {g|Encyclopedia:Damage}damage{/g}.",
+      "icon": "906345c8087d948469dbac7d9f36ccdb"
+    },
+    {
+      "__index": 34,
+      "name": "Quickened Equilibrium",
+      "desc": "Channel energy, {g|Encyclopedia:Healing}cure{/g} wounds and inflict wounds {g|Encyclopedia:Spell}spells{/g} affected by Energy Equilibrium become Quickened when cast.",
+      "icon": "906345c8087d948469dbac7d9f36ccdb"
+    }
+  ],
   "name": "Cleric",
   "layout": [
     [
@@ -64,7 +226,7 @@
         "level": 1,
         "feature": 0,
         "rank": -1,
-        "__debug": "ClericProficiencies"
+        "archType": 0
       }
     ],
     [
@@ -72,7 +234,7 @@
         "level": 1,
         "feature": 1,
         "rank": -1,
-        "__debug": "ChannelEnergySelection"
+        "archType": 0
       }
     ],
     [
@@ -80,7 +242,7 @@
         "level": 1,
         "feature": 2,
         "rank": -1,
-        "__debug": "DomainsSelection"
+        "archType": 0
       }
     ],
     [
@@ -88,8 +250,498 @@
         "level": 1,
         "feature": 3,
         "rank": -1,
-        "__debug": "SecondDomainsSelection"
+        "archType": 0
       }
     ]
+  ],
+  "archetypes": [
+    {
+      "name": "Angelfire Apostle",
+      "id": "857bc9fadf70f294795a9cba974a48b8",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 5,
+            "feature": 8,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 7,
+            "feature": 9,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 10,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 11,
+            "feature": 12,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 13,
+            "feature": 13,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 17,
+            "feature": 14,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 19,
+            "feature": 15,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 11,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 5,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 6,
+            "rank": 1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 7,
+            "rank": 1,
+            "archType": 1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Crusader",
+      "id": "6bfb7e74b530f3749b590286dd2b9b30",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 18,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 16,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 5,
+            "feature": 16,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 10,
+            "feature": 17,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 15,
+            "feature": 17,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        []
+      ]
+    },
+    {
+      "name": "Herald Caller",
+      "id": "c4a02990f15c0bb4d8749a90a5ed46b3",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 4,
+            "feature": 21,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 8,
+            "feature": 22,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 19,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Ecclesitheurge",
+      "id": "472af8cb3de628f4a805dc4a038971bc",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 3,
+            "feature": 26,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 23,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 24,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 25,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        []
+      ]
+    },
+    {
+      "name": "Demonbane Priest",
+      "id": "2537d1312a462834aadbd1153a2a0d54",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 27,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 28,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 29,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 4,
+            "feature": 30,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 8,
+            "feature": 30,
+            "rank": -1,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Priest of Balance",
+      "id": "a4560e3fb5d247d68fb1a2738fcc0855",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 33,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 16,
+            "feature": 34,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 7,
+            "rank": 1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 31,
+            "rank": 1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 32,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        []
+      ]
+    }
   ]
 }

@@ -1,96 +1,61 @@
 {
+  "__ui-groups": [],
   "features": [
     {
+      "__index": 0,
       "name": "Deft Strike",
       "desc": "An swordlord can add his {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} (if any) to {g|Encyclopedia:Damage}damage rolls{/g} made with a dueling sword instead of his {g|Encyclopedia:Strength}Strength{/g} bonus. This bonus on damage {g|Encyclopedia:Dice}rolls{/g} applies whether the swordlord is wielding a dueling sword {g|Encyclopedia:Light_Weapon}one-handed{/g} or two-handed. An swordlord cannot use this ability if he is wielding a shield or using an off-hand weapon (including armor spikes, {g|Encyclopedia:UnarmedAttack}unarmed{/g} strikes, or {g|Encyclopedia:NaturalAttack}natural weapons{/g}).",
       "icon": "8e87fa113713f59439936fbe006f22fa"
     },
     {
+      "__index": 1,
       "name": "Display Weapon Prowess",
       "desc": "At 2nd level, an Aldori swordlord adds a {g|Encyclopedia:Bonus}bonus{/g} equal to half his {g|Encyclopedia:Class_Level}class level{/g} on {g|Encyclopedia:Persuasion}Persuasion{/g} {g|Encyclopedia:Skills}skill checks{/g} made to intimidate. He also gains an additional \u002B1 bonus on Persuasion skill {g|Encyclopedia:Check}checks{/g} made to intimidate while using Dazzling Display with a dueling sword for each of the following {g|Encyclopedia:Feat}feats{/g} he has with the dueling sword: Greater Weapon Focus, Greater Weapon Specialization, Improved {g|Encyclopedia:Critical}Critical{/g}, Weapon Focus, or Weapon Specialization.",
       "icon": "01ca819912e070c4b9b6bd0c9699a166"
     },
     {
+      "__index": 2,
       "name": "Defensive Parry",
       "desc": "At 3rd level, an Aldori swordlord gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} to his {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:MeleeAttack}melee attacks{/g} when making a full {g|Encyclopedia:Attack}attack{/g} with a dueling sword. This AC bonus increases to \u002B2 at 7th level. If an Aldori swordlord is also a fighter with the Aldori defender fighter archetype, levels in this class stack with his fighter levels when determining the AC bonus from this ability.",
       "icon": "d7f95c54ea7a4b24f91b3f01cd84e251"
     },
     {
+      "__index": 3,
       "name": "Adaptive Tactics",
       "desc": "At 4th level, an Aldori swordlord learns to adapt his fighting style to counter his enemy\u0027s strengths. An Aldori swordlord reduces the {g|Encyclopedia:Attack}attack roll{/g} {g|Encyclopedia:Penalty}penalty{/g} for fighting defensively or using Combat Expertise by 1 at 4th level and by 2 at 8th level.\nIn addition, after a creature attacks an Aldori swordlord for the first time, he attempts a {g|Encyclopedia:Perception}Perception check{/g} ({g|Encyclopedia:DC}DC{/g} = 10 \u002B the opponent\u0027s {g|Encyclopedia:BAB}base attack bonus{/g}). If successful, the Aldori swordlord gains a \u002B2 circumstance {g|Encyclopedia:Bonus}bonus{/g} on attack {g|Encyclopedia:Dice}rolls{/g} and to his {g|Encyclopedia:Armor_Class}AC{/g} against that creature until the end of combat.",
       "icon": "ddf30d3e62eb1b94a9e3c1f1901f0102"
     },
     {
+      "__index": 4,
       "name": "Shatter Confidence",
       "desc": "At 5th level, an Aldori swordlord attempts a {g|Encyclopedia:Persuasion}Persuasion{/g} {g|Encyclopedia:Skills}skill check{/g} to intimidate and demoralize his target as a {g|Encyclopedia:Free_Action}free action{/g} after he confirms a {g|Encyclopedia:Critical}critical hit{/g} or succeeds at a disarm, or sunder {g|Encyclopedia:Combat_Maneuvers}combat maneuver{/g} with a dueling sword. If his target is already shaken, the Aldori swordlord can once per {g|Encyclopedia:Combat_Round}round{/g} attempt a Persuasion {g|Encyclopedia:Check}check{/g} to Intimidate and demoralize the target further after any successful {g|Encyclopedia:MeleeAttack}melee attack{/g} or combat maneuver. If he succeeds at this check, the target suffers an additional -1 {g|Encyclopedia:Penalty}penalty{/g} on {g|Encyclopedia:Attack}attack rolls{/g} and {g|Encyclopedia:Saving_Throw}saving throws{/g}, and loses all morale {g|Encyclopedia:Bonus}bonuses{/g} to these checks.",
       "icon": "b1111b6c0c5885542b1fb26a5c899294"
     },
     {
+      "__index": 5,
       "name": "Saving Slash",
       "desc": "At 6th level, when wielding a dueling sword, an Aldori swordlord can try deflecting a {g|Encyclopedia:Critical}critical hit{/g} targeting him, reducing its {g|Encyclopedia:Damage}damage{/g} to that of a normal hit, with a 25% chance of success. This does not stack with the fortification {g|Encyclopedia:Special_Abilities}special ability{/g} of magical armor or similar effects.",
       "icon": "5b972d20bb6f39140b70b6bf6535f98c"
     },
     {
+      "__index": 6,
       "name": "Dexterous Duelist",
       "desc": "At 7th level, an Aldori swordlord does not provoke {g|Encyclopedia:Attack_Of_Opportunity}attacks of opportunity{/g} when standing up from prone.",
       "icon": "0dd6c622b051af749bfb7450af69da9a"
     },
     {
+      "__index": 7,
       "name": "Greater Saving Slash",
       "desc": "At 9th level, an Aldori swordlord\u0027s saving slash has a 50% chance of reducing a {g|Encyclopedia:Critical}critical hit{/g} to a normal hit.",
       "icon": "5b972d20bb6f39140b70b6bf6535f98c"
     },
     {
+      "__index": 8,
       "name": "Confounding Duelist",
       "desc": "At 10th level, the {g|Encyclopedia:Penalty}penalty{/g} from Aldori swordlord\u0027s shatter confidence increases to -2. The target also loses all insight and competence {g|Encyclopedia:Bonus}bonuses{/g} to these {g|Encyclopedia:Check}checks{/g}.",
       "icon": "ade7bac173c115d40bb2fe9479f12ff8"
     }
   ],
-  "progression": [
-    [],
-    [
-      0
-    ],
-    [
-      1
-    ],
-    [
-      2
-    ],
-    [
-      3
-    ],
-    [
-      4
-    ],
-    [
-      5
-    ],
-    [
-      2,
-      6
-    ],
-    [
-      3
-    ],
-    [
-      7
-    ],
-    [
-      8
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
-  ],
-  "__ui-groups": [],
   "name": "Aldori Swordlord",
   "layout": [
     [
@@ -98,43 +63,43 @@
         "level": 1,
         "feature": 0,
         "rank": -1,
-        "__debug": "DeftStrike"
+        "archType": 0
       },
       {
         "level": 2,
         "feature": 1,
         "rank": -1,
-        "__debug": "DisplayWeaponProwess"
+        "archType": 0
       },
       {
         "level": 5,
         "feature": 4,
         "rank": -1,
-        "__debug": "ShatterConfidence"
+        "archType": 0
       },
       {
         "level": 6,
         "feature": 5,
         "rank": -1,
-        "__debug": "SavingSlash"
+        "archType": 0
       },
       {
         "level": 7,
         "feature": 6,
         "rank": -1,
-        "__debug": "DextrousDuelist"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 7,
         "rank": -1,
-        "__debug": "SavingSlashGreater"
+        "archType": 0
       },
       {
         "level": 10,
         "feature": 8,
         "rank": -1,
-        "__debug": "ConfoundingDuelist"
+        "archType": 0
       }
     ],
     [],
@@ -143,13 +108,13 @@
         "level": 3,
         "feature": 2,
         "rank": -1,
-        "__debug": "SwordlordDefensiveParryFeature"
+        "archType": 0
       },
       {
         "level": 7,
         "feature": 2,
         "rank": -1,
-        "__debug": "SwordlordDefensiveParryFeature"
+        "archType": 0
       }
     ],
     [
@@ -157,13 +122,13 @@
         "level": 4,
         "feature": 3,
         "rank": 1,
-        "__debug": "AdaptiveTactics"
+        "archType": 0
       },
       {
         "level": 8,
         "feature": 3,
         "rank": 2,
-        "__debug": "AdaptiveTactics"
+        "archType": 0
       }
     ],
     [],
@@ -171,5 +136,6 @@
     [],
     [],
     []
-  ]
+  ],
+  "archetypes": []
 }

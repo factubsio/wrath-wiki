@@ -1,155 +1,4 @@
 {
-  "features": [
-    {
-      "name": "Burn",
-      "desc": "At 1st level, a kineticist can overexert herself to channel more power than normal, pushing past the limit of what is safe for her body by accepting burn. Some of her wild talents allow her to accept burn in exchange for a greater effect, while others require her to accept a certain amount of burn to use that talent at all. For each point of burn she accepts, a kineticist takes (1 per {g|Encyclopedia:Character_Level}character level{/g}) points of\u00A0nonlethal {g|Encyclopedia:Damage}damage{/g}. This damage can\u0027t be {g|Encyclopedia:Healing}healed{/g} by any means other than getting a full night\u0027s {g|Encyclopedia:Rest}rest{/g}, which removes all burn and associated\u00A0nonlethal damage. Nonlethal damage from burn can\u0027t be reduced or redirected, and a kineticist incapable of taking\u00A0nonlethal damage\u00A0can\u0027t accept burn. A kineticist can accept only 1 point of burn per {g|Encyclopedia:Combat_Round}round{/g}. This limit rises to 2 points of burn at 6th level, and rises by 1 additional point every 3 levels thereafter. A kineticist can\u0027t choose to accept burn if it would put her total number of points of burn higher than (3 \u002B her\u00A0{g|Encyclopedia:Constitution}Constitution{/g}\u00A0modifier), though she can be forced to accept more burn from a source outside her control. A kineticist who has accepted burn never benefits from abilities that allow her to ignore or alter the effects she receives from\u00A0nonlethal damage.",
-      "icon": "gen__B"
-    },
-    {
-      "name": "Weapon and Armor Proficiency",
-      "desc": "Kineticists are proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g} and light armor, but not shields.",
-      "icon": "gen__WAP"
-    },
-    {
-      "name": "Elemental Focus",
-      "desc": "At 1st level, a kineticist chooses one primary element on which to focus. This element determines how she accesses the raw power of the\u00A0Ethereal Plane, and grants her access to specific wild talents and additional class {g|Encyclopedia:Skills}skills{/g}. She gains her selected element\u0027s basic utility wild talent (basic aerokinesis, etc.) as a {g|Encyclopedia:Bonus}bonus{/g} wild talent.",
-      "icon": "gen__EF"
-    },
-    {
-      "name": "Infusion",
-      "desc": "At 1st level, a kineticist gains an infusion wild talent from the list of options available based on her elemental focus. She gains additional infusions at 3rd, 5th, 9th, 11th, 13th, 17th, and 19th levels. By using infusions along with her kinetic blasts, a kineticist can alter her kinetic blasts to suit her needs. Infusions come in two types, each of which changes a kinetic blast differently: a substance infusion causes an additional effect, while a form infusion causes the kinetic blast to manifest in a different way. Each infusion can alter only certain kinds of kinetic blasts, which are listed in its Associated Blasts entry. Each time the kineticist uses one of her kinetic blast wild talents, she can apply up to one associated form infusion and up to one associated substance infusion.\nSome infusions change the {g|Encyclopedia:CA_Types}action{/g} required to activate a kinetic blast or entirely transform the kinetic blast\u0027s normal effects.\nThe burn cost listed in each infusion\u0027s Burn entry is added to the burn cost of the kinetic blast the infusion modifies.\nThe {g|Encyclopedia:DC}DC{/g} for a {g|Encyclopedia:Saving_Throw}save{/g} against an infusion is based on the associated kinetic blast\u0027s effective {g|Encyclopedia:Spell}spell{/g} level, not the level of the infusion. The DCs for form infusions are calculated using the kineticist\u0027s\u00A0{g|Encyclopedia:Dexterity}Dexterity{/g} modifier instead of her\u00A0{g|Encyclopedia:Constitution}Constitution{/g}\u00A0modifier. When a kineticist modifies a kinetic blast with a form infusion and a substance infusion that both require saving throws, each target first attempts a saving throw against the form infusion. If a target succeeds and a successful save negates the infusion\u0027s effects, the entire kinetic blast is negated; otherwise, the target then attempts a saving throw against the substance infusion. If a kineticist\u0027s form and substance infusions both alter the kinetic blast\u0027s {g|Encyclopedia:Damage}damage{/g}, apply the substance infusion\u0027s alteration first.",
-      "icon": "1f5f5d7356e6b6448bfd6d507a7893d8"
-    },
-    {
-      "name": "Kinetic Blast",
-      "desc": "At 1st level, a kineticist gains a kinetic blast wild talent of her choice. This kinetic blast must be a simple blast that matches her element.\nAs a\u00A0{g|Encyclopedia:Standard_Actions}standard action{/g}, the kineticist can unleash a kinetic blast at a single target in close range. She must have at least one hand free to aim the blast. All {g|Encyclopedia:Damage}damage{/g} from a kinetic blast is treated as magic for the purpose of bypassing\u00A0{g|Encyclopedia:Damage_Reduction}damage reduction{/g}. Kinetic blasts count as a type of weapon for the purpose of {g|Encyclopedia:Feat}feats{/g} such as\u00A0Weapon Focus. The kineticist is never considered to be wielding or gripping the kinetic blast, and she can\u0027t use\u00A0Vital Strike\u00A0feats with kinetic blasts. Even the weakest kinetic blast involves a sizable mass of elemental matter or energy, so kinetic blasts always deal full damage to swarms of any {g|Encyclopedia:Size}size{/g} (though only area blasts deal extra damage to swarms).\nEach simple blast is either a physical blast or an energy blast.\nPhysical blasts are {g|Encyclopedia:RangedAttack}ranged attacks{/g} that deal an amount of damage equal to {g|Encyclopedia:Dice}1d6{/g}\u002B1 \u002B the kineticist\u0027s\u00A0{g|Encyclopedia:Constitution}Constitution{/g}\u00A0modifier, increasing by 1d6\u002B1 for every 2 kineticist levels beyond 1st. {g|Encyclopedia:Spell_Resistance}Spell resistance{/g} doesn\u0027t apply against physical blasts.\nEnergy blasts are ranged {g|Encyclopedia:TouchAttack}touch attacks{/g} that deal an amount of damage equal to 1d6 \u002B 1/2 the kineticist\u0027s\u00A0Constitution\u00A0modifier, increasing by 1d6 for every 2 kineticist levels beyond 1st.\nComposite blasts combine elements to form a new blast. When a kineticist gains a new element through\u00A0expanded element, she gains access to all composite blasts for which she qualifies.\nMost composite blasts are either physical or energy blasts, like simple blasts.\nPhysical composite blasts deal an amount of damage equal to 2d6\u002B2 \u002B the kineticist\u0027s\u00A0Constitution\u00A0modifier, increasing by 2d6\u002B2 for every 2 kineticist levels beyond 1st.\nEnergy composite blasts deal an amount of damage equal to 2d6 \u002B 1/2 the kineticist\u0027s\u00A0Constitution\u00A0modifier, increasing by 2d6 for every 2 kineticist levels beyond 1st.",
-      "icon": "gen__KB"
-    },
-    {
-      "name": "Wild Talents",
-      "desc": "A kineticist can use wild talents \u2014 magical abilities similar to {g|Encyclopedia:Spell}spells{/g} but drawn from the kineticist\u0027s innate psychic talent and usable at will. Wild talents are typically\u00A0{g|Encyclopedia:Special_Abilities}spell-like abilities{/g}\u00A0(though some are\u00A0supernatural\u00A0abilities), and take a\u00A0{g|Encyclopedia:Standard_Actions}standard action{/g}\u00A0to use unless otherwise noted. Every wild talent has an effective spell level. A kineticist can always select 1st-level wild talents, but she can select a wild talent of a higher level only if her kineticist level is at least double the wild talent\u0027s effective spell level. Kinetic blast and defense wild talents are always considered to have an effective spell level equal to 1/2 the kineticist\u0027s {g|Encyclopedia:Class_Level}class level{/g} (to a maximum effective spell level of 9th at kineticist level 18th). Unless otherwise noted, the {g|Encyclopedia:DC}DC{/g} for a {g|Encyclopedia:Saving_Throw}saving throw{/g} against a wild talent is equal to 10 \u002B the wild talent\u0027s effective spell level \u002B the kineticist\u0027s {g|Encyclopedia:Constitution}Constitution{/g}\u00A0modifier. The kineticist uses her\u00A0Constitution modifier on all\u00A0{g|Encyclopedia:Concentration}concentration{/g}\u00A0{g|Encyclopedia:Check}checks{/g} for wild talents. In addition to the wild talents she gains from her other class features, at 2nd level and every 2 levels thereafter, a kineticist selects a new utility wild talent from the list of options available to her. A kineticist can select only universal wild talents or those that match her element.",
-      "icon": "gen__WT"
-    },
-    {
-      "name": "Elemental Overflow",
-      "desc": "At 3rd level, a kineticist\u0027s body surges with energy from her chosen element whenever she accepts burn. In addition, she receives a {g|Encyclopedia:Bonus}bonus{/g} on her\u00A0{g|Encyclopedia:Attack}attack rolls{/g}\u00A0with kinetic blasts equal to the total number of points of burn she currently has, to a maximum bonus of \u002B1 for every 3 kineticist levels she possesses. She also receives a bonus on {g|Encyclopedia:Damage}damage rolls{/g} with her kinetic blast equal to double the bonus on\u00A0attack {g|Encyclopedia:Dice}rolls{/g}.\nAs a kineticist\u0027s body becomes more and more suffused with her element, she begins to gain more powerful benefits.\nStarting at 6th level, whenever she has at least 3 points of burn, the kineticist gains a \u002B2\u00A0{g|Encyclopedia:Size}size{/g} bonus\u00A0to two physical {g|Encyclopedia:Ability_Scores}ability scores{/g} of her choice. She also gains a chance to ignore the effects of a\u00A0{g|Encyclopedia:Critical}critical hit{/g} or\u00A0sneak attack\u00A0equal to 5% for every current point of burn. At 11th level, whenever the kineticist has at least 5 points of burn, these bonuses increase to a \u002B4\u00A0size bonus\u00A0to one physical ability score of her choice and a \u002B2\u00A0size bonus\u00A0to each of her other two physical ability scores.\nAt 16th level, whenever the kineticist has at least 7 points of burn, these bonuses increase to a \u002B6\u00A0size bonus\u00A0to one physical ability score of her choice, a \u002B4\u00A0size bonus\u00A0to a second physical ability score of her choice, and a \u002B2\u00A0size bonus\u00A0to the remaining physical ability score.",
-      "icon": "gen__EO"
-    },
-    {
-      "name": "Metakinesis \u2014 Empowered",
-      "desc": "At 5th level, a kineticist gains the ability to alter her kinetic blasts as if with\u00A0metamagic {g|Encyclopedia:Feat}feats{/g}\u00A0by accepting burn. By accepting 1 point of burn, she can empower her kinetic blast (as if using\u00A0Empower {g|Encyclopedia:Spell}Spell{/g}). At 9th level, by accepting 2 points of burn, she can maximize her kinetic blast as if using\u00A0Maximize Spell. At 13th level, by accepting 3 points of burn, she can quicken her kinetic blast as if using\u00A0Quicken Spell.",
-      "icon": "3c7ea7228ae2fdb4a9a87d7fdf3465cc"
-    },
-    {
-      "name": "Expanded Element",
-      "desc": "At 7th level, a kineticist learns to use another element or expands her understanding of her own element. She can choose any element, including her primary element. She gains one of that element\u0027s simple blast wild talents that she does not already possess, if any. She also gains all composite blast wild talents whose prerequisites she meets. She doesn\u0027t gain the defensive wild talent of the expanded element unless she later selects it with the\u00A0expanded defense\u00A0utility wild talent.\nAt 15th level, the kineticist can either select a new element or expand her understanding of her original element. She can\u0027t select the same element she selected at 7th level. She gains all the benefits from her new expanded element as listed above.",
-      "icon": "gen__EE"
-    },
-    {
-      "name": "Metakinesis \u2014 Maximized",
-      "desc": "At 5th level, a kineticist gains the ability to alter her kinetic blasts as if with\u00A0metamagic {g|Encyclopedia:Feat}feats{/g}\u00A0by accepting burn. By accepting 1 point of burn, she can empower her kinetic blast (as if using\u00A0Empower {g|Encyclopedia:Spell}Spell{/g}). At 9th level, by accepting 2 points of burn, she can maximize her kinetic blast as if using\u00A0Maximize Spell. At 13th level, by accepting 3 points of burn, she can quicken her kinetic blast as if using\u00A0Quicken Spell.",
-      "icon": "ee077ba5f8174f148a74c4543e58fac9"
-    },
-    {
-      "name": "Supercharge",
-      "desc": "At 11th level, when using gather power as a\u00A0{g|Encyclopedia:Move_Action}move action{/g}, a kineticist can reduce the total burn cost of a single wild talent by 2 points instead of 1. When using gather power for 1 full {g|Encyclopedia:Combat_Round}round{/g}, she can reduce the burn cost of a single wild talent by 3 points instead of 2.",
-      "icon": "gen__S"
-    },
-    {
-      "name": "Metakinesis \u2014 Quicken",
-      "desc": "At 5th level, a kineticist gains the ability to alter her kinetic blasts as if with\u00A0metamagic {g|Encyclopedia:Feat}feats{/g}\u00A0by accepting burn. By accepting 1 point of burn, she can empower her kinetic blast (as if using\u00A0Empower {g|Encyclopedia:Spell}Spell{/g}). At 9th level, by accepting 2 points of burn, she can maximize her kinetic blast as if using\u00A0Maximize Spell. At 13th level, by accepting 3 points of burn, she can quicken her kinetic blast as if using\u00A0Quicken Spell.",
-      "icon": "ed900c6a7b1c40341b9aa325c6068e37"
-    },
-    {
-      "name": "Expanded Element",
-      "desc": "At 7th level, a kineticist learns to use another element or expands her understanding of her own element. She can choose any element, including her primary element. She gains one of that element\u0027s simple blast wild talents that she does not already possess, if any. She also gains all composite blast wild talents whose prerequisites she meets. She doesn\u0027t gain the defensive wild talent of the expanded element unless she later selects it with the\u00A0expanded defense\u00A0utility wild talent.\nAt 15th level, the kineticist can either select a new element or expand her understanding of her original element. She can\u0027t select the same element she selected at 7th level. She gains all the benefits from her new expanded element as listed above.",
-      "icon": "gen__EE"
-    },
-    {
-      "name": "Composite Specialization",
-      "desc": "At 16th level, a kineticist becomes more adept at creating composite blasts. She reduces the burn cost of all composite blasts by 1 point.\nThis can\u0027t reduce the cost of a composite blast below 0 points.",
-      "icon": "gen__CS"
-    },
-    {
-      "name": "Metakinetic Master",
-      "desc": "At 19th level, a kineticist chooses one type of metakinesis, such as empower or quicken. She reduces the burn cost of that metakinesis by 1 point (to a minimum of 0 points).",
-      "icon": "gen__MM"
-    }
-  ],
-  "progression": [
-    [],
-    [
-      0,
-      1,
-      2,
-      3,
-      4
-    ],
-    [
-      5
-    ],
-    [
-      3,
-      6
-    ],
-    [
-      5
-    ],
-    [
-      7,
-      3
-    ],
-    [
-      5
-    ],
-    [
-      8
-    ],
-    [
-      5
-    ],
-    [
-      3,
-      9
-    ],
-    [
-      5
-    ],
-    [
-      3,
-      10
-    ],
-    [
-      5
-    ],
-    [
-      3,
-      11
-    ],
-    [
-      5
-    ],
-    [
-      12
-    ],
-    [
-      5,
-      13
-    ],
-    [
-      3
-    ],
-    [
-      5
-    ],
-    [
-      3,
-      14
-    ],
-    [
-      5
-    ]
-  ],
   "__ui-groups": [
     [
       3
@@ -172,6 +21,242 @@
       6
     ]
   ],
+  "features": [
+    {
+      "__index": 0,
+      "name": "Burn",
+      "desc": "At 1st level, a kineticist can overexert herself to channel more power than normal, pushing past the limit of what is safe for her body by accepting burn. Some of her wild talents allow her to accept burn in exchange for a greater effect, while others require her to accept a certain amount of burn to use that talent at all. For each point of burn she accepts, a kineticist takes (1 per {g|Encyclopedia:Character_Level}character level{/g}) points of\u00A0nonlethal {g|Encyclopedia:Damage}damage{/g}. This damage can\u0027t be {g|Encyclopedia:Healing}healed{/g} by any means other than getting a full night\u0027s {g|Encyclopedia:Rest}rest{/g}, which removes all burn and associated\u00A0nonlethal damage. Nonlethal damage from burn can\u0027t be reduced or redirected, and a kineticist incapable of taking\u00A0nonlethal damage\u00A0can\u0027t accept burn. A kineticist can accept only 1 point of burn per {g|Encyclopedia:Combat_Round}round{/g}. This limit rises to 2 points of burn at 6th level, and rises by 1 additional point every 3 levels thereafter. A kineticist can\u0027t choose to accept burn if it would put her total number of points of burn higher than (3 \u002B her\u00A0{g|Encyclopedia:Constitution}Constitution{/g}\u00A0modifier), though she can be forced to accept more burn from a source outside her control. A kineticist who has accepted burn never benefits from abilities that allow her to ignore or alter the effects she receives from\u00A0nonlethal damage.",
+      "icon": "gen__B"
+    },
+    {
+      "__index": 1,
+      "name": "Weapon and Armor Proficiency",
+      "desc": "Kineticists are proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g} and light armor, but not shields.",
+      "icon": "gen__WAP"
+    },
+    {
+      "__index": 2,
+      "name": "Elemental Focus",
+      "desc": "At 1st level, a kineticist chooses one primary element on which to focus. This element determines how she accesses the raw power of the\u00A0Ethereal Plane, and grants her access to specific wild talents and additional class {g|Encyclopedia:Skills}skills{/g}. She gains her selected element\u0027s basic utility wild talent (basic aerokinesis, etc.) as a {g|Encyclopedia:Bonus}bonus{/g} wild talent.",
+      "icon": "gen__EF"
+    },
+    {
+      "__index": 3,
+      "name": "Infusion",
+      "desc": "At 1st level, a kineticist gains an infusion wild talent from the list of options available based on her elemental focus. She gains additional infusions at 3rd, 5th, 9th, 11th, 13th, 17th, and 19th levels. By using infusions along with her kinetic blasts, a kineticist can alter her kinetic blasts to suit her needs. Infusions come in two types, each of which changes a kinetic blast differently: a substance infusion causes an additional effect, while a form infusion causes the kinetic blast to manifest in a different way. Each infusion can alter only certain kinds of kinetic blasts, which are listed in its Associated Blasts entry. Each time the kineticist uses one of her kinetic blast wild talents, she can apply up to one associated form infusion and up to one associated substance infusion.\nSome infusions change the {g|Encyclopedia:CA_Types}action{/g} required to activate a kinetic blast or entirely transform the kinetic blast\u0027s normal effects.\nThe burn cost listed in each infusion\u0027s Burn entry is added to the burn cost of the kinetic blast the infusion modifies.\nThe {g|Encyclopedia:DC}DC{/g} for a {g|Encyclopedia:Saving_Throw}save{/g} against an infusion is based on the associated kinetic blast\u0027s effective {g|Encyclopedia:Spell}spell{/g} level, not the level of the infusion. The DCs for form infusions are calculated using the kineticist\u0027s\u00A0{g|Encyclopedia:Dexterity}Dexterity{/g} modifier instead of her\u00A0{g|Encyclopedia:Constitution}Constitution{/g}\u00A0modifier. When a kineticist modifies a kinetic blast with a form infusion and a substance infusion that both require saving throws, each target first attempts a saving throw against the form infusion. If a target succeeds and a successful save negates the infusion\u0027s effects, the entire kinetic blast is negated; otherwise, the target then attempts a saving throw against the substance infusion. If a kineticist\u0027s form and substance infusions both alter the kinetic blast\u0027s {g|Encyclopedia:Damage}damage{/g}, apply the substance infusion\u0027s alteration first.",
+      "icon": "1f5f5d7356e6b6448bfd6d507a7893d8"
+    },
+    {
+      "__index": 4,
+      "name": "Kinetic Blast",
+      "desc": "At 1st level, a kineticist gains a kinetic blast wild talent of her choice. This kinetic blast must be a simple blast that matches her element.\nAs a\u00A0{g|Encyclopedia:Standard_Actions}standard action{/g}, the kineticist can unleash a kinetic blast at a single target in close range. She must have at least one hand free to aim the blast. All {g|Encyclopedia:Damage}damage{/g} from a kinetic blast is treated as magic for the purpose of bypassing\u00A0{g|Encyclopedia:Damage_Reduction}damage reduction{/g}. Kinetic blasts count as a type of weapon for the purpose of {g|Encyclopedia:Feat}feats{/g} such as\u00A0Weapon Focus. The kineticist is never considered to be wielding or gripping the kinetic blast, and she can\u0027t use\u00A0Vital Strike\u00A0feats with kinetic blasts. Even the weakest kinetic blast involves a sizable mass of elemental matter or energy, so kinetic blasts always deal full damage to swarms of any {g|Encyclopedia:Size}size{/g} (though only area blasts deal extra damage to swarms).\nEach simple blast is either a physical blast or an energy blast.\nPhysical blasts are {g|Encyclopedia:RangedAttack}ranged attacks{/g} that deal an amount of damage equal to {g|Encyclopedia:Dice}1d6{/g}\u002B1 \u002B the kineticist\u0027s\u00A0{g|Encyclopedia:Constitution}Constitution{/g}\u00A0modifier, increasing by 1d6\u002B1 for every 2 kineticist levels beyond 1st. {g|Encyclopedia:Spell_Resistance}Spell resistance{/g} doesn\u0027t apply against physical blasts.\nEnergy blasts are ranged {g|Encyclopedia:TouchAttack}touch attacks{/g} that deal an amount of damage equal to 1d6 \u002B 1/2 the kineticist\u0027s\u00A0Constitution\u00A0modifier, increasing by 1d6 for every 2 kineticist levels beyond 1st.\nComposite blasts combine elements to form a new blast. When a kineticist gains a new element through\u00A0expanded element, she gains access to all composite blasts for which she qualifies.\nMost composite blasts are either physical or energy blasts, like simple blasts.\nPhysical composite blasts deal an amount of damage equal to 2d6\u002B2 \u002B the kineticist\u0027s\u00A0Constitution\u00A0modifier, increasing by 2d6\u002B2 for every 2 kineticist levels beyond 1st.\nEnergy composite blasts deal an amount of damage equal to 2d6 \u002B 1/2 the kineticist\u0027s\u00A0Constitution\u00A0modifier, increasing by 2d6 for every 2 kineticist levels beyond 1st.",
+      "icon": "gen__KB"
+    },
+    {
+      "__index": 5,
+      "name": "Wild Talents",
+      "desc": "A kineticist can use wild talents \u2014 magical abilities similar to {g|Encyclopedia:Spell}spells{/g} but drawn from the kineticist\u0027s innate psychic talent and usable at will. Wild talents are typically\u00A0{g|Encyclopedia:Special_Abilities}spell-like abilities{/g}\u00A0(though some are\u00A0supernatural\u00A0abilities), and take a\u00A0{g|Encyclopedia:Standard_Actions}standard action{/g}\u00A0to use unless otherwise noted. Every wild talent has an effective spell level. A kineticist can always select 1st-level wild talents, but she can select a wild talent of a higher level only if her kineticist level is at least double the wild talent\u0027s effective spell level. Kinetic blast and defense wild talents are always considered to have an effective spell level equal to 1/2 the kineticist\u0027s {g|Encyclopedia:Class_Level}class level{/g} (to a maximum effective spell level of 9th at kineticist level 18th). Unless otherwise noted, the {g|Encyclopedia:DC}DC{/g} for a {g|Encyclopedia:Saving_Throw}saving throw{/g} against a wild talent is equal to 10 \u002B the wild talent\u0027s effective spell level \u002B the kineticist\u0027s {g|Encyclopedia:Constitution}Constitution{/g}\u00A0modifier. The kineticist uses her\u00A0Constitution modifier on all\u00A0{g|Encyclopedia:Concentration}concentration{/g}\u00A0{g|Encyclopedia:Check}checks{/g} for wild talents. In addition to the wild talents she gains from her other class features, at 2nd level and every 2 levels thereafter, a kineticist selects a new utility wild talent from the list of options available to her. A kineticist can select only universal wild talents or those that match her element.",
+      "icon": "gen__WT"
+    },
+    {
+      "__index": 6,
+      "name": "Elemental Overflow",
+      "desc": "At 3rd level, a kineticist\u0027s body surges with energy from her chosen element whenever she accepts burn. In addition, she receives a {g|Encyclopedia:Bonus}bonus{/g} on her\u00A0{g|Encyclopedia:Attack}attack rolls{/g}\u00A0with kinetic blasts equal to the total number of points of burn she currently has, to a maximum bonus of \u002B1 for every 3 kineticist levels she possesses. She also receives a bonus on {g|Encyclopedia:Damage}damage rolls{/g} with her kinetic blast equal to double the bonus on\u00A0attack {g|Encyclopedia:Dice}rolls{/g}.\nAs a kineticist\u0027s body becomes more and more suffused with her element, she begins to gain more powerful benefits.\nStarting at 6th level, whenever she has at least 3 points of burn, the kineticist gains a \u002B2\u00A0{g|Encyclopedia:Size}size{/g} bonus\u00A0to two physical {g|Encyclopedia:Ability_Scores}ability scores{/g} of her choice. She also gains a chance to ignore the effects of a\u00A0{g|Encyclopedia:Critical}critical hit{/g} or\u00A0sneak attack\u00A0equal to 5% for every current point of burn. At 11th level, whenever the kineticist has at least 5 points of burn, these bonuses increase to a \u002B4\u00A0size bonus\u00A0to one physical ability score of her choice and a \u002B2\u00A0size bonus\u00A0to each of her other two physical ability scores.\nAt 16th level, whenever the kineticist has at least 7 points of burn, these bonuses increase to a \u002B6\u00A0size bonus\u00A0to one physical ability score of her choice, a \u002B4\u00A0size bonus\u00A0to a second physical ability score of her choice, and a \u002B2\u00A0size bonus\u00A0to the remaining physical ability score.",
+      "icon": "gen__EO"
+    },
+    {
+      "__index": 7,
+      "name": "Metakinesis \u2014 Empowered",
+      "desc": "At 5th level, a kineticist gains the ability to alter her kinetic blasts as if with\u00A0metamagic {g|Encyclopedia:Feat}feats{/g}\u00A0by accepting burn. By accepting 1 point of burn, she can empower her kinetic blast (as if using\u00A0Empower {g|Encyclopedia:Spell}Spell{/g}). At 9th level, by accepting 2 points of burn, she can maximize her kinetic blast as if using\u00A0Maximize Spell. At 13th level, by accepting 3 points of burn, she can quicken her kinetic blast as if using\u00A0Quicken Spell.",
+      "icon": "3c7ea7228ae2fdb4a9a87d7fdf3465cc"
+    },
+    {
+      "__index": 8,
+      "name": "Expanded Element",
+      "desc": "At 7th level, a kineticist learns to use another element or expands her understanding of her own element. She can choose any element, including her primary element. She gains one of that element\u0027s simple blast wild talents that she does not already possess, if any. She also gains all composite blast wild talents whose prerequisites she meets. She doesn\u0027t gain the defensive wild talent of the expanded element unless she later selects it with the\u00A0expanded defense\u00A0utility wild talent.\nAt 15th level, the kineticist can either select a new element or expand her understanding of her original element. She can\u0027t select the same element she selected at 7th level. She gains all the benefits from her new expanded element as listed above.",
+      "icon": "gen__EE"
+    },
+    {
+      "__index": 9,
+      "name": "Metakinesis \u2014 Maximized",
+      "desc": "At 5th level, a kineticist gains the ability to alter her kinetic blasts as if with\u00A0metamagic {g|Encyclopedia:Feat}feats{/g}\u00A0by accepting burn. By accepting 1 point of burn, she can empower her kinetic blast (as if using\u00A0Empower {g|Encyclopedia:Spell}Spell{/g}). At 9th level, by accepting 2 points of burn, she can maximize her kinetic blast as if using\u00A0Maximize Spell. At 13th level, by accepting 3 points of burn, she can quicken her kinetic blast as if using\u00A0Quicken Spell.",
+      "icon": "ee077ba5f8174f148a74c4543e58fac9"
+    },
+    {
+      "__index": 10,
+      "name": "Supercharge",
+      "desc": "At 11th level, when using gather power as a\u00A0{g|Encyclopedia:Move_Action}move action{/g}, a kineticist can reduce the total burn cost of a single wild talent by 2 points instead of 1. When using gather power for 1 full {g|Encyclopedia:Combat_Round}round{/g}, she can reduce the burn cost of a single wild talent by 3 points instead of 2.",
+      "icon": "gen__S"
+    },
+    {
+      "__index": 11,
+      "name": "Metakinesis \u2014 Quicken",
+      "desc": "At 5th level, a kineticist gains the ability to alter her kinetic blasts as if with\u00A0metamagic {g|Encyclopedia:Feat}feats{/g}\u00A0by accepting burn. By accepting 1 point of burn, she can empower her kinetic blast (as if using\u00A0Empower {g|Encyclopedia:Spell}Spell{/g}). At 9th level, by accepting 2 points of burn, she can maximize her kinetic blast as if using\u00A0Maximize Spell. At 13th level, by accepting 3 points of burn, she can quicken her kinetic blast as if using\u00A0Quicken Spell.",
+      "icon": "ed900c6a7b1c40341b9aa325c6068e37"
+    },
+    {
+      "__index": 12,
+      "name": "Expanded Element",
+      "desc": "At 7th level, a kineticist learns to use another element or expands her understanding of her own element. She can choose any element, including her primary element. She gains one of that element\u0027s simple blast wild talents that she does not already possess, if any. She also gains all composite blast wild talents whose prerequisites she meets. She doesn\u0027t gain the defensive wild talent of the expanded element unless she later selects it with the\u00A0expanded defense\u00A0utility wild talent.\nAt 15th level, the kineticist can either select a new element or expand her understanding of her original element. She can\u0027t select the same element she selected at 7th level. She gains all the benefits from her new expanded element as listed above.",
+      "icon": "gen__EE"
+    },
+    {
+      "__index": 13,
+      "name": "Composite Specialization",
+      "desc": "At 16th level, a kineticist becomes more adept at creating composite blasts. She reduces the burn cost of all composite blasts by 1 point.\nThis can\u0027t reduce the cost of a composite blast below 0 points.",
+      "icon": "gen__CS"
+    },
+    {
+      "__index": 14,
+      "name": "Metakinetic Master",
+      "desc": "At 19th level, a kineticist chooses one type of metakinesis, such as empower or quicken. She reduces the burn cost of that metakinesis by 1 point (to a minimum of 0 points).",
+      "icon": "gen__MM"
+    },
+    {
+      "__index": 15,
+      "name": "Dark Studies",
+      "desc": "A dark elementalist\u0027s base {g|Encyclopedia:Saving_Throw}Will save{/g} {g|Encyclopedia:Bonus}bonus{/g} from the kineticist class is equal to 2 \u002B 1/2 her kineticist level, and her base Reflex and Fortitude save bonuses are equal to 1/3 her kineticist level. She gains all Knowledge and Lore {g|Encyclopedia:Skills}skills{/g} as class skills.\nA dark elementalist uses her {g|Encyclopedia:Intelligence}Intelligence{/g} modifier instead of her {g|Encyclopedia:Constitution}Constitution{/g} modifier to determine her {g|Encyclopedia:Damage}damage{/g} with wild talents, the DCs of Constitution-based wild talents, the durations of wild talents with Constitution-based durations, her bonus on {g|Encyclopedia:Concentration}concentration checks{/g} for wild talents, and any other Constitution-based effects of all her wild talents.\nThis alters the kineticist\u0027s class skills and base saving throws and the key {g|Encyclopedia:Ability_Scores}ability score{/g} of wild talents.",
+      "icon": "gen__DS"
+    },
+    {
+      "__index": 16,
+      "name": "Soul Power",
+      "desc": "A dark elementalist uses the souls of others to protect herself from the dangers of burn. She can\u0027t choose to accept burn if doing so would raise her total number of points of burn above 3. However, a number of times per day equal to her {g|Encyclopedia:Intelligence}Intelligence{/g} modifier, as a {g|Encyclopedia:Full_Round_Action}full-round action{/g} she can gather up the souls of dead creatures with HD sum equal to or higher than her {g|Encyclopedia:Character_Level}character level{/g}. When she does, some of her existing burn is unloaded into the departing souls, racking it with unspeakable torment, but reducing her current burn total by 1 point.\nA dark elementalist gains {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage{/g} {g|Encyclopedia:Bonus}bonuses{/g} from elemental overflow based on how many times that day she has successfully used soul power to rack souls, rather than based on her current burn total. For instance, a 9th-level dark elementalist who had used soul power three or more times during the course of the day would add a \u002B3 bonus on attack {g|Encyclopedia:Dice}rolls{/g} and a \u002B6 bonus on damage rolls. A dark elementalist does not gain {g|Encyclopedia:Size}size{/g} bonuses to physical {g|Encyclopedia:Ability_Scores}ability scores{/g} or a chance to ignore {g|Encyclopedia:Critical}critical hits{/g} and sneak attacks from elemental overflow.\nThis ability alters burn and elemental overflow and replaces internal buffer.",
+      "icon": "gen__SP"
+    },
+    {
+      "__index": 17,
+      "name": "Burn",
+      "desc": "At 1st level, a kineticist can overexert herself to channel more power than normal, pushing past the limit of what is safe for her body by accepting burn. Some of her wild talents allow her to accept burn in exchange for a greater effect, while others require her to accept a certain amount of burn to use that talent at all. For each point of burn she accepts, a kineticist takes (1 per {g|Encyclopedia:Character_Level}character level{/g}) points of\u00A0nonlethal {g|Encyclopedia:Damage}damage{/g}. This damage can\u0027t be {g|Encyclopedia:Healing}healed{/g} by any means other than getting a full night\u0027s {g|Encyclopedia:Rest}rest{/g}, which removes all burn and associated\u00A0nonlethal damage. Nonlethal damage from burn can\u0027t be reduced or redirected, and a kineticist incapable of taking\u00A0nonlethal damage\u00A0can\u0027t accept burn. A kineticist can accept only 1 point of burn per {g|Encyclopedia:Combat_Round}round{/g}. This limit rises to 2 points of burn at 6th level, and rises by 1 additional point every 3 levels thereafter. A kineticist can\u0027t choose to accept burn if it would put her total number of points of burn higher than (3 \u002B her\u00A0{g|Encyclopedia:Constitution}Constitution{/g}\u00A0modifier), though she can be forced to accept more burn from a source outside her control. A kineticist who has accepted burn never benefits from abilities that allow her to ignore or alter the effects she receives from\u00A0nonlethal damage.",
+      "icon": "gen__B"
+    },
+    {
+      "__index": 18,
+      "name": "Emotional Intensity",
+      "desc": "A psychokineticist uses his {g|Encyclopedia:Wisdom}Wisdom{/g} modifier instead of his {g|Encyclopedia:Constitution}Constitution{/g} modifier to determine his {g|Encyclopedia:Damage}damage{/g} with wild talents, the DCs of Constitution-based wild talents, the durations of wild talents with Constitution-based durations, his {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Concentration}concentration checks{/g} for wild talents, and other Constitution-based effects of all his wild talents.",
+      "icon": "gen__EI"
+    },
+    {
+      "__index": 19,
+      "name": "Mind Burn",
+      "desc": "A psychokineticist\u0027s mind strains when he overtaxes himself. He takes a \u20132 {g|Encyclopedia:Penalty}penalty{/g} on Will {g|Encyclopedia:Saving_Throw}saves{/g}, {g|Encyclopedia:Wisdom}Wisdom{/g} {g|Encyclopedia:Check}checks{/g}, and Wisdom-based {g|Encyclopedia:Skills}skill checks{/g} for each point of burn he has accepted, rather than taking nonlethal {g|Encyclopedia:Damage}damage{/g} from burn. He can accept an amount of burn equal to his Wisdom modifier (rather than 3 \u002B his Wisdom modifier). Otherwise, his burn works just like a normal kineticist\u0027s.\nThis ability alters burn.",
+      "icon": "gen__MB"
+    },
+    {
+      "__index": 20,
+      "name": "Kinetic Blade",
+      "desc": "Element:\u00A0universal\nType:\u00A0form infusion\nLevel:\u00A01\nBurn:\u00A01\nAssociated Blasts:\u00A0any\n{g|Encyclopedia:Saving_Throw}Saving Throw{/g}:\u00A0none\nYou form a weapon using your kinetic abilities. You create a nonreach, light or {g|Encyclopedia:Light_Weapon}one-handed{/g} weapon in your hand formed of pure energy or elemental matter. The kinetic blade\u0027s shape is purely cosmetic and doesn\u0027t affect the {g|Encyclopedia:Damage}damage{/g} dice, {g|Encyclopedia:Critical}critical{/g} threat range, or critical multiplier of the kinetic blade, nor does it grant the kinetic blade any weapon special features.\nYou can use this form infusion once as part of an {g|Encyclopedia:Attack}attack{/g} {g|Encyclopedia:CA_Types}action{/g}, a charge action, or a full-attack action in order to make {g|Encyclopedia:MeleeAttack}melee attacks{/g} with your kinetic blade. Since it\u0027s part of another action (and isn\u0027t an action itself), using this wild talent doesn\u0027t provoke any additional\u00A0{g|Encyclopedia:Attack_Of_Opportunity}attacks of opportunity{/g}. The kinetic blade deals your kinetic blast damage on each hit (applying any modifiers to your kinetic blast\u0027s damage as normal, but not your\u00A0{g|Encyclopedia:Strength}Strength{/g}\u00A0modifier). The blade disappears at the end of your turn. The weapon deals the same {g|Encyclopedia:Damage_Type}damage type{/g} that your kinetic blast deals, and it interacts with\u00A0{g|Encyclopedia:Armor_Class}Armor Class{/g} and\u00A0{g|Encyclopedia:Spell_Resistance}spell resistance{/g}\u00A0as normal for a blast of its type. The kinetic blade doesn\u0027t add the damage {g|Encyclopedia:Bonus}bonus{/g} from elemental overflow.",
+      "icon": "7a46b728ff1342141932204cc12e6d7d"
+    },
+    {
+      "__index": 21,
+      "name": "Elemental Focus",
+      "desc": "At 1st level, a kineticist chooses one primary element on which to focus. This element determines how she accesses the raw power of the\u00A0Ethereal Plane, and grants her access to specific wild talents and additional class {g|Encyclopedia:Skills}skills{/g}. She gains her selected element\u0027s basic utility wild talent (basic aerokinesis, etc.) as a {g|Encyclopedia:Bonus}bonus{/g} wild talent.",
+      "icon": "gen__EF"
+    },
+    {
+      "__index": 22,
+      "name": "Elemental Blade",
+      "desc": "At 1st level, a kinetic knight gains the kinetic blade form infusion, and it costs 0 points of burn instead of 1 point. She can\u0027t use her kinetic blast without the kinetic blade form infusion or an infusion that lists kinetic blade as a prerequisite.",
+      "icon": "gen__EB"
+    },
+    {
+      "__index": 23,
+      "name": "Kinetic Warrior",
+      "desc": "The kinetic knight can use her {g|Encyclopedia:Constitution}Constitution{/g} score in place of her {g|Encyclopedia:Intelligence}Intelligence{/g} score when qualifying for combat {g|Encyclopedia:Feat}feats{/g}. This ability counts as having Combat Expertise for the purpose of feat prerequisites.",
+      "icon": "gen__KW"
+    },
+    {
+      "__index": 24,
+      "name": "Elemental Bastion",
+      "desc": "At 1st level, the kinetic knight becomes proficient with medium and heavy armor and shields (except tower shields).\nA kinetic knight gains the elemental defense ability at 4th level, rather than 2nd.\nThis ability alters elemental defense.",
+      "icon": "gen__EB"
+    },
+    {
+      "__index": 25,
+      "name": "Knight\u0027s Resolve",
+      "desc": "Starting at 3rd level, the kinetic knight gains resolve that he can call upon to endure even the most devastating wounds and afflictions. He can use this ability once per day at 3rd level, plus one additional time per day for every two kinetic knight levels beyond 3rd.\nDetermined: As a {g|Encyclopedia:Standard_Actions}standard action{/g}, the kinetic knight can spend one use of his resolve to remove the fatigued, shaken, or sickened condition. If the kinetic knight is at least 11th level, he can alternatively remove the exhausted, frightened, nauseated, or staggered condition.\nResolute: Whenever the kinetic knight is required to make a Fortitude or {g|Encyclopedia:Saving_Throw}Will save{/g}, he can spend one use of his resolve as an immediate {g|Encyclopedia:CA_Types}action{/g} to {g|Encyclopedia:Dice}roll{/g} twice and take the better result.\nThis ability replaces the kineticist infusion gained at 3rd level and supercharge.",
+      "icon": "gen__KR"
+    },
+    {
+      "__index": 26,
+      "name": "Wrack",
+      "desc": "At 1st level, a blood kineticist can use her abilities to wrack a target within 30 feet, harming the target by manipulating its blood from the inside. The target takes half the normal {g|Encyclopedia:Damage}damage{/g} of the blood kineticist\u0027s blast, and can attempt a {g|Encyclopedia:Saving_Throw}Fortitude save{/g} to reduce that amount to 1/4 normal damage, but the damage is untyped and ignores {g|Encyclopedia:Damage_Reduction}damage reduction{/g}. This is a 1st-level form infusion that costs 0 points of burn and can be used with water and blood blasts.",
+      "icon": "gen__W"
+    },
+    {
+      "__index": 27,
+      "name": "Bleeding Infusion",
+      "desc": "At 5th level, a blood kineticist can infuse her blasts with a vicious power that causes internal or external bleeding. On a failed {g|Encyclopedia:Saving_Throw}Fortitude save{/g}, the target takes 1 point of bleed {g|Encyclopedia:Damage}damage{/g} for every die of the blast\u0027s damage. This is a 2nd-level substance infusion that costs 2 points of burn and can be used with water and blood blasts.",
+      "icon": "68ca49bae78394641915d576972ac0d4"
+    },
+    {
+      "__index": 28,
+      "name": "Blood Blast",
+      "desc": "The first time a blood kineticist selects water with expanded element, she doesn\u0027t gain the cold simple blast or the ice composite blast; instead, she gains the blood composite blast, which costs 2 points of burn. A blood blast is a physical blast that deals {g|Encyclopedia:Damage_Type}bludgeoning damage{/g}. It is associated with the same infusions as the water blast.",
+      "icon": "gen__BB"
+    },
+    {
+      "__index": 29,
+      "name": "Gut-Wrenching Infusion",
+      "desc": "At 9th level, a blood kineticist can infuse her blasts with the ability to manipulate her opponent\u0027s insides to the point of impairing their function. On a failed {g|Encyclopedia:Saving_Throw}Fortitude save{/g}, the target is sickened for 1 minute. This is a 4th-level substance infusion that costs 3 points of burn and can be used with water and blood blasts.",
+      "icon": "gen__GWI"
+    },
+    {
+      "__index": 30,
+      "name": "Vampiric Infusion",
+      "desc": "At 11th level, a blood kineticist can drain the vitality from her enemy\u0027s blood to restore her own.\nIf her blast hits (or the enemy fails its {g|Encyclopedia:Saving_Throw}saving throw{/g} against a blast without an {g|Encyclopedia:Attack}attack roll{/g}) the blood kineticist can activate the kinetic {g|Encyclopedia:Healing}healer{/g} utility wild talent without paying the burn cost. This is a 5th-level substance infusion that costs 3 points of burn and can be used with water and blood blasts.",
+      "icon": "gen__VI"
+    },
+    {
+      "__index": 31,
+      "name": "Blood Mastery",
+      "desc": "At 20th level, a blood kineticist, because of her utter control over her own blood, is immune to bleed, poisons, diseases, and the sickened and nauseated conditions.",
+      "icon": "gen__BM"
+    },
+    {
+      "__index": 32,
+      "name": "Mental Prowess",
+      "desc": "An overwhelming soul\u0027s mind is strong enough to protect her body from the stress of channeling the elements. However, in exchange, she is unable to push her limits quite as far as other kineticists.\nShe can\u0027t choose to accept burn, though she can use wild talents with a burn cost if she can reduce that cost to 0 points with abilities such as gather power and infusion specialization. At 6th level, once per day, she can reduce the total burn cost of any wild talent by 1.\nShe can use this ability an additional time per day at 10th level and every 4 levels thereafter.",
+      "icon": "gen__MP"
+    },
+    {
+      "__index": 33,
+      "name": "Mind Over Matter",
+      "desc": "An overwhelming soul uses her {g|Encyclopedia:Charisma}Charisma{/g} modifier instead of her {g|Encyclopedia:Constitution}Constitution{/g} modifier to determine her {g|Encyclopedia:Damage}damage{/g} with wild talents, the DCs of Constitution based wild talents, the duration of wild talents with a Constitution-based duration, her {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Concentration}concentration checks{/g} for wild talents, and the other Constitution based effects of all her wild talents.",
+      "icon": "gen__MOM"
+    },
+    {
+      "__index": 34,
+      "name": "Overwhelming Power",
+      "desc": "At 3rd level, an overwhelming soul gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g} and {g|Encyclopedia:Damage}damage rolls{/g} with her kinetic blasts. The damage bonus doesn\u0027t apply to kinetic blade, kinetic whip, or other infusions that don\u0027t apply the damage bonus from elemental overflow.\nThis bonus increases by 1 at 6th level and every 3 levels thereafter.",
+      "icon": "gen__OP"
+    },
+    {
+      "__index": 35,
+      "name": "Mental Prowess",
+      "desc": "At 6th level, once per day, she can reduce the total burn cost of any wild talent by 1.\nShe can use this ability an additional time per day at 10th level and every 4 levels thereafter.",
+      "icon": "gen__MP"
+    },
+    {
+      "__index": 36,
+      "name": "Burnout",
+      "desc": "At 3rd level, a kineticist\u0027s body surges with energy from her chosen element whenever she accepts burn. In addition, she receives a {g|Encyclopedia:Bonus}bonus{/g} on her\u00A0{g|Encyclopedia:Attack}attack rolls{/g}\u00A0with kinetic blasts equal to the total number of points of burn she currently has, to a maximum bonus of \u002B1 for every 3 kineticist levels she possesses. She also receives a bonus on {g|Encyclopedia:Damage}damage rolls{/g} with her kinetic blast equal to double the bonus on\u00A0attack {g|Encyclopedia:Dice}rolls{/g}.\nFurthermore, elemental engine, while being at maximum burn, doubles those bonuses and when using gather power she reduces the burn cost by 1 additional point.",
+      "icon": "gen__B"
+    },
+    {
+      "__index": 37,
+      "name": "Elemental Burnout",
+      "desc": "Starting at 7th level, elemental engine gains additional benefits while at maximum burn, depending on the element they chose at 1st level.\nIf the chosen element was air, you gain \u002B2 {g|Encyclopedia:Saving_Throw}saving throw{/g} {g|Encyclopedia:Bonus}bonus{/g} against {g|Encyclopedia:Spell}spells{/g} with electricity descriptor. Additionally, you gain immunity to ground-based spells and abilities.\nIf the chosen element was earth, you gain \u002B2 saving throw bonus against spells with acid descriptor. Additionally, you gain \u002B4 bonus to {g|Encyclopedia:CMD}CMD{/g} against trip, bull rush and pull {g|Encyclopedia:Combat_Maneuvers}combat maneuvers{/g}.\nIf the chosen element was fire, you gain \u002B2 saving throw bonus against spells with fire descriptor. Additionally, you gain a \u002B20 enhancement bonus to your {g|Encyclopedia:Speed}speed{/g}.\nIf the chosen element was water, you gain \u002B2 saving throw bonus against spells with cold descriptor. Additionally, any enemy striking you in melee combat with a non-{g|Encyclopedia:Reach}reach{/g} melee weapon must make a Fortitude saving throw ({g|Encyclopedia:DC}DC{/g} 10 \u002B half the kineticist level \u002B {g|Encyclopedia:Constitution}Constitution{/g} modifier) or become slowed, as per slow spell, for 1 {g|Encyclopedia:Combat_Round}round{/g}.",
+      "icon": "gen__EB"
+    },
+    {
+      "__index": 38,
+      "name": "Greater Elemental Burnout",
+      "desc": "Starting at 13th level, elemental engine gains more benefits while at maximum burn, depending on the element they chose at 1st level.\nIf the chosen element was air, you gain additional \u002B2 {g|Encyclopedia:Saving_Throw}saving throw{/g} {g|Encyclopedia:Bonus}bonus{/g} against {g|Encyclopedia:Spell}spells{/g} with electricity descriptor. Additionally, you are under effect of Freedom of Movement effect.\nIf the chosen element was earth, you gain additional \u002B2 saving throw bonus against spells with acid descriptor. Additionally, you gain immunity against trip, bull rush and pull {g|Encyclopedia:Combat_Maneuvers}combat maneuvers{/g}.\nIf the chosen element was fire, you gain additional \u002B2 saving throw bonus against spells with fire descriptor. Additionally, you are under Haste effect.\nIf the chosen element was water, you gain additional \u002B2 saving throw bonus against spells with cold descriptor. Additionally, any enemy in 10ft radius must make a Fortitude saving throw ({g|Encyclopedia:DC}DC{/g} 10 \u002B half the kineticist level \u002B {g|Encyclopedia:Constitution}Constitution{/g} modifier) every {g|Encyclopedia:Combat_Round}round{/g} or become slowed, as per slow spell, for 1 round.",
+      "icon": "gen__GEB"
+    }
+  ],
   "name": "Kineticist",
   "layout": [
     [
@@ -179,7 +264,7 @@
         "level": 1,
         "feature": 0,
         "rank": -1,
-        "__debug": "BurnFeature"
+        "archType": 0
       }
     ],
     [
@@ -187,7 +272,7 @@
         "level": 1,
         "feature": 1,
         "rank": -1,
-        "__debug": "KineticistProficiencies"
+        "archType": 0
       }
     ],
     [
@@ -195,25 +280,25 @@
         "level": 1,
         "feature": 2,
         "rank": -1,
-        "__debug": "ElementalFocusSelection"
+        "archType": 0
       },
       {
         "level": 7,
         "feature": 8,
         "rank": -1,
-        "__debug": "SecondatyElementalFocusSelection"
+        "archType": 0
       },
       {
         "level": 15,
         "feature": 12,
         "rank": -1,
-        "__debug": "ThirdElementalFocusSelection"
+        "archType": 0
       },
       {
         "level": 16,
         "feature": 13,
         "rank": -1,
-        "__debug": "CompositeBlastSpecialisation"
+        "archType": 0
       }
     ],
     [
@@ -221,49 +306,49 @@
         "level": 1,
         "feature": 3,
         "rank": -1,
-        "__debug": "InfusionSelection"
+        "archType": 0
       },
       {
         "level": 3,
         "feature": 3,
         "rank": -1,
-        "__debug": "InfusionSelection"
+        "archType": 0
       },
       {
         "level": 5,
         "feature": 3,
         "rank": -1,
-        "__debug": "InfusionSelection"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 3,
         "rank": -1,
-        "__debug": "InfusionSelection"
+        "archType": 0
       },
       {
         "level": 11,
         "feature": 3,
         "rank": -1,
-        "__debug": "InfusionSelection"
+        "archType": 0
       },
       {
         "level": 13,
         "feature": 3,
         "rank": -1,
-        "__debug": "InfusionSelection"
+        "archType": 0
       },
       {
         "level": 17,
         "feature": 3,
         "rank": -1,
-        "__debug": "InfusionSelection"
+        "archType": 0
       },
       {
         "level": 19,
         "feature": 3,
         "rank": -1,
-        "__debug": "InfusionSelection"
+        "archType": 0
       }
     ],
     [
@@ -271,7 +356,7 @@
         "level": 1,
         "feature": 4,
         "rank": -1,
-        "__debug": "KineticBlastProgression"
+        "archType": 0
       }
     ],
     [
@@ -279,61 +364,61 @@
         "level": 2,
         "feature": 5,
         "rank": -1,
-        "__debug": "WildTalentSelection"
+        "archType": 0
       },
       {
         "level": 4,
         "feature": 5,
         "rank": -1,
-        "__debug": "WildTalentSelection"
+        "archType": 0
       },
       {
         "level": 6,
         "feature": 5,
         "rank": -1,
-        "__debug": "WildTalentSelection"
+        "archType": 0
       },
       {
         "level": 8,
         "feature": 5,
         "rank": -1,
-        "__debug": "WildTalentSelection"
+        "archType": 0
       },
       {
         "level": 10,
         "feature": 5,
         "rank": -1,
-        "__debug": "WildTalentSelection"
+        "archType": 0
       },
       {
         "level": 12,
         "feature": 5,
         "rank": -1,
-        "__debug": "WildTalentSelection"
+        "archType": 0
       },
       {
         "level": 14,
         "feature": 5,
         "rank": -1,
-        "__debug": "WildTalentSelection"
+        "archType": 0
       },
       {
         "level": 16,
         "feature": 5,
         "rank": -1,
-        "__debug": "WildTalentSelection"
+        "archType": 0
       },
       {
         "level": 18,
         "feature": 5,
         "rank": -1,
-        "__debug": "WildTalentSelection"
+        "archType": 0
       },
       {
         "level": 20,
         "feature": 5,
         "rank": -1,
-        "__debug": "WildTalentSelection"
+        "archType": 0
       }
     ],
     [
@@ -341,13 +426,13 @@
         "level": 3,
         "feature": 6,
         "rank": -1,
-        "__debug": "ElementalOverflowBonusFeature"
+        "archType": 0
       },
       {
         "level": 11,
         "feature": 10,
         "rank": -1,
-        "__debug": "Supercharge"
+        "archType": 0
       }
     ],
     [
@@ -355,26 +440,1488 @@
         "level": 5,
         "feature": 7,
         "rank": -1,
-        "__debug": "MetakinesisEmpowerFeature"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 9,
         "rank": -1,
-        "__debug": "MetakinesisMaximizedFeature"
+        "archType": 0
       },
       {
         "level": 13,
         "feature": 11,
         "rank": -1,
-        "__debug": "MetakinesisQuickenFeature"
+        "archType": 0
       },
       {
         "level": 19,
         "feature": 14,
         "rank": -1,
-        "__debug": "MetakinesisMaster"
+        "archType": 0
       }
     ]
+  ],
+  "archetypes": [
+    {
+      "name": "Dark Elementalist",
+      "id": "f12f18ae8842425489d29f302e69134c",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 13,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 14,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 15,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 16,
+            "rank": -1,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Psychokineticist",
+      "id": "f2847dd4b12fffd41beaa3d7120d27ad",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 13,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 14,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 17,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 18,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 19,
+            "rank": -1,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Kinetic Knight",
+      "id": "7d61d9b2250260a45b18c5634524a8fb",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 25,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 7,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 13,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 3,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 5,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 10,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 9,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 13,
+            "feature": 11,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 19,
+            "feature": 14,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 21,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 22,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 23,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 24,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        []
+      ]
+    },
+    {
+      "name": "Blood Kineticist",
+      "id": "365b50dba54efb74fa24c07e9b7a838c",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 27,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 7,
+            "feature": 28,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 29,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 11,
+            "feature": 30,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 31,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 8,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 15,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 13,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 3,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 13,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 14,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 26,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Overwhelming Soul",
+      "id": "aa11888104d17f7459851e8d559ffa98",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 6,
+            "feature": 35,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 13,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 14,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 32,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 33,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 34,
+            "rank": 1,
+            "archType": 1
+          },
+          {
+            "level": 6,
+            "feature": 34,
+            "rank": 2,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 34,
+            "rank": 3,
+            "archType": 1
+          },
+          {
+            "level": 12,
+            "feature": 34,
+            "rank": 4,
+            "archType": 1
+          },
+          {
+            "level": 15,
+            "feature": 34,
+            "rank": 5,
+            "archType": 1
+          },
+          {
+            "level": 18,
+            "feature": 34,
+            "rank": 6,
+            "archType": 1
+          }
+        ],
+        []
+      ]
+    },
+    {
+      "name": "Elemental Engine",
+      "id": "4a8324d676d642c99edcdda6988ca3b1",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 36,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 7,
+            "feature": 37,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 13,
+            "feature": 38,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 13,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 10,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 14,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        []
+      ]
+    }
   ]
 }

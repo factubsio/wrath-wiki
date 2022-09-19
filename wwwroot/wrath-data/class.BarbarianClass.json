@@ -1,139 +1,4 @@
 {
-  "features": [
-    {
-      "name": "Fast Movement",
-      "desc": "A barbarian\u0027s land {g|Encyclopedia:Speed}speed{/g} is faster than the norm for her {g|Encyclopedia:Race}race{/g} by \u002B10 feet. This benefit applies only when she is wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this {g|Encyclopedia:Bonus}bonus{/g} before modifying the barbarian\u0027s speed because of any load carried or armor worn. This bonus stacks with any other bonuses to the barbarian\u0027s land speed.",
-      "icon": "d70eceda5f3a35646b828323eb30f065"
-    },
-    {
-      "name": "Rage",
-      "desc": "A barbarian can call upon inner reserves of {g|Encyclopedia:Strength}strength{/g} and ferocity, granting her additional combat prowess. At 1st level, a barbarian can rage for a number of {g|Encyclopedia:Combat_Round}rounds{/g} per day equal to 4 \u002B her {g|Encyclopedia:Constitution}Constitution{/g} modifier. For each level after 1st she possesses, the barbarian can rage for 2 additional rounds per day. Temporary increases to Constitution, such as that gained from bear\u0027s endurance, do not increase the total number of rounds that a barbarian can rage per day. A barbarian can enter a rage as a {g|Encyclopedia:Free_Action}free action{/g}. The total number of rounds of rage per day is renewed after resting for 8 hours, although these hours need not be consecutive.\nWhile in a rage, a barbarian gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:MeleeAttack}melee attack{/g} {g|Encyclopedia:Dice}rolls{/g}, melee {g|Encyclopedia:Damage}damage rolls{/g}, thrown weapon damage rolls, and Will {g|Encyclopedia:Saving_Throw}saving throws{/g}. In addition, she takes a \u20132 {g|Encyclopedia:Penalty}penalty{/g} to {g|Encyclopedia:Armor_Class}Armor Class{/g}. She also gains 2 temporary {g|Encyclopedia:HP}hit points{/g} per {g|Encyclopedia:Hit_Dice}Hit Die{/g}. These temporary hit points are lost first when a character takes damage, disappear when the rage ends, and are not replenished if the barbarian enters a rage again within 1 minute of her previous rage. While in a rage, a barbarian cannot cast {g|Encyclopedia:Spell}spells{/g}.\nA barbarian can end her rage as a free {g|Encyclopedia:CA_Types}action{/g}, and is fatigued for 1 minute after a rage ends. A barbarian can\u0027t enter a new rage while fatigued or exhausted, but can otherwise enter a rage multiple times per day. If a barbarian falls {g|Encyclopedia:Injury_Death}unconscious{/g}, her rage immediately ends.",
-      "icon": "e50a89f2ba396f44489e16b06713612f"
-    },
-    {
-      "name": "Barbarian Proficiencies",
-      "desc": "A barbarian is proficient with all simple and {g|Encyclopedia:Weapon_Proficiency}martial weapons{/g}, light armor, medium armor, and shields (except tower shields).",
-      "icon": "gen__BP"
-    },
-    {
-      "name": "Rage Power",
-      "desc": "As a barbarian gains levels, she learns to use her rage in new ways. Starting at 2nd level, a barbarian gains a rage power. She gains another rage power for every two levels of barbarian attained after 2nd level. A barbarian gains the benefits of rage powers only while raging, and some of these powers require the barbarian to take an {g|Encyclopedia:CA_Types}action{/g} first. Unless otherwise noted, a barbarian cannot select an individual power more than once.",
-      "icon": "gen__RP"
-    },
-    {
-      "name": "Uncanny Dodge",
-      "desc": "The character can react to danger before her senses would normally allow her to do so. She cannot be caught {g|Encyclopedia:Flat_Footed}flat-footed{/g}, nor does she lose her {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} if the {g|Encyclopedia:Attack}attacker{/g} is invisible. She still loses her Dexterity bonus to AC if immobilized. A character with this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the feint {g|Encyclopedia:CA_Types}action{/g} against her.\nIf a character already has uncanny dodge from a different class, she automatically gains improved uncanny dodge instead.",
-      "icon": "f549aced0cfe8a7469985214a71d9503"
-    },
-    {
-      "name": "Danger Sense",
-      "desc": "At 3rd level, a barbarian gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on Reflex {g|Encyclopedia:Saving_Throw}saves{/g} to avoid traps and a \u002B1 dodge bonus to {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:Attack}attacks{/g} by traps. These bonuses increase by 1 every 3 levels thereafter (to a maximum of \u002B6 at 18th level).",
-      "icon": "7ab9a8025ca271d43a8debfa01fd17c3"
-    },
-    {
-      "name": "Improved Uncanny Dodge",
-      "desc": "The character can no longer be {g|Encyclopedia:Flanking}flanked{/g}.\nThis defense denies another rogue the ability to sneak {g|Encyclopedia:Attack}attack{/g} the character by flanking her, unless the attacker has at least four more rogue levels than the target does.",
-      "icon": "f549aced0cfe8a7469985214a71d9503"
-    },
-    {
-      "name": "Damage Reduction",
-      "desc": "At 7th level, a barbarian gains {g|Encyclopedia:Damage_Reduction}damage reduction{/g}. Subtract 1 from the {g|Encyclopedia:Damage}damage{/g} the barbarian takes each time she is dealt damage from a weapon or a {g|Encyclopedia:NaturalAttack}natural attack{/g}. At 10th level, and every three barbarian levels thereafter (13th, 16th, and 19th level), this damage reduction rises by 1 point. Damage reduction can reduce damage to 0 but not below 0.",
-      "icon": "da043f7009753c5418615fb68cf7b198"
-    },
-    {
-      "name": "Greater Rage",
-      "desc": "At 11th level, a barbarian\u0027s {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:MeleeAttack}melee attack{/g} {g|Encyclopedia:Dice}rolls{/g}, melee {g|Encyclopedia:Damage}damage rolls{/g}, thrown weapon damage rolls, and Will {g|Encyclopedia:Saving_Throw}saves{/g} while raging increases to \u002B3. In addition, the amount of temporary {g|Encyclopedia:HP}hit points{/g} gained when entering a rage increases to 3 per {g|Encyclopedia:Hit_Dice}Hit Die{/g}.",
-      "icon": "70827deff24041146834b72273b6a6be"
-    },
-    {
-      "name": "Indomitable Will",
-      "desc": "While in rage, a barbarian of 14th level or higher gains a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on Will {g|Encyclopedia:Saving_Throw}saves{/g} to {g|Encyclopedia:Spell_Resistance}resist Enchantment spells{/g}. This bonus stacks with all other modifiers, including the morale bonus on Will saves she also receives during her rage.",
-      "icon": "4918bc76a78b4c64c8f85a848e5ed1c2"
-    },
-    {
-      "name": "Tireless Rage",
-      "desc": "Starting at 17th level, a barbarian no longer becomes fatigued at the end of her rage.",
-      "icon": "6803e805ca874084395c30178cb6eb10"
-    },
-    {
-      "name": "Mighty Rage",
-      "desc": "At 20th level, a barbarian\u0027s {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:MeleeAttack}melee attack{/g} {g|Encyclopedia:Dice}rolls{/g}, melee {g|Encyclopedia:Damage}damage rolls{/g}, thrown weapon damage rolls, and Will {g|Encyclopedia:Saving_Throw}saves{/g} while raging increases to \u002B4. In addition, the amount of temporary {g|Encyclopedia:HP}hit points{/g} gained when entering a rage increases to 4 per {g|Encyclopedia:Hit_Dice}Hit Die{/g}.",
-      "icon": "c2c12f7a9431a394eb56d983d16b235a"
-    }
-  ],
-  "progression": [
-    [],
-    [
-      0,
-      1,
-      2
-    ],
-    [
-      3,
-      4
-    ],
-    [
-      5
-    ],
-    [
-      3
-    ],
-    [
-      6
-    ],
-    [
-      3,
-      5
-    ],
-    [
-      7
-    ],
-    [
-      3
-    ],
-    [
-      5
-    ],
-    [
-      3,
-      7
-    ],
-    [
-      8
-    ],
-    [
-      3,
-      5
-    ],
-    [
-      7
-    ],
-    [
-      3,
-      9
-    ],
-    [
-      5
-    ],
-    [
-      3,
-      7
-    ],
-    [
-      10
-    ],
-    [
-      3,
-      5
-    ],
-    [
-      7
-    ],
-    [
-      3,
-      11
-    ]
-  ],
   "__ui-groups": [
     [
       1,
@@ -148,6 +13,260 @@
       0
     ]
   ],
+  "features": [
+    {
+      "__index": 0,
+      "name": "Fast Movement",
+      "desc": "A barbarian\u0027s land {g|Encyclopedia:Speed}speed{/g} is faster than the norm for her {g|Encyclopedia:Race}race{/g} by \u002B10 feet. This benefit applies only when she is wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this {g|Encyclopedia:Bonus}bonus{/g} before modifying the barbarian\u0027s speed because of any load carried or armor worn. This bonus stacks with any other bonuses to the barbarian\u0027s land speed.",
+      "icon": "d70eceda5f3a35646b828323eb30f065"
+    },
+    {
+      "__index": 1,
+      "name": "Rage",
+      "desc": "A barbarian can call upon inner reserves of {g|Encyclopedia:Strength}strength{/g} and ferocity, granting her additional combat prowess. At 1st level, a barbarian can rage for a number of {g|Encyclopedia:Combat_Round}rounds{/g} per day equal to 4 \u002B her {g|Encyclopedia:Constitution}Constitution{/g} modifier. For each level after 1st she possesses, the barbarian can rage for 2 additional rounds per day. Temporary increases to Constitution, such as that gained from bear\u0027s endurance, do not increase the total number of rounds that a barbarian can rage per day. A barbarian can enter a rage as a {g|Encyclopedia:Free_Action}free action{/g}. The total number of rounds of rage per day is renewed after resting for 8 hours, although these hours need not be consecutive.\nWhile in a rage, a barbarian gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:MeleeAttack}melee attack{/g} {g|Encyclopedia:Dice}rolls{/g}, melee {g|Encyclopedia:Damage}damage rolls{/g}, thrown weapon damage rolls, and Will {g|Encyclopedia:Saving_Throw}saving throws{/g}. In addition, she takes a \u20132 {g|Encyclopedia:Penalty}penalty{/g} to {g|Encyclopedia:Armor_Class}Armor Class{/g}. She also gains 2 temporary {g|Encyclopedia:HP}hit points{/g} per {g|Encyclopedia:Hit_Dice}Hit Die{/g}. These temporary hit points are lost first when a character takes damage, disappear when the rage ends, and are not replenished if the barbarian enters a rage again within 1 minute of her previous rage. While in a rage, a barbarian cannot cast {g|Encyclopedia:Spell}spells{/g}.\nA barbarian can end her rage as a free {g|Encyclopedia:CA_Types}action{/g}, and is fatigued for 1 minute after a rage ends. A barbarian can\u0027t enter a new rage while fatigued or exhausted, but can otherwise enter a rage multiple times per day. If a barbarian falls {g|Encyclopedia:Injury_Death}unconscious{/g}, her rage immediately ends.",
+      "icon": "e50a89f2ba396f44489e16b06713612f"
+    },
+    {
+      "__index": 2,
+      "name": "Barbarian Proficiencies",
+      "desc": "A barbarian is proficient with all simple and {g|Encyclopedia:Weapon_Proficiency}martial weapons{/g}, light armor, medium armor, and shields (except tower shields).",
+      "icon": "gen__BP"
+    },
+    {
+      "__index": 3,
+      "name": "Rage Power",
+      "desc": "As a barbarian gains levels, she learns to use her rage in new ways. Starting at 2nd level, a barbarian gains a rage power. She gains another rage power for every two levels of barbarian attained after 2nd level. A barbarian gains the benefits of rage powers only while raging, and some of these powers require the barbarian to take an {g|Encyclopedia:CA_Types}action{/g} first. Unless otherwise noted, a barbarian cannot select an individual power more than once.",
+      "icon": "gen__RP"
+    },
+    {
+      "__index": 4,
+      "name": "Uncanny Dodge",
+      "desc": "The character can react to danger before her senses would normally allow her to do so. She cannot be caught {g|Encyclopedia:Flat_Footed}flat-footed{/g}, nor does she lose her {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} if the {g|Encyclopedia:Attack}attacker{/g} is invisible. She still loses her Dexterity bonus to AC if immobilized. A character with this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the feint {g|Encyclopedia:CA_Types}action{/g} against her.\nIf a character already has uncanny dodge from a different class, she automatically gains improved uncanny dodge instead.",
+      "icon": "f549aced0cfe8a7469985214a71d9503"
+    },
+    {
+      "__index": 5,
+      "name": "Danger Sense",
+      "desc": "At 3rd level, a barbarian gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on Reflex {g|Encyclopedia:Saving_Throw}saves{/g} to avoid traps and a \u002B1 dodge bonus to {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:Attack}attacks{/g} by traps. These bonuses increase by 1 every 3 levels thereafter (to a maximum of \u002B6 at 18th level).",
+      "icon": "7ab9a8025ca271d43a8debfa01fd17c3"
+    },
+    {
+      "__index": 6,
+      "name": "Improved Uncanny Dodge",
+      "desc": "The character can no longer be {g|Encyclopedia:Flanking}flanked{/g}.\nThis defense denies another rogue the ability to sneak {g|Encyclopedia:Attack}attack{/g} the character by flanking her, unless the attacker has at least four more rogue levels than the target does.",
+      "icon": "f549aced0cfe8a7469985214a71d9503"
+    },
+    {
+      "__index": 7,
+      "name": "Damage Reduction",
+      "desc": "At 7th level, a barbarian gains {g|Encyclopedia:Damage_Reduction}damage reduction{/g}. Subtract 1 from the {g|Encyclopedia:Damage}damage{/g} the barbarian takes each time she is dealt damage from a weapon or a {g|Encyclopedia:NaturalAttack}natural attack{/g}. At 10th level, and every three barbarian levels thereafter (13th, 16th, and 19th level), this damage reduction rises by 1 point. Damage reduction can reduce damage to 0 but not below 0.",
+      "icon": "da043f7009753c5418615fb68cf7b198"
+    },
+    {
+      "__index": 8,
+      "name": "Greater Rage",
+      "desc": "At 11th level, a barbarian\u0027s {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:MeleeAttack}melee attack{/g} {g|Encyclopedia:Dice}rolls{/g}, melee {g|Encyclopedia:Damage}damage rolls{/g}, thrown weapon damage rolls, and Will {g|Encyclopedia:Saving_Throw}saves{/g} while raging increases to \u002B3. In addition, the amount of temporary {g|Encyclopedia:HP}hit points{/g} gained when entering a rage increases to 3 per {g|Encyclopedia:Hit_Dice}Hit Die{/g}.",
+      "icon": "70827deff24041146834b72273b6a6be"
+    },
+    {
+      "__index": 9,
+      "name": "Indomitable Will",
+      "desc": "While in rage, a barbarian of 14th level or higher gains a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on Will {g|Encyclopedia:Saving_Throw}saves{/g} to {g|Encyclopedia:Spell_Resistance}resist Enchantment spells{/g}. This bonus stacks with all other modifiers, including the morale bonus on Will saves she also receives during her rage.",
+      "icon": "4918bc76a78b4c64c8f85a848e5ed1c2"
+    },
+    {
+      "__index": 10,
+      "name": "Tireless Rage",
+      "desc": "Starting at 17th level, a barbarian no longer becomes fatigued at the end of her rage.",
+      "icon": "6803e805ca874084395c30178cb6eb10"
+    },
+    {
+      "__index": 11,
+      "name": "Mighty Rage",
+      "desc": "At 20th level, a barbarian\u0027s {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:MeleeAttack}melee attack{/g} {g|Encyclopedia:Dice}rolls{/g}, melee {g|Encyclopedia:Damage}damage rolls{/g}, thrown weapon damage rolls, and Will {g|Encyclopedia:Saving_Throw}saves{/g} while raging increases to \u002B4. In addition, the amount of temporary {g|Encyclopedia:HP}hit points{/g} gained when entering a rage increases to 4 per {g|Encyclopedia:Hit_Dice}Hit Die{/g}.",
+      "icon": "c2c12f7a9431a394eb56d983d16b235a"
+    },
+    {
+      "__index": 12,
+      "name": "Indomitable Stance",
+      "desc": "An armored hulk gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Combat_Maneuvers}combat maneuver{/g} {g|Encyclopedia:Check}checks{/g} and to {g|Encyclopedia:CMD}CMD{/g}, and on Reflex {g|Encyclopedia:Saving_Throw}saves{/g} against trample {g|Encyclopedia:Attack}attacks{/g}. She also gains a \u002B1 bonus to her {g|Encyclopedia:Armor_Class}AC{/g} against charge attacks and on attack and {g|Encyclopedia:Damage}damage rolls{/g} against charging creatures.",
+      "icon": "e0af52ca165768246b4666dcd144a376"
+    },
+    {
+      "__index": 13,
+      "name": "Armor Proficiency (Heavy Armor)",
+      "desc": "You become proficient with Heavy Armor.",
+      "icon": "e3dea060055729a499d590cde35985bc"
+    },
+    {
+      "__index": 14,
+      "name": "Armored Swiftness",
+      "desc": "At 2nd level, an armored hulk moves 5 feet faster than normal in medium and heavy armor.",
+      "icon": "d539b4dbcdf2b494a9b550c65ddb7179"
+    },
+    {
+      "__index": 15,
+      "name": "Improved Armored Swiftness",
+      "desc": "At 5th level, an armored hulk moves faster in medium and heavy armor. When wearing medium or heavy armor, an armored hulk can move 10 feet faster than normal, to a maximum of her {g|Encyclopedia:Speed}speed{/g}.",
+      "icon": "d539b4dbcdf2b494a9b550c65ddb7179"
+    },
+    {
+      "__index": 16,
+      "name": "Resilience of Steel",
+      "desc": "At 3rd level, an armored hulk is able to use her armor to help avoid deadly hits. While wearing heavy armor, she gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} that applies only on {g|Encyclopedia:Critical}critical hit{/g} confirmation {g|Encyclopedia:Dice}rolls{/g}. This bonus increases by \u002B1 every 3 levels beyond 3rd (maximum \u002B6 at 18th level).",
+      "icon": "11e18dc33de41764e879365344869f8f"
+    },
+    {
+      "__index": 17,
+      "name": "Animal Companion",
+      "desc": "Unlike normal animals of its kind, an animal companion\u0027s {g|Encyclopedia:Hit_Dice}Hit Dice{/g}, abilities, {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Feat}feats{/g} advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in {g|Encyclopedia:Size}size{/g} when their druid reaches 4th or 7th level, depending on the companion.",
+      "icon": "736cb7b0def6ff147b921c75c54a81a0"
+    },
+    {
+      "__index": 18,
+      "name": "Pack Tactics",
+      "desc": "At 2nd level, a mad dog and her war beast gain a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g} while {g|Encyclopedia:Flanking}flanking{/g} the same opponent (instead of the normal \u002B2 bonus).",
+      "icon": "b1bba7da645ee424a9a6816576ce165d"
+    },
+    {
+      "__index": 19,
+      "name": "Ferocious Trip",
+      "desc": "At 5th level, a mad dog\u0027s war beast gains Trip as a bonus {g|Encyclopedia:Feat}feat{/g}.\nTrip: This feat gives the character an ability to perform the trip {g|Encyclopedia:Combat_Maneuvers}combat maneuver{/g}. It also grants a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:CMB}CMB{/g} when performing this maneuver, and a \u002B2 bonus to {g|Encyclopedia:CMD}CMD{/g} when defending against it.\nYou can attempt to trip your opponent in place of a {g|Encyclopedia:MeleeAttack}melee attack{/g}. If your combat maneuver is successful, the target is knocked prone.\nIf the target has more than two legs, add \u002B2 to the {g|Encyclopedia:DC}DC{/g} of the combat maneuver {g|Encyclopedia:Attack}attack roll{/g} for each additional leg it has. Some creatures \u2014 such as oozes, creatures without legs, and flying creatures \u2014 cannot be tripped.",
+      "icon": "e18b9d6d461cfee4489c4a6133774a77"
+    },
+    {
+      "__index": 20,
+      "name": "Throat Cutter",
+      "desc": "At 14th level, whenever her war beast succeeds at a bull rush, overrun, or trip {g|Encyclopedia:Combat_Maneuvers}combat maneuver{/g} against an opponent {g|Encyclopedia:Threatened_Area}threatened{/g} by the mad dog, a mad dog can take an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g} against that opponent.",
+      "icon": "02ef137cda22e9b4aa9af681fba45909"
+    },
+    {
+      "__index": 21,
+      "name": "Damage Reduction",
+      "desc": "At 10th level, a mad dog gains {g|Encyclopedia:Damage_Reduction}damage reduction{/g}. At 13th level and every 3 barbarian levels thereafter, this {g|Encyclopedia:Damage}damage{/g} reduction rises by 1, to a maximum of DR 4/\u2014 at 19th level. A mad dog\u0027s war beast gains the same damage reduction as the mad dog.",
+      "icon": "da043f7009753c5418615fb68cf7b198"
+    },
+    {
+      "__index": 22,
+      "name": "Damage Reduction",
+      "desc": "At 2nd level, the invulnerable rager gains {g|Encyclopedia:Damage_Reduction}DR{/g}/\u2014 equal to half her barbarian level. {g|Encyclopedia:Damage}Damage{/g} reduction can reduce damage to 0 but not below 0.",
+      "icon": "da043f7009753c5418615fb68cf7b198"
+    },
+    {
+      "__index": 23,
+      "name": "Extreme Endurance",
+      "desc": "At 3rd level, the invulnerable rager gains 1 point of fire resistance and 1 point of cold resistance. At 6th level and every 3 levels thereafter, these resistances increase by 1 point (up to 6 points at 18th level).",
+      "icon": "d0737079fdc373b44b4c8ec094b06c41"
+    },
+    {
+      "__index": 24,
+      "name": "Savage Rapport",
+      "desc": "Beastkin berserker adds half her level (minimum 1) on {g|Encyclopedia:Lore_Nature}Lore (nature){/g} and {g|Encyclopedia:Persuasion}Persuasion{/g} (when used to intimidate) {g|Encyclopedia:Skills}skill{/g} {g|Encyclopedia:Check}checks{/g}.",
+      "icon": "736cb7b0def6ff147b921c75c54a81a0"
+    },
+    {
+      "__index": 25,
+      "name": "Feral Transformation I",
+      "desc": "At 4th level, when entering a rage, a beastkin berserker can take the form of a Medium wolf. This functions as beast shape I, except the duration is for as long as the beastkin berserker rages.",
+      "icon": "77b3a39fb33ba5b4086cd4616e4a220b"
+    },
+    {
+      "__index": 26,
+      "name": "Feral Transformation II",
+      "desc": "At 8th level, when entering a rage, a beastkin berserker can take the form of a Medium leopard. This functions as beast shape II, except the duration is for as long as the beastkin berserker rages.",
+      "icon": "b3b9895eadac51647a86f74dc7257819"
+    },
+    {
+      "__index": 27,
+      "name": "Feral Transformation III",
+      "desc": "At 12th level, when entering a rage, a beastkin berserker can take the form of a Large bear. This functions as beast shape III, except the duration is for as long as the beastkin berserker rages.",
+      "icon": "ec26406dd80b8064dbd55d6a71cd98c5"
+    },
+    {
+      "__index": 28,
+      "name": "Bonus Feat",
+      "desc": "At 2nd level and every 4 levels thereafter, the pack rager can take a bonus teamwork {g|Encyclopedia:Feat}feat{/g}. This teamwork feat must also be a combat feat.",
+      "icon": "gen__BF"
+    },
+    {
+      "__index": 29,
+      "name": "Raging Tactician",
+      "desc": "At 7th level, while a pack rager is raging, she grants a single teamwork {g|Encyclopedia:Feat}feat{/g} she has to all allies within 50 feet who can see and hear her. She chooses the feat at the start of the rage, and cannot change it during the rage. An ally who moves more than 50 feet away from the raging pack rager loses access to the feat, but regains it again each time he moves back within 50 feet of the raging pack rager. Allies do not need to meet the prerequisites of these teamwork feats.\nAt 13th level, the pack rager chooses two teamwork feats when she enters a rage, and grants her allies the use of both of those feats when they are within 50 feet of her.\nAt 19th level, the pack rager chooses three teamwork feats when she enters a rage, and grants her allies the use of all three feats when they are within 50 feet of her.",
+      "icon": "gen__RT"
+    },
+    {
+      "__index": 30,
+      "name": "Focused Rage",
+      "desc": "An instinctual warrior can call upon inner reserves of {g|Encyclopedia:Strength}strength{/g} and ferocity, granting her additional combat prowess. At 1st level, an instinctual warrior can rage for a number of {g|Encyclopedia:Combat_Round}rounds{/g} per day equal to 4 \u002B her {g|Encyclopedia:Wisdom}Wisdom{/g} modifier. For each level after 1st she possesses, the barbarian can rage for 2 additional rounds per day. Temporary increases to Wisdom do not increase the total number of rounds that an instinctual warrior can rage per day. An instinctual warrior can enter a rage as a {g|Encyclopedia:Free_Action}free action{/g}. The total number of rounds of rage per day is renewed after resting for 8 hours, although these hours need not be consecutive.\nWhile in a rage, an instinctual warrior gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g} and Wisdom. In addition, she gains 2 temporary {g|Encyclopedia:HP}hit points{/g} per {g|Encyclopedia:Hit_Dice}Hit Die{/g}. These temporary hit points are lost first when a character takes {g|Encyclopedia:Damage}damage{/g}, disappear when the rage ends, and are not replenished if the barbarian enters a rage again within 1 minute of her previous rage. While in a rage, an instinctual warrior cannot cast {g|Encyclopedia:Spell}spells{/g}.\nAn instinctual warrior can end her rage as a free {g|Encyclopedia:CA_Types}action{/g}, and is fatigued for 1 minute after a rage ends. An instinctual warrior can\u0027t enter a new rage while fatigued or exhausted, but can otherwise enter a rage multiple times per day. If an instinctual warrior falls {g|Encyclopedia:Injury_Death}unconscious{/g}, her rage immediately ends.",
+      "icon": "149a45739c1394240919a106371f131c"
+    },
+    {
+      "__index": 31,
+      "name": "Instinctual Warrior Proficiencies",
+      "desc": "An instinctual warrior is proficient with all simple and {g|Encyclopedia:Weapon_Proficiency}martial weapons{/g} and shields (except tower shields).",
+      "icon": "gen__IWP"
+    },
+    {
+      "__index": 32,
+      "name": "Fervent Reflexes",
+      "desc": "An instinctual warrior adds his {g|Encyclopedia:Wisdom}Wisdom{/g} {g|Encyclopedia:Bonus}bonus{/g} (if any) to his {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}checks{/g}.",
+      "icon": "c97d43b63368c584aa1c5711434f5ff2"
+    },
+    {
+      "__index": 33,
+      "name": "Cunning Elusion",
+      "desc": "When unarmored and not wielding a shield, the instinctual warrior adds his {g|Encyclopedia:Wisdom}Wisdom{/g} {g|Encyclopedia:Bonus}bonus{/g} (if any) to his {g|Encyclopedia:Armor_Class}AC{/g} and {g|Encyclopedia:CMD}CMD{/g}. In addition, an instinctual warrior gains a \u002B1 bonus to AC and CMD at 4th level. This bonus increases by 1 for every four barbarian levels thereafter, up to a maximum of \u002B5 at 20th level.",
+      "icon": "6d32810e19764e94097526756795c317"
+    },
+    {
+      "__index": 34,
+      "name": "Rage Power (Instinctual Warrior)",
+      "desc": "As an instinctual warrior gains levels, she learns to use her rage in new ways. Starting at 4 level, an instinctual warrior gains a rage power. She gains another rage power on 8th, 10th, 12th, 16th, 18th and 20th levels. An instinctual warrior gains the benefits of rage powers only while raging, and some of these powers require the instinctual warrior to take an {g|Encyclopedia:CA_Types}action{/g} first. Unless otherwise noted, an instinctual warrior cannot select an individual power more than once.\nShe also can take additional abilities as rage power which work when an instinctual warrior rages. These abilities are: Diamond Soul, Diamond Body, Deflect Arrows, Perfect Self and Purity of Body.",
+      "icon": "gen__RP"
+    },
+    {
+      "__index": 35,
+      "name": "Blind Fight",
+      "desc": "In melee, every time you miss because of {g|Encyclopedia:Concealment}concealment{/g}, you can {g|Encyclopedia:Dice}reroll{/g} your miss chance percentile roll one time to see if you actually hit.\nAn invisible {g|Encyclopedia:Attack}attacker{/g} gets no advantages related to hitting you in melee. That is, you don\u0027t lose your {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}Armor Class{/g}, and the attacker doesn\u0027t get the usual \u002B2 bonus for being invisible. The invisible attacker\u0027s bonuses do still apply for {g|Encyclopedia:RangedAttack}ranged attacks{/g}, however. You also gain immunity to gaze attacks.",
+      "icon": "27a9e4ece6d476a48bb5791c77615db3"
+    },
+    {
+      "__index": 36,
+      "name": "Improved Blind Fight",
+      "desc": "Your {g|Encyclopedia:MeleeAttack}melee attacks{/g} ignore the miss chance for less than total {g|Encyclopedia:Concealment}concealment{/g}. You may still {g|Encyclopedia:Dice}reroll{/g} your miss chance percentile roll for total concealment. If you successfully pinpoint an invisible or hidden {g|Encyclopedia:Attack}attacker{/g} within 30 feet, that attacker gets no advantages related to hitting you with {g|Encyclopedia:RangedAttack}ranged attacks{/g}. That is, you don\u0027t lose your {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}Armor Class{/g}, and the attacker doesn\u0027t get the usual \u002B2 bonus for being invisible.",
+      "icon": "2e04d90132f8ab74285112e75db9c71d"
+    },
+    {
+      "__index": 37,
+      "name": "Greater Focused Rage",
+      "desc": "At 11th level, a instinctual warrior\u0027s {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g} and {g|Encyclopedia:Wisdom}Wisdom{/g} while raging increases to \u002B3. In addition, the amount of temporary {g|Encyclopedia:HP}hit points{/g} gained when entering a focused rage increases to 3 per {g|Encyclopedia:Hit_Dice}hit die{/g}.",
+      "icon": "149a45739c1394240919a106371f131c"
+    },
+    {
+      "__index": 38,
+      "name": "Greater Blind Fight",
+      "desc": "Your {g|Encyclopedia:MeleeAttack}melee attacks{/g} ignore the miss chance for less than total {g|Encyclopedia:Concealment}concealment{/g}, and you treat opponents with total concealment as if they had normal concealment (20% miss chance instead of 50%). You may still {g|Encyclopedia:Dice}reroll{/g} a miss chance percentile roll as normal.\nIf you successfully pinpoint an invisible or hidden {g|Encyclopedia:Attack}attacker{/g}, that attacker gets no advantages related to hitting you with {g|Encyclopedia:RangedAttack}ranged attacks{/g}, regardless of the range. That is, you don\u0027t lose your {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}Armor Class{/g}, and the attacker doesn\u0027t get the usual \u002B2 bonus for being invisible.",
+      "icon": "30b4b05442b6d80478057bb3d46d2aeb"
+    },
+    {
+      "__index": 39,
+      "name": "Tireless Focused Rage",
+      "desc": "Starting at 17th level, an instinctual warrior no longer becomes fatigued at the end of her rage.",
+      "icon": "149a45739c1394240919a106371f131c"
+    },
+    {
+      "__index": 40,
+      "name": "Unparalleled Senses",
+      "desc": "The extremely developed sixth sense of the instinctual warrior allows him to have a blindsense to a range of 30 feet, blindsight to a range of 15 feet.",
+      "icon": "3d7633270d8a4764085cac3081afff97"
+    },
+    {
+      "__index": 41,
+      "name": "Mighty Focused Rage",
+      "desc": "At 20th level, an instinctual warrior\u0027s {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g} and {g|Encyclopedia:Wisdom}Wisdom{/g} while raging increases to \u002B4. In addition, the amount of temporary {g|Encyclopedia:HP}hit points{/g} gained when entering a focused rage increases to 4 per {g|Encyclopedia:Hit_Dice}Hit Die{/g}.",
+      "icon": "149a45739c1394240919a106371f131c"
+    }
+  ],
   "name": "Barbarian",
   "layout": [
     [
@@ -155,25 +274,7 @@
         "level": 1,
         "feature": 0,
         "rank": -1,
-        "__debug": "FastMovement"
-      },
-      {
-        "level": 2,
-        "feature": 4,
-        "rank": 1,
-        "__debug": "UncannyDodgeChecker"
-      },
-      {
-        "level": 5,
-        "feature": 6,
-        "rank": -1,
-        "__debug": "ImprovedUncannyDodge"
-      },
-      {
-        "level": 14,
-        "feature": 9,
-        "rank": -1,
-        "__debug": "IndomitableWill"
+        "archType": 0
       }
     ],
     [
@@ -181,25 +282,25 @@
         "level": 1,
         "feature": 1,
         "rank": -1,
-        "__debug": "RageFeature"
+        "archType": 0
       },
       {
         "level": 11,
         "feature": 8,
         "rank": -1,
-        "__debug": "GreaterRageFeature"
+        "archType": 0
       },
       {
         "level": 17,
         "feature": 10,
         "rank": -1,
-        "__debug": "TirelessRage"
+        "archType": 0
       },
       {
         "level": 20,
         "feature": 11,
         "rank": -1,
-        "__debug": "MightyRage"
+        "archType": 0
       }
     ],
     [
@@ -207,7 +308,19 @@
         "level": 1,
         "feature": 2,
         "rank": -1,
-        "__debug": "BarbarianProficiencies"
+        "archType": 0
+      },
+      {
+        "level": 2,
+        "feature": 4,
+        "rank": 1,
+        "archType": 0
+      },
+      {
+        "level": 5,
+        "feature": 6,
+        "rank": -1,
+        "archType": 0
       }
     ],
     [
@@ -215,61 +328,61 @@
         "level": 2,
         "feature": 3,
         "rank": -1,
-        "__debug": "RagePowerSelection"
+        "archType": 0
       },
       {
         "level": 4,
         "feature": 3,
         "rank": -1,
-        "__debug": "RagePowerSelection"
+        "archType": 0
       },
       {
         "level": 6,
         "feature": 3,
         "rank": -1,
-        "__debug": "RagePowerSelection"
+        "archType": 0
       },
       {
         "level": 8,
         "feature": 3,
         "rank": -1,
-        "__debug": "RagePowerSelection"
+        "archType": 0
       },
       {
         "level": 10,
         "feature": 3,
         "rank": -1,
-        "__debug": "RagePowerSelection"
+        "archType": 0
       },
       {
         "level": 12,
         "feature": 3,
         "rank": -1,
-        "__debug": "RagePowerSelection"
+        "archType": 0
       },
       {
         "level": 14,
         "feature": 3,
         "rank": -1,
-        "__debug": "RagePowerSelection"
+        "archType": 0
       },
       {
         "level": 16,
         "feature": 3,
         "rank": -1,
-        "__debug": "RagePowerSelection"
+        "archType": 0
       },
       {
         "level": 18,
         "feature": 3,
         "rank": -1,
-        "__debug": "RagePowerSelection"
+        "archType": 0
       },
       {
         "level": 20,
         "feature": 3,
         "rank": -1,
-        "__debug": "RagePowerSelection"
+        "archType": 0
       }
     ],
     [],
@@ -278,37 +391,37 @@
         "level": 3,
         "feature": 5,
         "rank": 1,
-        "__debug": "DangerSenseBarbarian"
+        "archType": 0
       },
       {
         "level": 6,
         "feature": 5,
         "rank": 2,
-        "__debug": "DangerSenseBarbarian"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 5,
         "rank": 3,
-        "__debug": "DangerSenseBarbarian"
+        "archType": 0
       },
       {
         "level": 12,
         "feature": 5,
         "rank": 4,
-        "__debug": "DangerSenseBarbarian"
+        "archType": 0
       },
       {
         "level": 15,
         "feature": 5,
         "rank": 5,
-        "__debug": "DangerSenseBarbarian"
+        "archType": 0
       },
       {
         "level": 18,
         "feature": 5,
         "rank": 6,
-        "__debug": "DangerSenseBarbarian"
+        "archType": 0
       }
     ],
     [],
@@ -317,33 +430,1675 @@
         "level": 7,
         "feature": 7,
         "rank": 1,
-        "__debug": "DamageReduction"
+        "archType": 0
       },
       {
         "level": 10,
         "feature": 7,
         "rank": 2,
-        "__debug": "DamageReduction"
+        "archType": 0
       },
       {
         "level": 13,
         "feature": 7,
         "rank": 3,
-        "__debug": "DamageReduction"
+        "archType": 0
       },
       {
         "level": 16,
         "feature": 7,
         "rank": 4,
-        "__debug": "DamageReduction"
+        "archType": 0
       },
       {
         "level": 19,
         "feature": 7,
         "rank": 5,
-        "__debug": "DamageReduction"
+        "archType": 0
       }
     ],
-    []
+    [
+      {
+        "level": 14,
+        "feature": 9,
+        "rank": -1,
+        "archType": 0
+      }
+    ]
+  ],
+  "archetypes": [
+    {
+      "name": "Armored Hulk",
+      "id": "48277b221b6ba6e40affb1e9b49faf36",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": 1,
+            "archType": -1
+          },
+          {
+            "level": 5,
+            "feature": 6,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 3,
+            "feature": 5,
+            "rank": 1,
+            "archType": -1
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": 2,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 5,
+            "rank": 3,
+            "archType": -1
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": 4,
+            "archType": -1
+          },
+          {
+            "level": 15,
+            "feature": 5,
+            "rank": 5,
+            "archType": -1
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": 6,
+            "archType": -1
+          }
+        ],
+        [],
+        [
+          {
+            "level": 7,
+            "feature": 7,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 7,
+            "rank": 2,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 7,
+            "rank": 3,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 7,
+            "rank": 4,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 7,
+            "rank": 5,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 14,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 12,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 2,
+            "feature": 14,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 5,
+            "feature": 15,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 13,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [],
+        [
+          {
+            "level": 3,
+            "feature": 16,
+            "rank": 1,
+            "archType": 1
+          },
+          {
+            "level": 6,
+            "feature": 16,
+            "rank": 2,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 16,
+            "rank": 3,
+            "archType": 1
+          },
+          {
+            "level": 12,
+            "feature": 16,
+            "rank": 4,
+            "archType": 1
+          },
+          {
+            "level": 15,
+            "feature": 16,
+            "rank": 5,
+            "archType": 1
+          },
+          {
+            "level": 18,
+            "feature": 16,
+            "rank": 6,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Mad Dog",
+      "id": "063da4c77fa59454a9828c9ece407ea1",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 4,
+            "feature": 1,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 11,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 6,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 14,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 4,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 8,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 12,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 16,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 20,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 3,
+            "feature": 5,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": 2,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 5,
+            "rank": 3,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": 4,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 5,
+            "rank": 5,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": 6,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 7,
+            "feature": 7,
+            "rank": 1,
+            "archType": -1
+          },
+          {
+            "level": 10,
+            "feature": 7,
+            "rank": 2,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 7,
+            "rank": 3,
+            "archType": -1
+          },
+          {
+            "level": 16,
+            "feature": 7,
+            "rank": 4,
+            "archType": -1
+          },
+          {
+            "level": 19,
+            "feature": 7,
+            "rank": 5,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 14,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 17,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 2,
+            "feature": 18,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 5,
+            "feature": 19,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [],
+        [],
+        [
+          {
+            "level": 10,
+            "feature": 21,
+            "rank": 1,
+            "archType": 1
+          },
+          {
+            "level": 13,
+            "feature": 21,
+            "rank": 2,
+            "archType": 1
+          },
+          {
+            "level": 16,
+            "feature": 21,
+            "rank": 3,
+            "archType": 1
+          },
+          {
+            "level": 19,
+            "feature": 21,
+            "rank": 4,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Invulnerable Rager",
+      "id": "a2ccb759dc6f1f94d9aae8061509bf87",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": 1,
+            "archType": -1
+          },
+          {
+            "level": 5,
+            "feature": 6,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 3,
+            "feature": 5,
+            "rank": 1,
+            "archType": -1
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": 2,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 5,
+            "rank": 3,
+            "archType": -1
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": 4,
+            "archType": -1
+          },
+          {
+            "level": 15,
+            "feature": 5,
+            "rank": 5,
+            "archType": -1
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": 6,
+            "archType": -1
+          }
+        ],
+        [],
+        [
+          {
+            "level": 7,
+            "feature": 7,
+            "rank": 1,
+            "archType": -1
+          },
+          {
+            "level": 10,
+            "feature": 7,
+            "rank": 2,
+            "archType": -1
+          },
+          {
+            "level": 13,
+            "feature": 7,
+            "rank": 3,
+            "archType": -1
+          },
+          {
+            "level": 16,
+            "feature": 7,
+            "rank": 4,
+            "archType": -1
+          },
+          {
+            "level": 19,
+            "feature": 7,
+            "rank": 5,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 14,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 22,
+            "rank": 1,
+            "archType": 1
+          },
+          {
+            "level": 4,
+            "feature": 22,
+            "rank": 2,
+            "archType": 1
+          },
+          {
+            "level": 6,
+            "feature": 22,
+            "rank": 3,
+            "archType": 1
+          },
+          {
+            "level": 8,
+            "feature": 22,
+            "rank": 4,
+            "archType": 1
+          },
+          {
+            "level": 10,
+            "feature": 22,
+            "rank": 5,
+            "archType": 1
+          },
+          {
+            "level": 12,
+            "feature": 22,
+            "rank": 6,
+            "archType": 1
+          },
+          {
+            "level": 14,
+            "feature": 22,
+            "rank": 7,
+            "archType": 1
+          },
+          {
+            "level": 16,
+            "feature": 22,
+            "rank": 8,
+            "archType": 1
+          },
+          {
+            "level": 18,
+            "feature": 22,
+            "rank": 9,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 22,
+            "rank": 10,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 23,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 6,
+            "feature": 23,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 23,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 12,
+            "feature": 23,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 15,
+            "feature": 23,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 18,
+            "feature": 23,
+            "rank": -1,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Beastkin Berserker",
+      "id": "e791f31b7fd225645ae709958afe2e91",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 25,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 5,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 26,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 12,
+            "feature": 27,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 6,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 10,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 14,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 3,
+            "feature": 5,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": 2,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 5,
+            "rank": 3,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": 4,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 5,
+            "rank": 5,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": 6,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 7,
+            "feature": 7,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 7,
+            "rank": 2,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 7,
+            "rank": 3,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 7,
+            "rank": 4,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 7,
+            "rank": 5,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 14,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 24,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Pack Rager",
+      "id": "3f0a548044dbad04b82535237584772b",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 29,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 4,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 8,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 12,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 16,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 20,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 3,
+            "feature": 5,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": 2,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 5,
+            "rank": 3,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": 4,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 5,
+            "rank": 5,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": 6,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 7,
+            "feature": 7,
+            "rank": 1,
+            "archType": -1
+          },
+          {
+            "level": 10,
+            "feature": 7,
+            "rank": 2,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 7,
+            "rank": 3,
+            "archType": -1
+          },
+          {
+            "level": 16,
+            "feature": 7,
+            "rank": 4,
+            "archType": -1
+          },
+          {
+            "level": 19,
+            "feature": 7,
+            "rank": 5,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 14,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 28,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 6,
+            "feature": 28,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 10,
+            "feature": 28,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 14,
+            "feature": 28,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 18,
+            "feature": 28,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        []
+      ]
+    },
+    {
+      "name": "Instinctual Warrior",
+      "id": "adffdd8a99094a89823a79292a503ee9",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 8,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 17,
+            "feature": 10,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 20,
+            "feature": 11,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 35,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 10,
+            "feature": 36,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 11,
+            "feature": 37,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 14,
+            "feature": 38,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 17,
+            "feature": 39,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 18,
+            "feature": 40,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 41,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 4,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 6,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 8,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 10,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 12,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 14,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 16,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 18,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 20,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [],
+        [
+          {
+            "level": 3,
+            "feature": 5,
+            "rank": 1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": 2,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 5,
+            "rank": 3,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": 4,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 5,
+            "rank": 5,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": 6,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 7,
+            "feature": 7,
+            "rank": 1,
+            "archType": -1
+          },
+          {
+            "level": 10,
+            "feature": 7,
+            "rank": 2,
+            "archType": -1
+          },
+          {
+            "level": 13,
+            "feature": 7,
+            "rank": 3,
+            "archType": -1
+          },
+          {
+            "level": 16,
+            "feature": 7,
+            "rank": 4,
+            "archType": -1
+          },
+          {
+            "level": 19,
+            "feature": 7,
+            "rank": 5,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 14,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 30,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 2,
+            "feature": 33,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 31,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 32,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [
+          {
+            "level": 4,
+            "feature": 34,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 8,
+            "feature": 34,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 10,
+            "feature": 34,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 12,
+            "feature": 34,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 16,
+            "feature": 34,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 18,
+            "feature": 34,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 34,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    }
   ]
 }

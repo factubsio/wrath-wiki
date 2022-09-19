@@ -1,119 +1,85 @@
 {
+  "__ui-groups": [],
   "features": [
     {
+      "__index": 0,
       "name": "Canny Defense",
       "desc": "When wearing light or no armor and not using a shield, a duelist adds 1 point of {g|Encyclopedia:Intelligence}Intelligence{/g} {g|Encyclopedia:Bonus}bonus{/g} (if any) per duelist {g|Encyclopedia:Class_Level}class level{/g} as a dodge bonus to her {g|Encyclopedia:Armor_Class}Armor Class{/g} while wielding a melee weapon. If a duelist is caught {g|Encyclopedia:Flat_Footed}flat-footed{/g} or otherwise denied her {g|Encyclopedia:Dexterity}Dexterity{/g} bonus, she also loses this bonus.",
       "icon": "gen__CD"
     },
     {
+      "__index": 1,
       "name": "Precise Strike",
       "desc": "A duelist gains the ability to strike precisely with a light or {g|Encyclopedia:Light_Weapon}one-handed{/g} {g|Encyclopedia:Damage_Type}piercing{/g} weapon, adding her duelist level to her {g|Encyclopedia:Damage}damage roll{/g}.\nTo make a precise strike, a duelist cannot have a weapon in her other hand or use a shield. A duelist\u0027s precise strike only works against creatures with discernible anatomies. Any creature that is immune to {g|Encyclopedia:Critical}critical hits{/g} is also immune to a precise strike, and any item or ability that protects a creature from critical hits also protects a creature from a precise strike.",
       "icon": "592ac2887857bd74a8bd0eef3057fb2b"
     },
     {
+      "__index": 2,
       "name": "Improved Reaction",
       "desc": "At 2nd level, a duelist gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}checks{/g}. At 8th level, the bonus increases to \u002B4. This bonus stacks with the benefit provided by the Improved Initiative {g|Encyclopedia:Feat}feat{/g}.",
       "icon": "gen__IR"
     },
     {
+      "__index": 3,
       "name": "Parry",
       "desc": "At 2nd level, a duelist learns to parry {g|Encyclopedia:MeleeAttack}melee attacks{/g} of other creatures, causing them to miss. Whenever the duelist makes a full {g|Encyclopedia:Attack}attack{/g} with a light or {g|Encyclopedia:Light_Weapon}one-handed{/g} {g|Encyclopedia:Damage_Type}piercing{/g} weapon, she can attempt to parry the first attack against her or the first attack against adjacent ally.\nTo parry the attack, the duelist makes an attack {g|Encyclopedia:Dice}roll{/g}, using the same {g|Encyclopedia:Bonus}bonuses{/g} as the attack she chose to forego during her previous {g|Encyclopedia:CA_Types}action{/g}. If her attack roll is greater than the roll of the attacking creature, the attack automatically misses. For each {g|Encyclopedia:Size}size{/g} category that the attacking creature is larger than the duelist, the duelist takes a \u20134 {g|Encyclopedia:Penalty}penalty{/g} on her attack roll. The duelist also takes a \u20134 penalty when attempting to parry an attack made against an adjacent ally.",
       "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
     },
     {
+      "__index": 4,
       "name": "Enhanced Mobility",
       "desc": "Starting at 3rd level, when wearing light or no armor and not using a shield, a duelist gains an additional \u002B4 {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:Attack_Of_Opportunity}attacks of opportunity{/g} caused when she moves out of a {g|Encyclopedia:Threatened_Area}threatened{/g} square.",
       "icon": "gen__EM"
     },
     {
+      "__index": 5,
       "name": "Combat Reflexes",
       "desc": "You may make a number of additional {g|Encyclopedia:Attack_Of_Opportunity}attacks of opportunity{/g} per {g|Encyclopedia:Combat_Round}round{/g} equal to your {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g}. With this {g|Encyclopedia:Feat}feat{/g}, you may also make {g|Encyclopedia:Attack}attacks{/g} of opportunity while {g|Encyclopedia:Flat_Footed}flat-footed{/g}.",
       "icon": "4cf24b2b76399b949a9d4b2ec3d0e0e9"
     },
     {
+      "__index": 6,
       "name": "Grace",
       "desc": "At 4th level, a duelist gains an additional \u002B2 competence {g|Encyclopedia:Bonus}bonus{/g} on all Reflex {g|Encyclopedia:Saving_Throw}saving throws{/g}.",
       "icon": "gen__G"
     },
     {
+      "__index": 7,
       "name": "Riposte",
       "desc": "Starting at 5th level, a duelist can make an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g} against any creature whose {g|Encyclopedia:Attack}attack{/g} she successfully parries, so long as the creature she is attacking is within {g|Encyclopedia:Reach}reach{/g}.",
       "icon": "gen__R"
     },
     {
+      "__index": 8,
       "name": "Acrobatic Movement",
       "desc": "At 6th level, a duelist movement {g|Encyclopedia:Speed}speed{/g} is no longer reduced on difficult terrain. Depending on the circumstance, she may still need to make appropriate {g|Encyclopedia:Check}checks{/g} to successfully move over the terrain.",
       "icon": "gen__AM"
     },
     {
+      "__index": 9,
       "name": "Elaborate Defense",
       "desc": "At 7th level and higher, if a duelist chooses to fight defensively in melee combat, she gains an additional \u002B1 dodge {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} for every 3 levels of duelist she has attained.",
       "icon": "gen__ED"
     },
     {
+      "__index": 10,
       "name": "Deflect Arrows",
       "desc": "At 9th level, a duelist gains the benefit of the Deflect Arrows {g|Encyclopedia:Feat}feat{/g} when using a light or {g|Encyclopedia:Light_Weapon}one-handed{/g} {g|Encyclopedia:Damage_Type}piercing{/g} weapon. The duelist does not need a free hand to use this feat.",
       "icon": "gen__DA"
     },
     {
+      "__index": 11,
       "name": "No Retreat",
       "desc": "At 9th level, enemies adjacent to the duelist that take a withdraw {g|Encyclopedia:CA_Types}action{/g} provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g} from the duelist.",
       "icon": "gen__NR"
     },
     {
+      "__index": 12,
       "name": "Crippling Critical",
       "desc": "When you confirm a {g|Encyclopedia:Critical}critical hit{/g} using a light or {g|Encyclopedia:Light_Weapon}one-handed{/g} {g|Encyclopedia:Damage_Type}piercing{/g} weapon, you can apply one of the following {g|Encyclopedia:Penalty}penalties{/g} in addition to the {g|Encyclopedia:Damage}damage{/g} dealt: reduce the target\u0027s movement {g|Encyclopedia:Speed}speed{/g} by a half, {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Strength}Strength{/g} or {g|Encyclopedia:Dexterity}Dexterity{/g} damage, \u20134 penalty on all {g|Encyclopedia:Saving_Throw}saving throws{/g}, \u20134 penalty to {g|Encyclopedia:Armor_Class}Armor Class{/g}, or 2d6 points of bleed damage. These penalties last for 1 minute, except for {g|Encyclopedia:AbilityDamage}ability damage{/g}, which must be {g|Encyclopedia:Healing}healed{/g} normally, and bleed damage, which continues until the target receives magic healing or leaves combat.",
       "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
     }
   ],
-  "progression": [
-    [],
-    [
-      0,
-      1
-    ],
-    [
-      2,
-      3
-    ],
-    [
-      4
-    ],
-    [
-      5,
-      6
-    ],
-    [
-      7
-    ],
-    [
-      8
-    ],
-    [
-      9
-    ],
-    [
-      2
-    ],
-    [
-      10,
-      11
-    ],
-    [
-      12
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
-  ],
-  "__ui-groups": [],
   "name": "Duelist",
   "layout": [
     [
@@ -121,55 +87,55 @@
         "level": 1,
         "feature": 0,
         "rank": -1,
-        "__debug": "CannyDefense"
+        "archType": 0
       },
       {
         "level": 2,
         "feature": 3,
         "rank": -1,
-        "__debug": "DuelistParryFeature"
+        "archType": 0
       },
       {
         "level": 3,
         "feature": 4,
         "rank": -1,
-        "__debug": "EnhancedMobility"
+        "archType": 0
       },
       {
         "level": 4,
         "feature": 5,
         "rank": -1,
-        "__debug": "CombatReflexes"
+        "archType": 0
       },
       {
         "level": 5,
         "feature": 7,
         "rank": -1,
-        "__debug": "DuelistRiposte"
+        "archType": 0
       },
       {
         "level": 6,
         "feature": 8,
         "rank": -1,
-        "__debug": "AcrobaticMovement"
+        "archType": 0
       },
       {
         "level": 7,
         "feature": 9,
         "rank": -1,
-        "__debug": "ElaborateDefense"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 10,
         "rank": -1,
-        "__debug": "DuelistDeflectArrows"
+        "archType": 0
       },
       {
         "level": 10,
         "feature": 12,
         "rank": -1,
-        "__debug": "DuelistCripplingCriticalFeature"
+        "archType": 0
       }
     ],
     [
@@ -177,19 +143,19 @@
         "level": 1,
         "feature": 1,
         "rank": -1,
-        "__debug": "PreciseStrikeAbility"
+        "archType": 0
       },
       {
         "level": 4,
         "feature": 6,
         "rank": -1,
-        "__debug": "DuelistGrace"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 11,
         "rank": -1,
-        "__debug": "NoRetreat"
+        "archType": 0
       }
     ],
     [
@@ -197,13 +163,13 @@
         "level": 2,
         "feature": 2,
         "rank": 1,
-        "__debug": "ImprovedReaction"
+        "archType": 0
       },
       {
         "level": 8,
         "feature": 2,
         "rank": 2,
-        "__debug": "ImprovedReaction"
+        "archType": 0
       }
     ],
     [],
@@ -216,5 +182,6 @@
     [],
     [],
     []
-  ]
+  ],
+  "archetypes": []
 }

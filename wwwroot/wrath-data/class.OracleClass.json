@@ -1,78 +1,181 @@
 {
+  "__ui-groups": [],
   "features": [
     {
+      "__index": 0,
       "name": "Oracle\u0027s Curse",
       "desc": "Each oracle is cursed, but this curse comes with a benefit as well as a hindrance. This choice is made at 1st level, and once made, it cannot be changed. The oracle\u0027s curse cannot be removed or dispelled without the aid of a deity. An oracle\u0027s curse is based on her oracle level plus one for every two levels or {g|Encyclopedia:Hit_Dice}Hit Dice{/g} other than oracle.",
       "icon": "1ef34a0fc900e0b4697c9558fd46957f"
     },
     {
+      "__index": 1,
       "name": "Oracle Proficiencies",
       "desc": "Oracles are proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g}, light armor, medium armor, and shields (except tower shields).",
       "icon": "gen__OP"
     },
     {
+      "__index": 2,
       "name": "Mystery",
       "desc": "Each oracle draws upon a divine mystery to grant her {g|Encyclopedia:Spell}spells{/g} and powers. This mystery also grants additional class {g|Encyclopedia:Skills}skills{/g} and other {g|Encyclopedia:Special_Abilities}special abilities{/g}. This mystery can represent a devotion to one ideal, prayers to deities that support the concept, or a natural calling to champion a cause. Regardless of its source, the mystery manifests in a number of ways as the oracle gains levels. An oracle must pick one mystery upon taking her first level of oracle. Once made, this choice cannot be changed.\nAt 2nd level, and every two levels thereafter, an oracle learns an additional spell derived from her mystery.",
       "icon": "502e74fc2b35b154a980c87519208b64"
     },
     {
+      "__index": 3,
       "name": "Revelation",
       "desc": "At 1st level, 3rd level, and every four levels thereafter (7th, 11th, and so on), an oracle uncovers a new secret about her mystery that grants her powers and abilities. The oracle must select a revelation from the list of revelations available to her mystery. If a revelation is chosen at a later level, the oracle gains all of the abilities and {g|Encyclopedia:Bonus}bonuses{/g} granted by that revelation based on her current level. Unless otherwise noted, activating the power of a revelation is a {g|Encyclopedia:Standard_Actions}standard action{/g}.\nUnless otherwise noted, the {g|Encyclopedia:DC}DC{/g} to {g|Encyclopedia:Saving_Throw}save{/g} against these revelations is equal to 10 \u002B 1/2 the oracle\u0027s level \u002B the oracle\u0027s {g|Encyclopedia:Charisma}Charisma{/g} modifier.",
       "icon": "f168300883709474193903c2ddb5cc86"
     },
     {
+      "__index": 4,
       "name": "Additional Spells",
       "desc": "In addition to the {g|Encyclopedia:Spell}spells{/g} gained by oracles as they gain levels, each oracle also adds all of either the {g|Encyclopedia:Healing}cure{/g} spells or the inflict spells to her list of spells known (cure spells include all spells with \u0022cure\u0022 in the name, inflict spells include all spells with \u0022inflict\u0022 in the name). These spells are added as soon as the oracle is capable of casting them. This choice is made when the oracle gains her first level and cannot be changed.",
       "icon": "gen__AS"
     },
     {
+      "__index": 5,
       "name": "Final Revelation",
       "desc": "At 20th level, an oracle learns the final revelation about her mystery, granting her amazing powers and abilities. The nature of these {g|Encyclopedia:Bonus}bonuses{/g} depends upon the oracle\u0027s mystery.",
       "icon": "gen__FR"
+    },
+    {
+      "__index": 6,
+      "name": "Recluse\u0027s Stride",
+      "desc": "Your base {g|Encyclopedia:Speed}speed{/g} increases by 10 feet. At 5th level, once per {g|Encyclopedia:Combat_Round}round{/g} get a \u002B20 {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} against the first {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}. At 10th level, you can teleport to a medium distance as a {g|Encyclopedia:Move_Action}move action{/g}. You can teleport a number of times per day equal to 3 \u002B your {g|Encyclopedia:Charisma}Charisma{/g} modifier.",
+      "icon": "gen__RS"
+    },
+    {
+      "__index": 7,
+      "name": "Mystery",
+      "desc": "A lone strider must choose a mystery that adds {g|Encyclopedia:Lore_Nature}Lore (nature){/g} to his list of class {g|Encyclopedia:Skills}skills{/g}.",
+      "icon": "502e74fc2b35b154a980c87519208b64"
+    },
+    {
+      "__index": 8,
+      "name": "Fade from Memory",
+      "desc": "At 7th level, whenever there are no enemies within 10 feet, you gain 20% {g|Encyclopedia:Concealment}concealment{/g} for one {g|Encyclopedia:Combat_Round}round{/g} as a {g|Encyclopedia:Free_Action}free action{/g}. At 14th level, you instead gain 50% concealment for one round. You can use this ability a number of times per day equal to your oracle level.",
+      "icon": "gen__FM"
+    },
+    {
+      "__index": 9,
+      "name": "Fade from Memory",
+      "desc": "At 7th level, whenever there are no enemies within 10 feet, you gain 20% {g|Encyclopedia:Concealment}concealment{/g} for one {g|Encyclopedia:Combat_Round}round{/g} as a {g|Encyclopedia:Free_Action}free action{/g}. At 14th level, you instead gain 50% concealment for one round. You can use this ability a number of times per day equal to your oracle level.",
+      "icon": "gen__FM"
+    },
+    {
+      "__index": 10,
+      "name": "Mystery",
+      "desc": "Each oracle draws upon a divine mystery to grant her {g|Encyclopedia:Spell}spells{/g} and powers. This mystery also grants additional class {g|Encyclopedia:Skills}skills{/g} and other {g|Encyclopedia:Special_Abilities}special abilities{/g}. This mystery can represent a devotion to one ideal, prayers to deities that support the concept, or a natural calling to champion a cause. Regardless of its source, the mystery manifests in a number of ways as the oracle gains levels. An oracle must pick one mystery upon taking her first level of oracle. Once made, this choice cannot be changed.\nAt 2nd level, and every two levels thereafter, an oracle learns an additional spell derived from her mystery.",
+      "icon": "502e74fc2b35b154a980c87519208b64"
+    },
+    {
+      "__index": 11,
+      "name": "Skill Focus \u2014 Knowledge (World)",
+      "desc": "You get a \u002B3 {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Check}checks{/g} involving {g|Encyclopedia:Knowledge_World}Knowledge (world){/g}. If you have 10 or more ranks in Knowledge (world), this bonus increases to \u002B6.",
+      "icon": "061d83509f0632a43b183da9685c7ee1"
+    },
+    {
+      "__index": 12,
+      "name": "Mental Acuity",
+      "desc": "Your explorations into the secret mysteries of the world have granted you a preternatural understanding of all things \u2014 and you just keep getting smarter. You gain a \u002B1 inherent {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Intelligence}Intelligence{/g} upon taking this revelation and another at every third oracle level gained thereafter.",
+      "icon": "gen__MA"
+    },
+    {
+      "__index": 13,
+      "name": "Final Revelation",
+      "desc": "Upon achieving 20th level, you achieve true enlightenment and become one with the universe. You receive a {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Saving_Throw}saving throws{/g} equal to your {g|Encyclopedia:Charisma}Charisma{/g} modifier. You become immune to confusion, exhaustion, fatigue, nausea, and sickened effects. You can take 20 on all Knowledge {g|Encyclopedia:Skills}skill checks{/g}. Once per day, should you die, 1 {g|Encyclopedia:Combat_Round}round{/g} after dying you are reborn as a living example of the summoning of your chosen philosophy. Your body re-forms with all your equipment, and you return to life with maximum {g|Encyclopedia:HP}hit points{/g}.",
+      "icon": "eb22d7b246ad2be44ac8b84d9a6fd3d3"
+    },
+    {
+      "__index": 14,
+      "name": "Mystery",
+      "desc": "Each oracle draws upon a divine mystery to grant her {g|Encyclopedia:Spell}spells{/g} and powers. This mystery also grants additional class {g|Encyclopedia:Skills}skills{/g} and other {g|Encyclopedia:Special_Abilities}special abilities{/g}. This mystery can represent a devotion to one ideal, prayers to deities that support the concept, or a natural calling to champion a cause. Regardless of its source, the mystery manifests in a number of ways as the oracle gains levels. An oracle must pick one mystery upon taking her first level of oracle. Once made, this choice cannot be changed.\nAt 2nd level, and every two levels thereafter, an oracle learns an additional spell derived from her mystery.",
+      "icon": "502e74fc2b35b154a980c87519208b64"
+    },
+    {
+      "__index": 15,
+      "name": "Master Herbalist",
+      "desc": "A divine herbalist has mastered countless alchemical techniques that supplement her divine powers and greatly aid her when she {g|Encyclopedia:Healing}heals{/g} the sick and wounded. She gains a competence {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Lore_Nature}Lore (nature){/g} {g|Encyclopedia:Check}checks{/g} equal to 1/2 her oracle level (minimum 1), and uses her {g|Encyclopedia:Charisma}Charisma{/g} modifier in place of her {g|Encyclopedia:Wisdom}Wisdom{/g} modifier when attempting Lore (nature) checks.\nThis ability replaces the additional class {g|Encyclopedia:Skills}skills{/g} the oracle gains from her mystery.",
+      "icon": "gen__MH"
+    },
+    {
+      "__index": 16,
+      "name": "Brew Potions",
+      "desc": "Allows you to brew potions of {g|Encyclopedia:Spell}spells{/g} up to level 3 during {g|Encyclopedia:Rest}camping{/g}.",
+      "icon": "2133c2bb726d4e3418b339cb9598f936"
+    },
+    {
+      "__index": 17,
+      "name": "Master Healing Technique",
+      "desc": "At 7th level, whenever a divine herbalist {g|Encyclopedia:Healing}heals{/g} a living creature with her healer\u0027s way ability, as a {g|Encyclopedia:Free_Action}free action{/g} she can attempt a {g|Encyclopedia:Lore_Nature}Lore (nature){/g} {g|Encyclopedia:Check}check{/g} to remove certain conditions from the target, with each condition set having an accompanying Lore (nature) {g|Encyclopedia:DC}DC{/g} (see the list below). Failure by 5 or more causes the target to become sickened for 1 {g|Encyclopedia:Combat_Round}round{/g} (if the divine herbalist is attempting to remove the sickened condition, this extends it by 1 round). Similarly, failure by 10 or more instead causes the target to become nauseated for 1 round or to have its existing nauseated condition extended by 1 round. A creature that cannot be sickened or nauseated cannot have conditions removed by this ability.\nMinor Conditions (DC 20): Fatigued, shaken, and sickened.\nMajor Conditions (DC 25): Dazed and staggered.\nSevere Conditions (DC 30): Confused, exhausted, frightened, and nauseated.\nDire Conditions (DC 35): Blinded, paralyzed, and stunned.\nThis ability replaces the revelation gained at 7th level.",
+      "icon": "e35fa1bf7ba8c0148a498d6a3b693f48"
+    },
+    {
+      "__index": 18,
+      "name": "Healer\u0027s Way",
+      "desc": "A divine herbalist combines alchemy, acupuncture, and divine magic to {g|Encyclopedia:Healing}heal{/g} wounds by {g|Encyclopedia:TouchAttack}touch{/g}. She can use this ability a number of times per day equal to 1 \u002B her {g|Encyclopedia:Charisma}Charisma{/g} modifier. With one use of this ability, she uses positive energy to heal the target of {g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:HP}hit points{/g} for every 2 oracle levels she has. Using this ability is a {g|Encyclopedia:Standard_Actions}standard action{/g} unless the oracle targets herself, in which case it is a {g|Encyclopedia:Swift_Action}swift action{/g}. This ability counts as a paladin\u0027s lay on hands ability for the purposes of {g|Encyclopedia:Feat}feats{/g}, {g|Encyclopedia:Spell}spells{/g}, and effects that work with that class feature when it is used for healing purposes. Unlike lay on hands, this ability cannot be used to harm undead.\nThis ability replaces the revelation gained at 1st level.",
+      "icon": "e35fa1bf7ba8c0148a498d6a3b693f48"
+    },
+    {
+      "__index": 19,
+      "name": "Seeker\u0027s Trapfinding",
+      "desc": "Seekers often look to ancient devices, old tomes, and strange magical items in order to learn more about their oracle mysteries. As a result of this curiosity and thanks to an innate knack at deciphering the strange and weird, a seeker gains {g|Encyclopedia:Trickery}Trickery{/g} as a class {g|Encyclopedia:Skills}skill{/g}. In addition, at 1st level, a seeker adds half his oracle level on Trickery skill {g|Encyclopedia:Check}checks{/g} (minimum \u002B1).",
+      "icon": "gen__ST"
+    },
+    {
+      "__index": 20,
+      "name": "Seeker Bonus Feat",
+      "desc": "At 5th, 10th and 15th level, Seeker gains a bonus {g|Encyclopedia:Feat}feat{/g} from the list:",
+      "icon": "gen__SBF"
+    },
+    {
+      "__index": 21,
+      "name": "Powerless Prophecy",
+      "desc": "You are forewarned of danger but can\u0027t act to prevent it. You gain uncanny dodge, as the rogue class feature, but you are staggered for the entire first {g|Encyclopedia:Combat_Round}round{/g} of combat.\nAt 5th level, you gain a \u002B4 insight {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}checks{/g}.\nAt 10th level, you gain improved uncanny dodge as the rogue ability, using your oracle level as your rogue level.\nAt 15th level, you gain a \u002B4 insight bonus on all your {g|Encyclopedia:Saving_Throw}saving throws{/g} and to your {g|Encyclopedia:Armor_Class}AC{/g} during the first round of combat.",
+      "icon": "c17cb51a793425e4aadb2d572edd26f9"
+    },
+    {
+      "__index": 22,
+      "name": "Two Minds",
+      "desc": "You gain a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against mind-affecting effects. At 7th level, the bonus increases to \u002B4.",
+      "icon": "gen__TM"
+    },
+    {
+      "__index": 23,
+      "name": "Celestial Armor",
+      "desc": "At 7th level, a purifier\u0027s armor takes on a golden or silvery sheen and becomes light as a feather. Her armor weighs half as much as long as she wears it. She also gains armor training as a fighter 4 levels lower than her oracle level. At 11th level, a purifier gains heavy armor proficiency.",
+      "icon": "gen__CA"
+    },
+    {
+      "__index": 24,
+      "name": "Sin Eater",
+      "desc": "At 11th level, a purifier can consume a curse, enchantment, or emotion effect by {g|Encyclopedia:TouchAttack}touch{/g} as a {g|Encyclopedia:Full_Round_Action}full-round action{/g}. She can do this a number of times per day equal to her {g|Encyclopedia:Charisma}Charisma{/g} modifier, and must make a dispel {g|Encyclopedia:Check}check{/g} with a {g|Encyclopedia:Bonus}bonus{/g} equal to Charisma modifier against the effect. If the check succeeds, the effect is negated; however, the purifier is sickened for {g|Encyclopedia:Dice}1d4{/g} {g|Encyclopedia:Combat_Round}rounds{/g}.",
+      "icon": "gen__SE"
+    },
+    {
+      "__index": 25,
+      "name": "Sacred Scourge",
+      "desc": "At 5th level, a purifier may channel holy power as a cleric of her level to harm evil outsiders . She may use this ability a number of times per day equal to 1 \u002B her {g|Encyclopedia:Charisma}Charisma{/g} modifier.",
+      "icon": "gen__SS"
+    },
+    {
+      "__index": 26,
+      "name": "Wind",
+      "desc": "An oracle with the wind mystery adds {g|Encyclopedia:Mobility}Mobility{/g} and {g|Encyclopedia:Stealth}Stealth{/g} to her list of class {g|Encyclopedia:Skills}skills{/g}.",
+      "icon": "77972ac7a536e8847b8302c13ec48f7a"
+    },
+    {
+      "__index": 27,
+      "name": "Haste of the Wind",
+      "desc": "Starting at 7th level, as a {g|Encyclopedia:Swift_Action}swift action{/g} Wind Whisperer can affect all allies in a 30-foot radius with the haste {g|Encyclopedia:Spell}spell{/g} effect for a number of {g|Encyclopedia:Combat_Round}rounds{/g} equal to his {g|Encyclopedia:Charisma}Charisma{/g} modifier. This ability can be used once per day plus one more time for every six oracle levels.",
+      "icon": "gen__HW"
+    },
+    {
+      "__index": 28,
+      "name": "Freedom of the Wind",
+      "desc": "Starting at 15th level, as a {g|Encyclopedia:Swift_Action}swift action{/g} Wind Whisperer can affect all allies in a 30-foot radius with the freedom of movement {g|Encyclopedia:Spell}spell{/g} effect for a number of {g|Encyclopedia:Combat_Round}rounds{/g} equal to his {g|Encyclopedia:Charisma}Charisma{/g} modifier. This ability can be used once per day plus one more time for every six oracle levels.",
+      "icon": "gen__FW"
     }
   ],
-  "progression": [
-    [],
-    [
-      0,
-      1,
-      2,
-      3,
-      4
-    ],
-    [],
-    [
-      3
-    ],
-    [],
-    [],
-    [],
-    [
-      3
-    ],
-    [],
-    [],
-    [],
-    [
-      3
-    ],
-    [],
-    [],
-    [],
-    [
-      3
-    ],
-    [],
-    [],
-    [],
-    [
-      3
-    ],
-    [
-      5
-    ]
-  ],
-  "__ui-groups": [],
   "name": "Oracle",
   "layout": [
     [
@@ -80,13 +183,13 @@
         "level": 1,
         "feature": 0,
         "rank": -1,
-        "__debug": "OracleCurseSelection"
+        "archType": 0
       },
       {
         "level": 20,
         "feature": 5,
         "rank": -1,
-        "__debug": "OracleFinalRevelation"
+        "archType": 0
       }
     ],
     [
@@ -94,7 +197,7 @@
         "level": 1,
         "feature": 1,
         "rank": -1,
-        "__debug": "OracleProficiency"
+        "archType": 0
       }
     ],
     [
@@ -102,7 +205,7 @@
         "level": 1,
         "feature": 2,
         "rank": -1,
-        "__debug": "OracleMysterySelection"
+        "archType": 0
       }
     ],
     [
@@ -110,37 +213,37 @@
         "level": 1,
         "feature": 3,
         "rank": -1,
-        "__debug": "OracleRevelationSelection"
+        "archType": 0
       },
       {
         "level": 3,
         "feature": 3,
         "rank": -1,
-        "__debug": "OracleRevelationSelection"
+        "archType": 0
       },
       {
         "level": 7,
         "feature": 3,
         "rank": -1,
-        "__debug": "OracleRevelationSelection"
+        "archType": 0
       },
       {
         "level": 11,
         "feature": 3,
         "rank": -1,
-        "__debug": "OracleRevelationSelection"
+        "archType": 0
       },
       {
         "level": 15,
         "feature": 3,
         "rank": -1,
-        "__debug": "OracleRevelationSelection"
+        "archType": 0
       },
       {
         "level": 19,
         "feature": 3,
         "rank": -1,
-        "__debug": "OracleRevelationSelection"
+        "archType": 0
       }
     ],
     [
@@ -148,9 +251,810 @@
         "level": 1,
         "feature": 4,
         "rank": -1,
-        "__debug": "OracleCureOrInflictSelection"
+        "archType": 0
       }
     ],
     []
+  ],
+  "archetypes": [
+    {
+      "name": "Lone Strider",
+      "id": "8f205adfab73b3c4c8c93d251a3cef02",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 8,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 14,
+            "feature": 9,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 3,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 6,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 7,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Enlightened Philosopher",
+      "id": "4f2698f04fa63e34b8153fa3a9795649",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 12,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 13,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 3,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 10,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 11,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Divine Herbalist",
+      "id": "204117c48168f2a41a8e155419e6e880",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 2,
+            "feature": 18,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 7,
+            "feature": 17,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 3,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 14,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 15,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 16,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Seeker",
+      "id": "c539d65b7682c8d469e6f122922f1dee",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 7,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 19,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 19,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 5,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 10,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 15,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Possessed Oracle",
+      "id": "09035bb5dbb714645bb08ea7db47884c",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 3,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 21,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 22,
+            "rank": 1,
+            "archType": 1
+          },
+          {
+            "level": 7,
+            "feature": 22,
+            "rank": 2,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Purifier",
+      "id": "c9df67160a77ecd4a97928f2455545d7",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 25,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 11,
+            "feature": 24,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 7,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 15,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [],
+        [
+          {
+            "level": 7,
+            "feature": 23,
+            "rank": 1,
+            "archType": 1
+          },
+          {
+            "level": 11,
+            "feature": 23,
+            "rank": 2,
+            "archType": 1
+          },
+          {
+            "level": 15,
+            "feature": 23,
+            "rank": 3,
+            "archType": 1
+          },
+          {
+            "level": 19,
+            "feature": 23,
+            "rank": 4,
+            "archType": 1
+          }
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Wind Whisperer",
+      "id": "77769e43e63647c2b32298efcc577aca",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 27,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 15,
+            "feature": 28,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 19,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 26,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        []
+      ]
+    }
   ]
 }

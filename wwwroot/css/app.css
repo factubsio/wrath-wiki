@@ -60,7 +60,8 @@ table.progression-table {
 
     table.progression-table td, th {
         width: 60px;
-        max-height: 55px;
+        max-height: 65px;
+        height: 65px;
         max-width: 60px;
         text-align: center;
     }
@@ -78,7 +79,7 @@ table.progression-table {
     }
 
     table.progression-table .banner {
-        width: 1320px;
+        width: 1280px;
         height: 60px;
         background-image: url('../ui/UI_BackgroundCaption.png');
         background-size: 100% 100%;
@@ -117,6 +118,10 @@ table.progression-table {
     height: 55px;
 }
 
+table {
+    border-collapse: collapse;
+}
+
 .progression-feature {
     padding: 0;
     width: 55px;
@@ -127,6 +132,30 @@ table.progression-table {
     left: 4px;
     top: 4px;
     padding: 0;
+}
+
+.feature-added {
+    position: absolute;
+    bottom: -12px;
+    left: calc(50% - 14px);
+
+    width: 28px;
+    height: 28px;
+
+    background-image: url('../ui/UI_CharScreen_IconAdd.png');
+    background-size: 100% 100%;
+}
+
+.feature-removed {
+    position: absolute;
+    bottom: -12px;
+    left: calc(50% - 14px);
+
+    width: 28px;
+    height: 28px;
+
+    background-image: url('../ui/UI_CharScreen_IconDelete.png');
+    background-size: 100% 100%;
 }
 
 .rank-badge {
@@ -154,8 +183,10 @@ table.progression-table {
 
 .chupa-slot {
     border-left: 1px solid gray;
-    border-right: 1px solid gray;
 
+}
+.chupa-slot.last-level {
+    border-right: 1px solid gray;
 }
 
 

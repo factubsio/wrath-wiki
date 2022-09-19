@@ -1,182 +1,4 @@
 {
-  "features": [
-    {
-      "name": "Arcane Pool",
-      "desc": "At 1st level, the magus gains a reservoir of mystical arcane energy that he can draw upon to fuel his powers and enhance his weapon. This arcane pool has a number of points equal to 1/2 his magus level (minimum 1) \u002B his {g|Encyclopedia:Intelligence}Intelligence{/g} modifier. The pool refreshes once per day when the magus prepares his {g|Encyclopedia:Spell}spells{/g}.\nAt 1st level, a magus can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant any weapon he is holding a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Multiple uses of this ability do not stack with themselves.\nAt 5th level, these bonuses can be used to add any of the following weapon properties: flaming, flaming burst, frost, icy burst, keen, shock, shocking burst, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These properties are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other properties can be added. These bonuses and properties are decided when the arcane pool point is spent and cannot be changed until the next time the magus uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the magus.\nA magus can only enhance one weapon in this way at one time. If he uses this ability again, the first use immediately ends.",
-      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
-    },
-    {
-      "name": "Spell Combat",
-      "desc": "At 1st level, a magus learns to cast {g|Encyclopedia:Spell}spells{/g} and wield his weapons at the same time. This functions much like two-weapon fighting, but the off-hand weapon is a spell that is being cast. To use this ability, the magus must have one hand free, while wielding a light or {g|Encyclopedia:Light_Weapon}one-handed{/g} melee weapon in the other hand. As a {g|Encyclopedia:Full_Round_Action}full-round action{/g}, he can make all of his {g|Encyclopedia:Attack}attacks{/g} with his melee weapon at a \u20132 {g|Encyclopedia:Penalty}penalty{/g} and can also cast any spell from the magus spell list with a {g|Encyclopedia:Casting_Time}casting time{/g} of 1 {g|Encyclopedia:Standard_Actions}standard action{/g} (any attack {g|Encyclopedia:Dice}roll{/g} made as part of this spell also takes this penalty).",
-      "icon": "d7f95c54ea7a4b24f91b3f01cd84e251"
-    },
-    {
-      "name": "Magus Proficiencies",
-      "desc": "A magus is proficient with all simple and {g|Encyclopedia:Weapon_Proficiency}martial weapons{/g}. A magus is also proficient with light armor. He can cast magus {g|Encyclopedia:Spell}spells{/g} while wearing light armor without incurring the normal {g|Encyclopedia:Spell_Fail_Chance}arcane spell failure chance{/g}. Like any other arcane spellcaster, a magus wearing medium armor, heavy armor, or a shield incurs a chance of arcane spell failure. A multiclass magus still incurs the normal arcane spell failure chance for arcane spells received from other classes.",
-      "icon": "3714ca959287da54cbf82164d3a8805b"
-    },
-    {
-      "name": "Cantrips",
-      "desc": "Magi can cast a number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
-      "icon": "a9810d27cad67b5448c99283aabedaad"
-    },
-    {
-      "name": "Spellstrike",
-      "desc": "At 2nd level, whenever a magus casts a {g|Encyclopedia:Spell}spell{/g} with a range of \u0022{g|Encyclopedia:TouchAttack}touch{/g}\u0022 from the magus spell list, he can deliver the spell through any weapon he is wielding as part of a {g|Encyclopedia:MeleeAttack}melee attack{/g}.\nInstead of the free melee touch {g|Encyclopedia:Attack}attack{/g} normally allowed to deliver the spell, a magus can make one free melee attack with his weapon (at his highest {g|Encyclopedia:BAB}base attack bonus{/g}) as part of casting this spell. If successful, this melee attack deals its normal {g|Encyclopedia:Damage}damage{/g} as well as the effects of the spell. If the magus makes this attack in concert with spell combat, this melee attack takes all the {g|Encyclopedia:Penalty}penalties{/g} accrued by spell combat melee attacks.\nThis attack uses the weapon\u0027s {g|Encyclopedia:Critical}critical{/g} range (20, 19\u201320, or 18\u201320 and modified by the keen weapon property or similar effects), but the spell effect only deals \u00D72 damage on a successful critical hit, while the weapon damage uses its own critical modifier.",
-      "icon": "681734e59fe8acd4e8fc2b3ae745726f"
-    },
-    {
-      "name": "Magus Arcana",
-      "desc": "As he gains levels, a magus learns arcane secrets tailored to his specific way of blending martial puissance and magical {g|Encyclopedia:Skills}skill{/g}. Starting at 3rd level, a magus gains one magus arcana. He gains an additional magus arcana for every three levels of magus attained after 3rd level. Unless specifically noted in a magus arcana\u0027s description, a magus cannot select a particular magus arcana more than once.",
-      "icon": "15d11c952fdc96b45849f312f3931192"
-    },
-    {
-      "name": "Spell Recall",
-      "desc": "At 4th level, the magus learns to use his arcane pool to recall {g|Encyclopedia:Spell}spells{/g} he has already cast. With a {g|Encyclopedia:Swift_Action}swift action{/g} he can recall any single magus spell that he has already prepared and cast that day by expending a number of points from his arcane pool equal to the spell\u0027s level (minimum 1). The spell is prepared again, just as if it had not been cast.",
-      "icon": "75adafb59a8fa904f885a9a4fa16fc95"
-    },
-    {
-      "name": "Magus Bonus Feat",
-      "desc": "\u003Cnull-string\u003E",
-      "icon": "53a4e13e9b8bfd34eb3f770ec000809f"
-    },
-    {
-      "name": "Arcane Weapon (\u002B2)",
-      "desc": "At 1st level, a magus can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant any weapon he is holding a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Multiple uses of this ability do not stack with themselves.\nAt 5th level, these bonuses can be used to add any of the following weapon properties: flaming, flaming burst, frost, icy burst, keen, shock, shocking burst, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These properties are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other properties can be added. These bonuses and properties are decided when the arcane pool point is spent and cannot be changed until the next time the magus uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the magus.\nA magus can only enhance one weapon in this way at one time. If he uses this ability again, the first use immediately ends.",
-      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
-    },
-    {
-      "name": "Arcane Medium Armor",
-      "desc": "At 7th level, a magus gains proficiency with medium armor. A magus can cast magus {g|Encyclopedia:Spell}spells{/g} while wearing medium armor without incurring the normal {g|Encyclopedia:Spell_Fail_Chance}arcane spell failure chance{/g}. Like any other arcane spellcaster, a magus wearing heavy armor or using a shield incurs a chance of arcane spell failure.",
-      "icon": "3f5c77052d0163a4e9c66fc85ca6b0b4"
-    },
-    {
-      "name": "Improved Spell Combat",
-      "desc": "At 8th level, the magus\u0027s ability to cast {g|Encyclopedia:Spell}spells{/g} and make {g|Encyclopedia:MeleeAttack}melee attacks{/g} improves. When using the spell combat ability, the magus receives a \u002B2 circumstance {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Concentration}concentration checks{/g}.",
-      "icon": "d7f95c54ea7a4b24f91b3f01cd84e251"
-    },
-    {
-      "name": "Arcane Weapon (\u002B3)",
-      "desc": "At 1st level, a magus can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant any weapon he is holding a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Multiple uses of this ability do not stack with themselves.\nAt 5th level, these bonuses can be used to add any of the following weapon properties: flaming, flaming burst, frost, icy burst, keen, shock, shocking burst, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These properties are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other properties can be added. These bonuses and properties are decided when the arcane pool point is spent and cannot be changed until the next time the magus uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the magus.\nA magus can only enhance one weapon in this way at one time. If he uses this ability again, the first use immediately ends.",
-      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
-    },
-    {
-      "name": "Fighter Training",
-      "desc": "Starting at 10th level, a magus counts 1/2 his total magus level as his fighter level for the purpose of qualifying for {g|Encyclopedia:Feat}feats{/g}. If he has levels in fighter, these levels stack.",
-      "icon": "ef075f9e062a6464fa67961e33c9fd6b"
-    },
-    {
-      "name": "Improved Spell Recall",
-      "desc": "At 11th level, the magus\u0027s ability to recall {g|Encyclopedia:Spell}spells{/g} using his arcane pool becomes more efficient. Whenever he recalls a spell with spell recall, he expends a number of points from his arcane pool equal to 1/2 the spell\u0027s level (minimum 1).",
-      "icon": "75adafb59a8fa904f885a9a4fa16fc95"
-    },
-    {
-      "name": "Arcane Weapon (\u002B4)",
-      "desc": "At 1st level, a magus can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant any weapon he is holding a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Multiple uses of this ability do not stack with themselves.\nAt 5th level, these bonuses can be used to add any of the following weapon properties: flaming, flaming burst, frost, icy burst, keen, shock, shocking burst, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These properties are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other properties can be added. These bonuses and properties are decided when the arcane pool point is spent and cannot be changed until the next time the magus uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the magus.\nA magus can only enhance one weapon in this way at one time. If he uses this ability again, the first use immediately ends.",
-      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
-    },
-    {
-      "name": "Arcane Heavy Armor",
-      "desc": "At 13th level, a magus gains proficiency with heavy armor. A magus can cast magus {g|Encyclopedia:Spell}spells{/g} while wearing heavy armor without incurring the normal {g|Encyclopedia:Spell_Fail_Chance}arcane spell failure chance{/g}. Like any other arcane spellcaster, a magus using a shield incurs a chance of arcane spell failure.",
-      "icon": "d539b4dbcdf2b494a9b550c65ddb7179"
-    },
-    {
-      "name": "Greater Spell Combat",
-      "desc": "At 14th level, the magus gains the ability to seamlessly cast {g|Encyclopedia:Spell}spells{/g} and make {g|Encyclopedia:MeleeAttack}melee attacks{/g}. Whenever he uses the spell combat ability, his {g|Encyclopedia:Concentration}concentration check{/g} {g|Encyclopedia:Bonus}bonus{/g} from Improved Spell Combat increases to \u002B4.",
-      "icon": "d7f95c54ea7a4b24f91b3f01cd84e251"
-    },
-    {
-      "name": "Counterstrike",
-      "desc": "At 16th level, whenever an enemy within {g|Encyclopedia:Reach}reach{/g} of the magus successfully casts a {g|Encyclopedia:Spell}spell{/g} defensively, that enemy provokes an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g} from the magus after the spell is complete.",
-      "icon": "332f09eb98a30f741ad6b36c99fc128a"
-    },
-    {
-      "name": "Arcane Weapon (\u002B5)",
-      "desc": "At 1st level, a magus can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant any weapon he is holding a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Multiple uses of this ability do not stack with themselves.\nAt 5th level, these bonuses can be used to add any of the following weapon properties: flaming, flaming burst, frost, icy burst, keen, shock, shocking burst, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These properties are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other properties can be added. These bonuses and properties are decided when the arcane pool point is spent and cannot be changed until the next time the magus uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the magus.\nA magus can only enhance one weapon in this way at one time. If he uses this ability again, the first use immediately ends.",
-      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
-    },
-    {
-      "name": "Greater Spell Access",
-      "desc": "At 19th level, the magus gains access to an expanded {g|Encyclopedia:Spell}spell{/g} list. He learns 6 spells of any levels from 1st to 6th from the wizard\u0027s spell list and places them into his spellbook as magus spells of their wizard level.",
-      "icon": "15d11c952fdc96b45849f312f3931192"
-    },
-    {
-      "name": "True Magus",
-      "desc": "At 20th level, the magus becomes a master of {g|Encyclopedia:Spell}spells{/g} and combat. Whenever he uses his spell combat ability, he does not need to make a {g|Encyclopedia:Concentration}concentration check{/g} to cast the spell defensively.\nWhenever the magus uses spell combat, he can choose to either increase the {g|Encyclopedia:DC}DC{/g} to {g|Encyclopedia:Spell_Resistance}resist his spells{/g} by 2, grant himself a \u002B2 circumstance {g|Encyclopedia:Bonus}bonus{/g} on any {g|Encyclopedia:Check}checks{/g} made to overcome spell resistance, or grant himself a \u002B2 circumstance bonus on all {g|Encyclopedia:Attack}attack rolls{/g}.",
-      "icon": "gen__TM"
-    }
-  ],
-  "progression": [
-    [],
-    [
-      0,
-      1,
-      2,
-      3
-    ],
-    [
-      4
-    ],
-    [
-      5
-    ],
-    [
-      6
-    ],
-    [
-      7,
-      8
-    ],
-    [
-      5
-    ],
-    [
-      9
-    ],
-    [
-      10
-    ],
-    [
-      11,
-      5
-    ],
-    [
-      12
-    ],
-    [
-      7,
-      13
-    ],
-    [
-      5
-    ],
-    [
-      14,
-      15
-    ],
-    [
-      16
-    ],
-    [
-      5
-    ],
-    [
-      17
-    ],
-    [
-      7,
-      18
-    ],
-    [
-      5
-    ],
-    [
-      19
-    ],
-    [
-      20
-    ]
-  ],
   "__ui-groups": [
     [
       0,
@@ -216,6 +38,368 @@
       12
     ]
   ],
+  "features": [
+    {
+      "__index": 0,
+      "name": "Arcane Pool",
+      "desc": "At 1st level, the magus gains a reservoir of mystical arcane energy that he can draw upon to fuel his powers and enhance his weapon. This arcane pool has a number of points equal to 1/2 his magus level (minimum 1) \u002B his {g|Encyclopedia:Intelligence}Intelligence{/g} modifier. The pool refreshes once per day when the magus prepares his {g|Encyclopedia:Spell}spells{/g}.\nAt 1st level, a magus can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant any weapon he is holding a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Multiple uses of this ability do not stack with themselves.\nAt 5th level, these bonuses can be used to add any of the following weapon properties: flaming, flaming burst, frost, icy burst, keen, shock, shocking burst, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These properties are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other properties can be added. These bonuses and properties are decided when the arcane pool point is spent and cannot be changed until the next time the magus uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the magus.\nA magus can only enhance one weapon in this way at one time. If he uses this ability again, the first use immediately ends.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "__index": 1,
+      "name": "Spell Combat",
+      "desc": "At 1st level, a magus learns to cast {g|Encyclopedia:Spell}spells{/g} and wield his weapons at the same time. This functions much like two-weapon fighting, but the off-hand weapon is a spell that is being cast. To use this ability, the magus must have one hand free, while wielding a light or {g|Encyclopedia:Light_Weapon}one-handed{/g} melee weapon in the other hand. As a {g|Encyclopedia:Full_Round_Action}full-round action{/g}, he can make all of his {g|Encyclopedia:Attack}attacks{/g} with his melee weapon at a \u20132 {g|Encyclopedia:Penalty}penalty{/g} and can also cast any spell from the magus spell list with a {g|Encyclopedia:Casting_Time}casting time{/g} of 1 {g|Encyclopedia:Standard_Actions}standard action{/g} (any attack {g|Encyclopedia:Dice}roll{/g} made as part of this spell also takes this penalty).",
+      "icon": "d7f95c54ea7a4b24f91b3f01cd84e251"
+    },
+    {
+      "__index": 2,
+      "name": "Magus Proficiencies",
+      "desc": "A magus is proficient with all simple and {g|Encyclopedia:Weapon_Proficiency}martial weapons{/g}. A magus is also proficient with light armor. He can cast magus {g|Encyclopedia:Spell}spells{/g} while wearing light armor without incurring the normal {g|Encyclopedia:Spell_Fail_Chance}arcane spell failure chance{/g}. Like any other arcane spellcaster, a magus wearing medium armor, heavy armor, or a shield incurs a chance of arcane spell failure. A multiclass magus still incurs the normal arcane spell failure chance for arcane spells received from other classes.",
+      "icon": "3714ca959287da54cbf82164d3a8805b"
+    },
+    {
+      "__index": 3,
+      "name": "Cantrips",
+      "desc": "Magi can cast a number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
+      "icon": "a9810d27cad67b5448c99283aabedaad"
+    },
+    {
+      "__index": 4,
+      "name": "Spellstrike",
+      "desc": "At 2nd level, whenever a magus casts a {g|Encyclopedia:Spell}spell{/g} with a range of \u0022{g|Encyclopedia:TouchAttack}touch{/g}\u0022 from the magus spell list, he can deliver the spell through any weapon he is wielding as part of a {g|Encyclopedia:MeleeAttack}melee attack{/g}.\nInstead of the free melee touch {g|Encyclopedia:Attack}attack{/g} normally allowed to deliver the spell, a magus can make one free melee attack with his weapon (at his highest {g|Encyclopedia:BAB}base attack bonus{/g}) as part of casting this spell. If successful, this melee attack deals its normal {g|Encyclopedia:Damage}damage{/g} as well as the effects of the spell. If the magus makes this attack in concert with spell combat, this melee attack takes all the {g|Encyclopedia:Penalty}penalties{/g} accrued by spell combat melee attacks.\nThis attack uses the weapon\u0027s {g|Encyclopedia:Critical}critical{/g} range (20, 19\u201320, or 18\u201320 and modified by the keen weapon property or similar effects), but the spell effect only deals \u00D72 damage on a successful critical hit, while the weapon damage uses its own critical modifier.",
+      "icon": "681734e59fe8acd4e8fc2b3ae745726f"
+    },
+    {
+      "__index": 5,
+      "name": "Magus Arcana",
+      "desc": "As he gains levels, a magus learns arcane secrets tailored to his specific way of blending martial puissance and magical {g|Encyclopedia:Skills}skill{/g}. Starting at 3rd level, a magus gains one magus arcana. He gains an additional magus arcana for every three levels of magus attained after 3rd level. Unless specifically noted in a magus arcana\u0027s description, a magus cannot select a particular magus arcana more than once.",
+      "icon": "15d11c952fdc96b45849f312f3931192"
+    },
+    {
+      "__index": 6,
+      "name": "Spell Recall",
+      "desc": "At 4th level, the magus learns to use his arcane pool to recall {g|Encyclopedia:Spell}spells{/g} he has already cast. With a {g|Encyclopedia:Swift_Action}swift action{/g} he can recall any single magus spell that he has already prepared and cast that day by expending a number of points from his arcane pool equal to the spell\u0027s level (minimum 1). The spell is prepared again, just as if it had not been cast.",
+      "icon": "75adafb59a8fa904f885a9a4fa16fc95"
+    },
+    {
+      "__index": 7,
+      "name": "Magus Bonus Feat",
+      "desc": "\u003Cnull-string\u003E",
+      "icon": "53a4e13e9b8bfd34eb3f770ec000809f"
+    },
+    {
+      "__index": 8,
+      "name": "Arcane Weapon (\u002B2)",
+      "desc": "At 1st level, a magus can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant any weapon he is holding a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Multiple uses of this ability do not stack with themselves.\nAt 5th level, these bonuses can be used to add any of the following weapon properties: flaming, flaming burst, frost, icy burst, keen, shock, shocking burst, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These properties are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other properties can be added. These bonuses and properties are decided when the arcane pool point is spent and cannot be changed until the next time the magus uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the magus.\nA magus can only enhance one weapon in this way at one time. If he uses this ability again, the first use immediately ends.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "__index": 9,
+      "name": "Arcane Medium Armor",
+      "desc": "At 7th level, a magus gains proficiency with medium armor. A magus can cast magus {g|Encyclopedia:Spell}spells{/g} while wearing medium armor without incurring the normal {g|Encyclopedia:Spell_Fail_Chance}arcane spell failure chance{/g}. Like any other arcane spellcaster, a magus wearing heavy armor or using a shield incurs a chance of arcane spell failure.",
+      "icon": "3f5c77052d0163a4e9c66fc85ca6b0b4"
+    },
+    {
+      "__index": 10,
+      "name": "Improved Spell Combat",
+      "desc": "At 8th level, the magus\u0027s ability to cast {g|Encyclopedia:Spell}spells{/g} and make {g|Encyclopedia:MeleeAttack}melee attacks{/g} improves. When using the spell combat ability, the magus receives a \u002B2 circumstance {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Concentration}concentration checks{/g}.",
+      "icon": "d7f95c54ea7a4b24f91b3f01cd84e251"
+    },
+    {
+      "__index": 11,
+      "name": "Arcane Weapon (\u002B3)",
+      "desc": "At 1st level, a magus can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant any weapon he is holding a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Multiple uses of this ability do not stack with themselves.\nAt 5th level, these bonuses can be used to add any of the following weapon properties: flaming, flaming burst, frost, icy burst, keen, shock, shocking burst, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These properties are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other properties can be added. These bonuses and properties are decided when the arcane pool point is spent and cannot be changed until the next time the magus uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the magus.\nA magus can only enhance one weapon in this way at one time. If he uses this ability again, the first use immediately ends.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "__index": 12,
+      "name": "Fighter Training",
+      "desc": "Starting at 10th level, a magus counts 1/2 his total magus level as his fighter level for the purpose of qualifying for {g|Encyclopedia:Feat}feats{/g}. If he has levels in fighter, these levels stack.",
+      "icon": "ef075f9e062a6464fa67961e33c9fd6b"
+    },
+    {
+      "__index": 13,
+      "name": "Improved Spell Recall",
+      "desc": "At 11th level, the magus\u0027s ability to recall {g|Encyclopedia:Spell}spells{/g} using his arcane pool becomes more efficient. Whenever he recalls a spell with spell recall, he expends a number of points from his arcane pool equal to 1/2 the spell\u0027s level (minimum 1).",
+      "icon": "75adafb59a8fa904f885a9a4fa16fc95"
+    },
+    {
+      "__index": 14,
+      "name": "Arcane Weapon (\u002B4)",
+      "desc": "At 1st level, a magus can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant any weapon he is holding a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Multiple uses of this ability do not stack with themselves.\nAt 5th level, these bonuses can be used to add any of the following weapon properties: flaming, flaming burst, frost, icy burst, keen, shock, shocking burst, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These properties are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other properties can be added. These bonuses and properties are decided when the arcane pool point is spent and cannot be changed until the next time the magus uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the magus.\nA magus can only enhance one weapon in this way at one time. If he uses this ability again, the first use immediately ends.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "__index": 15,
+      "name": "Arcane Heavy Armor",
+      "desc": "At 13th level, a magus gains proficiency with heavy armor. A magus can cast magus {g|Encyclopedia:Spell}spells{/g} while wearing heavy armor without incurring the normal {g|Encyclopedia:Spell_Fail_Chance}arcane spell failure chance{/g}. Like any other arcane spellcaster, a magus using a shield incurs a chance of arcane spell failure.",
+      "icon": "d539b4dbcdf2b494a9b550c65ddb7179"
+    },
+    {
+      "__index": 16,
+      "name": "Greater Spell Combat",
+      "desc": "At 14th level, the magus gains the ability to seamlessly cast {g|Encyclopedia:Spell}spells{/g} and make {g|Encyclopedia:MeleeAttack}melee attacks{/g}. Whenever he uses the spell combat ability, his {g|Encyclopedia:Concentration}concentration check{/g} {g|Encyclopedia:Bonus}bonus{/g} from Improved Spell Combat increases to \u002B4.",
+      "icon": "d7f95c54ea7a4b24f91b3f01cd84e251"
+    },
+    {
+      "__index": 17,
+      "name": "Counterstrike",
+      "desc": "At 16th level, whenever an enemy within {g|Encyclopedia:Reach}reach{/g} of the magus successfully casts a {g|Encyclopedia:Spell}spell{/g} defensively, that enemy provokes an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g} from the magus after the spell is complete.",
+      "icon": "332f09eb98a30f741ad6b36c99fc128a"
+    },
+    {
+      "__index": 18,
+      "name": "Arcane Weapon (\u002B5)",
+      "desc": "At 1st level, a magus can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant any weapon he is holding a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Multiple uses of this ability do not stack with themselves.\nAt 5th level, these bonuses can be used to add any of the following weapon properties: flaming, flaming burst, frost, icy burst, keen, shock, shocking burst, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These properties are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other properties can be added. These bonuses and properties are decided when the arcane pool point is spent and cannot be changed until the next time the magus uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the magus.\nA magus can only enhance one weapon in this way at one time. If he uses this ability again, the first use immediately ends.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "__index": 19,
+      "name": "Greater Spell Access",
+      "desc": "At 19th level, the magus gains access to an expanded {g|Encyclopedia:Spell}spell{/g} list. He learns 6 spells of any levels from 1st to 6th from the wizard\u0027s spell list and places them into his spellbook as magus spells of their wizard level.",
+      "icon": "15d11c952fdc96b45849f312f3931192"
+    },
+    {
+      "__index": 20,
+      "name": "True Magus",
+      "desc": "At 20th level, the magus becomes a master of {g|Encyclopedia:Spell}spells{/g} and combat. Whenever he uses his spell combat ability, he does not need to make a {g|Encyclopedia:Concentration}concentration check{/g} to cast the spell defensively.\nWhenever the magus uses spell combat, he can choose to either increase the {g|Encyclopedia:DC}DC{/g} to {g|Encyclopedia:Spell_Resistance}resist his spells{/g} by 2, grant himself a \u002B2 circumstance {g|Encyclopedia:Bonus}bonus{/g} on any {g|Encyclopedia:Check}checks{/g} made to overcome spell resistance, or grant himself a \u002B2 circumstance bonus on all {g|Encyclopedia:Attack}attack rolls{/g}.",
+      "icon": "gen__TM"
+    },
+    {
+      "__index": 21,
+      "name": "Bloodline",
+      "desc": "Each eldrich scion has a source of magic somewhere in her heritage that grants her {g|Encyclopedia:Spell}spells{/g}, bonus {g|Encyclopedia:Feat}feats{/g}, an additional class {g|Encyclopedia:Skills}skill{/g}, and other {g|Encyclopedia:Special_Abilities}special abilities{/g}. This source can represent a blood relation or an extreme event involving a creature somewhere in the family\u0027s past. For example, an eldrich scion might have a dragon as a distant relative or her grandfather might have signed a terrible contract with a devil. Regardless of the source, this influence manifests in a number of ways as the eldrich scion gains levels. An eldrich scion must pick one bloodline upon taking her first level of eldrich scion. Once made, this choice cannot be changed.\nFilled with magical power that screams for release, sorcery is not so much a calling as a blessing \u2014 or a curse. For some eldrich scions, this arcane birthright manifests in subtle and carefully controlled ways, assisting in their manipulation of others or the pursuit of lofty goals. For others, it is wild and unpredictable, the primal and explosive lashing out of a power greater than themselves.\nAt 3rd level, and every two levels thereafter, an eldrich scion learns an additional spell, derived from her bloodline. These spells are in addition to the number of spells given at new levels. These spells cannot be exchanged for different spells at higher levels.\nAt 7th level, and every six levels thereafter, an eldrich scion receives one bonus feat, chosen from a list specific to each bloodline. The eldrich scion must meet the prerequisites for these bonus feats.",
+      "icon": "gen__B"
+    },
+    {
+      "__index": 22,
+      "name": "Eldritch Pool",
+      "desc": "At 1st level, the magus gains a reservoir of mystical arcane energy that he can draw upon to fuel his powers and enhance his weapon. This arcane pool has a number of points equal to 1/2 his magus level (minimum 1) \u002B his {g|Encyclopedia:Charisma}Charisma{/g} modifier. The pool refreshes once per day when the magus prepares his {g|Encyclopedia:Spell}spells{/g}.\nAt 1st level, a magus can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant any weapon he is holding a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Multiple uses of this ability do not stack with themselves.\nAt 5th level, these bonuses can be used to add any of the following weapon properties: flaming, flaming burst, frost, icy burst, keen, shock, shocking burst, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These properties are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other properties can be added. These bonuses and properties are decided when the arcane pool point is spent and cannot be changed until the next time the magus uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the magus.\nA magus can only enhance one weapon in this way at one time. If he uses this ability again, the first use immediately ends.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "__index": 23,
+      "name": "Cantrips",
+      "desc": "Magi can cast a number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
+      "icon": "gen__C"
+    },
+    {
+      "__index": 24,
+      "name": "Magus Arcana",
+      "desc": "As he gains levels, a magus learns arcane secrets tailored to his specific way of blending martial puissance and magical {g|Encyclopedia:Skills}skill{/g}. Starting at 3rd level, a magus gains one magus arcana. He gains an additional magus arcana for every three levels of magus attained after 3rd level. Unless specifically noted in a magus arcana\u0027s description, a magus cannot select a particular magus arcana more than once.",
+      "icon": "gen__MA"
+    },
+    {
+      "__index": 25,
+      "name": "Chosen Weapon",
+      "desc": "A sword saint is proficient in {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g} and in a single martial or exotic melee weapon of his choice. A sword saint is not proficient with armor or shields and suffers normal {g|Encyclopedia:Spell_Fail_Chance}arcane spell failure chance{/g} when casting magus {g|Encyclopedia:Spell}spells{/g} while armored.\nAt 1st level, a sword saint gains Weapon Focus with his chosen weapon as a bonus {g|Encyclopedia:Feat}feat{/g}.",
+      "icon": "gen__CW"
+    },
+    {
+      "__index": 26,
+      "name": "Canny Defense",
+      "desc": "When wearing light or no armor, wielding his chosen weapon, and not using a shield, a sword saint adds 1 point of {g|Encyclopedia:Intelligence}Intelligence{/g} {g|Encyclopedia:Bonus}bonus{/g} (if any) per magus {g|Encyclopedia:Class_Level}class level{/g} as a dodge bonus to her {g|Encyclopedia:Armor_Class}Armor Class{/g}. If a sword saint is caught {g|Encyclopedia:Flat_Footed}flat-footed{/g} or otherwise denied her {g|Encyclopedia:Dexterity}Dexterity{/g} bonus, she also loses this bonus.",
+      "icon": "d70eceda5f3a35646b828323eb30f065"
+    },
+    {
+      "__index": 27,
+      "name": "Perfect Strike",
+      "desc": "At 4th level, when a sword saint hits with his chosen weapon, he can spend 1 point from his arcane pool in order to maximize his weapon {g|Encyclopedia:Damage}damage{/g}. Don\u0027t {g|Encyclopedia:Dice}roll{/g} for damage \u2014 the weapon deals maximum damage. This affects only the weapon\u0027s base damage dice, not additional damage from sneak {g|Encyclopedia:Attack}attack{/g}, magical weapon properties, {g|Encyclopedia:Spell}spellstrike{/g}, or {g|Encyclopedia:Critical}critical hits{/g}. If the sword saint confirms a critical hit, he can instead spend 2 points from his arcane pool to increase his weapon\u0027s critical multiplier by 1.",
+      "icon": "5a438a12c8e515e46a4e29cac29dbac3"
+    },
+    {
+      "__index": 28,
+      "name": "Fighter Training",
+      "desc": "Starting at 7th level, a sword saint counts his sword saint level \u20133 as his fighter level for the purpose of qualifying for {g|Encyclopedia:Feat}feats{/g}. If he has levels in fighter, these levels stack.",
+      "icon": "ef075f9e062a6464fa67961e33c9fd6b"
+    },
+    {
+      "__index": 29,
+      "name": "Lightning Draw",
+      "desc": "At 7th level, a sword saint applies his {g|Encyclopedia:Intelligence}Intelligence{/g} modifier as well as his {g|Encyclopedia:Dexterity}Dexterity{/g} modifier on {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Dice}rolls{/g} (minimum 0).",
+      "icon": "d22d729c1abd51d479a5571c69e7597e"
+    },
+    {
+      "__index": 30,
+      "name": "Critical Perfection",
+      "desc": "At 9th level, a sword saint adds his {g|Encyclopedia:Intelligence}Intelligence{/g} {g|Encyclopedia:Bonus}bonus{/g} (minimum 0) on {g|Encyclopedia:Critical}critical hit{/g} confirmation {g|Encyclopedia:Dice}rolls{/g} with his chosen weapon.\nIn addition, the sword saint may use his magus levels in place of his base {g|Encyclopedia:Attack}attack{/g} bonuses to qualify for any {g|Encyclopedia:Feat}feat{/g} for which it is a prerequisite.",
+      "icon": "6b05ab19eaa7bb14e966da4a562b52f8"
+    },
+    {
+      "__index": 31,
+      "name": "Superior Reflexes",
+      "desc": "At 11th level, a sword saint can make a number of {g|Encyclopedia:Attack_Of_Opportunity}attacks of opportunity{/g} in a {g|Encyclopedia:Combat_Round}round{/g} equal to his {g|Encyclopedia:Intelligence}Intelligence{/g} modifier (minimum 1). This effect stacks with the Combat Reflexes {g|Encyclopedia:Feat}feat{/g}.",
+      "icon": "0e9aad1d215cab248a820b46c26c82df"
+    },
+    {
+      "__index": 32,
+      "name": "Lethal Focus",
+      "desc": "At 13th level, when a sword saint is {g|Encyclopedia:Attack}attacking{/g} a {g|Encyclopedia:Flat_Footed}flat-footed{/g} opponent, he adds his {g|Encyclopedia:Intelligence}Intelligence{/g} modifier on {g|Encyclopedia:Damage}damage{/g} with his chosen weapon (minimum 0).",
+      "icon": "ddf30d3e62eb1b94a9e3c1f1901f0102"
+    },
+    {
+      "__index": 33,
+      "name": "Perfect Reflexes",
+      "desc": "At 19th level, a sword saint\u0027s {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Dice}roll{/g} is automatically a natural 20.",
+      "icon": "b571fe5defdcf67489e23c8f115f1f2c"
+    },
+    {
+      "__index": 34,
+      "name": "Weapon Mastery",
+      "desc": "At 20th level, any {g|Encyclopedia:Attack}attacks{/g} a sword saint makes with his chosen weapon automatically confirm all {g|Encyclopedia:Critical}critical{/g} threats and have their {g|Encyclopedia:Damage}damage{/g} multiplier increased by 1 (\u00D72 becomes \u00D73, for example).",
+      "icon": "5b972d20bb6f39140b70b6bf6535f98c"
+    },
+    {
+      "__index": 35,
+      "name": "Ranged Spell Combat",
+      "desc": "Instead of a melee weapon, an eldritch archer must use a ranged weapon for {g|Encyclopedia:Spell}spell{/g} combat. She doesn\u0027t need a free hand for ranged spell combat. The eldritch archer cannot accept an {g|Encyclopedia:Attack}attack{/g} {g|Encyclopedia:Penalty}penalty{/g} to gain a {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Concentration}concentration checks{/g} to cast a spell defensively.",
+      "icon": "2dfa73e088306ff4b8ce6171bc13894c"
+    },
+    {
+      "__index": 36,
+      "name": "Ranged Spellstrike",
+      "desc": "At 2nd level, whenever an eldritch archer casts a {g|Encyclopedia:Spell}spell{/g} that calls for a {g|Encyclopedia:RangedAttack}ranged attack{/g}, she can deliver the spell through a ranged weapon she wields as part of a ranged {g|Encyclopedia:Attack}attack{/g}. Instead of the free ranged attack normally allowed to deliver the spell, an eldritch archer can make one free ranged attack with a ranged weapon (at her highest {g|Encyclopedia:BAB}base attack bonus{/g}) as part of casting this spell. The attack does not increase the spell\u0027s range.",
+      "icon": "85b09ee361c98e147ab4d3a3dd9468f1"
+    },
+    {
+      "__index": 37,
+      "name": "Spells",
+      "desc": "A hexcrafter magus adds all {g|Encyclopedia:Spell}spells{/g} of 6th level or lower that have the curse descriptor to his spellbook.",
+      "icon": "85d72f87308c0354fb0208289f381ee5"
+    },
+    {
+      "__index": 38,
+      "name": "Hex Magus",
+      "desc": "At 4th level, the hexcrafter magus gains access to a small number of witch\u0027s hexes. The hexcrafter magus picks one hex from the witch\u0027s hex class feature. He gains the benefit of or uses that hex as if he were a witch of a level equal to his magus level.\nThis feature replaces {g|Encyclopedia:Spell}spell{/g} recall.",
+      "icon": "2e66f42b6bb05f144ad8745b746c644f"
+    },
+    {
+      "__index": 39,
+      "name": "Hex Arcana",
+      "desc": "A hexcrafter may select any witch hex in place of a magus arcana. At 12th level, the hexcrafter may select a hex or major hex in place of a magus arcana. At 18th level, a hexcrafter can select a hex, major hex, or grand hex in place of a magus arcana.",
+      "icon": "08de7d6c711522448b11138d6785d59f"
+    },
+    {
+      "__index": 40,
+      "name": "Major Hexes",
+      "desc": "Starting at 10th level, and every two levels thereafter, a witch can choose a major hex whenever she could select a new hex.",
+      "icon": "7786ee06467b28646924873af49d9ab4"
+    },
+    {
+      "__index": 41,
+      "name": "Grand Hex",
+      "desc": "Starting at 18th level, and every two levels thereafter, a witch can choose a grand hex whenever she could select a new hex.",
+      "icon": "2e66f42b6bb05f144ad8745b746c644f"
+    },
+    {
+      "__index": 42,
+      "name": "Arcane Pool",
+      "desc": "An armored battlemage cannot spend points from his arcane pool to enhance weapons. Instead, he can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant armor he is wearing a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every 4 magus levels he has beyond 1st, the armor gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses stack with existing armor enhancement bonuses to a maximum of \u002B5.\nMultiple uses of this ability do not stack.\nAt 5th level, these bonuses can be used to add any of the following armor {g|Encyclopedia:Special_Abilities}special abilities{/g}: balanced, bitter, fortification (heavy, light, or medium), ghost touch, invulnerability, {g|Encyclopedia:Spell_Resistance}spell resistance{/g} (13, 15, 17, or 19), or {g|Encyclopedia:Spell}spell{/g} storing.\nAdding these special abilities consumes an amount of bonus equal to the ability\u0027s base price modifier. In addition, the armored battlemage can grant his armor the {g|Encyclopedia:Energy_Resistance}energy resistance{/g} special ability at the cost of a \u002B3 bonus or the improved energy resistance special ability at the cost of a \u002B5 bonus. These special abilities are added to any the armor already has, but duplicates do not stack. If the armor is not magical, at least a \u002B1 enhancement bonus must be added before any other special abilities can be added. These bonuses and special abilities are decided when the arcane pool point is spent and cannot be changed until the next time the armored battlemage uses this ability. These bonuses do not function if the armor is worn by anyone other than the magus.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "__index": 43,
+      "name": "Medium Armor",
+      "desc": "An armored battlemage gains this ability at 1st level instead of 7th. When wearing medium armor, the armored battlemage gains a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Concentration}concentration checks{/g}. This stacks with the bonus from the Combat Casting {g|Encyclopedia:Feat}feat{/g}.",
+      "icon": "3f5c77052d0163a4e9c66fc85ca6b0b4"
+    },
+    {
+      "__index": 44,
+      "name": "Armor Training",
+      "desc": "At 3rd level, an armored battlemage gains armor training, as per the fighter ability.\nAt 8th level, he gains armor training 2.\nAt 13th level, he gains armor training 3.\nAt 18th level, he gains armor training 4.",
+      "icon": "3f5c77052d0163a4e9c66fc85ca6b0b4"
+    },
+    {
+      "__index": 45,
+      "name": "Arcane Armor \u002B2",
+      "desc": "An armored battlemage cannot spend points from his arcane pool to enhance weapons. Instead, he can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant armor he is wearing a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every 4 magus levels he has beyond 1st, the armor gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses stack with existing armor enhancement bonuses to a maximum of \u002B5.\nMultiple uses of this ability do not stack.\nAt 5th level, these bonuses can be used to add any of the following armor {g|Encyclopedia:Special_Abilities}special abilities{/g}: balanced, bitter, fortification (heavy, light, or medium), ghost touch, invulnerability, {g|Encyclopedia:Spell_Resistance}spell resistance{/g} (13, 15, 17, or 19), or {g|Encyclopedia:Spell}spell{/g} storing.\nAdding these special abilities consumes an amount of bonus equal to the ability\u0027s base price modifier. In addition, the armored battlemage can grant his armor the {g|Encyclopedia:Energy_Resistance}energy resistance{/g} special ability at the cost of a \u002B3 bonus or the improved energy resistance special ability at the cost of a \u002B5 bonus. These special abilities are added to any the armor already has, but duplicates do not stack. If the armor is not magical, at least a \u002B1 enhancement bonus must be added before any other special abilities can be added. These bonuses and special abilities are decided when the arcane pool point is spent and cannot be changed until the next time the armored battlemage uses this ability. These bonuses do not function if the armor is worn by anyone other than the magus.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "__index": 46,
+      "name": "Heavy Armor",
+      "desc": "An armored battlemage gains this ability at 7th level instead of 13th.",
+      "icon": "d539b4dbcdf2b494a9b550c65ddb7179"
+    },
+    {
+      "__index": 47,
+      "name": "Arcane Armor \u002B3",
+      "desc": "An armored battlemage cannot spend points from his arcane pool to enhance weapons. Instead, he can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant armor he is wearing a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every 4 magus levels he has beyond 1st, the armor gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses stack with existing armor enhancement bonuses to a maximum of \u002B5.\nMultiple uses of this ability do not stack.\nAt 5th level, these bonuses can be used to add any of the following armor {g|Encyclopedia:Special_Abilities}special abilities{/g}: balanced, bitter, fortification (heavy, light, or medium), ghost touch, invulnerability, {g|Encyclopedia:Spell_Resistance}spell resistance{/g} (13, 15, 17, or 19), or {g|Encyclopedia:Spell}spell{/g} storing.\nAdding these special abilities consumes an amount of bonus equal to the ability\u0027s base price modifier. In addition, the armored battlemage can grant his armor the {g|Encyclopedia:Energy_Resistance}energy resistance{/g} special ability at the cost of a \u002B3 bonus or the improved energy resistance special ability at the cost of a \u002B5 bonus. These special abilities are added to any the armor already has, but duplicates do not stack. If the armor is not magical, at least a \u002B1 enhancement bonus must be added before any other special abilities can be added. These bonuses and special abilities are decided when the arcane pool point is spent and cannot be changed until the next time the armored battlemage uses this ability. These bonuses do not function if the armor is worn by anyone other than the magus.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "__index": 48,
+      "name": "Arcane Armor \u002B4",
+      "desc": "An armored battlemage cannot spend points from his arcane pool to enhance weapons. Instead, he can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant armor he is wearing a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every 4 magus levels he has beyond 1st, the armor gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses stack with existing armor enhancement bonuses to a maximum of \u002B5.\nMultiple uses of this ability do not stack.\nAt 5th level, these bonuses can be used to add any of the following armor {g|Encyclopedia:Special_Abilities}special abilities{/g}: balanced, bitter, fortification (heavy, light, or medium), ghost touch, invulnerability, {g|Encyclopedia:Spell_Resistance}spell resistance{/g} (13, 15, 17, or 19), or {g|Encyclopedia:Spell}spell{/g} storing.\nAdding these special abilities consumes an amount of bonus equal to the ability\u0027s base price modifier. In addition, the armored battlemage can grant his armor the {g|Encyclopedia:Energy_Resistance}energy resistance{/g} special ability at the cost of a \u002B3 bonus or the improved energy resistance special ability at the cost of a \u002B5 bonus. These special abilities are added to any the armor already has, but duplicates do not stack. If the armor is not magical, at least a \u002B1 enhancement bonus must be added before any other special abilities can be added. These bonuses and special abilities are decided when the arcane pool point is spent and cannot be changed until the next time the armored battlemage uses this ability. These bonuses do not function if the armor is worn by anyone other than the magus.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "__index": 49,
+      "name": "Arcane Armor \u002B5",
+      "desc": "An armored battlemage cannot spend points from his arcane pool to enhance weapons. Instead, he can expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to grant armor he is wearing a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute. For every 4 magus levels he has beyond 1st, the armor gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses stack with existing armor enhancement bonuses to a maximum of \u002B5.\nMultiple uses of this ability do not stack.\nAt 5th level, these bonuses can be used to add any of the following armor {g|Encyclopedia:Special_Abilities}special abilities{/g}: balanced, bitter, fortification (heavy, light, or medium), ghost touch, invulnerability, {g|Encyclopedia:Spell_Resistance}spell resistance{/g} (13, 15, 17, or 19), or {g|Encyclopedia:Spell}spell{/g} storing.\nAdding these special abilities consumes an amount of bonus equal to the ability\u0027s base price modifier. In addition, the armored battlemage can grant his armor the {g|Encyclopedia:Energy_Resistance}energy resistance{/g} special ability at the cost of a \u002B3 bonus or the improved energy resistance special ability at the cost of a \u002B5 bonus. These special abilities are added to any the armor already has, but duplicates do not stack. If the armor is not magical, at least a \u002B1 enhancement bonus must be added before any other special abilities can be added. These bonuses and special abilities are decided when the arcane pool point is spent and cannot be changed until the next time the armored battlemage uses this ability. These bonuses do not function if the armor is worn by anyone other than the magus.",
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+    },
+    {
+      "__index": 50,
+      "name": "Spell Dance",
+      "desc": "At 1st level, a {g|Encyclopedia:Spell}spell{/g} dancer gains the ability to expend 1 point from his arcane pool as a {g|Encyclopedia:Swift_Action}swift action{/g} to gain a \u002B10 enhancement {g|Encyclopedia:Bonus}bonus{/g} to his movement rate and a \u002B2 dodge bonus to {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:Attack_Of_Opportunity}attacks of opportunity{/g} for 1 minute. For every four levels beyond 1st, the spell dancer gains another \u002B10 enhancement bonus to movement and \u002B2 to AC against {g|Encyclopedia:Attack}attacks{/g} of opportunity. At 5th level, once per spell dance as a swift {g|Encyclopedia:CA_Types}action{/g}, the spell dancer may use blur or haste on himself as a swift action. These abilities last for 1 {g|Encyclopedia:Combat_Round}round{/g}. At 9th level, the spell dancer may instead take a swift action to use dimension door as a {g|Encyclopedia:Special_Abilities}spell-like ability{/g} once during a spelldance. At 13th level, the spell dancer may instead choose to take a swift action to gain freedom of movement for {g|Encyclopedia:Dice}1d4{/g} rounds.",
+      "icon": "3a38225639ab64547b358993a0735777"
+    },
+    {
+      "__index": 51,
+      "name": "Arcane Movement",
+      "desc": "At 5th level, whenever a {g|Encyclopedia:Spell}spell{/g} dancer casts a magus spell, he gains a competence {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Mobility}Mobility{/g} and {g|Encyclopedia:Stealth}Stealth{/g} {g|Encyclopedia:Skills}skill checks{/g} equal to the spell\u0027s level until the beginning of his next turn.",
+      "icon": "cc07ad3acc828fd4e826cb1ddc4f8e5f"
+    },
+    {
+      "__index": 52,
+      "name": "Dance of Avoidance",
+      "desc": "At 7th level, while wearing light armor or no armor, a {g|Encyclopedia:Spell}spell{/g} dancer gains a \u002B2 insight {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g}.",
+      "icon": "5cf528087437fa643862adbef7814622"
+    },
+    {
+      "__index": 53,
+      "name": "Greater Dance of Avoidance",
+      "desc": "At 13th level, while wearing light armor or no armor, a {g|Encyclopedia:Spell}spell{/g} dancer\u0027s insight {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} increases to \u002B4.",
+      "icon": "0dc837a57725da14b8ef222e251fd32d"
+    },
+    {
+      "__index": 54,
+      "name": "Animal Companion",
+      "desc": "Unlike normal animals of its kind, an animal companion\u0027s {g|Encyclopedia:Hit_Dice}Hit Dice{/g}, abilities, {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Feat}feats{/g} advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in {g|Encyclopedia:Size}size{/g} when their druid reaches 4th or 7th level, depending on the companion.",
+      "icon": "736cb7b0def6ff147b921c75c54a81a0"
+    },
+    {
+      "__index": 55,
+      "name": "Arcane Mount",
+      "desc": "Arcane rider\u0027s abilities that spend arcane pool also apply to his mount companion.",
+      "icon": "5e91abf171f700d4598e0e27e7f20923"
+    },
+    {
+      "__index": 56,
+      "name": "Bonus Feats",
+      "desc": "An arcane rider may select Mounted Combat {g|Encyclopedia:Feat}feats{/g} as bonus feats.",
+      "icon": "13931d12154aea243b44622055669ef4"
+    },
+    {
+      "__index": 57,
+      "name": "Bonus Magus Feat",
+      "desc": "At 5th level, and every six levels thereafter, a magus gains a bonus {g|Encyclopedia:Feat}feat{/g} in addition to those gained from normal advancement. These bonus feats must be selected from those listed as combat or magic feats. He must meet the prerequisites for these feats as normal.",
+      "icon": "53a4e13e9b8bfd34eb3f770ec000809f"
+    },
+    {
+      "__index": 58,
+      "name": "Dimensional Ride",
+      "desc": "An arcane rider gains an opportunity to spend 1 point from his arcane pool and {g|Encyclopedia:Move_Action}move action{/g} to transfer himself and his mount companion from his current location to any other spot within a 30-foot range.",
+      "icon": "38c02a6961097ef42a3bf05ff3d6f699"
+    },
+    {
+      "__index": 59,
+      "name": "Greater Dimensional Ride",
+      "desc": "An arcane rider can use dimensional ride as a {g|Encyclopedia:Swift_Action}swift action{/g} now. After teleporting, arcane rider and his mount companion gain the effect of haste {g|Encyclopedia:Spell}spell{/g} for a number of {g|Encyclopedia:Combat_Round}rounds{/g} equal to arcane rider\u0027s {g|Encyclopedia:Intelligence}Intelligence{/g} {g|Encyclopedia:Bonus}bonus{/g}.",
+      "icon": "38c02a6961097ef42a3bf05ff3d6f699"
+    }
+  ],
   "name": "Magus",
   "layout": [
     [
@@ -223,31 +407,31 @@
         "level": 1,
         "feature": 0,
         "rank": -1,
-        "__debug": "ArcanePoolFeature"
+        "archType": 0
       },
       {
         "level": 5,
         "feature": 8,
         "rank": -1,
-        "__debug": "ArcaneWeaponPlus2"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 11,
         "rank": -1,
-        "__debug": "ArcaneWeaponPlus3"
+        "archType": 0
       },
       {
         "level": 13,
         "feature": 14,
         "rank": -1,
-        "__debug": "ArcaneWeaponPlus4"
+        "archType": 0
       },
       {
         "level": 17,
         "feature": 18,
         "rank": -1,
-        "__debug": "ArcaneWeaponPlus5"
+        "archType": 0
       }
     ],
     [
@@ -255,25 +439,25 @@
         "level": 1,
         "feature": 1,
         "rank": -1,
-        "__debug": "SpellCombatFeature"
+        "archType": 0
       },
       {
         "level": 8,
         "feature": 10,
         "rank": -1,
-        "__debug": "ImprovedSpellCombat"
+        "archType": 0
       },
       {
         "level": 14,
         "feature": 16,
         "rank": -1,
-        "__debug": "GreaterSpellCombat"
+        "archType": 0
       },
       {
         "level": 19,
         "feature": 19,
         "rank": -1,
-        "__debug": "GreaterSpellAccess"
+        "archType": 0
       }
     ],
     [
@@ -281,7 +465,7 @@
         "level": 1,
         "feature": 2,
         "rank": -1,
-        "__debug": "MagusProficiencies"
+        "archType": 0
       }
     ],
     [
@@ -289,7 +473,7 @@
         "level": 1,
         "feature": 3,
         "rank": -1,
-        "__debug": "MagusCantripsFeature"
+        "archType": 0
       }
     ],
     [
@@ -297,13 +481,13 @@
         "level": 2,
         "feature": 4,
         "rank": -1,
-        "__debug": "SpellStrikeFeature"
+        "archType": 0
       },
       {
         "level": 16,
         "feature": 17,
         "rank": -1,
-        "__debug": "Counterstrike"
+        "archType": 0
       }
     ],
     [
@@ -311,43 +495,43 @@
         "level": 3,
         "feature": 5,
         "rank": -1,
-        "__debug": "MagusArcanaSelection"
+        "archType": 0
       },
       {
         "level": 6,
         "feature": 5,
         "rank": -1,
-        "__debug": "MagusArcanaSelection"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 5,
         "rank": -1,
-        "__debug": "MagusArcanaSelection"
+        "archType": 0
       },
       {
         "level": 12,
         "feature": 5,
         "rank": -1,
-        "__debug": "MagusArcanaSelection"
+        "archType": 0
       },
       {
         "level": 15,
         "feature": 5,
         "rank": -1,
-        "__debug": "MagusArcanaSelection"
+        "archType": 0
       },
       {
         "level": 18,
         "feature": 5,
         "rank": -1,
-        "__debug": "MagusArcanaSelection"
+        "archType": 0
       },
       {
         "level": 20,
         "feature": 20,
         "rank": -1,
-        "__debug": "TrueMagusFeature"
+        "archType": 0
       }
     ],
     [
@@ -355,13 +539,13 @@
         "level": 4,
         "feature": 6,
         "rank": -1,
-        "__debug": "MagusSpellRecallFeature"
+        "archType": 0
       },
       {
         "level": 11,
         "feature": 13,
         "rank": -1,
-        "__debug": "MagusImprovedSpellRecallFeature"
+        "archType": 0
       }
     ],
     [
@@ -369,19 +553,19 @@
         "level": 5,
         "feature": 7,
         "rank": -1,
-        "__debug": "MagusFeatSelection"
+        "archType": 0
       },
       {
         "level": 11,
         "feature": 7,
         "rank": -1,
-        "__debug": "MagusFeatSelection"
+        "archType": 0
       },
       {
         "level": 17,
         "feature": 7,
         "rank": -1,
-        "__debug": "MagusFeatSelection"
+        "archType": 0
       }
     ],
     [
@@ -389,20 +573,1781 @@
         "level": 7,
         "feature": 9,
         "rank": -1,
-        "__debug": "ArcaneMediumArmor"
+        "archType": 0
       },
       {
         "level": 10,
         "feature": 12,
         "rank": -1,
-        "__debug": "FighterTraining"
+        "archType": 0
       },
       {
         "level": 13,
         "feature": 15,
         "rank": -1,
-        "__debug": "ArcaneHeavyArmor"
+        "archType": 0
       }
     ]
+  ],
+  "archetypes": [
+    {
+      "name": "Eldritch Scion",
+      "id": "d078b2ef073f2814c9e338a789d97b73",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 5,
+            "feature": 8,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 11,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 13,
+            "feature": 14,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 17,
+            "feature": 18,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 10,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 14,
+            "feature": 16,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 18,
+            "feature": 16,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 19,
+            "feature": 19,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 8,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 11,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 13,
+            "feature": 14,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 14,
+            "feature": 10,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 17,
+            "feature": 18,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 17,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 15,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 20,
+            "feature": 20,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 4,
+            "feature": 6,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 13,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 7,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 15,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 21,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 22,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 23,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [
+          {
+            "level": 3,
+            "feature": 24,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 6,
+            "feature": 24,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 24,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 12,
+            "feature": 24,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 15,
+            "feature": 24,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 18,
+            "feature": 24,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Sword Saint",
+      "id": "7d6678f2160018049814838af2ab4236",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 14,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 18,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 16,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 19,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 4,
+            "feature": 27,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 7,
+            "feature": 28,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 30,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 11,
+            "feature": 31,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 13,
+            "feature": 32,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 19,
+            "feature": 33,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 34,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 7,
+            "feature": 29,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 17,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 20,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 4,
+            "feature": 6,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 13,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 7,
+            "feature": 9,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 10,
+            "feature": 12,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 13,
+            "feature": 15,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 25,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 26,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Eldritch Archer",
+      "id": "44388c01eb4a29d4d90a25cc0574320d",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 14,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 18,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 8,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 16,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 19,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 2,
+            "feature": 36,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 16,
+            "feature": 17,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 20,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 4,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 13,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 7,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 15,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 35,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        []
+      ]
+    },
+    {
+      "name": "Hexcrafter",
+      "id": "79ccf7a306a5d5547bebd97299f6fc89",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 14,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 18,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 16,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 19,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 38,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 12,
+            "feature": 40,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 18,
+            "feature": 41,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 17,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 15,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 20,
+            "feature": 20,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 4,
+            "feature": 6,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 13,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 7,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 10,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 15,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 37,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [
+          {
+            "level": 6,
+            "feature": 39,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 39,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 12,
+            "feature": 39,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 15,
+            "feature": 39,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 18,
+            "feature": 39,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Armored Battlemage",
+      "id": "67ec8dcae6fb3d3439e5ae874ddc7b9b",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 5,
+            "feature": 8,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 11,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 13,
+            "feature": 14,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 17,
+            "feature": 18,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 8,
+            "feature": 10,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 14,
+            "feature": 16,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 19,
+            "feature": 19,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 45,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 7,
+            "feature": 46,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 47,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 13,
+            "feature": 48,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 17,
+            "feature": 49,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 17,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 20,
+            "feature": 20,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 4,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 13,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 7,
+            "feature": 9,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 10,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 15,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 42,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 43,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 44,
+            "rank": 1,
+            "archType": 1
+          },
+          {
+            "level": 8,
+            "feature": 44,
+            "rank": 2,
+            "archType": 1
+          },
+          {
+            "level": 13,
+            "feature": 44,
+            "rank": 3,
+            "archType": 1
+          },
+          {
+            "level": 18,
+            "feature": 44,
+            "rank": 4,
+            "archType": 1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Spell Dancer",
+      "id": "1125145639129cf45b6b9b674cbd62b1",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 5,
+            "feature": 8,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 11,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 13,
+            "feature": 14,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 17,
+            "feature": 18,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 16,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 19,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 51,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 7,
+            "feature": 52,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 13,
+            "feature": 53,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 17,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 20,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 4,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 13,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 7,
+            "feature": 9,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 10,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 15,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 50,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Arcane Rider",
+      "id": "2dff80a045794cb9b5452fe7b66b79d7",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 14,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 18,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 16,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 19,
+            "feature": 19,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 58,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 14,
+            "feature": 59,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 2,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 16,
+            "feature": 17,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 3,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 6,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 20,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 4,
+            "feature": 6,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 13,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 17,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 7,
+            "feature": 9,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 10,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 13,
+            "feature": 15,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 54,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 55,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 56,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 5,
+            "feature": 57,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 11,
+            "feature": 57,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 17,
+            "feature": 57,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        []
+      ]
+    }
   ]
 }

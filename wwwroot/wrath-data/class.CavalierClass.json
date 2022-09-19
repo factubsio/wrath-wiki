@@ -1,129 +1,235 @@
 {
+  "__ui-groups": [],
   "features": [
     {
+      "__index": 0,
       "name": "Challenge",
       "desc": "Once per day, a cavalier can challenge a foe to combat. As a {g|Encyclopedia:Swift_Action}swift action{/g}, the cavalier chooses one target within sight to challenge. The cavalier\u0027s {g|Encyclopedia:MeleeAttack}melee attacks{/g} deal extra {g|Encyclopedia:Damage}damage{/g} whenever the {g|Encyclopedia:Attack}attacks{/g} are made against the target of his challenge. This extra damage is equal to the cavalier\u0027s level. The cavalier can use this ability once per day at 1st level, plus one additional time per day for every three levels beyond 1st, to a maximum of seven times per day at 19th level.\nChallenging a foe requires much of the cavalier\u0027s {g|Encyclopedia:Concentration}concentration{/g}. The cavalier takes a \u20132 {g|Encyclopedia:Penalty}penalty{/g} to his {g|Encyclopedia:Armor_Class}Armor Class{/g}, except against attacks made by the target of his challenge.\nThe challenge remains in effect until the target is dead or {g|Encyclopedia:Injury_Death}unconscious{/g} or until the combat ends. Each cavalier\u0027s challenge also includes another effect which is listed in the section describing the cavalier\u0027s order.",
       "icon": "gen__C"
     },
     {
+      "__index": 1,
       "name": "Order",
       "desc": "At 1st level, a cavalier must pledge himself to a specific order. The order grants the cavalier a number of {g|Encyclopedia:Bonus}bonuses{/g}, class {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Special_Abilities}special abilities{/g}.",
       "icon": "7c4c7f1327f79e34882643a4f5af4b64"
     },
     {
+      "__index": 2,
       "name": "Tactician",
       "desc": "At 1st level, a cavalier receives a teamwork {g|Encyclopedia:Feat}feat{/g} as a bonus feat. He must meet the prerequisites for this feat. As a {g|Encyclopedia:Standard_Actions}standard action{/g}, the cavalier can grant his teamwork feat to all allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for 3 {g|Encyclopedia:Combat_Round}rounds{/g} plus 1 round for every two levels the cavalier possesses. Allies do not need to meet the prerequisites of these bonus feats. The cavalier can use this ability once per day at 1st level, plus one additional time per day at 5th level and for every 5 levels thereafter.",
       "icon": "8dd271d8a75a63e4dbdee2f5c396dfbe"
     },
     {
+      "__index": 3,
       "name": "Tactician \u2014 Bonus Feat",
       "desc": "At 1st level, a cavalier receives a teamwork {g|Encyclopedia:Feat}feat{/g} as a bonus feat. He must meet the prerequisites for this feat. As a {g|Encyclopedia:Standard_Actions}standard action{/g}, the cavalier can grant his teamwork feat to all allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for 3 {g|Encyclopedia:Combat_Round}rounds{/g} plus 1 round for every two levels the cavalier possesses. Allies do not need to meet the prerequisites of these bonus feats. The cavalier can use this ability once per day at 1st level, plus one additional time per day at 5th level and for every 5 levels thereafter.",
       "icon": "gen__TBF"
     },
     {
+      "__index": 4,
       "name": "Animal Companion",
       "desc": "Unlike normal animals of its kind, an animal companion\u0027s {g|Encyclopedia:Hit_Dice}Hit Dice{/g}, abilities, {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Feat}feats{/g} advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in {g|Encyclopedia:Size}size{/g} when their druid reaches 4th or 7th level, depending on the companion.",
       "icon": "736cb7b0def6ff147b921c75c54a81a0"
     },
     {
+      "__index": 5,
       "name": "Weapon and Armor Proficiency",
       "desc": "Cavaliers are proficient with all simple and {g|Encyclopedia:Weapon_Proficiency}martial weapons{/g}, with all types of armor (heavy, light, and medium) and with shields (except tower shields).",
       "icon": "gen__WAP"
     },
     {
+      "__index": 6,
       "name": "Cavalier\u0027s Charge",
       "desc": "At 3rd level, a cavalier learns to make more accurate charge {g|Encyclopedia:Attack}attacks{/g} while mounted. The cavalier receives a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:MeleeAttack}melee attack{/g} {g|Encyclopedia:Dice}rolls{/g} on a charge while mounted (instead of the normal \u002B2). In addition, the cavalier does not suffer any {g|Encyclopedia:Penalty}penalty{/g} to his {g|Encyclopedia:Armor_Class}AC{/g} after making a charge attack while mounted.",
       "icon": "18e672213b47d054f8868fd6b4f12602"
     },
     {
+      "__index": 7,
       "name": "Banner",
       "desc": "At 5th level, a cavalier\u0027s banner becomes a symbol of inspiration to his allies and companions. As long as the cavalier\u0027s banner is clearly visible, all allies within 60 feet receive a \u002B2 morale {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against fear and a \u002B1 morale bonus on {g|Encyclopedia:Attack}attack rolls{/g} made as part of a charge. At 10th level, and every five levels thereafter, these bonuses increase by \u002B1.",
       "icon": "376c347ae863cfe419abc0b9efc2c797"
     },
     {
+      "__index": 8,
       "name": "Bonus Feat",
       "desc": "At 6th level, and at every six levels thereafter, a cavalier gains a bonus {g|Encyclopedia:Feat}feat{/g} in addition to those gained from normal advancement. These bonus feats must be selected from those listed as combat feats. The cavalier must meet the prerequisites of these bonus feats.",
       "icon": "gen__BF"
     },
     {
+      "__index": 9,
       "name": "Greater Tactician",
       "desc": "At 9th level, the cavalier receives an additional teamwork {g|Encyclopedia:Feat}feat{/g} as a bonus feat. He must meet the prerequisites for this feat. Using the tactician ability is a {g|Encyclopedia:Swift_Action}swift action{/g}.",
       "icon": "8dd271d8a75a63e4dbdee2f5c396dfbe"
     },
     {
+      "__index": 10,
       "name": "Mighty Charge",
       "desc": "At 11th level, a cavalier learns to make devastating charge {g|Encyclopedia:Attack}attacks{/g} while mounted. Double the threat range of any weapons wielded during a charge while mounted. This increase does not stack with other effects that increase the threat range of the weapon. In addition, the cavalier can make a free bull rush and trip {g|Encyclopedia:Combat_Maneuvers}combat maneuver{/g} if his charge attack is successful. These free combat maneuvers do not provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}.",
       "icon": "e73378acc1bc33944a7e628288f2a483"
     },
     {
+      "__index": 11,
       "name": "Demanding Challenge",
       "desc": "At 12th level, whenever a cavalier declares a challenge, his target must pay attention to the threat he poses. As long as the target is within the {g|Encyclopedia:Threatened_Area}threatened area{/g} of the cavalier, it takes a \u20132 {g|Encyclopedia:Penalty}penalty{/g} to its {g|Encyclopedia:Armor_Class}AC{/g} from {g|Encyclopedia:Attack}attacks{/g} made by anyone other than the cavalier.",
       "icon": "gen__DC"
     },
     {
+      "__index": 12,
       "name": "Greater Banner",
       "desc": "At 14th level, the cavalier\u0027s banner becomes a rallying call to his allies. All allies within 60 feet receive a \u002B2 morale {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against charm and compulsion {g|Encyclopedia:Spell}spells{/g} and effects.",
       "icon": "e1b9599ca053b644187e77516f20803d"
     },
     {
+      "__index": 13,
       "name": "Supreme Charge",
       "desc": "At 20th level, whenever the cavalier makes a charge {g|Encyclopedia:Attack}attack{/g} while mounted, he deals double the normal amount of {g|Encyclopedia:Damage}damage{/g} (or triple if using a lance). In addition, if the cavalier confirms a {g|Encyclopedia:Critical}critical hit{/g} on a charge attack while mounted, the target is stunned for {g|Encyclopedia:Dice}1d4{/g} {g|Encyclopedia:Combat_Round}rounds{/g}. A {g|Encyclopedia:Saving_Throw}Will save{/g} reduces this to staggered for 1d4 rounds. The {g|Encyclopedia:DC}DC{/g} is equal to 10 \u002B the cavalier\u0027s {g|Encyclopedia:BAB}base attack bonus{/g}.",
       "icon": "gen__SC"
+    },
+    {
+      "__index": 14,
+      "name": "Animal Companion",
+      "desc": "Unlike normal animals of its kind, an animal companion\u0027s {g|Encyclopedia:Hit_Dice}Hit Dice{/g}, abilities, {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Feat}feats{/g} advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in {g|Encyclopedia:Size}size{/g} when their druid reaches 4th or 7th level, depending on the companion.",
+      "icon": "736cb7b0def6ff147b921c75c54a81a0"
+    },
+    {
+      "__index": 15,
+      "name": "Armor Proficiency",
+      "desc": "A beast rider is proficient with light and medium armor, and with shields (with the exception of tower shields).",
+      "icon": "gen__AP"
+    },
+    {
+      "__index": 16,
+      "name": "Bigger They Are",
+      "desc": "A disciple of the pike gains a \u002B1 dodge {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} against creatures larger than he is. This bonus increases by 1 if the creature is two {g|Encyclopedia:Size}size{/g} categories larger. At 6th level, the bonus increases to \u002B3 against a creature three size categories larger, and at 12th level, the bonus increases to \u002B4 against creatures four size categories larger.",
+      "icon": "13808e0b4fddde44c9454b6ff90a83d8"
+    },
+    {
+      "__index": 17,
+      "name": "Weapon Training (Spears)",
+      "desc": "Whenever a fighter {g|Encyclopedia:Attack}attacks{/g} with a weapon from this group, he gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on attack and {g|Encyclopedia:Damage}damage rolls{/g}.\nThis group includes javelin, longspear, shortspear, spear, and trident.",
+      "icon": "gen__WTS"
+    },
+    {
+      "__index": 18,
+      "name": "Pike Charge",
+      "desc": "At 3rd level, a disciple of the pike learns to make more accurate charge {g|Encyclopedia:Attack}attacks{/g} with weapons from the polearms or spears fighter weapon group. He receives a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:MeleeAttack}melee attacks{/g} when charging with a polearm or spear (instead of the normal \u002B2). In addition, the disciple of the pike takes no {g|Encyclopedia:Penalty}penalty{/g} to his {g|Encyclopedia:Armor_Class}AC{/g} after making a charge attack with a polearm or spear.",
+      "icon": "gen__PC"
+    },
+    {
+      "__index": 19,
+      "name": "Agile Charger",
+      "desc": "At 11th level, a disciple of the pike takes no {g|Encyclopedia:Penalty}penalties{/g} caused by difficult terrain while charging. His movement is still hampered by obstacles, poor visibility, and other conditions. This ability doesn\u0027t allow him to move through impassible terrain.",
+      "icon": "gen__AC"
+    },
+    {
+      "__index": 20,
+      "name": "Deadly Charge",
+      "desc": "At 20th level, whenever a disciple of the pike makes a charge {g|Encyclopedia:Attack}attack{/g} with a polearm or spear, he deals double the normal amount of {g|Encyclopedia:Damage}damage{/g}. In addition, if he confirms a {g|Encyclopedia:Critical}critical hit{/g} on a deadly charge, the target is stunned for {g|Encyclopedia:Dice}1d4{/g} {g|Encyclopedia:Combat_Round}rounds{/g}. If the target succeeds at a {g|Encyclopedia:Saving_Throw}Will save{/g} ({g|Encyclopedia:DC}DC{/g} = 10 \u002B the cavalier\u0027s {g|Encyclopedia:BAB}base attack bonus{/g}), it is instead staggered for 1d4 rounds.",
+      "icon": "gen__DC"
+    },
+    {
+      "__index": 21,
+      "name": "Monster Hunter",
+      "desc": "At 4th level, a disciple of the pike has an uncanny ability to identify monsters. He gains a {g|Encyclopedia:Bonus}bonus{/g} equal to half of his cavalier level on {g|Encyclopedia:Knowledge_Arcana}Knowledge (arcana){/g} and {g|Encyclopedia:Lore_Nature}Lore (nature){/g} {g|Encyclopedia:Check}checks{/g}.",
+      "icon": "gen__MH"
+    },
+    {
+      "__index": 22,
+      "name": "Shield Focus",
+      "desc": "Increase the {g|Encyclopedia:Armor_Class}AC{/g} {g|Encyclopedia:Bonus}bonus{/g} granted by any shield you are using by 1.",
+      "icon": "2eec74dd41ab8c54c8b6d9f3bdb18653"
+    },
+    {
+      "__index": 23,
+      "name": "Deflective Shield",
+      "desc": "At 4th level, a knight of the wall specializes in using his shield to deflect {g|Encyclopedia:Attack}attacks{/g}. He adds a {g|Encyclopedia:Bonus}bonus{/g} equal to his shield bonus to {g|Encyclopedia:Armor_Class}AC{/g} to his {g|Encyclopedia:TouchAttack}touch{/g} AC and his {g|Encyclopedia:CMD}CMD{/g}. He does not include any enhancement bonus he has from a magic shield in this calculation.",
+      "icon": "96e3754157c6d22448ab44113a0b218f"
+    },
+    {
+      "__index": 24,
+      "name": "Soul Shield",
+      "desc": "At 9th level, when carrying a shield, a knight of the wall adds a {g|Encyclopedia:Bonus}bonus{/g} equal to his shield bonus to {g|Encyclopedia:Armor_Class}AC{/g} on Will {g|Encyclopedia:Saving_Throw}saving throws{/g}. He does not include any enhancement bonus from a magic shield in this calculation.",
+      "icon": "96e3754157c6d22448ab44113a0b218f"
+    },
+    {
+      "__index": 25,
+      "name": "Defensive Challenge",
+      "desc": "At 12th level, whenever a knight of the wall declares a challenge, his target must pay particular attention to him. As long as the target is within the {g|Encyclopedia:Threatened_Area}threatened area{/g} of the cavalier, it takes a \u20132 {g|Encyclopedia:Penalty}penalty{/g} on {g|Encyclopedia:Attack}attack rolls{/g} against anyone other than the knight of the wall.",
+      "icon": "gen__DC"
+    },
+    {
+      "__index": 26,
+      "name": "Bonus Feats",
+      "desc": "A gendarme trains to be a mounted terror, almost to the exclusion of all other abilities. He gains {g|Encyclopedia:Bonus}bonus{/g} combat or mounted combat {g|Encyclopedia:Feat}feats{/g} at 1st level, 3rd level, and then every three levels thereafter.",
+      "icon": "gen__BF"
+    },
+    {
+      "__index": 27,
+      "name": "Transfixing Charge",
+      "desc": "At 20th level, a gendarme represents the epitome of mounted combat. Whenever he makes a charge {g|Encyclopedia:Attack}attack{/g} while mounted, he deals triple the normal {g|Encyclopedia:Damage}damage{/g}. In addition, if the gendarme confirms a {g|Encyclopedia:Critical}critical hit{/g} on a charge attack while mounted, the attack deals additional damage equal to his weapon damage. Additional damage from weapon properties, magic effects, precision-based {g|Encyclopedia:Bonus}bonuses{/g}, or other increases are {g|Encyclopedia:Dice}rolled{/g} normally.",
+      "icon": "gen__TC"
+    },
+    {
+      "__index": 28,
+      "name": "Banner of Solace",
+      "desc": "At 11th level, a standard bearer\u0027s banner becomes an even more potent symbol of protection and inspiration to those around him. Once per day, while his banner is displayed, the standard bearer can wave it through the air as a {g|Encyclopedia:Full_Round_Action}full-round action{/g}, granting all allies within 60 feet temporary {g|Encyclopedia:HP}hit points{/g} equal to 1/2 his cavalier level, and a \u002B2 morale {g|Encyclopedia:Bonus}bonus{/g} to damage rolls while the temporary hit points last. At 15th level, and every four levels thereafter, this bonus increases by \u002B1 (to a maximum of \u002B4 at 19th level). The temporary hit points last for 10 minutes or until depleted, whichever occurs first.",
+      "icon": "gen__BS"
+    },
+    {
+      "__index": 29,
+      "name": "Awesome Pennon",
+      "desc": "At 20th level, a standard bearer\u0027s banner has become a powerful rallying point to his allies, and a bane to his foes. Whenever his banner is visible, allies of the standard bearer within 60 feet gain a \u002B1 morale {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g}, immunity to fear effects, and a \u002B3 morale bonus on {g|Encyclopedia:Saving_Throw}saving throws{/g} against mind-affecting effects.",
+      "icon": "22ca381997e76e24f9c725b7de48120d"
+    },
+    {
+      "__index": 30,
+      "name": "Dazzling Display",
+      "desc": "Your {g|Encyclopedia:Skills}skill{/g} with your favored weapon can frighten enemies.\nBenefit: While wielding the weapon in which you have Weapon Focus, you can perform a bewildering show of prowess as a {g|Encyclopedia:Full_Round_Action}full-round action{/g}. Make a {g|Encyclopedia:Persuasion}Persuasion{/g} (intimidate) {g|Encyclopedia:Check}check{/g} to demoralize all foes within 30 feet who can see your display.",
+      "icon": "cc1bf38fe0aa2e54ca410a71919f18ef"
+    },
+    {
+      "__index": 31,
+      "name": "Fearsome Inspiration",
+      "desc": "Fearsome leader can help his allies throw off effects of enemy fear with his own display.\nEach time you use Dazzling Display, you also try to dispel all fear effects on your allies in the same radius, using your cavalier level as {g|Encyclopedia:Caster_Level}caster level{/g}.\nStarting at 9th level, your allies also gain the benefit of Good Hope for a number of {g|Encyclopedia:Combat_Round}rounds{/g} equal to your {g|Encyclopedia:Charisma}Charisma{/g}, but no more than once per combat.",
+      "icon": "gen__FI"
+    },
+    {
+      "__index": 32,
+      "name": "Fearmonger",
+      "desc": "At 3rd level, Fearsome Leader gains \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Persuasion}Persuasion{/g} {g|Encyclopedia:Skills}skill{/g} {g|Encyclopedia:Check}checks{/g} made to intimidate, increasing by \u002B1 for every three levels thereafter.",
+      "icon": "gen__F"
+    },
+    {
+      "__index": 33,
+      "name": "Animal Companion",
+      "desc": "Unlike normal animals of its kind, an animal companion\u0027s {g|Encyclopedia:Hit_Dice}Hit Dice{/g}, abilities, {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Feat}feats{/g} advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in {g|Encyclopedia:Size}size{/g} when their druid reaches 4th or 7th level, depending on the companion.",
+      "icon": "736cb7b0def6ff147b921c75c54a81a0"
+    },
+    {
+      "__index": 34,
+      "name": "Challenge",
+      "desc": "Whenever an Order of the Paw cavalier issues a challenge, his mount gains a \u002B1 dodge {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} as long it is {g|Encyclopedia:Threatened_Area}threatening{/g} the target of the cavalier\u0027s challenge and the cavalier is riding the mount. This bonus increases by \u002B1 for every four levels the cavalier possesses.",
+      "icon": "gen__C"
+    },
+    {
+      "__index": 35,
+      "name": "Danger Ward",
+      "desc": "At 2nd level, the cavalier can ready his allies for impending danger. As a {g|Encyclopedia:Standard_Actions}standard action{/g}, he can ready all allies within 30 feet of the danger ahead, granting a {g|Encyclopedia:Bonus}bonus{/g} on a {g|Encyclopedia:Saving_Throw}saving throw{/g}. At any point in the next minute, when these allies fail a saving throw, they {g|Encyclopedia:Dice}reroll{/g} the saving throw with a \u002B4 competence bonus as an immediate {g|Encyclopedia:CA_Types}action{/g}, but must take the results of the reroll even if it is worse. He can use this ability up to three times per day.",
+      "icon": "gen__DW"
+    },
+    {
+      "__index": 36,
+      "name": "Canine Ferocity",
+      "desc": "At 8th level, when the cavalier uses his wolf or dog mount to perform a bull rush or overrun {g|Encyclopedia:Combat_Maneuvers}maneuver{/g}, the mount gains a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on the combat maneuver. He also receives a bonus mounted combat {g|Encyclopedia:Feat}feat{/g}",
+      "icon": "gen__CF"
+    },
+    {
+      "__index": 37,
+      "name": "Giant Slayer",
+      "desc": "At 15th level, when the cavalier hits the target of his challenge with a {g|Encyclopedia:MeleeAttack}melee attack{/g}, and that target is at least Large {g|Encyclopedia:Size}size{/g}, he gains a {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Damage}damage rolls{/g} equal to half his cavalier level. This damage is multiplied on a {g|Encyclopedia:Critical}critical hit{/g}.",
+      "icon": "gen__GS"
     }
   ],
-  "progression": [
-    [],
-    [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    [],
-    [
-      6
-    ],
-    [],
-    [
-      7
-    ],
-    [
-      8
-    ],
-    [],
-    [],
-    [
-      3,
-      9
-    ],
-    [],
-    [
-      10
-    ],
-    [
-      8,
-      11
-    ],
-    [],
-    [
-      12
-    ],
-    [],
-    [],
-    [
-      3
-    ],
-    [
-      8
-    ],
-    [],
-    [
-      13
-    ]
-  ],
-  "__ui-groups": [],
   "name": "Cavalier",
   "layout": [
     [
@@ -131,49 +237,49 @@
         "level": 1,
         "feature": 0,
         "rank": -1,
-        "__debug": "CavalierChallengeFeature"
+        "archType": 0
       },
       {
         "level": 3,
         "feature": 6,
         "rank": -1,
-        "__debug": "CavalierCharge"
+        "archType": 0
       },
       {
         "level": 5,
         "feature": 7,
         "rank": -1,
-        "__debug": "CavalierBanner"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 9,
         "rank": -1,
-        "__debug": "CavalierTacticianGreater"
+        "archType": 0
       },
       {
         "level": 11,
         "feature": 10,
         "rank": -1,
-        "__debug": "CavalierMightyCharge"
+        "archType": 0
       },
       {
         "level": 12,
         "feature": 11,
         "rank": -1,
-        "__debug": "CavalierDemandingChallenge"
+        "archType": 0
       },
       {
         "level": 14,
         "feature": 12,
         "rank": -1,
-        "__debug": "CavalierBannerGreater"
+        "archType": 0
       },
       {
         "level": 20,
         "feature": 13,
         "rank": -1,
-        "__debug": "CavalierSupremeCharge"
+        "archType": 0
       }
     ],
     [
@@ -181,7 +287,7 @@
         "level": 1,
         "feature": 1,
         "rank": -1,
-        "__debug": "CavalierOrderSelection"
+        "archType": 0
       }
     ],
     [
@@ -189,7 +295,7 @@
         "level": 1,
         "feature": 2,
         "rank": -1,
-        "__debug": "CavalierTacticianFeature"
+        "archType": 0
       }
     ],
     [
@@ -197,19 +303,19 @@
         "level": 1,
         "feature": 3,
         "rank": -1,
-        "__debug": "CavalierTacticianFeatSelection"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 3,
         "rank": -1,
-        "__debug": "CavalierTacticianFeatSelection"
+        "archType": 0
       },
       {
         "level": 17,
         "feature": 3,
         "rank": -1,
-        "__debug": "CavalierTacticianFeatSelection"
+        "archType": 0
       }
     ],
     [
@@ -217,7 +323,7 @@
         "level": 1,
         "feature": 4,
         "rank": -1,
-        "__debug": "CavalierMountSelection"
+        "archType": 0
       }
     ],
     [
@@ -225,7 +331,7 @@
         "level": 1,
         "feature": 5,
         "rank": -1,
-        "__debug": "CavalierProficiencies"
+        "archType": 0
       }
     ],
     [],
@@ -235,19 +341,19 @@
         "level": 6,
         "feature": 8,
         "rank": -1,
-        "__debug": "CavalierBonusFeatSelection"
+        "archType": 0
       },
       {
         "level": 12,
         "feature": 8,
         "rank": -1,
-        "__debug": "CavalierBonusFeatSelection"
+        "archType": 0
       },
       {
         "level": 18,
         "feature": 8,
         "rank": -1,
-        "__debug": "CavalierBonusFeatSelection"
+        "archType": 0
       }
     ],
     [],
@@ -255,5 +361,1203 @@
     [],
     [],
     []
+  ],
+  "archetypes": [
+    {
+      "name": "Beast Rider",
+      "id": "d287fbf2495ff2e4d88d5c49217bf173",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 13,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 5,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [],
+        [],
+        [
+          {
+            "level": 6,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 14,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 15,
+            "rank": -1,
+            "archType": 1
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Disciple of the Pike",
+      "id": "4c4c3f9df00a5e04680d172a290111c4",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 4,
+            "feature": 21,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 10,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 12,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 12,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 20,
+            "feature": 13,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 18,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 11,
+            "feature": 19,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 20,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [
+          {
+            "level": 6,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 16,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 5,
+            "feature": 17,
+            "rank": 1,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 17,
+            "rank": 2,
+            "archType": 1
+          },
+          {
+            "level": 13,
+            "feature": 17,
+            "rank": 3,
+            "archType": 1
+          },
+          {
+            "level": 17,
+            "feature": 17,
+            "rank": 4,
+            "archType": 1
+          }
+        ],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Knight of the Wall",
+      "id": "112dd0e61f95c3a459ac0a565472e685",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 4,
+            "feature": 23,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 9,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 11,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 14,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 13,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 24,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 12,
+            "feature": 25,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 17,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [
+          {
+            "level": 6,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 22,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Gendarme",
+      "id": "48fd69254e9e5c540bd65101d3252184",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 9,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 13,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 27,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 17,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [
+          {
+            "level": 6,
+            "feature": 8,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 12,
+            "feature": 8,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 18,
+            "feature": 8,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 26,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 3,
+            "feature": 26,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 6,
+            "feature": 26,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 26,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 12,
+            "feature": 26,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 15,
+            "feature": 26,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 18,
+            "feature": 26,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 26,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        []
+      ]
+    },
+    {
+      "name": "Standard Bearer",
+      "id": "07db3fec753209546a792a7942288998",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 10,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 12,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 13,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 28,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 29,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 5,
+            "feature": 4,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 7,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 6,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "name": "Fearsome Leader",
+      "id": "13cc5ccd5cef4c98a5806f033e19a8bb",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 9,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 11,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 20,
+            "feature": 13,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 3,
+            "feature": 32,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 9,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          },
+          {
+            "level": 17,
+            "feature": 3,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [
+          {
+            "level": 6,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 30,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 31,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        []
+      ]
+    },
+    {
+      "name": "Cavalier of the Paw",
+      "id": "8d95dc9edd5740aeadb5906198a9925a",
+      "layout": [
+        [
+          {
+            "level": 1,
+            "feature": 0,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 2,
+            "feature": 35,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 3,
+            "feature": 6,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 5,
+            "feature": 7,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 8,
+            "feature": 36,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 9,
+            "feature": 9,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 11,
+            "feature": 10,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 11,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 14,
+            "feature": 12,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 15,
+            "feature": 37,
+            "rank": -1,
+            "archType": 1
+          },
+          {
+            "level": 20,
+            "feature": 13,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 1,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 2,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 9,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 17,
+            "feature": 3,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 4,
+            "rank": -1,
+            "archType": -1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 5,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [
+          {
+            "level": 6,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 12,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          },
+          {
+            "level": 18,
+            "feature": 8,
+            "rank": -1,
+            "archType": 0
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          {
+            "level": 1,
+            "feature": 33,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [
+          {
+            "level": 1,
+            "feature": 34,
+            "rank": -1,
+            "archType": 1
+          }
+        ],
+        [],
+        [],
+        []
+      ]
+    }
   ]
 }

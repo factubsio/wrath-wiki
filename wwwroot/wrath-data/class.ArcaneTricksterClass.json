@@ -1,88 +1,49 @@
 {
+  "__ui-groups": [],
   "features": [
     {
+      "__index": 0,
       "name": "Arcane Spellcasting",
       "desc": "At 1st level, an arcane trickster selects an arcane {g|Encyclopedia:Spell}spellcasting{/g} class she belonged to before adding the prestige class. When a new arcane trickster level is gained, the character gains new spells per day and new spells known as if she had also gained a level in that spellcasting class.",
       "icon": "gen__AS"
     },
     {
+      "__index": 1,
       "name": "Ranged Legerdemain",
       "desc": "An arcane trickster can use {g|Encyclopedia:Trickery}Trickery{/g} at a range of 30 feet. Working at a distance increases the normal {g|Encyclopedia:Skills}skill check{/g} {g|Encyclopedia:DC}DC{/g} by 5.",
       "icon": "4f0458275f3efab48a862dd170c9369f"
     },
     {
+      "__index": 2,
       "name": "Sneak Attack",
       "desc": "If a character can catch an opponent when he is unable to defend himself effectively from her {g|Encyclopedia:Attack}attack{/g}, she can strike a vital spot for extra {g|Encyclopedia:Damage}damage{/g}.\nThe character\u0027s attack deals extra damage anytime her target would be denied a {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} (whether the target actually has a Dexterity bonus or not), or when the character {g|Encyclopedia:Flanking}flanks{/g} her target. This extra damage is {g|Encyclopedia:Dice}1d6{/g} and increases by 1d6 at later levels. This additional damage is precision damage and is not multiplied on a {g|Encyclopedia:Critical}critical hit{/g}.\nThe character must be able to see the target well enough to pick out a vital spot and must be able to {g|Encyclopedia:Reach}reach{/g} such a spot.",
       "icon": "02ef137cda22e9b4aa9af681fba45909"
     },
     {
+      "__index": 3,
       "name": "Impromptu Sneak Attack",
       "desc": "Beginning at 3rd level, an arcane trickster can enter a special stance that allows him to improvise a way to sneak {g|Encyclopedia:Attack}attack{/g} targets regardless of their awareness. An arcane trickster can maintain this stance for one {g|Encyclopedia:Combat_Round}round{/g} per day. For every two levels beyond 3rd, an arcane trickster can maintain this stance for one additional round, up to a maximum of 4 rounds at 9th level. The target of impromptu sneak attacks loses any {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g}, but only against those attacks. The power can be used against any target, but creatures that are not subject to to sneak attacks take no extra {g|Encyclopedia:Damage}damage{/g} (though they still lose any Dexterity bonus to AC against the attack).",
       "icon": "592ac2887857bd74a8bd0eef3057fb2b"
     },
     {
+      "__index": 4,
       "name": "Impromptu Sneak Attack",
       "desc": "Beginning at 3rd level, an arcane trickster can enter a special stance that allows him to improvise a way to sneak {g|Encyclopedia:Attack}attack{/g} targets regardless of their awareness. An arcane trickster can maintain this stance for one {g|Encyclopedia:Combat_Round}round{/g} per day. For every two levels beyond 3rd, an arcane trickster can maintain this stance for one additional round, up to a maximum of 4 rounds at 9th level. The target of impromptu sneak attacks loses any {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g}, but only against those attacks. This power can be used against any target, but creatures that are not subject to {g|Encyclopedia:Critical}critical hits{/g} take no extra {g|Encyclopedia:Damage}damage{/g} (though they still lose any Dexterity bonus to AC against the attack).",
       "icon": "592ac2887857bd74a8bd0eef3057fb2b"
     },
     {
+      "__index": 5,
       "name": "Invisible Thief",
       "desc": "At 9th level, an arcane trickster can become invisible, as if under the effects of greater invisibility, as a {g|Encyclopedia:Free_Action}free action{/g}. She can remain invisible for a number of {g|Encyclopedia:Combat_Round}rounds{/g} per day equal to her arcane trickster level. Her {g|Encyclopedia:Caster_Level}caster level{/g} for this effect is equal to her caster level. These rounds need not be consecutive.",
       "icon": "e1200c46a59db0945919ae5288d22ba4"
     },
     {
+      "__index": 6,
       "name": "Surprise Spells",
       "desc": "At 10th level, an arcane trickster can add her sneak {g|Encyclopedia:Attack}attack{/g} {g|Encyclopedia:Damage}damage{/g} to any {g|Encyclopedia:Spell}spell{/g} that deals damage, if the targets are {g|Encyclopedia:Flat_Footed}flat-footed{/g}. This additional damage only applies to spells that deal hit point damage, and the additional damage is of the same type as the spell. If the spell allows a {g|Encyclopedia:Saving_Throw}saving throw{/g} to negate or halve the damage, it also negates or halves the sneak attack damage.",
       "icon": "gen__SS"
     }
   ],
-  "progression": [
-    [],
-    [
-      0,
-      1
-    ],
-    [
-      2
-    ],
-    [
-      3
-    ],
-    [
-      2
-    ],
-    [
-      4
-    ],
-    [
-      2
-    ],
-    [
-      4
-    ],
-    [
-      2
-    ],
-    [
-      4,
-      5
-    ],
-    [
-      2,
-      6
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
-  ],
-  "__ui-groups": [],
   "name": "Arcane Trickster",
   "layout": [
     [
@@ -90,25 +51,25 @@
         "level": 1,
         "feature": 0,
         "rank": -1,
-        "__debug": "ArcaneTricksterSpellbookSelection"
+        "archType": 0
       },
       {
         "level": 3,
         "feature": 3,
         "rank": -1,
-        "__debug": "ImpromptuSneakAttackFeature"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 5,
         "rank": 1,
-        "__debug": "InvisibleThiefFeature"
+        "archType": 0
       },
       {
         "level": 10,
         "feature": 6,
         "rank": -1,
-        "__debug": "SurpriseSpells"
+        "archType": 0
       }
     ],
     [
@@ -116,7 +77,7 @@
         "level": 1,
         "feature": 1,
         "rank": -1,
-        "__debug": "RangedLegerdemainFeature"
+        "archType": 0
       }
     ],
     [
@@ -124,31 +85,31 @@
         "level": 2,
         "feature": 2,
         "rank": 1,
-        "__debug": "SneakAttack"
+        "archType": 0
       },
       {
         "level": 4,
         "feature": 2,
         "rank": 2,
-        "__debug": "SneakAttack"
+        "archType": 0
       },
       {
         "level": 6,
         "feature": 2,
         "rank": 3,
-        "__debug": "SneakAttack"
+        "archType": 0
       },
       {
         "level": 8,
         "feature": 2,
         "rank": 4,
-        "__debug": "SneakAttack"
+        "archType": 0
       },
       {
         "level": 10,
         "feature": 2,
         "rank": 5,
-        "__debug": "SneakAttack"
+        "archType": 0
       }
     ],
     [],
@@ -157,22 +118,23 @@
         "level": 5,
         "feature": 4,
         "rank": 1,
-        "__debug": "ImpromptuSneakAttackAdditionalUse"
+        "archType": 0
       },
       {
         "level": 7,
         "feature": 4,
         "rank": 2,
-        "__debug": "ImpromptuSneakAttackAdditionalUse"
+        "archType": 0
       },
       {
         "level": 9,
         "feature": 4,
         "rank": 3,
-        "__debug": "ImpromptuSneakAttackAdditionalUse"
+        "archType": 0
       }
     ],
     [],
     []
-  ]
+  ],
+  "archetypes": []
 }
