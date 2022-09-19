@@ -43,10 +43,11 @@
 @code {
 	private bool collapseNavMenu = true;
 
+	private string NormalizedPath => new Uri(NavigationManager.Uri).AbsolutePath.Replace("/wrath-wiki", "");
+
 	public string ClassExpandClass(string name)
 	{
-		var path = new Uri(NavigationManager.Uri).AbsolutePath.Replace("/wrath-wiki", "");
-		if (path.StartsWith($"/class-progression/{name}"))
+		if (NormalizedPath.StartsWith($"/class-progression/{name}"))
 		{
 			return "class-expand expanded";
 		}
@@ -58,8 +59,7 @@
 
 	public string ArchetypeClass(string name)
 	{
-		var path = new Uri(NavigationManager.Uri).AbsolutePath;
-		if (path.StartsWith($"/class-progression/{name}"))
+		if (NormalizedPath.StartsWith($"/class-progression/{name}"))
 		{
 			return "archetype-list";
 		}
