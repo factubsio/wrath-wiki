@@ -34,6 +34,7 @@
 }
 
 .nav-item ::deep a {
+    font-family: Constantia;
     font-size: 120%;
     text-decoration: none;
     line-height: 2.2rem;
@@ -42,6 +43,10 @@
     width: 90%;
     background-image: url('ui/UI_Journal_BigMenu_NoActive.png');
     background-size: 100% 100%;
+}
+
+.nav-item ::deep a,a:link,a:visited {
+    color: black;
 }
 
 .nav-item ::deep a:active {
