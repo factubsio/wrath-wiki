@@ -45,7 +45,7 @@
 
 	public string ClassExpandClass(string name)
 	{
-		var path = new Uri(NavigationManager.Uri).AbsolutePath;
+		var path = new Uri(NavigationManager.Uri).AbsolutePath.Replace("/wrath-wiki", "");
 		if (path.StartsWith($"/class-progression/{name}"))
 		{
 			return "class-expand expanded";
