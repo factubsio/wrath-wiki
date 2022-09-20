@@ -1,0 +1,110 @@
+﻿.tooltip-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    cursor: help;
+}
+
+.tooltip-body {
+    visibility: hidden;
+    position: absolute;
+    width: 600px;
+    top: 100%;
+    left: 50%;
+    margin-left: -300px;
+    color: #222;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 6px;
+    text-align: left;
+    z-index: 1;
+    opacity: 0;
+    line-height: 140%;
+    max-height: 600px;
+    overflow: auto;
+    font-size: 140%;
+    font-style: normal;
+    border-image: url('./ui/UI_BackgroundTooltipPaper.png');
+    border-image-slice: 44 44 44 44 fill;
+    border-image-width: 20px 20px 20px 20px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: stretch stretch;
+    border-style: solid;
+    filter: drop-shadow(0px 0px 12px black);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #444;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+
+/*span::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+*/
+.tooltip-wrapper:hover .tooltip-body {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity  0s linear 0.5s;
+    transition: visibility  0s linear 0.5s;
+}
+
+.tooltip-body ::deep .mini-header-brick {
+    background-image: url('./ui/UI_QuestNotification_BackgroundCaption.png');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding-top: 8px;
+}
+
+.tooltip-body ::deep .header-brick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding-top: 8px;
+}
+
+.tooltip-body ::deep .brick-flow-horizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tooltip-body ::deep .header-brick div {
+    display: inline-block;
+}
+
+.tooltip-body ::deep .header-brick img {
+    display: block;
+}
+
+.tooltip-body ::deep .header-brick h4 {
+    margin-left: 10px;
+    font-size: 120%;
+}

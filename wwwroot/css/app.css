@@ -1,7 +1,27 @@
-﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+﻿@font-face {
+    font-family: 'FakeNS';
+    src: url('../ui/PTSerif-Regular.ttf') format('truetype');
+} 
+@font-face {
+    font-family: 'FakeNS';
+    font-weight: bold;
+    src: url('../ui/PTSerif-Bold.ttf') format('truetype');
+} 
+@font-face {
+    font-family: 'FakeNS';
+    font-weight: normal;
+    font-style: italic;
+    src: url('../ui/PTSerif-Italic.ttf') format('truetype');
+} 
+@font-face {
+    font-family: 'FakeNS';
+    font-weight: bold;
+    font-style: italic;
+    src: url('../ui/PTSerif-BoldItalic.ttf') format('truetype');
+} 
 
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'FakeNS';
 }
 
 h1:focus {
@@ -96,20 +116,16 @@ table.progression-table {
         padding-left: 60px;
         font-weight: bold;
         font-size: 130%;
-        font-family: Constantia;
 
     }
 
-    table.progression-table img {
-        width: 55px;
-        height: 55px;
-    }
 
 .chargen-sheet {
     background-image: url('../ui/UI_CharGen_Sheet.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     padding: 40px 80px;
-    max-width: 1360px;
+    width: 1250px;
+    margin: 0px;
 }
 
 .feature {

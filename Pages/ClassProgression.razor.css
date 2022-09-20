@@ -40,3 +40,17 @@
 tr:last-child td {
     border-bottom: solid gray 1px;
 }
+
+::deep a {
+    color: black;
+    font-weight: bold;
+}
+
+table.progression-table ::deep img {
+    width: 55px;
+    height: 55px;
+}
+
+::deep .badge-value {
+    margin-right: 10px;
+}

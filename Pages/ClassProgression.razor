@@ -2,6 +2,7 @@
 @page "/wrath-wiki/class-progression/{ClassName}/{ArchetypeName?}"
 @using System.Text.Json
 @using System.Diagnostics.CodeAnalysis
+@using System.Text.RegularExpressions
 @inject HttpClient Http
 
 <PageTitle>Class</PageTitle>
@@ -25,30 +26,52 @@ else
 					<td colspan="20"><div class="banner"><span>Feats</span></div></td>
 				</tr>
 				<tr>
-					<td colspan="20"><div class="banner"><span>@(model.name)</span></div></td>
+					<td colspan="20"><div class="banner"><span>@(Name)</span></div></td>
 				</tr>
 				<tr>
 					@foreach (var (bab, fort, reflex, will) in EnumerateStats())
 					{
 						<td class="chupa-slot chupa-bottom chupa-top">
-							<div class="stat-icon-box">
-								@if (bab.Increased)
-								{
-									<span class="badge-stat badge-bab"></span>
-								}
-								@if (fort.Increased)
-								{
-									<span class="badge-stat badge-fort"></span>
-								}
-								@if (reflex.Increased)
-								{
-									<span class="badge-stat badge-reflex"></span>
-								}
-								@if (will.Increased)
-								{
-									<span class="badge-stat badge-will"></span>
-								}
-							</div>
+							<Tooltip>
+								<ChildContent>
+									<div class="stat-icon-box">
+										@if (bab.Increased)
+										{
+											<span class="badge-stat badge-bab"></span>
+										}
+										@if (fort.Increased)
+										{
+											<span class="badge-stat badge-fort"></span>
+										}
+										@if (reflex.Increased)
+										{
+											<span class="badge-stat badge-reflex"></span>
+										}
+										@if (will.Increased)
+										{
+											<span class="badge-stat badge-will"></span>
+										}
+									</div>
+								</ChildContent>
+								<TooltipContent>
+									<div class="header-brick"><h4>@Name</h4></div>
+									<div class="mini-header-brick"><h5>BASE ATTACK BONUS</h5></div>
+									<div class="brick-flow-horizontal">
+										@for (int it = 0; it < 4; it++)
+										{
+											<span class="badge-stat badge-bab"></span>
+
+											<span class="badge-value">@Iterative(bab, it)</span>
+										}
+									</div>
+									<div class="mini-header-brick"><h5>SAVING THROW</h5></div>
+									<div class="brick-flow-horizontal">
+										<span class="badge-stat badge-fort"></span><span class="badge-value">+@fort.Total</span>
+										<span class="badge-stat badge-reflex"></span><span class="badge-value">+@reflex.Total</span>
+										<span class="badge-stat badge-will"></span><span class="badge-value">+@will.Total</span>
+									</div>
+								</TooltipContent>
+							</Tooltip>
 						</td>
 					}
 				</tr>
@@ -64,7 +87,18 @@ else
 								}
 								@if (!level.IsNull && level.IsNew)
 								{
-									<div class="spell-progression new-caster-level"><span>@level.Level</span></div>
+									<Tooltip>
+										<ChildContent>
+											<div class="spell-progression new-caster-level"><span>@level.Level</span></div>
+										</ChildContent>
+										<TooltipContent>
+											<div class="header-brick"><h4>@Name</h4></div>
+											<div class="mini-header-brick"><h5>SPELLS</h5></div>
+											<p>
+												@(string.Join(" ⦿ ", EnumerateSpellsAtSpellLevel(level.Level)))
+											</p>
+										</TooltipContent>
+									</Tooltip>
 								}
 								@if (!level.IsNull && !level.IsNew)
 								{
@@ -87,22 +121,34 @@ else
 							else if (model.features[f].icon != null)
 							{
 								<td class="chupa-slot @(last ? "last-level" : "")">
-									<div class="feature">
-										<img class="progression-feature" src="icons/@(model.features[f].icon).png">
-										@*<img class="selection-badge" src="/icons-custom/selection.png">*@
-										@if (rank != -1)
-										{
-											<div class="rank-badge">@(rank)</div>
-										}
-										@if (addRemove == -1)
-										{
-											<div class="feature-removed"></div>
-										}
-										@if (addRemove == 1)
-										{
-											<div class="feature-added"></div>
-										}
-									</div>
+									<Tooltip>
+										<ChildContent>
+											<div class="feature">
+												<img class="progression-feature" src="icons/@(model.features[f].icon).png">
+												@if (rank != -1)
+												{
+													<div class="rank-badge">@(rank)</div>
+												}
+												@if (addRemove == -1)
+												{
+													<div class="feature-removed"></div>
+												}
+												@if (addRemove == 1)
+												{
+													<div class="feature-added"></div>
+												}
+											</div>
+										</ChildContent>
+										<TooltipContent>
+											<div class="header-brick">
+												<div><img src="icons/@(model.features[f].icon).png"></div>
+												<h4 height=100%>@model.features[f].name</h4>
+											</div>
+											<p>
+												@StripEncyclopediaTags(@model.features[f].desc)
+											</p>
+										</TooltipContent>
+									</Tooltip>
 								</td>
 							}
 							else
@@ -125,6 +171,30 @@ else
 
 	[Parameter]
 	public string? ArchetypeName { get; set; }
+
+	public static MarkupString StripEncyclopediaTags(string? str)
+	{
+		if (str is null) return (MarkupString)"";
+
+		return (MarkupString)Regex.Replace(str, "{.*?}|\\n", match =>
+		{
+			if (match.Value == "\n")
+			{
+				return "<br/><br/>";
+			}
+
+			if (match.ValueSpan.StartsWith("{/")) return "</a>";
+			return "<a href=\"/PSYCHE\">";
+		});
+	}
+
+	public static string Iterative(StatAtLevel bab, int index)
+	{
+		int ab = bab.Total - (index * 5);
+		if (ab >= 1)
+			return "+" + ab.ToString();
+		return "-";
+	}
 
 	protected override async Task OnParametersSetAsync()
 	{
@@ -150,10 +220,11 @@ else
 		public int archType;
 	}
 
-	public interface IStatsProgression {
+	public interface IStatsProgression
+	{
 		public int[]? bab { get; }
-		public int[]? fort{ get; }
-		public int[]? reflex{ get; }
+		public int[]? fort { get; }
+		public int[]? reflex { get; }
 		public int[]? will { get; }
 	}
 
@@ -169,32 +240,57 @@ else
 		public int[]? fort { get; set; }
 		public int[]? reflex { get; set; }
 		public int[]? will { get; set; }
+		public string[][]? spells;
 
 		public int[][]? spellSlots;
 	}
 
-	public bool HasSpells {
-		get {
+	public bool HasSpells
+	{
+		get
+		{
 			bool baseCaster = model!.spellSlots != null;
 
-			if (GetArchetype(out var arch)) {
+			if (GetArchetype(out var arch))
+			{
 				return (baseCaster && !arch.removeSpells) || arch.spellSlots != null;
-			} else {
+			}
+			else
+			{
 				return baseCaster;
 			}
 
 		}
 	}
 
-	public IEnumerable<(int Level, bool IsNew, bool IsNull, int CL)> EnumerateSpellProgression() {
+	public string Name => GetArchetype(out var arch) ? arch.name : model!.name!;
+
+	public IEnumerable<string> EnumerateSpellsAtSpellLevel(int cl)
+	{
+		string[][] list = model!.spells!;
+		if (GetArchetype(out var arch) && arch.spells != null)
+		{
+			list = arch.spells;
+		}
+		if (list[cl] is null)
+			yield break;
+
+		foreach (var spell in list[cl])
+			yield return spell;
+	}
+
+	public IEnumerable<(int Level, bool IsNew, bool IsNull, int CL)> EnumerateSpellProgression()
+	{
 		int[][] slots = model!.spellSlots!;
-		if (GetArchetype(out var arch) && arch.spellSlots != null) {
+		if (GetArchetype(out var arch) && arch.spellSlots != null)
+		{
 			slots = arch.spellSlots;
 		}
 
 		int currentLevel = 0;
 
-		for (int i = 1; i <= 20; i++) {
+		for (int i = 1; i <= 20; i++)
+		{
 			int cl = i + model!.casterLevelModifier;
 			if (cl < 1)
 				yield return (-1, false, true, 0);
@@ -209,7 +305,8 @@ else
 		}
 	}
 
-	public bool GetArchetype([NotNullWhen(true)] out Archetype? arch) {
+	public bool GetArchetype([NotNullWhen(true)] out Archetype? arch)
+	{
 		arch = null;
 		if (ArchetypeName == null)
 			return false;
@@ -217,7 +314,8 @@ else
 		return true;
 	}
 
-	public IEnumerable<(StatAtLevel, StatAtLevel, StatAtLevel, StatAtLevel)> EnumerateStats() {
+	public IEnumerable<(StatAtLevel, StatAtLevel, StatAtLevel, StatAtLevel)> EnumerateStats()
+	{
 		IStatsProgression stats;
 		IStatsProgression fallback = model!;
 
@@ -232,19 +330,21 @@ else
 		var will = stats.will ?? fallback.will!;
 
 
-		for (int i = 1; i <= 20; i++) {
+		for (int i = 1; i <= 20; i++)
+		{
 			yield return (
-				new() { Total = bab[i], Increased = bab[i] > bab[i-1] },
-				new() { Total = fort[i], Increased = fort[i] > fort[i-1] },
-				new() { Total = reflex[i], Increased = reflex[i] > reflex[i-1] },
-				new() { Total = will[i], Increased = will[i] > will[i-1] }
+				new() { Total = bab[i], Delta = bab[i] - bab[i - 1] },
+				new() { Total = fort[i], Delta = fort[i] - fort[i - 1] },
+				new() { Total = reflex[i], Delta = reflex[i] - reflex[i - 1] },
+				new() { Total = will[i], Delta = will[i] - will[i - 1] }
 			);
 		}
 	}
 
 	public IEnumerable<IEnumerable<(int, int, bool, int)>> Rows
 	{
-		get {
+		get
+		{
 			if (GetArchetype(out var arch))
 				return model!.Rows(arch.layout);
 			else
@@ -252,9 +352,11 @@ else
 		}
 	}
 
-	public struct StatAtLevel {
-		public bool Increased;
+	public struct StatAtLevel
+	{
+		public bool Increased => Delta > 0;
 		public int Total;
+		public int Delta;
 	}
 
 	public class Progression : IStatsProgression
@@ -271,6 +373,7 @@ else
 		public int[]? will { get; set; }
 
 		public int[][]? spellSlots;
+		public string[][]? spells;
 
 		public IEnumerable<IEnumerable<(int, int, bool, int)>> Rows(List<List<RowEntry>> layout) => layout.OrderByDescending(r => r.Count).Where(r => r.Count > 0).Select(ExpandRow);
 
