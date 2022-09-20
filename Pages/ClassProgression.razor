@@ -1,6 +1,7 @@
 ﻿@page "/class-progression/{ClassName}/{ArchetypeName?}"
 @page "/wrath-wiki/class-progression/{ClassName}/{ArchetypeName?}"
 @using System.Text.Json
+@using System.Diagnostics.CodeAnalysis
 @inject HttpClient Http
 
 <PageTitle>Class</PageTitle>
@@ -26,6 +27,54 @@ else
 				<tr>
 					<td colspan="20"><div class="banner"><span>@(model.name)</span></div></td>
 				</tr>
+				<tr>
+					@foreach (var (bab, fort, reflex, will) in EnumerateStats())
+					{
+						<td class="chupa-slot chupa-bottom chupa-top">
+							<div class="stat-icon-box">
+								@if (bab.Increased)
+								{
+									<span class="badge-stat badge-bab"></span>
+								}
+								@if (fort.Increased)
+								{
+									<span class="badge-stat badge-fort"></span>
+								}
+								@if (reflex.Increased)
+								{
+									<span class="badge-stat badge-reflex"></span>
+								}
+								@if (will.Increased)
+								{
+									<span class="badge-stat badge-will"></span>
+								}
+							</div>
+						</td>
+					}
+				</tr>
+				@if (HasSpells)
+				{
+					<tr>
+						@foreach (var level in EnumerateSpellProgression())
+						{
+							<td class="chupa-slot chupa-bottom spell-progression-slot level-@level.CL">
+								@if (level.IsNull)
+								{
+									<span></span>
+								}
+								@if (!level.IsNull && level.IsNew)
+								{
+									<div class="spell-progression new-caster-level"><span>@level.Level</span></div>
+								}
+								@if (!level.IsNull && !level.IsNew)
+								{
+									<div class="spell-progression"><span></span></div>
+								}
+							</td>
+						}
+					</tr>
+
+				}
 				@foreach (var row in Rows)
 				{
 					<tr>
@@ -83,6 +132,8 @@ else
 			{
 				IncludeFields = true,
 			});
+
+		int _ = 0;
 	}
 
 	public class LocalFeature
@@ -99,29 +150,127 @@ else
 		public int archType;
 	}
 
-	public class Archetype
+	public interface IStatsProgression {
+		public int[]? bab { get; }
+		public int[]? fort{ get; }
+		public int[]? reflex{ get; }
+		public int[]? will { get; }
+	}
+
+	public class Archetype : IStatsProgression
 	{
 		public string id = "";
 		public string name = "";
 		public List<List<RowEntry>> layout = new();
+
+		public bool removeSpells;
+
+		public int[]? bab { get; set; }
+		public int[]? fort { get; set; }
+		public int[]? reflex { get; set; }
+		public int[]? will { get; set; }
+
+		public int[][]? spellSlots;
+	}
+
+	public bool HasSpells {
+		get {
+			bool baseCaster = model!.spellSlots != null;
+
+			if (GetArchetype(out var arch)) {
+				return (baseCaster && !arch.removeSpells) || arch.spellSlots != null;
+			} else {
+				return baseCaster;
+			}
+
+		}
+	}
+
+	public IEnumerable<(int Level, bool IsNew, bool IsNull, int CL)> EnumerateSpellProgression() {
+		int[][] slots = model!.spellSlots!;
+		if (GetArchetype(out var arch) && arch.spellSlots != null) {
+			slots = arch.spellSlots;
+		}
+
+		int currentLevel = 0;
+
+		for (int i = 1; i <= 20; i++) {
+			int cl = i + model!.casterLevelModifier;
+			if (cl < 1)
+				yield return (-1, false, true, 0);
+			else
+			{
+				int[] table = slots[cl];
+				int nextLevel = table.Length - 1;
+				bool isNew = nextLevel > currentLevel;
+				currentLevel = nextLevel;
+				yield return (nextLevel, isNew, false, cl);
+			}
+		}
+	}
+
+	public bool GetArchetype([NotNullWhen(true)] out Archetype? arch) {
+		arch = null;
+		if (ArchetypeName == null)
+			return false;
+		arch = model!.archetypes.First(a => a.name.Equals(ArchetypeName, StringComparison.OrdinalIgnoreCase))!;
+		return true;
+	}
+
+	public IEnumerable<(StatAtLevel, StatAtLevel, StatAtLevel, StatAtLevel)> EnumerateStats() {
+		IStatsProgression stats;
+		IStatsProgression fallback = model!;
+
+		if (GetArchetype(out var arch))
+			stats = arch;
+		else
+			stats = model!;
+
+		var bab = stats.bab ?? fallback.bab!;
+		var fort = stats.fort ?? fallback.fort!;
+		var reflex = stats.reflex ?? fallback.reflex!;
+		var will = stats.will ?? fallback.will!;
+
+
+		for (int i = 1; i <= 20; i++) {
+			yield return (
+				new() { Total = bab[i], Increased = bab[i] > bab[i-1] },
+				new() { Total = fort[i], Increased = fort[i] > fort[i-1] },
+				new() { Total = reflex[i], Increased = reflex[i] > reflex[i-1] },
+				new() { Total = will[i], Increased = will[i] > will[i-1] }
+			);
+		}
 	}
 
 	public IEnumerable<IEnumerable<(int, int, bool, int)>> Rows
 	{
 		get {
-			if (ArchetypeName == null)
-				return model!.Rows(model!.layout);
+			if (GetArchetype(out var arch))
+				return model!.Rows(arch.layout);
 			else
-				return model!.Rows(model!.archetypes.First(a => a.name.Equals(ArchetypeName, StringComparison.OrdinalIgnoreCase))!.layout);
+				return model!.Rows(model!.layout);
 		}
 	}
 
-	public class Progression
+	public struct StatAtLevel {
+		public bool Increased;
+		public int Total;
+	}
+
+	public class Progression : IStatsProgression
 	{
 		public List<Archetype> archetypes = new();
 		public List<LocalFeature> features = new();
 		public List<List<RowEntry>> layout = new();
 		public string? name;
+		public int casterLevelModifier;
+
+		public int[]? bab { get; set; }
+		public int[]? fort { get; set; }
+		public int[]? reflex { get; set; }
+		public int[]? will { get; set; }
+
+		public int[][]? spellSlots;
 
 		public IEnumerable<IEnumerable<(int, int, bool, int)>> Rows(List<List<RowEntry>> layout) => layout.OrderByDescending(r => r.Count).Where(r => r.Count > 0).Select(ExpandRow);
 

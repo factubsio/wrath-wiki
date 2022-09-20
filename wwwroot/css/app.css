@@ -183,13 +183,51 @@ table {
 
 .chupa-slot {
     border-left: 1px solid gray;
-
 }
-.chupa-slot.last-level {
+
+.chupa-slot:last-child {
     border-right: 1px solid gray;
+}
+
+.chupa-top {
+    border-top: 1px solid gray;
+}
+
+.chupa-bottom {
+    border-bottom: 1px solid gray;
 }
 
 
 body {
     margin: 0;
+}
+
+.stat-icon-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.badge-stat {
+    min-width: 26px;
+    min-height: 26px;
+    display: inline-block;
+    background-size: 100% 100%;
+    filter: invert() opacity(0.6);
+}
+
+.badge-bab {
+    background-image: url('../ui/UI_Icon_Bab.png');
+}
+.badge-fort {
+    background-image: url('../ui/UI_Icon_Fortitude.png');
+}
+.badge-reflex {
+    background-image: url('../ui/UI_Icon_Reflex.png');
+}
+.badge-will {
+    background-image: url('../ui/UI_Icon_Will.png');
 }

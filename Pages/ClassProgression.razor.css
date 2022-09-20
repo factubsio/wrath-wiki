@@ -1,0 +1,42 @@
+﻿
+.spell-progression {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../ui/UI_Journal_Line_Short.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.chupa-slot:last-child .spell-progression {
+    background-image: url('../ui/UI_Journal_Line_Short_Last.png');
+}
+.chupa-slot.level-1 .spell-progression {
+    background-image: url('../ui/UI_Journal_Line_Short_First.png');
+}
+
+.spell-progression span {
+    width: 32px;
+    height: 32px;
+    background-image: url('../ui/UI_CharGen_GenderCircle_Black_Filled.png');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spell-progression.new-caster-level span {
+    background-image: url('../ui/UI_CharGen_GenderCircle_Black_FilledLight.png');
+}
+
+.spell-progression-slot
+{
+    height: 40px;
+}
+
+tr:last-child td {
+    border-bottom: solid gray 1px;
+}
