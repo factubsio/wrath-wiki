@@ -225,6 +225,7 @@
     }
   ],
   "name": "Shaman",
+  "desc": "While some heroes speak to gods or consort with otherworldly muses, shamans commune with the spirits of the world and the energies that exist in every living thing. These divine adventurers draw upon their power to shape the world and expand the influence of their spiritual patrons. Shamans have {g|Encyclopedia:Strength}strong{/g} ties to natural spirits. They form powerful bonds with particular spirits, and as their power grows they learn to call upon other spirits in times of need.",
   "layout": [
     [
       {
@@ -430,6 +431,13 @@
     11,
     12
   ],
+  "babSpeed": "Average",
+  "fortSpeed": "Low",
+  "reflexSpeed": "Low",
+  "willSpeed": "High",
+  "casterType": "Divine",
+  "casterAbility": "Wisdom",
+  "spontaneous": false,
   "spellSlots": [
     [],
     [
@@ -747,9 +755,11 @@
     []
   ],
   "casterLevelModifier": 0,
+  "HitDie": 8,
   "archetypes": [
     {
       "name": "Possessed Shaman",
+      "desc": "For a possessed shaman, merely communing with the spirit world is insufficient. Instead, she invites the spirits to share her body, granting them the chance to {g|Encyclopedia:XP}experience{/g} corporeal existence. In return, they grant her their {g|Encyclopedia:Skills}skills{/g} and protect her from otherworldly influence.",
       "id": "7939ff57cc2ce104693ea2f5afa595b6",
       "layout": [
         [
@@ -898,12 +908,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Spirit Hunter",
+      "desc": "Most shamans seek spirits to learn from them. Spirit hunters pursue them to eliminate. Some of these loners are on a quest to rid the world of evil spirits and restless ghosts, others fight spirits to gain more power, and some join the wars spirits wage among themselves, no matter how mysterious and inscrutable for a mortal\u0027s mind these could be. Spirit hunters learn to enchant their weapons, so it could harm the {g|Encyclopedia:Incorporeal_Touch_Attack}incorporeal{/g} enemies as easily as mortal flesh.",
       "id": "39b2fd5000e5eb142bfde2afa6c83f76",
       "layout": [
         [
@@ -1066,12 +1084,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Spirit Warden",
+      "desc": "Not all spirits deserve reverence and respect. Some are twisted and despicable. It\u0027s a spirit warden\u0027s duty to end these spirits\u0027 existence.",
       "id": "a6ab54dbe2cc9314a8ad62863fbc64c4",
       "layout": [
         [
@@ -1220,12 +1246,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Unsworn Shaman",
+      "desc": "An unsworn shaman never binds herself to one specific spirit, always making new deals as she deems necessary for the circumstances that she finds herself in. While this weakens the powers she can access from any one spirit, it gives her access to a broader overall range of abilities.",
       "id": "556590a43467a27459ac1a80324c9f9f",
       "layout": [
         [
@@ -1401,12 +1435,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Witch Doctor",
+      "desc": "The witch doctor is a {g|Encyclopedia:Healing}healer{/g} who specializes in afflictions of the soul. Often misunderstood, she protects her tribe with healing powers, powerful defensive magic, and her own divine \u0022witchcraft.\u0022",
       "id": "96c2b16450cc98548a0e82f743fbee80",
       "layout": [
         [
@@ -1539,12 +1581,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Wildland Shaman",
+      "desc": "The half-orcs living in the wasteland have long learned a harsh lesson \u2014 the fittest survives and the fittest rules. Their shamans do not communicate with spirits. They prefer to forcefully subjugate animals and battle spirits \u2014 the only kind of spirits they approve, for those who do not fight and do not serve the strongest are destined to die. Such is the law of the wasteland.",
       "id": "bb14b164c2ce4e2bb05434a3218ff73d",
       "layout": [
         [
@@ -1679,12 +1729,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Shadow Shaman",
+      "desc": "The best friends of some shamans are shadows, which they use to {g|Encyclopedia:Concealment}conceal{/g} their {g|Encyclopedia:CA_Types}actions{/g} and find the best opportunities to {g|Encyclopedia:Attack}attack{/g} their foes.",
       "id": "5086aef2b76c433584160f7b49aef95b",
       "layout": [
         [
@@ -1856,6 +1914,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

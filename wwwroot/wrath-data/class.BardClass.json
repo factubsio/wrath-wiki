@@ -364,6 +364,7 @@
     }
   ],
   "name": "Bard",
+  "desc": "Bards capably confuse and confound their foes while inspiring their allies to ever-greater daring. While accomplished with both weapons and magic, the true strength of bards lies outside melee, where they can support their companions and undermine their foes without fear of interruptions to their performances.",
   "layout": [
     [
       {
@@ -649,6 +650,13 @@
     11,
     12
   ],
+  "babSpeed": "Average",
+  "fortSpeed": "Low",
+  "reflexSpeed": "High",
+  "willSpeed": "High",
+  "casterType": "Arcane",
+  "casterAbility": "Charisma",
+  "spontaneous": true,
   "spellSlots": [
     [],
     [
@@ -903,9 +911,11 @@
     []
   ],
   "casterLevelModifier": 0,
+  "HitDie": 8,
   "archetypes": [
     {
       "name": "Archaeologist",
+      "desc": "No stodgy researcher, this archaeologist meets his research head-on in the field. Archaeologists sacrifice the bard\u0027s inspirational performance for a smattering of rogue talents.",
       "id": "38384e0c1e99c2e42ac6ed70a04aca46",
       "layout": [
         [
@@ -1203,12 +1213,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Thundercaller",
+      "desc": "Among mystical leaders are those who speak for the spirits of the land, who bear the knowledge of the ancients, and whose voices ring like thunder, calling the sky\u0027s wrath down upon their enemies.",
       "id": "3c67fb6458752a1419fb8cd4efaf8eaa",
       "layout": [
         [
@@ -1468,12 +1486,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Flame Dancer",
+      "desc": "A flame dancer studies the movements of fire, adding its grace to his repertoire. He seeks truth in fire\u0027s burning essence, and uses his performance to unleash the power of fire against those who dare oppose him.",
       "id": "e7914f2adcdb8fc46af5b65d1e06c539",
       "layout": [
         [
@@ -1699,12 +1725,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Tranquil Whisperer",
+      "desc": "Some bards use their upbeat music to fire up their allies, but tranquil whisperers do the opposite: they play their soothing compositions to alleviate any emotional pressure on their comrades and improve their {g|Encyclopedia:Concentration}concentration{/g}.",
       "id": "bed077eaa12834b4495cf481ee721810",
       "layout": [
         [
@@ -1950,12 +1984,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Dirge Bard",
+      "desc": "A composer of sonorous laments for the dead and elaborate requiems for those lost yet long remembered, dirge bards master musical tools and tropes that must appeal to the ears and hearts of both the living and the dead.",
       "id": "f128f6cd9c140284caa244da069f250c",
       "layout": [
         [
@@ -2182,12 +2224,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Beast Tamer",
+      "desc": "Bards originate from a variety of backgrounds, including former shepherds, street charmers, and such. Those who find animals a more appreciative audience than humans are usually become known as beast tamers. Such bards can greatly enhance the abilities of their beastly allies through inspiring performances.",
       "id": "912b0495d9485124bb2c0e4aa6ac2efd",
       "layout": [
         [
@@ -2520,6 +2570,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

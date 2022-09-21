@@ -393,6 +393,7 @@
     }
   ],
   "name": "Paladin",
+  "desc": "Paladins serve as beacons for their allies within the chaos of battle. While deadly opponents of evil, they can also empower goodly souls to aid in their crusades. Their magic and martial {g|Encyclopedia:Skills}skills{/g} also make them well suited to defending others and blessing the fallen with the {g|Encyclopedia:Strength}strength{/g} to continue fighting.",
   "layout": [
     [
       {
@@ -656,6 +657,13 @@
     11,
     12
   ],
+  "babSpeed": "High",
+  "fortSpeed": "High",
+  "reflexSpeed": "Low",
+  "willSpeed": "High",
+  "casterType": "Divine",
+  "casterAbility": "Charisma",
+  "spontaneous": false,
   "spellSlots": [
     [],
     [
@@ -860,9 +868,11 @@
     []
   ],
   "casterLevelModifier": -3,
+  "HitDie": 10,
   "archetypes": [
     {
       "name": "Divine Hunter",
+      "desc": "Most paladins rush into battle, meeting evil toe to toe. The divine hunter prefers to engage evil from afar, striking down her foes before they can {g|Encyclopedia:Threatened_Area}threaten{/g} her allies.",
       "id": "fec08c1a3187da549abd6b85f27e4432",
       "layout": [
         [
@@ -1104,12 +1114,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Hospitaler",
+      "desc": "Paladins are known for their charity and for tending to the sick. The hospitaler takes to this calling above all others, spending much of her time {g|Encyclopedia:Healing}healing{/g} the poor, and giving aid and succor to those in need.",
       "id": "fcdb27e1a6cef834ea1d7fab7c6e2b61",
       "layout": [
         [
@@ -1300,12 +1318,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Divine Guardian",
+      "desc": "The divine guardian devotes herself to the protection and guardianship of one creature at a time, be that her liege lord, an allied cleric, or an innocent facing overwhelming danger at the hands of evil.\nThe divine guardian devotes herself to the concerns of the material world, eschewing some divine studies. She does not gain access to divine {g|Encyclopedia:Spell}spellcasting{/g}.",
       "id": "5693945afac189a469ef970eac8f71d9",
       "layout": [
         [
@@ -1523,12 +1549,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": true
     },
     {
       "name": "Warrior of the Holy Light",
+      "desc": "Some paladins use their gifts to focus on the holy light that shines within their souls. With the gifts of purity and redemption, these paladins spend much of their lives helping others find the true path. Unleashing this power takes patience and comes at a steep price.",
       "id": "cc70a9fdcd8781a4ca2f0e594f066964",
       "layout": [
         [
@@ -1747,12 +1781,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": true
     },
     {
       "name": "Martyr",
+      "desc": "Every paladin\u0027s code instructs him to put the welfare of others before his own, but some paladins take this farther than most, shouldering the direst suffering of the world onto themselves in order to help others and inspiring their allies to achieve heights of valor rather than seeking the glory for themselves.",
       "id": "4d9a864eae278744aafa7ff23f2a6466",
       "layout": [
         [
@@ -2041,12 +2083,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Divine Scion",
+      "desc": "Divine scions are paladins, who improve their battle prowess not only through faith, but also through knowledge. They study their enemies to find the most efficient methods of dealing with them.",
       "id": "5ce3a2f8eae64cf2ba83865711e53e27",
       "layout": [
         [
@@ -2295,12 +2345,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Stonelord",
+      "desc": "A stonelord is a devoted sentinel of dwarven enclaves, drawing the power of the earth and ancient stone to protect her people.",
       "id": "cf0f99b3cd7444a48681b1c1c4aa2a41",
       "layout": [
         [
@@ -2602,6 +2660,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

@@ -229,6 +229,7 @@
     }
   ],
   "name": "Slayer",
+  "desc": "{g|Encyclopedia:Skills}Skilled{/g} at tracking down targets, slayers are consummate hunters, living for the chase and the deadly stroke that brings it to a close. Slayers spend most of their time honing their weapon skills, studying the habits and anatomy of foes, and practicing {g|Encyclopedia:Combat_Maneuvers}combat maneuvers{/g}.",
   "layout": [
     [
       {
@@ -511,12 +512,21 @@
     6,
     6
   ],
+  "babSpeed": "High",
+  "fortSpeed": "High",
+  "reflexSpeed": "High",
+  "willSpeed": "Low",
+  "casterType": null,
+  "casterAbility": null,
+  "spontaneous": false,
   "spellSlots": null,
   "spells": null,
   "casterLevelModifier": 0,
+  "HitDie": 10,
   "archetypes": [
     {
       "name": "Vanguard",
+      "desc": "Vanguards are battlefield commanders who focus on the brutality of combat and lead their allies to bloody victory. Quick to react to danger, a vanguard is a valuable scout, capable officer, and {g|Encyclopedia:Skills}skilled{/g} tactician.",
       "id": "67bbc0dcd471ea0428a362f6e94f3a51",
       "layout": [
         [
@@ -741,12 +751,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Deliverer",
+      "desc": "Also known as a divine assassin, god\u0027s blade, or wrath-bringer, a deliverer is a weapon chosen by a god to punish those who have committed an affront to that deity. Evil deities are more likely to use assassins than deliverers, but some good deities use deliverers to deal with problems of a subtler nature than a cleric, inquisitor, paladin, or warpriest can typically handle.",
       "id": "738c5666f8ef46c45942df9100a0d254",
       "layout": [
         [
@@ -957,12 +975,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Spawn Slayer",
+      "desc": "Generations of warriors hold the line against impossible odds. Some of their ancient techniques persist to this day.",
       "id": "f6e304de008939d46960a2ebb075e150",
       "layout": [
         [
@@ -1194,12 +1220,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Executioner",
+      "desc": "These professional killers are trained and used almost exclusively by crime families.\nStreetwise and ruthless, they operate independently, often making their talents available to the highest bidder. Though a few unscrupulous executioners exploit this arrangement and force families to pay higher rates for their services, most of these assassins follow a strict personal code and maintain absolute transparency with their employers.",
       "id": "8040e66d2724c754f85dd3026a1f0cee",
       "layout": [
         [
@@ -1417,12 +1451,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Stygian Slayer",
+      "desc": "A stygian slayer crawls out of the darkest shadows to strike fear into the hearts of civilized folk. He\u0027s a merciless killer who can control a sliver of magic, allowing him to arrive unseen, commit murder, and depart without detection.",
       "id": "598f461cd7885304e8bae040122cb249",
       "layout": [
         [
@@ -1640,12 +1682,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Arcane Enforcer",
+      "desc": "Some slayers study the arcane knowledge to learn new efficient ways of hunting their targets. They are known as arcane enforcers.",
       "id": "23a5d0ca607f6094097d509b2b1f4a10",
       "layout": [
         [
@@ -1944,12 +1994,20 @@
         6,
         6
       ],
+      "babSpeed": null,
+      "fortSpeed": "High",
+      "reflexSpeed": null,
+      "willSpeed": "Low",
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Imitator",
+      "desc": "The human {g|Encyclopedia:Race}race{/g} is renowned for its quick learning curve and love of taking the best from others. Imitators are geniuses with the ability to memorize and copy fighting styles. While others spend their lives perfecting one technique, imitators are already using a few successfully. In combat, they instantly adapt to the flow of battle, choosing the most appropriate martial style and often improvise, confusing their enemies.",
       "id": "5947427f10bc497dbc24f66129b43e5d",
       "layout": [
         [
@@ -2153,6 +2211,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

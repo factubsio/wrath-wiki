@@ -229,6 +229,7 @@
     }
   ],
   "name": "Fighter",
+  "desc": "Fighters excel at combat\u2014defeating their enemies, controlling the flow of battle, and surviving such sorties themselves. While their specific weapons and methods grant them a wide variety of tactics, few can match fighters for sheer battle prowess.",
   "layout": [
     [
       {
@@ -515,12 +516,21 @@
     6,
     6
   ],
+  "babSpeed": "High",
+  "fortSpeed": "High",
+  "reflexSpeed": "Low",
+  "willSpeed": "Low",
+  "casterType": null,
+  "casterAbility": null,
+  "spontaneous": false,
   "spellSlots": null,
   "spells": null,
   "casterLevelModifier": 0,
+  "HitDie": 10,
   "archetypes": [
     {
       "name": "Dragonheir Scion",
+      "desc": "Dragonheir scions are the martially inclined humanoid descendants of those influenced by draconic power. Unlike their sorcerous brethren, dragonheir scions manifest their heritage in ways more suited to {g|Encyclopedia:Strength}strength{/g} of arms and {g|Encyclopedia:Skills}skill{/g} with steel than arcane energies. Those who follow this path are often the children of mighty dragon-blooded sorcerers and others who drew energy from their dragon blood, though they themselves might not exhibit {g|Encyclopedia:Spell}spellcasting{/g} ability.",
       "id": "8dff97413c63c1147be8a5ca229abefc",
       "layout": [
         [
@@ -750,12 +760,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Aldori Defender",
+      "desc": "The Aldori Swordlords of Brevoy are among the deadliest and most feared fighters of the Inner Sea. They have spent long years mastering the Aldori dueling sword, pitting themselves against other dueling swords and all manner of weaponry besides. Their {g|Encyclopedia:Speed}speed{/g} and reflexes weave a net of impenetrable steel around them, from which they strike and harry their unfortunate opponents. The most common form of Aldori dueling (and arguably the easiest of the techniques to master) focuses on avoiding {g|Encyclopedia:Damage}damage{/g} and disarming foes; these swordlords prefer to wear light or no armor, trusting their {g|Encyclopedia:Skills}skill{/g} for protection.",
       "id": "d80a67a264f206e4b8d2fcf7e560d48f",
       "layout": [
         [
@@ -1016,12 +1034,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Tower Shield Specialist",
+      "desc": "Many fighters believe the tower shield is a tool suitable only for troops on the battlefield, claiming it is too large and bulky to use in skirmishes or within dungeon corridors. Tower shield specialists defy those notions, using their massive shields with startling {g|Encyclopedia:Skills}skill{/g} and incredible effect. They use these seemingly clumsy shields to perform deft {g|Encyclopedia:Combat_Maneuvers}maneuvers{/g} that confound their enemies.",
       "id": "a599da9a8a6b9e54083b0a4d2a25db59",
       "layout": [
         [
@@ -1320,12 +1346,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Two-Handed Fighter",
+      "desc": "Some fighters focus their efforts on finding the biggest, heaviest, most imposing weapon they can find and training to manage and harness the weight of their massive weapons for maximum impact. These fighting school benefits only apply when using {g|Encyclopedia:Light_Weapon}two-handed{/g} weapons.",
       "id": "84643e02a764bff4a9c1aba333a53c89",
       "layout": [
         [
@@ -1618,12 +1652,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Armiger",
+      "desc": "Until would-be Hellknights take the trial referred to simply as the Test \u2014 in which they enter single combat with a conjured devil and either emerge victorious or die \u2014 they are known as armigers. While this is a blanket term for all Hellknights-in-training (including those training to become signifers), it also applies specifically to fighters who focus their training to become Hellknights. Despite their lack of recognized rank, armigers are skilled and deadly warriors.\nMost armigers live and train at their order\u0027s citadel, working toward the day when they become full-fledged Hellknights. These armigers follow a brutally strict routine; they spend hours honing their combat skills against other trainees, obsessively studying in the citadel\u0027s libraries, or memorizing passages of the Hellknight philosophy known as the Measure and the Chain. At regular intervals, squads of armigers emerge from their citadels to patrol nearby cities or frontier lands, working to enforce Hellknight law and their order\u0027s edicts.",
       "id": "fdee5f25a5d0fe0448d093b462435c0c",
       "layout": [
         [
@@ -1871,12 +1913,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Mutation Warrior",
+      "desc": "While most fighters rely on physical fitness and rigorous training to achieve martial superiority, a few prefer to create and imbibe dangerous concoctions that transform them into fearsome creatures.",
       "id": "758e0061a077e54409a3bf0eb51511e5",
       "layout": [
         [
@@ -2109,6 +2159,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

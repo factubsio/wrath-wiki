@@ -350,6 +350,7 @@
     }
   ],
   "name": "Warpriest",
+  "desc": "Capable of calling upon the power of the gods in the form of blessings and {g|Encyclopedia:Spell}spells{/g}, warpriests blend divine magic with martial {g|Encyclopedia:Skills}skill{/g}. They are unflinching bastions of their faith, shouting gospel as they pummel foes into submission, and never shy away from a challenge to their beliefs. While clerics might be subtle and use diplomacy to accomplish their aims, warpriests aren\u0027t above using violence whenever the situation warrants it. In many faiths, warpriests form the core of the church\u0027s martial forces \u2014 reclaiming lost relics, rescuing captured clergy, and defending the church\u0027s tenets from all challenges.",
   "layout": [
     [
       {
@@ -607,6 +608,13 @@
     11,
     12
   ],
+  "babSpeed": "Average",
+  "fortSpeed": "High",
+  "reflexSpeed": "Low",
+  "willSpeed": "High",
+  "casterType": "Divine",
+  "casterAbility": "Wisdom",
+  "spontaneous": false,
   "spellSlots": [
     [],
     [
@@ -898,9 +906,11 @@
     []
   ],
   "casterLevelModifier": 0,
+  "HitDie": 8,
   "archetypes": [
     {
       "name": "Champion of The Faith",
+      "desc": "Champions of the faith are crusaders who use the power of their divine patron to annihilate the faith\u0027s enemies.",
       "id": "ad56b5819c4072345bff9aff6f1df13c",
       "layout": [
         [
@@ -1108,12 +1118,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Cult Leader",
+      "desc": "Referred to as fanatics, lunatics, or obsessives, cultists see themselves as genuine devotees of their deity. And the hierarchs of those devotees, the cult leaders, are the most fanatical of them all. Cult leaders are known for turning reasonable hearts toward corrupted teachings and striking at those that get in the way of their agenda.",
       "id": "cd2d419961bb019438b77d4aecc2fc04",
       "layout": [
         [
@@ -1352,12 +1370,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Feral Champion",
+      "desc": "When a warpriest devotes himself to a god of the natural world, he is sometimes blessed with supernatural powers that allow him to evoke animalistic power and fury.",
       "id": "f68ca492c9c15e241ab73735fbd0fb9f",
       "layout": [
         [
@@ -1564,12 +1590,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Disenchanter",
+      "desc": "While many warpriests focus on threats to the body, the disenchanter focuses on dangers to the mind and the soul. Using the power of his patron, the disenchanter seeks to keep the powers of magic in {g|Encyclopedia:Check}check{/g}.",
       "id": "384a9d0c3f1b0634ba183b77d75618c0",
       "layout": [
         [
@@ -1788,12 +1822,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Shieldbearer",
+      "desc": "Shieldbearers are divine warriors who stand on the front lines of battle, shoulder to shoulder with the soldiers of their people.",
       "id": "d34dcc10e74961f44a81f72b54377b24",
       "layout": [
         [
@@ -2029,12 +2071,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Proclaimer",
+      "desc": "A proclaimer, rushing into Abyss-twisted wastes with nothing but his weapon in his hand and his faith in his heart, shouting his deity\u0027s name to the skies. Most proclaimers don\u0027t survive their first day in a hostile environment, but those who do become the stuff of legend, bolstering the spirits of crusaders near and far.",
       "id": "aaf7ace9642192d4389eab95e6cd04fd",
       "layout": [
         [
@@ -2261,6 +2311,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

@@ -232,6 +232,7 @@
     }
   ],
   "name": "Rogue",
+  "desc": "Rogues excel at moving about unseen and catching foes unaware, and tend to avoid head-to-head combat. Their varied {g|Encyclopedia:Skills}skills{/g} and abilities allow them to be highly versatile, with great variations in expertise existing between different rogues. Most, however, excel in overcoming hindrances of all types, from unlocking doors and disarming traps to outwitting magical hazards and conning dull-witted opponents.",
   "layout": [
     [
       {
@@ -573,12 +574,21 @@
     6,
     6
   ],
+  "babSpeed": "Average",
+  "fortSpeed": "Low",
+  "reflexSpeed": "High",
+  "willSpeed": "Low",
+  "casterType": null,
+  "casterAbility": null,
+  "spontaneous": false,
   "spellSlots": null,
   "spells": null,
   "casterLevelModifier": 0,
+  "HitDie": 8,
   "archetypes": [
     {
       "name": "Eldritch Scoundrel",
+      "desc": "Students of arcane magic, legerdemain, and {g|Encyclopedia:Stealth}stealth{/g}, eldritch scoundrels are a rare breed of adventurer most commonly found seeking lost and valuable arcane writings in the ruins of fallen empires.",
       "id": "57f93dd8423c97c49989501281296c4a",
       "layout": [
         [
@@ -857,6 +867,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": "Arcane",
+      "casterAbility": "Intelligence",
+      "spontaneous": false,
       "spellSlots": [
         [],
         [
@@ -1271,6 +1288,7 @@
     },
     {
       "name": "Knife Master",
+      "desc": "The knife master is a trained killer who specializes in close-up combat and the wave and weave of knife fighting. In her hands, daggers and other similar light blades become truly deadly instruments.",
       "id": "9e94d1847e6f331478e5a714659220ce",
       "layout": [
         [
@@ -1571,12 +1589,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Thug",
+      "desc": "Some criminals steal with finesse, their victims only discovering the crime when the rogue is long gone and the coin already spent. A thug, on the other hand, cares nothing for finesse. Through both threat and violence, the thug gets what she wants by the promise of force, and has no problem making good on that promise as needed.",
       "id": "b5f0b25e1519d27479018353b51fd349",
       "layout": [
         [
@@ -1846,12 +1872,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Sylvan Trickster",
+      "desc": "Sylvan tricksters are rogues who model themselves after the mischievous fey of legend. Though not {g|Encyclopedia:Spell}spellcasters{/g}, sylvan tricksters learn minor magical abilities reminiscent of those favored by fey creatures. The journey for many sylvan tricksters began in childhood, learning at an elder\u0027s knee the stories of the fey and the secrets of how to resist their tricks. Sylvan tricksters often live in areas where the boundary with the Fey World is thin, and a few have even been there \u2014 voluntarily or not.",
       "id": "490394869f666c141bf8647b1a365220",
       "layout": [
         [
@@ -2221,12 +2255,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Underground Chemist",
+      "desc": "Underground chemists are part of the rotting, fetid underbelly of the alchemical world. While underground chemists can\u0027t hold a candle to dedicated alchemists, they\u0027re tricky and dangerous with alchemical substances and potions.",
       "id": "b4f5741d42c4cb04abf5ab3fe33f6fc5",
       "layout": [
         [
@@ -2510,12 +2552,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Rowdy",
+      "desc": "Sometimes brute force is as effective as {g|Encyclopedia:Trickery}trickery{/g} and {g|Encyclopedia:Stealth}stealth{/g}, and sometimes even more. Rowdies prefer this approach, and are true masters of inflicting lots of pain in a straightforward manner.",
       "id": "4dbc4b7f2d5149ce83854bffa72035ce",
       "layout": [
         [
@@ -2808,12 +2858,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Master of All",
+      "desc": "Some half-elves spend all their time gaining new knowledge and {g|Encyclopedia:Skills}skills{/g}, becoming the Masters of All.",
       "id": "bd4e70bfb89a452b876713d61b9b8eb2",
       "layout": [
         [
@@ -3096,6 +3154,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

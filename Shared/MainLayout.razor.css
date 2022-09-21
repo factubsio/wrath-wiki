@@ -1,11 +1,14 @@
 .page {
     position: relative;
     display: flex;
+    overflow: hidden;
 }
 
 main {
     flex: 1;
-/*    overflow: hidden;*/
+    position: relative;
+    left: 320px;
+    overflow: auto;
 }
 
 
@@ -17,15 +20,15 @@ main {
     width: 320px;
     min-width: 320px;
     height: 99vh;
-    position: sticky;
+    position: fixed;
     top: 0;
 }
 
 
 /*@media (min-width: 641px) {*/
-.page {
+/*.page {
     flex-direction: row;
-}
+}*/
 /*}*/
 
 .wiki-sidebar {

@@ -13,152 +13,284 @@
 }
 else
 {
-	<div class="chargen-sheet">
-		<div class="content">
-			<table class="progression-table">
-				<tr>
-					@for (var i = 1; i < 21; i++)
-					{
-						<th><div class="level-header">@i</div></th>
-					}
-				</tr>
-				<tr>
-					<td colspan="20"><div class="banner"><span>Feats</span></div></td>
-				</tr>
-				<tr>
-					<td colspan="20"><div class="banner"><span>@(Name)</span></div></td>
-				</tr>
-				<tr>
-					@foreach (var (bab, fort, reflex, will) in EnumerateStats())
-					{
-						<td class="chupa-slot chupa-bottom chupa-top">
-							<Tooltip>
-								<ChildContent>
-									<div class="stat-icon-box">
-										@if (bab.Increased)
-										{
-											<span class="badge-stat badge-bab"></span>
-										}
-										@if (fort.Increased)
-										{
-											<span class="badge-stat badge-fort"></span>
-										}
-										@if (reflex.Increased)
-										{
-											<span class="badge-stat badge-reflex"></span>
-										}
-										@if (will.Increased)
-										{
-											<span class="badge-stat badge-will"></span>
-										}
-									</div>
-								</ChildContent>
-								<TooltipContent>
-									<div class="header-brick"><h4>@Name</h4></div>
-									<div class="mini-header-brick"><h5>BASE ATTACK BONUS</h5></div>
-									<div class="brick-flow-horizontal">
-										@for (int it = 0; it < 4; it++)
-										{
-											<span class="badge-stat badge-bab"></span>
-
-											<span class="badge-value">@Iterative(bab, it)</span>
-										}
-									</div>
-									<div class="mini-header-brick"><h5>SAVING THROW</h5></div>
-									<div class="brick-flow-horizontal">
-										<span class="badge-stat badge-fort"></span><span class="badge-value">+@fort.Total</span>
-										<span class="badge-stat badge-reflex"></span><span class="badge-value">+@reflex.Total</span>
-										<span class="badge-stat badge-will"></span><span class="badge-value">+@will.Total</span>
-									</div>
-								</TooltipContent>
-							</Tooltip>
-						</td>
-					}
-				</tr>
-				@if (HasSpells)
-				{
+	<div class="chargen">
+		<div class="chargen-summary">
+			<div class="chargen-fluff">
+				<h3>@FullName</h3>
+				<p>@StripEncyclopediaTags(Desc)</p>
+			</div>
+			<div class="chargen-stats">
+				<table>
 					<tr>
-						@foreach (var level in EnumerateSpellProgression())
+						<td>
+							<div class="stat-box">
+								<span class="badge-stat badge-fort" />
+								<span>Fortitude</span>
+								<span>@FortSpeed</span>
+							</div>
+						</td>
+						<td>
+							<div class="stat-box">
+								<span class="badge-stat badge-reflex" />
+								<span>Reflex</span>
+								<span>@ReflexSpeed</span>
+							</div>
+						</td>
+						<td>
+							<div class="stat-box">
+								<span class="badge-stat badge-will" />
+								<span>Will</span>
+								<span>@WillSpeed</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="stat-box">
+								<span class="badge-stat badge-bab" />
+								<span>Base Attack Bonus</span>
+								<span>@BABSpeed</span>
+
+							</div>
+						</td>
+						<td>
+							<div class="stat-box">
+								<span class="badge-stat badge-hp" />
+								<span>HP per level</span>
+								<span>@(HpPerLevel) / Level</span>
+
+							</div>
+						</td>
+						<td>
+							<div class="stat-box">
+								<span class="badge-stat badge-hp" />
+								<span>HP</span>
+								<span>@BaseHp</span>
+							</div>
+						</td>
+					</tr>
+					@if (HasSpells)
+					{
+						<tr>
+							<td class="source-of-magic" colspan="3">@CasterType</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="stat-box">
+
+									<span class="badge-stat badge-magic" />
+									<span>Max level of spells</span>
+									<span>@MaxSpellLevel</span>
+								</div>
+							</td>
+							<td>
+								<div class="stat-box">
+
+									<span class="badge-stat badge-magic" />
+									<span>Caster ability</span>
+									<span>@CasterStat</span>
+								</div>
+							</td>
+							<td>
+								<div class="stat-box">
+
+									<span class="badge-stat badge-magic" />
+									<span>Caster type</span>
+									<span>@SpellSlotType</span>
+								</div>
+							</td>
+						</tr>
+					}
+				</table>
+			</div>
+		</div>
+		<div class="chargen-sheet">
+			<div class="content">
+				<table class="progression-table">
+					<tr>
+						@for (var i = 1; i < 21; i++)
 						{
-							<td class="chupa-slot chupa-bottom spell-progression-slot level-@level.CL">
-								@if (level.IsNull)
-								{
-									<span></span>
-								}
-								@if (!level.IsNull && level.IsNew)
-								{
-									<Tooltip>
-										<ChildContent>
-											<div class="spell-progression new-caster-level"><span>@level.Level</span></div>
-										</ChildContent>
-										<TooltipContent>
-											<div class="header-brick"><h4>@Name</h4></div>
-											<div class="mini-header-brick"><h5>SPELLS</h5></div>
-											<p>
-												@(string.Join(" ⦿ ", EnumerateSpellsAtSpellLevel(level.Level)))
-											</p>
-										</TooltipContent>
-									</Tooltip>
-								}
-								@if (!level.IsNull && !level.IsNew)
-								{
-									<div class="spell-progression"><span></span></div>
-								}
+							<th><div class="level-header">@i</div></th>
+						}
+					</tr>
+
+					@*
+					<tr>
+						<td colspan="20"><div class="banner"><span>Feats</span></div></td>
+					</tr>
+					<tr>
+						<td colspan="20"><div class="banner"><span>@(Name)</span></div></td>
+					</tr>
+					*@
+
+					<tr>
+						@foreach (var (bab, fort, reflex, will) in EnumerateStats())
+						{
+							<td class="chupa-slot chupa-bottom chupa-top">
+								<Tooltip TooltipClass="tooltip-above">
+									<ChildContent>
+										<div class="stat-icon-box">
+											@if (bab.Increased)
+											{
+												<span class="badge-stat badge-bab"></span>
+											}
+											@if (fort.Increased)
+											{
+												<span class="badge-stat badge-fort"></span>
+											}
+											@if (reflex.Increased)
+											{
+												<span class="badge-stat badge-reflex"></span>
+											}
+											@if (will.Increased)
+											{
+												<span class="badge-stat badge-will"></span>
+											}
+										</div>
+									</ChildContent>
+									<TooltipContent>
+										<div class="header-brick"><h4>@Name</h4></div>
+										<div class="mini-header-brick"><h5>BASE ATTACK BONUS</h5></div>
+										<div class="brick-flow-horizontal">
+											@for (int it = 0; it < 4; it++)
+											{
+												<span class="badge-stat badge-bab"></span>
+
+												<span class="badge-value">@Iterative(bab, it)</span>
+											}
+										</div>
+										<div class="mini-header-brick"><h5>SAVING THROW</h5></div>
+										<div class="brick-flow-horizontal">
+											<span class="badge-stat badge-fort"></span><span class="badge-value">+@fort.Total</span>
+											<span class="badge-stat badge-reflex"></span><span class="badge-value">+@reflex.Total</span>
+											<span class="badge-stat badge-will"></span><span class="badge-value">+@will.Total</span>
+										</div>
+									</TooltipContent>
+								</Tooltip>
 							</td>
 						}
 					</tr>
-
-				}
-				@foreach (var row in Rows)
-				{
-					<tr>
-						@foreach (var (f, rank, last, addRemove) in row)
-						{
-							@if (f == -1)
+					@if (HasSpells)
+					{
+						<tr>
+							@foreach (var level in EnumerateSpellProgression())
 							{
-								<td class="chupa-slot @(last ? "last-level" : "")"></td>
-							}
-							else if (model.features[f].icon != null)
-							{
-								<td class="chupa-slot @(last ? "last-level" : "")">
-									<Tooltip>
-										<ChildContent>
-											<div class="feature">
-												<img class="progression-feature" src="icons/@(model.features[f].icon).png">
-												@if (rank != -1)
-												{
-													<div class="rank-badge">@(rank)</div>
-												}
-												@if (addRemove == -1)
-												{
-													<div class="feature-removed"></div>
-												}
-												@if (addRemove == 1)
-												{
-													<div class="feature-added"></div>
-												}
-											</div>
-										</ChildContent>
-										<TooltipContent>
-											<div class="header-brick">
-												<div><img src="icons/@(model.features[f].icon).png"></div>
-												<h4 height=100%>@model.features[f].name</h4>
-											</div>
-											<p>
-												@StripEncyclopediaTags(@model.features[f].desc)
-											</p>
-										</TooltipContent>
-									</Tooltip>
+								<td class="chupa-slot chupa-bottom spell-progression-slot level-@level.CL">
+									@if (level.IsNull)
+									{
+										<span></span>
+									}
+									@if (!level.IsNull && level.IsNew)
+									{
+										<Tooltip>
+											<ChildContent>
+												<div class="spell-progression new-caster-level"><span>@level.Level</span></div>
+											</ChildContent>
+											<TooltipContent>
+												<div class="header-brick"><h4>@Name</h4></div>
+												<div class="mini-header-brick"><h5>SPELLS</h5></div>
+												<table class="slots-per-day">
+													<tr>
+														@for (int l = 1; l <= MaxSpellLevel; l++)
+														{
+															<th>@l</th>
+														}
+													</tr>
+													<tr>
+														@for (int l = 1; l <= MaxSpellLevel; l++)
+														{
+															<td>@GetSlotCount(@level.slots!, l)</td>
+														}
+													</tr>
+												</table>
+												<div class="mini-header-brick"><h5>NEW SPELLS - LEVEL @level.Level</h5></div>
+												<p>
+													@(string.Join(" ⦿ ", EnumerateSpellsAtSpellLevel(level.Level)))
+												</p>
+											</TooltipContent>
+										</Tooltip>
+									}
+									@if (!level.IsNull && !level.IsNew)
+									{
+										<Tooltip>
+											<ChildContent>
+												<div class="spell-progression"><span></span></div>
+											</ChildContent>
+											<TooltipContent>
+												<div class="header-brick"><h4>@Name</h4></div>
+												<div class="mini-header-brick"><h5>SPELLS</h5></div>
+												<table class="slots-per-day">
+													<tr>
+														@for (int l = 1; l <= MaxSpellLevel; l++)
+														{
+															<th>@l</th>
+														}
+													</tr>
+													<tr>
+														@for (int l = 1; l <= MaxSpellLevel; l++)
+														{
+															<td>@GetSlotCount(@level.slots!, l)</td>
+														}
+													</tr>
+												</table>
+											</TooltipContent>
+										</Tooltip>
+									}
 								</td>
 							}
-							else
+						</tr>
+					}
+					@foreach (var row in Rows)
+					{
+						<tr>
+							@foreach (var (f, rank, last, addRemove) in row)
 							{
-								<td class="chupa-slot @(last ? "last-level" : "")">@model.RenderFeature(f, rank)</td>
+								@if (f == -1)
+								{
+									<td class="chupa-slot @(last ? "last-level" : "")"></td>
+								}
+								else if (model.features[f].icon != null)
+								{
+									<td class="chupa-slot @(last ? "last-level" : "")">
+										<Tooltip>
+											<ChildContent>
+												<div class="feature">
+													<img class="progression-feature" src="icons/@(model.features[f].icon).png">
+													@if (rank != -1)
+													{
+														<div class="rank-badge">@(rank)</div>
+													}
+													@if (addRemove == -1)
+													{
+														<div class="feature-removed"></div>
+													}
+													@if (addRemove == 1)
+													{
+														<div class="feature-added"></div>
+													}
+												</div>
+											</ChildContent>
+											<TooltipContent>
+												<div class="header-brick">
+													<div><img src="icons/@(model.features[f].icon).png"></div>
+													<h4 height=100%>@model.features[f].name</h4>
+												</div>
+												<p>
+													@StripEncyclopediaTags(@model.features[f].desc)
+												</p>
+											</TooltipContent>
+										</Tooltip>
+									</td>
+								}
+								else
+								{
+									<td class="chupa-slot @(last ? "last-level" : "")">@model.RenderFeature(f, rank)</td>
+								}
 							}
-						}
-					</tr>
-				}
-			</table>
+						</tr>
+					}
+				</table>
+			</div>
 		</div>
 	</div>
 }
@@ -172,6 +304,22 @@ else
 	[Parameter]
 	public string? ArchetypeName { get; set; }
 
+	public string FortSpeed => (GetArchetype(out var arch) && arch.fortSpeed != null) ? arch.fortSpeed : model!.fortSpeed!;
+	public string ReflexSpeed => (GetArchetype(out var arch) && arch.reflexSpeed != null) ? arch.reflexSpeed : model!.reflexSpeed!;
+	public string WillSpeed => (GetArchetype(out var arch) && arch.willSpeed != null) ? arch.willSpeed : model!.willSpeed!;
+	public string BABSpeed => (GetArchetype(out var arch) && arch.babSpeed != null) ? arch.babSpeed : model!.babSpeed!;
+
+	public string CasterType => (GetArchetype(out var arch) && arch.casterType != null) ? arch.casterType : model!.casterType!;
+	public string CasterStat => (GetArchetype(out var arch) && arch.casterAbility != null) ? arch.casterAbility : model!.casterAbility!;
+
+	public bool IsSpontaneous => GetArchetype(out var arch) ? arch.spontaneous : model!.spontaneous;
+	public string SpellSlotType => IsSpontaneous ? "Spontaneous" : "Memorizing";
+
+	public string BaseHp => model!.HitDie.ToString();
+	public string HpPerLevel => ((model!.HitDie / 2) + 1).ToString();
+
+	public string Desc => GetArchetype(out var arch) ? arch.desc! : model!.desc!;
+
 	public static MarkupString StripEncyclopediaTags(string? str)
 	{
 		if (str is null) return (MarkupString)"";
@@ -184,7 +332,7 @@ else
 			}
 
 			if (match.ValueSpan.StartsWith("{/")) return "</a>";
-			return "<a href=\"/PSYCHE\">";
+			return "<a href=\"#\">";
 		});
 	}
 
@@ -243,6 +391,17 @@ else
 		public string[][]? spells;
 
 		public int[][]? spellSlots;
+
+		public string? babSpeed;
+		public string? fortSpeed;
+		public string? reflexSpeed;
+		public string? willSpeed;
+
+		public string? casterType;
+		public string? casterAbility;
+		public bool spontaneous;
+
+		public string? desc;
 	}
 
 	public bool HasSpells
@@ -265,6 +424,8 @@ else
 
 	public string Name => GetArchetype(out var arch) ? arch.name : model!.name!;
 
+	public string FullName => GetArchetype(out var arch) ? $"{model!.name} - {arch.name}" : model!.name!;
+
 	public IEnumerable<string> EnumerateSpellsAtSpellLevel(int cl)
 	{
 		string[][] list = model!.spells!;
@@ -279,7 +440,27 @@ else
 			yield return spell;
 	}
 
-	public IEnumerable<(int Level, bool IsNew, bool IsNull, int CL)> EnumerateSpellProgression()
+	public int GetSlotCount(int[] table, int level)
+	{
+		if (level < table.Length)
+			return table[level];
+		return 0;
+	}
+
+	public int MaxSpellLevel
+	{
+		get
+		{
+			int[][] slots = model!.spellSlots!;
+			if (GetArchetype(out var arch) && arch.spellSlots != null)
+			{
+				slots = arch.spellSlots;
+			}
+			return slots.Last().Length - 1;
+		}
+	}
+
+	public IEnumerable<(int Level, bool IsNew, bool IsNull, int CL, int[]? slots)> EnumerateSpellProgression()
 	{
 		int[][] slots = model!.spellSlots!;
 		if (GetArchetype(out var arch) && arch.spellSlots != null)
@@ -293,14 +474,14 @@ else
 		{
 			int cl = i + model!.casterLevelModifier;
 			if (cl < 1)
-				yield return (-1, false, true, 0);
+				yield return (-1, false, true, 0, null);
 			else
 			{
 				int[] table = slots[cl];
 				int nextLevel = table.Length - 1;
 				bool isNew = nextLevel > currentLevel;
 				currentLevel = nextLevel;
-				yield return (nextLevel, isNew, false, cl);
+				yield return (nextLevel, isNew, false, cl, table);
 			}
 		}
 	}
@@ -365,7 +546,19 @@ else
 		public List<LocalFeature> features = new();
 		public List<List<RowEntry>> layout = new();
 		public string? name;
+		public string? desc;
 		public int casterLevelModifier;
+
+		public int HitDie;
+
+		public string? babSpeed;
+		public string? fortSpeed;
+		public string? reflexSpeed;
+		public string? willSpeed;
+
+		public string? casterType;
+		public string? casterAbility;
+		public bool spontaneous;
 
 		public int[]? bab { get; set; }
 		public int[]? fort { get; set; }

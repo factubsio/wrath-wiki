@@ -177,6 +177,7 @@
     }
   ],
   "name": "Oracle",
+  "desc": "Although the gods work through many agents, perhaps none are more mysterious than oracles. These divine vessels are granted power without their choice, selected by providence to wield powers that even they do not fully understand. Unlike clerics, who draws their magic through devotion to a deity, oracles garner {g|Encyclopedia:Strength}strength{/g} and power from many sources, namely those patron deities who support their ideals. Instead of worshiping a single source, oracles tend to venerate all of the gods that share their beliefs. While some see the powers of the oracle as a gift, others view them as a curse, changing the life of the chosen in unforeseen ways.",
   "layout": [
     [
       {
@@ -348,6 +349,13 @@
     11,
     12
   ],
+  "babSpeed": "Average",
+  "fortSpeed": "Low",
+  "reflexSpeed": "Low",
+  "willSpeed": "High",
+  "casterType": "Divine",
+  "casterAbility": "Charisma",
+  "spontaneous": true,
   "spellSlots": [
     [],
     [
@@ -708,9 +716,11 @@
     []
   ],
   "casterLevelModifier": 0,
+  "HitDie": 8,
   "archetypes": [
     {
       "name": "Lone Strider",
+      "desc": "A lone strider is a recluse who gained her oracular powers from isolation in a deep desert, on a mountain peak, or in another secluded location. A connection to untraveled places gives the lone strider powers to evade her enemies.",
       "id": "8f205adfab73b3c4c8c93d251a3cef02",
       "layout": [
         [
@@ -825,12 +835,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Enlightened Philosopher",
+      "desc": "The enlightened philosopher seeks truth through compassion, moderation, and humility. By following her philosophy\u0027s teachings, she aspires to reach enlightenment and become one with the universe.",
       "id": "4f2698f04fa63e34b8153fa3a9795649",
       "layout": [
         [
@@ -953,12 +971,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Divine Herbalist",
+      "desc": "Divine herbalists practice an obscure alchemical art which involves medicinal and {g|Encyclopedia:Healing}restorative{/g} techniques that transcend ordinary alchemy, allowing them to blur the line between alchemical medicine and divine miracles.",
       "id": "204117c48168f2a41a8e155419e6e880",
       "layout": [
         [
@@ -1081,12 +1107,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Seeker",
+      "desc": "Oracles gain their magical powers through strange and mysterious ways, be they chosen by fate or blood. While most might be content with their strange powers, some oracles join the Pathfinders specifically to find out more about their mysteries and determine the genesis and history of their eldritch talents. These {g|Encyclopedia:Spell}spellcasters{/g} are known as seekers, after their obsession with researching ancient texts and obscure ruins for any clues they can find about their heritage and histories.",
       "id": "c539d65b7682c8d469e6f122922f1dee",
       "layout": [
         [
@@ -1199,12 +1233,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Possessed Oracle",
+      "desc": "Some oracles are possessed by spirits, demons, or similar beings. Instead of drawing her powers from deities, a possessed oracle has these otherworldly forces work their magic through her.",
       "id": "09035bb5dbb714645bb08ea7db47884c",
       "layout": [
         [
@@ -1311,12 +1353,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Purifier",
+      "desc": "The purifier seeks out signs of possession or mind control that manifest from unwilling (and often unwitting) servants for fiendish corruptors and their mortal minions. A purifier seeks liberation of mind, body, and spirit from the bondage of sin and the taint of the unholy.",
       "id": "c9df67160a77ecd4a97928f2455545d7",
       "layout": [
         [
@@ -1441,12 +1491,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Wind Whisperer",
+      "desc": "People often find themselves listening to the rustle of the wind, but only a handful of them hear whispering of the mighty nature element, and can use it as a source of power.",
       "id": "77769e43e63647c2b32298efcc577aca",
       "layout": [
         [
@@ -1553,6 +1611,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

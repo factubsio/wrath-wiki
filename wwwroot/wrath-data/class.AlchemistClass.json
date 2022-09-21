@@ -246,6 +246,7 @@
     }
   ],
   "name": "Alchemist",
+  "desc": "The alchemist\u0027s reputation is not softened by his exuberance (some would say dangerous recklessness) in perfecting his magical extracts and potion-like creations, infusing these substances with magic siphoned from his aura and using his own body as experimental stock. Nor is it mollified by the alchemist\u0027s almost gleeful passion for building explosive bombs and discovering strange new poisons and methods for their use. These {g|Encyclopedia:Trait}traits{/g}, while making him a liability and risk for most civilized organizations and institutions of higher learning, seem to fit quite well with most adventuring groups.",
   "layout": [
     [
       {
@@ -541,6 +542,13 @@
     6,
     6
   ],
+  "babSpeed": "Average",
+  "fortSpeed": "High",
+  "reflexSpeed": "High",
+  "willSpeed": "Low",
+  "casterType": "Special",
+  "casterAbility": "Intelligence",
+  "spontaneous": false,
   "spellSlots": [
     [],
     [
@@ -768,9 +776,11 @@
     []
   ],
   "casterLevelModifier": 0,
+  "HitDie": 8,
   "archetypes": [
     {
       "name": "Grenadier",
+      "desc": "Grenadiers train to exercise their talents in the thick of battle, even when not under the influence of their mutagens. They learn methods of combining weapon {g|Encyclopedia:Attack}attacks{/g} with their alchemical magic, and sacrifice {g|Encyclopedia:Skills}skill{/g} with poisons in order to become more adept at using alchemical bombs or using alchemical items in conjunction with their martial skills. As an unusual side effect of their skill at handling bombs and alchemical items with increased {g|Encyclopedia:Speed}speed{/g}, grenadiers master the ability to drink potions, elixirs, and mutagens quickly and safely, without exposing themselves to peril while doing so.",
       "id": "6af888a7800b3e949a40f558ff204aae",
       "layout": [
         [
@@ -1015,12 +1025,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Vivisectionist",
+      "desc": "A vivisectionist studies bodies to better understand their function. Unlike a chirurgeon, a vivisectionist\u0027s goals are not related to {g|Encyclopedia:Healing}healing{/g}, but rather to experimentation and knowledge that most people would consider evil.",
       "id": "68cbcd9fbf1fb1d489562f829bb97e38",
       "layout": [
         [
@@ -1360,12 +1378,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Chirurgeon",
+      "desc": "An alchemist who studies anatomy and uses this knowledge to {g|Encyclopedia:Healing}heal{/g} is a chirurgeon.",
       "id": "063440d550b25524abcb8dc2590d0168",
       "layout": [
         [
@@ -1595,12 +1621,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Preservationist",
+      "desc": "Preservationist is an alchemist who keeps preserved specimens in bottles, and releases them to aid him in his battles.",
       "id": "d218568445cf0524e889a2dfce97d76f",
       "layout": [
         [
@@ -1851,12 +1885,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Metamorph",
+      "desc": "Metamorphs eschew traditional alchemy, focusing on internal chemistry and the transfiguration of living forms.",
       "id": "ac242ddeaa05af449bfc5230231fab84",
       "layout": [
         [
@@ -2129,12 +2171,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Incense Synthesizer",
+      "desc": "Some alchemists focus their efforts on researching different kinds of incenses to aid them and their allies in battle against the forces of evil.",
       "id": "6faf49766d8156c419d08f556a40374f",
       "layout": [
         [
@@ -2389,6 +2439,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

@@ -123,6 +123,7 @@
     }
   ],
   "name": "Witch",
+  "desc": "Some gain power through study, some through devotion, others through blood, but the witch gains power from her communion with the unknown. Generally feared and misunderstood, the witch draws her magic from a pact made with an otherworldly power. Communing with that source, using her familiar as a conduit, the witch gains not only a host of {g|Encyclopedia:Spell}spells{/g}, but a number of strange abilities known as hexes. As a witch grows in power, she might learn about the source of her magic, but some remain blissfully unaware. Some are even afraid of that source, fearful of what it might be or where its true purposes lie.\nWhile many witches are recluses, living on the edge of civilization, some live within society, openly or in hiding. The blend of witches\u0027 spells makes them adept at filling a number of different roles, from seer to {g|Encyclopedia:Healing}healer{/g}, and their hexes grant them a number of abilities that are useful in a fight. Some witches travel about, seeking greater knowledge and better understanding of the mysterious powers that guide them.",
   "layout": [
     [
       {
@@ -317,6 +318,13 @@
     11,
     12
   ],
+  "babSpeed": "Low",
+  "fortSpeed": "Low",
+  "reflexSpeed": "Low",
+  "willSpeed": "High",
+  "casterType": "Arcane",
+  "casterAbility": "Intelligence",
+  "spontaneous": false,
   "spellSlots": [
     [],
     [
@@ -649,9 +657,11 @@
     []
   ],
   "casterLevelModifier": 0,
+  "HitDie": 6,
   "archetypes": [
     {
       "name": "Stigmatized Witch",
+      "desc": "Some witches think of their magic not as a gift, but as a curse. Her body is tarnished with a mark of her ill fate. Maybe the patron of such a witch was cruel and decided that power mustn\u0027t come cheap, or, maybe, they mercifully helped the witch to turn the adversities that befell her into a source of new {g|Encyclopedia:Strength}strength{/g}. A stigmatized witch relies on intuition, her magic is based not on the sharpness of her wit, but on the strength of her character. Instead of the regular powers granted by a patron, such a witch gets a curse like an oracle, and she casts her {g|Encyclopedia:Spell}spells{/g} spontaneously \u2014 like a sorcerer, rather than a wizard.",
       "id": "c5f6e53e71059fb4d802ce81a277a12d",
       "layout": [
         [
@@ -767,6 +777,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": "Charisma",
+      "spontaneous": true,
       "spellSlots": [
         [],
         [
@@ -1094,6 +1111,7 @@
     },
     {
       "name": "Hagbound",
+      "desc": "Whether a changeling in the process of succumbing to her mother\u0027s call, a witch cursed by a hag to become her instrument of torment, a vain and petty witch overeager for power, or some other unfortunate soul, a hagbound witch finds its soul has been infected by a hag\u0027s spite and powerful, corrupt arcane magic. Her mind and body begin to transform to reflect her new being. Hagbound witches suffer a slow transformative taint that is similar to the accursed corruption and make ideal candidates for this additional power \u2014 and tragedy.",
       "id": "96e4c06b6add0a64a8ad8976f9c38c37",
       "layout": [
         [
@@ -1251,12 +1269,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Hex Channeler",
+      "desc": "A hex channeler is a witch who devotes herself to either life \u2014 {g|Encyclopedia:Healing}healing{/g} the wounded and destroying the undead \u2014 or {g|Encyclopedia:Injury_Death}death{/g}, slaying the living and aiding undead.",
       "id": "191b4be2152fde541ac8984c7f36e91d",
       "layout": [
         [
@@ -1371,12 +1397,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Ley Line Guardian",
+      "desc": "Some witches tap into the power of their patrons not through a special connection with a familiar, but rather directly through the vast network of ley lines that crosses the planes. These witches can harness the latent powers of ley lines without even needing to be near one of the points where ley lines\u0027 powers are accessible to mortal {g|Encyclopedia:Spell}spellcasters{/g}.",
       "id": "ee92a9813c04b1440a3af3c766b6b02d",
       "layout": [
         [
@@ -1506,6 +1540,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": "Intelligence",
+      "spontaneous": true,
       "spellSlots": [
         [],
         [
@@ -1833,6 +1874,7 @@
     },
     {
       "name": "Witch of the Veil",
+      "desc": "Secrets, mysteries and shrouds are the ever-changing backbone of the witch of the veil. She always strives to discover new arcane knowledge of this universe, while guarding their secrecy.",
       "id": "08045a390a764d71b2150fd122e05e19",
       "layout": [
         [
@@ -1976,12 +2018,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Elemental Witch",
+      "desc": "Witches sometimes dive deep into elemental energies, allowing to evoke destructive powers upon their enemies.",
       "id": "d7c7cdbc760041fabaedc1623a53a431",
       "layout": [
         [
@@ -2112,6 +2162,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

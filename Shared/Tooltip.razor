@@ -1,10 +1,39 @@
-﻿<div class="tooltip-wrapper">
-    <div class="tooltip-body">@TooltipContent</div>
-    @ChildContent
+﻿@inject BrowserService Service
+
+<div class="tooltip-wrapper">
+	<div class="tooltip-body @DynamicClass" @ref="TooltipEl">@TooltipContent</div>
+	<div class="mouse-trap" @onmouseover="MouseOver" @ref="Trap">
+		@ChildContent
+	</div>
 </div>
 
 
 @code {
+	ElementReference Trap;
+	ElementReference TooltipEl;
+
+	public async Task MouseOver(MouseEventArgs a)
+	{
+		var rect = await Service.GetBrowserAndElementDimensionsAsync(Trap, TooltipEl);
+
+		string dynClass = "";
+
+		if (rect.ElementLeft < 660) //an extra 330 cos of float bullshit bollocks
+			dynClass = "tooltip-right";
+		else if (rect.BrowserWidth - rect.ElementRight < 330)
+			dynClass = "tooltip-left";
+		else
+			dynClass = "";
+
+		if (rect.ElementTop > (rect.ElementHeight2 + 32))
+			dynClass += " tooltip-above";
+
+		DynamicClass = dynClass;
+	}
+
+	public string DynamicClass { get; set; } = "";
+
 	[Parameter] public RenderFragment? ChildContent { get; set; }
 	[Parameter] public RenderFragment? TooltipContent { get; set; }
+	[Parameter] public string TooltipClass { get; set; } = "";
 }

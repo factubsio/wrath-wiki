@@ -276,6 +276,7 @@
     }
   ],
   "name": "Skald",
+  "desc": "Skalds are poets, historians, and keepers of lore who use their gifts for oration and song to inspire allies into a frenzied rage. They balance a violent spirit with the veneer of civilization, recording events such as heroic battles and the deeds of great leaders, enhancing these stories in the retelling to earn bloodier victories in combat. A skald\u0027s poetry is nuanced and often has multiple overlapping meanings, and he applies similar talents to emulate magic from other {g|Encyclopedia:Spell}spellcasters{/g}.",
   "layout": [
     [
       {
@@ -564,6 +565,13 @@
     11,
     12
   ],
+  "babSpeed": "Average",
+  "fortSpeed": "High",
+  "reflexSpeed": "Low",
+  "willSpeed": "High",
+  "casterType": "Arcane",
+  "casterAbility": "Charisma",
+  "spontaneous": true,
   "spellSlots": [
     [],
     [
@@ -818,9 +826,11 @@
     []
   ],
   "casterLevelModifier": 0,
+  "HitDie": 8,
   "archetypes": [
     {
       "name": "Battle Scion",
+      "desc": "The battle scion possesses a unique mixture of courtly grace alongside martial and magical prowess. She is a warrior-poet, as {g|Encyclopedia:Skills}skilled{/g} with her words as she is with blades. Battle scions sometimes rule as queens over courts of brave knights who scour the world championing bold quests.",
       "id": "71d41dd6309ea994886908c34c87ccd9",
       "layout": [
         [
@@ -1083,12 +1093,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Court Poet",
+      "desc": "Many courts are places of artistic refinement, attracting those performers who wish to revel in an aristocratic art scene. Such artists may aim to become a darling of the court, focusing on the aesthetic requirements of a particular tradition as well as learning details about that court\u0027s history and culture. Court poets elevate the skald\u0027s love of history and poetry to an aristocratic ideal, captivating courts with complicated poetic traditions and inspiring others with their craft. Some court poets go on to create their own works, weaving their magic and force of personality into their unique performances.",
       "id": "5e63586bebd229649bdafe0fde4caaec",
       "layout": [
         [
@@ -1344,12 +1362,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Demon Dancer",
+      "desc": "While the twisted power of the demon-worshiping skalds is great, it comes at a terrible price.",
       "id": "9c46c4e4303e5da40b63faa6df18e2c2",
       "layout": [
         [
@@ -1600,12 +1626,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Herald of the Horn",
+      "desc": "Even the loudest voice can often times be drowned out by the din of battle. Whether with the polished metal trumpet of a standing army or the crude curved animal horn of savage raiders, a herald of the horn sounds his raging song with thunderous blasts, which can bolster allies or shatter castle walls.",
       "id": "72fa7b1c7a6ede44eb490080bf4a2f90",
       "layout": [
         [
@@ -1836,12 +1870,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Hunt Caller",
+      "desc": "Hunt callers are skalds whose songs draw their allies into the animal world. They can invoke the inner beasts of those who observe their supernatural performances\u2014a talent that causes many to mistake the hunt caller and her allies for lycanthropes or other shapechanging creatures.",
       "id": "67daa4f4f2b62f54cb3ec56bdc85dea6",
       "layout": [
         [
@@ -2078,12 +2120,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Battle Singer",
+      "desc": "Battle singer\u0027s songs are powerful enough to {g|Encyclopedia:Damage}damage{/g} the enemies with the sheer power of their vocal cords.",
       "id": "db942e7040084ea289c6be2bfeb3d0a8",
       "layout": [
         [
@@ -2306,6 +2356,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

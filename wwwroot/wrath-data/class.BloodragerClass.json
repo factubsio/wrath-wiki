@@ -219,6 +219,7 @@
     }
   ],
   "name": "Bloodrager",
+  "desc": "While many ferocious combatants can tap into a deep reservoir of buried rage, bloodragers have an intrinsic power that seethes within. Like sorcerers, bloodragers\u0027 veins surge with arcane power. While sorcerers use this power for {g|Encyclopedia:Spell}spellcasting{/g}, bloodragers enter an altered state in which their bloodline becomes manifest, where the echoes of their strange ancestry lash out with devastating power. In these states, bloodragers can cast some arcane spells instinctively. The bloodrager\u0027s magic is as fast, violent, and seemingly unstoppable as their physical prowess.",
   "layout": [
     [
       {
@@ -426,6 +427,13 @@
     6,
     6
   ],
+  "babSpeed": "High",
+  "fortSpeed": "High",
+  "reflexSpeed": "Low",
+  "willSpeed": "Low",
+  "casterType": "Arcane",
+  "casterAbility": "Charisma",
+  "spontaneous": true,
   "spellSlots": [
     [
       0,
@@ -624,9 +632,11 @@
     []
   ],
   "casterLevelModifier": 0,
+  "HitDie": 10,
   "archetypes": [
     {
       "name": "Bloodrider",
+      "desc": "In the world\u0027s wild lands, a mount is an advantage in both everyday life and the dealing of {g|Encyclopedia:Injury_Death}death{/g}. In many barbarian tribes, the true stature of a warrior is determined by his {g|Encyclopedia:Skills}skill{/g} and ferocity on horseback. Other tribes measure it in skill atop whatever terrible mounts their people employ. A number of bloodragers are not only skilled in the art of mounted combat, but have learned to channel their arcane energies directly into their mount.",
       "id": "9a8b323e5559dab45a23e0dc0b8e9c52",
       "layout": [
         [
@@ -769,12 +779,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Greenrager",
+      "desc": "Typically, nature finds its greatest harmony with divine magic, but sometimes a connection with the natural world manifest itself through the arcane current in the veins of the bloodragers called greenragers. These bloodragers funnel their eldritch heritage into abilities that allow them to call powerful allies from nature and empower them with their bloodrage.",
       "id": "5648585af75596f4a9fa3ae385127f57",
       "layout": [
         [
@@ -937,12 +955,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Primalist",
+      "desc": "While bloodrage powers come from the very essence of a bloodrager\u0027s being and are often strict and immutable, some bloodragers tap into ancient traditions and primitive wisdom to enhance their rages with something more primal. The primalist mixes his bloodline with more traditional rage powers.",
       "id": "4d588290ed0736e4f8cd3f4c3beacd69",
       "layout": [
         [
@@ -1070,12 +1096,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Spelleater",
+      "desc": "Where other bloodragers learn to avoid or shrug off minor {g|Encyclopedia:Damage}damage{/g} of all sorts, {g|Encyclopedia:Spell}spelleaters{/g} tap into the power of their bloodline in order to {g|Encyclopedia:Healing}heal{/g} damage as it comes, and can even cannibalize their own magical energy to heal more damage and continue taking the fight to the enemy.",
       "id": "afe79636228fdd64ea8d9bf3644838a3",
       "layout": [
         [
@@ -1210,12 +1244,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Steelblood",
+      "desc": "Most bloodragers prefer light armor, but some learn the secret of using heavy armors. These steelbloods plod around the battlefield inspiring fear and delivering carnage from within a steel shell.",
       "id": "32a5dff92373a9641b43e97d453b9369",
       "layout": [
         [
@@ -1399,12 +1441,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Reformed Fiend",
+      "desc": "The teachings of light gods say that everyone deserves the right to redemption. Everyone \u2013 except the demons. Reformed fiends are demons who have entered on the path of good, although they still look like monsters in the eyes of the most living. But no one will dare to doubt that the rage with which they fight the creatures of evil is the force that the world needs most in these difficult times.",
       "id": "d55163eed9214367820654f0ebe0ff69",
       "layout": [
         [
@@ -1579,12 +1629,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Mixed-Blood Rager",
+      "desc": "Sometimes, the mixed blood make a unstoppable martial machine out of bloodrager, forcing conflicting impulses on his mind.",
       "id": "10d92d54d19e4a59b5bbd4259ec0974f",
       "layout": [
         [
@@ -1720,6 +1778,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": true

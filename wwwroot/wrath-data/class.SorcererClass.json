@@ -176,6 +176,7 @@
     }
   ],
   "name": "Sorcerer",
+  "desc": "Sorcerers excel at casting a selection of favored {g|Encyclopedia:Spell}spells{/g} frequently, making them powerful battle mages. As they become familiar with a specific and ever-widening set of spells, sorcerers often discover new and versatile ways of making use of magics other spellcasters might overlook. Their bloodlines also grant them additional abilities, assuring that no two sorcerers are ever quite alike.",
   "layout": [
     [
       {
@@ -320,6 +321,13 @@
     11,
     12
   ],
+  "babSpeed": "Low",
+  "fortSpeed": "Low",
+  "reflexSpeed": "Low",
+  "willSpeed": "High",
+  "casterType": "Arcane",
+  "casterAbility": "Charisma",
+  "spontaneous": true,
   "spellSlots": [
     [],
     [
@@ -756,9 +764,11 @@
     []
   ],
   "casterLevelModifier": 0,
+  "HitDie": 6,
   "archetypes": [
     {
       "name": "Empyreal Sorcerer",
+      "desc": "Your heavenly power derives from insight rather than force of personality.",
       "id": "aa00d945f7cf6c34c909a29a25f2df38",
       "layout": [
         [
@@ -832,6 +842,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": "Wisdom",
+      "spontaneous": true,
       "spellSlots": [
         [],
         [
@@ -1271,6 +1288,7 @@
     },
     {
       "name": "Sylvan Sorcerer",
+      "desc": "Your ties to nature have more to do with creatures than with capriciousness.",
       "id": "711d5024ecc75f346b9cda609c3a1f83",
       "layout": [
         [
@@ -1344,12 +1362,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Sage Sorcerer",
+      "desc": "Your magic comes from the knowledge and traditions that your bloodline accumulated through the generations, not just from force of personality. You use your {g|Encyclopedia:Intelligence}Intelligence{/g}, rather than your {g|Encyclopedia:Charisma}Charisma{/g}, to determine all class features and effects relating to your sorcerer class, such as bonus {g|Encyclopedia:Spell}spells{/g} per day, the maximum spell level you can cast, the {g|Encyclopedia:Saving_Throw}save{/g} DCs of your spells, and the number of daily uses of your bloodline powers.",
       "id": "00b990c8be2117e45ae6514ee4ef561c",
       "layout": [
         [
@@ -1423,6 +1449,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": "Intelligence",
+      "spontaneous": true,
       "spellSlots": [
         [],
         [
@@ -1862,6 +1895,7 @@
     },
     {
       "name": "Crossblooded",
+      "desc": "A crossblooded bloodline combines the powers of two distinct heritages. In most cases, sorcerers with this bloodline are the offspring of two sorcerers from different ancestries, but occasionally a crossblooded sorcerer arises from the conjunction of other powers. A draconic sorcerer who is also the culmination of a great destiny, an abyssal sorcerer from a family that dealt with devils, and an arcane sorcerer raised from birth by fey are all possible sources for crossblooded bloodlines.",
       "id": "e66a112ab57f69e418f1f11d5d2f3248",
       "layout": [
         [
@@ -1935,6 +1969,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": "Charisma",
+      "spontaneous": true,
       "spellSlots": [
         [],
         [
@@ -2374,6 +2415,7 @@
     },
     {
       "name": "Seeker",
+      "desc": "Sorcerers gain their magical powers through strange and mysterious ways. While most might be content with their strange powers, some adventure far and wide in search of a greater understanding of the genesis and history of their eldritch talents. These {g|Encyclopedia:Spell}spellcasters{/g} are known as seekers, after their obsession with researching ancient texts and obscure ruins for any clues they can find about their heritage and histories.",
       "id": "7229db6fc0b07af4180e783eed43c4d9",
       "layout": [
         [
@@ -2467,12 +2509,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Nine Tailed Heir",
+      "desc": "Stories often tell of kitsune with multiple tails, but not many realize that fewer than one kitsune in every thousand has this potential, and those that do usually have a magical quirk in their blood or have been blessed by their {g|Encyclopedia:Race}race{/g}\u0027s deific matron. As a result, most that harness the mystic powers of their newfound tails often gain sorcerous powers, becoming nine-tailed heirs.",
       "id": "65a630aa291f65047b90a2af5df75d83",
       "layout": [
         [
@@ -2601,12 +2651,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Overwhelming Mage",
+      "desc": "Innate magical powers are always a tempting phenomenon, and many people are content with the extent of their powers, but overwhelming mages strive to improve the sheer capacity of their powers.",
       "id": "734917ec8b8542378c1d35519439d67f",
       "layout": [
         [
@@ -2697,6 +2755,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

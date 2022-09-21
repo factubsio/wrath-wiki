@@ -153,6 +153,7 @@
     }
   ],
   "name": "Arcanist",
+  "desc": "Some {g|Encyclopedia:Spell}spellcasters{/g} seek the secrets of magic, pursuing the power to make the impossible possible. Others are born with magic in their blood, commanding unbelievable forces as effortlessly as they breathe. Yet still others seek to meld the science of arcane scholars with the natural might of innate casters. These arcanists seek to discover the mysterious laws of magic and through will and expertise bend those forces to their whims. Arcanists are the shapers and tinkers of the arcane world, and no magic can resist their control.",
   "layout": [
     [
       {
@@ -355,6 +356,13 @@
     11,
     12
   ],
+  "babSpeed": "Low",
+  "fortSpeed": "Low",
+  "reflexSpeed": "Low",
+  "willSpeed": "High",
+  "casterType": "Arcane",
+  "casterAbility": "Intelligence",
+  "spontaneous": true,
   "spellSlots": [
     [],
     [
@@ -791,9 +799,11 @@
     []
   ],
   "casterLevelModifier": 0,
+  "HitDie": 6,
   "archetypes": [
     {
       "name": "Brown-Fur Transmuter",
+      "desc": "Frequently called \u0022brown-furs,\u0022 these transmutation-focused arcanists are known for transforming themselves into animals. What few realize is that these specialized arcanists excel at turning themselves and others into all kinds of creatures.",
       "id": "ce63b2df8c6c12649b02c278e73d8bfa",
       "layout": [
         [
@@ -930,12 +940,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Eldritch Font",
+      "desc": "For some arcanists, the power bubbling up from within is nearly too much to contain. They become adept at shaping this magical energy without needing to bind it up in {g|Encyclopedia:Spell}spells{/g}.",
       "id": "2f35608fc073c04448a9c162a20852ce",
       "layout": [
         [
@@ -1087,6 +1105,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": "Intelligence",
+      "spontaneous": true,
       "spellSlots": [
         [],
         [
@@ -1526,6 +1551,7 @@
     },
     {
       "name": "Unlettered Arcanist",
+      "desc": "Some arcanists store their {g|Encyclopedia:Spell}spells{/g} as whispered secrets within familiars instead of on paper.",
       "id": "44f3ba33839a87f48a66b2b9b2f7c69b",
       "layout": [
         [
@@ -1657,6 +1683,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": "Intelligence",
+      "spontaneous": true,
       "spellSlots": [
         [],
         [
@@ -1984,6 +2017,7 @@
     },
     {
       "name": "White Mage",
+      "desc": "A white mage is an arcanist touched by a divine power and gifted with the ability to {g|Encyclopedia:Healing}heal{/g} others.",
       "id": "5f2fa2e0d1cf1ca428af7e24c443d868",
       "layout": [
         [
@@ -2114,12 +2148,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Phantasmal Mage",
+      "desc": "The strong bond with fairies determines a natural predisposition of gnomes to the magic of the First World. By sacrificing time to learn the modern arcanist techniques, Phantom Mages become true masters of metamagic when it comes to the school of illusion.",
       "id": "e9d0ee69305049fe8400a066010dbcd1",
       "layout": [
         [
@@ -2271,12 +2313,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Nature Mage",
+      "desc": "Some arcanists have innate abilities closely linked to nature. They use their {g|Encyclopedia:Intelligence}Intelligence{/g} to dive deeper into the secrets of the world.",
       "id": "26185cfb81b34e778ad370407300de9a",
       "layout": [
         [
@@ -2400,6 +2450,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": "Intelligence",
+      "spontaneous": true,
       "spellSlots": [
         [],
         [

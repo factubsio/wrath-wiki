@@ -611,6 +611,7 @@
     }
   ],
   "name": "Monk",
+  "desc": "Monks excel at overcoming even the most daunting perils, striking where it\u0027s least expected, and taking advantage of enemy vulnerabilities. Fleet of foot and {g|Encyclopedia:Skills}skilled{/g} in combat, monks can navigate any battlefield with ease, aiding allies wherever they are needed most.",
   "layout": [
     [
       {
@@ -959,12 +960,21 @@
     6,
     6
   ],
+  "babSpeed": "High",
+  "fortSpeed": "High",
+  "reflexSpeed": "High",
+  "willSpeed": "Low",
+  "casterType": null,
+  "casterAbility": null,
+  "spontaneous": false,
   "spellSlots": null,
   "spells": null,
   "casterLevelModifier": 0,
+  "HitDie": 10,
   "archetypes": [
     {
       "name": "Scaled Fist",
+      "desc": "Steeped in traditions that trace their origins to the warrior-monks who trained under the tutelage of draconic masters, scaled fists eschew passive introspection in favor of unshakable confidence. Scaled fists learn to combine brutal intimidation with the brazen ferocity of an ancient wyrm to devastate their foes.",
       "id": "5868fc82eb11a4244926363983897279",
       "layout": [
         [
@@ -1360,12 +1370,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Sensei",
+      "desc": "The sensei is a revered teacher who imparts lessons on the oneness of mind, body, and spirit, along with occasional correction that is subtle and swift. Rather than using {g|Encyclopedia:Wisdom}wisdom{/g} for his own benefit alone, he uses it to better those around him.",
       "id": "f8767821ec805bf479706392fcc3394c",
       "layout": [
         [
@@ -1735,12 +1753,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Traditional Monk",
+      "desc": "Traditional monks walk the strict path of discipline which thousands of predecessors trod before them. They sacrifice the freedom to choose their power in exchange for steeled willpower and the trusted set of traditional abilities.",
       "id": "8f3242d209994884bbb6c0999660f4df",
       "layout": [
         [
@@ -2059,12 +2085,20 @@
         6,
         6
       ],
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": "Low",
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Zen Archer",
+      "desc": "Some monks seek to become one with another weapon entirely \u2014 the bow. The zen archer takes a weapon most other monks eschew and seeks perfection in the pull of a taut bowstring, the flex of a bow\u0027s limbs, and the flight of an arrow fired true.",
       "id": "2b1a58a7917084f49b097e86271df21c",
       "layout": [
         [
@@ -2426,12 +2460,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Sohei",
+      "desc": "The sohei are masters of the horse and the hunt. A monastic soldier, the sohei is equally adept at combat afoot or on horseback. While {g|Encyclopedia:Skills}skilled{/g} in {g|Encyclopedia:UnarmedAttack}unarmed{/g} techniques, many sohei favor weapons they can use while mounted on horseback or against others\u0027 horses.",
       "id": "fad7c56737ed12e42aacc330acc86428",
       "layout": [
         [
@@ -2867,12 +2909,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Student of Stone",
+      "desc": "By following the path of the stone, students of stone give up much of monk\u0027s {g|Encyclopedia:Mobility}mobility{/g} in favor of sheer resilience.",
       "id": "3b81e57a75299b74ab6b144e830864e9",
       "layout": [
         [
@@ -3211,12 +3261,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Quarterstaff Master",
+      "desc": "Some monks focus their efforts on perfecting the way of one of the simplest weapons \u2014 a quarterstaff. They train until the quarterstaff becomes a natural extension of their own body.",
       "id": "dde7724382ae4f63aa9786cb9b3b64b2",
       "layout": [
         [
@@ -3536,6 +3594,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

@@ -45,6 +45,7 @@
     }
   ],
   "name": "Mystic Theurge",
+  "desc": "Mystic theurges place no boundaries on their magical abilities and find no irreconcilable paradox in devotion to the arcane as well as the divine. They seek magic in all of its forms, finding no reason or logic in denying themselves instruction by limiting their knowledge to one stifling paradigm, though many are simply hungry for limitless power. The mystic theurge is a powerful component for any party, supplying magic for {g|Encyclopedia:Attack}attack{/g}, defense, and {g|Encyclopedia:Healing}healing{/g}. Mystic theurges travel the world in search of arcane and holy artifacts, magical lore, or divine revelations, and most have no qualms about teaming up with groups of adventurers so long as that group\u0027s goals do not directly conflict with their own.",
   "layout": [
     [
       {
@@ -191,8 +192,16 @@
     0,
     0
   ],
+  "babSpeed": "Low",
+  "fortSpeed": "Unknown",
+  "reflexSpeed": "Unknown",
+  "willSpeed": "Unknown",
+  "casterType": null,
+  "casterAbility": null,
+  "spontaneous": false,
   "spellSlots": null,
   "spells": null,
   "casterLevelModifier": 0,
+  "HitDie": 6,
   "archetypes": []
 }

@@ -75,6 +75,7 @@
     }
   ],
   "name": "Assassin",
+  "desc": "A mercenary undertaking his task with cold, professional detachment, the assassin is equally adept at espionage, bounty hunting, and terrorism. At his core, an assassin is an artisan, and his medium is {g|Encyclopedia:Injury_Death}death{/g}. Trained in a variety of killing techniques, assassins are among the most feared classes.",
   "layout": [
     [
       {
@@ -313,8 +314,16 @@
     0,
     0
   ],
+  "babSpeed": "Average",
+  "fortSpeed": "Unknown",
+  "reflexSpeed": "Unknown",
+  "willSpeed": "Unknown",
+  "casterType": null,
+  "casterAbility": null,
+  "spontaneous": false,
   "spellSlots": null,
   "spells": null,
   "casterLevelModifier": 0,
+  "HitDie": 8,
   "archetypes": []
 }

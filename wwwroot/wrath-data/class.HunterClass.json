@@ -261,6 +261,7 @@
     }
   ],
   "name": "Hunter",
+  "desc": "Hunters are warriors of the wilds that have forged close bonds with trusted animal companions. They focus their tactics on fighting alongside their companion animals as a formidable team of two. Able to cast a wide variety of nature {g|Encyclopedia:Spell}spells{/g} and take on the abilities and attributes of beasts, hunters magically improve both themselves and their animal companions.",
   "layout": [
     [
       {
@@ -474,6 +475,13 @@
     6,
     6
   ],
+  "babSpeed": "Average",
+  "fortSpeed": "High",
+  "reflexSpeed": "High",
+  "willSpeed": "Low",
+  "casterType": "Divine",
+  "casterAbility": "Wisdom",
+  "spontaneous": true,
   "spellSlots": [
     [],
     [
@@ -733,9 +741,11 @@
     []
   ],
   "casterLevelModifier": 0,
+  "HitDie": 8,
   "archetypes": [
     {
       "name": "Divine Hunter",
+      "desc": "While most hunters heed the call of nature and fight to protect its bounty, some are inspired to serve a higher power. These divine hunters use faith to aid them in their struggles, and their faith infuses their animal companions, making these companions champions of their deities.",
       "id": "f996f0a18e5d945459e710ee3a6dd485",
       "layout": [
         [
@@ -877,12 +887,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Urban Hunter",
+      "desc": "Urban hunters help guards track down and apprehend criminals or spies, find lost children and disaster victims, and protect animals from abuse in the city. They still draw their inspiration and strength from the natural world, marveling at how nature flourishes wherever the city allows.",
       "id": "f1341c61c77092643ae63d7cb52f83f8",
       "layout": [
         [
@@ -1072,12 +1090,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Colluding Scoundrel",
+      "desc": "The colluding scoundrel is a canny and conniving skirmisher, manipulating her enemies and leveraging her allies for her own benefit.",
       "id": "34963fc6d87354c4fa85eb76f122c41c",
       "layout": [
         [
@@ -1226,12 +1252,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Forester",
+      "desc": "While all hunters have a bond with the natural world, a forester has a stronger tie to her environment than to the animals within it. While most foresters feel strong bonds with woodland regions, the archetype functions well in other terrains as well. In such cases, a forester might refer to herself by a different name that more accurately reflects her chosen terrain. For example, a forester who favors bogs and marshes might call herself a \u0022swamper,\u0022 while one who favors frozen regions might call herself a \u0022glacier guardian.\u0022 As foresters gain levels and take on new favored terrains, they often eschew such titles completely, viewing them as unnecessary, and merely refer to themselves as guardians of the wild or champions of nature\u0027s will \u2014 but regardless of the name, their devotion remains.",
       "id": "74ee8172df6782f4792ea0f8647dea34",
       "layout": [
         [
@@ -1480,12 +1514,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Wandering Marksman",
+      "desc": "The wandering marksman is used to divert enemy attention from him to his animal companion and then strike from a distance.",
       "id": "0be343c549776574286730b33ae5c676",
       "layout": [
         [
@@ -1640,12 +1682,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Divine Hound",
+      "desc": "Some hunters specialize in hunting other people side by side with a loyal friend.",
       "id": "339659f6b09b4136bf8c2b2c3df87c65",
       "layout": [
         [
@@ -1848,6 +1898,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

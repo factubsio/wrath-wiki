@@ -45,6 +45,7 @@
     }
   ],
   "name": "Stalwart Defender",
+  "desc": "Stalwart defenders are masters of melee combat, striving to prove that the best offense is a good defense. Stalwart defenders are normally found on the front lines of battle, holding a position to cover their allies, leaping into breaches of opposing formations and holding them open for others, and guarding more vulnerable allies by acting as mobile fortifications, stable points in the ever-changing chaos of battle.",
   "layout": [
     [
       {
@@ -254,8 +255,16 @@
     0,
     0
   ],
+  "babSpeed": "High",
+  "fortSpeed": "Unknown",
+  "reflexSpeed": "Unknown",
+  "willSpeed": "Unknown",
+  "casterType": null,
+  "casterAbility": null,
+  "spontaneous": false,
   "spellSlots": null,
   "spells": null,
   "casterLevelModifier": 0,
+  "HitDie": 12,
   "archetypes": []
 }

@@ -401,6 +401,7 @@
     }
   ],
   "name": "Magus",
+  "desc": "Magi spend much of their time traveling the world, learning whatever martial or arcane secrets they can find. They might spend months learning a new sword-fighting style from a master warrior, while simultaneously moonlighting in the local library, poring through tomes of ancient lore. Most who take this path dabble in all sorts of lore, picking up anything that might aid them in their search for perfection.",
   "layout": [
     [
       {
@@ -681,6 +682,13 @@
     11,
     12
   ],
+  "babSpeed": "Average",
+  "fortSpeed": "High",
+  "reflexSpeed": "Low",
+  "willSpeed": "High",
+  "casterType": "Arcane",
+  "casterAbility": "Intelligence",
+  "spontaneous": false,
   "spellSlots": [
     [],
     [
@@ -923,9 +931,11 @@
     []
   ],
   "casterLevelModifier": 0,
+  "HitDie": 8,
   "archetypes": [
     {
       "name": "Eldritch Scion",
+      "desc": "Unlike typical magi, eldritch scions do not study tomes of magic or spend time learning to combine martial and magical {g|Encyclopedia:Skills}skills{/g}. Rather, eldritch scions find that their {g|Encyclopedia:Spell}spells{/g} and abilities come to them instinctively.",
       "id": "d078b2ef073f2814c9e338a789d97b73",
       "layout": [
         [
@@ -1222,6 +1232,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": "Charisma",
+      "spontaneous": true,
       "spellSlots": [
         [],
         [
@@ -1467,6 +1484,7 @@
     },
     {
       "name": "Sword Saint",
+      "desc": "A sword saint spends his life focusing his training and meditation into a rapturous perfection of the use of a single weapon, which is usually but not always a sword, channeling his arcane might through it in a dizzying and deadly dance beyond the abilities of even the greatest of mundane warriors.",
       "id": "7d6678f2160018049814838af2ab4236",
       "layout": [
         [
@@ -1732,6 +1750,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": "Intelligence",
+      "spontaneous": false,
       "spellSlots": [
         [],
         [
@@ -1977,6 +2002,7 @@
     },
     {
       "name": "Eldritch Archer",
+      "desc": "The eldritch archer rains magical {g|Encyclopedia:Attack}attacks{/g} down on her foes.",
       "id": "44388c01eb4a29d4d90a25cc0574320d",
       "layout": [
         [
@@ -2185,12 +2211,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Hexcrafter",
+      "desc": "A hexcrafter magus has uncovered the secret of using his arcane pool to recreate witch hexes. These magi can hex friend and foe, curse those they strike, and expand their {g|Encyclopedia:Spell}spell{/g} selection to include many curses and harmful spells.",
       "id": "79ccf7a306a5d5547bebd97299f6fc89",
       "layout": [
         [
@@ -2445,12 +2479,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Armored Battlemage",
+      "desc": "Many battlemages focus purely on destructive evocations, but some extend their tactical studies to include use of the tried-and-true protection of steel. These armored battlemages learn to move and cast {g|Encyclopedia:Spell}spells{/g} in even the most restrictive armors, and have developed new methods to magically enhance their armor.",
       "id": "67ec8dcae6fb3d3439e5ae874ddc7b9b",
       "layout": [
         [
@@ -2721,12 +2763,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Spell Dancer",
+      "desc": "The {g|Encyclopedia:Strength}strong{/g} emphasis on wizards within elven culture influences how even non-wizard elves see themselves. Many elven magi do not consider themselves masters of a blend of martial and magical talents, but rather a sub-category of wizards who study the effect of physical movement and techniques upon {g|Encyclopedia:Spell}spellcasting{/g} ability. They believe their ability to cast spells while fighting is an outgrowth of the concept of the \u0022spell dance\u0022, which itself is just another kind of wizardry.",
       "id": "1125145639129cf45b6b9b674cbd62b1",
       "layout": [
         [
@@ -2949,12 +2999,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Arcane Rider",
+      "desc": "When a magus gains a special bond with his mount, he becomes an Arcane Rider. Magus and his faithful companion not only begin to think as one, but literally become a single arcane entity \u2014 they share one arcane pool and can move through dimensions together, plunging enemies into confusion with sudden {g|Encyclopedia:Attack}attacks{/g} from nowhere.",
       "id": "2dff80a045794cb9b5452fe7b66b79d7",
       "layout": [
         [
@@ -3206,6 +3264,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

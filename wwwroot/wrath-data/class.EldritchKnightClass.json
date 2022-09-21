@@ -27,6 +27,7 @@
     }
   ],
   "name": "Eldritch Knight",
+  "desc": "Eldritch knights blend the abilities of fighting classes and {g|Encyclopedia:Spell}spellcasters{/g}, hurling magic at the enemy one moment and hewing down their opponents with steel the next. They are just as comfortable fighting in the thick of combat as they are casting spells at foes while remaining safely behind their compatriots. Their versatility makes them valuable allies when the nature of an upcoming battle is unclear.",
   "layout": [
     [
       {
@@ -163,8 +164,16 @@
     0,
     0
   ],
+  "babSpeed": "High",
+  "fortSpeed": "Unknown",
+  "reflexSpeed": "Unknown",
+  "willSpeed": "Unknown",
+  "casterType": null,
+  "casterAbility": null,
+  "spontaneous": false,
   "spellSlots": null,
   "spells": null,
   "casterLevelModifier": 0,
+  "HitDie": 10,
   "archetypes": []
 }

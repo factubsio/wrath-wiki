@@ -81,6 +81,7 @@
     }
   ],
   "name": "Dragon Disciple",
+  "desc": "With the magic of a {g|Encyclopedia:Spell}spellcasting{/g} class at their disposal, dragon disciples can assume the typical role of a magic-user, hampering the movement of the enemy and hurling {g|Encyclopedia:Damage}damage{/g}-dealing spells at their opponents. Dragon disciples\u0027 draconic abilities, however, make these versatile spellcasters even more formidable, as they use their breath weapons and flight to destroy their foes directly.",
   "layout": [
     [
       {
@@ -295,8 +296,16 @@
     0,
     0
   ],
+  "babSpeed": "Average",
+  "fortSpeed": "Unknown",
+  "reflexSpeed": "Unknown",
+  "willSpeed": "Unknown",
+  "casterType": null,
+  "casterAbility": null,
+  "spontaneous": false,
   "spellSlots": null,
   "spells": null,
   "casterLevelModifier": 0,
+  "HitDie": 12,
   "archetypes": []
 }

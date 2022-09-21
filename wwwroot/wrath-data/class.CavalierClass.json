@@ -231,6 +231,7 @@
     }
   ],
   "name": "Cavalier",
+  "desc": "While many warriors strive to perfect their art, spending all of their time honing their skill at martial arms, others spend as much effort dedicating themselves to a cause. These warriors, known as cavaliers, swear themselves to a purpose, serving it above all else. Cavaliers are skilled at fighting from horseback, and are often found charging across a battlefield, with the symbol of their order trailing on a long, fluttering banner. The cavalier\u0027s true power comes from the conviction of his ideals, the oaths that he swears, and the challenges he makes.",
   "layout": [
     [
       {
@@ -454,12 +455,21 @@
     6,
     6
   ],
+  "babSpeed": "High",
+  "fortSpeed": "High",
+  "reflexSpeed": "Low",
+  "willSpeed": "Low",
+  "casterType": null,
+  "casterAbility": null,
+  "spontaneous": false,
   "spellSlots": null,
   "spells": null,
   "casterLevelModifier": 0,
+  "HitDie": 10,
   "archetypes": [
     {
       "name": "Beast Rider",
+      "desc": "The cavalier is defined not only by his dedication to his order or his skill on the battlefield, but also by the special relationship he maintains with his mount. Where some cavaliers are simply skilled with horses or well-trained knights, the beast rider spends his life in constant pursuit of the most perfect mount, forming bonds with greater, more powerful, and more exotic creatures.",
       "id": "d287fbf2495ff2e4d88d5c49217bf173",
       "layout": [
         [
@@ -612,12 +622,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Disciple of the Pike",
+      "desc": "The Order of the Pike are renowned monster hunters, taking on large game using ancient weapon arts combined with modern equipment.",
       "id": "4c4c3f9df00a5e04680d172a290111c4",
       "layout": [
         [
@@ -816,12 +834,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Knight of the Wall",
+      "desc": "The cavaliers known as Knights of the Wall revere a famous general who was crucial in the defeat of a powerful wizard-king.",
       "id": "112dd0e61f95c3a459ac0a565472e685",
       "layout": [
         [
@@ -987,12 +1013,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Gendarme",
+      "desc": "The gendarme cares less for the finer points of tactical precision than he does for the exhilaration of the charge: the rush of wind through the visor of his helmet, the feel of his couched lance, the satisfying shriek of armor giving way before his weapon\u0027s force as the point drives past metal into his foes.",
       "id": "48fd69254e9e5c540bd65101d3252184",
       "layout": [
         [
@@ -1186,12 +1220,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Standard Bearer",
+      "desc": "Not all cavaliers are content to ride at the head of a charge, leading from the front and facing down their enemies directly. Some prefer to stand away from the fray, their banners a beacon shining brightly over the battlefield, rallying their troops to victory. The standard bearer employs the banner of his order, his lord, or his own house to raise the spirits of his allies and warns enemies of impending doom.",
       "id": "07db3fec753209546a792a7942288998",
       "layout": [
         [
@@ -1355,12 +1397,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Fearsome Leader",
+      "desc": "Fear is a good motivator \u2014 and some commanders use this fact to inspire their troops, preferring it to the usual approach.",
       "id": "13cc5ccd5cef4c98a5806f033e19a8bb",
       "layout": [
         [
@@ -1520,12 +1570,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Cavalier of the Paw",
+      "desc": "Cavaliers of the Order of the Paw pledge to defend halflings, halfling settlements, and other innocent folks by patrolling the wilderness and seeking out possible threats to both individuals and whole communities. These cavaliers hunt down potential danger with a ruthless efficiency and determination that non-halflings find surprising and even somewhat alarming.",
       "id": "8d95dc9edd5740aeadb5906198a9925a",
       "layout": [
         [
@@ -1699,6 +1757,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

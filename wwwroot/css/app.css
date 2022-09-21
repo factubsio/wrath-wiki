@@ -24,6 +24,9 @@ html, body {
     font-family: 'FakeNS';
 }
 
+#app {
+}
+
 h1:focus {
     outline: none;
 }
@@ -75,7 +78,7 @@ h1:focus {
 
 table.progression-table {
     table-layout: fixed;
-    width: 1200px;
+/*    width: 1200px;*/
 }
 
     table.progression-table td, th {
@@ -98,7 +101,7 @@ table.progression-table {
         margin-right: -5px;
     }
 
-    table.progression-table .banner {
+/*    table.progression-table .banner {
         width: 1280px;
         height: 60px;
         background-image: url('../ui/UI_BackgroundCaption.png');
@@ -110,7 +113,7 @@ table.progression-table {
         display: flex;
         align-items: center;
     }
-
+*/
     .banner span {
         vertical-align: middle;
         padding-left: 60px;
@@ -121,10 +124,9 @@ table.progression-table {
 
 
 .chargen-sheet {
-    background-image: url('../ui/UI_CharGen_Sheet.jpg');
+/*    background-image: url('../ui/UI_CharGen_Sheet.jpg');
     background-size: 100% 100%;
-    padding: 40px 80px;
-    width: 1250px;
+    padding: 40px 80px;*/
     margin: 0px;
 }
 
@@ -246,4 +248,14 @@ body {
 }
 .badge-will {
     background-image: url('../ui/UI_Icon_Will.png');
+}
+.badge-hp {
+    background-image: url('../ui/UI_Icon_HP.png');
+}
+.badge-magic {
+    background-image: url('../ui/UI_Icon_Magic.png');
+}
+
+article {
+/*    overflow-x: scroll;*/
 }

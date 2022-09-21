@@ -314,6 +314,7 @@
     }
   ],
   "name": "Inquisitor",
+  "desc": "Inquisitors tend to move from place to place, chasing down enemies and researching emerging threats. As a result, they often travel with others, if for no other reason than to mask their presence. Inquisitors work with members of their faith whenever possible, but even such allies are not above suspicion.",
   "layout": [
     [
       {
@@ -577,6 +578,13 @@
     11,
     12
   ],
+  "babSpeed": "Average",
+  "fortSpeed": "High",
+  "reflexSpeed": "Low",
+  "willSpeed": "High",
+  "casterType": "Divine",
+  "casterAbility": "Wisdom",
+  "spontaneous": true,
   "spellSlots": [
     [],
     [
@@ -843,9 +851,11 @@
     []
   ],
   "casterLevelModifier": 0,
+  "HitDie": 8,
   "archetypes": [
     {
       "name": "Faith Hunter",
+      "desc": "Certain relentless inquisitors burn with special hatred for an enemy of specific convictions, and they stop at nothing when obsessively hunting these foes down.",
       "id": "ac87f40932cfd324c90b441f93857c40",
       "layout": [
         [
@@ -1065,12 +1075,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Monster Tactician",
+      "desc": "While most inquisitors have learned to take advantage of the movements of their opponents and allies in combat, some instead summon creatures as a means of claiming strategic advantage, exploiting the mystic connection between themselves and their summoned creatures to impart a bit of their own tactical knowledge.",
       "id": "cdaabf4b146c9ba42ab7d05abe3b48c4",
       "layout": [
         [
@@ -1326,12 +1344,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Tactical Leader",
+      "desc": "Rather than pursuing their holy missions alone, some inquisitors see the inherent value of working with like-minded allies to accomplish mutual goals.",
       "id": "639b74fd2f48d474e965c596b1649095",
       "layout": [
         [
@@ -1537,12 +1563,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Sacred Huntsmaster",
+      "desc": "Some inquisitors create a strong bond with an animal companion, and they hunt and punish threats to the faith as an awe-inspiring duo. When they work together as one, there are few that dare to stand in their way.",
       "id": "46eb929c8b6d7164188eb4d9bcd0a012",
       "layout": [
         [
@@ -1780,12 +1814,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Sanctified Slayer",
+      "desc": "While all inquisitors root out enemies of the faith, in many orders and churches there\u0027s a select group of these religious hunters devoted to one goal, and one goal alone \u2014 to terminate the enemies of the faith wherever they can be found. Sometimes these sanctified slayers are given special dispensation to commit ruthless murders for the faith\u0027s greater good. Other times, they\u0027re simply willing to take the initiative to revel in the zeal of such grisly work.",
       "id": "19b4a243d9a4bd34887d03c3dea03ced",
       "layout": [
         [
@@ -2061,12 +2103,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Judge",
+      "desc": "{g|Encyclopedia:Strength}Strength{/g} of conviction of some inquisitors is so great, that their one word can sentence an enemy to {g|Encyclopedia:Injury_Death}death{/g}, while increasing their allies power.",
       "id": "0e5e91c17f114d358910e0da4ae29b50",
       "layout": [
         [
@@ -2264,6 +2314,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

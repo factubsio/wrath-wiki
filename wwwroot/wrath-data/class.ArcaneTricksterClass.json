@@ -45,6 +45,7 @@
     }
   ],
   "name": "Arcane Trickster",
+  "desc": "With their mastery of magic, arcane tricksters can make for even more subtle or confounding opponents than standard rogues. Ranged legerdemain enhances their {g|Encyclopedia:Skills}skill{/g} as thieves, and their ability to make sneak {g|Encyclopedia:Attack}attacks{/g} without {g|Encyclopedia:Flanking}flanking{/g} or as part of a {g|Encyclopedia:Spell}spell{/g} can make arcane tricksters formidable {g|Encyclopedia:Damage}damage{/g}-dealers.",
   "layout": [
     [
       {
@@ -228,8 +229,16 @@
     0,
     0
   ],
+  "babSpeed": "Low",
+  "fortSpeed": "Unknown",
+  "reflexSpeed": "Unknown",
+  "willSpeed": "Unknown",
+  "casterType": null,
+  "casterAbility": null,
+  "spontaneous": false,
   "spellSlots": null,
   "spells": null,
   "casterLevelModifier": 0,
+  "HitDie": 6,
   "archetypes": []
 }

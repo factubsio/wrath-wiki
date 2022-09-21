@@ -54,3 +54,65 @@ table.progression-table ::deep img {
 ::deep .badge-value {
     margin-right: 10px;
 }
+
+.slots-per-day ::deep td,th {
+    border: 1px solid gray;
+    width: 32px;
+    height: 32px;
+}
+
+.chargen {
+    background-image: url('./ui/UI_CharGen_Sheet.jpg');
+    background-size: 100% 100%;
+    padding: 10px 80px 50px 80px;
+    z-index: 2;
+/*    position: relative;*/
+    width: 1250px;
+    min-height: 90vh;
+}
+
+.chargen-summary {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 30px;
+}
+
+.chargen-fluff {
+    max-width: 600px;
+    font-size: 120%;
+    line-height: 115%;
+}
+
+.chargen-summary table td {
+    border: 1px solid gray;
+    padding: 8px;
+    width: 140px;
+    height: 30px;
+}
+
+.stat-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stat-box .badge-stat {
+    width: 20px;
+    height: 20px;
+}
+
+.stat-box ::deep span:nth-child(2) {
+    color: darkred;
+}
+.stat-box ::deep span:nth-child(3) {
+    font-weight: bold;
+}
+
+.source-of-magic {
+    text-align: center;
+    max-height: 10px;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}

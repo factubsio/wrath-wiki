@@ -81,6 +81,7 @@
     }
   ],
   "name": "Duelist",
+  "desc": "The abilities of duelists complement those rogues or bards who wish to accentuate their fighting prowess but, because of their lack of heavy armor, are afraid to leap into combat. Duelists fight in the forefront alongside fighters, barbarians, and other melee combatants, deftly avoiding the blades of their opponents while expertly targeting their vulnerabilities.",
   "layout": [
     [
       {
@@ -275,8 +276,16 @@
     0,
     0
   ],
+  "babSpeed": "High",
+  "fortSpeed": "Unknown",
+  "reflexSpeed": "Unknown",
+  "willSpeed": "Unknown",
+  "casterType": null,
+  "casterAbility": null,
+  "spontaneous": false,
   "spellSlots": null,
   "spells": null,
   "casterLevelModifier": 0,
+  "HitDie": 10,
   "archetypes": []
 }

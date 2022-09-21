@@ -323,6 +323,7 @@
     }
   ],
   "name": "Ranger",
+  "desc": "Rangers are deft skirmishers, either in melee or at range, capable of {g|Encyclopedia:Skills}skillfully{/g} dancing in and out of battle. Their abilities allow them to deal significant harm to specific types of foes, but their skills are valuable against all manner of enemies.",
   "layout": [
     [
       {
@@ -598,6 +599,13 @@
     6,
     6
   ],
+  "babSpeed": "High",
+  "fortSpeed": "High",
+  "reflexSpeed": "High",
+  "willSpeed": "Low",
+  "casterType": "Divine",
+  "casterAbility": "Wisdom",
+  "spontaneous": false,
   "spellSlots": [
     [],
     [
@@ -792,9 +800,11 @@
     []
   ],
   "casterLevelModifier": -3,
+  "HitDie": 10,
   "archetypes": [
     {
       "name": "Demonslayer",
+      "desc": "Demonslayers are known for their expertise in the destruction of demons.",
       "id": "fd8c915590dcc5b41b73b80c3c0da8ee",
       "layout": [
         [
@@ -1122,12 +1132,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Freebooter",
+      "desc": "A freebooter is a natural leader, a pirate who works well with a variety of people and in a variety of roles. Her specialized combat tactics help organize and direct a crew, and freebooters\u0027 talents are in high demand. Most freebooters work as independent agents. A freebooter signs on with a crew when she feels the urge to travel, and often moves to a new ship when her contract ends.",
       "id": "4fd9705f1aebf614f9500bb0e7341179",
       "layout": [
         [
@@ -1331,12 +1349,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Flamewarden",
+      "desc": "Emulating the blazing phoenix, flamewardens sweep through the world like a selective forest fire, burning away corruption, evil, and those who cling to decay.",
       "id": "300917c3479d27d47b4b4b52b1762e8d",
       "layout": [
         [
@@ -1590,12 +1616,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Stormwalker",
+      "desc": "Rangers who walk in the tempest unafraid draw the power of the storm into themselves and become stormwalkers.",
       "id": "a330c05e484d98748a462acd43654a3a",
       "layout": [
         [
@@ -1847,12 +1881,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Espionage Expert",
+      "desc": "These rangers\u0027 favorite hunting grounds aren\u0027t woods or mountains, but city streets and enemy headquarters. These masterful spies hunt for secrets, rather than meat, using lies and {g|Encyclopedia:Stealth}stealthiness{/g} as effectively as blades and arrows.",
       "id": "7888187acfd26b7499cf255b0d6dcb0e",
       "layout": [
         [
@@ -2078,6 +2120,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": "Charisma",
+      "spontaneous": false,
       "spellSlots": [
         [],
         [
@@ -2275,6 +2324,7 @@
     },
     {
       "name": "Nomad",
+      "desc": "For some rangers living in vast plains, their horses are an irreplaceable part of their lives, and their bows are a natural extension of their arms.",
       "id": "9f147dbae4a34cda9f0e6091dc1a4a7c",
       "layout": [
         [
@@ -2512,6 +2562,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

@@ -117,6 +117,7 @@
     }
   ],
   "name": "Magus (Eldritch Scion)",
+  "desc": "Unlike typical magi, eldritch scions do not study tomes of magic or spend time learning to combine martial and magical {g|Encyclopedia:Skills}skills{/g}. Rather, eldritch scions find that their {g|Encyclopedia:Spell}spells{/g} and abilities come to them instinctively.",
   "layout": [
     [
       {
@@ -373,6 +374,13 @@
     11,
     12
   ],
+  "babSpeed": "Average",
+  "fortSpeed": "High",
+  "reflexSpeed": "Low",
+  "willSpeed": "High",
+  "casterType": "Arcane",
+  "casterAbility": "Charisma",
+  "spontaneous": true,
   "spellSlots": [
     [],
     [
@@ -615,5 +623,6 @@
     []
   ],
   "casterLevelModifier": 0,
+  "HitDie": 8,
   "archetypes": []
 }

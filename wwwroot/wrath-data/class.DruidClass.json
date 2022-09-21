@@ -258,6 +258,7 @@
     }
   ],
   "name": "Druid",
+  "desc": "While some druids might keep to the fringe of battle, allowing companions and summoned creatures to fight while they confound foes with the powers of nature, others transform into deadly beasts and savagely wade into combat. Druids worship personifications of elemental forces, natural powers, or nature itself. Typically this means devotion to a nature deity, though druids are just as likely to revere vague spirits, animalistic demigods, or even specific awe-inspiring natural wonders.",
   "layout": [
     [
       {
@@ -474,6 +475,13 @@
     11,
     12
   ],
+  "babSpeed": "Average",
+  "fortSpeed": "High",
+  "reflexSpeed": "Low",
+  "willSpeed": "High",
+  "casterType": "Divine",
+  "casterAbility": "Wisdom",
+  "spontaneous": false,
   "spellSlots": [
     [],
     [
@@ -799,9 +807,11 @@
     []
   ],
   "casterLevelModifier": 0,
+  "HitDie": 8,
   "archetypes": [
     {
       "name": "Blight Druid",
+      "desc": "The devoted servants of nature corrupted, ruined, and destroyed, blight druids are the caretakers of lands ravaged by natural disaster. While some are devoted to reforming and reclaiming lands despoiled by the ravages of civilization, others seek out the more rapacious violence inherent in nature and feed the creeping rot and decay that brings an end to all things.",
       "id": "35a3b7bfc663ac74aa8bb50adfe70813",
       "layout": [
         [
@@ -960,12 +970,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Defender of the True World",
+      "desc": "Some druids specialize in tracking down, diverting, and slaying fey threats.",
       "id": "782c46afacd88d448afba6178471a744",
       "layout": [
         [
@@ -1143,12 +1161,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Feyspeaker",
+      "desc": "Some druids hear the whispers of the natural world like fey creatures do, and learn to mimic those tantalizing murmurs in order to influence the minds of both wild beasts and civilized people. These feyspeakers are often touched by the fey in some way, such as mortals who dared to eat the food and drink the wine while in the hidden halls of the fey.",
       "id": "da69747aa3dd0044ebff5f3d701cdde3",
       "layout": [
         [
@@ -1374,6 +1400,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": "Average",
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": "Charisma",
+      "spontaneous": false,
       "spellSlots": [
         [],
         [
@@ -1702,6 +1735,7 @@
     },
     {
       "name": "Drovier",
+      "desc": "Droviers view their allies and adventuring companions as a herd or pack to be protected and directed, with variations on that theme ranging from culture to culture.",
       "id": "a6bf603aa4d666f4f86dab0289e2048c",
       "layout": [
         [
@@ -1888,12 +1922,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Elemental Rampager",
+      "desc": "Some druids embrace the destructive aspect of nature and its elements, using this power to fuel their prowess in melee combat.",
       "id": "f815594bd1e3454182022d375bf70fd1",
       "layout": [
         [
@@ -2060,12 +2102,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Primal Druid",
+      "desc": "Primal druids hone their spiritual and magical connections to nature\u0027s largest creatures, especially dinosaurs and megafauna, revering these massive creatures as living relics of a primeval time when all creatures were more in harmony with nature.",
       "id": "c1c86e2997fd4257a13ef5601b5dc6dd",
       "layout": [
         [
@@ -2211,6 +2261,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

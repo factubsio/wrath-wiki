@@ -41,7 +41,29 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
+    <script type="text/javascript">
+        window.getDimensions = function () {
+            return {
+                width: window.innerWidth,
+                height: window.innerHeight
+            };
+        };
+        window.getBrowserAndElementDimensions = function (el, el2) {
+            const rect = el.getBoundingClientRect();
+            const rect2 = el2.getBoundingClientRect();
+            return {
+                BrowserWidth: window.innerWidth,
+                BrowserHeight: window.innerHeight,
+                ElementTop: rect.top,
+                ElementBot: rect.bot,
+                ElementLeft: rect.left,
+                ElementRight: rect.right,
+                ElementHeight2: rect2.height
+            };
+        };
+    </script>
     <script src="_framework/blazor.webassembly.js"></script>
+
 </body>
 
 </html>

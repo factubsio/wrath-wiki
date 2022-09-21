@@ -220,6 +220,7 @@
     }
   ],
   "name": "Cleric",
+  "desc": "More than capable of upholding the honor of their deities in battle, clerics often prove stalwart and capable combatants. Their true strength lies in their capability to draw upon the power of their deities, whether to increase their own and their allies\u0027 prowess in battle, to vex their foes with divine magic, or to lend {g|Encyclopedia:Healing}healing{/g} to companions in need. As their powers are influenced by their faith, all clerics must focus their worship upon a divine source.",
   "layout": [
     [
       {
@@ -346,6 +347,13 @@
     11,
     12
   ],
+  "babSpeed": "Average",
+  "fortSpeed": "High",
+  "reflexSpeed": "Low",
+  "willSpeed": "High",
+  "casterType": "Divine",
+  "casterAbility": "Wisdom",
+  "spontaneous": false,
   "spellSlots": [
     [],
     [
@@ -714,9 +722,11 @@
     []
   ],
   "casterLevelModifier": 0,
+  "HitDie": 8,
   "archetypes": [
     {
       "name": "Angelfire Apostle",
+      "desc": "Angelfire apostles use the powers of good to avoid violence when possible and cleanse both maladies and evil creatures with blinding flames.",
       "id": "857bc9fadf70f294795a9cba974a48b8",
       "layout": [
         [
@@ -844,6 +854,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": "Wisdom",
+      "spontaneous": false,
       "spellSlots": [
         [],
         [
@@ -1215,6 +1232,7 @@
     },
     {
       "name": "Crusader",
+      "desc": "Crusaders serve the militant arm of a church, ready to stand guard over the religion\u0027s holy places and to be its swift, avenging arm against those who resist its truth.",
       "id": "6bfb7e74b530f3749b590286dd2b9b30",
       "layout": [
         [
@@ -1289,6 +1307,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": "Wisdom",
+      "spontaneous": false,
       "spellSlots": [
         [],
         [
@@ -1660,6 +1685,7 @@
     },
     {
       "name": "Herald Caller",
+      "desc": "Unlike crusaders or paladins, who charge headlong into battle in the name of their patron deities, herald callers are adept at calling powerful outsiders to aid their brethren in battle.",
       "id": "c4a02990f15c0bb4d8749a90a5ed46b3",
       "layout": [
         [
@@ -1729,12 +1755,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Ecclesitheurge",
+      "desc": "Eschewing physical armor for protection via the strength of his faith, an ecclesitheurge focuses on the miracles his deity bestows and the breadth of that deity\u0027s dominion.",
       "id": "472af8cb3de628f4a805dc4a038971bc",
       "layout": [
         [
@@ -1805,12 +1839,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Demonbane Priest",
+      "desc": "Crusade-minded clerics train intensively to learn proper battlefield tactics to take advantage of the weaknesses of demons.",
       "id": "2537d1312a462834aadbd1153a2a0d54",
       "layout": [
         [
@@ -1888,12 +1930,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Priest of Balance",
+      "desc": "Life and {g|Encyclopedia:Injury_Death}death{/g} are two sides of the coin called the universe. Those clerics who do not give preference to either side and can compensate both types of energy in themselves become priests of balance. They are equally good at both giving and taking life \u2014 depending on how much their goals match with yours.",
       "id": "a4560e3fb5d247d68fb1a2738fcc0855",
       "layout": [
         [
@@ -1993,6 +2043,13 @@
       ],
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": "High",
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false

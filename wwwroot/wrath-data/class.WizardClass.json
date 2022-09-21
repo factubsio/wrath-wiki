@@ -161,6 +161,7 @@
     }
   ],
   "name": "Wizard",
+  "desc": "While universalist wizards might study to prepare themselves for any manner of danger, specialist wizards research {g|Encyclopedia:Magic_School}schools of magic{/g} that make them exceptionally {g|Encyclopedia:Skills}skilled{/g} within a specific focus. Yet no matter their specialty, all wizards are masters of the impossible and can aid their allies in overcoming any danger.",
   "layout": [
     [
       {
@@ -327,6 +328,13 @@
     11,
     12
   ],
+  "babSpeed": "Low",
+  "fortSpeed": "Low",
+  "reflexSpeed": "Low",
+  "willSpeed": "High",
+  "casterType": "Arcane",
+  "casterAbility": "Intelligence",
+  "spontaneous": false,
   "spellSlots": [
     [],
     [
@@ -771,9 +779,11 @@
     []
   ],
   "casterLevelModifier": 0,
+  "HitDie": 6,
   "archetypes": [
     {
       "name": "Arcane Bomber",
+      "desc": "To many wizards, the experimentation of the alchemist seems quaint, if not dangerous or frightening. A few wizards take up the secrets of the bomb, however, fusing alchemy with their already considerable magical power.",
       "id": "17b26d5302cd3e243a281a0beec6256b",
       "layout": [
         [
@@ -901,12 +911,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Thassilonian Specialist",
+      "desc": "While the concept of wizard specializations along the classically recognized {g|Encyclopedia:Magic_School}schools of magic{/g} certainly dates back to the time of Azlant, and perhaps beyond into the dim recesses of time before humanity rose to prominence, it was the runelords of Thassilon who explored school specialization to its full extreme.\nFocusing their research on the discovery that each school of magic was opposed by two specific opposition schools, the runelords developed methods of further enhancing their mastery over their chosen arcane specialties. Essentially, they defined these seven schools as much by what they couldn\u0027t do as by what they could. By excising \u0022impurities\u0022 introduced by fixed oppositional schools, they traded arcane versatility for greater {g|Encyclopedia:Strength}strength{/g} in their chosen fields.",
       "id": "55a8ce15e30d71547a44c69bb2e8a84f",
       "layout": [
         [
@@ -994,12 +1012,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Scroll Savant",
+      "desc": "Some wizards consider scrolls a natural extension of their magical abilities.",
       "id": "f43c78692a4e10d43a38bd6aedf53c1b",
       "layout": [
         [
@@ -1101,12 +1127,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Exploiter Wizard",
+      "desc": "Contrary to traditional wizardly study, an exploiter wizard forgoes the tried and true methods of arcane focus and arcane schools for the exploits favored by an arcanist. Some wizards regard this blatant exploitation of arcane magic as somehow \u0022cheating,\u0022 but most exploiters believe this prejudice is close-minded and overly traditional.",
       "id": "6d2027b4eec590c41adb5caeb7bb026d",
       "layout": [
         [
@@ -1233,6 +1267,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": "Intelligence",
+      "spontaneous": false,
       "spellSlots": [
         [],
         [
@@ -1680,6 +1721,7 @@
     },
     {
       "name": "Elemental Specialist",
+      "desc": "Wizards sometimes specialize in utilizing one element, converting other elements into their own.",
       "id": "c4a866cef5134632a8a3ef5696f45a5b",
       "layout": [
         [
@@ -1783,12 +1825,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Spell Master",
+      "desc": "Usually wizards specialize in a {g|Encyclopedia:Magic_School}magic school{/g}, delivering greater impact in a focused manner, but {g|Encyclopedia:Spell}spell{/g} masters try to make their expertise as broad as possible.",
       "id": "bb571f1b6cea462e99db7893685a0982",
       "layout": [
         [
@@ -1918,12 +1968,20 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
     },
     {
       "name": "Cruoromancer",
+      "desc": "To those who know how to manipulate it, the blood of a dhampir can be a powerful component to magic. A cruoromancer infuses his necromantic magic with the power of his unique mixture of living blood and undead ichor. As his power increases in this strange arcane art, a cruoromancer finds potent ways to infuse his unique blood with Necromancy {g|Encyclopedia:Spell}spells{/g}.",
       "id": "8789dcfc6f8e4fe49d80b90472ea6993",
       "layout": [
         [
@@ -2033,6 +2091,13 @@
       "fort": null,
       "reflex": null,
       "will": null,
+      "babSpeed": null,
+      "fortSpeed": null,
+      "reflexSpeed": null,
+      "willSpeed": null,
+      "casterType": null,
+      "casterAbility": null,
+      "spontaneous": false,
       "spellSlots": null,
       "spells": null,
       "removeSpells": false
