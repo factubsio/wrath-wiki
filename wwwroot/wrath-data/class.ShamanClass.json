@@ -5,339 +5,413 @@
       "__index": 0,
       "name": "Spirit",
       "desc": "A shaman forms a mystical bond with the spirits of the world. She forms a lasting bond with a single spirit, which grants a number of abilities and defines many of her other class features.\nAt 1st level, a shaman gains the spirit ability granted by her chosen spirit. She adds the {g|Encyclopedia:Spell}spells{/g} granted by that spirit to the list of spells that she can cast using spirit magic. She also adds the hexes possessed by that spirit to the list of hexes that she can use with the hex and wandering hex class features.\nAt 8th level, the shaman gains the abilities listed in the greater version of her selected spirit. At 16th level, the shaman gains the abilities listed for the true version of her selected spirit.",
-      "icon": "gen__S"
+      "icon": "gen__S",
+      "isSelection": true
     },
     {
       "__index": 1,
       "name": "Spirit Animal",
       "desc": "At 1st level, a shaman forms a close bond with a spirit animal tied to her chosen spirit. This animal is her conduit to the spirit world, guiding her along the path to enlightenment. The animal also aids a shaman by granting her a {g|Encyclopedia:Special_Abilities}special ability{/g}. A shaman must commune with her spirit animal each day to prepare her {g|Encyclopedia:Spell}spells{/g}.",
-      "icon": "gen__SA"
+      "icon": "gen__SA",
+      "isSelection": true
     },
     {
       "__index": 2,
       "name": "Simple Weapon Proficiency",
       "desc": "You become proficient with all Simple Weapons.",
-      "icon": "11ab2b30adcd57341827dc076a172994"
+      "icon": "11ab2b30adcd57341827dc076a172994",
+      "isSelection": false
     },
     {
       "__index": 3,
       "name": "Armor Proficiency (Light Armor)",
       "desc": "You become proficient with Light Armor.",
-      "icon": "e3dea060055729a499d590cde35985bc"
+      "icon": "e3dea060055729a499d590cde35985bc",
+      "isSelection": false
     },
     {
       "__index": 4,
       "name": "Armor Proficiency (Medium Armor)",
       "desc": "You become proficient with Medium Armor.",
-      "icon": "e3dea060055729a499d590cde35985bc"
+      "icon": "e3dea060055729a499d590cde35985bc",
+      "isSelection": false
     },
     {
       "__index": 5,
       "name": "Hex",
       "desc": "A shaman learns a number of magical tricks, called hexes, which grant her powers or weaken foes. At 2nd level, a shaman learns one hex. At 4th, 8th, 10th, 12th, 16th, 18th, and 20th level, the shaman learns new hexes. A shaman can select from any of the hexes available to her chosen spirit. A shaman cannot select a hex more than once unless noted otherwise.\nUsing a hex is a {g|Encyclopedia:Standard_Actions}standard action{/g} that doesn\u0027t provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g} unless otherwise noted. The {g|Encyclopedia:Saving_Throw}saving throw{/g} {g|Encyclopedia:DC}DC{/g} to resist a hex is equal to 10 \u002B 1/2 the shaman\u0027s level \u002B the shaman\u0027s {g|Encyclopedia:Wisdom}Wisdom{/g} modifier.",
-      "icon": "08de7d6c711522448b11138d6785d59f"
+      "icon": "08de7d6c711522448b11138d6785d59f",
+      "isSelection": true
     },
     {
       "__index": 6,
       "name": "Wandering Spirit",
       "desc": "At 4th level, a shaman can form a temporary bond with a spirit other than the one selected using her spirit class feature. She must make this selection each day when preparing her {g|Encyclopedia:Spell}spells{/g}. While this feature is active, she gains the spirit ability granted by the spirit. She also adds the spells granted by that spirit to her list of spells that she can cast using spirit magic. She does not add the hexes from her wandering spirit to her list of hexes that she can choose from with the hex class feature. At 12th level, she gains the abilities listed in the greater version of her wandering spirit. At 20th level, she gains the ability listed in the true version of her wandering spirit.",
-      "icon": "gen__WS"
+      "icon": "gen__WS",
+      "isSelection": false
     },
     {
       "__index": 7,
       "name": "Wandering Hex",
       "desc": "At 6th level, a shaman can temporarily gain the use of one of the hexes possessed by either one of her spirits. She must make this selection each day when she prepares her {g|Encyclopedia:Spell}spells{/g}. For the purposes of this ability, she can select any hex possessed by her spirit or wandering spirit. If she selects it from her wandering spirit, she loses the hex immediately if she bonds with another spirit, although she can then select a different hex to gain using this ability, from either her spirit or her new wandering spirit. At 14th level, a shaman can select two wandering hexes each day instead of one. This ability otherwise functions as the hex class feature.",
-      "icon": "gen__WH"
+      "icon": "gen__WH",
+      "isSelection": false
     },
     {
       "__index": 8,
       "name": "Wandering Hex",
       "desc": "At 6th level, a shaman can temporarily gain the use of one of the hexes possessed by either one of her spirits. She must make this selection each day when she prepares her {g|Encyclopedia:Spell}spells{/g}. For the purposes of this ability, she can select any hex possessed by her spirit or wandering spirit. If she selects it from her wandering spirit, she loses the hex immediately if she bonds with another spirit, although she can then select a different hex to gain using this ability, from either her spirit or her new wandering spirit. At 14th level, a shaman can select two wandering hexes each day instead of one. This ability otherwise functions as the hex class feature.",
-      "icon": "gen__WH"
+      "icon": "gen__WH",
+      "isSelection": false
     },
     {
       "__index": 9,
       "name": "Shared Skill",
       "desc": "At 1st level, a possessed shaman selects two {g|Encyclopedia:Skills}skills{/g}. The possessed shaman treats these skills as if she had a number of ranks in them equal to her shaman level, and uses her {g|Encyclopedia:Wisdom}Wisdom{/g} modifier in place of the ability modifier the skills would normally use. These ranks do not stack with her other skill ranks (only the higher number of ranks applies).",
-      "icon": "gen__SS"
+      "icon": "gen__SS",
+      "isSelection": true
     },
     {
       "__index": 10,
       "name": "Crowded Vessel",
       "desc": "At 2nd level, whenever a possessed shaman fails a {g|Encyclopedia:Saving_Throw}saving throw{/g} against a charm or compulsion {g|Encyclopedia:Spell}spell{/g} or effect, she can attempt a new saving throw (using the original {g|Encyclopedia:DC}DC{/g}) as the spirits inside her attempt to regain control. If the saving throw is successful, the charm or compulsion effect ends. If the saving throw fails, she is affected as normal for the remainder of the duration.",
-      "icon": "gen__CV"
+      "icon": "gen__CV",
+      "isSelection": false
     },
     {
       "__index": 11,
       "name": "Wandering Skills",
       "desc": "At 6th level, a possessed shaman is able to make room for another spirit. Once per day, the possessed shaman chooses one {g|Encyclopedia:Skills}skill{/g}. The possessed shaman treats this skill as if she had a number of ranks in it equal to her shaman level, and uses her {g|Encyclopedia:Wisdom}Wisdom{/g} modifier in place of the ability modifier the skill would normally use. These ranks do not stack with her other skill ranks (only the higher number of ranks applies).",
-      "icon": "gen__WS"
+      "icon": "gen__WS",
+      "isSelection": false
     },
     {
       "__index": 12,
       "name": "Object Bond",
       "desc": "A bonded object can be used once per day to restore any one {g|Encyclopedia:Spell}spell{/g} that the shaman had prepared for this day.",
-      "icon": "6257839464a212a41bcf625029a2a2dd"
+      "icon": "6257839464a212a41bcf625029a2a2dd",
+      "isSelection": false
     },
     {
       "__index": 13,
       "name": "Spirit Weapon Enchantment",
       "desc": "At 1st level a spirit hunter can, as a {g|Encyclopedia:Swift_Action}swift action{/g}, grant a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute to any weapon she is holding. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Effects of multiple uses of this ability do not stack.\nAt 1st level, the bonus can be used to add ghost touch {g|Encyclopedia:Special_Abilities}special ability{/g} to the weapon.\nAt 5th level, these bonuses can be used to add any of the following weapon special abilities: flaming, frost, keen, shock, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These special abilities are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other special abilities can be added. These bonuses and special abilities are decided when the ability is used and cannot be changed until the next time the spirit hunter uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the spirit hunter.\nA spirit hunter can only enhance one weapon at a time with this ability. If she uses this ability again, the first use immediately ends.\nThis ability can be used a number of times per day equal to half the spirit hunter level plus her {g|Encyclopedia:Wisdom}Wisdom{/g} modifier.",
-      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b",
+      "isSelection": false
     },
     {
       "__index": 14,
       "name": "Spirit Enchantment (\u002B2)",
       "desc": "At 1st level a spirit hunter can, as a {g|Encyclopedia:Swift_Action}swift action{/g}, grant a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute to any weapon she is holding. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Effects of multiple uses of this ability do not stack.\nAt 1st level, the bonus can be used to add ghost touch {g|Encyclopedia:Special_Abilities}special ability{/g} to the weapon.\nAt 5th level, these bonuses can be used to add any of the following weapon special abilities: flaming, frost, keen, shock, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These special abilities are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other special abilities can be added. These bonuses and special abilities are decided when the ability is used and cannot be changed until the next time the spirit hunter uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the spirit hunter.\nA spirit hunter can only enhance one weapon at a time with this ability. If she uses this ability again, the first use immediately ends.\nThis ability can be used a number of times per day equal to half the spirit hunter level plus her {g|Encyclopedia:Wisdom}Wisdom{/g} modifier.",
-      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b",
+      "isSelection": false
     },
     {
       "__index": 15,
       "name": "Spirit Enchantment (\u002B3)",
       "desc": "At 1st level a spirit hunter can, as a {g|Encyclopedia:Swift_Action}swift action{/g}, grant a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute to any weapon she is holding. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Effects of multiple uses of this ability do not stack.\nAt 1st level, the bonus can be used to add ghost touch {g|Encyclopedia:Special_Abilities}special ability{/g} to the weapon.\nAt 5th level, these bonuses can be used to add any of the following weapon special abilities: flaming, frost, keen, shock, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These special abilities are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other special abilities can be added. These bonuses and special abilities are decided when the ability is used and cannot be changed until the next time the spirit hunter uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the spirit hunter.\nA spirit hunter can only enhance one weapon at a time with this ability. If she uses this ability again, the first use immediately ends.\nThis ability can be used a number of times per day equal to half the spirit hunter level plus her {g|Encyclopedia:Wisdom}Wisdom{/g} modifier.",
-      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b",
+      "isSelection": false
     },
     {
       "__index": 16,
       "name": "Spirit Enchantment (\u002B4)",
       "desc": "At 1st level a spirit hunter can, as a {g|Encyclopedia:Swift_Action}swift action{/g}, grant a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute to any weapon she is holding. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Effects of multiple uses of this ability do not stack.\nAt 1st level, the bonus can be used to add ghost touch {g|Encyclopedia:Special_Abilities}special ability{/g} to the weapon.\nAt 5th level, these bonuses can be used to add any of the following weapon special abilities: flaming, frost, keen, shock, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These special abilities are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other special abilities can be added. These bonuses and special abilities are decided when the ability is used and cannot be changed until the next time the spirit hunter uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the spirit hunter.\nA spirit hunter can only enhance one weapon at a time with this ability. If she uses this ability again, the first use immediately ends.\nThis ability can be used a number of times per day equal to half the spirit hunter level plus her {g|Encyclopedia:Wisdom}Wisdom{/g} modifier.",
-      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b",
+      "isSelection": false
     },
     {
       "__index": 17,
       "name": "Spirit Enchantment (\u002B5)",
       "desc": "At 1st level a spirit hunter can, as a {g|Encyclopedia:Swift_Action}swift action{/g}, grant a \u002B1 enhancement {g|Encyclopedia:Bonus}bonus{/g} for 1 minute to any weapon she is holding. For every four levels beyond 1st, the weapon gains another \u002B1 enhancement bonus, to a maximum of \u002B5 at 17th level. These bonuses can be added to the weapon, stacking with existing weapon enhancement to a maximum of \u002B5. Effects of multiple uses of this ability do not stack.\nAt 1st level, the bonus can be used to add ghost touch {g|Encyclopedia:Special_Abilities}special ability{/g} to the weapon.\nAt 5th level, these bonuses can be used to add any of the following weapon special abilities: flaming, frost, keen, shock, or {g|Encyclopedia:Speed}speed{/g}.\nAdding these properties consumes an amount of bonus equal to the property\u0027s base price modifier. These special abilities are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a \u002B1 enhancement bonus must be added before any other special abilities can be added. These bonuses and special abilities are decided when the ability is used and cannot be changed until the next time the spirit hunter uses this ability. These bonuses do not function if the weapon is wielded by anyone other than the spirit hunter.\nA spirit hunter can only enhance one weapon at a time with this ability. If she uses this ability again, the first use immediately ends.\nThis ability can be used a number of times per day equal to half the spirit hunter level plus her {g|Encyclopedia:Wisdom}Wisdom{/g} modifier.",
-      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b"
+      "icon": "7fa6bad9b8b287e40bb6b813ebc5799b",
+      "isSelection": false
     },
     {
       "__index": 18,
       "name": "Restless Magic",
       "desc": "The spirit warden adds the following {g|Encyclopedia:Spell}spells{/g} to the list of spells she can cast using spirit magic: doom (1st), command undead (2nd), life blast (3rd), {g|Encyclopedia:Injury_Death}death{/g} ward (4th), pillar of life (5th), undead to death (6th), finger of death (7th), sunburst (8th), foresight (9th).",
-      "icon": "gen__RM"
+      "icon": "gen__RM",
+      "isSelection": false
     },
     {
       "__index": 19,
       "name": "Unnatural Mien",
       "desc": "At 1st level, the spirit warden\u0027s dealings with the spirit world give her an unsettling demeanor. She gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on Intimidate {g|Encyclopedia:Check}checks{/g}.",
-      "icon": "gen__UM"
+      "icon": "gen__UM",
+      "isSelection": false
     },
     {
       "__index": 20,
       "name": "Rebuke Spirits",
       "desc": "At 2nd level, the spirit warden gains the ability to channel positive energy as a cleric of her level. Regardless of her {g|Encyclopedia:Alignment}alignment{/g}, she can only use this ability to harm undead creatures. The spirit warden can use this ability a number of times per day equal to 3 \u002B her {g|Encyclopedia:Charisma}Charisma{/g} modifier.",
-      "icon": "gen__RS"
+      "icon": "gen__RS",
+      "isSelection": false
     },
     {
       "__index": 21,
       "name": "Laugh at Death",
       "desc": "At 10th level, the spirit warden\u0027s familiarity with the dead has filled her with contempt for {g|Encyclopedia:Injury_Death}death{/g} itself. She gains a \u002B4 insight {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against death effects.",
-      "icon": "gen__LD"
+      "icon": "gen__LD",
+      "isSelection": false
     },
     {
       "__index": 22,
       "name": "Minor Spirit",
       "desc": "At 1st level, the unsworn shaman also forms a temporary bond with a minor spirit each day, granting her access to a shaman or witch hex of her choosing, but not a major hex or a grand hex. Until she changes the minor spirit, she continues to have access to the shaman or witch hex. At 2nd level, she can instead select a hex from one of her wandering spirits selected for that day.\nShe can make temporary bonds with two minor spirits (thus gaining two hexes) at 4th level, and with one additional minor spirit (and hex) every 4 levels thereafter.",
-      "icon": "gen__MS"
+      "icon": "gen__MS",
+      "isSelection": false
     },
     {
       "__index": 23,
       "name": "Wandering Spirit",
       "desc": "At 2nd level, the unsworn shaman gains access to the wandering spirit class feature. At 10th level, she gains the abilities listed in the greater version of her wandering spirit. At 18th level, she gains the abilities listed in the true version of her wandering spirit.\nAdditionally, at 6th level, she also gains a second wandering spirit, gaining the abilities listed in the greater version of that spirit at 14th level, and the abilities listed in the true version at 20th level.",
-      "icon": "gen__WS"
+      "icon": "gen__WS",
+      "isSelection": false
     },
     {
       "__index": 24,
       "name": "Minor Spirit \u2014 Second",
       "desc": "At 1st level, the unsworn shaman also forms a temporary bond with a minor spirit each day, granting her access to a shaman or witch hex of her choosing, but not a major hex or a grand hex. Until she changes the minor spirit, she continues to have access to the shaman or witch hex. At 2nd level, she can instead select a hex from one of her wandering spirits selected for that day.\nShe can make temporary bonds with two minor spirits (thus gaining two hexes) at 4th level, and with one additional minor spirit (and hex) every 4 levels thereafter.",
-      "icon": "gen__MSS"
+      "icon": "gen__MSS",
+      "isSelection": false
     },
     {
       "__index": 25,
       "name": "Minor Spirit \u2014 Third",
       "desc": "At 1st level, the unsworn shaman also forms a temporary bond with a minor spirit each day, granting her access to a shaman or witch hex of her choosing, but not a major hex or a grand hex. Until she changes the minor spirit, she continues to have access to the shaman or witch hex. At 2nd level, she can instead select a hex from one of her wandering spirits selected for that day.\nShe can make temporary bonds with two minor spirits (thus gaining two hexes) at 4th level, and with one additional minor spirit (and hex) every 4 levels thereafter.",
-      "icon": "gen__MST"
+      "icon": "gen__MST",
+      "isSelection": false
     },
     {
       "__index": 26,
       "name": "Minor Spirit \u2014 Fourth",
       "desc": "At 1st level, the unsworn shaman also forms a temporary bond with a minor spirit each day, granting her access to a shaman or witch hex of her choosing, but not a major hex or a grand hex. Until she changes the minor spirit, she continues to have access to the shaman or witch hex. At 2nd level, she can instead select a hex from one of her wandering spirits selected for that day.\nShe can make temporary bonds with two minor spirits (thus gaining two hexes) at 4th level, and with one additional minor spirit (and hex) every 4 levels thereafter.",
-      "icon": "gen__MSF"
+      "icon": "gen__MSF",
+      "isSelection": false
     },
     {
       "__index": 27,
       "name": "Minor Spirit \u2014 Fifth",
       "desc": "At 1st level, the unsworn shaman also forms a temporary bond with a minor spirit each day, granting her access to a shaman or witch hex of her choosing, but not a major hex or a grand hex. Until she changes the minor spirit, she continues to have access to the shaman or witch hex. At 2nd level, she can instead select a hex from one of her wandering spirits selected for that day.\nShe can make temporary bonds with two minor spirits (thus gaining two hexes) at 4th level, and with one additional minor spirit (and hex) every 4 levels thereafter.",
-      "icon": "gen__MSF"
+      "icon": "gen__MSF",
+      "isSelection": false
     },
     {
       "__index": 28,
       "name": "Minor Spirit \u2014 Sixth",
       "desc": "At 1st level, the unsworn shaman also forms a temporary bond with a minor spirit each day, granting her access to a shaman or witch hex of her choosing, but not a major hex or a grand hex. Until she changes the minor spirit, she continues to have access to the shaman or witch hex. At 2nd level, she can instead select a hex from one of her wandering spirits selected for that day.\nShe can make temporary bonds with two minor spirits (thus gaining two hexes) at 4th level, and with one additional minor spirit (and hex) every 4 levels thereafter.",
-      "icon": "gen__MSS"
+      "icon": "gen__MSS",
+      "isSelection": false
     },
     {
       "__index": 29,
       "name": "Wandering Spirit",
       "desc": "At 2nd level, the unsworn shaman gains access to the wandering spirit class feature. At 10th level, she gains the abilities listed in the greater version of her wandering spirit. At 18th level, she gains the abilities listed in the true version of her wandering spirit.\nAdditionally, at 6th level, she also gains a second wandering spirit, gaining the abilities listed in the greater version of that spirit at 14th level, and the abilities listed in the true version at 20th level.",
-      "icon": "gen__WS"
+      "icon": "gen__WS",
+      "isSelection": false
     },
     {
       "__index": 30,
       "name": "Channel Energy",
       "desc": "At 4th level, the witch doctor can draw transcendental energies to her location, flooding it with positive energy as the cleric class feature. The witch doctor uses her shaman level \u2013 3 as her effective cleric level, and can channel energy a number of times per day equal to 3 \u002B her {g|Encyclopedia:Charisma}Charisma{/g} modifier. This is a separate pool of channel energy that does not stack with the life spirit\u0027s channel spirit ability.",
-      "icon": "gen__CE"
+      "icon": "gen__CE",
+      "isSelection": false
     },
     {
       "__index": 31,
       "name": "Counter Curse",
       "desc": "At 8th level, the witch doctor can choose to lose any prepared magic {g|Encyclopedia:Spell}spell{/g} that is 3rd level or higher in order to spontaneously cast dispel magic or remove curse. This ability can only target a spell effect that is on an ally (including herself ). If she forfeits a magic spell higher than 3rd level, she gains a \u002B2 sacred {g|Encyclopedia:Bonus}bonus{/g} on her {g|Encyclopedia:Caster_Level}caster level{/g} {g|Encyclopedia:Check}check{/g} to dispel the spell or to remove the curse for every spell level higher than 3rd that she sacrifices.",
-      "icon": "gen__CC"
+      "icon": "gen__CC",
+      "isSelection": false
     },
     {
       "__index": 32,
       "name": "Battle",
       "desc": "A shaman who selects the battle spirit gains scars from every wound she takes, and the grit of battle always seems to cling on her body. When she calls upon one of this spirit\u0027s abilities, she grows in stature \u2014 becoming taller and more muscular, with a grimace of rage stretching across her face.",
-      "icon": "gen__B"
+      "icon": "gen__B",
+      "isSelection": false
     },
     {
       "__index": 33,
       "name": "Animal Companion",
       "desc": "Unlike normal animals of its kind, an animal companion\u0027s {g|Encyclopedia:Hit_Dice}Hit Dice{/g}, abilities, {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Feat}feats{/g} advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in {g|Encyclopedia:Size}size{/g} when their druid reaches 4th or 7th level, depending on the companion.",
-      "icon": "736cb7b0def6ff147b921c75c54a81a0"
+      "icon": "736cb7b0def6ff147b921c75c54a81a0",
+      "isSelection": true
     },
     {
       "__index": 34,
       "name": "Stealth",
       "desc": "Shadow Shaman gains {g|Encyclopedia:Stealth}Stealth{/g} as a class {g|Encyclopedia:Skills}skill{/g}.",
-      "icon": "gen__S"
+      "icon": "gen__S",
+      "isSelection": false
     },
     {
       "__index": 35,
       "name": "Shadows",
       "desc": "At 4th level, a Shadow Shaman gains ability to use the shadows around to {g|Encyclopedia:Concealment}conceal{/g} himself. A number of times per day equal to his {g|Encyclopedia:Charisma}Charisma{/g} modifier, Shadow Shaman can gain benefits of blur {g|Encyclopedia:Spell}spell{/g} for 1 minute.\nStarting at 9th level, he gains the benefits of displacement instead.\nStarting at 14th level, additionally he receives the effect of greater invisibility.",
-      "icon": "gen__S"
+      "icon": "gen__S",
+      "isSelection": false
     },
     {
       "__index": 36,
       "name": "Sneak Attack",
       "desc": "If a character can catch an opponent when he is unable to defend himself effectively from her {g|Encyclopedia:Attack}attack{/g}, she can strike a vital spot for extra {g|Encyclopedia:Damage}damage{/g}.\nThe character\u0027s attack deals extra damage anytime her target would be denied a {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} (whether the target actually has a Dexterity bonus or not), or when the character {g|Encyclopedia:Flanking}flanks{/g} her target. This extra damage is {g|Encyclopedia:Dice}1d6{/g} and increases by 1d6 at later levels. This additional damage is precision damage and is not multiplied on a {g|Encyclopedia:Critical}critical hit{/g}.\nThe character must be able to see the target well enough to pick out a vital spot and must be able to {g|Encyclopedia:Reach}reach{/g} such a spot.",
-      "icon": "02ef137cda22e9b4aa9af681fba45909"
+      "icon": "02ef137cda22e9b4aa9af681fba45909",
+      "isSelection": false
     }
   ],
   "name": "Shaman",
   "desc": "While some heroes speak to gods or consort with otherworldly muses, shamans commune with the spirits of the world and the energies that exist in every living thing. These divine adventurers draw upon their power to shape the world and expand the influence of their spiritual patrons. Shamans have {g|Encyclopedia:Strength}strong{/g} ties to natural spirits. They form powerful bonds with particular spirits, and as their power grows they learn to call upon other spirits in times of need.",
   "layout": [
-    [
-      {
-        "level": 1,
-        "feature": 0,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 4,
-        "feature": 6,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 6,
-        "feature": 7,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 14,
-        "feature": 8,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 1,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 2,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 3,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 4,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 2,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 4,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 8,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 10,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 12,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 16,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 18,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 20,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [],
-    [],
-    []
+    {
+      "name": null,
+      "rows": [
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 1,
+              "feature": 1,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 4,
+              "feature": 6,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 6,
+              "feature": 7,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 14,
+              "feature": 8,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 1,
+              "feature": 2,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 1,
+              "feature": 3,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 1,
+              "feature": 4,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 2,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 4,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 8,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 10,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 12,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 16,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 18,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 20,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": false,
+          "features": []
+        }
+      ]
+    },
+    {
+      "name": "Spirit",
+      "rows": [
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 0,
+              "feature": 0,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        }
+      ]
+    }
   ],
   "bab": [
     0,
@@ -762,147 +836,196 @@
       "desc": "For a possessed shaman, merely communing with the spirit world is insufficient. Instead, she invites the spirits to share her body, granting them the chance to {g|Encyclopedia:XP}experience{/g} corporeal existence. In return, they grant her their {g|Encyclopedia:Skills}skills{/g} and protect her from otherworldly influence.",
       "id": "7939ff57cc2ce104693ea2f5afa595b6",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 10,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 4,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 14,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 11,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 4,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 16,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 9,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 9,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 2,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 4,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 14,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 4,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Spirit",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -924,161 +1047,216 @@
       "desc": "Most shamans seek spirits to learn from them. Spirit hunters pursue them to eliminate. Some of these loners are on a quest to rid the world of evil spirits and restless ghosts, others fight spirits to gain more power, and some join the wars spirits wage among themselves, no matter how mysterious and inscrutable for a mortal\u0027s mind these could be. Spirit hunters learn to enchant their weapons, so it could harm the {g|Encyclopedia:Incorporeal_Touch_Attack}incorporeal{/g} enemies as easily as mortal flesh.",
       "id": "39b2fd5000e5eb142bfde2afa6c83f76",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 6,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 5,
-            "feature": 14,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 9,
-            "feature": 15,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 13,
-            "feature": 16,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 14,
-            "feature": 8,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 17,
-            "feature": 17,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 16,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 12,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 13,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 4,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 5,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 9,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 13,
+                  "feature": 16,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 14,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 17,
+                  "feature": 17,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Spirit",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1100,147 +1278,196 @@
       "desc": "Not all spirits deserve reverence and respect. Some are twisted and despicable. It\u0027s a spirit warden\u0027s duty to end these spirits\u0027 existence.",
       "id": "a6ab54dbe2cc9314a8ad62863fbc64c4",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 20,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 4,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 21,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 14,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 4,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 12,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 16,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 18,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 19,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 18,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 2,
+                  "feature": 20,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 4,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 21,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 14,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 19,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 4,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 12,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Spirit",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1262,174 +1489,235 @@
       "desc": "An unsworn shaman never binds herself to one specific spirit, always making new deals as she deems necessary for the circumstances that she finds herself in. While this weakens the powers she can access from any one spirit, it gives her access to a broader overall range of abilities.",
       "id": "556590a43467a27459ac1a80324c9f9f",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 2,
-            "feature": 23,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 4,
-            "feature": 6,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 8,
-            "feature": 25,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 12,
-            "feature": 26,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 14,
-            "feature": 8,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 16,
-            "feature": 27,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 28,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 24,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 6,
-            "feature": 29,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 4,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 8,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 12,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 16,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 18,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 20,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 22,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 22,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 2,
+                  "feature": 23,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 4,
+                  "feature": 24,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 29,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 8,
+                  "feature": 25,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 12,
+                  "feature": 26,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 14,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 16,
+                  "feature": 27,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 28,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 4,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 8,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 12,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 16,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 18,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 20,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Spirit",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1451,131 +1739,174 @@
       "desc": "The witch doctor is a {g|Encyclopedia:Healing}healer{/g} who specializes in afflictions of the soul. Often misunderstood, she protects her tribe with healing powers, powerful defensive magic, and her own divine \u0022witchcraft.\u0022",
       "id": "96c2b16450cc98548a0e82f743fbee80",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 31,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 14,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 30,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 8,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 16,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 30,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 31,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 14,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 8,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 16,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Spirit",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1597,133 +1928,165 @@
       "desc": "The half-orcs living in the wasteland have long learned a harsh lesson \u2014 the fittest survives and the fittest rules. Their shamans do not communicate with spirits. They prefer to forcefully subjugate animals and battle spirits \u2014 the only kind of spirits they approve, for those who do not fight and do not serve the strongest are destined to die. Such is the law of the wasteland.",
       "id": "bb14b164c2ce4e2bb05434a3218ff73d",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 4,
-            "feature": 6,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 16,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 32,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 33,
-            "rank": -1,
-            "archType": 1
-          }
-        ]
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 33,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 4,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Spirit",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1745,170 +2108,216 @@
       "desc": "The best friends of some shamans are shadows, which they use to {g|Encyclopedia:Concealment}conceal{/g} their {g|Encyclopedia:CA_Types}actions{/g} and find the best opportunities to {g|Encyclopedia:Attack}attack{/g} their foes.",
       "id": "5086aef2b76c433584160f7b49aef95b",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 6,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 14,
-            "feature": 8,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 35,
-            "rank": 1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 8,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 16,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 34,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [
-          {
-            "level": 3,
-            "feature": 36,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 6,
-            "feature": 36,
-            "rank": 2,
-            "archType": 1
-          },
-          {
-            "level": 9,
-            "feature": 36,
-            "rank": 3,
-            "archType": 1
-          },
-          {
-            "level": 12,
-            "feature": 36,
-            "rank": 4,
-            "archType": 1
-          },
-          {
-            "level": 15,
-            "feature": 36,
-            "rank": 5,
-            "archType": 1
-          },
-          {
-            "level": 18,
-            "feature": 36,
-            "rank": 6,
-            "archType": 1
-          }
-        ]
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 34,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 4,
+                  "feature": 35,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 14,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 36,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 36,
+                  "rank": 2,
+                  "archType": 1
+                },
+                {
+                  "level": 9,
+                  "feature": 36,
+                  "rank": 3,
+                  "archType": 1
+                },
+                {
+                  "level": 12,
+                  "feature": 36,
+                  "rank": 4,
+                  "archType": 1
+                },
+                {
+                  "level": 15,
+                  "feature": 36,
+                  "rank": 5,
+                  "archType": 1
+                },
+                {
+                  "level": 18,
+                  "feature": 36,
+                  "rank": 6,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 8,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Spirit",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,

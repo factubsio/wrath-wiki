@@ -9,10 +9,15 @@
       6,
       7
     ],
-    [],
+    [
+      10,
+      11,
+      12
+    ],
     [
       1,
-      9
+      9,
+      13
     ]
   ],
   "features": [
@@ -20,435 +25,504 @@
       "__index": 0,
       "name": "Alchemist Proficiencies",
       "desc": "Alchemists are proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g} and bombs. They are also proficient with light armor, but not with shields.",
-      "icon": "gen__AP"
+      "icon": "gen__AP",
+      "isSelection": false
     },
     {
       "__index": 1,
       "name": "Bomb",
       "desc": "In addition to magical extracts, alchemists are adept at swiftly mixing various volatile chemicals and infusing them with their magical reserves to create powerful bombs that they can hurl at their enemies. An alchemist can use a number of bombs each day equal to his {g|Encyclopedia:Class_Level}class level{/g} \u002B his {g|Encyclopedia:Intelligence}Intelligence{/g} modifier.\nThrown bombs have a range of 30 feet and use the Throw Splash Weapon special {g|Encyclopedia:Attack}attack{/g}. Bombs are considered weapons and can be selected using {g|Encyclopedia:Feat}feats{/g} such as Point-Blank Shot and Weapon Focus. On a direct hit, an alchemist\u0027s bomb inflicts {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Energy_Damage}fire damage{/g} \u002B additional {g|Encyclopedia:Damage}damage{/g} equal to the alchemist\u0027s Intelligence modifier. The damage of an alchemist\u0027s bomb increases by 1d6 points at every odd-numbered alchemist level. Splash damage from an alchemist bomb is always equal to the bomb\u0027s minimum damage (so if the bomb would deal 2d6\u002B4 points of fire damage on a direct hit, its splash damage would be 6 points of fire damage). Those caught in the splash damage can attempt a {g|Encyclopedia:Saving_Throw}Reflex save{/g} for half damage. The {g|Encyclopedia:DC}DC{/g} of this save is equal to 10 \u002B 1/2 the alchemist\u0027s level \u002B the alchemist\u0027s Intelligence modifier.",
-      "icon": "ae202ceef92bfcf4d832368f33f8ebe3"
+      "icon": "ae202ceef92bfcf4d832368f33f8ebe3",
+      "isSelection": false
     },
     {
       "__index": 2,
       "name": "Mutagen",
       "desc": "At 1st level, an alchemist discovers how to create a mutagen that he can imbibe in order to heighten his physical prowess at the cost of his personality.\nIt\u0027s a {g|Encyclopedia:Standard_Actions}standard action{/g} to drink a mutagen. Upon being imbibed, the mutagen causes the alchemist to grow bulkier and more bestial, granting him a \u002B2 natural armor {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} and a \u002B4 alchemical bonus to the selected {g|Encyclopedia:Ability_Scores}ability score{/g} for 10 minutes per alchemist level. In addition, while the mutagen is in effect, the alchemist takes a \u20132 {g|Encyclopedia:Penalty}penalty{/g} to one of his mental ability scores. If the mutagen enhances his {g|Encyclopedia:Strength}Strength{/g}, it applies a penalty to his {g|Encyclopedia:Intelligence}Intelligence{/g}. If it enhances his {g|Encyclopedia:Dexterity}Dexterity{/g}, it applies a penalty to his {g|Encyclopedia:Wisdom}Wisdom{/g}. If it enhances his {g|Encyclopedia:Constitution}Constitution{/g}, it applies a penalty to his {g|Encyclopedia:Charisma}Charisma{/g}.",
-      "icon": "981f0be0d67a5ad4da26ab33385a6af4"
+      "icon": "981f0be0d67a5ad4da26ab33385a6af4",
+      "isSelection": false
     },
     {
       "__index": 3,
       "name": "Throw Anything",
       "desc": "All alchemists gain the Throw Anything {g|Encyclopedia:Feat}feat{/g} as a bonus feat at 1st level. An alchemist adds his {g|Encyclopedia:Intelligence}Intelligence{/g} modifier to {g|Encyclopedia:Damage}damage{/g} done with splash weapons, including the splash damage if any.",
-      "icon": "gen__TA"
+      "icon": "gen__TA",
+      "isSelection": false
     },
     {
       "__index": 4,
       "name": "Brew Potions",
       "desc": "Allows you to brew potions of {g|Encyclopedia:Spell}spells{/g} up to level 3 during {g|Encyclopedia:Rest}camping{/g}.",
-      "icon": "2133c2bb726d4e3418b339cb9598f936"
+      "icon": "2133c2bb726d4e3418b339cb9598f936",
+      "isSelection": false
     },
     {
       "__index": 5,
       "name": "Discovery",
       "desc": "At 2nd level, and then again every 2 levels thereafter, an alchemist makes an incredible alchemical discovery. At 20th level, the alchemist makes an additional discovery. Unless otherwise noted, an alchemist cannot select an individual discovery more than once. Some discoveries can only be made if the alchemist has met certain prerequisites first, such as uncovering other discoveries. Only one such discovery can be applied to an individual bomb. The {g|Encyclopedia:DC}DC{/g} of any {g|Encyclopedia:Saving_Throw}saving throw{/g} called for by a discovery is equal to 10 \u002B 1/2 the alchemist\u0027s level \u002B the alchemist\u0027s {g|Encyclopedia:Intelligence}Intelligence{/g} modifier.",
-      "icon": "95c4bb72353edb34082f088a5bd18cb2"
+      "icon": "95c4bb72353edb34082f088a5bd18cb2",
+      "isSelection": true
     },
     {
       "__index": 6,
       "name": "Poison Resistance",
       "desc": "At 2nd level, an alchemist gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Saving_Throw}saving throws{/g} against poison. This bonus increases to \u002B4 at 5th level, and then again to \u002B6 at 8th level. At 10th level, an alchemist becomes completely immune to poison.",
-      "icon": "gen__PR"
+      "icon": "gen__PR",
+      "isSelection": false
     },
     {
       "__index": 7,
       "name": "Poison Immunity",
       "desc": "At 10th level, an alchemist becomes completely immune to poison.",
-      "icon": "7269f14b47597024ea9ca40d91b94afc"
+      "icon": "7269f14b47597024ea9ca40d91b94afc",
+      "isSelection": false
     },
     {
       "__index": 8,
       "name": "Persistent Mutagen",
       "desc": "At 14th level, the effects of a mutagen last for 1 hour per level.",
-      "icon": "f46edb81e4e22784bb1036fbcc0ccabf"
+      "icon": "f46edb81e4e22784bb1036fbcc0ccabf",
+      "isSelection": false
     },
     {
       "__index": 9,
       "name": "Grand Discovery",
       "desc": "At 20th level, the alchemist makes a grand discovery. For many alchemists, the promise of one of these grand discoveries is the primary goal of their experiments and hard work.",
-      "icon": "95c4bb72353edb34082f088a5bd18cb2"
+      "icon": "95c4bb72353edb34082f088a5bd18cb2",
+      "isSelection": true
     },
     {
       "__index": 10,
-      "name": "Martial Weapons Proficiency",
-      "desc": "You become proficient with all Martial Weapons.",
-      "icon": "4f7a69c8c0e877149ac5f0ee124343e8"
+      "name": "Precise Bomb",
+      "desc": "When the alchemist throws a bomb, it doesn\u0027t affect allies.",
+      "icon": "gen__PB",
+      "isSelection": false
     },
     {
       "__index": 11,
-      "name": "Precise Bomb",
-      "desc": "When the alchemist throws a bomb, it doesn\u0027t affect allies.",
-      "icon": "gen__PB"
+      "name": "Directed Blast",
+      "desc": "At 6th level, a grenadier can detonate a bomb so that it splashes in a 30-foot cone rather than affecting a radius. The cone starts at the alchemist and extends away from her in the direction she chooses. Each creature within the cone takes {g|Encyclopedia:Damage}damage{/g} as if it had suffered a direct hit from the alchemist\u0027s bomb, but succeeding at a {g|Encyclopedia:Saving_Throw}Reflex save{/g} ({g|Encyclopedia:DC}DC{/g} = 10 \u002B 1/2 the alchemist\u0027s level \u002B the alchemist\u0027s {g|Encyclopedia:Intelligence}Intelligence{/g} modifier) halves the damage.",
+      "icon": "25747d04126a62e4fa8e24f1ff6ac28d",
+      "isSelection": false
     },
     {
       "__index": 12,
-      "name": "Alchemical Weapon",
-      "desc": "At 2nd level, a grenadier can infuse a weapon or piece of ammunition with a single harmful alchemical liquid or powder, such as an acid flask or alchemist\u0027s fire. This {g|Encyclopedia:CA_Types}action{/g} consumes the alchemical item, but transfers its effect to the weapon in question. The alchemical item takes full effect on the next creature struck by the weapon, but does not splash, spread, affect additional targets, or benefit from any other effects that specifically affect splash weapons. Any extra {g|Encyclopedia:Damage}damage{/g} added is not doubled on a {g|Encyclopedia:Critical}critical hit{/g}. The alchemical treatment causes no harm to the weapon treated, and wears off 1 minute after being applied if no blow is struck. Infusing a new alchemical item also removes the effect of any alchemical liquid or powder previously applied with this ability. At 6th level, a grenadier can use her alchemical weapon ability as a {g|Encyclopedia:Swift_Action}swift action{/g}. At 15th level, this ability becomes a {g|Encyclopedia:Free_Action}free action{/g}.",
-      "icon": "51bc526eda8130149bd06d116ec8e300"
+      "name": "Staggering Blast",
+      "desc": "At 10th level, a grenadier\u0027s bombs become particularly overwhelming when they explode. Whenever a grenadier scores a successful {g|Encyclopedia:Critical}critical hit{/g} with a bomb, the creature directly struck by that bomb is staggered for {g|Encyclopedia:Dice}1d4{/g}\u002B1 {g|Encyclopedia:Combat_Round}rounds{/g}. A successful {g|Encyclopedia:Saving_Throw}Fortitude save{/g} ({g|Encyclopedia:DC}DC{/g} equals the bomb\u0027s Reflex save DC to avoid splash {g|Encyclopedia:Damage}damage{/g}) reduces the duration to 1 round.",
+      "icon": "297cbcc0bd76f3f4eaabd3e5e31f2ffe",
+      "isSelection": false
     },
     {
       "__index": 13,
-      "name": "Directed Blast",
-      "desc": "At 6th level, a grenadier can detonate a bomb so that it splashes in a 30-foot cone rather than affecting a radius. The cone starts at the alchemist and extends away from her in the direction she chooses. Each creature within the cone takes {g|Encyclopedia:Damage}damage{/g} as if it had suffered a direct hit from the alchemist\u0027s bomb, but succeeding at a {g|Encyclopedia:Saving_Throw}Reflex save{/g} ({g|Encyclopedia:DC}DC{/g} = 10 \u002B 1/2 the alchemist\u0027s level \u002B the alchemist\u0027s {g|Encyclopedia:Intelligence}Intelligence{/g} modifier) halves the damage.",
-      "icon": "25747d04126a62e4fa8e24f1ff6ac28d"
+      "name": "Alchemical Weapon",
+      "desc": "At 2nd level, a grenadier can infuse a weapon or piece of ammunition with a single harmful alchemical liquid or powder, such as an acid flask or alchemist\u0027s fire. This {g|Encyclopedia:CA_Types}action{/g} consumes the alchemical item, but transfers its effect to the weapon in question. The alchemical item takes full effect on the next creature struck by the weapon, but does not splash, spread, affect additional targets, or benefit from any other effects that specifically affect splash weapons. Any extra {g|Encyclopedia:Damage}damage{/g} added is not doubled on a {g|Encyclopedia:Critical}critical hit{/g}. The alchemical treatment causes no harm to the weapon treated, and wears off 1 minute after being applied if no blow is struck. Infusing a new alchemical item also removes the effect of any alchemical liquid or powder previously applied with this ability. At 6th level, a grenadier can use her alchemical weapon ability as a {g|Encyclopedia:Swift_Action}swift action{/g}. At 15th level, this ability becomes a {g|Encyclopedia:Free_Action}free action{/g}.",
+      "icon": "51bc526eda8130149bd06d116ec8e300",
+      "isSelection": false
     },
     {
       "__index": 14,
-      "name": "Staggering Blast",
-      "desc": "At 10th level, a grenadier\u0027s bombs become particularly overwhelming when they explode. Whenever a grenadier scores a successful {g|Encyclopedia:Critical}critical hit{/g} with a bomb, the creature directly struck by that bomb is staggered for {g|Encyclopedia:Dice}1d4{/g}\u002B1 {g|Encyclopedia:Combat_Round}rounds{/g}. A successful {g|Encyclopedia:Saving_Throw}Fortitude save{/g} ({g|Encyclopedia:DC}DC{/g} equals the bomb\u0027s Reflex save DC to avoid splash {g|Encyclopedia:Damage}damage{/g}) reduces the duration to 1 round.",
-      "icon": "297cbcc0bd76f3f4eaabd3e5e31f2ffe"
+      "name": "Throw Anything",
+      "desc": "You receive a \u002B1 circumstance {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g} made with thrown splash weapons.",
+      "icon": "4be1af8bb37250e48ab896342339ef7a",
+      "isSelection": false
     },
     {
       "__index": 15,
-      "name": "Sneak Attack",
-      "desc": "If a character can catch an opponent when he is unable to defend himself effectively from her {g|Encyclopedia:Attack}attack{/g}, she can strike a vital spot for extra {g|Encyclopedia:Damage}damage{/g}.\nThe character\u0027s attack deals extra damage anytime her target would be denied a {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} (whether the target actually has a Dexterity bonus or not), or when the character {g|Encyclopedia:Flanking}flanks{/g} her target. This extra damage is {g|Encyclopedia:Dice}1d6{/g} and increases by 1d6 at later levels. This additional damage is precision damage and is not multiplied on a {g|Encyclopedia:Critical}critical hit{/g}.\nThe character must be able to see the target well enough to pick out a vital spot and must be able to {g|Encyclopedia:Reach}reach{/g} such a spot.",
-      "icon": "02ef137cda22e9b4aa9af681fba45909"
+      "name": "Martial Weapons Proficiency",
+      "desc": "You become proficient with all Martial Weapons.",
+      "icon": "4f7a69c8c0e877149ac5f0ee124343e8",
+      "isSelection": false
     },
     {
       "__index": 16,
-      "name": "Advanced Talents",
-      "desc": "After 10th level, a character can choose one of the advanced rogue talents in place of a rogue talent.",
-      "icon": "57a5e3232472df44bac5df62ed9f8cdd"
+      "name": "Sneak Attack",
+      "desc": "If a character can catch an opponent when he is unable to defend himself effectively from her {g|Encyclopedia:Attack}attack{/g}, she can strike a vital spot for extra {g|Encyclopedia:Damage}damage{/g}.\nThe character\u0027s attack deals extra damage anytime her target would be denied a {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} (whether the target actually has a Dexterity bonus or not), or when the character {g|Encyclopedia:Flanking}flanks{/g} her target. This extra damage is {g|Encyclopedia:Dice}1d6{/g} and increases by 1d6 at later levels. This additional damage is precision damage and is not multiplied on a {g|Encyclopedia:Critical}critical hit{/g}.\nThe character must be able to see the target well enough to pick out a vital spot and must be able to {g|Encyclopedia:Reach}reach{/g} such a spot.",
+      "icon": "02ef137cda22e9b4aa9af681fba45909",
+      "isSelection": false
     },
     {
       "__index": 17,
-      "name": "Medical Discovery",
-      "desc": "At 2nd level, and then again every 2 levels thereafter (up to 18th level), a vivesectionist makes an incredible medical discovery. The {g|Encyclopedia:DC}DC{/g} of any {g|Encyclopedia:Saving_Throw}saving throw{/g} called for by a discovery is equal to 10 \u002B 1/2 the vivisectionist\u0027s level \u002B the vivisectionist\u0027s {g|Encyclopedia:Intelligence}Intelligence{/g} modifier.",
-      "icon": "99076beda4a3c5c49b5162e245ea52e1"
+      "name": "Advanced Talents",
+      "desc": "After 10th level, a character can choose one of the advanced rogue talents in place of a rogue talent.",
+      "icon": "57a5e3232472df44bac5df62ed9f8cdd",
+      "isSelection": false
     },
     {
       "__index": 18,
-      "name": "Infused Curative",
-      "desc": "At 2nd level, a chirurgeon\u0027s extracts of remove disease, remove blindness, neutralize poison, and {g|Encyclopedia:Healing}cure{/g} {g|Encyclopedia:Spell}spells{/g} automatically act as infusions and can be used not only on himself but on other people as well.",
-      "icon": "39d4935e5d3dee04089959b1c324407b"
+      "name": "Medical Discovery",
+      "desc": "At 2nd level, and then again every 2 levels thereafter (up to 18th level), a vivesectionist makes an incredible medical discovery. The {g|Encyclopedia:DC}DC{/g} of any {g|Encyclopedia:Saving_Throw}saving throw{/g} called for by a discovery is equal to 10 \u002B 1/2 the vivisectionist\u0027s level \u002B the vivisectionist\u0027s {g|Encyclopedia:Intelligence}Intelligence{/g} modifier.",
+      "icon": "99076beda4a3c5c49b5162e245ea52e1",
+      "isSelection": true
     },
     {
       "__index": 19,
-      "name": "Skill Focus \u2014 Lore (Religion)",
-      "desc": "You get a \u002B3 {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Check}checks{/g} involving {g|Encyclopedia:Lore_Religion}Lore (religion){/g}. If you have 10 or more ranks in Lore (religion), this bonus increases to \u002B6.",
-      "icon": "623da2bdd5d96ac4790273185630f0f3"
+      "name": "Infused Curative",
+      "desc": "At 2nd level, a chirurgeon\u0027s extracts of remove disease, remove blindness, neutralize poison, and {g|Encyclopedia:Healing}cure{/g} {g|Encyclopedia:Spell}spells{/g} automatically act as infusions and can be used not only on himself but on other people as well.",
+      "icon": "39d4935e5d3dee04089959b1c324407b",
+      "isSelection": false
     },
     {
       "__index": 20,
-      "name": "Power Over Death",
-      "desc": "At 10th level, a chirurgeon adds breath of life to his formula book as a 4th-level extract. His infused curative ability applies to this extract.",
-      "icon": "7cfec8a8c831a124a87f9974043527f0"
+      "name": "Skill Focus \u2014 Lore (Religion)",
+      "desc": "You get a \u002B3 {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Check}checks{/g} involving {g|Encyclopedia:Lore_Religion}Lore (religion){/g}. If you have 10 or more ranks in Lore (religion), this bonus increases to \u002B6.",
+      "icon": "623da2bdd5d96ac4790273185630f0f3",
+      "isSelection": false
     },
     {
       "__index": 21,
-      "name": "Bottled Ally I",
-      "desc": "At 2nd level, a preservationist adds summon nature\u0027s ally I to his formula book as a 1st-level extract.",
-      "icon": "77b3a39fb33ba5b4086cd4616e4a220b"
+      "name": "Power Over Death",
+      "desc": "At 10th level, a chirurgeon adds breath of life to his formula book as a 4th-level extract. His infused curative ability applies to this extract.",
+      "icon": "7cfec8a8c831a124a87f9974043527f0",
+      "isSelection": false
     },
     {
       "__index": 22,
-      "name": "Bottled Ally II",
-      "desc": "At 5th level, a preservationist adds summon nature\u0027s ally II to his formula book as a 2nd-level extract.",
-      "icon": "77b3a39fb33ba5b4086cd4616e4a220b"
+      "name": "Bottled Ally I",
+      "desc": "At 2nd level, a preservationist adds summon nature\u0027s ally I to his formula book as a 1st-level extract.",
+      "icon": "77b3a39fb33ba5b4086cd4616e4a220b",
+      "isSelection": false
     },
     {
       "__index": 23,
-      "name": "Bottled Ally III",
-      "desc": "At 8th level, a preservationist adds summon nature\u0027s ally IV to his formula book as a 3rd-level extract.",
-      "icon": "77b3a39fb33ba5b4086cd4616e4a220b"
+      "name": "Bottled Ally II",
+      "desc": "At 5th level, a preservationist adds summon nature\u0027s ally II to his formula book as a 2nd-level extract.",
+      "icon": "77b3a39fb33ba5b4086cd4616e4a220b",
+      "isSelection": false
     },
     {
       "__index": 24,
-      "name": "Bottled Ally IV",
-      "desc": "At 10th level, a preservationist adds summon nature\u0027s ally V to his formula book as a 4th-level extract.",
-      "icon": "77b3a39fb33ba5b4086cd4616e4a220b"
+      "name": "Bottled Ally III",
+      "desc": "At 8th level, a preservationist adds summon nature\u0027s ally IV to his formula book as a 3rd-level extract.",
+      "icon": "77b3a39fb33ba5b4086cd4616e4a220b",
+      "isSelection": false
     },
     {
       "__index": 25,
-      "name": "Bottled Ally V",
-      "desc": "At 14th level, a preservationist adds summon nature\u0027s ally VII to his formula book as a 5th-level extract.",
-      "icon": "77b3a39fb33ba5b4086cd4616e4a220b"
+      "name": "Bottled Ally IV",
+      "desc": "At 10th level, a preservationist adds summon nature\u0027s ally V to his formula book as a 4th-level extract.",
+      "icon": "77b3a39fb33ba5b4086cd4616e4a220b",
+      "isSelection": false
     },
     {
       "__index": 26,
-      "name": "Bottled Ally VI",
-      "desc": "At 18 level, a preservationist adds summon nature\u0027s ally IX to his formula book as a 6th-level extract.",
-      "icon": "77b3a39fb33ba5b4086cd4616e4a220b"
+      "name": "Bottled Ally V",
+      "desc": "At 14th level, a preservationist adds summon nature\u0027s ally VII to his formula book as a 5th-level extract.",
+      "icon": "77b3a39fb33ba5b4086cd4616e4a220b",
+      "isSelection": false
     },
     {
       "__index": 27,
-      "name": "Class Skills",
-      "desc": "A metamorph adds {g|Encyclopedia:Stealth}Stealth{/g} to her list of class {g|Encyclopedia:Skills}skills{/g}.",
-      "icon": "3482eb9c0d448524ab950213b3866301"
+      "name": "Bottled Ally VI",
+      "desc": "At 18 level, a preservationist adds summon nature\u0027s ally IX to his formula book as a 6th-level extract.",
+      "icon": "77b3a39fb33ba5b4086cd4616e4a220b",
+      "isSelection": false
     },
     {
       "__index": 28,
-      "name": "Adaptive Physiology",
-      "desc": "At 3rd level, a metamorph gains a 25% chance to negate {g|Encyclopedia:Critical}critical hits{/g} and precision {g|Encyclopedia:Damage}damage{/g}, similar to the preserve organs discovery. This chance increases to 50% at 6th level, and to 75% at 18th level.",
-      "icon": "d8b691e714af34048a3dcfa080d348b3"
+      "name": "Class Skills",
+      "desc": "A metamorph adds {g|Encyclopedia:Stealth}Stealth{/g} to her list of class {g|Encyclopedia:Skills}skills{/g}.",
+      "icon": "3482eb9c0d448524ab950213b3866301",
+      "isSelection": false
     },
     {
       "__index": 29,
-      "name": "Shapechanger",
-      "desc": "A metamorph gains the ability to transform herself into another form. The effect lasts for 1 hour per metamorph\u0027s alchemist level, or until she changes back. Changing form (to another form or back) is a {g|Encyclopedia:Standard_Actions}standard action{/g} that doesn\u0027t provoke {g|Encyclopedia:Attack_Of_Opportunity}attacks of opportunity{/g}. The metamorph is fatigued for 1 {g|Encyclopedia:Combat_Round}round{/g} each time she changes shape.\nA metamorph can use this ability twice per day at 4th level and an additional time per day every 2 alchemist levels thereafter, for a total of ten times at 20th level.\nThis ability functions as beast shape I at 4th level, as beast shape II at 9th level, as beast shape III at 11th level, as beast shape IV or dragonkind I at 13th level, and as dragonkind II at 15th level.\nThis ability replaces alchemy (which also includes bombs, extracts, and mutagen) and Throw Anything.",
-      "icon": "b4fa111dbc3dc5a4ab13a29616638554"
+      "name": "Adaptive Physiology",
+      "desc": "At 3rd level, a metamorph gains a 25% chance to negate {g|Encyclopedia:Critical}critical hits{/g} and precision {g|Encyclopedia:Damage}damage{/g}, similar to the preserve organs discovery. This chance increases to 50% at 6th level, and to 75% at 18th level.",
+      "icon": "d8b691e714af34048a3dcfa080d348b3",
+      "isSelection": false
     },
     {
       "__index": 30,
-      "name": "Beast Shape I",
-      "desc": "You become a medium wolf. You gain a \u002B2 {g|Encyclopedia:Size}size{/g} {g|Encyclopedia:Bonus}bonus{/g} to your {g|Encyclopedia:Strength}Strength{/g} and a \u002B2 form natural armor bonus to {g|Encyclopedia:Armor_Class}AC{/g}. Your movement {g|Encyclopedia:Speed}speed{/g} is increased by 20 feet. You also gain a {g|Encyclopedia:Dice}1d6{/g} bite {g|Encyclopedia:Attack}attack{/g} and the tripping bite ability.\nTripping Bite: A wolf can attempt to trip its opponent as a {g|Encyclopedia:Free_Action}free action{/g} if it hits with bite attack.",
-      "icon": "77b3a39fb33ba5b4086cd4616e4a220b"
+      "name": "Shapechanger",
+      "desc": "A metamorph gains the ability to transform herself into another form. The effect lasts for 1 hour per metamorph\u0027s alchemist level, or until she changes back. Changing form (to another form or back) is a {g|Encyclopedia:Standard_Actions}standard action{/g} that doesn\u0027t provoke {g|Encyclopedia:Attack_Of_Opportunity}attacks of opportunity{/g}. The metamorph is fatigued for 1 {g|Encyclopedia:Combat_Round}round{/g} each time she changes shape.\nA metamorph can use this ability twice per day at 4th level and an additional time per day every 2 alchemist levels thereafter, for a total of ten times at 20th level.\nThis ability functions as beast shape I at 4th level, as beast shape II at 9th level, as beast shape III at 11th level, as beast shape IV or dragonkind I at 13th level, and as dragonkind II at 15th level.\nThis ability replaces alchemy (which also includes bombs, extracts, and mutagen) and Throw Anything.",
+      "icon": "b4fa111dbc3dc5a4ab13a29616638554",
+      "isSelection": false
     },
     {
       "__index": 31,
-      "name": "Beast Shape II",
-      "desc": "You become a Medium leopard. You gain a \u002B2 {g|Encyclopedia:Size}size{/g} {g|Encyclopedia:Bonus}bonus{/g} to your {g|Encyclopedia:Strength}Strength{/g} and a \u002B2 form natural armor bonus to {g|Encyclopedia:Armor_Class}AC{/g}. You also gain two {g|Encyclopedia:Dice}1d3{/g} claw {g|Encyclopedia:Attack}attacks{/g} and one 1d6 bite attack.",
-      "icon": "77b3a39fb33ba5b4086cd4616e4a220b"
+      "name": "Beast Shape I",
+      "desc": "You become a medium wolf. You gain a \u002B2 {g|Encyclopedia:Size}size{/g} {g|Encyclopedia:Bonus}bonus{/g} to your {g|Encyclopedia:Strength}Strength{/g} and a \u002B2 form natural armor bonus to {g|Encyclopedia:Armor_Class}AC{/g}. Your movement {g|Encyclopedia:Speed}speed{/g} is increased by 20 feet. You also gain a {g|Encyclopedia:Dice}1d6{/g} bite {g|Encyclopedia:Attack}attack{/g} and the tripping bite ability.\nTripping Bite: A wolf can attempt to trip its opponent as a {g|Encyclopedia:Free_Action}free action{/g} if it hits with bite attack.",
+      "icon": "77b3a39fb33ba5b4086cd4616e4a220b",
+      "isSelection": false
     },
     {
       "__index": 32,
-      "name": "Beast Shape III",
-      "desc": "You become a Large bear. You gain a \u002B4 {g|Encyclopedia:Size}size{/g} {g|Encyclopedia:Bonus}bonus{/g} to your {g|Encyclopedia:Strength}Strength{/g}, a \u20132 {g|Encyclopedia:Penalty}penalty{/g} to your {g|Encyclopedia:Dexterity}Dexterity{/g}, and a \u002B4 form natural armor bonus to {g|Encyclopedia:Armor_Class}AC{/g}. Your movement {g|Encyclopedia:Speed}speed{/g} is increased by 10 feet. You also have two {g|Encyclopedia:Dice}1d6{/g} claw {g|Encyclopedia:Attack}attacks{/g}, one 1d6 bite attack, and the rend ability.\nRend: When a bear hits an opponent with both its claws, it deals an additional 1d6 plus 1\u20131/2 times its Strength modifier points of {g|Encyclopedia:Damage_Type}slashing damage{/g}. It can only deal this additional {g|Encyclopedia:Damage}damage{/g} once each {g|Encyclopedia:Combat_Round}round{/g}.",
-      "icon": "77b3a39fb33ba5b4086cd4616e4a220b"
+      "name": "Beast Shape II",
+      "desc": "You become a Medium leopard. You gain a \u002B2 {g|Encyclopedia:Size}size{/g} {g|Encyclopedia:Bonus}bonus{/g} to your {g|Encyclopedia:Strength}Strength{/g} and a \u002B2 form natural armor bonus to {g|Encyclopedia:Armor_Class}AC{/g}. You also gain two {g|Encyclopedia:Dice}1d3{/g} claw {g|Encyclopedia:Attack}attacks{/g} and one 1d6 bite attack.",
+      "icon": "77b3a39fb33ba5b4086cd4616e4a220b",
+      "isSelection": false
     },
     {
       "__index": 33,
-      "name": "Beast Shape IV",
-      "desc": "You become a Large smilodon, a Large shambling mound or a Large wyvern.",
-      "icon": "77b3a39fb33ba5b4086cd4616e4a220b"
+      "name": "Beast Shape III",
+      "desc": "You become a Large bear. You gain a \u002B4 {g|Encyclopedia:Size}size{/g} {g|Encyclopedia:Bonus}bonus{/g} to your {g|Encyclopedia:Strength}Strength{/g}, a \u20132 {g|Encyclopedia:Penalty}penalty{/g} to your {g|Encyclopedia:Dexterity}Dexterity{/g}, and a \u002B4 form natural armor bonus to {g|Encyclopedia:Armor_Class}AC{/g}. Your movement {g|Encyclopedia:Speed}speed{/g} is increased by 10 feet. You also have two {g|Encyclopedia:Dice}1d6{/g} claw {g|Encyclopedia:Attack}attacks{/g}, one 1d6 bite attack, and the rend ability.\nRend: When a bear hits an opponent with both its claws, it deals an additional 1d6 plus 1\u20131/2 times its Strength modifier points of {g|Encyclopedia:Damage_Type}slashing damage{/g}. It can only deal this additional {g|Encyclopedia:Damage}damage{/g} once each {g|Encyclopedia:Combat_Round}round{/g}.",
+      "icon": "77b3a39fb33ba5b4086cd4616e4a220b",
+      "isSelection": false
     },
     {
       "__index": 34,
-      "name": "Dragonkind I",
-      "desc": "You become a medium dragon-like creature. You gain a \u002B4 {g|Encyclopedia:Size}size{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Strength}Strength{/g}, a \u002B2 size bonus to {g|Encyclopedia:Constitution}Constitution{/g}, a \u002B4 form natural armor bonus to {g|Encyclopedia:Armor_Class}AC{/g}, immunity to difficult terrain, a breath weapon, and resistance to one element. Your movement {g|Encyclopedia:Speed}speed{/g} is increased by 10 feet. You also gain one bite ({g|Encyclopedia:Dice}1d8{/g}), two claws (1d6), and two wing {g|Encyclopedia:Attack}attacks{/g} (1d4). Your breath weapon and resistance depend on the type of your dragon prototype. You can only use the breath weapon once per casting of this {g|Encyclopedia:Spell}spell{/g}. All breath weapons deal 6d8 points of {g|Encyclopedia:Damage}damage{/g} and allow a {g|Encyclopedia:Saving_Throw}Reflex save{/g} for half damage.",
-      "icon": "77b3a39fb33ba5b4086cd4616e4a220b"
+      "name": "Beast Shape IV",
+      "desc": "You become a Large smilodon, a Large shambling mound or a Large wyvern.",
+      "icon": "77b3a39fb33ba5b4086cd4616e4a220b",
+      "isSelection": false
     },
     {
       "__index": 35,
-      "name": "Dragonkind II",
-      "desc": "This {g|Encyclopedia:Spell}spell{/g} functions as dragonkind I except that it also allows you to assume the form of a large dragon-like creature. You gain the following abilities: a \u002B6 {g|Encyclopedia:Size}size{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Strength}Strength{/g}, a \u002B4 size bonus to {g|Encyclopedia:Constitution}Constitution{/g}, a \u002B6 form natural armor bonus to {g|Encyclopedia:Armor_Class}AC{/g}, immunity to difficult terrain, a breath weapon, {g|Encyclopedia:Damage_Reduction}damage reduction{/g} 5/magic, and resistance to one element. Your movement {g|Encyclopedia:Speed}speed{/g} is increased by 10 feet. You also gain one bite ({g|Encyclopedia:Dice}2d6{/g}), two claws (1d8), two wing {g|Encyclopedia:Attack}attacks{/g} (1d6), and one tail slap attack (1d8). You can only use the breath weapon twice per casting of this spell (when you use it, the duration of your breath weapon ability is reduced by 1/2 {g|Encyclopedia:Caster_Level}caster level{/g} minutes), and you must wait 1d4 {g|Encyclopedia:Combat_Round}rounds{/g} between uses. All breath weapons deal 8d8 points of {g|Encyclopedia:Damage}damage{/g} and allow a {g|Encyclopedia:Saving_Throw}Reflex save{/g} for half damage. Line breath weapons increase to 80-foot lines and cones increase to 40-foot cones.",
-      "icon": "77b3a39fb33ba5b4086cd4616e4a220b"
+      "name": "Dragonkind I",
+      "desc": "You become a medium dragon-like creature. You gain a \u002B4 {g|Encyclopedia:Size}size{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Strength}Strength{/g}, a \u002B2 size bonus to {g|Encyclopedia:Constitution}Constitution{/g}, a \u002B4 form natural armor bonus to {g|Encyclopedia:Armor_Class}AC{/g}, immunity to difficult terrain, a breath weapon, and resistance to one element. Your movement {g|Encyclopedia:Speed}speed{/g} is increased by 10 feet. You also gain one bite ({g|Encyclopedia:Dice}1d8{/g}), two claws (1d6), and two wing {g|Encyclopedia:Attack}attacks{/g} (1d4). Your breath weapon and resistance depend on the type of your dragon prototype. You can only use the breath weapon once per casting of this {g|Encyclopedia:Spell}spell{/g}. All breath weapons deal 6d8 points of {g|Encyclopedia:Damage}damage{/g} and allow a {g|Encyclopedia:Saving_Throw}Reflex save{/g} for half damage.",
+      "icon": "77b3a39fb33ba5b4086cd4616e4a220b",
+      "isSelection": false
     },
     {
       "__index": 36,
-      "name": "Incense Fog",
-      "desc": "A 1st-level incense synthesizer can use his ability to create incense fog in a 15-foot area around him to aid his allies (including himself), improving their combat abilities. An affected ally receives a \u002B1 alchemical {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack{/g} and weapon {g|Encyclopedia:Damage}damage rolls{/g}.",
-      "icon": "bfd768a7bd115974e9f4355c6f224a6e"
+      "name": "Dragonkind II",
+      "desc": "This {g|Encyclopedia:Spell}spell{/g} functions as dragonkind I except that it also allows you to assume the form of a large dragon-like creature. You gain the following abilities: a \u002B6 {g|Encyclopedia:Size}size{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Strength}Strength{/g}, a \u002B4 size bonus to {g|Encyclopedia:Constitution}Constitution{/g}, a \u002B6 form natural armor bonus to {g|Encyclopedia:Armor_Class}AC{/g}, immunity to difficult terrain, a breath weapon, {g|Encyclopedia:Damage_Reduction}damage reduction{/g} 5/magic, and resistance to one element. Your movement {g|Encyclopedia:Speed}speed{/g} is increased by 10 feet. You also gain one bite ({g|Encyclopedia:Dice}2d6{/g}), two claws (1d8), two wing {g|Encyclopedia:Attack}attacks{/g} (1d6), and one tail slap attack (1d8). You can only use the breath weapon twice per casting of this spell (when you use it, the duration of your breath weapon ability is reduced by 1/2 {g|Encyclopedia:Caster_Level}caster level{/g} minutes), and you must wait 1d4 {g|Encyclopedia:Combat_Round}rounds{/g} between uses. All breath weapons deal 8d8 points of {g|Encyclopedia:Damage}damage{/g} and allow a {g|Encyclopedia:Saving_Throw}Reflex save{/g} for half damage. Line breath weapons increase to 80-foot lines and cones increase to 40-foot cones.",
+      "icon": "77b3a39fb33ba5b4086cd4616e4a220b",
+      "isSelection": false
     },
     {
       "__index": 37,
+      "name": "Incense Fog",
+      "desc": "A 1st-level incense synthesizer can use his ability to create incense fog in a 15-foot area around him to aid his allies (including himself), improving their combat abilities. An affected ally receives a \u002B1 alchemical {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack{/g} and weapon {g|Encyclopedia:Damage}damage rolls{/g}.",
+      "icon": "bfd768a7bd115974e9f4355c6f224a6e",
+      "isSelection": false
+    },
+    {
+      "__index": 38,
       "name": "Incense",
       "desc": "A incense synthesizer learns a number of alchemical tricks, called incenses, which grant ally powers or weaken foes. At 3rd level, a incense synthesizer learns one incense. At 6th, 9th, 12th, 15th and 18th level, the incense synthesizer learns new incense. A incense synthesizer cannot select a incense more than once unless noted otherwise.",
-      "icon": "gen__I"
+      "icon": "gen__I",
+      "isSelection": true
     }
   ],
   "name": "Alchemist",
   "desc": "The alchemist\u0027s reputation is not softened by his exuberance (some would say dangerous recklessness) in perfecting his magical extracts and potion-like creations, infusing these substances with magic siphoned from his aura and using his own body as experimental stock. Nor is it mollified by the alchemist\u0027s almost gleeful passion for building explosive bombs and discovering strange new poisons and methods for their use. These {g|Encyclopedia:Trait}traits{/g}, while making him a liability and risk for most civilized organizations and institutions of higher learning, seem to fit quite well with most adventuring groups.",
   "layout": [
-    [
-      {
-        "level": 1,
-        "feature": 0,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 20,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 1,
-        "rank": 1,
-        "archType": 0
-      },
-      {
-        "level": 3,
-        "feature": 1,
-        "rank": 2,
-        "archType": 0
-      },
-      {
-        "level": 5,
-        "feature": 1,
-        "rank": 3,
-        "archType": 0
-      },
-      {
-        "level": 7,
-        "feature": 1,
-        "rank": 4,
-        "archType": 0
-      },
-      {
-        "level": 9,
-        "feature": 1,
-        "rank": 5,
-        "archType": 0
-      },
-      {
-        "level": 11,
-        "feature": 1,
-        "rank": 6,
-        "archType": 0
-      },
-      {
-        "level": 13,
-        "feature": 1,
-        "rank": 7,
-        "archType": 0
-      },
-      {
-        "level": 15,
-        "feature": 1,
-        "rank": 8,
-        "archType": 0
-      },
-      {
-        "level": 17,
-        "feature": 1,
-        "rank": 9,
-        "archType": 0
-      },
-      {
-        "level": 19,
-        "feature": 1,
-        "rank": 10,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 2,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 14,
-        "feature": 8,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 20,
-        "feature": 9,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 3,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 4,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 2,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 4,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 6,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 8,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 10,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 12,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 14,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 16,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 18,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 20,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 2,
-        "feature": 6,
-        "rank": 1,
-        "archType": 0
-      },
-      {
-        "level": 5,
-        "feature": 6,
-        "rank": 2,
-        "archType": 0
-      },
-      {
-        "level": 8,
-        "feature": 6,
-        "rank": 3,
-        "archType": 0
-      },
-      {
-        "level": 10,
-        "feature": 7,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    []
+    {
+      "name": null,
+      "rows": [
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 0,
+              "feature": 0,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 1,
+              "feature": 1,
+              "rank": 1,
+              "archType": 0
+            },
+            {
+              "level": 3,
+              "feature": 1,
+              "rank": 2,
+              "archType": 0
+            },
+            {
+              "level": 5,
+              "feature": 1,
+              "rank": 3,
+              "archType": 0
+            },
+            {
+              "level": 7,
+              "feature": 1,
+              "rank": 4,
+              "archType": 0
+            },
+            {
+              "level": 9,
+              "feature": 1,
+              "rank": 5,
+              "archType": 0
+            },
+            {
+              "level": 11,
+              "feature": 1,
+              "rank": 6,
+              "archType": 0
+            },
+            {
+              "level": 13,
+              "feature": 1,
+              "rank": 7,
+              "archType": 0
+            },
+            {
+              "level": 15,
+              "feature": 1,
+              "rank": 8,
+              "archType": 0
+            },
+            {
+              "level": 17,
+              "feature": 1,
+              "rank": 9,
+              "archType": 0
+            },
+            {
+              "level": 19,
+              "feature": 1,
+              "rank": 10,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 1,
+              "feature": 2,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 14,
+              "feature": 8,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 20,
+              "feature": 9,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 1,
+              "feature": 3,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 20,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 1,
+              "feature": 4,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 2,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 4,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 6,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 8,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 10,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 12,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 14,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 16,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 18,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 20,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 2,
+              "feature": 6,
+              "rank": 1,
+              "archType": 0
+            },
+            {
+              "level": 5,
+              "feature": 6,
+              "rank": 2,
+              "archType": 0
+            },
+            {
+              "level": 8,
+              "feature": 6,
+              "rank": 3,
+              "archType": 0
+            },
+            {
+              "level": 10,
+              "feature": 7,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": []
+        }
+      ]
+    }
   ],
   "bab": [
     0,
@@ -783,243 +857,266 @@
       "desc": "Grenadiers train to exercise their talents in the thick of battle, even when not under the influence of their mutagens. They learn methods of combining weapon {g|Encyclopedia:Attack}attacks{/g} with their alchemical magic, and sacrifice {g|Encyclopedia:Skills}skill{/g} with poisons in order to become more adept at using alchemical bombs or using alchemical items in conjunction with their martial skills. As an unusual side effect of their skill at handling bombs and alchemical items with increased {g|Encyclopedia:Speed}speed{/g}, grenadiers master the ability to drink potions, elixirs, and mutagens quickly and safely, without exposing themselves to peril while doing so.",
       "id": "6af888a7800b3e949a40f558ff204aae",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 11,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 6,
-            "feature": 13,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 14,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 1,
-            "rank": 2,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 1,
-            "rank": 3,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 1,
-            "rank": 4,
-            "archType": 0
-          },
-          {
-            "level": 9,
-            "feature": 1,
-            "rank": 5,
-            "archType": 0
-          },
-          {
-            "level": 11,
-            "feature": 1,
-            "rank": 6,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 1,
-            "rank": 7,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 1,
-            "rank": 8,
-            "archType": 0
-          },
-          {
-            "level": 17,
-            "feature": 1,
-            "rank": 9,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 1,
-            "rank": 10,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 12,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 16,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 6,
-            "rank": 1,
-            "archType": -1
-          },
-          {
-            "level": 5,
-            "feature": 6,
-            "rank": 2,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 6,
-            "rank": 3,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 10,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 10,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 3,
+                  "feature": 1,
+                  "rank": 2,
+                  "archType": 0
+                },
+                {
+                  "level": 5,
+                  "feature": 1,
+                  "rank": 3,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 1,
+                  "rank": 4,
+                  "archType": 0
+                },
+                {
+                  "level": 9,
+                  "feature": 1,
+                  "rank": 5,
+                  "archType": 0
+                },
+                {
+                  "level": 11,
+                  "feature": 1,
+                  "rank": 6,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 1,
+                  "rank": 7,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 1,
+                  "rank": 8,
+                  "archType": 0
+                },
+                {
+                  "level": 17,
+                  "feature": 1,
+                  "rank": 9,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 1,
+                  "rank": 10,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 6,
+                  "rank": 1,
+                  "archType": -1
+                },
+                {
+                  "level": 5,
+                  "feature": 6,
+                  "rank": 2,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 6,
+                  "rank": 3,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1041,338 +1138,371 @@
       "desc": "A vivisectionist studies bodies to better understand their function. Unlike a chirurgeon, a vivisectionist\u0027s goals are not related to {g|Encyclopedia:Healing}healing{/g}, but rather to experimentation and knowledge that most people would consider evil.",
       "id": "68cbcd9fbf1fb1d489562f829bb97e38",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 16,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": 1,
-            "archType": -1
-          },
-          {
-            "level": 3,
-            "feature": 1,
-            "rank": 2,
-            "archType": -1
-          },
-          {
-            "level": 5,
-            "feature": 1,
-            "rank": 3,
-            "archType": -1
-          },
-          {
-            "level": 7,
-            "feature": 1,
-            "rank": 4,
-            "archType": -1
-          },
-          {
-            "level": 9,
-            "feature": 1,
-            "rank": 5,
-            "archType": -1
-          },
-          {
-            "level": 11,
-            "feature": 1,
-            "rank": 6,
-            "archType": -1
-          },
-          {
-            "level": 13,
-            "feature": 1,
-            "rank": 7,
-            "archType": -1
-          },
-          {
-            "level": 15,
-            "feature": 1,
-            "rank": 8,
-            "archType": -1
-          },
-          {
-            "level": 17,
-            "feature": 1,
-            "rank": 9,
-            "archType": -1
-          },
-          {
-            "level": 19,
-            "feature": 1,
-            "rank": 10,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 4,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 6,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 8,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 12,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 14,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 16,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 18,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 20,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 6,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 6,
-            "rank": 2,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 6,
-            "rank": 3,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 15,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 3,
-            "feature": 15,
-            "rank": 2,
-            "archType": 1
-          },
-          {
-            "level": 5,
-            "feature": 15,
-            "rank": 3,
-            "archType": 1
-          },
-          {
-            "level": 7,
-            "feature": 15,
-            "rank": 4,
-            "archType": 1
-          },
-          {
-            "level": 9,
-            "feature": 15,
-            "rank": 5,
-            "archType": 1
-          },
-          {
-            "level": 11,
-            "feature": 15,
-            "rank": 6,
-            "archType": 1
-          },
-          {
-            "level": 13,
-            "feature": 15,
-            "rank": 7,
-            "archType": 1
-          },
-          {
-            "level": 15,
-            "feature": 15,
-            "rank": 8,
-            "archType": 1
-          },
-          {
-            "level": 17,
-            "feature": 15,
-            "rank": 9,
-            "archType": 1
-          },
-          {
-            "level": 19,
-            "feature": 15,
-            "rank": 10,
-            "archType": 1
-          }
-        ],
-        [],
-        [
-          {
-            "level": 2,
-            "feature": 17,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 4,
-            "feature": 17,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 6,
-            "feature": 17,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 8,
-            "feature": 17,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 17,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 12,
-            "feature": 17,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 14,
-            "feature": 17,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 16,
-            "feature": 17,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 18,
-            "feature": 17,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 17,
-            "rank": -1,
-            "archType": 1
-          }
-        ]
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 16,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 3,
+                  "feature": 16,
+                  "rank": 2,
+                  "archType": 1
+                },
+                {
+                  "level": 5,
+                  "feature": 16,
+                  "rank": 3,
+                  "archType": 1
+                },
+                {
+                  "level": 7,
+                  "feature": 16,
+                  "rank": 4,
+                  "archType": 1
+                },
+                {
+                  "level": 9,
+                  "feature": 16,
+                  "rank": 5,
+                  "archType": 1
+                },
+                {
+                  "level": 11,
+                  "feature": 16,
+                  "rank": 6,
+                  "archType": 1
+                },
+                {
+                  "level": 13,
+                  "feature": 16,
+                  "rank": 7,
+                  "archType": 1
+                },
+                {
+                  "level": 15,
+                  "feature": 16,
+                  "rank": 8,
+                  "archType": 1
+                },
+                {
+                  "level": 17,
+                  "feature": 16,
+                  "rank": 9,
+                  "archType": 1
+                },
+                {
+                  "level": 19,
+                  "feature": 16,
+                  "rank": 10,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 17,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 18,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 4,
+                  "feature": 18,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 18,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 8,
+                  "feature": 18,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 10,
+                  "feature": 18,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 12,
+                  "feature": 18,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 14,
+                  "feature": 18,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 16,
+                  "feature": 18,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 18,
+                  "feature": 18,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 18,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": 1,
+                  "archType": -1
+                },
+                {
+                  "level": 3,
+                  "feature": 1,
+                  "rank": 2,
+                  "archType": -1
+                },
+                {
+                  "level": 5,
+                  "feature": 1,
+                  "rank": 3,
+                  "archType": -1
+                },
+                {
+                  "level": 7,
+                  "feature": 1,
+                  "rank": 4,
+                  "archType": -1
+                },
+                {
+                  "level": 9,
+                  "feature": 1,
+                  "rank": 5,
+                  "archType": -1
+                },
+                {
+                  "level": 11,
+                  "feature": 1,
+                  "rank": 6,
+                  "archType": -1
+                },
+                {
+                  "level": 13,
+                  "feature": 1,
+                  "rank": 7,
+                  "archType": -1
+                },
+                {
+                  "level": 15,
+                  "feature": 1,
+                  "rank": 8,
+                  "archType": -1
+                },
+                {
+                  "level": 17,
+                  "feature": 1,
+                  "rank": 9,
+                  "archType": -1
+                },
+                {
+                  "level": 19,
+                  "feature": 1,
+                  "rank": 10,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 4,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 6,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 8,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 12,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 14,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 16,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 18,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 20,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 6,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 5,
+                  "feature": 6,
+                  "rank": 2,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 6,
+                  "rank": 3,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1394,228 +1524,261 @@
       "desc": "An alchemist who studies anatomy and uses this knowledge to {g|Encyclopedia:Healing}heal{/g} is a chirurgeon.",
       "id": "063440d550b25524abcb8dc2590d0168",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 18,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 5,
-            "feature": 19,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 20,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 1,
-            "rank": 2,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 1,
-            "rank": 3,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 1,
-            "rank": 4,
-            "archType": 0
-          },
-          {
-            "level": 9,
-            "feature": 1,
-            "rank": 5,
-            "archType": 0
-          },
-          {
-            "level": 11,
-            "feature": 1,
-            "rank": 6,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 1,
-            "rank": 7,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 1,
-            "rank": 8,
-            "archType": 0
-          },
-          {
-            "level": 17,
-            "feature": 1,
-            "rank": 9,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 1,
-            "rank": 10,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 16,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 6,
-            "rank": 1,
-            "archType": -1
-          },
-          {
-            "level": 5,
-            "feature": 6,
-            "rank": 2,
-            "archType": -1
-          },
-          {
-            "level": 8,
-            "feature": 6,
-            "rank": 3,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 19,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 5,
+                  "feature": 20,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 10,
+                  "feature": 21,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 3,
+                  "feature": 1,
+                  "rank": 2,
+                  "archType": 0
+                },
+                {
+                  "level": 5,
+                  "feature": 1,
+                  "rank": 3,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 1,
+                  "rank": 4,
+                  "archType": 0
+                },
+                {
+                  "level": 9,
+                  "feature": 1,
+                  "rank": 5,
+                  "archType": 0
+                },
+                {
+                  "level": 11,
+                  "feature": 1,
+                  "rank": 6,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 1,
+                  "rank": 7,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 1,
+                  "rank": 8,
+                  "archType": 0
+                },
+                {
+                  "level": 17,
+                  "feature": 1,
+                  "rank": 9,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 1,
+                  "rank": 10,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 6,
+                  "rank": 1,
+                  "archType": -1
+                },
+                {
+                  "level": 5,
+                  "feature": 6,
+                  "rank": 2,
+                  "archType": -1
+                },
+                {
+                  "level": 8,
+                  "feature": 6,
+                  "rank": 3,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1637,249 +1800,291 @@
       "desc": "Preservationist is an alchemist who keeps preserved specimens in bottles, and releases them to aid him in his battles.",
       "id": "d218568445cf0524e889a2dfce97d76f",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 21,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 5,
-            "feature": 22,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 8,
-            "feature": 23,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 24,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 14,
-            "feature": 25,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 18,
-            "feature": 26,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 1,
-            "rank": 2,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 1,
-            "rank": 3,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 1,
-            "rank": 4,
-            "archType": 0
-          },
-          {
-            "level": 9,
-            "feature": 1,
-            "rank": 5,
-            "archType": 0
-          },
-          {
-            "level": 11,
-            "feature": 1,
-            "rank": 6,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 1,
-            "rank": 7,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 1,
-            "rank": 8,
-            "archType": 0
-          },
-          {
-            "level": 17,
-            "feature": 1,
-            "rank": 9,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 1,
-            "rank": 10,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 8,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 20,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 16,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 20,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 6,
-            "rank": 1,
-            "archType": -1
-          },
-          {
-            "level": 5,
-            "feature": 6,
-            "rank": 2,
-            "archType": -1
-          },
-          {
-            "level": 8,
-            "feature": 6,
-            "rank": 3,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 22,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 5,
+                  "feature": 23,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 8,
+                  "feature": 24,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 10,
+                  "feature": 25,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 14,
+                  "feature": 26,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 18,
+                  "feature": 27,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 3,
+                  "feature": 1,
+                  "rank": 2,
+                  "archType": 0
+                },
+                {
+                  "level": 5,
+                  "feature": 1,
+                  "rank": 3,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 1,
+                  "rank": 4,
+                  "archType": 0
+                },
+                {
+                  "level": 9,
+                  "feature": 1,
+                  "rank": 5,
+                  "archType": 0
+                },
+                {
+                  "level": 11,
+                  "feature": 1,
+                  "rank": 6,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 1,
+                  "rank": 7,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 1,
+                  "rank": 8,
+                  "archType": 0
+                },
+                {
+                  "level": 17,
+                  "feature": 1,
+                  "rank": 9,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 1,
+                  "rank": 10,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 20,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 20,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 6,
+                  "rank": 1,
+                  "archType": -1
+                },
+                {
+                  "level": 5,
+                  "feature": 6,
+                  "rank": 2,
+                  "archType": -1
+                },
+                {
+                  "level": 8,
+                  "feature": 6,
+                  "rank": 3,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1901,271 +2106,322 @@
       "desc": "Metamorphs eschew traditional alchemy, focusing on internal chemistry and the transfiguration of living forms.",
       "id": "ac242ddeaa05af449bfc5230231fab84",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 28,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 4,
-            "feature": 29,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 9,
-            "feature": 31,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 11,
-            "feature": 32,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 13,
-            "feature": 33,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 15,
-            "feature": 35,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": 1,
-            "archType": -1
-          },
-          {
-            "level": 3,
-            "feature": 1,
-            "rank": 2,
-            "archType": -1
-          },
-          {
-            "level": 5,
-            "feature": 1,
-            "rank": 3,
-            "archType": -1
-          },
-          {
-            "level": 7,
-            "feature": 1,
-            "rank": 4,
-            "archType": -1
-          },
-          {
-            "level": 9,
-            "feature": 1,
-            "rank": 5,
-            "archType": -1
-          },
-          {
-            "level": 11,
-            "feature": 1,
-            "rank": 6,
-            "archType": -1
-          },
-          {
-            "level": 13,
-            "feature": 1,
-            "rank": 7,
-            "archType": -1
-          },
-          {
-            "level": 15,
-            "feature": 1,
-            "rank": 8,
-            "archType": -1
-          },
-          {
-            "level": 17,
-            "feature": 1,
-            "rank": 9,
-            "archType": -1
-          },
-          {
-            "level": 19,
-            "feature": 1,
-            "rank": 10,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 4,
-            "feature": 30,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 13,
-            "feature": 34,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 16,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 6,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 6,
-            "rank": 2,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 6,
-            "rank": 3,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 27,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 28,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 3,
+                  "feature": 29,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 4,
+                  "feature": 30,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 9,
+                  "feature": 32,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 11,
+                  "feature": 33,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 13,
+                  "feature": 34,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 15,
+                  "feature": 36,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 4,
+                  "feature": 31,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 13,
+                  "feature": 35,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": 1,
+                  "archType": -1
+                },
+                {
+                  "level": 3,
+                  "feature": 1,
+                  "rank": 2,
+                  "archType": -1
+                },
+                {
+                  "level": 5,
+                  "feature": 1,
+                  "rank": 3,
+                  "archType": -1
+                },
+                {
+                  "level": 7,
+                  "feature": 1,
+                  "rank": 4,
+                  "archType": -1
+                },
+                {
+                  "level": 9,
+                  "feature": 1,
+                  "rank": 5,
+                  "archType": -1
+                },
+                {
+                  "level": 11,
+                  "feature": 1,
+                  "rank": 6,
+                  "archType": -1
+                },
+                {
+                  "level": 13,
+                  "feature": 1,
+                  "rank": 7,
+                  "archType": -1
+                },
+                {
+                  "level": 15,
+                  "feature": 1,
+                  "rank": 8,
+                  "archType": -1
+                },
+                {
+                  "level": 17,
+                  "feature": 1,
+                  "rank": 9,
+                  "archType": -1
+                },
+                {
+                  "level": 19,
+                  "feature": 1,
+                  "rank": 10,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 6,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 5,
+                  "feature": 6,
+                  "rank": 2,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 6,
+                  "rank": 3,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -2187,253 +2443,283 @@
       "desc": "Some alchemists focus their efforts on researching different kinds of incenses to aid them and their allies in battle against the forces of evil.",
       "id": "6faf49766d8156c419d08f556a40374f",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 1,
-            "rank": 2,
-            "archType": -1
-          },
-          {
-            "level": 5,
-            "feature": 1,
-            "rank": 3,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 1,
-            "rank": 4,
-            "archType": -1
-          },
-          {
-            "level": 9,
-            "feature": 1,
-            "rank": 5,
-            "archType": 0
-          },
-          {
-            "level": 11,
-            "feature": 1,
-            "rank": 6,
-            "archType": -1
-          },
-          {
-            "level": 13,
-            "feature": 1,
-            "rank": 7,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 1,
-            "rank": 8,
-            "archType": -1
-          },
-          {
-            "level": 17,
-            "feature": 1,
-            "rank": 9,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 1,
-            "rank": 10,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 14,
-            "feature": 8,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 20,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 16,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 6,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 6,
-            "rank": 2,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 6,
-            "rank": 3,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 36,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 3,
-            "feature": 37,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 6,
-            "feature": 37,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 9,
-            "feature": 37,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 12,
-            "feature": 37,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 15,
-            "feature": 37,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 18,
-            "feature": 37,
-            "rank": -1,
-            "archType": 1
-          }
-        ]
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 37,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 38,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 38,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 9,
+                  "feature": 38,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 12,
+                  "feature": 38,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 15,
+                  "feature": 38,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 18,
+                  "feature": 38,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 3,
+                  "feature": 1,
+                  "rank": 2,
+                  "archType": -1
+                },
+                {
+                  "level": 5,
+                  "feature": 1,
+                  "rank": 3,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 1,
+                  "rank": 4,
+                  "archType": -1
+                },
+                {
+                  "level": 9,
+                  "feature": 1,
+                  "rank": 5,
+                  "archType": 0
+                },
+                {
+                  "level": 11,
+                  "feature": 1,
+                  "rank": 6,
+                  "archType": -1
+                },
+                {
+                  "level": 13,
+                  "feature": 1,
+                  "rank": 7,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 1,
+                  "rank": 8,
+                  "archType": -1
+                },
+                {
+                  "level": 17,
+                  "feature": 1,
+                  "rank": 9,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 1,
+                  "rank": 10,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 14,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 20,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 6,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 5,
+                  "feature": 6,
+                  "rank": 2,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 6,
+                  "rank": 3,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,

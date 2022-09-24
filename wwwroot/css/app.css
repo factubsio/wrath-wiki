@@ -76,53 +76,6 @@ h1:focus {
         content: "An error has occurred."
     }
 
-table.progression-table {
-    table-layout: fixed;
-/*    width: 1200px;*/
-}
-
-    table.progression-table td, th {
-        width: 60px;
-        max-height: 65px;
-        height: 65px;
-        max-width: 60px;
-        text-align: center;
-    }
-
-    table.progression-table .level-header {
-        border-image: url('../ui/UI_FrameIconSpellLine.png');
-        border-image-slice: 27 27 27 27;
-        border-image-width: 20px 20px 20px 20px;
-        border-image-outset: 0px 0px 0px 0px;
-        border-image-repeat: stretch stretch;
-        border-style: solid;
-        padding: 0;
-        margin-left: -4px;
-        margin-right: -5px;
-    }
-
-/*    table.progression-table .banner {
-        width: 1280px;
-        height: 60px;
-        background-image: url('../ui/UI_BackgroundCaption.png');
-        background-size: 100% 100%;
-        margin-left: -20px;
-        margin-right: -20px;
-        text-align: left;
-        vertical-align: middle;
-        display: flex;
-        align-items: center;
-    }
-*/
-    .banner span {
-        vertical-align: middle;
-        padding-left: 60px;
-        font-weight: bold;
-        font-size: 130%;
-
-    }
-
-
 .chargen-sheet {
 /*    background-image: url('../ui/UI_CharGen_Sheet.jpg');
     background-size: 100% 100%;
@@ -140,79 +93,8 @@ table {
     border-collapse: collapse;
 }
 
-.progression-feature {
-    padding: 0;
-    width: 55px;
-}
-
-.selection-badge {
-    position: absolute;
-    left: 4px;
-    top: 4px;
-    padding: 0;
-}
-
-.feature-added {
-    position: absolute;
-    bottom: -12px;
-    left: calc(50% - 14px);
-
-    width: 28px;
-    height: 28px;
-
-    background-image: url('../ui/UI_CharScreen_IconAdd.png');
-    background-size: 100% 100%;
-}
-
-.feature-removed {
-    position: absolute;
-    bottom: -12px;
-    left: calc(50% - 14px);
-
-    width: 28px;
-    height: 28px;
-
-    background-image: url('../ui/UI_CharScreen_IconDelete.png');
-    background-size: 100% 100%;
-}
-
-.rank-badge {
-    top: 0%;
-    right: 0%;
-    left: auto;
-    bottom: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url('../icons-custom/r.png');
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    width: 22px;
-    height: 20px;
-    color: white;
-    font-weight: bold;
-    font-family: sans-serif;
-    line-height: 30px;
-}
 .content {
     padding: 0;
-}
-
-.chupa-slot {
-    border-left: 2px solid gray;
-}
-
-.chupa-slot:last-child {
-    border-right: 2px solid gray;
-}
-
-.chupa-top {
-    border-top: 1px solid gray;
-}
-
-.chupa-bottom {
-    border-bottom: 1px solid gray;
 }
 
 
@@ -220,41 +102,6 @@ body {
     margin: 0;
 }
 
-.stat-icon-box {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.badge-stat {
-    min-width: 26px;
-    min-height: 26px;
-    display: inline-block;
-    background-size: 100% 100%;
-    filter: invert() opacity(0.6);
-}
-
-.badge-bab {
-    background-image: url('../ui/UI_Icon_Bab.png');
-}
-.badge-fort {
-    background-image: url('../ui/UI_Icon_Fortitude.png');
-}
-.badge-reflex {
-    background-image: url('../ui/UI_Icon_Reflex.png');
-}
-.badge-will {
-    background-image: url('../ui/UI_Icon_Will.png');
-}
-.badge-hp {
-    background-image: url('../ui/UI_Icon_HP.png');
-}
-.badge-magic {
-    background-image: url('../ui/UI_Icon_Magic.png');
-}
 
 article {
 /*    overflow-x: scroll;*/

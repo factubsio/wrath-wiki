@@ -6,23 +6,54 @@
     ],
     [
       3,
-      11
+      11,
+      15
     ],
     [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
       9,
       2,
-      7
+      7,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
     ],
     [
       8,
       12
     ],
     [
+      31,
+      32,
       14,
+      33,
+      34,
       5
     ],
-    [],
-    [],
+    [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    [
+      40,
+      41,
+      42,
+      43
+    ],
     [
       10,
       13
@@ -37,475 +68,658 @@
       "__index": 0,
       "name": "Ranger Proficiencies",
       "desc": "A ranger is proficient with all simple and {g|Encyclopedia:Weapon_Proficiency}martial weapons{/g} and with light armor, medium armor, and shields (except tower shields).",
-      "icon": "gen__RP"
+      "icon": "gen__RP",
+      "isSelection": false
     },
     {
       "__index": 1,
       "name": "Favored Enemy",
       "desc": "At 1st level, a ranger selects a creature type from the ranger favored enemies list. He gets a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on weapon {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} against them.\nAt 5th level and every five levels thereafter (10th, 15th, and 20th level), the ranger may select an additional favored enemy. In addition, at each such interval, the bonus against any one favored enemy (including the one just selected, if so desired) increases by \u002B2.\nIf the ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated on the table below. If a specific creature falls into more than one category of favored enemy, the ranger\u0027s bonuses do not stack; he simply uses whichever bonus is higher.",
-      "icon": "d27bdc1511ba53a41a0b5849c0e9a9a7"
+      "icon": "d27bdc1511ba53a41a0b5849c0e9a9a7",
+      "isSelection": true
     },
     {
       "__index": 2,
       "name": "Combat Style Feat",
       "desc": "At 2nd level, a ranger must select one combat style to pursue.\nThe ranger\u0027s expertise manifests in the form of bonus {g|Encyclopedia:Feat}feats{/g} at 2nd, 6th, 10th, 14th, and 18th level. He can choose feats from his selected combat style\u0027s list, even if he does not have the normal prerequisites.\nEvery style can also choose the following feats: Dodge, Great Fortitude, Lightning Reflexes, Toughness.",
-      "icon": "gen__CSF"
+      "icon": "gen__CSF",
+      "isSelection": true
     },
     {
       "__index": 3,
       "name": "Favored Terrain",
       "desc": "At 3rd level, a ranger may select a type of terrain. The ranger gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}checks{/g} and {g|Encyclopedia:Lore_Nature}Lore (nature){/g}, {g|Encyclopedia:Perception}Perception{/g}, and {g|Encyclopedia:Stealth}Stealth{/g} {g|Encyclopedia:Skills}skill checks{/g} when he is in this terrain.\nAt 8th level and every five levels thereafter, the ranger may select an additional favored terrain. In addition, at each such interval, the skill bonus and initiative bonus in any one favored terrain (including the one just selected, if so desired) increases by \u002B2.",
-      "icon": "68dec1b1949ef5b4680689f9dbe458ed"
+      "icon": "68dec1b1949ef5b4680689f9dbe458ed",
+      "isSelection": true
     },
     {
       "__index": 4,
       "name": "Endurance",
       "desc": "Harsh conditions or long exertions do not easily tire you.\nBenefit: You gain \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Athletics}Athletics checks{/g} and \u002B4 bonus on Fortitude {g|Encyclopedia:Saving_Throw}saves{/g} against fatigue and exhaustion.\nYou may sleep in light or medium armor without becoming fatigued.",
-      "icon": "f11e387a63c004f4ca32557327e10728"
+      "icon": "f11e387a63c004f4ca32557327e10728",
+      "isSelection": false
     },
     {
       "__index": 5,
       "name": "Hunter\u0027s Bond",
       "desc": "At 4th level, a ranger forms a bond with his hunting companions. This bond can take one of two forms. Once the form is chosen, it cannot be changed.\nThe first is a bond to his companions. This bond allows him to spend a {g|Encyclopedia:Move_Action}move action{/g} to grant half his favored enemy {g|Encyclopedia:Bonus}bonus{/g} against a single target of the appropriate type to all allies within 30 feet who can see or hear him. This bonus lasts for a number of {g|Encyclopedia:Combat_Round}rounds{/g} equal to the ranger\u0027s {g|Encyclopedia:Wisdom}Wisdom{/g} modifier (minimum 1). This bonus does not stack with any favored enemy bonuses possessed by his allies; they use whichever bonus is higher.\nThe second option is to form a close bond with an animal companion. A ranger who selects an animal companion can choose one from the list of available creatures. This animal is a loyal companion that accompanies the ranger on his adventures as appropriate for its kind. A ranger\u0027s animal companion shares his favored enemy and favored terrain bonuses.\nThis ability functions like the druid animal companion ability, except that the ranger\u0027s effective druid level is equal to his ranger level \u20133.",
-      "icon": "f53faf1e665cee144ad20fd2d16501d4"
+      "icon": "f53faf1e665cee144ad20fd2d16501d4",
+      "isSelection": true
     },
     {
       "__index": 6,
       "name": "Favored Enemy",
       "desc": "At 1st level, a ranger selects a creature type from the ranger favored enemies list. He gets a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on weapon {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} against them.\nAt 5th level and every five levels thereafter (10th, 15th, and 20th level), the ranger may select an additional favored enemy. In addition, at each such interval, the bonus against any one favored enemy (including the one just selected, if so desired) increases by \u002B2.\nIf the ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated on the table below. If a specific creature falls into more than one category of favored enemy, the ranger\u0027s bonuses do not stack; he simply uses whichever bonus is higher.",
-      "icon": "d27bdc1511ba53a41a0b5849c0e9a9a7"
+      "icon": "d27bdc1511ba53a41a0b5849c0e9a9a7",
+      "isSelection": true
     },
     {
       "__index": 7,
       "name": "Combat Style Feat",
       "desc": "At 2nd level, a ranger must select one combat style to pursue.\nThe ranger\u0027s expertise manifests in the form of bonus {g|Encyclopedia:Feat}feats{/g} at 2nd, 6th, 10th, 14th, and 18th level. He can choose feats from his selected combat style\u0027s list, even if he does not have the normal prerequisites.\nEvery style can also choose the following feats: Dodge, Great Fortitude, Lightning Reflexes, Toughness.",
-      "icon": "gen__CSF"
+      "icon": "gen__CSF",
+      "isSelection": true
     },
     {
       "__index": 8,
       "name": "Evasion",
       "desc": "A character can avoid even magical and unusual {g|Encyclopedia:Attack}attacks{/g} with great agility. If a character makes a successful {g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} against an attack that normally deals half {g|Encyclopedia:Damage}damage{/g} on a successful save, he instead takes no damage. A {g|Encyclopedia:Helpless}helpless{/g} character does not gain the benefit of evasion.",
-      "icon": "b571fe5defdcf67489e23c8f115f1f2c"
+      "icon": "b571fe5defdcf67489e23c8f115f1f2c",
+      "isSelection": false
     },
     {
       "__index": 9,
       "name": "Combat Style Feat",
       "desc": "At 2nd level, a ranger must select one combat style to pursue.\nThe ranger\u0027s expertise manifests in the form of bonus {g|Encyclopedia:Feat}feats{/g} at 2nd, 6th, 10th, 14th, and 18th level. He can choose feats from his selected combat style\u0027s list, even if he does not have the normal prerequisites.\nEvery style can also choose the following feats: Dodge, Great Fortitude, Lightning Reflexes, Toughness.",
-      "icon": "gen__CSF"
+      "icon": "gen__CSF",
+      "isSelection": true
     },
     {
       "__index": 10,
       "name": "Quarry",
       "desc": "A character can, as a {g|Encyclopedia:Standard_Actions}standard action{/g}, denote one target within his line of sight as his quarry. He receives a \u002B2 insight {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g} made against his quarry, and all {g|Encyclopedia:Critical}critical{/g} threats are automatically confirmed. A character can have no more than one quarry at a time.",
-      "icon": "7f1b2c99decf9f441b7a9281d8ce3733"
+      "icon": "7f1b2c99decf9f441b7a9281d8ce3733",
+      "isSelection": false
     },
     {
       "__index": 11,
       "name": "Camouflage",
       "desc": "A ranger of 12th level or higher can, as a {g|Encyclopedia:Move_Action}move action{/g}, use the {g|Encyclopedia:Stealth}Stealth{/g} {g|Encyclopedia:Skills}skill{/g} to hide in any of his favored terrains, even in combat.",
-      "icon": "0c5fe93277546e342bc17b7503e00b62"
+      "icon": "0c5fe93277546e342bc17b7503e00b62",
+      "isSelection": false
     },
     {
       "__index": 12,
       "name": "Improved Evasion",
       "desc": "This ability works like evasion, except that while the character still takes no {g|Encyclopedia:Damage}damage{/g} on a successful {g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} against {g|Encyclopedia:Attack}attacks{/g}, he henceforth takes only half damage on a failed save. A {g|Encyclopedia:Helpless}helpless{/g} character does not gain the benefit of improved evasion.",
-      "icon": "b571fe5defdcf67489e23c8f115f1f2c"
+      "icon": "b571fe5defdcf67489e23c8f115f1f2c",
+      "isSelection": false
     },
     {
       "__index": 13,
       "name": "Improved Quarry",
       "desc": "At 19th level, the character\u0027s ability to hunt his quarry improves. He can now select a quarry as a {g|Encyclopedia:Free_Action}free action{/g} and his insight {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Attack}attack{/g} his quarry increases to \u002B4.",
-      "icon": "gen__IQ"
+      "icon": "gen__IQ",
+      "isSelection": false
     },
     {
       "__index": 14,
       "name": "Master Hunter",
       "desc": "A ranger of 20th level becomes a master hunter. He can, as a {g|Encyclopedia:Standard_Actions}standard action{/g}, make a single {g|Encyclopedia:Attack}attack{/g} against a favored enemy at his full attack {g|Encyclopedia:Bonus}bonus{/g}. If the attack hits, the target takes {g|Encyclopedia:Damage}damage{/g} normally and must make a {g|Encyclopedia:Saving_Throw}Fortitude save{/g} or die. The {g|Encyclopedia:DC}DC{/g} of this save is equal to 10 \u002B 1/2 the ranger\u0027s level \u002B the ranger\u0027s {g|Encyclopedia:Wisdom}Wisdom{/g} modifier. A ranger can use this ability five times per day, but not against the same creature more than once in a 24-hour period.",
-      "icon": "819497a606556814293d5e36231b7cbd"
+      "icon": "819497a606556814293d5e36231b7cbd",
+      "isSelection": false
     },
     {
       "__index": 15,
-      "name": "Demonslayer Favored Enemy",
-      "desc": "At 1st level, a demonslayer must choose favored enemy (evil outsider). At 5th level and every time he advances his favored enemy {g|Encyclopedia:Bonus}bonus{/g}, the demonslayer must advance his bonus against evil outsiders. In addition to the normal benefits of favored enemy, a demonslayer gains a bonus equal to half his favored enemy bonus on {g|Encyclopedia:Saving_Throw}saving throws{/g} against {g|Encyclopedia:Spell}spells{/g}, {g|Encyclopedia:Special_Abilities}spell-like abilities{/g}, and supernatural abilities of evil outsiders.",
-      "icon": "gen__DFE"
+      "name": "Hide in Plain Sight",
+      "desc": "A ranger of 17th level or higher can use the Camouflage in any terrain.",
+      "icon": "0c5fe93277546e342bc17b7503e00b62",
+      "isSelection": false
     },
     {
       "__index": 16,
-      "name": "Favored Enemy \u2014 Demons of Magic",
-      "desc": "At 1st level, a ranger selects a creature type from the ranger favored enemies list. He gets a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on weapon {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} against them.\nAt 5th level and every five levels thereafter (10th, 15th, and 20th level), the ranger may select an additional favored enemy. In addition, at each such interval, the bonus against any one favored enemy (including the one just selected, if so desired) increases by \u002B2.\nIf the ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated on the table below. If a specific creature falls into more than one category of favored enemy, the ranger\u0027s bonuses do not stack; he simply uses whichever bonus is higher.\nDemons of Magic are the group of demons who prefer to use spells in battle. Some of the Demons of Magic are dretch, oolioddroo, and succubus.",
-      "icon": "61c915891c95ccf488dcc89f260b5702"
+      "name": "Archery",
+      "desc": "At 2nd level, the ranger can select from Point Blank Shot, Precise Shot, and Rapid Shot.\nAt 6th level, he adds Improved Precise Shot, Point Blank Master, and Manyshot to the list.\nAt 10th level, he adds Improved {g|Encyclopedia:Critical}Critical{/g} to the list.",
+      "icon": "gen__A",
+      "isSelection": true
     },
     {
       "__index": 17,
-      "name": "Favored Enemy \u2014 Demons of Slaughter",
-      "desc": "At 1st level, a ranger selects a creature type from the ranger favored enemies list. He gets a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on weapon {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} against them.\nAt 5th level and every five levels thereafter (10th, 15th, and 20th level), the ranger may select an additional favored enemy. In addition, at each such interval, the bonus against any one favored enemy (including the one just selected, if so desired) increases by \u002B2.\nIf the ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated on the table below. If a specific creature falls into more than one category of favored enemy, the ranger\u0027s bonuses do not stack; he simply uses whichever bonus is higher.\nDemons of Slaughter is a group of demons who use martial weapons and have a lot of attacks or special attack effects, such as sneak attack. Some of the Demons of Slaughter are babau, cambion, and incubus.",
-      "icon": "61c915891c95ccf488dcc89f260b5702"
+      "name": "Archery",
+      "desc": "At 2nd level, the ranger can select from Point Blank Shot, Precise Shot, and Rapid Shot.\nAt 6th level, he adds Improved Precise Shot, Point Blank Master, and Manyshot to the list.\nAt 10th level, he adds Improved {g|Encyclopedia:Critical}Critical{/g} to the list.",
+      "icon": "gen__A",
+      "isSelection": true
     },
     {
       "__index": 18,
-      "name": "Favored Enemy \u2014 Demons of Strength",
-      "desc": "At 1st level, a ranger selects a creature type from the ranger favored enemies list. He gets a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on weapon {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} against them.\nAt 5th level and every five levels thereafter (10th, 15th, and 20th level), the ranger may select an additional favored enemy. In addition, at each such interval, the bonus against any one favored enemy (including the one just selected, if so desired) increases by \u002B2.\nIf the ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated on the table below. If a specific creature falls into more than one category of favored enemy, the ranger\u0027s bonuses do not stack; he simply uses whichever bonus is higher.\nDemons of Strength is a group of demons who use martial weapons and powerful attacks. Some of the Demons of Strength are balor, nalfeshnee, and vavakia.",
-      "icon": "61c915891c95ccf488dcc89f260b5702"
+      "name": "Archery",
+      "desc": "At 2nd level, the ranger can select from Point Blank Shot, Precise Shot, and Rapid Shot.\nAt 6th level, he adds Improved Precise Shot, Point Blank Master, and Manyshot to the list.\nAt 10th level, he adds Improved {g|Encyclopedia:Critical}Critical{/g} to the list.",
+      "icon": "gen__A",
+      "isSelection": true
     },
     {
       "__index": 19,
-      "name": "Demonologist",
-      "desc": "At 3rd level, a demonslayer gains insight into his Abyssal enemies. The demonslayer gains a {g|Encyclopedia:Bonus}bonus{/g} equal to half his {g|Encyclopedia:Class_Level}class level{/g} on {g|Encyclopedia:Knowledge_Arcana}Knowledge (arcana){/g} {g|Encyclopedia:Skills}skill checks{/g}.",
-      "icon": "gen__D"
+      "name": "Menacing",
+      "desc": "At 2nd level, the ranger can select from Dazzling Display, Power {g|Encyclopedia:Attack}Attack{/g}, and Intimidating Prowess.\nAt 6th level, he adds Cornugon Smash and Shatter Defenses to the list.\nAt 10th level, he adds Dreadful Carnage and Improved {g|Encyclopedia:Critical}Critical{/g} to the list.",
+      "icon": "gen__M",
+      "isSelection": true
     },
     {
       "__index": 20,
-      "name": "Expanded Spell List",
-      "desc": "A demonslayer adds the following {g|Encyclopedia:Spell}spells{/g} to his spell list: 1st \u2014 protection from evil; 2nd \u2014 protection from evil, communal.",
-      "icon": "gen__ESL"
+      "name": "Menacing",
+      "desc": "At 2nd level, the ranger can select from Dazzling Display, Power {g|Encyclopedia:Attack}Attack{/g}, and Intimidating Prowess.\nAt 6th level, he adds Cornugon Smash and Shatter Defenses to the list.\nAt 10th level, he adds Dreadful Carnage and Improved {g|Encyclopedia:Critical}Critical{/g} to the list.",
+      "icon": "gen__M",
+      "isSelection": true
     },
     {
       "__index": 21,
-      "name": "Fiendish Quarry",
-      "desc": "At 11th level, when a demonslayer chooses an evil outsider as his quarry, he can the forgo the normal \u002B2 {g|Encyclopedia:Attack}attack{/g} {g|Encyclopedia:Bonus}bonus{/g} and instead treat his weapon as if it were {g|Encyclopedia:Alignment}good-aligned{/g} versus his quarry.",
-      "icon": "dcbfd0474e4afc84983cf61419b1a4d8"
+      "name": "Menacing",
+      "desc": "At 2nd level, the ranger can select from Dazzling Display, Power {g|Encyclopedia:Attack}Attack{/g}, and Intimidating Prowess.\nAt 6th level, he adds Cornugon Smash and Shatter Defenses to the list.\nAt 10th level, he adds Dreadful Carnage and Improved {g|Encyclopedia:Critical}Critical{/g} to the list.",
+      "icon": "gen__M",
+      "isSelection": true
     },
     {
       "__index": 22,
-      "name": "Improved Fiendish Quarry",
-      "desc": "At 19th level, when a demonslayer chooses an evil outsider as his quarry, he can forgo the normal \u002B4 {g|Encyclopedia:Attack}attack{/g} {g|Encyclopedia:Bonus}bonus{/g} and instead treat his weapon as if it had the holy weapon {g|Encyclopedia:Special_Abilities}special ability{/g} while attacking his quarry.",
-      "icon": "8afdbffbeba03a84c9ad0ee6b879b5dd"
+      "name": "Weapon and Shield",
+      "desc": "At 2nd level, the ranger can select from Shield Bash, Shield Focus, and Two-Weapon Fighting.\nAt 6th level, he adds Improved Two-Weapon Fighting and Shield Master to the list.\nAt 10th level, he adds Bashing Finish and Greater Two-Weapon Fighting to the list.",
+      "icon": "gen__WS",
+      "isSelection": true
     },
     {
       "__index": 23,
-      "name": "Freebooter\u0027s Bane",
-      "desc": "At 1st level, the freebooter can, as a {g|Encyclopedia:Move_Action}move action{/g}, indicate an enemy in combat and rally her allies to focus on that target. The freebooter and her allies gain a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on weapon {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} against the target. At 5th level and every 5 levels thereafter (10th, 15th, and 20th level), the bonus increases by 1. The freebooter\u0027s bane lasts until the target dies or the freebooter selects a new target.",
-      "icon": "5a9b67d60a7ce9b488c8792c93c2ccb1"
+      "name": "Weapon and Shield",
+      "desc": "At 2nd level, the ranger can select from Shield Bash, Shield Focus, and Two-Weapon Fighting.\nAt 6th level, he adds Improved Two-Weapon Fighting and Shield Master to the list.\nAt 10th level, he adds Bashing Finish and Greater Two-Weapon Fighting to the list.",
+      "icon": "gen__WS",
+      "isSelection": true
     },
     {
       "__index": 24,
-      "name": "Freebooter\u0027s Bond",
-      "desc": "At 4th level, a freebooter forms a bond with her crewmates. This bond allows her to spend a {g|Encyclopedia:Move_Action}move action{/g} to grant her allies extra combat prowess when they work as a team. All allies within 30 feet who can see or hear the freebooter gain an additional \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g} when {g|Encyclopedia:Flanking}flanking{/g} for 1 minute.",
-      "icon": "b9da81b2b6d92a548897f003abdb107a"
+      "name": "Weapon and Shield",
+      "desc": "At 2nd level, the ranger can select from Shield Bash, Shield Focus, and Two-Weapon Fighting.\nAt 6th level, he adds Improved Two-Weapon Fighting and Shield Master to the list.\nAt 10th level, he adds Bashing Finish and Greater Two-Weapon Fighting to the list.",
+      "icon": "gen__WS",
+      "isSelection": true
     },
     {
       "__index": 25,
-      "name": "Touch of Flame",
-      "desc": "At 4th level, a flamewarden can cause his weapons to burst into flame. As a {g|Encyclopedia:Standard_Actions}standard action{/g}, the ranger can grant a single weapon he holds the flaming {g|Encyclopedia:Special_Abilities}special ability{/g} for 1 minute; while under this effect, the weapon counts as magic for the purpose of overcoming {g|Encyclopedia:Damage_Reduction}damage reduction{/g}. A flamewarden can use this ability a number of times per day equal to 3 \u002B his {g|Encyclopedia:Wisdom}Wisdom{/g} modifier. At 12th level, weapons affected by this ability gain the flaming burst special ability instead.",
-      "icon": "51bc526eda8130149bd06d116ec8e300"
+      "name": "Two-Handed Weapon",
+      "desc": "At 2nd level, the ranger can select from Cleave, Power {g|Encyclopedia:Attack}Attack{/g}, and Intimidating Prowess.\nAt 6th level, he adds Cleaving Finish and Great Cleave to the list.\nAt 10th level, he adds Dreadful Carnage and {g|Encyclopedia:Critical}Critical{/g} Focus to the list.",
+      "icon": "gen__THW",
+      "isSelection": true
     },
     {
       "__index": 26,
-      "name": "Spellcasting",
-      "desc": "At 4th level, a flamewarden adds firebelly and summon small fire elemental to his ranger {g|Encyclopedia:Spell}spell{/g} list as 1st-level spells.",
-      "icon": "5da95ed7c940cfb4aa1d6302d1ec2def"
+      "name": "Two-Handed Weapon",
+      "desc": "At 2nd level, the ranger can select from Cleave, Power {g|Encyclopedia:Attack}Attack{/g}, and Intimidating Prowess.\nAt 6th level, he adds Cleaving Finish and Great Cleave to the list.\nAt 10th level, he adds Dreadful Carnage and {g|Encyclopedia:Critical}Critical{/g} Focus to the list.",
+      "icon": "gen__THW",
+      "isSelection": true
     },
     {
       "__index": 27,
-      "name": "Spellcasting",
-      "desc": "At 7th level, a flamewarden adds scorching ray to his list ranger {g|Encyclopedia:Spell}spell{/g} list as a 2nd-level spell.",
-      "icon": "5da95ed7c940cfb4aa1d6302d1ec2def"
+      "name": "Two-Handed Weapon",
+      "desc": "At 2nd level, the ranger can select from Cleave, Power {g|Encyclopedia:Attack}Attack{/g}, and Intimidating Prowess.\nAt 6th level, he adds Cleaving Finish and Great Cleave to the list.\nAt 10th level, he adds Dreadful Carnage and {g|Encyclopedia:Critical}Critical{/g} Focus to the list.",
+      "icon": "gen__THW",
+      "isSelection": true
     },
     {
       "__index": 28,
-      "name": "Stoking the Embers",
-      "desc": "At 9th level, a flamewarden can fan the last spark of a recently slain creature\u0027s life force back into a full flame. Once per day as a {g|Encyclopedia:Standard_Actions}standard action{/g}, a flamewarden can {g|Encyclopedia:TouchAttack}touch{/g} the corpse of a creature to grant it the effects of breath of life.\nBreath of Life: This {g|Encyclopedia:Spell}spell{/g} cures {g|Encyclopedia:Dice}5d8{/g} points of {g|Encyclopedia:Damage}damage{/g} \u002B 1 point per {g|Encyclopedia:Caster_Level}caster level{/g} (maximum \u002B25).\nUnlike other spells that {g|Encyclopedia:Healing}heal{/g} damage, breath of life can bring recently slain creatures back to life. If cast upon a creature that has died within 1 {g|Encyclopedia:Combat_Round}round{/g}, apply the healing from this spell to the creature. If the healed creature\u0027s hit point total is at a negative amount less than its {g|Encyclopedia:Constitution}Constitution{/g} score, it comes back to life and stabilizes at its new hit point total. If the creature\u0027s hit point total is at a negative amount equal to or greater than its Constitution score, the creature remains dead. Creatures brought back to life through breath of life gain a temporary negative level that lasts for 1 day.\nCreatures slain by {g|Encyclopedia:Injury_Death}death{/g} effects cannot be saved by breath of life.\nLike cure spells, breath of life deals damage to undead creatures rather than curing them, and cannot bring them back to life.",
-      "icon": "4779f6a43ff55624c8a0728ee51f603a"
+      "name": "Two-Weapon Combat",
+      "desc": "At 2nd level, the ranger can select from Double Slice, Shield Bash, and Two-Weapon Fighting.\nAt 6th level, he adds Improved Two-Weapon Fighting to the list.\nAt 10th level, he adds Greater Two-Weapon Fighting to the list.",
+      "icon": "gen__TWC",
+      "isSelection": true
     },
     {
       "__index": 29,
-      "name": "Spellcasting",
-      "desc": "At 10th level, a flamewarden adds summon medium fire elemental to his ranger {g|Encyclopedia:Spell}spell{/g} list as a 3rd-level spell.",
-      "icon": "5da95ed7c940cfb4aa1d6302d1ec2def"
+      "name": "Two-Weapon Combat",
+      "desc": "At 2nd level, the ranger can select from Double Slice, Shield Bash, and Two-Weapon Fighting.\nAt 6th level, he adds Improved Two-Weapon Fighting to the list.\nAt 10th level, he adds Greater Two-Weapon Fighting to the list.",
+      "icon": "gen__TWC",
+      "isSelection": true
     },
     {
       "__index": 30,
-      "name": "Burning Renewal",
-      "desc": "At 12th level, a flamewarden can use the cleansing power of fire to remove afflictions from his body, mind, and soul. When the flamewarden takes 10 or more points of {g|Encyclopedia:Energy_Damage}fire damage{/g}, he removes the following conditions: fatigued, shaken, sickened, exhausted, frightened, and nauseated. Additionaly, he removes {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:AbilityDamage}ability damage{/g} and 1d6 points of ability drain from the most {g|Encyclopedia:Damage}damaged{/g} {g|Encyclopedia:Ability_Scores}ability scores{/g} of his choice.\nThe ranger can use this ability only once each time he takes fire damage, regardless of how much damage it deals over the required amount. He can use this ability a number of times per day equal to 3 \u002B his {g|Encyclopedia:Wisdom}Wisdom{/g} modifier.\nIf the flamewarden has fire resistance or immunity to fire, fire damage he would have otherwise taken still counts toward activating burning renewal.",
-      "icon": "fc8297727159f35409badd61a74fd0aa"
+      "name": "Two-Weapon Combat",
+      "desc": "At 2nd level, the ranger can select from Double Slice, Shield Bash, and Two-Weapon Fighting.\nAt 6th level, he adds Improved Two-Weapon Fighting to the list.\nAt 10th level, he adds Greater Two-Weapon Fighting to the list.",
+      "icon": "gen__TWC",
+      "isSelection": true
     },
     {
       "__index": 31,
-      "name": "Spellcasting",
-      "desc": "At 13th level, a flamewarden adds flamestrike, volcanic storm, and summon large fire elemental to his ranger {g|Encyclopedia:Spell}spell{/g} list as 4th-level spells.",
-      "icon": "5da95ed7c940cfb4aa1d6302d1ec2def"
+      "name": "Freebooter\u0027s Bane",
+      "desc": "At 1st level, the freebooter can, as a {g|Encyclopedia:Move_Action}move action{/g}, indicate an enemy in combat and rally her allies to focus on that target. The freebooter and her allies gain a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on weapon {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} against the target. At 5th level and every 5 levels thereafter (10th, 15th, and 20th level), the bonus increases by 1. The freebooter\u0027s bane lasts until the target dies or the freebooter selects a new target.",
+      "icon": "5a9b67d60a7ce9b488c8792c93c2ccb1",
+      "isSelection": false
     },
     {
       "__index": 32,
-      "name": "Phoenix Blast",
-      "desc": "At 16th level, if a flamewarden dies, his body explodes in a conflagration in a 20-foot spread. Each hostile creature in the area takes {g|Encyclopedia:Dice}10d6{/g} points of {g|Encyclopedia:Energy_Damage}fire damage{/g} unless it succeeds at a {g|Encyclopedia:Saving_Throw}Reflex save{/g} ({g|Encyclopedia:DC}DC{/g} = 10 \u002B half the ranger\u0027s level \u002B his {g|Encyclopedia:Constitution}Constitution{/g} modifier) for half {g|Encyclopedia:Damage}damage{/g}. The flames don\u0027t harm the flamewarden\u0027s allies, who instead are {g|Encyclopedia:Healing}healed{/g} 5d6 points of damage, and any poisons they are currently suffering are neutralized.",
-      "icon": "302c3ed1dd9b88e4a88ac3c0a7b374fc"
+      "name": "Freebooter\u0027s Bond",
+      "desc": "At 4th level, a freebooter forms a bond with her crewmates. This bond allows her to spend a {g|Encyclopedia:Move_Action}move action{/g} to grant her allies extra combat prowess when they work as a team. All allies within 30 feet who can see or hear the freebooter gain an additional \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g} when {g|Encyclopedia:Flanking}flanking{/g} for 1 minute.",
+      "icon": "b9da81b2b6d92a548897f003abdb107a",
+      "isSelection": false
     },
     {
       "__index": 33,
-      "name": "Phoenix Rising",
-      "desc": "At 20th level, the flamewarden gains immunity to fire, and once per day, the flamewarden rises from the ashes of his own destruction 1 {g|Encyclopedia:Combat_Round}round{/g} after dying. The flamewarden\u0027s body re-forms with all his equipment, and he returns to life with half his maximum {g|Encyclopedia:HP}hit points{/g}.",
-      "icon": "eb22d7b246ad2be44ac8b84d9a6fd3d3"
+      "name": "Ranger\u0027s Bond",
+      "desc": "A ranger forms a bond with his companions. This bond allows him to spend a {g|Encyclopedia:Move_Action}move action{/g} to grant half his favored enemy {g|Encyclopedia:Bonus}bonus{/g} against a single target of the appropriate type to all allies within 30 feet who can see or hear him. This bonus lasts for a number of {g|Encyclopedia:Combat_Round}rounds{/g} equal to the ranger\u0027s {g|Encyclopedia:Wisdom}Wisdom{/g} modifier (minimum 1). This bonus does not stack with any favored enemy bonuses possessed by his allies; they use whichever bonus is higher.",
+      "icon": "gen__RB",
+      "isSelection": false
     },
     {
       "__index": 34,
-      "name": "Archery",
-      "desc": "At 2nd level, the ranger can select from Point Blank Shot, Precise Shot, and Rapid Shot.\nAt 6th level, he adds Improved Precise Shot, Point Blank Master, and Manyshot to the list.\nAt 10th level, he adds Improved {g|Encyclopedia:Critical}Critical{/g} to the list.",
-      "icon": "gen__A"
+      "name": "Ranger\u0027s Bond",
+      "desc": "A ranger forms a bond with his companions. This bond allows him to spend a {g|Encyclopedia:Move_Action}move action{/g} to grant half his favored enemy {g|Encyclopedia:Bonus}bonus{/g} against a single target of the appropriate type to all allies within 30 feet who can see or hear him. This bonus lasts for a number of {g|Encyclopedia:Combat_Round}rounds{/g} equal to the ranger\u0027s {g|Encyclopedia:Wisdom}Wisdom{/g} modifier (minimum 1). This bonus does not stack with any favored enemy bonuses possessed by his allies; they use whichever bonus is higher.",
+      "icon": "5b972d20bb6f39140b70b6bf6535f98c",
+      "isSelection": false
     },
     {
       "__index": 35,
-      "name": "Wind Treader",
-      "desc": "At 4th level, a stormwalker can wreathe his weapon in lightning. As a {g|Encyclopedia:Standard_Actions}standard action{/g}, he can grant a single weapon he holds the shock {g|Encyclopedia:Special_Abilities}special ability{/g} for 1 minute; while under this effect, the weapon counts as magic for the purpose of overcoming {g|Encyclopedia:Damage_Reduction}damage reduction{/g}. A stormwalker can use this ability a number of times per day equal to 3 \u002B his {g|Encyclopedia:Wisdom}Wisdom{/g} modifier. At 12th level, weapons affected by this ability gain the shocking burst special ability.",
-      "icon": "78a7383197882e84794e6127e6567119"
+      "name": "Burning Renewal",
+      "desc": "At 12th level, a flamewarden can use the cleansing power of fire to remove afflictions from his body, mind, and soul. When the flamewarden takes 10 or more points of {g|Encyclopedia:Energy_Damage}fire damage{/g}, he removes the following conditions: fatigued, shaken, sickened, exhausted, frightened, and nauseated. Additionaly, he removes {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:AbilityDamage}ability damage{/g} and 1d6 points of ability drain from the most {g|Encyclopedia:Damage}damaged{/g} {g|Encyclopedia:Ability_Scores}ability scores{/g} of his choice.\nThe ranger can use this ability only once each time he takes fire damage, regardless of how much damage it deals over the required amount. He can use this ability a number of times per day equal to 3 \u002B his {g|Encyclopedia:Wisdom}Wisdom{/g} modifier.\nIf the flamewarden has fire resistance or immunity to fire, fire damage he would have otherwise taken still counts toward activating burning renewal.",
+      "icon": "fc8297727159f35409badd61a74fd0aa",
+      "isSelection": false
     },
     {
       "__index": 36,
-      "name": "Archery",
-      "desc": "At 2nd level, the ranger can select from Point Blank Shot, Precise Shot, and Rapid Shot.\nAt 6th level, he adds Improved Precise Shot, Point Blank Master, and Manyshot to the list.\nAt 10th level, he adds Improved {g|Encyclopedia:Critical}Critical{/g} to the list.",
-      "icon": "gen__A"
+      "name": "Stoking the Embers",
+      "desc": "At 9th level, a flamewarden can fan the last spark of a recently slain creature\u0027s life force back into a full flame. Once per day as a {g|Encyclopedia:Standard_Actions}standard action{/g}, a flamewarden can {g|Encyclopedia:TouchAttack}touch{/g} the corpse of a creature to grant it the effects of breath of life.\nBreath of Life: This {g|Encyclopedia:Spell}spell{/g} cures {g|Encyclopedia:Dice}5d8{/g} points of {g|Encyclopedia:Damage}damage{/g} \u002B 1 point per {g|Encyclopedia:Caster_Level}caster level{/g} (maximum \u002B25).\nUnlike other spells that {g|Encyclopedia:Healing}heal{/g} damage, breath of life can bring recently slain creatures back to life. If cast upon a creature that has died within 1 {g|Encyclopedia:Combat_Round}round{/g}, apply the healing from this spell to the creature. If the healed creature\u0027s hit point total is at a negative amount less than its {g|Encyclopedia:Constitution}Constitution{/g} score, it comes back to life and stabilizes at its new hit point total. If the creature\u0027s hit point total is at a negative amount equal to or greater than its Constitution score, the creature remains dead. Creatures brought back to life through breath of life gain a temporary negative level that lasts for 1 day.\nCreatures slain by {g|Encyclopedia:Injury_Death}death{/g} effects cannot be saved by breath of life.\nLike cure spells, breath of life deals damage to undead creatures rather than curing them, and cannot bring them back to life.",
+      "icon": "4779f6a43ff55624c8a0728ee51f603a",
+      "isSelection": false
     },
     {
       "__index": 37,
-      "name": "Archery",
-      "desc": "At 2nd level, the ranger can select from Point Blank Shot, Precise Shot, and Rapid Shot.\nAt 6th level, he adds Improved Precise Shot, Point Blank Master, and Manyshot to the list.\nAt 10th level, he adds Improved {g|Encyclopedia:Critical}Critical{/g} to the list.",
-      "icon": "gen__A"
+      "name": "Phoenix Blast",
+      "desc": "At 16th level, if a flamewarden dies, his body explodes in a conflagration in a 20-foot spread. Each hostile creature in the area takes {g|Encyclopedia:Dice}10d6{/g} points of {g|Encyclopedia:Energy_Damage}fire damage{/g} unless it succeeds at a {g|Encyclopedia:Saving_Throw}Reflex save{/g} ({g|Encyclopedia:DC}DC{/g} = 10 \u002B half the ranger\u0027s level \u002B his {g|Encyclopedia:Constitution}Constitution{/g} modifier) for half {g|Encyclopedia:Damage}damage{/g}. The flames don\u0027t harm the flamewarden\u0027s allies, who instead are {g|Encyclopedia:Healing}healed{/g} 5d6 points of damage, and any poisons they are currently suffering are neutralized.",
+      "icon": "302c3ed1dd9b88e4a88ac3c0a7b374fc",
+      "isSelection": false
     },
     {
       "__index": 38,
-      "name": "Flash Step",
-      "desc": "At 11th level, a stormwalker can move across the battlefield like a bolt of lightning. As a {g|Encyclopedia:Full_Round_Action}full-round action{/g}, he can transform into lightning and move to any unoccupied square within 50 feet without provoking {g|Encyclopedia:Attack_Of_Opportunity}attacks of opportunity{/g}. He makes a single {g|Encyclopedia:RangedAttack}ranged attack{/g} against closest opponent after this movement.",
-      "icon": "0dc837a57725da14b8ef222e251fd32d"
+      "name": "Phoenix Rising",
+      "desc": "At 20th level, the flamewarden gains immunity to fire, and once per day, the flamewarden rises from the ashes of his own destruction 1 {g|Encyclopedia:Combat_Round}round{/g} after dying. The flamewarden\u0027s body re-forms with all his equipment, and he returns to life with half his maximum {g|Encyclopedia:HP}hit points{/g}.",
+      "icon": "eb22d7b246ad2be44ac8b84d9a6fd3d3",
+      "isSelection": false
     },
     {
       "__index": 39,
-      "name": "One with the Storm",
-      "desc": "At 16th level, a stormwalker gains immunity to electricity.",
-      "icon": "d22d729c1abd51d479a5571c69e7597e"
+      "name": "Touch of Flame",
+      "desc": "At 4th level, a flamewarden can cause his weapons to burst into flame. As a {g|Encyclopedia:Standard_Actions}standard action{/g}, the ranger can grant a single weapon he holds the flaming {g|Encyclopedia:Special_Abilities}special ability{/g} for 1 minute; while under this effect, the weapon counts as magic for the purpose of overcoming {g|Encyclopedia:Damage_Reduction}damage reduction{/g}. A flamewarden can use this ability a number of times per day equal to 3 \u002B his {g|Encyclopedia:Wisdom}Wisdom{/g} modifier. At 12th level, weapons affected by this ability gain the flaming burst special ability instead.",
+      "icon": "51bc526eda8130149bd06d116ec8e300",
+      "isSelection": false
     },
     {
       "__index": 40,
-      "name": "Flash Shot",
-      "desc": "At 19th level, when a stormwalker uses flash step, he can make two {g|Encyclopedia:RangedAttack}ranged attacks{/g} after his movement. Both of these {g|Encyclopedia:Attack}attacks{/g} are made at his highest {g|Encyclopedia:BAB}base attack bonus{/g}.",
-      "icon": "0dc837a57725da14b8ef222e251fd32d"
+      "name": "Spellcasting",
+      "desc": "At 4th level, a flamewarden adds firebelly and summon small fire elemental to his ranger {g|Encyclopedia:Spell}spell{/g} list as 1st-level spells.",
+      "icon": "5da95ed7c940cfb4aa1d6302d1ec2def",
+      "isSelection": false
     },
     {
       "__index": 41,
-      "name": "Trapfinding",
-      "desc": "An espionage expert gets a {g|Encyclopedia:Bonus}bonus{/g} equal to 1/2 her level on {g|Encyclopedia:Perception}Perception checks{/g}.",
-      "icon": "521a6d3932c3ab4448a6eb95782dae06"
+      "name": "Spellcasting",
+      "desc": "At 7th level, a flamewarden adds scorching ray to his list ranger {g|Encyclopedia:Spell}spell{/g} list as a 2nd-level spell.",
+      "icon": "5da95ed7c940cfb4aa1d6302d1ec2def",
+      "isSelection": false
     },
     {
       "__index": 42,
-      "name": "Undercover",
-      "desc": "An espionage expert gets a {g|Encyclopedia:Bonus}bonus{/g} equal to 1/2 her level on {g|Encyclopedia:Persuasion}Persuasion{/g} (when used to bluff) and {g|Encyclopedia:Stealth}Stealth checks{/g}.",
-      "icon": "gen__U"
+      "name": "Spellcasting",
+      "desc": "At 10th level, a flamewarden adds summon medium fire elemental to his ranger {g|Encyclopedia:Spell}spell{/g} list as a 3rd-level spell.",
+      "icon": "5da95ed7c940cfb4aa1d6302d1ec2def",
+      "isSelection": false
     },
     {
       "__index": 43,
-      "name": "Ranger\u0027s Bond",
-      "desc": "A ranger forms a bond with his companions. This bond allows him to spend a {g|Encyclopedia:Move_Action}move action{/g} to grant half his favored enemy {g|Encyclopedia:Bonus}bonus{/g} against a single target of the appropriate type to all allies within 30 feet who can see or hear him. This bonus lasts for a number of {g|Encyclopedia:Combat_Round}rounds{/g} equal to the ranger\u0027s {g|Encyclopedia:Wisdom}Wisdom{/g} modifier (minimum 1). This bonus does not stack with any favored enemy bonuses possessed by his allies; they use whichever bonus is higher.",
-      "icon": "5b972d20bb6f39140b70b6bf6535f98c"
+      "name": "Spellcasting",
+      "desc": "At 13th level, a flamewarden adds flamestrike, volcanic storm, and summon large fire elemental to his ranger {g|Encyclopedia:Spell}spell{/g} list as 4th-level spells.",
+      "icon": "5da95ed7c940cfb4aa1d6302d1ec2def",
+      "isSelection": false
     },
     {
       "__index": 44,
-      "name": "Espionage Expert Magic",
-      "desc": "While usually rangers use their {g|Encyclopedia:Wisdom}Wisdom{/g} to cast divine {g|Encyclopedia:Spell}spells{/g}, espionage experts use the power of their personality. The main casting ability for the espionage expert is {g|Encyclopedia:Charisma}Charisma{/g}.",
-      "icon": "gen__EEM"
+      "name": "Demonslayer Favored Enemy",
+      "desc": "At 1st level, a demonslayer must choose favored enemy (evil outsider). At 5th level and every time he advances his favored enemy {g|Encyclopedia:Bonus}bonus{/g}, the demonslayer must advance his bonus against evil outsiders. In addition to the normal benefits of favored enemy, a demonslayer gains a bonus equal to half his favored enemy bonus on {g|Encyclopedia:Saving_Throw}saving throws{/g} against {g|Encyclopedia:Spell}spells{/g}, {g|Encyclopedia:Special_Abilities}spell-like abilities{/g}, and supernatural abilities of evil outsiders.",
+      "icon": "gen__DFE",
+      "isSelection": false
     },
     {
       "__index": 45,
-      "name": "Espionage Master",
-      "desc": "An espionage expert of 20th level becomes an espionage master. She can, as a {g|Encyclopedia:Standard_Actions}standard action{/g}, make a single {g|Encyclopedia:Attack}attack{/g} against a favored enemy at her full attack {g|Encyclopedia:Bonus}bonus{/g}. If the attack hits, the target takes {g|Encyclopedia:Damage}damage{/g} normally and must make a {g|Encyclopedia:Saving_Throw}Fortitude save{/g} or die. The {g|Encyclopedia:DC}DC{/g} of this save is equal to 10 \u002B 1/2 the espionage expert\u0027s level \u002B the espionage expert\u0027s {g|Encyclopedia:Charisma}Charisma{/g} modifier. An espionage expert can use this ability five times per day, but not against the same creature more than once in a 24-hour period.",
-      "icon": "642a8b5ce7efb1041a663dabbf8bc222"
+      "name": "Favored Enemy \u2014 Demons of Magic",
+      "desc": "At 1st level, a ranger selects a creature type from the ranger favored enemies list. He gets a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on weapon {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} against them.\nAt 5th level and every five levels thereafter (10th, 15th, and 20th level), the ranger may select an additional favored enemy. In addition, at each such interval, the bonus against any one favored enemy (including the one just selected, if so desired) increases by \u002B2.\nIf the ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated on the table below. If a specific creature falls into more than one category of favored enemy, the ranger\u0027s bonuses do not stack; he simply uses whichever bonus is higher.\nDemons of Magic are the group of demons who prefer to use spells in battle. Some of the Demons of Magic are dretch, oolioddroo, and succubus.",
+      "icon": "61c915891c95ccf488dcc89f260b5702",
+      "isSelection": false
     },
     {
       "__index": 46,
-      "name": "Point-Blank Master",
-      "desc": "At 5th level, nomad gains Point-Blank Master {g|Encyclopedia:Feat}feat{/g}, ignoring all the prerequisites.",
-      "icon": "gen__PBM"
+      "name": "Favored Enemy \u2014 Demons of Slaughter",
+      "desc": "At 1st level, a ranger selects a creature type from the ranger favored enemies list. He gets a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on weapon {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} against them.\nAt 5th level and every five levels thereafter (10th, 15th, and 20th level), the ranger may select an additional favored enemy. In addition, at each such interval, the bonus against any one favored enemy (including the one just selected, if so desired) increases by \u002B2.\nIf the ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated on the table below. If a specific creature falls into more than one category of favored enemy, the ranger\u0027s bonuses do not stack; he simply uses whichever bonus is higher.\nDemons of Slaughter is a group of demons who use martial weapons and have a lot of attacks or special attack effects, such as sneak attack. Some of the Demons of Slaughter are babau, cambion, and incubus.",
+      "icon": "61c915891c95ccf488dcc89f260b5702",
+      "isSelection": false
     },
     {
       "__index": 47,
+      "name": "Favored Enemy \u2014 Demons of Strength",
+      "desc": "At 1st level, a ranger selects a creature type from the ranger favored enemies list. He gets a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on weapon {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} against them.\nAt 5th level and every five levels thereafter (10th, 15th, and 20th level), the ranger may select an additional favored enemy. In addition, at each such interval, the bonus against any one favored enemy (including the one just selected, if so desired) increases by \u002B2.\nIf the ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated on the table below. If a specific creature falls into more than one category of favored enemy, the ranger\u0027s bonuses do not stack; he simply uses whichever bonus is higher.\nDemons of Strength is a group of demons who use martial weapons and powerful attacks. Some of the Demons of Strength are balor, nalfeshnee, and vavakia.",
+      "icon": "61c915891c95ccf488dcc89f260b5702",
+      "isSelection": false
+    },
+    {
+      "__index": 48,
+      "name": "Demonologist",
+      "desc": "At 3rd level, a demonslayer gains insight into his Abyssal enemies. The demonslayer gains a {g|Encyclopedia:Bonus}bonus{/g} equal to half his {g|Encyclopedia:Class_Level}class level{/g} on {g|Encyclopedia:Knowledge_Arcana}Knowledge (arcana){/g} {g|Encyclopedia:Skills}skill checks{/g}.",
+      "icon": "gen__D",
+      "isSelection": false
+    },
+    {
+      "__index": 49,
+      "name": "Expanded Spell List",
+      "desc": "A demonslayer adds the following {g|Encyclopedia:Spell}spells{/g} to his spell list: 1st \u2014 protection from evil; 2nd \u2014 protection from evil, communal.",
+      "icon": "gen__ESL",
+      "isSelection": false
+    },
+    {
+      "__index": 50,
+      "name": "Fiendish Quarry",
+      "desc": "At 11th level, when a demonslayer chooses an evil outsider as his quarry, he can the forgo the normal \u002B2 {g|Encyclopedia:Attack}attack{/g} {g|Encyclopedia:Bonus}bonus{/g} and instead treat his weapon as if it were {g|Encyclopedia:Alignment}good-aligned{/g} versus his quarry.",
+      "icon": "dcbfd0474e4afc84983cf61419b1a4d8",
+      "isSelection": false
+    },
+    {
+      "__index": 51,
+      "name": "Improved Fiendish Quarry",
+      "desc": "At 19th level, when a demonslayer chooses an evil outsider as his quarry, he can forgo the normal \u002B4 {g|Encyclopedia:Attack}attack{/g} {g|Encyclopedia:Bonus}bonus{/g} and instead treat his weapon as if it had the holy weapon {g|Encyclopedia:Special_Abilities}special ability{/g} while attacking his quarry.",
+      "icon": "8afdbffbeba03a84c9ad0ee6b879b5dd",
+      "isSelection": false
+    },
+    {
+      "__index": 52,
+      "name": "Wind Treader",
+      "desc": "At 4th level, a stormwalker can wreathe his weapon in lightning. As a {g|Encyclopedia:Standard_Actions}standard action{/g}, he can grant a single weapon he holds the shock {g|Encyclopedia:Special_Abilities}special ability{/g} for 1 minute; while under this effect, the weapon counts as magic for the purpose of overcoming {g|Encyclopedia:Damage_Reduction}damage reduction{/g}. A stormwalker can use this ability a number of times per day equal to 3 \u002B his {g|Encyclopedia:Wisdom}Wisdom{/g} modifier. At 12th level, weapons affected by this ability gain the shocking burst special ability.",
+      "icon": "78a7383197882e84794e6127e6567119",
+      "isSelection": false
+    },
+    {
+      "__index": 53,
+      "name": "Flash Step",
+      "desc": "At 11th level, a stormwalker can move across the battlefield like a bolt of lightning. As a {g|Encyclopedia:Full_Round_Action}full-round action{/g}, he can transform into lightning and move to any unoccupied square within 50 feet without provoking {g|Encyclopedia:Attack_Of_Opportunity}attacks of opportunity{/g}. He makes a single {g|Encyclopedia:RangedAttack}ranged attack{/g} against closest opponent after this movement.",
+      "icon": "0dc837a57725da14b8ef222e251fd32d",
+      "isSelection": false
+    },
+    {
+      "__index": 54,
+      "name": "One with the Storm",
+      "desc": "At 16th level, a stormwalker gains immunity to electricity.",
+      "icon": "d22d729c1abd51d479a5571c69e7597e",
+      "isSelection": false
+    },
+    {
+      "__index": 55,
+      "name": "Flash Shot",
+      "desc": "At 19th level, when a stormwalker uses flash step, he can make two {g|Encyclopedia:RangedAttack}ranged attacks{/g} after his movement. Both of these {g|Encyclopedia:Attack}attacks{/g} are made at his highest {g|Encyclopedia:BAB}base attack bonus{/g}.",
+      "icon": "0dc837a57725da14b8ef222e251fd32d",
+      "isSelection": false
+    },
+    {
+      "__index": 56,
+      "name": "Trapfinding",
+      "desc": "An espionage expert gets a {g|Encyclopedia:Bonus}bonus{/g} equal to 1/2 her level on {g|Encyclopedia:Perception}Perception checks{/g}.",
+      "icon": "521a6d3932c3ab4448a6eb95782dae06",
+      "isSelection": false
+    },
+    {
+      "__index": 57,
+      "name": "Undercover",
+      "desc": "An espionage expert gets a {g|Encyclopedia:Bonus}bonus{/g} equal to 1/2 her level on {g|Encyclopedia:Persuasion}Persuasion{/g} (when used to bluff) and {g|Encyclopedia:Stealth}Stealth checks{/g}.",
+      "icon": "gen__U",
+      "isSelection": false
+    },
+    {
+      "__index": 58,
+      "name": "Espionage Expert Magic",
+      "desc": "While usually rangers use their {g|Encyclopedia:Wisdom}Wisdom{/g} to cast divine {g|Encyclopedia:Spell}spells{/g}, espionage experts use the power of their personality. The main casting ability for the espionage expert is {g|Encyclopedia:Charisma}Charisma{/g}.",
+      "icon": "gen__EEM",
+      "isSelection": false
+    },
+    {
+      "__index": 59,
+      "name": "Espionage Master",
+      "desc": "An espionage expert of 20th level becomes an espionage master. She can, as a {g|Encyclopedia:Standard_Actions}standard action{/g}, make a single {g|Encyclopedia:Attack}attack{/g} against a favored enemy at her full attack {g|Encyclopedia:Bonus}bonus{/g}. If the attack hits, the target takes {g|Encyclopedia:Damage}damage{/g} normally and must make a {g|Encyclopedia:Saving_Throw}Fortitude save{/g} or die. The {g|Encyclopedia:DC}DC{/g} of this save is equal to 10 \u002B 1/2 the espionage expert\u0027s level \u002B the espionage expert\u0027s {g|Encyclopedia:Charisma}Charisma{/g} modifier. An espionage expert can use this ability five times per day, but not against the same creature more than once in a 24-hour period.",
+      "icon": "642a8b5ce7efb1041a663dabbf8bc222",
+      "isSelection": false
+    },
+    {
+      "__index": 60,
+      "name": "Point-Blank Master",
+      "desc": "At 5th level, nomad gains Point-Blank Master {g|Encyclopedia:Feat}feat{/g}, ignoring all the prerequisites.",
+      "icon": "gen__PBM",
+      "isSelection": true
+    },
+    {
+      "__index": 61,
       "name": "Animal Companion",
       "desc": "Unlike normal animals of its kind, an animal companion\u0027s {g|Encyclopedia:Hit_Dice}Hit Dice{/g}, abilities, {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Feat}feats{/g} advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in {g|Encyclopedia:Size}size{/g} when their druid reaches 4th or 7th level, depending on the companion.",
-      "icon": "736cb7b0def6ff147b921c75c54a81a0"
+      "icon": "736cb7b0def6ff147b921c75c54a81a0",
+      "isSelection": true
     }
   ],
   "name": "Ranger",
   "desc": "Rangers are deft skirmishers, either in melee or at range, capable of {g|Encyclopedia:Skills}skillfully{/g} dancing in and out of battle. Their abilities allow them to deal significant harm to specific types of foes, but their skills are valuable against all manner of enemies.",
   "layout": [
-    [
-      {
-        "level": 1,
-        "feature": 0,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 3,
-        "feature": 4,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 5,
-        "feature": 6,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 10,
-        "feature": 6,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 15,
-        "feature": 6,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 20,
-        "feature": 6,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 1,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 5,
-        "feature": 1,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 10,
-        "feature": 1,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 15,
-        "feature": 1,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 20,
-        "feature": 1,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 2,
-        "feature": 2,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 6,
-        "feature": 7,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 10,
-        "feature": 9,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 14,
-        "feature": 9,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 18,
-        "feature": 9,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 3,
-        "feature": 3,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 8,
-        "feature": 3,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 12,
-        "feature": 11,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 13,
-        "feature": 3,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 18,
-        "feature": 3,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [],
-    [
-      {
-        "level": 4,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 20,
-        "feature": 14,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [],
-    [
-      {
-        "level": 9,
-        "feature": 8,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 16,
-        "feature": 12,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [],
-    [
-      {
-        "level": 11,
-        "feature": 10,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 19,
-        "feature": 13,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [],
-    []
+    {
+      "name": null,
+      "rows": [
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 0,
+              "feature": 0,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 1,
+              "feature": 1,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 5,
+              "feature": 1,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 10,
+              "feature": 1,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 15,
+              "feature": 1,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 20,
+              "feature": 1,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 2,
+              "feature": 2,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 6,
+              "feature": 7,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 10,
+              "feature": 9,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 14,
+              "feature": 9,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 18,
+              "feature": 9,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 3,
+              "feature": 3,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 8,
+              "feature": 3,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 12,
+              "feature": 11,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 13,
+              "feature": 3,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 18,
+              "feature": 3,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 3,
+              "feature": 4,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 5,
+              "feature": 6,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 10,
+              "feature": 6,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 15,
+              "feature": 6,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 20,
+              "feature": 6,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 4,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 20,
+              "feature": 14,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 9,
+              "feature": 8,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 16,
+              "feature": 12,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 11,
+              "feature": 10,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 19,
+              "feature": 13,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": false,
+          "features": []
+        }
+      ]
+    }
   ],
   "bab": [
     0,
@@ -807,326 +1021,387 @@
       "desc": "Demonslayers are known for their expertise in the destruction of demons.",
       "id": "fd8c915590dcc5b41b73b80c3c0da8ee",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 4,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 5,
-            "feature": 6,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 6,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 15,
-            "feature": 6,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 20,
-            "feature": 6,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 5,
-            "feature": 1,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 1,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 15,
-            "feature": 1,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 20,
-            "feature": 1,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 3,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 11,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 4,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 14,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 9,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 16,
-            "feature": 12,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 11,
-            "feature": 10,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 13,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 15,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 5,
-            "feature": 15,
-            "rank": 2,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 15,
-            "rank": 3,
-            "archType": 1
-          },
-          {
-            "level": 15,
-            "feature": 15,
-            "rank": 4,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 15,
-            "rank": 5,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 5,
-            "feature": 16,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 16,
-            "rank": 2,
-            "archType": 1
-          },
-          {
-            "level": 15,
-            "feature": 16,
-            "rank": 3,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 16,
-            "rank": 4,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 5,
-            "feature": 17,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 17,
-            "rank": 2,
-            "archType": 1
-          },
-          {
-            "level": 15,
-            "feature": 17,
-            "rank": 3,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 17,
-            "rank": 4,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 5,
-            "feature": 18,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 18,
-            "rank": 2,
-            "archType": 1
-          },
-          {
-            "level": 15,
-            "feature": 18,
-            "rank": 3,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 18,
-            "rank": 4,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 3,
-            "feature": 19,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 4,
-            "feature": 20,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 11,
-            "feature": 21,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 19,
-            "feature": 22,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 44,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 5,
+                  "feature": 44,
+                  "rank": 2,
+                  "archType": 1
+                },
+                {
+                  "level": 10,
+                  "feature": 44,
+                  "rank": 3,
+                  "archType": 1
+                },
+                {
+                  "level": 15,
+                  "feature": 44,
+                  "rank": 4,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 44,
+                  "rank": 5,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 5,
+                  "feature": 45,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 10,
+                  "feature": 45,
+                  "rank": 2,
+                  "archType": 1
+                },
+                {
+                  "level": 15,
+                  "feature": 45,
+                  "rank": 3,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 45,
+                  "rank": 4,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 5,
+                  "feature": 46,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 10,
+                  "feature": 46,
+                  "rank": 2,
+                  "archType": 1
+                },
+                {
+                  "level": 15,
+                  "feature": 46,
+                  "rank": 3,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 46,
+                  "rank": 4,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 5,
+                  "feature": 47,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 10,
+                  "feature": 47,
+                  "rank": 2,
+                  "archType": 1
+                },
+                {
+                  "level": 15,
+                  "feature": 47,
+                  "rank": 3,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 47,
+                  "rank": 4,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 3,
+                  "feature": 48,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 4,
+                  "feature": 49,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 5,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 11,
+                  "feature": 50,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 15,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 19,
+                  "feature": 51,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 5,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 15,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 20,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 4,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 9,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 11,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1148,202 +1423,240 @@
       "desc": "A freebooter is a natural leader, a pirate who works well with a variety of people and in a variety of roles. Her specialized combat tactics help organize and direct a crew, and freebooters\u0027 talents are in high demand. Most freebooters work as independent agents. A freebooter signs on with a crew when she feels the urge to travel, and often moves to a new ship when her contract ends.",
       "id": "4fd9705f1aebf614f9500bb0e7341179",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 6,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 6,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 15,
-            "feature": 6,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 20,
-            "feature": 6,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 5,
-            "feature": 1,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 1,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 15,
-            "feature": 1,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 20,
-            "feature": 1,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 3,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 11,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 4,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 20,
-            "feature": 14,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 9,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 16,
-            "feature": 12,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 11,
-            "feature": 10,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 13,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 23,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 4,
-            "feature": 24,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 31,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 4,
+                  "feature": 32,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 5,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 15,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 20,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 3,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 5,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 15,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 20,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 9,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 11,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1365,252 +1678,288 @@
       "desc": "Emulating the blazing phoenix, flamewardens sweep through the world like a selective forest fire, burning away corruption, evil, and those who cling to decay.",
       "id": "300917c3479d27d47b4b4b52b1762e8d",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 3,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 11,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 13,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 4,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 20,
-            "feature": 14,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [],
-        [
-          {
-            "level": 9,
-            "feature": 8,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 16,
-            "feature": 12,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [],
-        [
-          {
-            "level": 11,
-            "feature": 10,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 13,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [
-          {
-            "level": 4,
-            "feature": 25,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 7,
-            "feature": 27,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 9,
-            "feature": 28,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 29,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 12,
-            "feature": 30,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 13,
-            "feature": 31,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 16,
-            "feature": 32,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 33,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 4,
-            "feature": 26,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 39,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 9,
+                  "feature": 36,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 12,
+                  "feature": 35,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 16,
+                  "feature": 37,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 38,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 4,
+                  "feature": 40,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 7,
+                  "feature": 41,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 10,
+                  "feature": 42,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 13,
+                  "feature": 43,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 5,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 13,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 5,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 4,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 20,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 9,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 16,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 11,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1632,250 +1981,315 @@
       "desc": "Rangers who walk in the tempest unafraid draw the power of the storm into themselves and become stormwalkers.",
       "id": "a330c05e484d98748a462acd43654a3a",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 9,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 14,
-            "feature": 9,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 18,
-            "feature": 9,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 3,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 11,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 4,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 20,
-            "feature": 14,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 9,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 16,
-            "feature": 12,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [],
-        [
-          {
-            "level": 11,
-            "feature": 10,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 19,
-            "feature": 13,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [],
-        [],
-        [
-          {
-            "level": 2,
-            "feature": 34,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 4,
-            "feature": 35,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 6,
-            "feature": 36,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 11,
-            "feature": 38,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 16,
-            "feature": 39,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 19,
-            "feature": 40,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        [
-          {
-            "level": 10,
-            "feature": 37,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 14,
-            "feature": 37,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 18,
-            "feature": 37,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 17,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 18,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 10,
+                  "feature": 16,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 14,
+                  "feature": 16,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 18,
+                  "feature": 16,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 3,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 52,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 5,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 11,
+                  "feature": 53,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 14,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 15,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 54,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 18,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 19,
+                  "feature": 55,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 5,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 4,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 20,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 9,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 10,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 11,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 19,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1897,224 +2311,275 @@
       "desc": "These rangers\u0027 favorite hunting grounds aren\u0027t woods or mountains, but city streets and enemy headquarters. These masterful spies hunt for secrets, rather than meat, using lies and {g|Encyclopedia:Stealth}stealthiness{/g} as effectively as blades and arrows.",
       "id": "7888187acfd26b7499cf255b0d6dcb0e",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 4,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 5,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 3,
-            "feature": 3,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 8,
-            "feature": 3,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 12,
-            "feature": 11,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 13,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 3,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [],
-        [
-          {
-            "level": 4,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 20,
-            "feature": 14,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [],
-        [
-          {
-            "level": 9,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 16,
-            "feature": 12,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 11,
-            "feature": 10,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 13,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 41,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 3,
-            "feature": 42,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 4,
-            "feature": 43,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 45,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        [
-          {
-            "level": 4,
-            "feature": 44,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 56,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 3,
+                  "feature": 57,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 4,
+                  "feature": 58,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 5,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 59,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 4,
+                  "feature": 34,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 5,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 8,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 12,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 13,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 4,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 20,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 9,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 11,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -2327,236 +2792,295 @@
       "desc": "For some rangers living in vast plains, their horses are an irreplaceable part of their lives, and their bows are a natural extension of their arms.",
       "id": "9f147dbae4a34cda9f0e6091dc1a4a7c",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 9,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 14,
-            "feature": 9,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 18,
-            "feature": 9,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 3,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 11,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 4,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 20,
-            "feature": 14,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 9,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 16,
-            "feature": 12,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 11,
-            "feature": 10,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 13,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 47,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 2,
-            "feature": 34,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 5,
-            "feature": 46,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 6,
-            "feature": 36,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [
-          {
-            "level": 10,
-            "feature": 37,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 14,
-            "feature": 37,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 18,
-            "feature": 37,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 17,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 18,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 10,
+                  "feature": 16,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 14,
+                  "feature": 16,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 18,
+                  "feature": 16,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 61,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 2,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 3,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 5,
+                  "feature": 60,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 14,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 15,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 20,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 5,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 4,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 20,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 5,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 9,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 11,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,

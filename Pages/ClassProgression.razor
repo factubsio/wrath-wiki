@@ -110,7 +110,7 @@ else
 					<tr>
 						@for (var i = 1; i < 21; i++)
 						{
-							<th><div class="level-header">@i</div></th>
+							<th colspan="@(i==1 ? 2 : 1)"><div class="level-header">@i</div></th>
 						}
 					</tr>
 
@@ -124,9 +124,10 @@ else
 					*@
 
 					<tr>
+						<td class="chupa-slot chupa-bottom chupa-top chupa-fake"></td>
 						@foreach (var (bab, fort, reflex, will) in EnumerateStats())
 						{
-							<td class="chupa-slot chupa-bottom chupa-top">
+							<td class="chupa-slot chupa-bottom chupa-top chupa-stats">
 								<Tooltip TooltipClass="tooltip-above">
 									<ChildContent>
 										<div class="stat-icon-box">
@@ -173,6 +174,7 @@ else
 					@if (HasSpells)
 					{
 						<tr>
+							<td class="chupa-slot chupa-bottom chupa-fake"></td>
 							@foreach (var level in EnumerateSpellProgression())
 							{
 								<td class="chupa-slot chupa-bottom spell-progression-slot level-@level.CL">
@@ -240,54 +242,92 @@ else
 							}
 						</tr>
 					}
-					@foreach (var row in Rows)
+					@foreach (var group in Layout)
 					{
-						<tr>
-							@foreach (var (f, rank, last, addRemove) in row)
-							{
-								@if (f == -1)
+						@if (group.name != null)
+						{
+							<tr>
+								<td colspan="21">
+									<div class="banner"> <span>@group.name </span> </div>
+								</td>
+							</tr>
+						}
+						@foreach (var row in group.EnumerateRows(model))
+						{
+							<tr>
+								@foreach (var feature in row.Features)
 								{
-									<td class="chupa-slot @(last ? "last-level" : "")"></td>
+									@if (feature.IsInvalid)
+									{
+										@*<td class="chupa-slot @(last ? "last-level" : "")"></td>*@
+										@if (feature.IsLineContinuation) 
+										{
+											<td class="chupa-slot @row.RowClass"><div class="feature-line-box"><div class="feature-line"></div></div></td>
+										}
+										else
+										{
+											<td class="chupa-slot @row.RowClass"></td>
+										}
+									}
+									else if (feature.Icon != null)
+									{
+										@*<td class="chupa-slot @(last ? "last-level" : "")">*@
+										<td class="chupa-slot @row.RowClass">
+											<Tooltip>
+												<ChildContent>
+													<div class="feature">
+														@if (feature.IsLineContinuation)
+														{
+															@if (!feature.LineStart)
+															{
+																<div class="feature-point-left"></div>
+															}
+															@if (!feature.LineEnd)
+															{
+																<div class="feature-point-right"></div>
+															}
+														}
+														<img class="progression-feature" src="icons/@(feature.Icon).png">
+														@if (feature.Rank != -1)
+														{
+															<div class="rank-badge">@(feature.Rank)</div>
+														}
+
+														@if (feature.IsRemoved)
+														{
+															<div class="feature-removed"></div>
+														}
+														@if (feature.IsAdded)
+														{
+															<div class="feature-added"></div>
+														}
+
+														@if (feature.IsSelection)
+														{
+															<div class="feature-selection"></div>
+														}
+													</div>
+												</ChildContent>
+												<TooltipContent>
+													<div class="header-brick">
+														<div><img src="icons/@(feature.Icon).png"></div>
+														<h4 height=100%>@feature.Name</h4>
+													</div>
+													<p>
+														@StripEncyclopediaTags(feature.Description)
+													</p>
+												</TooltipContent>
+											</Tooltip>
+										</td>
+									}
+									else
+									{
+										@*<td class="chupa-slot @(last ? "last-level" : "")">@model.RenderFeature(f, rank)</td>*@
+										<td class="chupa-slot @row.RowClass">@model.RenderFeature(feature.FeatureIndex, feature.Rank)</td>
+									}
 								}
-								else if (model.features[f].icon != null)
-								{
-									<td class="chupa-slot @(last ? "last-level" : "")">
-										<Tooltip>
-											<ChildContent>
-												<div class="feature">
-													<img class="progression-feature" src="icons/@(model.features[f].icon).png">
-													@if (rank != -1)
-													{
-														<div class="rank-badge">@(rank)</div>
-													}
-													@if (addRemove == -1)
-													{
-														<div class="feature-removed"></div>
-													}
-													@if (addRemove == 1)
-													{
-														<div class="feature-added"></div>
-													}
-												</div>
-											</ChildContent>
-											<TooltipContent>
-												<div class="header-brick">
-													<div><img src="icons/@(model.features[f].icon).png"></div>
-													<h4 height=100%>@model.features[f].name</h4>
-												</div>
-												<p>
-													@StripEncyclopediaTags(@model.features[f].desc)
-												</p>
-											</TooltipContent>
-										</Tooltip>
-									</td>
-								}
-								else
-								{
-									<td class="chupa-slot @(last ? "last-level" : "")">@model.RenderFeature(f, rank)</td>
-								}
-							}
-						</tr>
+							</tr>
+						}
 					}
 				</table>
 			</div>
@@ -359,6 +399,7 @@ else
 		public string? name;
 		public string? desc;
 		public string? icon;
+		public bool isSelection;
 	}
 	public class RowEntry
 	{
@@ -366,6 +407,12 @@ else
 		public int feature;
 		public int rank;
 		public int archType;
+	}
+
+	public class RowLine
+	{
+		public List<RowEntry> features = new();
+		public bool lines;
 	}
 
 	public interface IStatsProgression
@@ -376,11 +423,112 @@ else
 		public int[]? will { get; }
 	}
 
+	public struct FeatureAtLevel {
+
+		public int Level;
+		public int FeatureIndex;
+		public int Rank;
+		public int AType;
+		private Progression? model;
+		private bool isLine = false;
+		private bool IsLineStart = false;
+		private bool IsLineEnd = false;
+
+		public FeatureAtLevel(int level, bool line) {
+			Level = level;
+			isLine = line;
+			FeatureIndex = -1;
+			Rank = -1;
+			AType = 0;
+			model = null;
+		}
+		public FeatureAtLevel(int level, RowEntry entry, Progression model, bool line, bool lineStart, bool lineEnd) {
+			Level = level;
+			FeatureIndex = entry.feature;
+			Rank = entry.rank;
+			AType = entry.archType;
+			isLine = line;
+			this.model = model;
+			IsLineStart = lineStart;
+			IsLineEnd = lineEnd;
+		}
+
+		public LocalFeature Value => model!.features[FeatureIndex];
+		public bool IsAdded => AType == 1;
+		public bool IsRemoved => AType == -1;
+		public bool IsInvalid => FeatureIndex == -1;
+		public bool IsLineContinuation => isLine;
+		public bool First => Level == 0;
+		public bool Last => Level == 20;
+		public bool LineStart => IsLineStart;
+		public bool LineEnd => IsLineEnd;
+
+		public string? Icon => Value.icon;
+		public string Name => Value.name ?? "<name-missing>";
+		public string Description => Value.desc ?? "<description-missing>";
+		public bool IsSelection => Value.isSelection;
+	}
+
+	public class GroupRow {
+		public string RowClass => $"{(first ? "chupa-top" : "")} {(last ? "chupa-bottom" : "")}";
+		public IEnumerable<FeatureAtLevel> Features {
+			get {
+				var rowIt = row.features.GetEnumerator();
+				bool rowHasNext = rowIt.MoveNext();
+				bool inLine = false;
+				for (int i = 0; i <= 20; i++)
+				{
+					if (rowHasNext && rowIt.Current.level == i)
+					{
+						var current = rowIt.Current;
+						rowHasNext = rowIt.MoveNext();
+						yield return new(i, current, model, row.lines && i > 0, i > 0 && !inLine, !rowHasNext);
+						inLine = i > 0 && rowHasNext;
+					}
+					else
+					{
+						yield return new FeatureAtLevel(i, row.lines && inLine);
+					}
+				}
+
+			}
+		}
+		public readonly RowLine row;
+		public readonly Progression model;
+		private readonly bool first;
+		private readonly bool last;
+
+		public GroupRow(RowLine row, Progression model, bool first, bool last)
+		{
+			this.row = row;
+			this.model = model;
+			this.first = first;
+			this.last = last;
+		}
+	}
+
+	public class LayoutGroup {
+		public string? name;
+		public List<RowLine> rows = new();
+
+		public IEnumerable<GroupRow> EnumerateRows(Progression model) {
+			var filtered = rows.Where(r => r.features.Count > 0);
+			var filteredCount = filtered.Count();
+			return filtered.OrderByDescending(r => r.features.Count).Select((x, index) => ExpandRow(x, model, index, filteredCount));
+		}
+
+		private static GroupRow ExpandRow(RowLine row, Progression model, int index, int count)
+		{
+			return new(row, model, index == 0, index == count - 1);
+		}
+
+	}
+
 	public class Archetype : IStatsProgression
 	{
 		public string id = "";
 		public string name = "";
-		public List<List<RowEntry>> layout = new();
+		public List<LayoutGroup> layout = new();
 
 		public bool removeSpells;
 
@@ -522,14 +670,14 @@ else
 		}
 	}
 
-	public IEnumerable<IEnumerable<(int, int, bool, int)>> Rows
+	public IEnumerable<LayoutGroup> Layout
 	{
 		get
 		{
 			if (GetArchetype(out var arch))
-				return model!.Rows(arch.layout);
+				return arch.layout;
 			else
-				return model!.Rows(model!.layout);
+				return model!.layout;
 		}
 	}
 
@@ -544,7 +692,7 @@ else
 	{
 		public List<Archetype> archetypes = new();
 		public List<LocalFeature> features = new();
-		public List<List<RowEntry>> layout = new();
+		public List<LayoutGroup> layout = new();
 		public string? name;
 		public string? desc;
 		public int casterLevelModifier;
@@ -568,26 +716,6 @@ else
 		public int[][]? spellSlots;
 		public string[][]? spells;
 
-		public IEnumerable<IEnumerable<(int, int, bool, int)>> Rows(List<List<RowEntry>> layout) => layout.OrderByDescending(r => r.Count).Where(r => r.Count > 0).Select(ExpandRow);
-
-		private static IEnumerable<(int, int, bool, int)> ExpandRow(List<RowEntry> row)
-		{
-
-			var next = row.GetEnumerator();
-			bool n = next.MoveNext();
-			for (int i = 1; i <= 20; i++)
-			{
-				if (n && next.Current.level == i)
-				{
-					yield return (next.Current.feature, next.Current.rank, i == 20, next.Current.archType);
-					n = next.MoveNext();
-				}
-				else
-				{
-					yield return (-1, -1, i == 20, 0);
-				}
-			}
-		}
 
 		public string RenderFeature(int f, int rank)
 		{

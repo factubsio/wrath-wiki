@@ -3,7 +3,9 @@
     [
       3,
       12,
-      6
+      18,
+      6,
+      19
     ],
     [
       9,
@@ -21,542 +23,637 @@
       13,
       16
     ],
-    [],
-    [],
-    []
+    [
+      20,
+      21
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
   ],
   "features": [
     {
       "__index": 0,
       "name": "Bard Proficiencies",
       "desc": "A bard is proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g}, plus the longsword, rapier, shortsword and shortbow. Bards are also proficient with light armor and shields (except tower shields). A bard can cast bard {g|Encyclopedia:Spell}spells{/g} while wearing light armor and using a shield without incurring the normal {g|Encyclopedia:Spell_Fail_Chance}arcane spell failure chance{/g}. Like any other arcane spellcaster, a bard wearing medium or heavy armor incurs a chance of arcane spell failure. A multiclass bard still incurs the normal arcane spell failure chance for arcane spells received from other classes.",
-      "icon": "3714ca959287da54cbf82164d3a8805b"
+      "icon": "3714ca959287da54cbf82164d3a8805b",
+      "isSelection": false
     },
     {
       "__index": 1,
       "name": "Cantrips",
       "desc": "Bards can cast a number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
-      "icon": "60fe3c2dbd23eae45843f2334f960ec5"
+      "icon": "60fe3c2dbd23eae45843f2334f960ec5",
+      "isSelection": false
     },
     {
       "__index": 2,
       "name": "Inspire Courage",
       "desc": "A 1st-level bard can use his performance to inspire courage in his allies (including himself), bolstering them against fear and improving their combat abilities. To be affected, an ally must be able to perceive the bard\u0027s performance. An affected ally receives a \u002B1 morale {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against charm and fear effects and a \u002B1 competence bonus on {g|Encyclopedia:Attack}attack{/g} and weapon {g|Encyclopedia:Damage}damage rolls{/g}. At 5th level, and every six bard levels thereafter, this bonus increases by \u002B1, to a maximum of \u002B4 at 17th level.",
-      "icon": "d0a4f8c927ac1b14baf16aeb18d25255"
+      "icon": "d0a4f8c927ac1b14baf16aeb18d25255",
+      "isSelection": false
     },
     {
       "__index": 3,
       "name": "Bardic Knowledge",
       "desc": "A bard adds half his {g|Encyclopedia:Class_Level}class level{/g} (minimum 1) to all Knowledge and Lore {g|Encyclopedia:Skills}skill checks{/g} and may make all Knowledge and Lore skill {g|Encyclopedia:Check}checks{/g} untrained.",
-      "icon": "97e8e68d46f4b6540a262536bf5acf1e"
+      "icon": "97e8e68d46f4b6540a262536bf5acf1e",
+      "isSelection": false
     },
     {
       "__index": 4,
       "name": "Bard Talent",
       "desc": "As a bard gains {g|Encyclopedia:XP}experience{/g}, she learns a number of talents that aid her and confound her foes. At 2nd level, a bard gains a rogue talent, as the rogue class feature of the same name. At 6th level and every 4 levels thereafter, the bard gains an additional rogue talent. A bard cannot select a rogue talent that modifies the sneak {g|Encyclopedia:Attack}attack{/g} ability.",
-      "icon": "dd1d914ed167801448b86b5b4afb3a43"
+      "icon": "dd1d914ed167801448b86b5b4afb3a43",
+      "isSelection": true
     },
     {
       "__index": 5,
       "name": "Well-Versed",
       "desc": "At 2nd level, the bard becomes resistant to the bardic performance of others, and to sonic effects in general. The bard gains a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} made against bardic performance and sonic effects.",
-      "icon": "ad05c2b9c08927f47ad7236f6bacd11f"
+      "icon": "ad05c2b9c08927f47ad7236f6bacd11f",
+      "isSelection": false
     },
     {
       "__index": 6,
       "name": "Inspire Competence",
       "desc": "A bard of 3rd level or higher can use his performance to help allies succeed at a task. They must be within 30 feet and able to see and hear the bard. They get a \u002B2 competence {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Skills}skill checks{/g} as long as they continue to hear the bard\u0027s performance. This bonus increases by \u002B1 for every four levels the bard has attained beyond 3rd (\u002B3 at 7th, \u002B4 at 11th, \u002B5 at 15th, and \u002B6 at 19th).",
-      "icon": "ca3c9eb264e969e44a9eb2b105793706"
+      "icon": "ca3c9eb264e969e44a9eb2b105793706",
+      "isSelection": false
     },
     {
       "__index": 7,
       "name": "Lore Master",
       "desc": "At 5th level, the bard becomes a master of lore and can take 10 on any Knowledge or Lore {g|Encyclopedia:Skills}skill check{/g} that he has ranks in. A bard can choose not to take 10 and can instead {g|Encyclopedia:Dice}roll{/g} normally.",
-      "icon": "4ea9589bae6982447bfd5ce5b9cb1b3a"
+      "icon": "4ea9589bae6982447bfd5ce5b9cb1b3a",
+      "isSelection": false
     },
     {
       "__index": 8,
       "name": "Fascinate",
       "desc": "At 6th level, a bard can use his performance to cause one or more creatures to become fascinated with him. Each creature to be fascinated must be within 30 feet.\nEach creature within range receives a {g|Encyclopedia:Saving_Throw}Will save{/g} ({g|Encyclopedia:DC}DC{/g} 10 \u002B 1/2 the bard\u0027s level \u002B the bard\u0027s {g|Encyclopedia:Charisma}Cha{/g} modifier) to negate the effect. If a creature\u0027s saving throw succeeds, the bard cannot attempt to fascinate that creature again for 24 hours. If its saving throw fails, the creature stands quietly and observes the performance for as long as the bard continues to maintain it. Any {g|Encyclopedia:Damage}damage{/g} to the target automatically breaks the effect.",
-      "icon": "c9de51f6f6dba914ca22cb4ecb09d6ad"
+      "icon": "c9de51f6f6dba914ca22cb4ecb09d6ad",
+      "isSelection": false
     },
     {
       "__index": 9,
       "name": "Bardic Performance (Move Action)",
       "desc": "At 7th level, a bard can start a bardic performance as a {g|Encyclopedia:Move_Action}move action{/g} instead of a {g|Encyclopedia:Standard_Actions}standard action{/g}.",
-      "icon": "10ef9d0fc57354943adb2c1dbc78062f"
+      "icon": "10ef9d0fc57354943adb2c1dbc78062f",
+      "isSelection": false
     },
     {
       "__index": 10,
       "name": "Dirge of Doom",
       "desc": "A bard of 8th level or higher can use his performance to foster a sense of growing dread in his enemies, causing them to become shaken. To be affected, an enemy must be within 30 feet and able to see and hear the bard\u0027s performance. The effect persists for as long as the enemy is within 30 feet and the bard continues the performance.",
-      "icon": "4b2833bc4f93c8645a710f3186f74fd0"
+      "icon": "4b2833bc4f93c8645a710f3186f74fd0",
+      "isSelection": false
     },
     {
       "__index": 11,
       "name": "Inspire Greatness",
       "desc": "A bard of 9th level or higher can use his performance to inspire greatness in all allies within 30 feet, granting extra fighting capability. A creature inspired with greatness gains 2 {g|Encyclopedia:Bonus}bonus{/g} {g|Encyclopedia:Hit_Dice}Hit Dice{/g} (d10s), the commensurate number of temporary {g|Encyclopedia:HP}hit points{/g} (apply the target\u0027s {g|Encyclopedia:Constitution}Constitution{/g} modifier, if any, to these bonus Hit Dice), a \u002B2 competence bonus on {g|Encyclopedia:Attack}attack rolls{/g}, and a \u002B1 competence bonus on Fortitude {g|Encyclopedia:Saving_Throw}saves{/g}.",
-      "icon": "db949c48bfd50584bbf1d9189947aec3"
+      "icon": "db949c48bfd50584bbf1d9189947aec3",
+      "isSelection": false
     },
     {
       "__index": 12,
       "name": "Jack of All Trades",
       "desc": "The bard gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Skills}skill checks{/g}.",
-      "icon": "28f0bda89f59f3842b83887cc4aba9bc"
+      "icon": "28f0bda89f59f3842b83887cc4aba9bc",
+      "isSelection": false
     },
     {
       "__index": 13,
       "name": "Soothing Performance",
       "desc": "A bard of 12th level or higher can use his performance to create an effect equivalent to a mass {g|Encyclopedia:Healing}cure{/g} serious wounds, using the bard\u0027s level as the {g|Encyclopedia:Caster_Level}caster level{/g}. In addition, this performance removes the fatigued, sickened, and shaken condition from all those affected. Using this ability requires 4 {g|Encyclopedia:Combat_Round}rounds{/g} of continuous performance.",
-      "icon": "93d8f2f3ba10b9d4f919d0119379db6b"
+      "icon": "93d8f2f3ba10b9d4f919d0119379db6b",
+      "isSelection": false
     },
     {
       "__index": 14,
       "name": "Bardic Performance (Swift Action)",
       "desc": "At 13th level, a bard can start a bardic performance as a {g|Encyclopedia:Swift_Action}swift action{/g}.",
-      "icon": "d640d7e8c2b9ed94d8df7eacf2c28949"
+      "icon": "d640d7e8c2b9ed94d8df7eacf2c28949",
+      "isSelection": false
     },
     {
       "__index": 15,
       "name": "Frightening Tune",
       "desc": "A bard of 14th level or higher can use his performance to cause fear in his enemies. To be affected, an enemy must be able to hear the bard perform and be within 30 feet. Each enemy within range receives a {g|Encyclopedia:Saving_Throw}Will save{/g} ({g|Encyclopedia:DC}DC{/g} 10 \u002B 1/2 the bard\u0027s level \u002B the bard\u0027s {g|Encyclopedia:Charisma}Charisma{/g} modifier) to negate the effect. If the save succeeds, the creature is immune to this ability for 24 hours. If the save fails, the target becomes frightened and flees for as long as the target can hear the bard\u0027s performance.",
-      "icon": "dade8d83fd332b7469b2df1f0937f9d2"
+      "icon": "dade8d83fd332b7469b2df1f0937f9d2",
+      "isSelection": false
     },
     {
       "__index": 16,
       "name": "Inspire Heroics",
       "desc": "A bard of 15th level or higher can inspire tremendous heroism in all allies within 30 feet. Inspired creatures gain a \u002B4 morale {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} and a \u002B4 dodge bonus to {g|Encyclopedia:Armor_Class}AC{/g}. The effect lasts for as long as the targets are able to witness the performance.",
-      "icon": "f7ca41169c72978449dbc7c8ac15c6a9"
+      "icon": "f7ca41169c72978449dbc7c8ac15c6a9",
+      "isSelection": false
     },
     {
       "__index": 17,
       "name": "Deadly Performance",
       "desc": "A bard of 20th level can use his performance to cause one enemy to die from joy or sorrow. To be affected, the target must be able to see and hear the bard perform for 1 full {g|Encyclopedia:Combat_Round}round{/g} and be within 30 feet. The target receives a {g|Encyclopedia:Saving_Throw}Will save{/g} ({g|Encyclopedia:DC}DC{/g} 10 \u002B 1/2 the bard\u0027s level \u002B the bard\u0027s {g|Encyclopedia:Charisma}Cha{/g} modifier) to negate the effect. If a creature\u0027s saving throw succeeds, the target is staggered for {g|Encyclopedia:Dice}1d4{/g} rounds, and the bard cannot use deadly performance on that creature again for 24 hours. If a creature\u0027s saving throw fails, it dies.",
-      "icon": "8b253facfc143f34583fb8a3c71f74e3"
+      "icon": "8b253facfc143f34583fb8a3c71f74e3",
+      "isSelection": false
     },
     {
       "__index": 18,
-      "name": "Archaeologist\u0027s Luck",
-      "desc": "Fortune favors the archaeologist. As a {g|Encyclopedia:Swift_Action}swift action{/g}, an archaeologist can call on fortune\u0027s favor, giving him a \u002B1 luck {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g}, {g|Encyclopedia:Saving_Throw}saving throws{/g}, {g|Encyclopedia:Skills}skill checks{/g}, and weapon {g|Encyclopedia:Damage}damage rolls{/g}. He can use this ability for a number of {g|Encyclopedia:Combat_Round}rounds{/g} per day equal to 4 \u002B his {g|Encyclopedia:Charisma}Charisma{/g} modifier. At each level after 1st, an archaelogist can use archaeologist\u0027s luck for 2 additional rounds per day. Maintaining this bonus is a {g|Encyclopedia:Free_Action}free action{/g}, but it ends immediately if the archaeologist is killed, paralyzed, stunned, knocked {g|Encyclopedia:Injury_Death}unconscious{/g}, or otherwise prevented from taking a free {g|Encyclopedia:CA_Types}action{/g} to maintain it each round. Archaeologist\u0027s luck is treated as bardic performance for the purposes of {g|Encyclopedia:Feat}feats{/g}, abilities, effects, and the like that affect bardic performance. Like bardic performance, it cannot be maintained at the same time as other performance abilities. This bonus increases to \u002B2 at 5th level, \u002B3 at 11th level, and \u002B4 at 17th level.",
-      "icon": "c5abd8f958a8afb409faa5d31acddb72"
+      "name": "Bound to the Land",
+      "desc": "A thundercaller gains a {g|Encyclopedia:Bonus}bonus{/g} equal to 1/2 her level on {g|Encyclopedia:Lore_Nature}Lore (nature){/g} {g|Encyclopedia:Check}checks{/g}.",
+      "icon": "d4960a0f7e7cc6843bf6d675985fd381",
+      "isSelection": false
     },
     {
       "__index": 19,
-      "name": "Clever Explorer",
-      "desc": "At 2nd level, an archaeologist gains a {g|Encyclopedia:Bonus}bonus{/g} equal to half his {g|Encyclopedia:Class_Level}class level{/g} on {g|Encyclopedia:Trickery}Trickery{/g} and {g|Encyclopedia:Perception}Perception checks{/g}.",
-      "icon": "521a6d3932c3ab4448a6eb95782dae06"
+      "name": "Evasion",
+      "desc": "A character can avoid even magical and unusual {g|Encyclopedia:Attack}attacks{/g} with great agility. If a character makes a successful {g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} against an attack that normally deals half {g|Encyclopedia:Damage}damage{/g} on a successful save, he instead takes no damage. A {g|Encyclopedia:Helpless}helpless{/g} character does not gain the benefit of evasion.",
+      "icon": "b571fe5defdcf67489e23c8f115f1f2c",
+      "isSelection": false
     },
     {
       "__index": 20,
-      "name": "Confident Explorer",
-      "desc": "At 6th level, an archaeologist can always take 10 on {g|Encyclopedia:Trickery}Trickery checks{/g}. A bard can choose not to take 10 and can instead {g|Encyclopedia:Dice}roll{/g} normally.",
-      "icon": "4f0458275f3efab48a862dd170c9369f"
+      "name": "Clever Explorer",
+      "desc": "At 2nd level, an archaeologist gains a {g|Encyclopedia:Bonus}bonus{/g} equal to half his {g|Encyclopedia:Class_Level}class level{/g} on {g|Encyclopedia:Trickery}Trickery{/g} and {g|Encyclopedia:Perception}Perception checks{/g}.",
+      "icon": "521a6d3932c3ab4448a6eb95782dae06",
+      "isSelection": false
     },
     {
       "__index": 21,
-      "name": "Uncanny Dodge",
-      "desc": "The character can react to danger before her senses would normally allow her to do so. She cannot be caught {g|Encyclopedia:Flat_Footed}flat-footed{/g}, nor does she lose her {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} if the {g|Encyclopedia:Attack}attacker{/g} is invisible. She still loses her Dexterity bonus to AC if immobilized. A character with this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the feint {g|Encyclopedia:CA_Types}action{/g} against her.\nIf a character already has uncanny dodge from a different class, she automatically gains improved uncanny dodge instead.",
-      "icon": "f549aced0cfe8a7469985214a71d9503"
+      "name": "Confident Explorer",
+      "desc": "At 6th level, an archaeologist can always take 10 on {g|Encyclopedia:Trickery}Trickery checks{/g}. A bard can choose not to take 10 and can instead {g|Encyclopedia:Dice}roll{/g} normally.",
+      "icon": "4f0458275f3efab48a862dd170c9369f",
+      "isSelection": false
     },
     {
       "__index": 22,
-      "name": "Evasion",
-      "desc": "A character can avoid even magical and unusual {g|Encyclopedia:Attack}attacks{/g} with great agility. If a character makes a successful {g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} against an attack that normally deals half {g|Encyclopedia:Damage}damage{/g} on a successful save, he instead takes no damage. A {g|Encyclopedia:Helpless}helpless{/g} character does not gain the benefit of evasion.",
-      "icon": "b571fe5defdcf67489e23c8f115f1f2c"
+      "name": "Storm Call",
+      "desc": "At 8th level, the thundercaller can use her performance to summon bolts of lightning that deal {g|Encyclopedia:Dice}3d6{/g} points of {g|Encyclopedia:Energy_Damage}electricity damage{/g}. The lightning storm lasts for as long as she continues her performance, calling down one bolt of lightning per {g|Encyclopedia:Combat_Round}round{/g} on a random enemy within 50 feet of the thundercaller.\nIf in a stormy area (including a whirlwind formed by an air elemental of at least Large {g|Encyclopedia:Size}size{/g}), each bolt deals 3d10 points of electricity {g|Encyclopedia:Damage}damage{/g} instead of 3d6.",
+      "icon": "f0a54500f11f0684fb3a23fb5c94385c",
+      "isSelection": false
     },
     {
       "__index": 23,
-      "name": "Danger Sense",
-      "desc": "At 3rd level, an archaeologist gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on Reflex {g|Encyclopedia:Saving_Throw}saves{/g} to avoid traps and a \u002B1 dodge bonus to {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:Attack}attacks{/g} made by traps. These bonuses increase by 1 every 3 bard levels thereafter (to a maximum of \u002B6 at 18th level).",
-      "icon": "7ab9a8025ca271d43a8debfa01fd17c3"
+      "name": "Storm Call, Greater",
+      "desc": "At 14th level, whenever a thundercaller uses her Storm Call ability, the amount of {g|Encyclopedia:Damage}damage{/g} dealt by bolts of lightning increases to {g|Encyclopedia:Dice}5d6{/g} (or 5d10 when outdoors in stormy weather).",
+      "icon": "f0a54500f11f0684fb3a23fb5c94385c",
+      "isSelection": false
     },
     {
       "__index": 24,
-      "name": "Advanced Talents",
-      "desc": "After 10th level, a character can choose one of the advanced rogue talents in place of a rogue talent.",
-      "icon": "57a5e3232472df44bac5df62ed9f8cdd"
+      "name": "Summon Nature\u0027s Ally I",
+      "desc": "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural mite. The summoned ally appears where you designate and acts according to its {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best of its ability.",
+      "icon": "c4a8ab33d366dd74e9dd63547b8193d1",
+      "isSelection": false
     },
     {
       "__index": 25,
-      "name": "Bound to the Land",
-      "desc": "A thundercaller gains a {g|Encyclopedia:Bonus}bonus{/g} equal to 1/2 her level on {g|Encyclopedia:Lore_Nature}Lore (nature){/g} {g|Encyclopedia:Check}checks{/g}.",
-      "icon": "d4960a0f7e7cc6843bf6d675985fd381"
+      "name": "Summon Nature\u0027s Ally II",
+      "desc": "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural giant frog or {g|Encyclopedia:Dice}1d3{/g} natural mites. The summoned allies appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
+      "icon": "4de4e1565eb4b9e418b1da8222c32fe9",
+      "isSelection": false
     },
     {
       "__index": 26,
-      "name": "Thunder Call",
-      "desc": "At 3rd level, the thundercaller can use her performance to unleash a deafening peal of thunder, blasting an area in a 10-foot range with a tremendous cacophony. Every creature in the area takes {g|Encyclopedia:Dice}1d8{/g} points of sonic {g|Encyclopedia:Damage}damage{/g} and must succeed at a {g|Encyclopedia:Saving_Throw}Fortitude save{/g} to avoid being stunned for 1 {g|Encyclopedia:Combat_Round}round{/g}. Creatures that cannot hear are not stunned but are still damaged. At 7th level, the {g|Encyclopedia:Energy_Damage}sonic damage{/g} that is dealt by this blast of sound increases to 3d8. This damage further increases to 5d8 at 11th level, 7d8 at 15th level, and 9d8 at 19th level.",
-      "icon": "3d7633270d8a4764085cac3081afff97"
+      "name": "Summon Nature\u0027s Ally III",
+      "desc": "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural leopard, {g|Encyclopedia:Dice}1d3{/g} natural giant frogs, or 1d4\u002B1 natural mites. The summoned allies appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
+      "icon": "fbaf42ee1c1548442a8d0ff6dcaf8b22",
+      "isSelection": false
     },
     {
       "__index": 27,
-      "name": "Incite Rage \u2014 Enemies",
-      "desc": "At 6th level, the thundercaller can induce a furious rage in all enemies within 30 feet. This effect functions as the rage {g|Encyclopedia:Spell}spell{/g} and lasts as long as the target can hear the thundercaller\u0027s performance. Unwilling creatures can be affected if they fail a {g|Encyclopedia:Saving_Throw}Will save{/g} ({g|Encyclopedia:DC}DC{/g} 10 \u002B 1/2 the thundercaller\u0027s level \u002B the thundercaller\u0027s {g|Encyclopedia:Charisma}Charisma{/g} modifier).\nSuccess renders the target immune to this power for 24 hours. The thundercaller cannot target herself with this ability.\nEach affected creature gains a \u002B2 morale {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Strength}Strength{/g} and {g|Encyclopedia:Constitution}Constitution{/g}, a \u002B1 morale bonus on Will saves, a \u20132 {g|Encyclopedia:Penalty}penalty{/g} to {g|Encyclopedia:Armor_Class}AC{/g}, and cannot cast spells.",
-      "icon": "e50a89f2ba396f44489e16b06713612f"
+      "name": "Summon Nature\u0027s Ally IV",
+      "desc": "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural dire boar, {g|Encyclopedia:Dice}1d3{/g} natural leopards, or 1d4\u002B1 natural giant frogs. The summoned allies appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
+      "icon": "774c1a002d5d03046b9fcf004c2f9309",
+      "isSelection": false
     },
     {
       "__index": 28,
-      "name": "Storm Call",
-      "desc": "At 8th level, the thundercaller can use her performance to summon bolts of lightning that deal {g|Encyclopedia:Dice}3d6{/g} points of {g|Encyclopedia:Energy_Damage}electricity damage{/g}. The lightning storm lasts for as long as she continues her performance, calling down one bolt of lightning per {g|Encyclopedia:Combat_Round}round{/g} on a random enemy within 50 feet of the thundercaller.\nIf in a stormy area (including a whirlwind formed by an air elemental of at least Large {g|Encyclopedia:Size}size{/g}), each bolt deals 3d10 points of electricity {g|Encyclopedia:Damage}damage{/g} instead of 3d6.",
-      "icon": "f0a54500f11f0684fb3a23fb5c94385c"
+      "name": "Summon Nature\u0027s Ally V",
+      "desc": "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural manticore, {g|Encyclopedia:Dice}1d3{/g} natural dire boars, or 1d4\u002B1 natural leopards. The summoned allies appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
+      "icon": "2c0315de04c98744b81d8b6bbef4f241",
+      "isSelection": false
     },
     {
       "__index": 29,
-      "name": "Storm Call, Greater",
-      "desc": "At 14th level, whenever a thundercaller uses her Storm Call ability, the amount of {g|Encyclopedia:Damage}damage{/g} dealt by bolts of lightning increases to {g|Encyclopedia:Dice}5d6{/g} (or 5d10 when outdoors in stormy weather).",
-      "icon": "f0a54500f11f0684fb3a23fb5c94385c"
+      "name": "Summon Nature\u0027s Ally VI",
+      "desc": "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural smilodon, {g|Encyclopedia:Dice}1d3{/g} natural manticores, or 1d4\u002B1 natural dire boars. The summoned allies appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
+      "icon": "2c0315de04c98744b81d8b6bbef4f241",
+      "isSelection": false
     },
     {
       "__index": 30,
-      "name": "Fire Dance",
-      "desc": "At 3rd level, a fire dancer\u0027s performance can bend flames away from others. Any ally within 30 feet of the bard who can hear or see the bardic performance gains resist fire 10 as long as the performance is maintained. At 6th level, this resistance increases to 20. At 11th level, this resistance increases to 30.",
-      "icon": "a677388ce1422b84fbccd32fa27adff7"
+      "name": "Summon Nature\u0027s Ally VII",
+      "desc": "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural mastodon, {g|Encyclopedia:Dice}1d3{/g} natural smilodons, or 1d4\u002B1 natural manticores. The summoned allies appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
+      "icon": "2c0315de04c98744b81d8b6bbef4f241",
+      "isSelection": false
     },
     {
       "__index": 31,
-      "name": "Fan the Flames",
-      "desc": "At 8th level, a fire dancer adds burning hands, burning arc, and fireball to his list of bard {g|Encyclopedia:Spell}spells{/g} known (as 1st-, 2nd-, and 3rd-level spells, respectively).",
-      "icon": "5da95ed7c940cfb4aa1d6302d1ec2def"
+      "name": "Summon Nature\u0027s Ally VIII",
+      "desc": "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural nereid, {g|Encyclopedia:Dice}1d3{/g} natural mastodons, or 1d4\u002B1 natural smilodons. The summoned allies appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
+      "icon": "2c0315de04c98744b81d8b6bbef4f241",
+      "isSelection": false
     },
     {
       "__index": 32,
-      "name": "Inspire Tranquility",
-      "desc": "A 1st level tranquil whisperer can use his performance to inspire tranquility in his allies (including himself), bolstering their defenses. To be affected, an ally must be able to perceive the bard\u0027s performance. An affected ally receives a \u002B1 morale {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} and suppresses the effects of all kinds of rage. At 5th level, and every six bard levels thereafter, this bonus increases by \u002B1, to a maximum of \u002B4 at 17th level.",
-      "icon": "bb546864b621ee04a91c4d4e3cab8ed9"
+      "name": "Summon Nature\u0027s Ally IX",
+      "desc": "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural hamadryad, {g|Encyclopedia:Dice}1d3{/g} natural nereids, or 1d4\u002B1 natural mastodons. The summoned allies appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
+      "icon": "afbd622c795172041be9a151295671ea",
+      "isSelection": false
     },
     {
       "__index": 33,
-      "name": "Saving Tranquility",
-      "desc": "At 7th level, Inspire Tranquility also grants a morale {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Saving_Throw}saving throws{/g} against mind-affecting effects equal to the {g|Encyclopedia:Armor_Class}AC{/g} bonus.",
-      "icon": "bb546864b621ee04a91c4d4e3cab8ed9"
+      "name": "Archaeologist\u0027s Luck",
+      "desc": "Fortune favors the archaeologist. As a {g|Encyclopedia:Swift_Action}swift action{/g}, an archaeologist can call on fortune\u0027s favor, giving him a \u002B1 luck {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g}, {g|Encyclopedia:Saving_Throw}saving throws{/g}, {g|Encyclopedia:Skills}skill checks{/g}, and weapon {g|Encyclopedia:Damage}damage rolls{/g}. He can use this ability for a number of {g|Encyclopedia:Combat_Round}rounds{/g} per day equal to 4 \u002B his {g|Encyclopedia:Charisma}Charisma{/g} modifier. At each level after 1st, an archaelogist can use archaeologist\u0027s luck for 2 additional rounds per day. Maintaining this bonus is a {g|Encyclopedia:Free_Action}free action{/g}, but it ends immediately if the archaeologist is killed, paralyzed, stunned, knocked {g|Encyclopedia:Injury_Death}unconscious{/g}, or otherwise prevented from taking a free {g|Encyclopedia:CA_Types}action{/g} to maintain it each round. Archaeologist\u0027s luck is treated as bardic performance for the purposes of {g|Encyclopedia:Feat}feats{/g}, abilities, effects, and the like that affect bardic performance. Like bardic performance, it cannot be maintained at the same time as other performance abilities. This bonus increases to \u002B2 at 5th level, \u002B3 at 11th level, and \u002B4 at 17th level.",
+      "icon": "c5abd8f958a8afb409faa5d31acddb72",
+      "isSelection": false
     },
     {
       "__index": 34,
-      "name": "Tranquil Senses",
-      "desc": "At 13th level, inspire tranquility also grants blindsense with a 10-foot range.",
-      "icon": "6fa6239f294e55249bd281da15b33892"
+      "name": "Uncanny Dodge",
+      "desc": "The character can react to danger before her senses would normally allow her to do so. She cannot be caught {g|Encyclopedia:Flat_Footed}flat-footed{/g}, nor does she lose her {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} if the {g|Encyclopedia:Attack}attacker{/g} is invisible. She still loses her Dexterity bonus to AC if immobilized. A character with this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the feint {g|Encyclopedia:CA_Types}action{/g} against her.\nIf a character already has uncanny dodge from a different class, she automatically gains improved uncanny dodge instead.",
+      "icon": "f549aced0cfe8a7469985214a71d9503",
+      "isSelection": false
     },
     {
       "__index": 35,
-      "name": "Tranquil Apotheosis",
-      "desc": "At 20th level, tranquil whisperer\u0027s mind changes completely. He gains immunity to confusion and mind-affecting effects, and counts as an outsider.",
-      "icon": "gen__TA"
+      "name": "Danger Sense",
+      "desc": "At 3rd level, an archaeologist gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on Reflex {g|Encyclopedia:Saving_Throw}saves{/g} to avoid traps and a \u002B1 dodge bonus to {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:Attack}attacks{/g} made by traps. These bonuses increase by 1 every 3 bard levels thereafter (to a maximum of \u002B6 at 18th level).",
+      "icon": "7ab9a8025ca271d43a8debfa01fd17c3",
+      "isSelection": false
     },
     {
       "__index": 36,
-      "name": "Haunted Eyes",
-      "desc": "At 2nd level, a dirge bard gains a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saves{/g} against fear, curses, {g|Encyclopedia:Injury_Death}death{/g} effects, and necromantic effects.",
-      "icon": "d5e85a162b38be047a4fcc78f9e98446"
+      "name": "Advanced Talents",
+      "desc": "After 10th level, a character can choose one of the advanced rogue talents in place of a rogue talent.",
+      "icon": "57a5e3232472df44bac5df62ed9f8cdd",
+      "isSelection": false
     },
     {
       "__index": 37,
-      "name": "Secrets of the Grave",
-      "desc": "At 2nd level, a dirge bard gains a {g|Encyclopedia:Bonus}bonus{/g} equal to half his bard level on {g|Encyclopedia:Lore_Religion}Lore (religion){/g} {g|Encyclopedia:Check}checks{/g}. A dirge bard may use mind-affecting {g|Encyclopedia:Spell}spells{/g} to affect undead as if they were living creatures, undead creatures are treated as humanoids for the purposes of determining which spells affect them. In addition, he adds the following necromantic spells to his list of spells known: cause fear at 2nd level; command undead at 6th level; fear at 10th level; waves of fatigue at 14th level; banshee blast at 18th level.",
-      "icon": "d5e85a162b38be047a4fcc78f9e98446"
+      "name": "Thunder Call",
+      "desc": "At 3rd level, the thundercaller can use her performance to unleash a deafening peal of thunder, blasting an area in a 10-foot range with a tremendous cacophony. Every creature in the area takes {g|Encyclopedia:Dice}1d8{/g} points of sonic {g|Encyclopedia:Damage}damage{/g} and must succeed at a {g|Encyclopedia:Saving_Throw}Fortitude save{/g} to avoid being stunned for 1 {g|Encyclopedia:Combat_Round}round{/g}. Creatures that cannot hear are not stunned but are still damaged. At 7th level, the {g|Encyclopedia:Energy_Damage}sonic damage{/g} that is dealt by this blast of sound increases to 3d8. This damage further increases to 5d8 at 11th level, 7d8 at 15th level, and 9d8 at 19th level.",
+      "icon": "3d7633270d8a4764085cac3081afff97",
+      "isSelection": false
     },
     {
       "__index": 38,
-      "name": "Haunting Refrain",
-      "desc": "At 5th level, a dirge bard is able to stir primal terrors in the hearts of listeners. He gains a {g|Encyclopedia:Bonus}bonus{/g} on Intimidate {g|Encyclopedia:Check}checks{/g} equal to half his level. In addition, he gains a \u002B2 bonus to {g|Encyclopedia:DC}DC{/g} on {g|Encyclopedia:Spell}spells{/g} with fear effect, and this bonus increases by 1 every 5 levels beyond 5th.",
-      "icon": "d5e85a162b38be047a4fcc78f9e98446"
+      "name": "Incite Rage \u2014 Enemies",
+      "desc": "At 6th level, the thundercaller can induce a furious rage in all enemies within 30 feet. This effect functions as the rage {g|Encyclopedia:Spell}spell{/g} and lasts as long as the target can hear the thundercaller\u0027s performance. Unwilling creatures can be affected if they fail a {g|Encyclopedia:Saving_Throw}Will save{/g} ({g|Encyclopedia:DC}DC{/g} 10 \u002B 1/2 the thundercaller\u0027s level \u002B the thundercaller\u0027s {g|Encyclopedia:Charisma}Charisma{/g} modifier).\nSuccess renders the target immune to this power for 24 hours. The thundercaller cannot target herself with this ability.\nEach affected creature gains a \u002B2 morale {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Strength}Strength{/g} and {g|Encyclopedia:Constitution}Constitution{/g}, a \u002B1 morale bonus on Will saves, a \u20132 {g|Encyclopedia:Penalty}penalty{/g} to {g|Encyclopedia:Armor_Class}AC{/g}, and cannot cast spells.",
+      "icon": "e50a89f2ba396f44489e16b06713612f",
+      "isSelection": false
     },
     {
       "__index": 39,
-      "name": "Dance of the Dead",
-      "desc": "At 10th level, a dirge bard can use his bardic performance to cause dead bones or bodies to rise up and move or fight at his command. This ability functions like the animate dead {g|Encyclopedia:Spell}spell{/g}, but the created skeletons or zombies remain fully animate only as long as the dirge bard continues the performance. Once it stops, any created undead collapse into carrion. Unlike animate dead, dance of the dead does not have the evil descriptor.",
-      "icon": "a31a3c21d99e33f459a8b91ed61e5df1"
+      "name": "Fire Dance",
+      "desc": "At 3rd level, a fire dancer\u0027s performance can bend flames away from others. Any ally within 30 feet of the bard who can hear or see the bardic performance gains resist fire 10 as long as the performance is maintained. At 6th level, this resistance increases to 20. At 11th level, this resistance increases to 30.",
+      "icon": "a677388ce1422b84fbccd32fa27adff7",
+      "isSelection": false
     },
     {
       "__index": 40,
-      "name": "Spontaneous Summoning",
-      "desc": "A beast tamer can channel stored {g|Encyclopedia:Spell}spell{/g} energy into summoning spells that she hasn\u0027t prepared ahead of time. She can spend a prepared spell in order to cast any summon nature\u0027s ally spell of the same level or lower.",
-      "icon": "9675bc5cb7aa9a44ba670c614b9ef471"
+      "name": "Fan the Flames",
+      "desc": "At 8th level, a fire dancer adds burning hands, burning arc, and fireball to his list of bard {g|Encyclopedia:Spell}spells{/g} known (as 1st-, 2nd-, and 3rd-level spells, respectively).",
+      "icon": "5da95ed7c940cfb4aa1d6302d1ec2def",
+      "isSelection": false
     },
     {
       "__index": 41,
-      "name": "Inspire Ferocity",
-      "desc": "A 1st level beast tamer can use his performance to inspire ferocity in his summoned and pet allies (including himself), bolstering them against fear and improving their combat abilities. To be affected, an ally must be able to perceive the bard\u0027s performance. An affected ally receives a \u002B1 morale {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against charm and fear effects and a \u002B1 competence bonus on {g|Encyclopedia:Attack}attack{/g} and weapon {g|Encyclopedia:Damage}damage rolls{/g}. At 5th level, and every six bard levels thereafter, this bonus increases by \u002B1, to a maximum of \u002B4 at 17th level.",
-      "icon": "d0a4f8c927ac1b14baf16aeb18d25255"
+      "name": "Inspire Tranquility",
+      "desc": "A 1st level tranquil whisperer can use his performance to inspire tranquility in his allies (including himself), bolstering their defenses. To be affected, an ally must be able to perceive the bard\u0027s performance. An affected ally receives a \u002B1 morale {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} and suppresses the effects of all kinds of rage. At 5th level, and every six bard levels thereafter, this bonus increases by \u002B1, to a maximum of \u002B4 at 17th level.",
+      "icon": "bb546864b621ee04a91c4d4e3cab8ed9",
+      "isSelection": false
     },
     {
       "__index": 42,
-      "name": "Beast Call",
-      "desc": "Starting at 1st level, a beast tamer can cast summon nature\u0027s ally I as a {g|Encyclopedia:Special_Abilities}spell-like ability{/g} a number of times per day equal to 3 \u002B her {g|Encyclopedia:Charisma}Charisma{/g} modifier. She can cast this {g|Encyclopedia:Spell}spell{/g} as a {g|Encyclopedia:Standard_Actions}standard action{/g}, and the creatures remain for 1 minute per level (instead of 1 {g|Encyclopedia:Combat_Round}round{/g} per level). At 3rd level and every 2 bard levels thereafter, the power of this ability increases by 1 spell level, allowing her to summon more powerful creatures (to a maximum of summon nature\u0027s ally IX at 17th level). A beast tamer cannot have more than one summon spell active in this way at a time; if she uses another, any existing summon immediately ends.",
-      "icon": "972c1a8e1687dd845a6e924db801f690"
+      "name": "Saving Tranquility",
+      "desc": "At 7th level, Inspire Tranquility also grants a morale {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Saving_Throw}saving throws{/g} against mind-affecting effects equal to the {g|Encyclopedia:Armor_Class}AC{/g} bonus.",
+      "icon": "bb546864b621ee04a91c4d4e3cab8ed9",
+      "isSelection": false
     },
     {
       "__index": 43,
-      "name": "Summon Nature\u0027s Ally I",
-      "desc": "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural mite. The summoned ally appears where you designate and acts according to its {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best of its ability.",
-      "icon": "c4a8ab33d366dd74e9dd63547b8193d1"
+      "name": "Tranquil Senses",
+      "desc": "At 13th level, inspire tranquility also grants blindsense with a 10-foot range.",
+      "icon": "6fa6239f294e55249bd281da15b33892",
+      "isSelection": false
     },
     {
       "__index": 44,
-      "name": "Augment Summoning",
-      "desc": "Each creature you conjure with any summon {g|Encyclopedia:Spell}spell{/g} gains a \u002B4 enhancement {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Strength}Strength{/g} and {g|Encyclopedia:Constitution}Constitution{/g} for the duration of the spell that summoned it.",
-      "icon": "f52bcb0ecd7bde547963effd0052d15f"
+      "name": "Tranquil Apotheosis",
+      "desc": "At 20th level, tranquil whisperer\u0027s mind changes completely. He gains immunity to confusion and mind-affecting effects, and counts as an outsider.",
+      "icon": "gen__TA",
+      "isSelection": false
     },
     {
       "__index": 45,
-      "name": "Summon Nature\u0027s Ally II",
-      "desc": "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural giant frog or {g|Encyclopedia:Dice}1d3{/g} natural mites. The summoned allies appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
-      "icon": "4de4e1565eb4b9e418b1da8222c32fe9"
+      "name": "Haunted Eyes",
+      "desc": "At 2nd level, a dirge bard gains a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saves{/g} against fear, curses, {g|Encyclopedia:Injury_Death}death{/g} effects, and necromantic effects.",
+      "icon": "d5e85a162b38be047a4fcc78f9e98446",
+      "isSelection": false
     },
     {
       "__index": 46,
-      "name": "Summon Nature\u0027s Ally III",
-      "desc": "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural leopard, {g|Encyclopedia:Dice}1d3{/g} natural giant frogs, or 1d4\u002B1 natural mites. The summoned allies appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
-      "icon": "fbaf42ee1c1548442a8d0ff6dcaf8b22"
+      "name": "Secrets of the Grave",
+      "desc": "At 2nd level, a dirge bard gains a {g|Encyclopedia:Bonus}bonus{/g} equal to half his bard level on {g|Encyclopedia:Lore_Religion}Lore (religion){/g} {g|Encyclopedia:Check}checks{/g}. A dirge bard may use mind-affecting {g|Encyclopedia:Spell}spells{/g} to affect undead as if they were living creatures, undead creatures are treated as humanoids for the purposes of determining which spells affect them. In addition, he adds the following necromantic spells to his list of spells known: cause fear at 2nd level; command undead at 6th level; fear at 10th level; waves of fatigue at 14th level; banshee blast at 18th level.",
+      "icon": "d5e85a162b38be047a4fcc78f9e98446",
+      "isSelection": false
     },
     {
       "__index": 47,
-      "name": "Summon Nature\u0027s Ally IV",
-      "desc": "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural dire boar, {g|Encyclopedia:Dice}1d3{/g} natural leopards, or 1d4\u002B1 natural giant frogs. The summoned allies appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
-      "icon": "774c1a002d5d03046b9fcf004c2f9309"
+      "name": "Haunting Refrain",
+      "desc": "At 5th level, a dirge bard is able to stir primal terrors in the hearts of listeners. He gains a {g|Encyclopedia:Bonus}bonus{/g} on Intimidate {g|Encyclopedia:Check}checks{/g} equal to half his level. In addition, he gains a \u002B2 bonus to {g|Encyclopedia:DC}DC{/g} on {g|Encyclopedia:Spell}spells{/g} with fear effect, and this bonus increases by 1 every 5 levels beyond 5th.",
+      "icon": "d5e85a162b38be047a4fcc78f9e98446",
+      "isSelection": false
     },
     {
       "__index": 48,
-      "name": "Summon Nature\u0027s Ally V",
-      "desc": "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural manticore, {g|Encyclopedia:Dice}1d3{/g} natural dire boars, or 1d4\u002B1 natural leopards. The summoned allies appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
-      "icon": "2c0315de04c98744b81d8b6bbef4f241"
+      "name": "Dance of the Dead",
+      "desc": "At 10th level, a dirge bard can use his bardic performance to cause dead bones or bodies to rise up and move or fight at his command. This ability functions like the animate dead {g|Encyclopedia:Spell}spell{/g}, but the created skeletons or zombies remain fully animate only as long as the dirge bard continues the performance. Once it stops, any created undead collapse into carrion. Unlike animate dead, dance of the dead does not have the evil descriptor.",
+      "icon": "a31a3c21d99e33f459a8b91ed61e5df1",
+      "isSelection": false
     },
     {
       "__index": 49,
-      "name": "Inspire Ferocity",
-      "desc": "At 10th level inspire ferocity grants all affected allies the effect of the magic fang {g|Encyclopedia:Spell}spell{/g}. In addition, all {g|Encyclopedia:NaturalAttack}natural attacks{/g} count as if they were silver and cold iron.",
-      "icon": "d0a4f8c927ac1b14baf16aeb18d25255"
+      "name": "Spontaneous Summoning",
+      "desc": "A beast tamer can channel stored {g|Encyclopedia:Spell}spell{/g} energy into summoning spells that she hasn\u0027t prepared ahead of time. She can spend a prepared spell in order to cast any summon nature\u0027s ally spell of the same level or lower.",
+      "icon": "9675bc5cb7aa9a44ba670c614b9ef471",
+      "isSelection": false
     },
     {
       "__index": 50,
-      "name": "Summon Nature\u0027s Ally VI",
-      "desc": "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural smilodon, {g|Encyclopedia:Dice}1d3{/g} natural manticores, or 1d4\u002B1 natural dire boars. The summoned allies appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
-      "icon": "2c0315de04c98744b81d8b6bbef4f241"
+      "name": "Inspire Ferocity",
+      "desc": "A 1st level beast tamer can use his performance to inspire ferocity in his summoned and pet allies (including himself), bolstering them against fear and improving their combat abilities. To be affected, an ally must be able to perceive the bard\u0027s performance. An affected ally receives a \u002B1 morale {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against charm and fear effects and a \u002B1 competence bonus on {g|Encyclopedia:Attack}attack{/g} and weapon {g|Encyclopedia:Damage}damage rolls{/g}. At 5th level, and every six bard levels thereafter, this bonus increases by \u002B1, to a maximum of \u002B4 at 17th level.",
+      "icon": "d0a4f8c927ac1b14baf16aeb18d25255",
+      "isSelection": false
     },
     {
       "__index": 51,
-      "name": "Summon Nature\u0027s Ally VII",
-      "desc": "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural mastodon, {g|Encyclopedia:Dice}1d3{/g} natural smilodons, or 1d4\u002B1 natural manticores. The summoned allies appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
-      "icon": "2c0315de04c98744b81d8b6bbef4f241"
+      "name": "Beast Call",
+      "desc": "Starting at 1st level, a beast tamer can cast summon nature\u0027s ally I as a {g|Encyclopedia:Special_Abilities}spell-like ability{/g} a number of times per day equal to 3 \u002B her {g|Encyclopedia:Charisma}Charisma{/g} modifier. She can cast this {g|Encyclopedia:Spell}spell{/g} as a {g|Encyclopedia:Standard_Actions}standard action{/g}, and the creatures remain for 1 minute per level (instead of 1 {g|Encyclopedia:Combat_Round}round{/g} per level). At 3rd level and every 2 bard levels thereafter, the power of this ability increases by 1 spell level, allowing her to summon more powerful creatures (to a maximum of summon nature\u0027s ally IX at 17th level). A beast tamer cannot have more than one summon spell active in this way at a time; if she uses another, any existing summon immediately ends.",
+      "icon": "972c1a8e1687dd845a6e924db801f690",
+      "isSelection": false
     },
     {
       "__index": 52,
-      "name": "Inspire Ferocity",
-      "desc": "At 14th level inspire ferocity makes all {g|Encyclopedia:NaturalAttack}natural attacks{/g} by affected allies count as if they were adamantine.",
-      "icon": "d0a4f8c927ac1b14baf16aeb18d25255"
+      "name": "Augment Summoning",
+      "desc": "Each creature you conjure with any summon {g|Encyclopedia:Spell}spell{/g} gains a \u002B4 enhancement {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Strength}Strength{/g} and {g|Encyclopedia:Constitution}Constitution{/g} for the duration of the spell that summoned it.",
+      "icon": "f52bcb0ecd7bde547963effd0052d15f",
+      "isSelection": false
     },
     {
       "__index": 53,
-      "name": "Summon Nature\u0027s Ally VIII",
-      "desc": "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural nereid, {g|Encyclopedia:Dice}1d3{/g} natural mastodons, or 1d4\u002B1 natural smilodons. The summoned allies appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
-      "icon": "2c0315de04c98744b81d8b6bbef4f241"
+      "name": "Inspire Ferocity",
+      "desc": "At 10th level inspire ferocity grants all affected allies the effect of the magic fang {g|Encyclopedia:Spell}spell{/g}. In addition, all {g|Encyclopedia:NaturalAttack}natural attacks{/g} count as if they were silver and cold iron.",
+      "icon": "d0a4f8c927ac1b14baf16aeb18d25255",
+      "isSelection": false
     },
     {
       "__index": 54,
-      "name": "Summon Nature\u0027s Ally IX",
-      "desc": "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural hamadryad, {g|Encyclopedia:Dice}1d3{/g} natural nereids, or 1d4\u002B1 natural mastodons. The summoned allies appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
-      "icon": "afbd622c795172041be9a151295671ea"
+      "name": "Inspire Ferocity",
+      "desc": "At 14th level inspire ferocity makes all {g|Encyclopedia:NaturalAttack}natural attacks{/g} by affected allies count as if they were adamantine.",
+      "icon": "d0a4f8c927ac1b14baf16aeb18d25255",
+      "isSelection": false
     },
     {
       "__index": 55,
       "name": "Inspire Ferocity",
       "desc": "At 18th level inspire ferocity grants all affected allies the effect of the greater magic fang {g|Encyclopedia:Spell}spell{/g}.",
-      "icon": "d0a4f8c927ac1b14baf16aeb18d25255"
+      "icon": "d0a4f8c927ac1b14baf16aeb18d25255",
+      "isSelection": false
     }
   ],
   "name": "Bard",
   "desc": "Bards capably confuse and confound their foes while inspiring their allies to ever-greater daring. While accomplished with both weapons and magic, the true strength of bards lies outside melee, where they can support their companions and undermine their foes without fear of interruptions to their performances.",
   "layout": [
-    [
-      {
-        "level": 1,
-        "feature": 0,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 5,
-        "feature": 7,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 1,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 2,
-        "rank": 1,
-        "archType": 0
-      },
-      {
-        "level": 5,
-        "feature": 2,
-        "rank": 2,
-        "archType": 0
-      },
-      {
-        "level": 11,
-        "feature": 2,
-        "rank": 3,
-        "archType": 0
-      },
-      {
-        "level": 17,
-        "feature": 2,
-        "rank": 4,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 3,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 3,
-        "feature": 6,
-        "rank": 1,
-        "archType": 0
-      },
-      {
-        "level": 7,
-        "feature": 6,
-        "rank": 2,
-        "archType": 0
-      },
-      {
-        "level": 10,
-        "feature": 12,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 11,
-        "feature": 6,
-        "rank": 3,
-        "archType": 0
-      },
-      {
-        "level": 15,
-        "feature": 6,
-        "rank": 4,
-        "archType": 0
-      },
-      {
-        "level": 19,
-        "feature": 6,
-        "rank": 5,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 2,
-        "feature": 4,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 6,
-        "feature": 4,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 10,
-        "feature": 4,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 14,
-        "feature": 4,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 18,
-        "feature": 4,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 2,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 9,
-        "feature": 11,
-        "rank": 1,
-        "archType": 0
-      },
-      {
-        "level": 12,
-        "feature": 13,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 15,
-        "feature": 16,
-        "rank": 1,
-        "archType": 0
-      }
-    ],
-    [],
-    [
-      {
-        "level": 6,
-        "feature": 8,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 8,
-        "feature": 10,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 14,
-        "feature": 15,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 20,
-        "feature": 17,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 7,
-        "feature": 9,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 13,
-        "feature": 14,
-        "rank": -1,
-        "archType": 0
-      }
-    ]
+    {
+      "name": null,
+      "rows": [
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 1,
+              "feature": 2,
+              "rank": 1,
+              "archType": 0
+            },
+            {
+              "level": 5,
+              "feature": 2,
+              "rank": 2,
+              "archType": 0
+            },
+            {
+              "level": 11,
+              "feature": 2,
+              "rank": 3,
+              "archType": 0
+            },
+            {
+              "level": 17,
+              "feature": 2,
+              "rank": 4,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 0,
+              "feature": 0,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 1,
+              "feature": 3,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 3,
+              "feature": 6,
+              "rank": 1,
+              "archType": 0
+            },
+            {
+              "level": 7,
+              "feature": 6,
+              "rank": 2,
+              "archType": 0
+            },
+            {
+              "level": 10,
+              "feature": 12,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 11,
+              "feature": 6,
+              "rank": 3,
+              "archType": 0
+            },
+            {
+              "level": 15,
+              "feature": 6,
+              "rank": 4,
+              "archType": 0
+            },
+            {
+              "level": 19,
+              "feature": 6,
+              "rank": 5,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 0,
+              "feature": 1,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 2,
+              "feature": 4,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 6,
+              "feature": 4,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 10,
+              "feature": 4,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 14,
+              "feature": 4,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 18,
+              "feature": 4,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 2,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 9,
+              "feature": 11,
+              "rank": 1,
+              "archType": 0
+            },
+            {
+              "level": 12,
+              "feature": 13,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 15,
+              "feature": 16,
+              "rank": 1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 5,
+              "feature": 7,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 6,
+              "feature": 8,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 8,
+              "feature": 10,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 14,
+              "feature": 15,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 20,
+              "feature": 17,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 7,
+              "feature": 9,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 13,
+              "feature": 14,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        }
+      ]
+    }
   ],
   "bab": [
     0,
@@ -918,296 +1015,333 @@
       "desc": "No stodgy researcher, this archaeologist meets his research head-on in the field. Archaeologists sacrifice the bard\u0027s inspirational performance for a smattering of rogue talents.",
       "id": "38384e0c1e99c2e42ac6ed70a04aca46",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 19,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 5,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 20,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 24,
-            "rank": 1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 21,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 6,
-            "feature": 22,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": 1,
-            "archType": -1
-          },
-          {
-            "level": 5,
-            "feature": 2,
-            "rank": 2,
-            "archType": -1
-          },
-          {
-            "level": 11,
-            "feature": 2,
-            "rank": 3,
-            "archType": -1
-          },
-          {
-            "level": 17,
-            "feature": 2,
-            "rank": 4,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 6,
-            "rank": 1,
-            "archType": -1
-          },
-          {
-            "level": 7,
-            "feature": 6,
-            "rank": 2,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 12,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 11,
-            "feature": 6,
-            "rank": 3,
-            "archType": -1
-          },
-          {
-            "level": 15,
-            "feature": 6,
-            "rank": 4,
-            "archType": -1
-          },
-          {
-            "level": 19,
-            "feature": 6,
-            "rank": 5,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 9,
-            "feature": 11,
-            "rank": 1,
-            "archType": -1
-          },
-          {
-            "level": 12,
-            "feature": 13,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 15,
-            "feature": 16,
-            "rank": 1,
-            "archType": -1
-          }
-        ],
-        [],
-        [
-          {
-            "level": 6,
-            "feature": 8,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 8,
-            "feature": 10,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 14,
-            "feature": 15,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 20,
-            "feature": 17,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 7,
-            "feature": 9,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 13,
-            "feature": 14,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 18,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 5,
-            "feature": 18,
-            "rank": 2,
-            "archType": 1
-          },
-          {
-            "level": 11,
-            "feature": 18,
-            "rank": 3,
-            "archType": 1
-          },
-          {
-            "level": 17,
-            "feature": 18,
-            "rank": 4,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 3,
-            "feature": 23,
-            "rank": 2,
-            "archType": 1
-          },
-          {
-            "level": 6,
-            "feature": 23,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 9,
-            "feature": 23,
-            "rank": 2,
-            "archType": 1
-          },
-          {
-            "level": 12,
-            "feature": 23,
-            "rank": 3,
-            "archType": 1
-          },
-          {
-            "level": 15,
-            "feature": 23,
-            "rank": 4,
-            "archType": 1
-          },
-          {
-            "level": 18,
-            "feature": 23,
-            "rank": 5,
-            "archType": 1
-          }
-        ],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 33,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 5,
+                  "feature": 33,
+                  "rank": 2,
+                  "archType": 1
+                },
+                {
+                  "level": 11,
+                  "feature": 33,
+                  "rank": 3,
+                  "archType": 1
+                },
+                {
+                  "level": 17,
+                  "feature": 33,
+                  "rank": 4,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 20,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 21,
+                  "rank": 1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 34,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 5,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 36,
+                  "rank": 1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 3,
+                  "feature": 6,
+                  "rank": 1,
+                  "archType": -1
+                },
+                {
+                  "level": 6,
+                  "feature": 19,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 7,
+                  "feature": 6,
+                  "rank": 2,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 11,
+                  "feature": 6,
+                  "rank": 3,
+                  "archType": -1
+                },
+                {
+                  "level": 15,
+                  "feature": 6,
+                  "rank": 4,
+                  "archType": -1
+                },
+                {
+                  "level": 19,
+                  "feature": 6,
+                  "rank": 5,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 3,
+                  "feature": 35,
+                  "rank": 2,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 35,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 9,
+                  "feature": 35,
+                  "rank": 2,
+                  "archType": 1
+                },
+                {
+                  "level": 12,
+                  "feature": 35,
+                  "rank": 3,
+                  "archType": 1
+                },
+                {
+                  "level": 15,
+                  "feature": 35,
+                  "rank": 4,
+                  "archType": 1
+                },
+                {
+                  "level": 18,
+                  "feature": 35,
+                  "rank": 5,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": 1,
+                  "archType": -1
+                },
+                {
+                  "level": 5,
+                  "feature": 2,
+                  "rank": 2,
+                  "archType": -1
+                },
+                {
+                  "level": 11,
+                  "feature": 2,
+                  "rank": 3,
+                  "archType": -1
+                },
+                {
+                  "level": 17,
+                  "feature": 2,
+                  "rank": 4,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 9,
+                  "feature": 11,
+                  "rank": 1,
+                  "archType": -1
+                },
+                {
+                  "level": 12,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 15,
+                  "feature": 16,
+                  "rank": 1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 6,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 8,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 14,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 20,
+                  "feature": 17,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 7,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 13,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1229,258 +1363,292 @@
       "desc": "Among mystical leaders are those who speak for the spirits of the land, who bear the knowledge of the ancients, and whose voices ring like thunder, calling the sky\u0027s wrath down upon their enemies.",
       "id": "3c67fb6458752a1419fb8cd4efaf8eaa",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 27,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 8,
-            "feature": 28,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 14,
-            "feature": 29,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 2,
-            "rank": 2,
-            "archType": 0
-          },
-          {
-            "level": 11,
-            "feature": 2,
-            "rank": 3,
-            "archType": 0
-          },
-          {
-            "level": 17,
-            "feature": 2,
-            "rank": 4,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 3,
-            "feature": 6,
-            "rank": 1,
-            "archType": -1
-          },
-          {
-            "level": 7,
-            "feature": 6,
-            "rank": 2,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 12,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 11,
-            "feature": 6,
-            "rank": 3,
-            "archType": -1
-          },
-          {
-            "level": 15,
-            "feature": 6,
-            "rank": 4,
-            "archType": -1
-          },
-          {
-            "level": 19,
-            "feature": 6,
-            "rank": 5,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 9,
-            "feature": 11,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 13,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 16,
-            "rank": 1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 6,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 10,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 14,
-            "feature": 15,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 20,
-            "feature": 17,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 7,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 14,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 25,
-            "rank": 1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 3,
-            "feature": 26,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 7,
-            "feature": 26,
-            "rank": 2,
-            "archType": 1
-          },
-          {
-            "level": 11,
-            "feature": 26,
-            "rank": 3,
-            "archType": 1
-          },
-          {
-            "level": 15,
-            "feature": 26,
-            "rank": 4,
-            "archType": 1
-          },
-          {
-            "level": 19,
-            "feature": 26,
-            "rank": 5,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 18,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 3,
+                  "feature": 6,
+                  "rank": 1,
+                  "archType": -1
+                },
+                {
+                  "level": 7,
+                  "feature": 6,
+                  "rank": 2,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 11,
+                  "feature": 6,
+                  "rank": 3,
+                  "archType": -1
+                },
+                {
+                  "level": 15,
+                  "feature": 6,
+                  "rank": 4,
+                  "archType": -1
+                },
+                {
+                  "level": 19,
+                  "feature": 6,
+                  "rank": 5,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 3,
+                  "feature": 37,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 7,
+                  "feature": 37,
+                  "rank": 2,
+                  "archType": 1
+                },
+                {
+                  "level": 11,
+                  "feature": 37,
+                  "rank": 3,
+                  "archType": 1
+                },
+                {
+                  "level": 15,
+                  "feature": 37,
+                  "rank": 4,
+                  "archType": 1
+                },
+                {
+                  "level": 19,
+                  "feature": 37,
+                  "rank": 5,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 5,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 38,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 8,
+                  "feature": 22,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 14,
+                  "feature": 23,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 5,
+                  "feature": 2,
+                  "rank": 2,
+                  "archType": 0
+                },
+                {
+                  "level": 11,
+                  "feature": 2,
+                  "rank": 3,
+                  "archType": 0
+                },
+                {
+                  "level": 17,
+                  "feature": 2,
+                  "rank": 4,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 9,
+                  "feature": 11,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 16,
+                  "rank": 1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 6,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 14,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 20,
+                  "feature": 17,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 7,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1502,224 +1670,253 @@
       "desc": "A flame dancer studies the movements of fire, adding its grace to his repertoire. He seeks truth in fire\u0027s burning essence, and uses his performance to unleash the power of fire against those who dare oppose him.",
       "id": "e7914f2adcdb8fc46af5b65d1e06c539",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 31,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 2,
-            "rank": 2,
-            "archType": 0
-          },
-          {
-            "level": 11,
-            "feature": 2,
-            "rank": 3,
-            "archType": 0
-          },
-          {
-            "level": 17,
-            "feature": 2,
-            "rank": 4,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 6,
-            "rank": 1,
-            "archType": -1
-          },
-          {
-            "level": 7,
-            "feature": 6,
-            "rank": 2,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 12,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 11,
-            "feature": 6,
-            "rank": 3,
-            "archType": -1
-          },
-          {
-            "level": 15,
-            "feature": 6,
-            "rank": 4,
-            "archType": -1
-          },
-          {
-            "level": 19,
-            "feature": 6,
-            "rank": 5,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 9,
-            "feature": 11,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 13,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 16,
-            "rank": 1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 6,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 10,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 14,
-            "feature": 15,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 20,
-            "feature": 17,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 7,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 14,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 3,
-            "feature": 30,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 6,
-            "feature": 30,
-            "rank": 2,
-            "archType": 1
-          },
-          {
-            "level": 11,
-            "feature": 30,
-            "rank": 3,
-            "archType": 1
-          }
-        ],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 39,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 39,
+                  "rank": 2,
+                  "archType": 1
+                },
+                {
+                  "level": 11,
+                  "feature": 39,
+                  "rank": 3,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 5,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 40,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 5,
+                  "feature": 2,
+                  "rank": 2,
+                  "archType": 0
+                },
+                {
+                  "level": 11,
+                  "feature": 2,
+                  "rank": 3,
+                  "archType": 0
+                },
+                {
+                  "level": 17,
+                  "feature": 2,
+                  "rank": 4,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 3,
+                  "feature": 6,
+                  "rank": 1,
+                  "archType": -1
+                },
+                {
+                  "level": 7,
+                  "feature": 6,
+                  "rank": 2,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 11,
+                  "feature": 6,
+                  "rank": 3,
+                  "archType": -1
+                },
+                {
+                  "level": 15,
+                  "feature": 6,
+                  "rank": 4,
+                  "archType": -1
+                },
+                {
+                  "level": 19,
+                  "feature": 6,
+                  "rank": 5,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 9,
+                  "feature": 11,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 16,
+                  "rank": 1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 6,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 14,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 20,
+                  "feature": 17,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 7,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1741,244 +1938,279 @@
       "desc": "Some bards use their upbeat music to fire up their allies, but tranquil whisperers do the opposite: they play their soothing compositions to alleviate any emotional pressure on their comrades and improve their {g|Encyclopedia:Concentration}concentration{/g}.",
       "id": "bed077eaa12834b4495cf481ee721810",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 33,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 13,
-            "feature": 34,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 35,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": 1,
-            "archType": -1
-          },
-          {
-            "level": 5,
-            "feature": 2,
-            "rank": 2,
-            "archType": -1
-          },
-          {
-            "level": 11,
-            "feature": 2,
-            "rank": 3,
-            "archType": 0
-          },
-          {
-            "level": 17,
-            "feature": 2,
-            "rank": 4,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 6,
-            "rank": 1,
-            "archType": -1
-          },
-          {
-            "level": 7,
-            "feature": 6,
-            "rank": 2,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 12,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 11,
-            "feature": 6,
-            "rank": 3,
-            "archType": -1
-          },
-          {
-            "level": 15,
-            "feature": 6,
-            "rank": 4,
-            "archType": -1
-          },
-          {
-            "level": 19,
-            "feature": 6,
-            "rank": 5,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 9,
-            "feature": 11,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 13,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 16,
-            "rank": 1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 6,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 10,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 15,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 17,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 7,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 14,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 32,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 5,
-            "feature": 32,
-            "rank": 2,
-            "archType": 1
-          },
-          {
-            "level": 11,
-            "feature": 32,
-            "rank": 3,
-            "archType": 1
-          },
-          {
-            "level": 17,
-            "feature": 32,
-            "rank": 4,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 41,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 5,
+                  "feature": 41,
+                  "rank": 2,
+                  "archType": 1
+                },
+                {
+                  "level": 11,
+                  "feature": 41,
+                  "rank": 3,
+                  "archType": 1
+                },
+                {
+                  "level": 17,
+                  "feature": 41,
+                  "rank": 4,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 5,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 42,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 13,
+                  "feature": 43,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 44,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": 1,
+                  "archType": -1
+                },
+                {
+                  "level": 5,
+                  "feature": 2,
+                  "rank": 2,
+                  "archType": -1
+                },
+                {
+                  "level": 11,
+                  "feature": 2,
+                  "rank": 3,
+                  "archType": -1
+                },
+                {
+                  "level": 17,
+                  "feature": 2,
+                  "rank": 4,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 3,
+                  "feature": 6,
+                  "rank": 1,
+                  "archType": -1
+                },
+                {
+                  "level": 7,
+                  "feature": 6,
+                  "rank": 2,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 11,
+                  "feature": 6,
+                  "rank": 3,
+                  "archType": -1
+                },
+                {
+                  "level": 15,
+                  "feature": 6,
+                  "rank": 4,
+                  "archType": -1
+                },
+                {
+                  "level": 19,
+                  "feature": 6,
+                  "rank": 5,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 9,
+                  "feature": 11,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 16,
+                  "rank": 1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 6,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 17,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 7,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -2000,225 +2232,261 @@
       "desc": "A composer of sonorous laments for the dead and elaborate requiems for those lost yet long remembered, dirge bards master musical tools and tropes that must appeal to the ears and hearts of both the living and the dead.",
       "id": "f128f6cd9c140284caa244da069f250c",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 36,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 5,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 39,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 37,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 5,
-            "feature": 38,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 2,
-            "rank": 2,
-            "archType": 0
-          },
-          {
-            "level": 11,
-            "feature": 2,
-            "rank": 3,
-            "archType": 0
-          },
-          {
-            "level": 17,
-            "feature": 2,
-            "rank": 4,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 6,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 6,
-            "rank": 2,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 12,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 11,
-            "feature": 6,
-            "rank": 3,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 6,
-            "rank": 4,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 6,
-            "rank": 5,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 9,
-            "feature": 11,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 13,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 16,
-            "rank": 1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 6,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 10,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 15,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 17,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 7,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 14,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 45,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 5,
+                  "feature": 47,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 10,
+                  "feature": 48,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 46,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 5,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 5,
+                  "feature": 2,
+                  "rank": 2,
+                  "archType": 0
+                },
+                {
+                  "level": 11,
+                  "feature": 2,
+                  "rank": 3,
+                  "archType": 0
+                },
+                {
+                  "level": 17,
+                  "feature": 2,
+                  "rank": 4,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 3,
+                  "feature": 6,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 6,
+                  "rank": 2,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 11,
+                  "feature": 6,
+                  "rank": 3,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 6,
+                  "rank": 4,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 6,
+                  "rank": 5,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 9,
+                  "feature": 11,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 16,
+                  "rank": 1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 6,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 17,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 7,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -2240,331 +2508,369 @@
       "desc": "Bards originate from a variety of backgrounds, including former shepherds, street charmers, and such. Those who find animals a more appreciative audience than humans are usually become known as beast tamers. Such bards can greatly enhance the abilities of their beastly allies through inspiring performances.",
       "id": "912b0495d9485124bb2c0e4aa6ac2efd",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 44,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 3,
-            "feature": 45,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 5,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 47,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 9,
-            "feature": 48,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 49,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 11,
-            "feature": 50,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 13,
-            "feature": 51,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 14,
-            "feature": 52,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 15,
-            "feature": 53,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 17,
-            "feature": 54,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 18,
-            "feature": 55,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 46,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": 1,
-            "archType": -1
-          },
-          {
-            "level": 5,
-            "feature": 2,
-            "rank": 2,
-            "archType": -1
-          },
-          {
-            "level": 11,
-            "feature": 2,
-            "rank": 3,
-            "archType": -1
-          },
-          {
-            "level": 17,
-            "feature": 2,
-            "rank": 4,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 6,
-            "rank": 1,
-            "archType": -1
-          },
-          {
-            "level": 7,
-            "feature": 6,
-            "rank": 2,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 12,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 11,
-            "feature": 6,
-            "rank": 3,
-            "archType": -1
-          },
-          {
-            "level": 15,
-            "feature": 6,
-            "rank": 4,
-            "archType": -1
-          },
-          {
-            "level": 19,
-            "feature": 6,
-            "rank": 5,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 4,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 6,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 4,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 14,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 9,
-            "feature": 11,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 13,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 16,
-            "rank": 1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 6,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 10,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 14,
-            "feature": 15,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 20,
-            "feature": 17,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 7,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 14,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 40,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 41,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 5,
-            "feature": 41,
-            "rank": 2,
-            "archType": 1
-          },
-          {
-            "level": 11,
-            "feature": 41,
-            "rank": 3,
-            "archType": 1
-          },
-          {
-            "level": 17,
-            "feature": 41,
-            "rank": 4,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 42,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 43,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 49,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 2,
+                  "feature": 52,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 5,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 53,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 14,
+                  "feature": 54,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 18,
+                  "feature": 55,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 50,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 5,
+                  "feature": 50,
+                  "rank": 2,
+                  "archType": 1
+                },
+                {
+                  "level": 11,
+                  "feature": 50,
+                  "rank": 3,
+                  "archType": 1
+                },
+                {
+                  "level": 17,
+                  "feature": 50,
+                  "rank": 4,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 51,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 24,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 3,
+                  "feature": 25,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 5,
+                  "feature": 26,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 7,
+                  "feature": 27,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 9,
+                  "feature": 28,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 11,
+                  "feature": 29,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 13,
+                  "feature": 30,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 15,
+                  "feature": 31,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 17,
+                  "feature": 32,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": 1,
+                  "archType": -1
+                },
+                {
+                  "level": 5,
+                  "feature": 2,
+                  "rank": 2,
+                  "archType": -1
+                },
+                {
+                  "level": 11,
+                  "feature": 2,
+                  "rank": 3,
+                  "archType": -1
+                },
+                {
+                  "level": 17,
+                  "feature": 2,
+                  "rank": 4,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 3,
+                  "feature": 6,
+                  "rank": 1,
+                  "archType": -1
+                },
+                {
+                  "level": 7,
+                  "feature": 6,
+                  "rank": 2,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 11,
+                  "feature": 6,
+                  "rank": 3,
+                  "archType": -1
+                },
+                {
+                  "level": 15,
+                  "feature": 6,
+                  "rank": 4,
+                  "archType": -1
+                },
+                {
+                  "level": 19,
+                  "feature": 6,
+                  "rank": 5,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 6,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 14,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 9,
+                  "feature": 11,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 16,
+                  "rank": 1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 6,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 14,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 20,
+                  "feature": 17,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 7,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,

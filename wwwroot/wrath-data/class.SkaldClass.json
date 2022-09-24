@@ -1,477 +1,590 @@
 {
   "__ui-groups": [
-    [],
-    []
+    [
+      18,
+      19,
+      20
+    ],
+    [
+      21,
+      22,
+      23,
+      24
+    ]
   ],
   "features": [
     {
       "__index": 0,
       "name": "Bardic Knowledge",
       "desc": "A skald adds 1/2 his {g|Encyclopedia:Class_Level}class level{/g} (minimum 1) on all Knowledge and Lore {g|Encyclopedia:Skills}skill checks{/g}.",
-      "icon": "97e8e68d46f4b6540a262536bf5acf1e"
+      "icon": "97e8e68d46f4b6540a262536bf5acf1e",
+      "isSelection": false
     },
     {
       "__index": 1,
       "name": "Weapon and Armor Proficiency",
       "desc": "A skald is proficient with all simple and {g|Encyclopedia:Weapon_Proficiency}martial weapons{/g}, light and medium armor, and shields (except tower shields). A skald can cast skald {g|Encyclopedia:Spell}spells{/g} while wearing light or medium armor and even using a shield without incurring the normal {g|Encyclopedia:Spell_Fail_Chance}arcane spell failure chance{/g}. This does not affect the arcane spell failure chance for arcane spells received from other classes. Like other arcane spellcasters, a skald wearing heavy armor incurs a chance of arcane spell failure if the spell in question has somatic components.",
-      "icon": "gen__WAP"
+      "icon": "gen__WAP",
+      "isSelection": false
     },
     {
       "__index": 2,
       "name": "Inspired Rage",
       "desc": "At 1st level, affected allies gain a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:MeleeAttack}melee attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} and a \u002B1 bonus on Will {g|Encyclopedia:Saving_Throw}saving throws{/g}, but also take a \u20131 {g|Encyclopedia:Penalty}penalty{/g} to {g|Encyclopedia:Armor_Class}AC{/g}. While under the effects of inspired rage, allies other than the skald cannot use any ability that requires patience or {g|Encyclopedia:Concentration}concentration{/g}. At 4th level and every 4 levels thereafter, the song\u0027s bonuses on Will saves increase by 1; the penalty to AC doesn\u0027t change. At 8th and 16th levels, the song\u0027s bonuses to {g|Encyclopedia:Attack}attack{/g} and damage increase by 1. (Unlike the barbarian\u0027s rage ability, those affected are not fatigued after the song ends.)",
-      "icon": "gen__IR"
+      "icon": "gen__IR",
+      "isSelection": false
     },
     {
       "__index": 3,
       "name": "Bonus Feat",
       "desc": "At 1st level, skald gets a bonus {g|Encyclopedia:Feat}feat{/g} from the list.",
-      "icon": "gen__BF"
+      "icon": "gen__BF",
+      "isSelection": true
     },
     {
       "__index": 4,
       "name": "Scribe scrolls",
       "desc": "Allows you to craft scrolls during camping.",
-      "icon": "gen__S"
+      "icon": "gen__S",
+      "isSelection": false
     },
     {
       "__index": 5,
       "name": "Skald Talent",
       "desc": "As a skald gains {g|Encyclopedia:XP}experience{/g}, he learns a number of talents that aid him and confound his foes. At 2nd level, a skald gains a rogue talent, as the rogue class feature of the same name. At 7th level and every 5 levels thereafter, the skald gains an additional rogue talent. A skald cannot select a rogue talent that modifies the sneak {g|Encyclopedia:Attack}attack{/g} ability.",
-      "icon": "gen__ST"
+      "icon": "gen__ST",
+      "isSelection": true
     },
     {
       "__index": 6,
       "name": "Well-Versed",
       "desc": "At 2nd level, the skald becomes resistant to sonic effects. The skald gains a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} made against bardic performance, as well as all sonic effects.",
-      "icon": "gen__WV"
+      "icon": "gen__WV",
+      "isSelection": false
     },
     {
       "__index": 7,
       "name": "Rage Powers",
       "desc": "At 3rd level and every 3 levels thereafter, a skald learns a rage power that affects the skald and any allies under the influence of his inspired rage.\nIf a rage power requires another rage power (such as disruptive, which requires superstition), the skald cannot grant that rage power to allies unless he can also grant that power\u0027s prerequisite. He may add multiple rage powers to an inspired rage at the same time using this ability (such as granting superstition and disruptive simultaneously).\nIf a rage power can only be used a certain number of times per day or per rage (such as renewed vigor), each ally affected by the inspired rage song is subject to that limit (with once per rage abilities limited to once per inspired rage).\nIf the skald has rage powers from another source, he can use those rage powers during an inspired rage.\nIf the skald has the ability to rage from another source, he can use his skald rage powers during that rage as well.",
-      "icon": "gen__RP"
+      "icon": "gen__RP",
+      "isSelection": true
     },
     {
       "__index": 8,
       "name": "Uncanny Dodge",
       "desc": "The character can react to danger before her senses would normally allow her to do so. She cannot be caught {g|Encyclopedia:Flat_Footed}flat-footed{/g}, nor does she lose her {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} if the {g|Encyclopedia:Attack}attacker{/g} is invisible. She still loses her Dexterity bonus to AC if immobilized. A character with this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the feint {g|Encyclopedia:CA_Types}action{/g} against her.\nIf a character already has uncanny dodge from a different class, she automatically gains improved uncanny dodge instead.",
-      "icon": "f549aced0cfe8a7469985214a71d9503"
+      "icon": "f549aced0cfe8a7469985214a71d9503",
+      "isSelection": false
     },
     {
       "__index": 9,
       "name": "Song of Strength",
       "desc": "At 6th level, a skald can use raging song to inspire his allies to superhuman {g|Encyclopedia:Feat}feats{/g} of {g|Encyclopedia:Strength}strength{/g}. While the skald uses this performance, allies within 50 feet who can hear the skald may add 1/2 the skald\u0027s level to all Strength-based {g|Encyclopedia:Skills}skill checks{/g}.",
-      "icon": "5cf60420ab4e00943bf22e51a615be9d"
+      "icon": "5cf60420ab4e00943bf22e51a615be9d",
+      "isSelection": false
     },
     {
       "__index": 10,
       "name": "Lore Master",
       "desc": "At 7th level, the skald becomes a master of many different types of lore, and can choose to take 10 on any Knowledge {g|Encyclopedia:Skills}skill check{/g} that he has ranks in.",
-      "icon": "4ea9589bae6982447bfd5ce5b9cb1b3a"
+      "icon": "4ea9589bae6982447bfd5ce5b9cb1b3a",
+      "isSelection": false
     },
     {
       "__index": 11,
       "name": "Raging Song (Move Action)",
       "desc": "At 7th level, a skald can start a raging song as a {g|Encyclopedia:Move_Action}move action{/g} instead of a {g|Encyclopedia:Standard_Actions}standard action{/g}.",
-      "icon": "10ef9d0fc57354943adb2c1dbc78062f"
+      "icon": "10ef9d0fc57354943adb2c1dbc78062f",
+      "isSelection": false
     },
     {
       "__index": 12,
       "name": "Improved Uncanny Dodge",
       "desc": "The character can no longer be {g|Encyclopedia:Flanking}flanked{/g}.\nThis defense denies another rogue the ability to sneak {g|Encyclopedia:Attack}attack{/g} the character by flanking her, unless the attacker has at least four more rogue levels than the target does.",
-      "icon": "f549aced0cfe8a7469985214a71d9503"
+      "icon": "f549aced0cfe8a7469985214a71d9503",
+      "isSelection": false
     },
     {
       "__index": 13,
       "name": "Damage Reduction",
       "desc": "At 9th level, a skald gains {g|Encyclopedia:Damage_Reduction}damage reduction{/g}. Subtract 1 from the {g|Encyclopedia:Damage}damage{/g} the skald takes each time he is dealt damage from a weapon or a {g|Encyclopedia:NaturalAttack}natural attack{/g}. At 14th and 19th levels, this damage reduction increases by 1. Damage Reduction can reduce damage to 0, but not below 0. Additionally, the skald grants this DR to all allies affected by his inspired rage.",
-      "icon": "907f3ced5b254124ba6bebfeb1e6db09"
+      "icon": "907f3ced5b254124ba6bebfeb1e6db09",
+      "isSelection": false
     },
     {
       "__index": 14,
       "name": "Dirge of Doom",
       "desc": "At 10th level, a skald can create a sense of growing dread in his enemies, causing them to become shaken. This only affects enemies that are within 50 feet and able to hear the skald\u0027s performance. The effect persists for as long as the enemy is within 50 feet and the skald continues his performance. This cannot cause a creature to become frightened or panicked, even if the targets are already shaken from another effect. This is a sonic mind-affecting fear effect, and relies on audible components.",
-      "icon": "4b2833bc4f93c8645a710f3186f74fd0"
+      "icon": "4b2833bc4f93c8645a710f3186f74fd0",
+      "isSelection": false
     },
     {
       "__index": 15,
       "name": "Raging Song (Swift Action)",
       "desc": "At 13th level, a skald can start a raging song as a {g|Encyclopedia:Swift_Action}swift action{/g} instead of a {g|Encyclopedia:Standard_Actions}standard action{/g}.",
-      "icon": "d640d7e8c2b9ed94d8df7eacf2c28949"
+      "icon": "d640d7e8c2b9ed94d8df7eacf2c28949",
+      "isSelection": false
     },
     {
       "__index": 16,
       "name": "Song of the Fallen",
       "desc": "At 14th level, a skald can temporarily revive dead allies to continue fighting, with the same limitations as raise dead. The skald brings all allies within 50 feet back to life. The revived allies are alive but staggered. Each {g|Encyclopedia:Combat_Round}round{/g}, the skald may expend another 1 round of raging song to keep them alive for another round. The allies automatically die if the skald ends this performance or is interrupted.",
-      "icon": "d2d07f0dfe9fade448b004e36c4306a5"
+      "icon": "d2d07f0dfe9fade448b004e36c4306a5",
+      "isSelection": false
     },
     {
       "__index": 17,
       "name": "Master Skald",
       "desc": "At 20th level, a skald\u0027s inspired rage no longer gives allies a {g|Encyclopedia:Penalty}penalty{/g} to {g|Encyclopedia:Armor_Class}AC{/g}, nor limits what {g|Encyclopedia:Skills}skills{/g} or abilities they can use. Additionally, they act as if under a haste effect.",
-      "icon": "gen__MS"
+      "icon": "gen__MS",
+      "isSelection": false
     },
     {
       "__index": 18,
-      "name": "Courtly Presence",
-      "desc": "At 1st level, a battle scion\u0027s bearing radiates command and presence, allowing her to tower over her opponents in social situations. The battle scion gets a {g|Encyclopedia:Bonus}bonus{/g} equal to 1/2 her {g|Encyclopedia:Character_Level}character level{/g} to {g|Encyclopedia:Persuasion}Persuasion checks{/g} made to intimidate. However, her bardic knowledge ability applies to only {g|Encyclopedia:Knowledge_World}Knowledge (world){/g}.",
-      "icon": "75adafb59a8fa904f885a9a4fa16fc95"
+      "name": "Call of the Wild",
+      "desc": "At 10th level, the hunt caller\u0027s raging song can transform herself and her companions within 15 feet into animalistic shapes, as per beast shape I. The same transformation applies to all targets. By spending 1 {g|Encyclopedia:Combat_Round}round{/g} of raging song, the hunt caller can affect any number of companions within 15 feet for 1 hour. When in animal form, the hunt caller is treated as able to speak normally for the purpose of using raging song, but not for using other abilities that require speech (such as {g|Encyclopedia:Spell}spellcasting{/g}). The skald must continue to perform the song for the remainder of the hour; otherwise, its effects end, but only 1 round of raging song is expended for that hour. Raging song and transformation effect end when battle ends.\nAt 14th level, the hunt caller can choose the effects of beast shape II. At 18th level, she can choose the effects of beast shape III.",
+      "icon": "a6dc79e6b9d54114180425123ec2cd9f",
+      "isSelection": false
     },
     {
       "__index": 19,
-      "name": "Bardic Knowledge",
-      "desc": "A skald gets a {g|Encyclopedia:Bonus}bonus{/g} equal to 1/2 his {g|Encyclopedia:Class_Level}class level{/g} (minimum \u002B1) on {g|Encyclopedia:Knowledge_World}Knowledge (world){/g} {g|Encyclopedia:Skills}skill checks{/g}.",
-      "icon": "97e8e68d46f4b6540a262536bf5acf1e"
+      "name": "Call of the Wild",
+      "desc": "At 10th level, the hunt caller\u0027s raging song can transform herself and her companions within 15 feet into animalistic shapes, as per beast shape I. The same transformation applies to all targets. By spending 1 {g|Encyclopedia:Combat_Round}round{/g} of raging song, the hunt caller can affect any number of companions within 15 feet for 1 hour. When in animal form, the hunt caller is treated as able to speak normally for the purpose of using raging song, but not for using other abilities that require speech (such as {g|Encyclopedia:Spell}spellcasting{/g}). The skald must continue to perform the song for the remainder of the hour; otherwise, its effects end, but only 1 round of raging song is expended for that hour. Raging song and transformation effect end when battle ends.\nAt 14th level, the hunt caller can choose the effects of beast shape II. At 18th level, she can choose the effects of beast shape III.",
+      "icon": "a6dc79e6b9d54114180425123ec2cd9f",
+      "isSelection": false
     },
     {
       "__index": 20,
-      "name": "Battle Prowess",
-      "desc": "Whenever a battle scion would gain a rage power from the skald\u0027s rage power ability (at 3rd level and every 3 skald levels thereafter), she can instead choose to gain a teamwork {g|Encyclopedia:Feat}feat{/g} for which she meets the prerequisites.\nThe battle scion can grant this feat to allies under the effect of inspired rage, as long as those allies also meet the prerequisites, but she must expend 3 {g|Encyclopedia:Combat_Round}rounds{/g} of raging song for each round in which she grants a teamwork feat.",
-      "icon": "gen__BP"
+      "name": "Call of the Wild",
+      "desc": "At 10th level, the hunt caller\u0027s raging song can transform herself and her companions within 15 feet into animalistic shapes, as per beast shape I. The same transformation applies to all targets. By spending 1 {g|Encyclopedia:Combat_Round}round{/g} of raging song, the hunt caller can affect any number of companions within 15 feet for 1 hour. When in animal form, the hunt caller is treated as able to speak normally for the purpose of using raging song, but not for using other abilities that require speech (such as {g|Encyclopedia:Spell}spellcasting{/g}). The skald must continue to perform the song for the remainder of the hour; otherwise, its effects end, but only 1 round of raging song is expended for that hour. Raging song and transformation effect end when battle ends.\nAt 14th level, the hunt caller can choose the effects of beast shape II. At 18th level, she can choose the effects of beast shape III.",
+      "icon": "a6dc79e6b9d54114180425123ec2cd9f",
+      "isSelection": false
     },
     {
       "__index": 21,
-      "name": "Battle Prowess",
-      "desc": "Whenever a battle scion would gain a rage power from the skald\u0027s rage power ability (at 3rd level and every 3 skald levels thereafter), she can instead choose to gain a teamwork {g|Encyclopedia:Feat}feat{/g} for which she meets the prerequisites.\nThe battle scion can grant this feat to allies under the effect of inspired rage, as long as those allies also meet the prerequisites, but she must expend 3 {g|Encyclopedia:Combat_Round}rounds{/g} of raging song for each round in which she grants a teamwork feat.",
-      "icon": "1b9fe23342599194f9fbba9c1a35c426"
+      "name": "Fiendish Maw",
+      "desc": "At 3rd level, whenever a demon dancer inspires rage, all who accept his rage gain a bite {g|Encyclopedia:Attack}attack{/g} dealing {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Damage}damage{/g}. This damage increases to 1d8 at 7th level, to 2d6 at 12th level, and to 3d6 at 17th level.",
+      "icon": "e18b9d6d461cfee4489c4a6133774a77",
+      "isSelection": false
     },
     {
       "__index": 22,
-      "name": "Insightful Contemplation",
-      "desc": "At 1st level, affected allies gain a \u002B2 morale {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Intelligence}Intelligence{/g} and {g|Encyclopedia:Charisma}Charisma{/g} and a \u002B1 morale bonus on Will {g|Encyclopedia:Saving_Throw}saving throws{/g}, but they also take a \u20131 {g|Encyclopedia:Penalty}penalty{/g} to {g|Encyclopedia:Armor_Class}AC{/g}. At 4th level and every 4 skald levels thereafter, the song\u0027s bonus on Will saves increases by 1; the penalty to AC doesn\u0027t change. At 8th and 16th levels, the song\u0027s bonuses to Intelligence and Charisma increase by 2. (Unlike the barbarian\u0027s rage ability, those affected are not fatigued after the song ends.)",
-      "icon": "2d304ec6dcafcf242a167dd373de4d2f"
+      "name": "Fiendish Maw",
+      "desc": "At 3rd level, whenever a demon dancer inspires rage, all who accept his rage gain a bite {g|Encyclopedia:Attack}attack{/g} dealing {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Damage}damage{/g}. This damage increases to 1d8 at 7th level, to 2d6 at 12th level, and to 3d6 at 17th level.",
+      "icon": "e18b9d6d461cfee4489c4a6133774a77",
+      "isSelection": false
     },
     {
       "__index": 23,
-      "name": "Handling the Crowd",
-      "desc": "At 2nd level, a court poet gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} when adjacent to two or more creatures. In addition, she gains a bonus equal to half her skald level on Persuasion skill {g|Encyclopedia:Check}checks{/g}.",
-      "icon": "75adafb59a8fa904f885a9a4fa16fc95"
+      "name": "Fiendish Maw",
+      "desc": "At 3rd level, whenever a demon dancer inspires rage, all who accept his rage gain a bite {g|Encyclopedia:Attack}attack{/g} dealing {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Damage}damage{/g}. This damage increases to 1d8 at 7th level, to 2d6 at 12th level, and to 3d6 at 17th level.",
+      "icon": "e18b9d6d461cfee4489c4a6133774a77",
+      "isSelection": false
     },
     {
       "__index": 24,
-      "name": "Song of Inspiration",
-      "desc": "At 6th level, a court poet can use raging song to inspire her allies to greater mental clarity. Once each {g|Encyclopedia:Combat_Round}round{/g} while the court poet uses this performance, allies within 30 feet who can hear her can add half her skald level to all {g|Encyclopedia:Wisdom}Wisdom{/g}-based {g|Encyclopedia:Skills}skill checks{/g}.",
-      "icon": "ca3c9eb264e969e44a9eb2b105793706"
+      "name": "Fiendish Maw",
+      "desc": "At 3rd level, whenever a demon dancer inspires rage, all who accept his rage gain a bite {g|Encyclopedia:Attack}attack{/g} dealing {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Damage}damage{/g}. This damage increases to 1d8 at 7th level, to 2d6 at 12th level, and to 3d6 at 17th level.",
+      "icon": "e18b9d6d461cfee4489c4a6133774a77",
+      "isSelection": false
     },
     {
       "__index": 25,
-      "name": "Insightful Spell",
-      "desc": "At 4th level, whenever a court poet casts a spell that deals hit point {g|Encyclopedia:Damage}damage{/g}, she adds \u002B1 to the spell damage. For every four levels beyond 4th, she adds another \u002B1 to spell damage bonus, to a maximum of \u002B5 at 20th level. Additionally, the court poet grants this spell damage bonus to all allies affected by her Insightful Contemplation ability.",
-      "icon": "gen__IS"
+      "name": "Courtly Presence",
+      "desc": "At 1st level, a battle scion\u0027s bearing radiates command and presence, allowing her to tower over her opponents in social situations. The battle scion gets a {g|Encyclopedia:Bonus}bonus{/g} equal to 1/2 her {g|Encyclopedia:Character_Level}character level{/g} to {g|Encyclopedia:Persuasion}Persuasion checks{/g} made to intimidate. However, her bardic knowledge ability applies to only {g|Encyclopedia:Knowledge_World}Knowledge (world){/g}.",
+      "icon": "75adafb59a8fa904f885a9a4fa16fc95",
+      "isSelection": false
     },
     {
       "__index": 26,
-      "name": "Fiendish Maw",
-      "desc": "At 3rd level, whenever a demon dancer inspires rage, all who accept his rage gain a bite {g|Encyclopedia:Attack}attack{/g} dealing {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Damage}damage{/g}. This damage increases to 1d8 at 7th level, to 2d6 at 12th level, and to 3d6 at 17th level.",
-      "icon": "e18b9d6d461cfee4489c4a6133774a77"
+      "name": "Bardic Knowledge",
+      "desc": "A skald gets a {g|Encyclopedia:Bonus}bonus{/g} equal to 1/2 his {g|Encyclopedia:Class_Level}class level{/g} (minimum \u002B1) on {g|Encyclopedia:Knowledge_World}Knowledge (world){/g} {g|Encyclopedia:Skills}skill checks{/g}.",
+      "icon": "97e8e68d46f4b6540a262536bf5acf1e",
+      "isSelection": false
     },
     {
       "__index": 27,
-      "name": "Fiend Totem",
-      "desc": "While raging, the barbarian sprouts dozens of wicked barbs from her body. Anyone striking the barbarian with a melee weapon, an {g|Encyclopedia:UnarmedAttack}unarmed{/g} strike, or a {g|Encyclopedia:NaturalAttack}natural weapon{/g} takes {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Damage_Type}piercing damage{/g}.",
-      "icon": "c63f9693208434e4b8f607d3673be09d"
+      "name": "Battle Prowess",
+      "desc": "Whenever a battle scion would gain a rage power from the skald\u0027s rage power ability (at 3rd level and every 3 skald levels thereafter), she can instead choose to gain a teamwork {g|Encyclopedia:Feat}feat{/g} for which she meets the prerequisites.\nThe battle scion can grant this feat to allies under the effect of inspired rage, as long as those allies also meet the prerequisites, but she must expend 3 {g|Encyclopedia:Combat_Round}rounds{/g} of raging song for each round in which she grants a teamwork feat.",
+      "icon": "gen__BP",
+      "isSelection": true
     },
     {
       "__index": 28,
-      "name": "Fiendish Maw",
-      "desc": "At 3rd level, whenever a demon dancer inspires rage, all who accept his rage gain a bite {g|Encyclopedia:Attack}attack{/g} dealing {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Damage}damage{/g}. This damage increases to 1d8 at 7th level, to 2d6 at 12th level, and to 3d6 at 17th level.",
-      "icon": "e18b9d6d461cfee4489c4a6133774a77"
+      "name": "Battle Prowess",
+      "desc": "Whenever a battle scion would gain a rage power from the skald\u0027s rage power ability (at 3rd level and every 3 skald levels thereafter), she can instead choose to gain a teamwork {g|Encyclopedia:Feat}feat{/g} for which she meets the prerequisites.\nThe battle scion can grant this feat to allies under the effect of inspired rage, as long as those allies also meet the prerequisites, but she must expend 3 {g|Encyclopedia:Combat_Round}rounds{/g} of raging song for each round in which she grants a teamwork feat.",
+      "icon": "1b9fe23342599194f9fbba9c1a35c426",
+      "isSelection": false
     },
     {
       "__index": 29,
-      "name": "Demonic Conquest",
-      "desc": "At 7th level, the demon dancer\u0027s dances warp the minds of those who accept them even further, the {g|Encyclopedia:Strength}Strength{/g} {g|Encyclopedia:Bonus}bonuses{/g} of the demon dancer\u0027s inspire rage increase by 2, however if affected creature stops {g|Encyclopedia:Attack}attacking{/g} or changes the target she suffers ({g|Encyclopedia:Dice}1d6{/g} \u002B his skald level) points of {g|Encyclopedia:Damage}damage{/g}.",
-      "icon": "a836c08b3c34e694886c94a6b9ddfb16"
+      "name": "Insightful Contemplation",
+      "desc": "At 1st level, affected allies gain a \u002B2 morale {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Intelligence}Intelligence{/g} and {g|Encyclopedia:Charisma}Charisma{/g} and a \u002B1 morale bonus on Will {g|Encyclopedia:Saving_Throw}saving throws{/g}, but they also take a \u20131 {g|Encyclopedia:Penalty}penalty{/g} to {g|Encyclopedia:Armor_Class}AC{/g}. At 4th level and every 4 skald levels thereafter, the song\u0027s bonus on Will saves increases by 1; the penalty to AC doesn\u0027t change. At 8th and 16th levels, the song\u0027s bonuses to Intelligence and Charisma increase by 2. (Unlike the barbarian\u0027s rage ability, those affected are not fatigued after the song ends.)",
+      "icon": "2d304ec6dcafcf242a167dd373de4d2f",
+      "isSelection": false
     },
     {
       "__index": 30,
-      "name": "Fiend Totem, Greater",
-      "desc": "While raging, the barbarian is surrounded by an aura of menace. Good creatures adjacent to the barbarian are shaken and take {g|Encyclopedia:Dice}2d6{/g} points of {g|Encyclopedia:Damage_Type}slashing damage{/g} at the beginning of the barbarian\u0027s turn as dozens of small cuts open across their flesh. Neutral creatures that are adjacent to the barbarian are shaken, but do not take any {g|Encyclopedia:Damage}damage{/g}. Evil creatures are unaffected.",
-      "icon": "a0c302e7d66e46c49966e3392917edce"
+      "name": "Handling the Crowd",
+      "desc": "At 2nd level, a court poet gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} when adjacent to two or more creatures. In addition, she gains a bonus equal to half her skald level on Persuasion skill {g|Encyclopedia:Check}checks{/g}.",
+      "icon": "75adafb59a8fa904f885a9a4fa16fc95",
+      "isSelection": false
     },
     {
       "__index": 31,
-      "name": "Fiendish Maw",
-      "desc": "At 3rd level, whenever a demon dancer inspires rage, all who accept his rage gain a bite {g|Encyclopedia:Attack}attack{/g} dealing {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Damage}damage{/g}. This damage increases to 1d8 at 7th level, to 2d6 at 12th level, and to 3d6 at 17th level.",
-      "icon": "e18b9d6d461cfee4489c4a6133774a77"
+      "name": "Song of Inspiration",
+      "desc": "At 6th level, a court poet can use raging song to inspire her allies to greater mental clarity. Once each {g|Encyclopedia:Combat_Round}round{/g} while the court poet uses this performance, allies within 30 feet who can hear her can add half her skald level to all {g|Encyclopedia:Wisdom}Wisdom{/g}-based {g|Encyclopedia:Skills}skill checks{/g}.",
+      "icon": "ca3c9eb264e969e44a9eb2b105793706",
+      "isSelection": false
     },
     {
       "__index": 32,
-      "name": "Fiendish Maw",
-      "desc": "At 3rd level, whenever a demon dancer inspires rage, all who accept his rage gain a bite {g|Encyclopedia:Attack}attack{/g} dealing {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Damage}damage{/g}. This damage increases to 1d8 at 7th level, to 2d6 at 12th level, and to 3d6 at 17th level.",
-      "icon": "e18b9d6d461cfee4489c4a6133774a77"
+      "name": "Insightful Spell",
+      "desc": "At 4th level, whenever a court poet casts a spell that deals hit point {g|Encyclopedia:Damage}damage{/g}, she adds \u002B1 to the spell damage. For every four levels beyond 4th, she adds another \u002B1 to spell damage bonus, to a maximum of \u002B5 at 20th level. Additionally, the court poet grants this spell damage bonus to all allies affected by her Insightful Contemplation ability.",
+      "icon": "gen__IS",
+      "isSelection": false
     },
     {
       "__index": 33,
-      "name": "Arcane Bond \u2014 Object",
-      "desc": "A bonded object can be used once per day to restore any one {g|Encyclopedia:Spell}spell{/g} slot.",
-      "icon": "6257839464a212a41bcf625029a2a2dd"
+      "name": "Fiend Totem",
+      "desc": "While raging, the barbarian sprouts dozens of wicked barbs from her body. Anyone striking the barbarian with a melee weapon, an {g|Encyclopedia:UnarmedAttack}unarmed{/g} strike, or a {g|Encyclopedia:NaturalAttack}natural weapon{/g} takes {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Damage_Type}piercing damage{/g}.",
+      "icon": "c63f9693208434e4b8f607d3673be09d",
+      "isSelection": false
     },
     {
       "__index": 34,
-      "name": "Horn Call",
-      "desc": "At 7th level, a herald\u0027s horn enhances his sonic {g|Encyclopedia:Spell}spells{/g}. If a skald spell with the sonic descriptor is cast using the horn, its {g|Encyclopedia:DC}DC{/g} increases by 1. These DCs increase by an additional 1 at 13th and 19th levels.",
-      "icon": "14fdd59522d9ccb46bf8e10469115712"
+      "name": "Demonic Conquest",
+      "desc": "At 7th level, the demon dancer\u0027s dances warp the minds of those who accept them even further, the {g|Encyclopedia:Strength}Strength{/g} {g|Encyclopedia:Bonus}bonuses{/g} of the demon dancer\u0027s inspire rage increase by 2, however if affected creature stops {g|Encyclopedia:Attack}attacking{/g} or changes the target she suffers ({g|Encyclopedia:Dice}1d6{/g} \u002B his skald level) points of {g|Encyclopedia:Damage}damage{/g}.",
+      "icon": "a836c08b3c34e694886c94a6b9ddfb16",
+      "isSelection": false
     },
     {
       "__index": 35,
-      "name": "Crumbling Blast",
-      "desc": "At 11th level, a herald of the horn can use his horn to create a devastating shock wave of energy. Once per day, he can sound a note on the horn that functions like a horn of blasting ({g|Encyclopedia:DC}DC{/g} = 10 \u002B 1/2 the herald of the horn\u0027s level \u002B his {g|Encyclopedia:Charisma}Charisma{/g} {g|Encyclopedia:Bonus}bonus{/g}). At 17th level, the herald of the horn can use this ability twice per day and it functions like a greater horn of blasting. Unlike an actual horn of blasting, this ability does not carry the risk of destroying the horn.",
-      "icon": "db8f7fdfc17c4a2478bd13cc900aae50"
+      "name": "Fiend Totem, Greater",
+      "desc": "While raging, the barbarian is surrounded by an aura of menace. Good creatures adjacent to the barbarian are shaken and take {g|Encyclopedia:Dice}2d6{/g} points of {g|Encyclopedia:Damage_Type}slashing damage{/g} at the beginning of the barbarian\u0027s turn as dozens of small cuts open across their flesh. Neutral creatures that are adjacent to the barbarian are shaken, but do not take any {g|Encyclopedia:Damage}damage{/g}. Evil creatures are unaffected.",
+      "icon": "a0c302e7d66e46c49966e3392917edce",
+      "isSelection": false
     },
     {
       "__index": 36,
-      "name": "Crumbling Blast",
-      "desc": "At 11th level, a herald of the horn can use his horn to create a devastating shock wave of energy. Once per day, he can sound a note on the horn that functions like a horn of blasting ({g|Encyclopedia:DC}DC{/g} = 10 \u002B 1/2 the herald of the horn\u0027s level \u002B his {g|Encyclopedia:Charisma}Charisma{/g} {g|Encyclopedia:Bonus}bonus{/g}). At 17th level, the herald of the horn can use this ability twice per day and it functions like a greater horn of blasting. Unlike an actual horn of blasting, this ability does not carry the risk of destroying the horn.",
-      "icon": "6257839464a212a41bcf625029a2a2dd"
+      "name": "Arcane Bond \u2014 Object",
+      "desc": "A bonded object can be used once per day to restore any one {g|Encyclopedia:Spell}spell{/g} slot.",
+      "icon": "6257839464a212a41bcf625029a2a2dd",
+      "isSelection": false
     },
     {
       "__index": 37,
-      "name": "Inspire Scent",
-      "desc": "At 6th level, the hunt caller gains the scent rage power. Her song of the senses and inspired rage raging songs both grant affected allies this rage power.",
-      "icon": "6257839464a212a41bcf625029a2a2dd"
+      "name": "Horn Call",
+      "desc": "At 7th level, a herald\u0027s horn enhances his sonic {g|Encyclopedia:Spell}spells{/g}. If a skald spell with the sonic descriptor is cast using the horn, its {g|Encyclopedia:DC}DC{/g} increases by 1. These DCs increase by an additional 1 at 13th and 19th levels.",
+      "icon": "14fdd59522d9ccb46bf8e10469115712",
+      "isSelection": false
     },
     {
       "__index": 38,
-      "name": "Scent",
-      "desc": "The barbarian gains the scent ability while raging and can use this ability to locate unseen foes. The barbarian can detect opponents within 30 feet by sense of smell as if had blindsense.",
-      "icon": "0edae92ab4f67ae4c923baa6bce318ef"
+      "name": "Crumbling Blast",
+      "desc": "At 11th level, a herald of the horn can use his horn to create a devastating shock wave of energy. Once per day, he can sound a note on the horn that functions like a horn of blasting ({g|Encyclopedia:DC}DC{/g} = 10 \u002B 1/2 the herald of the horn\u0027s level \u002B his {g|Encyclopedia:Charisma}Charisma{/g} {g|Encyclopedia:Bonus}bonus{/g}). At 17th level, the herald of the horn can use this ability twice per day and it functions like a greater horn of blasting. Unlike an actual horn of blasting, this ability does not carry the risk of destroying the horn.",
+      "icon": "db8f7fdfc17c4a2478bd13cc900aae50",
+      "isSelection": false
     },
     {
       "__index": 39,
-      "name": "Call of the Wild",
-      "desc": "At 10th level, the hunt caller\u0027s raging song can transform herself and her companions within 15 feet into animalistic shapes, as per beast shape I. The same transformation applies to all targets. By spending 1 {g|Encyclopedia:Combat_Round}round{/g} of raging song, the hunt caller can affect any number of companions within 15 feet for 1 hour. When in animal form, the hunt caller is treated as able to speak normally for the purpose of using raging song, but not for using other abilities that require speech (such as {g|Encyclopedia:Spell}spellcasting{/g}). The skald must continue to perform the song for the remainder of the hour; otherwise, its effects end, but only 1 round of raging song is expended for that hour. Raging song and transformation effect end when battle ends.\nAt 14th level, the hunt caller can choose the effects of beast shape II. At 18th level, she can choose the effects of beast shape III.",
-      "icon": "a6dc79e6b9d54114180425123ec2cd9f"
+      "name": "Crumbling Blast",
+      "desc": "At 11th level, a herald of the horn can use his horn to create a devastating shock wave of energy. Once per day, he can sound a note on the horn that functions like a horn of blasting ({g|Encyclopedia:DC}DC{/g} = 10 \u002B 1/2 the herald of the horn\u0027s level \u002B his {g|Encyclopedia:Charisma}Charisma{/g} {g|Encyclopedia:Bonus}bonus{/g}). At 17th level, the herald of the horn can use this ability twice per day and it functions like a greater horn of blasting. Unlike an actual horn of blasting, this ability does not carry the risk of destroying the horn.",
+      "icon": "6257839464a212a41bcf625029a2a2dd",
+      "isSelection": false
     },
     {
       "__index": 40,
-      "name": "Call of the Wild",
-      "desc": "At 10th level, the hunt caller\u0027s raging song can transform herself and her companions within 15 feet into animalistic shapes, as per beast shape I. The same transformation applies to all targets. By spending 1 {g|Encyclopedia:Combat_Round}round{/g} of raging song, the hunt caller can affect any number of companions within 15 feet for 1 hour. When in animal form, the hunt caller is treated as able to speak normally for the purpose of using raging song, but not for using other abilities that require speech (such as {g|Encyclopedia:Spell}spellcasting{/g}). The skald must continue to perform the song for the remainder of the hour; otherwise, its effects end, but only 1 round of raging song is expended for that hour. Raging song and transformation effect end when battle ends.\nAt 14th level, the hunt caller can choose the effects of beast shape II. At 18th level, she can choose the effects of beast shape III.",
-      "icon": "a6dc79e6b9d54114180425123ec2cd9f"
+      "name": "Inspire Scent",
+      "desc": "At 6th level, the hunt caller gains the scent rage power. Her song of the senses and inspired rage raging songs both grant affected allies this rage power.",
+      "icon": "6257839464a212a41bcf625029a2a2dd",
+      "isSelection": false
     },
     {
       "__index": 41,
-      "name": "Call of the Wild",
-      "desc": "At 10th level, the hunt caller\u0027s raging song can transform herself and her companions within 15 feet into animalistic shapes, as per beast shape I. The same transformation applies to all targets. By spending 1 {g|Encyclopedia:Combat_Round}round{/g} of raging song, the hunt caller can affect any number of companions within 15 feet for 1 hour. When in animal form, the hunt caller is treated as able to speak normally for the purpose of using raging song, but not for using other abilities that require speech (such as {g|Encyclopedia:Spell}spellcasting{/g}). The skald must continue to perform the song for the remainder of the hour; otherwise, its effects end, but only 1 round of raging song is expended for that hour. Raging song and transformation effect end when battle ends.\nAt 14th level, the hunt caller can choose the effects of beast shape II. At 18th level, she can choose the effects of beast shape III.",
-      "icon": "a6dc79e6b9d54114180425123ec2cd9f"
+      "name": "Scent",
+      "desc": "The barbarian gains the scent ability while raging and can use this ability to locate unseen foes. The barbarian can detect opponents within 30 feet by sense of smell as if had blindsense.",
+      "icon": "0edae92ab4f67ae4c923baa6bce318ef",
+      "isSelection": false
     },
     {
       "__index": 42,
       "name": "Battle Song \u2014 First Verse",
       "desc": "As a {g|Encyclopedia:Standard_Actions}standard action{/g}, battle singer can spend 1 {g|Encyclopedia:Combat_Round}round{/g} of skald performance to {g|Encyclopedia:Damage}damage{/g} all enemies in a 15-foot cone, dealing {g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Energy_Damage}sonic damage{/g} per 2 levels of skald ({g|Encyclopedia:Saving_Throw}Fortitude save{/g} halves). If an enemy fails its saving throw, it is also staggered for 1 round.",
-      "icon": "323ce980950036e438ef4c32afb279cf"
+      "icon": "323ce980950036e438ef4c32afb279cf",
+      "isSelection": false
     },
     {
       "__index": 43,
       "name": "Battle Song \u2014 Second Verse",
       "desc": "As a {g|Encyclopedia:Standard_Actions}standard action{/g}, battle singer can spend 2 {g|Encyclopedia:Combat_Round}rounds{/g} of skald performance to {g|Encyclopedia:Damage}damage{/g} all enemies in a 50-foot radius around skald, dealing {g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Energy_Damage}sonic damage{/g} per 2 levels of Skald ({g|Encyclopedia:Saving_Throw}Fortitude save{/g} halves). If an enemy fails its saving throw, it is also stunned for 1 round, and then staggered for 1 round.\nIf Second Verse is cast withing 2 rounds of First Verse, it costs only 1 round of skald performance and is empowered.",
-      "icon": "3d3c81c642f17b64ba6217eaaeb0496f"
+      "icon": "3d3c81c642f17b64ba6217eaaeb0496f",
+      "isSelection": false
     },
     {
       "__index": 44,
       "name": "Battle Song \u2014 Final Verse",
       "desc": "As a {g|Encyclopedia:Standard_Actions}standard action{/g}, battle singer can spend 2 {g|Encyclopedia:Combat_Round}round{/g} of skald performance to {g|Encyclopedia:Damage}damage{/g} one enemy, dealing {g|Encyclopedia:Dice}1d8{/g} {g|Encyclopedia:Energy_Damage}sonic damage{/g} per level of skald ({g|Encyclopedia:Saving_Throw}Fortitude save{/g} halves). If an enemy fails its saving throw, it is also stunned for 1 round, and staggered for 1d4\u002B1 rounds. If the saving throw was successful, the target is staggered for 1 round.\nIf Final Verse is cast withing 2 rounds of First Verse, it costs 1 round of skald performance less, is empowered and the {g|Encyclopedia:DC}DC{/g} increases by 2.\nIf Final Verse is cast withing 2 rounds of Second Verse, it costs 1 round of skald performance less, is maximized and the DC increases by 2.",
-      "icon": "16b4ac7177b94ca419741531adc0baf8"
+      "icon": "16b4ac7177b94ca419741531adc0baf8",
+      "isSelection": false
     }
   ],
   "name": "Skald",
   "desc": "Skalds are poets, historians, and keepers of lore who use their gifts for oration and song to inspire allies into a frenzied rage. They balance a violent spirit with the veneer of civilization, recording events such as heroic battles and the deeds of great leaders, enhancing these stories in the retelling to earn bloodier victories in combat. A skald\u0027s poetry is nuanced and often has multiple overlapping meanings, and he applies similar talents to emulate magic from other {g|Encyclopedia:Spell}spellcasters{/g}.",
   "layout": [
-    [
-      {
-        "level": 1,
-        "feature": 0,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 2,
-        "feature": 6,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 4,
-        "feature": 8,
-        "rank": 1,
-        "archType": 0
-      },
-      {
-        "level": 6,
-        "feature": 9,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 7,
-        "feature": 10,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 8,
-        "feature": 12,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 10,
-        "feature": 14,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 13,
-        "feature": 15,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 14,
-        "feature": 16,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 20,
-        "feature": 17,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 1,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 7,
-        "feature": 11,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 2,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 3,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 4,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 2,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 7,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 12,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 17,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [],
-    [
-      {
-        "level": 3,
-        "feature": 7,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 6,
-        "feature": 7,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 9,
-        "feature": 7,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 12,
-        "feature": 7,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 15,
-        "feature": 7,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 18,
-        "feature": 7,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      {
-        "level": 9,
-        "feature": 13,
-        "rank": 1,
-        "archType": 0
-      },
-      {
-        "level": 14,
-        "feature": 13,
-        "rank": 2,
-        "archType": 0
-      },
-      {
-        "level": 19,
-        "feature": 13,
-        "rank": 3,
-        "archType": 0
-      }
-    ],
-    [],
-    [],
-    [],
-    []
+    {
+      "name": null,
+      "rows": [
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 1,
+              "feature": 0,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 2,
+              "feature": 6,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 4,
+              "feature": 8,
+              "rank": 1,
+              "archType": 0
+            },
+            {
+              "level": 6,
+              "feature": 9,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 7,
+              "feature": 10,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 8,
+              "feature": 12,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 10,
+              "feature": 14,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 13,
+              "feature": 15,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 14,
+              "feature": 16,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 20,
+              "feature": 17,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 1,
+              "feature": 1,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 7,
+              "feature": 11,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 1,
+              "feature": 2,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 1,
+              "feature": 3,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 1,
+              "feature": 4,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 2,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 7,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 12,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 17,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 3,
+              "feature": 7,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 6,
+              "feature": 7,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 9,
+              "feature": 7,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 12,
+              "feature": 7,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 15,
+              "feature": 7,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 18,
+              "feature": 7,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 9,
+              "feature": 13,
+              "rank": 1,
+              "archType": 0
+            },
+            {
+              "level": 14,
+              "feature": 13,
+              "rank": 2,
+              "archType": 0
+            },
+            {
+              "level": 19,
+              "feature": 13,
+              "rank": 3,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": false,
+          "features": []
+        }
+      ]
+    }
   ],
   "bab": [
     0,
@@ -833,261 +946,332 @@
       "desc": "The battle scion possesses a unique mixture of courtly grace alongside martial and magical prowess. She is a warrior-poet, as {g|Encyclopedia:Skills}skilled{/g} with her words as she is with blades. Battle scions sometimes rule as queens over courts of brave knights who scour the world championing bold quests.",
       "id": "71d41dd6309ea994886908c34c87ccd9",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 2,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 21,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 4,
-            "feature": 8,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 10,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 12,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 14,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 15,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 16,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 17,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 11,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 17,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 3,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 9,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 12,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 15,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 18,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 9,
-            "feature": 13,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 13,
-            "rank": 2,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 13,
-            "rank": 3,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 18,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 19,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 3,
-            "feature": 20,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 6,
-            "feature": 20,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 9,
-            "feature": 20,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 12,
-            "feature": 20,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 15,
-            "feature": 20,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 18,
-            "feature": 20,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 25,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 2,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 3,
+                  "feature": 28,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 4,
+                  "feature": 8,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 16,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 17,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 26,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 7,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 27,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 27,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 9,
+                  "feature": 27,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 12,
+                  "feature": 27,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 15,
+                  "feature": 27,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 18,
+                  "feature": 27,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 17,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 9,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 12,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 15,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 18,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 9,
+                  "feature": 13,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 13,
+                  "rank": 2,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 13,
+                  "rank": 3,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1109,254 +1293,325 @@
       "desc": "Many courts are places of artistic refinement, attracting those performers who wish to revel in an aristocratic art scene. Such artists may aim to become a darling of the court, focusing on the aesthetic requirements of a particular tradition as well as learning details about that court\u0027s history and culture. Court poets elevate the skald\u0027s love of history and poetry to an aristocratic ideal, captivating courts with complicated poetic traditions and inspiring others with their craft. Some court poets go on to create their own works, weaving their magic and force of personality into their unique performances.",
       "id": "5e63586bebd229649bdafe0fde4caaec",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 6,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 4,
-            "feature": 8,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 9,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 7,
-            "feature": 10,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 12,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 14,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 15,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 16,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 17,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 23,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 6,
-            "feature": 24,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 7,
-            "feature": 11,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 17,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 3,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 9,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 12,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 15,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 18,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 9,
-            "feature": 13,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 13,
-            "rank": 2,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 13,
-            "rank": 3,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 22,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        [
-          {
-            "level": 4,
-            "feature": 25,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 8,
-            "feature": 25,
-            "rank": 2,
-            "archType": 1
-          },
-          {
-            "level": 12,
-            "feature": 25,
-            "rank": 3,
-            "archType": 1
-          },
-          {
-            "level": 16,
-            "feature": 25,
-            "rank": 4,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 25,
-            "rank": 5,
-            "archType": 1
-          }
-        ]
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 29,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 2,
+                  "feature": 30,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 4,
+                  "feature": 8,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 31,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 7,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 16,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 17,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 4,
+                  "feature": 32,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 8,
+                  "feature": 32,
+                  "rank": 2,
+                  "archType": 1
+                },
+                {
+                  "level": 12,
+                  "feature": 32,
+                  "rank": 3,
+                  "archType": 1
+                },
+                {
+                  "level": 16,
+                  "feature": 32,
+                  "rank": 4,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 32,
+                  "rank": 5,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 6,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 7,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 17,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 9,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 12,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 15,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 18,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 9,
+                  "feature": 13,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 13,
+                  "rank": 2,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 13,
+                  "rank": 3,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1378,249 +1633,318 @@
       "desc": "While the twisted power of the demon-worshiping skalds is great, it comes at a terrible price.",
       "id": "9c46c4e4303e5da40b63faa6df18e2c2",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 26,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 4,
-            "feature": 8,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 10,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 12,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 9,
-            "feature": 30,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 14,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 31,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 13,
-            "feature": 15,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 16,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 17,
-            "feature": 32,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 17,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 27,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 7,
-            "feature": 11,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 28,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 29,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 17,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 3,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 9,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 12,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 9,
-            "feature": 13,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 13,
-            "rank": 2,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 13,
-            "rank": 3,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 21,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 7,
+                  "feature": 22,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 12,
+                  "feature": 23,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 17,
+                  "feature": 24,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 8,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 33,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 7,
+                  "feature": 34,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 8,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 9,
+                  "feature": 35,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 10,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 16,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 17,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 17,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 9,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 12,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 9,
+                  "feature": 13,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 13,
+                  "rank": 2,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 13,
+                  "rank": 3,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1642,229 +1966,300 @@
       "desc": "Even the loudest voice can often times be drowned out by the din of battle. Whether with the polished metal trumpet of a standing army or the crude curved animal horn of savage raiders, a herald of the horn sounds his raging song with thunderous blasts, which can bolster allies or shatter castle walls.",
       "id": "72fa7b1c7a6ede44eb490080bf4a2f90",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 8,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 10,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 8,
-            "feature": 12,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 14,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 11,
-            "feature": 35,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 13,
-            "feature": 15,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 16,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 17,
-            "feature": 36,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 17,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 11,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 34,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 17,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 3,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 9,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 9,
-            "feature": 13,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 13,
-            "rank": 2,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 13,
-            "rank": 3,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 33,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 36,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 2,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 8,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 37,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 8,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 11,
+                  "feature": 38,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 13,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 16,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 17,
+                  "feature": 39,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 17,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 17,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 9,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 9,
+                  "feature": 13,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 13,
+                  "rank": 2,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 13,
+                  "rank": 3,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1886,235 +2281,302 @@
       "desc": "Hunt callers are skalds whose songs draw their allies into the animal world. They can invoke the inner beasts of those who observe their supernatural performances\u2014a talent that causes many to mistake the hunt caller and her allies for lycanthropes or other shapechanging creatures.",
       "id": "67daa4f4f2b62f54cb3ec56bdc85dea6",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 6,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 4,
-            "feature": 8,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 9,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 7,
-            "feature": 10,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 12,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 14,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 15,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 16,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 18,
-            "feature": 41,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 17,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 37,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 7,
-            "feature": 11,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 39,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 14,
-            "feature": 40,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 38,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 17,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 3,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 9,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 9,
-            "feature": 13,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 13,
-            "rank": 2,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 13,
-            "rank": 3,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 4,
+                  "feature": 8,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 40,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 7,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 16,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 20,
+                  "feature": 17,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 41,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 7,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 10,
+                  "feature": 18,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 14,
+                  "feature": 19,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 18,
+                  "feature": 20,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 17,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 9,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 9,
+                  "feature": 13,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 13,
+                  "rank": 2,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 13,
+                  "rank": 3,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -2136,221 +2598,289 @@
       "desc": "Battle singer\u0027s songs are powerful enough to {g|Encyclopedia:Damage}damage{/g} the enemies with the sheer power of their vocal cords.",
       "id": "db942e7040084ea289c6be2bfeb3d0a8",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 42,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 4,
-            "feature": 8,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 10,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 12,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 9,
-            "feature": 43,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 14,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 15,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 16,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 44,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 17,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 11,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 17,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [
-          {
-            "level": 3,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 9,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 12,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 18,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 9,
-            "feature": 13,
-            "rank": 1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 13,
-            "rank": 2,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 13,
-            "rank": 3,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 3,
+                  "feature": 42,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 4,
+                  "feature": 8,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 9,
+                  "feature": 43,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 10,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 16,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 44,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 17,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 17,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 3,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 9,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 12,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 18,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 9,
+                  "feature": 13,
+                  "rank": 1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 13,
+                  "rank": 2,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 13,
+                  "rank": 3,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,

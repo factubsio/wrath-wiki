@@ -5,163 +5,196 @@
       "__index": 0,
       "name": "AC Bonus",
       "desc": "A stalwart defender receives a dodge {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} that starts at \u002B1 on the 1st level. It improves to \u002B2 at 4th level, to \u002B3 at 7th level, and reaches the maximum of \u002B4 at 10th level.",
-      "icon": "gen__ACB"
+      "icon": "gen__ACB",
+      "isSelection": false
     },
     {
       "__index": 1,
       "name": "Defensive Stance",
       "desc": "At 1st level, a stalwart defender can enter a defensive stance, a position of readiness and trance-like determination. A stalwart defender can maintain this stance for a number of {g|Encyclopedia:Combat_Round}rounds{/g} per day equal to 4 \u002B his {g|Encyclopedia:Constitution}Constitution{/g} modifier. At each level after 1st, he can maintain the stance for 2 additional rounds per day. Temporary increases to Constitution, such as those gained from the defensive stance and {g|Encyclopedia:Spell}spells{/g} like bear\u0027s endurance, do not increase the total number of rounds that the stalwart defender can maintain a defensive stance per day. The stalwart defender can enter a defensive stance as a {g|Encyclopedia:Free_Action}free action{/g}. The total number of rounds of defensive stance per day is renewed after resting for 8 hours, although these hours do not need to be consecutive. While in a defensive stance, a stalwart defender gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:MeleeAttack}melee attack{/g} {g|Encyclopedia:Dice}rolls{/g}, melee {g|Encyclopedia:Damage}damage rolls{/g}, thrown weapon damage rolls, and Will {g|Encyclopedia:Saving_Throw}saving throws{/g}. In addition, he gains a \u002B2 dodge bonus to {g|Encyclopedia:Armor_Class}Armor Class{/g} and 2 temporary {g|Encyclopedia:HP}hit points{/g} per {g|Encyclopedia:Hit_Dice}Hit Die{/g}. While in a defensive stance, a stalwart defender cannot willingly move from his current position through any means.\nThe stalwart defender can end his defensive stance as a free {g|Encyclopedia:CA_Types}action{/g}; after ending the stance, he is fatigued for a number of rounds equal to 2 times the number of rounds spent in the stance. A stalwart defender cannot enter a new defensive stance while fatigued or exhausted but can otherwise enter a stance multiple times during a single encounter or combat. If a stalwart defender falls {g|Encyclopedia:Injury_Death}unconscious{/g}, his defensive stance immediately ends, placing him in peril of death. A defensive stance requires a level of emotional calm, and it may not be maintained by a character in a rage (such as from the rage class feature or the rage spell).",
-      "icon": "ef075f9e062a6464fa67961e33c9fd6b"
+      "icon": "ef075f9e062a6464fa67961e33c9fd6b",
+      "isSelection": false
     },
     {
       "__index": 2,
       "name": "\u003Cstring-not-present\u003E",
       "desc": "A stalwart defender is proficient with all simple and {g|Encyclopedia:Weapon_Proficiency}martial weapons{/g} and with all armor (heavy, light, and medium) and shields (including tower shields).",
-      "icon": "gen__"
+      "icon": "gen__",
+      "isSelection": false
     },
     {
       "__index": 3,
       "name": "Defensive Powers",
       "desc": "As a stalwart defender gains levels, he augments his defensive stance. Starting at 2nd level, the stalwart defender gains a defensive power. He gains another defensive power for every two levels of stalwart defender attained after 2nd level. The stalwart defender gains the benefits of defensive powers only while in a defensive stance, and some of these powers require him to take an {g|Encyclopedia:CA_Types}action{/g} first. Unless otherwise noted, he cannot select an individual power more than once.",
-      "icon": "gen__DP"
+      "icon": "gen__DP",
+      "isSelection": true
     },
     {
       "__index": 4,
       "name": "Uncanny Dodge",
       "desc": "The character can react to danger before her senses would normally allow her to do so. She cannot be caught {g|Encyclopedia:Flat_Footed}flat-footed{/g}, nor does she lose her {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} if the {g|Encyclopedia:Attack}attacker{/g} is invisible. She still loses her Dexterity bonus to AC if immobilized. A character with this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the feint {g|Encyclopedia:CA_Types}action{/g} against her.\nIf a character already has uncanny dodge from a different class, she automatically gains improved uncanny dodge instead.",
-      "icon": "f549aced0cfe8a7469985214a71d9503"
+      "icon": "f549aced0cfe8a7469985214a71d9503",
+      "isSelection": false
     },
     {
       "__index": 5,
       "name": "Damage Reduction",
       "desc": "At 5th level, a stalwart defender gains {g|Encyclopedia:Damage_Reduction}DR{/g} 1/\u2014. At 7th level, this DR increases to 3/\u2014, and at 10th level it increases to 5/\u2014.",
-      "icon": "da043f7009753c5418615fb68cf7b198"
+      "icon": "da043f7009753c5418615fb68cf7b198",
+      "isSelection": false
     },
     {
       "__index": 6,
       "name": "Improved Uncanny Dodge",
       "desc": "The character can no longer be {g|Encyclopedia:Flanking}flanked{/g}.\nThis defense denies another rogue the ability to sneak {g|Encyclopedia:Attack}attack{/g} the character by flanking her, unless the attacker has at least four more rogue levels than the target does.",
-      "icon": "f549aced0cfe8a7469985214a71d9503"
+      "icon": "f549aced0cfe8a7469985214a71d9503",
+      "isSelection": false
     }
   ],
   "name": "Stalwart Defender",
   "desc": "Stalwart defenders are masters of melee combat, striving to prove that the best offense is a good defense. Stalwart defenders are normally found on the front lines of battle, holding a position to cover their allies, leaping into breaches of opposing formations and holding them open for others, and guarding more vulnerable allies by acting as mobile fortifications, stable points in the ever-changing chaos of battle.",
   "layout": [
-    [
-      {
-        "level": 1,
-        "feature": 0,
-        "rank": 1,
-        "archType": 0
-      },
-      {
-        "level": 4,
-        "feature": 0,
-        "rank": 2,
-        "archType": 0
-      },
-      {
-        "level": 7,
-        "feature": 0,
-        "rank": 3,
-        "archType": 0
-      },
-      {
-        "level": 10,
-        "feature": 0,
-        "rank": 4,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 1,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 3,
-        "feature": 4,
-        "rank": 1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 2,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 2,
-        "feature": 3,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 4,
-        "feature": 3,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 6,
-        "feature": 3,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 8,
-        "feature": 3,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 10,
-        "feature": 3,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [],
-    [
-      {
-        "level": 5,
-        "feature": 5,
-        "rank": 1,
-        "archType": 0
-      },
-      {
-        "level": 7,
-        "feature": 5,
-        "rank": 2,
-        "archType": 0
-      },
-      {
-        "level": 10,
-        "feature": 5,
-        "rank": 3,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 7,
-        "feature": 6,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 9,
-        "feature": 6,
-        "rank": -1,
-        "archType": 0
-      }
-    ]
+    {
+      "name": null,
+      "rows": [
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 1,
+              "feature": 0,
+              "rank": 1,
+              "archType": 0
+            },
+            {
+              "level": 4,
+              "feature": 0,
+              "rank": 2,
+              "archType": 0
+            },
+            {
+              "level": 7,
+              "feature": 0,
+              "rank": 3,
+              "archType": 0
+            },
+            {
+              "level": 10,
+              "feature": 0,
+              "rank": 4,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 1,
+              "feature": 1,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 3,
+              "feature": 4,
+              "rank": 1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 1,
+              "feature": 2,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 2,
+              "feature": 3,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 4,
+              "feature": 3,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 6,
+              "feature": 3,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 8,
+              "feature": 3,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 10,
+              "feature": 3,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 5,
+              "feature": 5,
+              "rank": 1,
+              "archType": 0
+            },
+            {
+              "level": 7,
+              "feature": 5,
+              "rank": 2,
+              "archType": 0
+            },
+            {
+              "level": 10,
+              "feature": 5,
+              "rank": 3,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 7,
+              "feature": 6,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 9,
+              "feature": 6,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        }
+      ]
+    }
   ],
   "bab": [
     0,

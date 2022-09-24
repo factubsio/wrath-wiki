@@ -3,385 +3,475 @@
     [
       0,
       7,
-      12
+      12,
+      17,
+      18
     ],
-    [],
-    [],
-    []
+    [
+      19,
+      20
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
   ],
   "features": [
     {
       "__index": 0,
       "name": "Nature Sense",
       "desc": "A druid gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Lore_Nature}Lore (nature){/g} {g|Encyclopedia:Check}checks{/g}.",
-      "icon": "733daf4652e9cad4d853fadfcbf6ed46"
+      "icon": "733daf4652e9cad4d853fadfcbf6ed46",
+      "isSelection": false
     },
     {
       "__index": 1,
       "name": "Druid Proficiencies",
       "desc": "Druids are proficient with the following weapons: club, dagger, dart, quarterstaff, scimitar, scythe, sickle, shortspear, sling, and spear. They are also proficient with all {g|Encyclopedia:NaturalAttack}natural attacks{/g} (claw, bite, and so forth) of any form they assume with wild shape.\nDruids are proficient with light and medium armor but are prohibited from wearing metal armor; thus, they may wear only padded, leather, or hide armor. A druid may also wear wooden armor that has been altered by the ironwood {g|Encyclopedia:Spell}spell{/g} so that it functions as though it were steel. Druids are proficient with shields (except tower shields) but must use only wooden ones.",
-      "icon": "3714ca959287da54cbf82164d3a8805b"
+      "icon": "3714ca959287da54cbf82164d3a8805b",
+      "isSelection": false
     },
     {
       "__index": 2,
       "name": "Nature Bond",
       "desc": "At 1st level, a druid forms a bond with nature. This bond can take one of two forms. The first is a close tie to the natural world, granting the druid one of the following cleric domains: Air, Animal, Earth, Fire, Plant, Water, or Weather. When determining the powers and bonus {g|Encyclopedia:Spell}spells{/g} granted by this domain, the druid\u0027s effective cleric level is equal to her druid level. A druid that selects this option also receives additional domain spell slots, just like a cleric. She must prepare the spell from her domain in this slot and this spell cannot be used to cast a spell spontaneously.\nThe second option is to form a close bond with an animal companion. Unlike normal animals of its kind, an animal companion\u0027s {g|Encyclopedia:Hit_Dice}Hit Dice{/g}, abilities, {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Feat}feats{/g} advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in {g|Encyclopedia:Size}size{/g} when their druid reaches 4th or 7th level, depending on the companion.",
-      "icon": "736cb7b0def6ff147b921c75c54a81a0"
+      "icon": "736cb7b0def6ff147b921c75c54a81a0",
+      "isSelection": true
     },
     {
       "__index": 3,
       "name": "Alignment Restriction",
       "desc": "A druid who changes to a prohibited {g|Encyclopedia:Alignment}alignment{/g} loses all {g|Encyclopedia:Spell}spells{/g} and druid abilities (including her animal companion, but not including weapon, armor, and shield proficiencies). She cannot thereafter gain levels as a druid until she returns to a permitted alignment.",
-      "icon": "2e28cda83cf02ec4da1a147868038058"
+      "icon": "2e28cda83cf02ec4da1a147868038058",
+      "isSelection": false
     },
     {
       "__index": 4,
       "name": "Spontaneous Summoning",
       "desc": "A druid can channel stored {g|Encyclopedia:Spell}spell{/g} energy into summoning spells that she hasn\u0027t prepared ahead of time. She can \u0022lose\u0022 a prepared spell in order to cast any summon nature\u0027s ally spell of the same level or lower.",
-      "icon": "9675bc5cb7aa9a44ba670c614b9ef471"
+      "icon": "9675bc5cb7aa9a44ba670c614b9ef471",
+      "isSelection": false
     },
     {
       "__index": 5,
       "name": "Woodland Stride",
       "desc": "At 3rd level, you can move through any sort difficult terrain at your normal {g|Encyclopedia:Speed}speed{/g} and without taking {g|Encyclopedia:Damage}damage{/g} or suffering any other impairment.",
-      "icon": "b38e3032f469bc14696d7270d6e7b5f2"
+      "icon": "b38e3032f469bc14696d7270d6e7b5f2",
+      "isSelection": false
     },
     {
       "__index": 6,
       "name": "Resist Nature\u0027s Lure",
       "desc": "Starting at 4th level, a druid gains a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against the {g|Encyclopedia:Spell}spell{/g}-like and {g|Encyclopedia:Special_Abilities}supernatural abilities{/g} of fey and plants.",
-      "icon": "d4960a0f7e7cc6843bf6d675985fd381"
+      "icon": "d4960a0f7e7cc6843bf6d675985fd381",
+      "isSelection": false
     },
     {
       "__index": 7,
       "name": "Wild Shape (Wolf)",
       "desc": "At 4th level, a druid gains the ability to turn herself into a wolf and back again once per day. The effect lasts for 1 hour per druid level, or until she changes back.\nChanging form is a {g|Encyclopedia:Standard_Actions}standard action{/g} and doesn\u0027t provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}. A druid can use this ability an additional time per day at 6th level and every two levels thereafter, for a total of eight times at 18th level.\nAt 6th level, a druid can use wild shape to change into a leopard or a small elemental. At 8th level, a druid can use wild shape to change into a bear or a medium elemental. At 10th level, a druid can use wild shape to change into a smilodon, a shambling mound, or a large elemental. At 12th level, a druid can use wild shape to change into a huge elemental.\nFor the feyspeaker archetype, all level prerequisites are increased by 2.",
-      "icon": "a6dc79e6b9d54114180425123ec2cd9f"
+      "icon": "a6dc79e6b9d54114180425123ec2cd9f",
+      "isSelection": false
     },
     {
       "__index": 8,
       "name": "Wild Shape (Leopard)",
       "desc": "At 4th level, a druid gains the ability to turn herself into a wolf and back again once per day. The effect lasts for 1 hour per druid level, or until she changes back.\nChanging form is a {g|Encyclopedia:Standard_Actions}standard action{/g} and doesn\u0027t provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}. A druid can use this ability an additional time per day at 6th level and every two levels thereafter, for a total of eight times at 18th level.\nAt 6th level, a druid can use wild shape to change into a leopard or a small elemental. At 8th level, a druid can use wild shape to change into a bear or a medium elemental. At 10th level, a druid can use wild shape to change into a smilodon, a shambling mound, or a large elemental. At 12th level, a druid can use wild shape to change into a huge elemental.\nFor the feyspeaker archetype, all level prerequisites are increased by 2.",
-      "icon": "a6dc79e6b9d54114180425123ec2cd9f"
+      "icon": "a6dc79e6b9d54114180425123ec2cd9f",
+      "isSelection": false
     },
     {
       "__index": 9,
       "name": "Wild Shape (Small Elemental)",
       "desc": "At 4th level, a druid gains the ability to turn herself into a wolf and back again once per day. The effect lasts for 1 hour per druid level, or until she changes back.\nChanging form is a {g|Encyclopedia:Standard_Actions}standard action{/g} and doesn\u0027t provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}. A druid can use this ability an additional time per day at 6th level and every two levels thereafter, for a total of eight times at 18th level.\nAt 6th level, a druid can use wild shape to change into a leopard or a small elemental. At 8th level, a druid can use wild shape to change into a bear or a medium elemental. At 10th level, a druid can use wild shape to change into a smilodon, a shambling mound, or a large elemental. At 12th level, a druid can use wild shape to change into a huge elemental.\nFor the feyspeaker archetype, all level prerequisites are increased by 2.",
-      "icon": "a6dc79e6b9d54114180425123ec2cd9f"
+      "icon": "a6dc79e6b9d54114180425123ec2cd9f",
+      "isSelection": false
     },
     {
       "__index": 10,
       "name": "Wild Shape (Bear)",
       "desc": "At 4th level, a druid gains the ability to turn herself into a wolf and back again once per day. The effect lasts for 1 hour per druid level, or until she changes back.\nChanging form is a {g|Encyclopedia:Standard_Actions}standard action{/g} and doesn\u0027t provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}. A druid can use this ability an additional time per day at 6th level and every two levels thereafter, for a total of eight times at 18th level.\nAt 6th level, a druid can use wild shape to change into a leopard or a small elemental. At 8th level, a druid can use wild shape to change into a bear or a medium elemental. At 10th level, a druid can use wild shape to change into a smilodon, a shambling mound, or a large elemental. At 12th level, a druid can use wild shape to change into a huge elemental.\nFor the feyspeaker archetype, all level prerequisites are increased by 2.",
-      "icon": "a6dc79e6b9d54114180425123ec2cd9f"
+      "icon": "a6dc79e6b9d54114180425123ec2cd9f",
+      "isSelection": false
     },
     {
       "__index": 11,
       "name": "Wild Shape (Medium Elemental)",
       "desc": "At 4th level, a druid gains the ability to turn herself into a wolf and back again once per day. The effect lasts for 1 hour per druid level, or until she changes back.\nChanging form is a {g|Encyclopedia:Standard_Actions}standard action{/g} and doesn\u0027t provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}. A druid can use this ability an additional time per day at 6th level and every two levels thereafter, for a total of eight times at 18th level.\nAt 6th level, a druid can use wild shape to change into a leopard or a small elemental. At 8th level, a druid can use wild shape to change into a bear or a medium elemental. At 10th level, a druid can use wild shape to change into a smilodon, a shambling mound, or a large elemental. At 12th level, a druid can use wild shape to change into a huge elemental.\nFor the feyspeaker archetype, all level prerequisites are increased by 2.",
-      "icon": "a6dc79e6b9d54114180425123ec2cd9f"
+      "icon": "a6dc79e6b9d54114180425123ec2cd9f",
+      "isSelection": false
     },
     {
       "__index": 12,
       "name": "Venom Immunity",
       "desc": "At 9th level, a druid gains immunity to all poisons.",
-      "icon": "7269f14b47597024ea9ca40d91b94afc"
+      "icon": "7269f14b47597024ea9ca40d91b94afc",
+      "isSelection": false
     },
     {
       "__index": 13,
       "name": "Wild Shape (Smilodon)",
       "desc": "At 4th level, a druid gains the ability to turn herself into a wolf and back again once per day. The effect lasts for 1 hour per druid level, or until she changes back.\nChanging form is a {g|Encyclopedia:Standard_Actions}standard action{/g} and doesn\u0027t provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}. A druid can use this ability an additional time per day at 6th level and every two levels thereafter, for a total of eight times at 18th level.\nAt 6th level, a druid can use wild shape to change into a leopard or a small elemental. At 8th level, a druid can use wild shape to change into a bear or a medium elemental. At 10th level, a druid can use wild shape to change into a smilodon, a shambling mound, or a large elemental. At 12th level, a druid can use wild shape to change into a huge elemental.\nFor the feyspeaker archetype, all level prerequisites are increased by 2.",
-      "icon": "a6dc79e6b9d54114180425123ec2cd9f"
+      "icon": "a6dc79e6b9d54114180425123ec2cd9f",
+      "isSelection": false
     },
     {
       "__index": 14,
       "name": "Wild Shape (Large Elemental)",
       "desc": "At 4th level, a druid gains the ability to turn herself into a wolf and back again once per day. The effect lasts for 1 hour per druid level, or until she changes back.\nChanging form is a {g|Encyclopedia:Standard_Actions}standard action{/g} and doesn\u0027t provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}. A druid can use this ability an additional time per day at 6th level and every two levels thereafter, for a total of eight times at 18th level.\nAt 6th level, a druid can use wild shape to change into a leopard or a small elemental. At 8th level, a druid can use wild shape to change into a bear or a medium elemental. At 10th level, a druid can use wild shape to change into a smilodon, a shambling mound, or a large elemental. At 12th level, a druid can use wild shape to change into a huge elemental.\nFor the feyspeaker archetype, all level prerequisites are increased by 2.",
-      "icon": "a6dc79e6b9d54114180425123ec2cd9f"
+      "icon": "a6dc79e6b9d54114180425123ec2cd9f",
+      "isSelection": false
     },
     {
       "__index": 15,
       "name": "Wild Shape (Shambling Mound)",
       "desc": "At 4th level, a druid gains the ability to turn herself into a wolf and back again once per day. The effect lasts for 1 hour per druid level, or until she changes back.\nChanging form is a {g|Encyclopedia:Standard_Actions}standard action{/g} and doesn\u0027t provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}. A druid can use this ability an additional time per day at 6th level and every two levels thereafter, for a total of eight times at 18th level.\nAt 6th level, a druid can use wild shape to change into a leopard or a small elemental. At 8th level, a druid can use wild shape to change into a bear or a medium elemental. At 10th level, a druid can use wild shape to change into a smilodon, a shambling mound, or a large elemental. At 12th level, a druid can use wild shape to change into a huge elemental.\nFor the feyspeaker archetype, all level prerequisites are increased by 2.",
-      "icon": "a6dc79e6b9d54114180425123ec2cd9f"
+      "icon": "a6dc79e6b9d54114180425123ec2cd9f",
+      "isSelection": false
     },
     {
       "__index": 16,
       "name": "Wild Shape (Huge Elemental)",
       "desc": "At 4th level, a druid gains the ability to turn herself into a wolf and back again once per day. The effect lasts for 1 hour per druid level, or until she changes back.\nChanging form is a {g|Encyclopedia:Standard_Actions}standard action{/g} and doesn\u0027t provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}. A druid can use this ability an additional time per day at 6th level and every two levels thereafter, for a total of eight times at 18th level.\nAt 6th level, a druid can use wild shape to change into a leopard or a small elemental. At 8th level, a druid can use wild shape to change into a bear or a medium elemental. At 10th level, a druid can use wild shape to change into a smilodon, a shambling mound, or a large elemental. At 12th level, a druid can use wild shape to change into a huge elemental.\nFor the feyspeaker archetype, all level prerequisites are increased by 2.",
-      "icon": "a6dc79e6b9d54114180425123ec2cd9f"
+      "icon": "a6dc79e6b9d54114180425123ec2cd9f",
+      "isSelection": false
     },
     {
       "__index": 17,
-      "name": "Blight Bond",
-      "desc": "A blight druid may not bond with an animal companion, but may select from the {g|Encyclopedia:Injury_Death}Death{/g} and Destruction domains in addition to those normally available.",
-      "icon": "gen__BB"
+      "name": "Blightblooded",
+      "desc": "At 9th level, a blight druid gains immunity to all diseases, including natural and supernatural diseases. She also becomes immune to effects that would cause her to become sickened or nauseated.",
+      "icon": "gen__B",
+      "isSelection": false
     },
     {
       "__index": 18,
-      "name": "Miasma",
-      "desc": "Starting at 5th level, if a blight druid is adjacent to a creature at the beginning of its turn, the creature must succeed at a {g|Encyclopedia:Saving_Throw}Fortitude save{/g} with a {g|Encyclopedia:DC}DC{/g} of 10 \u002B 1/2 the druid\u0027s level \u002B the druid\u0027s {g|Encyclopedia:Wisdom}Wisdom{/g} modifier or become sickened for 1 {g|Encyclopedia:Combat_Round}round{/g}. A creature of the animal, fey, or plant type that fails its save is nauseated for 1 round and sickened for 1 minute thereafter. If the creature makes its save, it is immune to this effect for 24 hours, as are creatures immune to disease.",
-      "icon": "0edae92ab4f67ae4c923baa6bce318ef"
+      "name": "Beguiling Immunity",
+      "desc": "At 9th level, a defender of the true world becomes immune to the mind-affecting effects of fey.",
+      "icon": "b571fe5defdcf67489e23c8f115f1f2c",
+      "isSelection": false
     },
     {
       "__index": 19,
-      "name": "Blightblooded",
-      "desc": "At 9th level, a blight druid gains immunity to all diseases, including natural and supernatural diseases. She also becomes immune to effects that would cause her to become sickened or nauseated.",
-      "icon": "gen__B"
+      "name": "Miasma",
+      "desc": "Starting at 5th level, if a blight druid is adjacent to a creature at the beginning of its turn, the creature must succeed at a {g|Encyclopedia:Saving_Throw}Fortitude save{/g} with a {g|Encyclopedia:DC}DC{/g} of 10 \u002B 1/2 the druid\u0027s level \u002B the druid\u0027s {g|Encyclopedia:Wisdom}Wisdom{/g} modifier or become sickened for 1 {g|Encyclopedia:Combat_Round}round{/g}. A creature of the animal, fey, or plant type that fails its save is nauseated for 1 round and sickened for 1 minute thereafter. If the creature makes its save, it is immune to this effect for 24 hours, as are creatures immune to disease.",
+      "icon": "0edae92ab4f67ae4c923baa6bce318ef",
+      "isSelection": false
     },
     {
       "__index": 20,
       "name": "Plaguebearer",
       "desc": "Starting at 13th level, any creature that strikes a blight druid with a {g|Encyclopedia:TouchAttack}touch attack{/g}, {g|Encyclopedia:UnarmedAttack}unarmed{/g} strike, or {g|Encyclopedia:NaturalAttack}natural weapon{/g} must succeed at a {g|Encyclopedia:Saving_Throw}Fortitude save{/g} with a {g|Encyclopedia:DC}DC{/g} of 10 \u002B 1/2 the druid\u0027s level \u002B the druid\u0027s {g|Encyclopedia:Wisdom}Wisdom{/g} modifier or become nauseated for 1 {g|Encyclopedia:Combat_Round}round{/g} and contract bubonic plague, as the contagion {g|Encyclopedia:Spell}spell{/g}. If the creature makes its save, it is immune to this effect for 24 hours.",
-      "icon": "709170fcedadeeb47bca37fff0d5826e"
+      "icon": "709170fcedadeeb47bca37fff0d5826e",
+      "isSelection": false
     },
     {
       "__index": 21,
       "name": "Enemy of the Fey",
       "desc": "A defender of the true world gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on weapon {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} against fey.\nA defender of the true world can channel stored {g|Encyclopedia:Spell}spell{/g} energy into summoning spells that she hasn\u0027t prepared ahead of time, but she cannot use summon nature\u0027s ally to summon fey creatures. She can \u0022lose\u0022 a prepared spell of 7th or lower level in order to cast any summon nature\u0027s ally spell of the same level or lower. She can \u0022lose\u0022 a prepared spell of 8th level to cast summon elder earth elemental or \u0022lose\u0022 a prepared spell of 9th level to cast summon elder worm.",
-      "icon": "01ca819912e070c4b9b6bd0c9699a166"
+      "icon": "01ca819912e070c4b9b6bd0c9699a166",
+      "isSelection": false
     },
     {
       "__index": 22,
-      "name": "Fey Stalker",
-      "desc": "At 3rd level, the defender of the true world\u0027s animal companion and any creatures she summons with summon nature\u0027s ally gain a \u002B1 morale {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} against fey creatures. This bonus increases to \u002B2 at 8th level, \u002B3 at 13th level, and \u002B4 at 18th level.",
-      "icon": "ddf30d3e62eb1b94a9e3c1f1901f0102"
+      "name": "Feybane",
+      "desc": "Starting at 4th level, a defender of the true world gains a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against the {g|Encyclopedia:Spell}spell{/g}-like and {g|Encyclopedia:Special_Abilities}supernatural abilities{/g} of fey. She treats her {g|Encyclopedia:NaturalAttack}natural attacks{/g} as cold iron for the purpose of overcoming {g|Encyclopedia:Damage_Reduction}damage reduction{/g}, and she gains a \u002B2 bonus on {g|Encyclopedia:Caster_Level}caster level{/g} {g|Encyclopedia:Check}checks{/g} to overcome the {g|Encyclopedia:Spell_Resistance}spell resistance{/g} of fey creatures.",
+      "icon": "6956f3e61c5f63f409d6be5b6e693dbc",
+      "isSelection": false
     },
     {
       "__index": 23,
-      "name": "Feybane",
-      "desc": "Starting at 4th level, a defender of the true world gains a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} against the {g|Encyclopedia:Spell}spell{/g}-like and {g|Encyclopedia:Special_Abilities}supernatural abilities{/g} of fey. She treats her {g|Encyclopedia:NaturalAttack}natural attacks{/g} as cold iron for the purpose of overcoming {g|Encyclopedia:Damage_Reduction}damage reduction{/g}, and she gains a \u002B2 bonus on {g|Encyclopedia:Caster_Level}caster level{/g} {g|Encyclopedia:Check}checks{/g} to overcome the {g|Encyclopedia:Spell_Resistance}spell resistance{/g} of fey creatures.",
-      "icon": "6956f3e61c5f63f409d6be5b6e693dbc"
+      "name": "Communal Aspect",
+      "desc": "At 4th level, a drovier can imbue her allies (including herself ) with an aspect of a wild animal. As a {g|Encyclopedia:Standard_Actions}standard action{/g}, she chooses an animal totem and grants the abilities of that totem to every ally within 30 feet. This otherwise functions like the {g|Encyclopedia:Spell}spell{/g} animal aspect. She can use this ability for 10 minutes per druid level each day. This duration does not need to be consecutive, but it must be used in 10-minute increments. If she uses the ability to grant a new aspect, any previous aspect immediately ends.\nAt 6th level, the drovier\u0027s communal aspect ability grants the benefits of the spell greater animal aspect.\nAt 8th level, the drovier can choose to grant her allies the benefits of the spell aspect of the falcon instead of an animal aspect.\nAt 10th level, the drovier can choose to grant her allies the benefits of the spell aspect of the bear instead of an animal aspect.\nAt 12th level, the drovier can choose to grant her allies the benefits of the spell aspect of the stag instead of an animal aspect.\nAt 14th level, the drovier can choose to grant her allies the benefits of the spell aspect of the wolf rather than an animal aspect.\nAt 20th level, the drovier can use this ability at will.\nThis replaces wild shape.",
+      "icon": "dece76bddb42c2d4c8f3d1f198bec6a8",
+      "isSelection": false
     },
     {
       "__index": 24,
-      "name": "Beguiling Immunity",
-      "desc": "At 9th level, a defender of the true world becomes immune to the mind-affecting effects of fey.",
-      "icon": "b571fe5defdcf67489e23c8f115f1f2c"
+      "name": "Communal Aspect",
+      "desc": "At 6th level, the drovier\u0027s communal aspect ability grants the benefits of the {g|Encyclopedia:Spell}spell{/g} greater animal aspect.",
+      "icon": "396583cee2963284698d7d1784b1e8ad",
+      "isSelection": false
     },
     {
       "__index": 25,
-      "name": "Fey Magic",
-      "desc": "At 1st level, a feyspeaker allows the strange idylls of the fey to guide her magic. The feyspeaker uses her {g|Encyclopedia:Charisma}Charisma{/g} score instead of her {g|Encyclopedia:Wisdom}Wisdom{/g} score as her key {g|Encyclopedia:Spell}spellcasting{/g} {g|Encyclopedia:Ability_Scores}ability score{/g} (to determine her spell DCs, bonus spells per day, {g|Encyclopedia:Concentration}concentration checks{/g}, and so on).\nAt 4th, 6th, 8th, 10th, 12th, 14th, 16th, and 18th levels, a feyspeaker adds one Enchantment or Illusion spell from the sorcerer/wizard spell list to her druid spell list as a spell of 1 level higher (for instance, at 4th level, she could add color spray as a 2nd-level druid spell). In order to select a spell, she must be of a level high enough (including the increased spell level) to cast it. Once selected, the spell cannot be changed.",
-      "icon": "gen__FM"
+      "name": "Communal Aspect",
+      "desc": "At 10th level, the drovier can choose to grant her allies the benefits of the {g|Encyclopedia:Spell}spell{/g} aspect of the bear instead of an animal aspect.",
+      "icon": "2fd4414881780dd46afe615b797c82af",
+      "isSelection": false
     },
     {
       "__index": 26,
-      "name": "Animal Companion",
-      "desc": "Unlike normal animals of its kind, an animal companion\u0027s {g|Encyclopedia:Hit_Dice}Hit Dice{/g}, abilities, {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Feat}feats{/g} advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in {g|Encyclopedia:Size}size{/g} when their druid reaches 4th or 7th level, depending on the companion.",
-      "icon": "736cb7b0def6ff147b921c75c54a81a0"
+      "name": "Communal Aspect",
+      "desc": "At 8th level, the drovier can choose to grant her allies the benefits of the {g|Encyclopedia:Spell}spell{/g} aspect of the falcon instead of an animal aspect.",
+      "icon": "5dd7f7b3794d86d42ad4f93b5b1a443b",
+      "isSelection": false
     },
     {
       "__index": 27,
       "name": "Communal Aspect",
-      "desc": "At 4th level, a drovier can imbue her allies (including herself ) with an aspect of a wild animal. As a {g|Encyclopedia:Standard_Actions}standard action{/g}, she chooses an animal totem and grants the abilities of that totem to every ally within 30 feet. This otherwise functions like the {g|Encyclopedia:Spell}spell{/g} animal aspect. She can use this ability for 10 minutes per druid level each day. This duration does not need to be consecutive, but it must be used in 10-minute increments. If she uses the ability to grant a new aspect, any previous aspect immediately ends.\nAt 6th level, the drovier\u0027s communal aspect ability grants the benefits of the spell greater animal aspect.\nAt 8th level, the drovier can choose to grant her allies the benefits of the spell aspect of the falcon instead of an animal aspect.\nAt 10th level, the drovier can choose to grant her allies the benefits of the spell aspect of the bear instead of an animal aspect.\nAt 12th level, the drovier can choose to grant her allies the benefits of the spell aspect of the stag instead of an animal aspect.\nAt 14th level, the drovier can choose to grant her allies the benefits of the spell aspect of the wolf rather than an animal aspect.\nAt 20th level, the drovier can use this ability at will.\nThis replaces wild shape.",
-      "icon": "dece76bddb42c2d4c8f3d1f198bec6a8"
+      "desc": "At 12th level, the drovier can choose to grant her allies the benefits of the {g|Encyclopedia:Spell}spell{/g} aspect of the stag instead of an animal aspect.",
+      "icon": "02ad3d21009f15b4090c62f7cc0f3ce0",
+      "isSelection": false
     },
     {
       "__index": 28,
       "name": "Communal Aspect",
-      "desc": "At 6th level, the drovier\u0027s communal aspect ability grants the benefits of the {g|Encyclopedia:Spell}spell{/g} greater animal aspect.",
-      "icon": "396583cee2963284698d7d1784b1e8ad"
+      "desc": "At 14th level, the drovier can choose to grant her allies the benefits of the {g|Encyclopedia:Spell}spell{/g} aspect of the wolf rather than an animal aspect.",
+      "icon": "e4db95ce4ea816b499231eaea69abc2d",
+      "isSelection": false
     },
     {
       "__index": 29,
       "name": "Communal Aspect",
-      "desc": "At 8th level, the drovier can choose to grant her allies the benefits of the {g|Encyclopedia:Spell}spell{/g} aspect of the falcon instead of an animal aspect.",
-      "icon": "5dd7f7b3794d86d42ad4f93b5b1a443b"
+      "desc": "At 20th level, the drovier can use this ability at will.",
+      "icon": "77b3a39fb33ba5b4086cd4616e4a220b",
+      "isSelection": false
     },
     {
       "__index": 30,
-      "name": "Communal Aspect",
-      "desc": "At 10th level, the drovier can choose to grant her allies the benefits of the {g|Encyclopedia:Spell}spell{/g} aspect of the bear instead of an animal aspect.",
-      "icon": "2fd4414881780dd46afe615b797c82af"
+      "name": "Blight Bond",
+      "desc": "A blight druid may not bond with an animal companion, but may select from the {g|Encyclopedia:Injury_Death}Death{/g} and Destruction domains in addition to those normally available.",
+      "icon": "gen__BB",
+      "isSelection": true
     },
     {
       "__index": 31,
-      "name": "Communal Aspect",
-      "desc": "At 12th level, the drovier can choose to grant her allies the benefits of the {g|Encyclopedia:Spell}spell{/g} aspect of the stag instead of an animal aspect.",
-      "icon": "02ad3d21009f15b4090c62f7cc0f3ce0"
+      "name": "Animal Companion",
+      "desc": "Unlike normal animals of its kind, an animal companion\u0027s {g|Encyclopedia:Hit_Dice}Hit Dice{/g}, abilities, {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Feat}feats{/g} advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in {g|Encyclopedia:Size}size{/g} when their druid reaches 4th or 7th level, depending on the companion.",
+      "icon": "736cb7b0def6ff147b921c75c54a81a0",
+      "isSelection": true
     },
     {
       "__index": 32,
-      "name": "Communal Aspect",
-      "desc": "At 14th level, the drovier can choose to grant her allies the benefits of the {g|Encyclopedia:Spell}spell{/g} aspect of the wolf rather than an animal aspect.",
-      "icon": "e4db95ce4ea816b499231eaea69abc2d"
+      "name": "Fey Stalker",
+      "desc": "At 3rd level, the defender of the true world\u0027s animal companion and any creatures she summons with summon nature\u0027s ally gain a \u002B1 morale {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} against fey creatures. This bonus increases to \u002B2 at 8th level, \u002B3 at 13th level, and \u002B4 at 18th level.",
+      "icon": "ddf30d3e62eb1b94a9e3c1f1901f0102",
+      "isSelection": false
     },
     {
       "__index": 33,
-      "name": "Communal Aspect",
-      "desc": "At 20th level, the drovier can use this ability at will.",
-      "icon": "77b3a39fb33ba5b4086cd4616e4a220b"
+      "name": "Fey Magic",
+      "desc": "At 1st level, a feyspeaker allows the strange idylls of the fey to guide her magic. The feyspeaker uses her {g|Encyclopedia:Charisma}Charisma{/g} score instead of her {g|Encyclopedia:Wisdom}Wisdom{/g} score as her key {g|Encyclopedia:Spell}spellcasting{/g} {g|Encyclopedia:Ability_Scores}ability score{/g} (to determine her spell DCs, bonus spells per day, {g|Encyclopedia:Concentration}concentration checks{/g}, and so on).\nAt 4th, 6th, 8th, 10th, 12th, 14th, 16th, and 18th levels, a feyspeaker adds one Enchantment or Illusion spell from the sorcerer/wizard spell list to her druid spell list as a spell of 1 level higher (for instance, at 4th level, she could add color spray as a 2nd-level druid spell). In order to select a spell, she must be of a level high enough (including the increased spell level) to cast it. Once selected, the spell cannot be changed.",
+      "icon": "gen__FM",
+      "isSelection": true
     },
     {
       "__index": 34,
       "name": "Claws",
       "desc": "At 1st level, elemental rampager gains a claw {g|Encyclopedia:Attack}attack{/g}, that deals {g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Damage}damage{/g} (for medium creature). At 9th level damage of his claw increases to 1d8, and to 1d10 at 15th level.",
-      "icon": "gen__C"
+      "icon": "gen__C",
+      "isSelection": false
     },
     {
       "__index": 35,
       "name": "Rampage",
       "desc": "A druid can call upon nature\u0027s {g|Encyclopedia:Strength}strength{/g}, granting her additional combat prowess. At 1st level, a druid can rampage for a number of {g|Encyclopedia:Combat_Round}rounds{/g} per day equal to 4 \u002B her {g|Encyclopedia:Constitution}Constitution{/g} modifier. For each level after 1st she possesses, the druid can rampage for 2 additional rounds per day.\nWhile rampaging, a druid gains a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} {g|Encyclopedia:Attack}attack roll{/g} and {g|Encyclopedia:Damage}damage rolls{/g} made with {g|Encyclopedia:NaturalAttack}natural weapons{/g}. In addition, she takes a \u20132 {g|Encyclopedia:Penalty}penalty{/g} to {g|Encyclopedia:Armor_Class}Armor Class{/g}. These bonuses are increased by 1 at 6th level and every 5 levels after.",
-      "icon": "gen__R"
+      "icon": "gen__R",
+      "isSelection": false
     },
     {
       "__index": 36,
       "name": "Elemental Rampage",
       "desc": "At 4th level, elemental rampager selects one element. He gains a {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Damage}damage{/g} with {g|Encyclopedia:NaturalAttack}natural attacks{/g} while rampaging, {g|Encyclopedia:Energy_Resistance}energy resistance{/g} to the chosen element and other bonuses, depending on the selected element.",
-      "icon": "gen__ER"
+      "icon": "gen__ER",
+      "isSelection": true
     },
     {
       "__index": 37,
       "name": "Claws",
       "desc": "At 1st level, elemental rampager gains a claw {g|Encyclopedia:Attack}attack{/g}, that deals {g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Damage}damage{/g} (for medium creature). At 9th level damage of his claw increases to 1d8, and to 1d10 at 15th level.",
-      "icon": "gen__C"
+      "icon": "gen__C",
+      "isSelection": false
     },
     {
       "__index": 38,
       "name": "Claws",
       "desc": "At 1st level, elemental rampager gains a claw {g|Encyclopedia:Attack}attack{/g}, that deals {g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Damage}damage{/g} (for medium creature). At 9th level damage of his claw increases to 1d8, and to 1d10 at 15th level.",
-      "icon": "gen__C"
+      "icon": "gen__C",
+      "isSelection": false
     },
     {
       "__index": 39,
       "name": "Animal Companion",
       "desc": "Unlike normal animals of its kind, an animal companion\u0027s {g|Encyclopedia:Hit_Dice}Hit Dice{/g}, abilities, {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Feat}feats{/g} advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in {g|Encyclopedia:Size}size{/g} when their druid reaches 4th or 7th level, depending on the companion.",
-      "icon": "736cb7b0def6ff147b921c75c54a81a0"
+      "icon": "736cb7b0def6ff147b921c75c54a81a0",
+      "isSelection": true
     },
     {
       "__index": 40,
       "name": "Primal Size",
       "desc": "A primal druid adds enlarge person to her list of class {g|Encyclopedia:Spell}spells{/g}.\nShe can also channel stored spell energy to cast this spell without preparing it\u2014she can lose a prepared spell of 1st level or higher to cast enlarge person.\nAt 8th level, if a primal druid casts enlarge person on himself, he gains \u002B4 {g|Encyclopedia:Size}size{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Strength}Strength{/g} and {g|Encyclopedia:Constitution}Constitution{/g} instead of the usual bonuses.\nAt 16th level, if a primal druid casts enlarge person on himself, he increases by two size categories and gains \u002B6 size bonus to Strength and Constitution instead of the usual bonuses.",
-      "icon": "gen__PS"
+      "icon": "gen__PS",
+      "isSelection": false
     }
   ],
   "name": "Druid",
   "desc": "While some druids might keep to the fringe of battle, allowing companions and summoned creatures to fight while they confound foes with the powers of nature, others transform into deadly beasts and savagely wade into combat. Druids worship personifications of elemental forces, natural powers, or nature itself. Typically this means devotion to a nature deity, though druids are just as likely to revere vague spirits, animalistic demigods, or even specific awe-inspiring natural wonders.",
   "layout": [
-    [
-      {
-        "level": 1,
-        "feature": 0,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 4,
-        "feature": 7,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 9,
-        "feature": 12,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 1,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 2,
-        "feature": 5,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 4,
-        "feature": 6,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 6,
-        "feature": 8,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 8,
-        "feature": 10,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 10,
-        "feature": 13,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 12,
-        "feature": 16,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 2,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 6,
-        "feature": 9,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 8,
-        "feature": 11,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 10,
-        "feature": 14,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 3,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 10,
-        "feature": 15,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 4,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
+    {
+      "name": null,
+      "rows": [
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 0,
+              "feature": 2,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 1,
+              "feature": 0,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 4,
+              "feature": 7,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 9,
+              "feature": 12,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 0,
+              "feature": 1,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 2,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 4,
+              "feature": 6,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 6,
+              "feature": 8,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 8,
+              "feature": 10,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 10,
+              "feature": 13,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 12,
+              "feature": 16,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 0,
+              "feature": 3,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 6,
+              "feature": 9,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 8,
+              "feature": 11,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 10,
+              "feature": 14,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": false,
+          "features": []
+        },
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 0,
+              "feature": 4,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 10,
+              "feature": 15,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": []
+        }
+      ]
+    }
   ],
   "bab": [
     0,
@@ -814,157 +904,204 @@
       "desc": "The devoted servants of nature corrupted, ruined, and destroyed, blight druids are the caretakers of lands ravaged by natural disaster. While some are devoted to reforming and reclaiming lands despoiled by the ravages of civilization, others seek out the more rapacious violence inherent in nature and feed the creeping rot and decay that brings an end to all things.",
       "id": "35a3b7bfc663ac74aa8bb50adfe70813",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 9,
-            "feature": 12,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 5,
-            "feature": 18,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 6,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 10,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 9,
-            "feature": 19,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 13,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 16,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 20,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 11,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 14,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 15,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 17,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 5,
+                  "feature": 19,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 13,
+                  "feature": 20,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 1,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 9,
+                  "feature": 17,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 6,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 9,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 16,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 10,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Blight Bond",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 30,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -986,176 +1123,217 @@
       "desc": "Some druids specialize in tracking down, diverting, and slaying fey threats.",
       "id": "782c46afacd88d448afba6178471a744",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 9,
-            "feature": 12,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 6,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 6,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 10,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 9,
-            "feature": 24,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 13,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 16,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 23,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 6,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 11,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 14,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 15,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 21,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 3,
-            "feature": 22,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 8,
-            "feature": 22,
-            "rank": 2,
-            "archType": 1
-          },
-          {
-            "level": 13,
-            "feature": 22,
-            "rank": 3,
-            "archType": 1
-          },
-          {
-            "level": 18,
-            "feature": 22,
-            "rank": 4,
-            "archType": 1
-          }
-        ],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 21,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 4,
+                  "feature": 22,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 3,
+                  "feature": 32,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 8,
+                  "feature": 32,
+                  "rank": 2,
+                  "archType": 1
+                },
+                {
+                  "level": 13,
+                  "feature": 32,
+                  "rank": 3,
+                  "archType": 1
+                },
+                {
+                  "level": 18,
+                  "feature": 32,
+                  "rank": 4,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 9,
+                  "feature": 18,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 6,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 9,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 16,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 6,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 10,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1177,202 +1355,240 @@
       "desc": "Some druids hear the whispers of the natural world like fey creatures do, and learn to mimic those tantalizing murmurs in order to influence the minds of both wild beasts and civilized people. These feyspeakers are often touched by the fey in some way, such as mortals who dared to eat the food and drink the wine while in the hidden halls of the fey.",
       "id": "da69747aa3dd0044ebff5f3d701cdde3",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 6,
-            "feature": 7,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 9,
-            "feature": 12,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 8,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 8,
-            "feature": 10,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 13,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 12,
-            "feature": 16,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 9,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 8,
-            "feature": 11,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 14,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 12,
-            "feature": 13,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 8,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 15,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 10,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 4,
-            "feature": 25,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 6,
-            "feature": 25,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 8,
-            "feature": 25,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 25,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 12,
-            "feature": 25,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 14,
-            "feature": 25,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 16,
-            "feature": 25,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 18,
-            "feature": 25,
-            "rank": -1,
-            "archType": 1
-          }
-        ]
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 33,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 33,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 8,
+                  "feature": 33,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 10,
+                  "feature": 33,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 12,
+                  "feature": 33,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 14,
+                  "feature": 33,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 16,
+                  "feature": 33,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 18,
+                  "feature": 33,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 6,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 9,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 6,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 8,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 8,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 10,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 12,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 8,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 12,
+                  "feature": 16,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 10,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": [
         0,
@@ -1738,185 +1954,214 @@
       "desc": "Droviers view their allies and adventuring companions as a herd or pack to be protected and directed, with variations on that theme ranging from culture to culture.",
       "id": "a6bf603aa4d666f4f86dab0289e2048c",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 7,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 9,
-            "feature": 12,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 6,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 8,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 8,
-            "feature": 10,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 13,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 12,
-            "feature": 16,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 14,
-            "feature": 32,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 33,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 4,
-            "feature": 27,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 6,
-            "feature": 9,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 8,
-            "feature": 11,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 14,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 12,
-            "feature": 31,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 28,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 8,
-            "feature": 29,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 15,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 30,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 26,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 31,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 4,
+                  "feature": 23,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 24,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 8,
+                  "feature": 26,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 10,
+                  "feature": 25,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 12,
+                  "feature": 27,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 14,
+                  "feature": 28,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 29,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 1,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 9,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 8,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 12,
+                  "feature": 16,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 8,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1938,165 +2183,217 @@
       "desc": "Some druids embrace the destructive aspect of nature and its elements, using this power to fuel their prowess in melee combat.",
       "id": "f815594bd1e3454182022d375bf70fd1",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 9,
-            "feature": 12,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 6,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 6,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 10,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 9,
-            "feature": 37,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 13,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 16,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 15,
-            "feature": 38,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 4,
-            "feature": 36,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 6,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 11,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 14,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 15,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 34,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 35,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 34,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 6,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 9,
+                  "feature": 37,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 10,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 16,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 15,
+                  "feature": 38,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 1,
+                  "feature": 35,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 9,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Elemental Rampage",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 4,
+                  "feature": 36,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -2118,144 +2415,181 @@
       "desc": "Primal druids hone their spiritual and magical connections to nature\u0027s largest creatures, especially dinosaurs and megafauna, revering these massive creatures as living relics of a primeval time when all creatures were more in harmony with nature.",
       "id": "c1c86e2997fd4257a13ef5601b5dc6dd",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 4,
-            "feature": 7,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 9,
-            "feature": 12,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 5,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 6,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 6,
-            "feature": 8,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 10,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 13,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 16,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 6,
-            "feature": 9,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 11,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 14,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 15,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [
-          {
-            "level": 1,
-            "feature": 39,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 40,
-            "rank": -1,
-            "archType": 1
-          }
-        ]
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 39,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 2,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 6,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 10,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 16,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 1,
+                  "feature": 40,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 6,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 14,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 4,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 9,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,

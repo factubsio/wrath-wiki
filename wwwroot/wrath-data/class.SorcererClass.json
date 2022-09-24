@@ -2,6 +2,11 @@
   "__ui-groups": [
     [
       3,
+      5,
+      6,
+      7,
+      8,
+      9,
       4
     ]
   ],
@@ -10,224 +15,1004 @@
       "__index": 0,
       "name": "Sorcerer Proficiencies",
       "desc": "Sorcerers are proficient with all {g|Encyclopedia:Weapon_Proficiency}simple weapons{/g}. They are not proficient with any type of armor or shield. Armor interferes with a sorcerer\u0027s gestures, which can cause her {g|Encyclopedia:Spell}spells{/g} with somatic components to fail.",
-      "icon": "gen__SP"
+      "icon": "gen__SP",
+      "isSelection": false
     },
     {
       "__index": 1,
       "name": "Cantrips",
       "desc": "Sorcerers can cast a number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
-      "icon": "gen__C"
+      "icon": "gen__C",
+      "isSelection": false
     },
     {
       "__index": 2,
       "name": "Bloodline",
       "desc": "Each sorcerer has a source of magic somewhere in her heritage that grants her {g|Encyclopedia:Spell}spells{/g}, bonus {g|Encyclopedia:Feat}feats{/g}, an additional class {g|Encyclopedia:Skills}skill{/g}, and other {g|Encyclopedia:Special_Abilities}special abilities{/g}. This source can represent a blood relation or an extreme event involving a creature somewhere in the family\u0027s past. For example, a sorcerer might have a dragon as a distant relative or her grandfather might have signed a terrible contract with a devil. Regardless of the source, this influence manifests in a number of ways as the sorcerer gains levels. A sorcerer must pick one bloodline upon taking her first level of sorcerer. Once made, this choice cannot be changed.\nFilled with magical power that screams for release, sorcery is not so much a calling as a blessing \u2014 or a curse. For some sorcerers, this arcane birthright manifests in subtle and carefully controlled ways, assisting in their manipulation of others or the pursuit of lofty goals. For others, it is wild and unpredictable, the primal and explosive lashing out of a power greater than themselves.\nAt 3rd level, and every two levels thereafter, a sorcerer learns an additional spell, derived from her bloodline. These spells are in addition to the number of spells given at new levels. These spells cannot be exchanged for different spells at higher levels.\nAt 7th level, and every six levels thereafter, a sorcerer receives one bonus feat, chosen from a list specific to each bloodline. The sorcerer must meet the prerequisites for these bonus feats.",
-      "icon": "gen__B"
+      "icon": "gen__B",
+      "isSelection": true
     },
     {
       "__index": 3,
       "name": "Sorcerer Bonus Feat",
       "desc": "At 1st level, a sorcerer gains a bonus {g|Encyclopedia:Feat}feat{/g}. At each such opportunity, she can choose a metamagic feat, {g|Encyclopedia:Spell}spell{/g} focus feat, or any other spellcaster feat. The sorcerer must still meet all prerequisites for a bonus feat, including {g|Encyclopedia:Caster_Level}caster level{/g} minimums.",
-      "icon": "gen__SBF"
+      "icon": "gen__SBF",
+      "isSelection": true
     },
     {
       "__index": 4,
       "name": "Bloodline Feat Selection",
       "desc": "At 7th level, and every six levels thereafter, a sorcerer receives one bonus {g|Encyclopedia:Feat}feat{/g}, chosen from a list specific to each bloodline. The sorcerer must meet the prerequisites for these bonus feats.",
-      "icon": "gen__BFS"
-    },
-    {
-      "__index": 5,
-      "name": "Empyreal Bloodline",
-      "desc": "Your heavenly power derives from insight rather than force of personality.",
-      "icon": "24592e942f5650148aa0d774257c6da3"
-    },
-    {
-      "__index": 6,
-      "name": "Cantrips",
-      "desc": "Sorcerers can cast a number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
-      "icon": "gen__C"
-    },
-    {
-      "__index": 7,
-      "name": "Sylvan Bloodline",
-      "desc": "Your ties to nature have more to do with creatures than with capriciousness.",
-      "icon": "736cb7b0def6ff147b921c75c54a81a0"
-    },
-    {
-      "__index": 8,
-      "name": "Animal Companion",
-      "desc": "Unlike normal animals of its kind, an animal companion\u0027s {g|Encyclopedia:Hit_Dice}Hit Dice{/g}, abilities, {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Feat}feats{/g} advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in {g|Encyclopedia:Size}size{/g} when their druid reaches 4th or 7th level, depending on the companion.",
-      "icon": "736cb7b0def6ff147b921c75c54a81a0"
-    },
-    {
-      "__index": 9,
-      "name": "Sage Sorcerer",
-      "desc": "Your magic comes from the knowledge and traditions that your bloodline accumulated through the generations, not just from force of personality. You use your {g|Encyclopedia:Intelligence}Intelligence{/g}, rather than your {g|Encyclopedia:Charisma}Charisma{/g}, to determine all class features and effects relating to your sorcerer class, such as bonus {g|Encyclopedia:Spell}spells{/g} per day, the maximum spell level you can cast, the {g|Encyclopedia:Saving_Throw}save{/g} DCs of your spells, and the number of daily uses of your bloodline powers.",
-      "icon": "15d11c952fdc96b45849f312f3931192"
+      "icon": "gen__BFS",
+      "isSelection": true
     },
     {
       "__index": 10,
-      "name": "Cantrips",
-      "desc": "Sorcerers can cast a number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
-      "icon": "gen__C"
+      "name": "Celestial Bloodline Arcana",
+      "desc": "Whenever you cast a {g|Encyclopedia:Spell}spell{/g} of the summoning subschool, the creatures summoned gain {g|Encyclopedia:Damage_Reduction}DR{/g}/evil equal to 1/2 your sorcerer level (minimum 1). This does not stack with any DR the creature might have.",
+      "icon": "d3e507d8c96b627448714a34392ee91f",
+      "isSelection": false
     },
     {
       "__index": 11,
-      "name": "Secondary Bloodline",
-      "desc": "A crossblooded sorcerer gains additional bloodline as a secondary bloodline. She receives only {g|Encyclopedia:Bonus}bonus{/g} class {g|Encyclopedia:Skills}skill{/g} and bonus {g|Encyclopedia:Spell}spells{/g} from this bloodline.",
-      "icon": "gen__SB"
+      "name": "Celestial Bloodline",
+      "desc": "Your bloodline is blessed by a celestial power, either from a celestial ancestor or through divine intervention. Although this power drives you along the path of good, your fate (and {g|Encyclopedia:Alignment}alignment{/g}) is your own to determine. Your celestial heritage grants you a great many powers, but they come at a price. The lords of the higher planes are watching you and your {g|Encyclopedia:CA_Types}actions{/g} closely.\n{g|Encyclopedia:Bonus}Bonus{/g} {g|Encyclopedia:Feat}Feats{/g} of the Celestial Bloodline: Dodge, Extend Spell, Iron Will, Agile {g|Encyclopedia:Combat_Maneuvers}Maneuvers{/g}, Augment Summoning, Superior Summoning, {g|Encyclopedia:Skills}Skill{/g} Focus ({g|Encyclopedia:Lore_Religion}Lore (religion){/g}), Weapon Finesse.",
+      "icon": "24592e942f5650148aa0d774257c6da3",
+      "isSelection": false
     },
     {
       "__index": 12,
-      "name": "Reduced Spellbook",
-      "desc": "A crossblooded sorcerer has one fewer spell known at each level than regular sorcerer.",
-      "icon": "gen__RS"
+      "name": "Heavenly Fire",
+      "desc": "Starting at 1st level, you can unleash a ray of heavenly fire as a {g|Encyclopedia:Standard_Actions}standard action{/g}, targeting any foe within 30 feet as a ranged {g|Encyclopedia:TouchAttack}touch attack{/g}. Against evil creatures, this ray deals ({g|Encyclopedia:Dice}1d4{/g} \u002B 1 for every two sorcerer levels you possess) points of {g|Encyclopedia:Damage}damage{/g}. This damage is divine and not subject to {g|Encyclopedia:Energy_Resistance}energy resistance{/g} or immunity. This ray {g|Encyclopedia:Healing}heals{/g} good creatures of (1d4 \u002B 1 for every two sorcerer levels you possess) points of damage. A good creature cannot benefit from your heavenly fire more than once per day. Neutral creatures are neither harmed nor healed by this effect. You can use this ability a number of times per day equal to 3 \u002B your {g|Encyclopedia:Charisma}Charisma{/g} modifier (or {g|Encyclopedia:Wisdom}Wisdom{/g} modifier for Empyreal Sorcerer).",
+      "icon": "14b8937cec1233349a9d0d7044323cc2",
+      "isSelection": false
     },
     {
       "__index": 13,
-      "name": "Seeker\u0027s Trapfinding",
-      "desc": "Seekers often look to ancient devices, old tomes, and strange magical items in order to learn more about their oracle mysteries. As a result of this curiosity and thanks to an innate knack at deciphering the strange and weird, a seeker gains {g|Encyclopedia:Trickery}Trickery{/g} as a class {g|Encyclopedia:Skills}skill{/g}. In addition, at 1st level, a seeker adds half his oracle level on Trickery skill {g|Encyclopedia:Check}checks{/g} (minimum \u002B1).",
-      "icon": "gen__ST"
+      "name": "Celestial Bloodline Arcana",
+      "desc": "Whenever you cast a {g|Encyclopedia:Spell}spell{/g} of the summoning subschool, the creatures summoned gain {g|Encyclopedia:Damage_Reduction}DR{/g}/evil equal to 1/2 your sorcerer level (minimum 1). This does not stack with any DR the creature might have.",
+      "icon": "d3e507d8c96b627448714a34392ee91f",
+      "isSelection": false
     },
     {
       "__index": 14,
-      "name": "Bloodline",
-      "desc": "Each sorcerer has a source of magic somewhere in her heritage that grants her {g|Encyclopedia:Spell}spells{/g}, bonus {g|Encyclopedia:Feat}feats{/g}, an additional class {g|Encyclopedia:Skills}skill{/g}, and other {g|Encyclopedia:Special_Abilities}special abilities{/g}. This source can represent a blood relation or an extreme event involving a creature somewhere in the family\u0027s past. For example, a sorcerer might have a dragon as a distant relative or her grandfather might have signed a terrible contract with a devil. Regardless of the source, this influence manifests in a number of ways as the sorcerer gains levels. A sorcerer must pick one bloodline upon taking her first level of sorcerer. Once made, this choice cannot be changed.\nFilled with magical power that screams for release, sorcery is not so much a calling as a blessing \u2014 or a curse. For some sorcerers, this arcane birthright manifests in subtle and carefully controlled ways, assisting in their manipulation of others or the pursuit of lofty goals. For others, it is wild and unpredictable, the primal and explosive lashing out of a power greater than themselves.\nAt 3rd level, and every two levels thereafter, a sorcerer learns an additional spell, derived from her bloodline. These spells are in addition to the number of spells given at new levels. These spells cannot be exchanged for different spells at higher levels.\nAt 7th level, and every six levels thereafter, a sorcerer receives one bonus feat, chosen from a list specific to each bloodline. The sorcerer must meet the prerequisites for these bonus feats.",
-      "icon": "gen__B"
+      "name": "Class Skill \u2014 Lore (Religion)",
+      "desc": "Additional class skill from the celestial bloodline.",
+      "icon": "ad05c2b9c08927f47ad7236f6bacd11f",
+      "isSelection": false
     },
     {
       "__index": 15,
-      "name": "Seeker Bonus Feat",
-      "desc": "At 5th, 10th and 15th level, Seeker gains a bonus {g|Encyclopedia:Feat}feat{/g} from the list:",
-      "icon": "gen__SBF"
+      "name": "Celestial Resistances",
+      "desc": "At 3rd level, you gain resist acid 5 and resist cold 5. At 9th level, your resistances increase to 10.",
+      "icon": "906345c8087d948469dbac7d9f36ccdb",
+      "isSelection": false
     },
     {
       "__index": 16,
-      "name": "Bloodline (Nine-Tailed Heir)",
-      "desc": "A nine tailed heir chooses sorcerer\u0027s bloodline as usual, but she will not learn additional {g|Encyclopedia:Spell}spells{/g} derived from her bloodline.\nAt 7th level, and every six levels thereafter, a nine-tailed heir receives one bonus {g|Encyclopedia:Feat}feat{/g}, chosen from a list specific to each bloodline. The nine-tailed heir must meet the prerequisites for these bonus feats.",
-      "icon": "gen__BN"
+      "name": "Bless",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nBless: This spell fills your allies with courage. Each ally gains a \u002B1 morale {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g} and on {g|Encyclopedia:Saving_Throw}saving throws{/g} against fear effects.\nBless dispels bane.",
+      "icon": "ad05c2b9c08927f47ad7236f6bacd11f",
+      "isSelection": false
     },
     {
       "__index": 17,
-      "name": "Magical Tail",
-      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
-      "icon": "8be423c9d9d24ef46918d747408e9192"
+      "name": "Resist Energy",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nResist Energy: This abjuration grants a creature limited protection from {g|Encyclopedia:Damage}damage{/g} of whichever one of five energy types you select: acid, cold, electricity, fire, or sonic. The subject gains resist energy 10 against the energy type chosen, meaning that each time the creature is subjected to such damage (whether from a natural or magical source), that damage is reduced by 10 points before being applied to the creature\u0027s {g|Encyclopedia:HP}hit points{/g}. The value of the {g|Encyclopedia:Energy_Resistance}energy resistance{/g} granted increases to 20 points at 7th level and to a maximum of 30 points at 11th level. The spell protects the recipient\u0027s equipment as well.",
+      "icon": "906345c8087d948469dbac7d9f36ccdb",
+      "isSelection": false
     },
     {
       "__index": 18,
-      "name": "Magical Tail",
-      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
-      "icon": "8be423c9d9d24ef46918d747408e9192"
+      "name": "Protection from Energy",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nProtection from Energy: This spell grants temporary immunity to the type of energy you specify when you cast it (acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per {g|Encyclopedia:Caster_Level}caster level{/g} of {g|Encyclopedia:Energy_Damage}energy damage{/g} (to a maximum of 120 points at 10th level), it is discharged.",
+      "icon": "60d015e2455d860409d108778ca338ad",
+      "isSelection": false
     },
     {
       "__index": 19,
-      "name": "Magical Tail",
-      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
-      "icon": "8be423c9d9d24ef46918d747408e9192"
+      "name": "Aura of Heaven",
+      "desc": "At 9th level, you can apply an aura of heaven on yourself for a minute. This aura provides a \u002B4 deflection {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} and a \u002B4 resistance bonus on {g|Encyclopedia:Saving_Throw}saving throws{/g} against {g|Encyclopedia:Attack}attacks{/g} made or effects created by evil creatures to all allies within 20 feet. You can use this ability a number of times per day equal to your sorcerer level.",
+      "icon": "5895704fc09cae446b64117e3c52e06b",
+      "isSelection": false
     },
     {
       "__index": 20,
-      "name": "Magical Tail",
-      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
-      "icon": "8be423c9d9d24ef46918d747408e9192"
+      "name": "Remove Curse",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nRemove Curse: This spell can remove all curses on an object or a creature. If the target is a creature, you must make a {g|Encyclopedia:Caster_Level}caster level{/g} {g|Encyclopedia:Check}check{/g} ({g|Encyclopedia:Dice}1d20{/g} \u002B caster level) against the {g|Encyclopedia:DC}DC{/g} of each curse affecting the target. Success means that the curse is removed.",
+      "icon": "80afc29b4d3cdf44a96d7d5ab7038b14",
+      "isSelection": false
     },
     {
       "__index": 21,
-      "name": "Magical Tail",
-      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
-      "icon": "8be423c9d9d24ef46918d747408e9192"
+      "name": "Flame Strike",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nFlame Strike: A flame strike evokes a vertical column of divine fire. The spell deals {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Damage}damage{/g} per {g|Encyclopedia:Caster_Level}caster level{/g} (maximum 15d6). Half the damage is {g|Encyclopedia:Energy_Damage}fire damage{/g}, but the other half results directly from divine power and is therefore not subject to being reduced by resistance to fire-based {g|Encyclopedia:Attack}attacks{/g}.",
+      "icon": "302c3ed1dd9b88e4a88ac3c0a7b374fc",
+      "isSelection": false
     },
     {
       "__index": 22,
-      "name": "Magical Tail",
-      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
-      "icon": "8be423c9d9d24ef46918d747408e9192"
+      "name": "Dispel Magic, Greater",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nDispel Magic, Greater: This functions as a targeted dispel magic, but it can dispel multiple spells, starting with the highest level spells and proceeding to lower level spells.",
+      "icon": "c9f183e1d73013c4e871045c7e6b48a9",
+      "isSelection": false
     },
     {
       "__index": 23,
-      "name": "Magical Tail",
-      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
-      "icon": "8be423c9d9d24ef46918d747408e9192"
+      "name": "Banishment",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nBanishment: This spell is a more powerful version of the dismissal spell. It enables you to force extraplanar creatures out of your home plane. As many as 2 {g|Encyclopedia:Hit_Dice}Hit Dice{/g} of creatures per {g|Encyclopedia:Caster_Level}caster level{/g} can be banished in a 30-foot radius; creatures who are closest to the burst\u0027s point of origin are affected first.",
+      "icon": "5f31e79573fa7ab43a1b4de6bb210182",
+      "isSelection": false
     },
     {
       "__index": 24,
-      "name": "Magical Tail",
-      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
-      "icon": "8be423c9d9d24ef46918d747408e9192"
+      "name": "Conviction",
+      "desc": "At 15th level, you gain {g|Encyclopedia:Spell_Resistance}spell resistance{/g} against evil {g|Encyclopedia:Spell}spells{/g} and spells cast by evil creatures equal to 11 \u002B your sorcerer level.",
+      "icon": "18319d8f53a881d4bb412dbb53f7e06c",
+      "isSelection": false
     },
     {
       "__index": 25,
-      "name": "Magical Tail",
-      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
-      "icon": "8be423c9d9d24ef46918d747408e9192"
+      "name": "Wings",
+      "desc": "You gain a pair of wings that grant a \u002B3 dodge {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:MeleeAttack}melee attacks{/g} and an immunity to ground based effects, such as difficult terrain.",
+      "icon": "24592e942f5650148aa0d774257c6da3",
+      "isSelection": false
     },
     {
       "__index": 26,
-      "name": "Overwhelming Penetration",
-      "desc": "At 1st level, an overwhelming mage gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Caster_Level}caster level{/g} {g|Encyclopedia:Check}checks{/g} made to overcome a target\u0027s {g|Encyclopedia:Spell_Resistance}spell resistance{/g}. This bonus increases by \u002B1 for every 6 levels thereafter.",
-      "icon": "gen__OP"
+      "name": "Sunburst",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nSunburst: This spell causes a globe of searing radiance to explode silently from a point you select. All creatures in the globe are blinded and take {g|Encyclopedia:Dice}6d6{/g} points of {g|Encyclopedia:Damage}damage{/g}. A successful {g|Encyclopedia:Saving_Throw}Reflex save{/g} negates the blindness and reduces the damage by half.\nAn undead creature caught within the globe takes 1d6 points of damage per {g|Encyclopedia:Caster_Level}caster level{/g} (maximum 25d6), or half damage with a successful Reflex save.",
+      "icon": "b469d0ff07179254db96966307a14016",
+      "isSelection": false
     },
     {
       "__index": 27,
+      "name": "Summon Monster IX",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nSummon Monster IX: This spell summons {g|Encyclopedia:Dice}1d3{/g} extraplanar movanic devas if you are good or neutral and 1d3 extraplanar frost giants if you are evil, 1d4\u002B1 rocs, or one ghaele azata if you are good or neutral and one thanadaemon if you are evil. Summoned monsters appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
+      "icon": "afbd622c795172041be9a151295671ea",
+      "isSelection": false
+    },
+    {
+      "__index": 28,
+      "name": "Ascension",
+      "desc": "At 20th level, you become infused with the power of the heavens. You gain immunity to acid, cold, and petrification, resist electricity 10, resist fire 10, and a \u002B4 racial {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saves{/g} against poison.",
+      "icon": "24592e942f5650148aa0d774257c6da3",
+      "isSelection": false
+    },
+    {
+      "__index": 29,
+      "name": "Empyreal Bloodline",
+      "desc": "Your heavenly power derives from insight rather than force of personality.",
+      "icon": "24592e942f5650148aa0d774257c6da3",
+      "isSelection": false
+    },
+    {
+      "__index": 30,
+      "name": "Heavenly Fire",
+      "desc": "Starting at 1st level, you can unleash a ray of heavenly fire as a {g|Encyclopedia:Standard_Actions}standard action{/g}, targeting any foe within 30 feet as a ranged {g|Encyclopedia:TouchAttack}touch attack{/g}. Against evil creatures, this ray deals ({g|Encyclopedia:Dice}1d4{/g} \u002B 1 for every two sorcerer levels you possess) points of {g|Encyclopedia:Damage}damage{/g}. This damage is divine and not subject to {g|Encyclopedia:Energy_Resistance}energy resistance{/g} or immunity. This ray {g|Encyclopedia:Healing}heals{/g} good creatures of (1d4 \u002B 1 for every two sorcerer levels you possess) points of damage. A good creature cannot benefit from your heavenly fire more than once per day. Neutral creatures are neither harmed nor healed by this effect. You can use this ability a number of times per day equal to 3 \u002B your {g|Encyclopedia:Charisma}Charisma{/g} modifier (or {g|Encyclopedia:Wisdom}Wisdom{/g} modifier for Empyreal Sorcerer).",
+      "icon": "14b8937cec1233349a9d0d7044323cc2",
+      "isSelection": false
+    },
+    {
+      "__index": 31,
+      "name": "Bloodline Arcana",
+      "desc": "Unlike most sorcerers whose innate magic is powered by force of personality, you use pure willpower to master and fuel your magic. You use your {g|Encyclopedia:Wisdom}Wisdom{/g}, rather than your {g|Encyclopedia:Charisma}Charisma{/g}, to determine all class features and effects relating to your sorcerer class, such as bonus {g|Encyclopedia:Spell}spells{/g} per day, maximum spell level you can cast, and the {g|Encyclopedia:Saving_Throw}save{/g} DCs of your spells. You gain a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Lore_Religion}Lore (religion){/g} {g|Encyclopedia:Check}checks{/g}.",
+      "icon": "f5ed62d8b87132444a4d10a54ba821ea",
+      "isSelection": false
+    },
+    {
+      "__index": 32,
+      "name": "Class Skill \u2014 Lore (Religion)",
+      "desc": "Additional class skill from the celestial bloodline.",
+      "icon": "ad05c2b9c08927f47ad7236f6bacd11f",
+      "isSelection": false
+    },
+    {
+      "__index": 33,
+      "name": "Celestial Resistances",
+      "desc": "At 3rd level, you gain resist acid 5 and resist cold 5. At 9th level, your resistances increase to 10.",
+      "icon": "906345c8087d948469dbac7d9f36ccdb",
+      "isSelection": false
+    },
+    {
+      "__index": 34,
+      "name": "Bless",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nBless: This spell fills your allies with courage. Each ally gains a \u002B1 morale {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g} and on {g|Encyclopedia:Saving_Throw}saving throws{/g} against fear effects.\nBless dispels bane.",
+      "icon": "ad05c2b9c08927f47ad7236f6bacd11f",
+      "isSelection": false
+    },
+    {
+      "__index": 35,
+      "name": "Resist Energy",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nResist Energy: This abjuration grants a creature limited protection from {g|Encyclopedia:Damage}damage{/g} of whichever one of five energy types you select: acid, cold, electricity, fire, or sonic. The subject gains resist energy 10 against the energy type chosen, meaning that each time the creature is subjected to such damage (whether from a natural or magical source), that damage is reduced by 10 points before being applied to the creature\u0027s {g|Encyclopedia:HP}hit points{/g}. The value of the {g|Encyclopedia:Energy_Resistance}energy resistance{/g} granted increases to 20 points at 7th level and to a maximum of 30 points at 11th level. The spell protects the recipient\u0027s equipment as well.",
+      "icon": "906345c8087d948469dbac7d9f36ccdb",
+      "isSelection": false
+    },
+    {
+      "__index": 36,
+      "name": "Protection from Energy",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nProtection from Energy: This spell grants temporary immunity to the type of energy you specify when you cast it (acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per {g|Encyclopedia:Caster_Level}caster level{/g} of {g|Encyclopedia:Energy_Damage}energy damage{/g} (to a maximum of 120 points at 10th level), it is discharged.",
+      "icon": "60d015e2455d860409d108778ca338ad",
+      "isSelection": false
+    },
+    {
+      "__index": 37,
+      "name": "Channel Positive Energy",
+      "desc": "At 9th level, your bloodline makes you a natural receptacle of divine energy. You can channel energy once per day. This energy can be used to cause or {g|Encyclopedia:Healing}heal{/g} {g|Encyclopedia:Damage}damage{/g}, depending on the creatures targeted.\nA sorcerer channels positive energy and can choose to deal damage to undead creatures or to heal living creatures.\nChanneling positive energy causes a burst that affects all creatures of one type (either undead or living) in a 30-foot radius centered on the sorcerer. The amount of damage dealt or healed is equal to {g|Encyclopedia:Dice}3d6{/g} points of damage at 9th level plus 1d6 points of damage for every two sorcerer levels beyond 9th (4d6 at 11th, 5d6 at 13th, and so on). Creatures that take damage from channeled energy receive a {g|Encyclopedia:Saving_Throw}Will save{/g} to halve the damage. The {g|Encyclopedia:DC}DC{/g} of this save is equal to 10 \u002B 1/2 the sorcerer\u0027s level \u002B the sorcerer\u0027s {g|Encyclopedia:Wisdom}Wisdom{/g} modifier. Creatures healed by channel energy cannot exceed their maximum hit point total\u2014all excess healing is lost.\nThis is a {g|Encyclopedia:Standard_Actions}standard action{/g} that does not provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}.",
+      "icon": "636f55d7ac7635e459967e29e1c71cdd",
+      "isSelection": false
+    },
+    {
+      "__index": 38,
+      "name": "Remove Curse",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nRemove Curse: This spell can remove all curses on an object or a creature. If the target is a creature, you must make a {g|Encyclopedia:Caster_Level}caster level{/g} {g|Encyclopedia:Check}check{/g} ({g|Encyclopedia:Dice}1d20{/g} \u002B caster level) against the {g|Encyclopedia:DC}DC{/g} of each curse affecting the target. Success means that the curse is removed.",
+      "icon": "80afc29b4d3cdf44a96d7d5ab7038b14",
+      "isSelection": false
+    },
+    {
+      "__index": 39,
+      "name": "Flame Strike",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nFlame Strike: A flame strike evokes a vertical column of divine fire. The spell deals {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Damage}damage{/g} per {g|Encyclopedia:Caster_Level}caster level{/g} (maximum 15d6). Half the damage is {g|Encyclopedia:Energy_Damage}fire damage{/g}, but the other half results directly from divine power and is therefore not subject to being reduced by resistance to fire-based {g|Encyclopedia:Attack}attacks{/g}.",
+      "icon": "302c3ed1dd9b88e4a88ac3c0a7b374fc",
+      "isSelection": false
+    },
+    {
+      "__index": 40,
+      "name": "Dispel Magic, Greater",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nDispel Magic, Greater: This functions as a targeted dispel magic, but it can dispel multiple spells, starting with the highest level spells and proceeding to lower level spells.",
+      "icon": "c9f183e1d73013c4e871045c7e6b48a9",
+      "isSelection": false
+    },
+    {
+      "__index": 41,
+      "name": "Banishment",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nBanishment: This spell is a more powerful version of the dismissal spell. It enables you to force extraplanar creatures out of your home plane. As many as 2 {g|Encyclopedia:Hit_Dice}Hit Dice{/g} of creatures per {g|Encyclopedia:Caster_Level}caster level{/g} can be banished in a 30-foot radius; creatures who are closest to the burst\u0027s point of origin are affected first.",
+      "icon": "5f31e79573fa7ab43a1b4de6bb210182",
+      "isSelection": false
+    },
+    {
+      "__index": 42,
+      "name": "Conviction",
+      "desc": "At 15th level, you gain {g|Encyclopedia:Spell_Resistance}spell resistance{/g} against evil {g|Encyclopedia:Spell}spells{/g} and spells cast by evil creatures equal to 11 \u002B your sorcerer level.",
+      "icon": "18319d8f53a881d4bb412dbb53f7e06c",
+      "isSelection": false
+    },
+    {
+      "__index": 43,
+      "name": "Wings",
+      "desc": "You gain a pair of wings that grant a \u002B3 dodge {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:MeleeAttack}melee attacks{/g} and an immunity to ground based effects, such as difficult terrain.",
+      "icon": "24592e942f5650148aa0d774257c6da3",
+      "isSelection": false
+    },
+    {
+      "__index": 44,
+      "name": "Sunburst",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nSunburst: This spell causes a globe of searing radiance to explode silently from a point you select. All creatures in the globe are blinded and take {g|Encyclopedia:Dice}6d6{/g} points of {g|Encyclopedia:Damage}damage{/g}. A successful {g|Encyclopedia:Saving_Throw}Reflex save{/g} negates the blindness and reduces the damage by half.\nAn undead creature caught within the globe takes 1d6 points of damage per {g|Encyclopedia:Caster_Level}caster level{/g} (maximum 25d6), or half damage with a successful Reflex save.",
+      "icon": "b469d0ff07179254db96966307a14016",
+      "isSelection": false
+    },
+    {
+      "__index": 45,
+      "name": "Summon Monster IX",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nSummon Monster IX: This spell summons {g|Encyclopedia:Dice}1d3{/g} extraplanar movanic devas if you are good or neutral and 1d3 extraplanar frost giants if you are evil, 1d4\u002B1 rocs, or one ghaele azata if you are good or neutral and one thanadaemon if you are evil. Summoned monsters appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
+      "icon": "afbd622c795172041be9a151295671ea",
+      "isSelection": false
+    },
+    {
+      "__index": 46,
+      "name": "Ascension",
+      "desc": "At 20th level, you become infused with the power of the heavens. You gain immunity to acid, cold, and petrification, resist electricity 10, resist fire 10, and a \u002B4 racial {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saves{/g} against poison.",
+      "icon": "24592e942f5650148aa0d774257c6da3",
+      "isSelection": false
+    },
+    {
+      "__index": 47,
+      "name": "Abyssal Bloodline",
+      "desc": "Generations ago, a demon spread its filth into your heritage. While it does not manifest in all of your kin, for you it is particularly {g|Encyclopedia:Strength}strong{/g}. You might sometimes have urges to chaos or evil, but your destiny (and {g|Encyclopedia:Alignment}alignment{/g}) is up to you. While some would say that you are possessed, you know better. The demonic influence in your blood grows as you gain power.\n{g|Encyclopedia:Bonus}Bonus{/g} {g|Encyclopedia:Feat}Feats{/g} of the Abyssal Bloodline: Augment Summoning, Bull Rush, Cleave, Empower {g|Encyclopedia:Spell}Spell{/g}, Great Fortitude, Power {g|Encyclopedia:Attack}Attack{/g}, {g|Encyclopedia:Skills}Skill{/g} Focus ({g|Encyclopedia:Lore_Religion}Lore (religion){/g}), Sunder Armor.",
+      "icon": "a836c08b3c34e694886c94a6b9ddfb16",
+      "isSelection": false
+    },
+    {
+      "__index": 48,
+      "name": "Grow Claws",
+      "desc": "At 1st level, you can grow claws as a {g|Encyclopedia:Free_Action}free action{/g}. These claws are treated as {g|Encyclopedia:NaturalAttack}natural weapons{/g}, allowing you to make two claw {g|Encyclopedia:Attack}attacks{/g} as a full attack using your full {g|Encyclopedia:BAB}base attack bonus{/g}. These attacks deal {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Damage}damage{/g} each (1d3 if you are Small) plus your {g|Encyclopedia:Strength}Strength{/g} modifier. At 5th level, these claws are considered magic weapons for the purpose of overcoming {g|Encyclopedia:Damage_Reduction}DR{/g}. At 7th level, the damage increases by one step to 1d6 points of damage (1d4 if you are Small). At 11th level, these claws become flaming weapons, each dealing an additional 1d6 points of {g|Encyclopedia:Energy_Damage}fire damage{/g} on a successful hit. You can use your claws for a number of {g|Encyclopedia:Combat_Round}rounds{/g} per day equal to 3 \u002B your {g|Encyclopedia:Charisma}Charisma{/g} modifier. These rounds do not need to be consecutive.",
+      "icon": "9100e5f2e80631d47822697ae833a4b6",
+      "isSelection": false
+    },
+    {
+      "__index": 49,
+      "name": "Abyssal Bloodline Arcana",
+      "desc": "Whenever you cast a {g|Encyclopedia:Spell}spell{/g} of the summoning subschool, the creatures summoned gain {g|Encyclopedia:Damage_Reduction}DR{/g}/good equal to half your sorcerer level (minimum 1). This does not stack with any DR the creature might have.",
+      "icon": "gen__ABA",
+      "isSelection": false
+    },
+    {
+      "__index": 50,
+      "name": "Class Skill \u2014 Athletics",
+      "desc": "Additional class skill from the Abyssal bloodline.",
+      "icon": "e5541d932323ede43b904d80a1179f5d",
+      "isSelection": false
+    },
+    {
+      "__index": 51,
+      "name": "Demon Resistances",
+      "desc": "At 3rd level, you gain resist electricity 5 and a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving throws{/g} made against poison. At 9th level, your resistance to electricity increases to 10 and your bonus on poison saving throws increases to \u002B4.",
+      "icon": "906345c8087d948469dbac7d9f36ccdb",
+      "isSelection": false
+    },
+    {
+      "__index": 52,
+      "name": "Cause Fear",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nCause Fear: The affected creature becomes frightened. If the subject succeeds at a {g|Encyclopedia:Saving_Throw}Will save{/g}, it is instead shaken for 1 {g|Encyclopedia:Combat_Round}round{/g}. Creatures with 6 or more HD are immune to this effect. Cause fear dispels remove fear.",
+      "icon": "1f524a688c18d264699e9ca551be5fc3",
+      "isSelection": false
+    },
+    {
+      "__index": 53,
+      "name": "Bull\u0027s Strength",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nBull\u0027s Strength: The subject becomes stronger. The spell grants a \u002B4 enhancement {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Strength}Strength{/g} for 5 minutes, adding the usual benefits to {g|Encyclopedia:MeleeAttack}melee attack{/g} {g|Encyclopedia:Dice}rolls{/g}, melee {g|Encyclopedia:Damage}damage rolls{/g}, and other uses of the Strength modifier. Enhancement bonuses do not stack with other enhancement bonuses, for example with bonuses from belts.",
+      "icon": "02ad3d21009f15b4090c62f7cc0f3ce0",
+      "isSelection": false
+    },
+    {
+      "__index": 54,
+      "name": "Rage",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nRage: Each affected creature gains a \u002B2 morale {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Strength}Strength{/g} and {g|Encyclopedia:Constitution}Constitution{/g}, a \u002B1 morale bonus on Will {g|Encyclopedia:Saving_Throw}saves{/g}, and a -2 {g|Encyclopedia:Penalty}penalty{/g} to {g|Encyclopedia:Armor_Class}AC{/g}. The effect is otherwise identical with a barbarian\u0027s rage except that the subjects aren\u0027t fatigued at the end of the rage.",
+      "icon": "e50a89f2ba396f44489e16b06713612f",
+      "isSelection": false
+    },
+    {
+      "__index": 55,
+      "name": "Strength of the Abyss",
+      "desc": "At 9th level, you gain a \u002B2 inherent {g|Encyclopedia:Bonus}bonus{/g} to your {g|Encyclopedia:Strength}Strength{/g}. This bonus increases to \u002B4 at 13th level, and to \u002B6 at 17th level.",
+      "icon": "519fc0a48aa1eef48af4233eab473150",
+      "isSelection": false
+    },
+    {
+      "__index": 56,
+      "name": "Stoneskin",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nStoneskin: The warded creature gains resistance to blows, cuts, stabs, and {g|Encyclopedia:Damage_Type}slashes{/g}. The subject gains {g|Encyclopedia:Damage_Reduction}DR{/g} 10/adamantine. It ignores the first 10 points of {g|Encyclopedia:Damage}damage{/g} each time it takes damage from a weapon, though an adamantine weapon overcomes the damage reduction. Once the spell has prevented a total of 10 points of damage per {g|Encyclopedia:Caster_Level}caster level{/g} (maximum 150 points), it is discharged.",
+      "icon": "907f3ced5b254124ba6bebfeb1e6db09",
+      "isSelection": false
+    },
+    {
+      "__index": 57,
+      "name": "Dismissal",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nDismissal: This spell forces an extraplanar creature back to its proper plane if it fails a {g|Encyclopedia:Saving_Throw}Will save{/g}.",
+      "icon": "5f31e79573fa7ab43a1b4de6bb210182",
+      "isSelection": false
+    },
+    {
+      "__index": 58,
+      "name": "Transformation",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nTransformation: You become a fighting machine \u2013 stronger, tougher, faster, and more {g|Encyclopedia:Skills}skilled{/g} in combat. Your mindset changes so that you relish combat and you can\u0027t cast spells, even from magic items.\nYou gain a \u002B4 enhancement {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Strength}Strength{/g}, {g|Encyclopedia:Dexterity}Dexterity{/g}, and {g|Encyclopedia:Constitution}Constitution{/g}, a \u002B4 natural armor bonus to {g|Encyclopedia:Armor_Class}AC{/g}, a \u002B5 competence bonus on Fortitude {g|Encyclopedia:Saving_Throw}saves{/g}, and proficiency with all simple and {g|Encyclopedia:Weapon_Proficiency}martial weapons{/g}. Your {g|Encyclopedia:BAB}base attack bonus{/g} equals your {g|Encyclopedia:Character_Level}character level{/g} (which may give you multiple {g|Encyclopedia:Attack}attacks{/g}).",
+      "icon": "d1802a2ee4f855f4cbe4ee353a3bf75f",
+      "isSelection": false
+    },
+    {
+      "__index": 59,
+      "name": "Summon Monster VII",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nSummon Monster VII: This spell summons {g|Encyclopedia:Dice}1d3{/g} extraplanar axiomites if you are good or neutral and 1d3 extraplanar soul eaters if you are evil, 1d4\u002B1 extraplanar bralani azatas if you are good or neutral and 1d4\u002B1 extraplanar redcaps if you are evil, or one roc. Summoned monsters appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
+      "icon": "c7f45b1a67c7a8945abf7ca0751a12db",
+      "isSelection": false
+    },
+    {
+      "__index": 60,
+      "name": "Added Summonings",
+      "desc": "At 15th level, whenever you cast a summoning {g|Encyclopedia:Spell}spell{/g} that conjures more than one creature, add one to the total number of creatures summoned.",
+      "icon": "fbca144bd0f43c543932158f73a6130a",
+      "isSelection": false
+    },
+    {
+      "__index": 61,
+      "name": "Wings",
+      "desc": "You gain a pair of wings that grant a \u002B3 dodge {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} against {g|Encyclopedia:MeleeAttack}melee attacks{/g} and an immunity to ground based effects, such as difficult terrain.",
+      "icon": "24592e942f5650148aa0d774257c6da3",
+      "isSelection": false
+    },
+    {
+      "__index": 62,
+      "name": "Unholy Aura",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nUnholy Aura: A malevolent darkness surrounds the subjects, protecting them from {g|Encyclopedia:Attack}attacks{/g}, granting them {g|Encyclopedia:Spell_Resistance}resistance to spells{/g} cast by good creatures, and weakening good creatures when they strike the subjects. This abjuration has four effects.\nFirst, each warded creature gains a \u002B4 deflection {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} and a \u002B4 resistance bonus on {g|Encyclopedia:Saving_Throw}saves{/g}. Unlike the effect of protection from good, this benefit applies against all attacks, not just against attacks by good creatures.\nSecond, each warded creature gains spell resistance 25 against good spells and spells cast by good creatures.\nThird, the abjuration protects the recipient from possession and mental influence, just as protection from good does.\nFinally, if a good creature succeeds on a {g|Encyclopedia:MeleeAttack}melee attack{/g} against a warded creature, the offending attacker takes {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Strength}Strength{/g} {g|Encyclopedia:Damage}damage{/g} (Fortitude negates).",
+      "icon": "fdfbce1816665e74584c528faebcc381",
+      "isSelection": false
+    },
+    {
+      "__index": 63,
+      "name": "Summon Monster IX",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nSummon Monster IX: This spell summons {g|Encyclopedia:Dice}1d3{/g} extraplanar movanic devas if you are good or neutral and 1d3 extraplanar frost giants if you are evil, 1d4\u002B1 rocs, or one ghaele azata if you are good or neutral and one thanadaemon if you are evil. Summoned monsters appear where you designate and act according to their {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best of their ability.",
+      "icon": "afbd622c795172041be9a151295671ea",
+      "isSelection": false
+    },
+    {
+      "__index": 64,
+      "name": "Demonic Might",
+      "desc": "At 20th level, the power of the Abyss flows through you. You gain immunity to electricity and poison. You also gain resistance to acid 10, cold 10, and fire 10.",
+      "icon": "a836c08b3c34e694886c94a6b9ddfb16",
+      "isSelection": false
+    },
+    {
+      "__index": 65,
+      "name": "Fey Bloodline",
+      "desc": "The capricious nature of the fey runs in your family due to some intermingling of fey blood or magic. You are more emotional than most, prone to bouts of joy and rage. You have always had a tie to the natural world, and as your power increases, so does the influence of the fey over your magic.\n{g|Encyclopedia:Bonus}Bonus{/g} {g|Encyclopedia:Feat}Feats{/g} of the Fey Bloodline: Dodge, Improved {g|Encyclopedia:Initiative}Initiative{/g}, Lightning Reflexes, Agile {g|Encyclopedia:Combat_Maneuvers}Maneuvers{/g}, Point-Blank Shot, Precise Shot, Quicken {g|Encyclopedia:Spell}Spell{/g}, {g|Encyclopedia:Skills}Skill{/g} Focus ({g|Encyclopedia:Lore_Nature}Lore (nature){/g}).",
+      "icon": "c5abd8f958a8afb409faa5d31acddb72",
+      "isSelection": false
+    },
+    {
+      "__index": 66,
+      "name": "Laughing Touch",
+      "desc": "At 1st level, you can cause a creature to burst out laughing for 1 {g|Encyclopedia:Combat_Round}round{/g} as a melee {g|Encyclopedia:TouchAttack}touch attack{/g}. A laughing creature can only take a {g|Encyclopedia:Move_Action}move action{/g} but can defend itself normally. Once a creature has been affected by laughing touch, it is immune to its effects for 24 hours. You can use this ability a number of times per day equal to 3 \u002B your {g|Encyclopedia:Charisma}Charisma{/g} modifier. This is a mind-affecting effect.",
+      "icon": "07619639fbbb20f4eaffcc9991db57d9",
+      "isSelection": false
+    },
+    {
+      "__index": 67,
+      "name": "Fey Bloodline Arcana",
+      "desc": "Whenever you cast a {g|Encyclopedia:Spell}spell{/g} of the compulsion subschool, increase the spell\u0027s {g|Encyclopedia:DC}DC{/g} by \u002B2.",
+      "icon": "7f1b2c99decf9f441b7a9281d8ce3733",
+      "isSelection": false
+    },
+    {
+      "__index": 68,
+      "name": "Class Skill \u2014 Lore (Nature)",
+      "desc": "Additional class skill from the fey bloodline.",
+      "icon": "a6dc79e6b9d54114180425123ec2cd9f",
+      "isSelection": false
+    },
+    {
+      "__index": 69,
+      "name": "Woodland Stride",
+      "desc": "At 3rd level, you can move through any sort difficult terrain at your normal {g|Encyclopedia:Speed}speed{/g} and without taking {g|Encyclopedia:Damage}damage{/g} or suffering any other impairment.",
+      "icon": "b38e3032f469bc14696d7270d6e7b5f2",
+      "isSelection": false
+    },
+    {
+      "__index": 70,
+      "name": "Entangle",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nEntangle: This spell causes tall grass, weeds, and other plants to wrap around creatures in the area of effect or those that enter the area. Creatures that fail their {g|Encyclopedia:Saving_Throw}save{/g} gain the entangled condition for 1 {g|Encyclopedia:Combat_Round}round{/g}.\nThe entire area of effect is considered difficult terrain while the effect lasts.",
+      "icon": "6d9403c18a2ccfc4bbd0917562f51866",
+      "isSelection": false
+    },
+    {
+      "__index": 71,
+      "name": "Hideous Laughter",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nHideous Laughter: This spell afflicts the subject with uncontrollable laughter. It collapses into gales of manic laughter, falling prone. The subject can take no {g|Encyclopedia:CA_Types}actions{/g} while laughing, but is not considered {g|Encyclopedia:Helpless}helpless{/g}. After the spell ends, it can act normally. On the creature\u0027s next turn, it may attempt a new {g|Encyclopedia:Saving_Throw}saving throw{/g} to end the effect. A creature with an {g|Encyclopedia:Intelligence}Intelligence{/g} score of 2 or lower is not affected.",
+      "icon": "07619639fbbb20f4eaffcc9991db57d9",
+      "isSelection": false
+    },
+    {
+      "__index": 72,
+      "name": "Deep Slumber",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nDeep Slumber: This spell causes a magical slumber to come upon 10 HD of creatures; those who are closest to the spell\u0027s point of origin are affected first. HD that are not sufficient to affect a creature are wasted. Sleeping creatures are {g|Encyclopedia:Helpless}helpless{/g}. Slapping or wounding awakens an affected creature, but normal noise does not. This spell does not target {g|Encyclopedia:Injury_Death}unconscious{/g} creatures, constructs, or undead creatures.",
+      "icon": "b88deef1945a43748aea4fc474a3f80c",
+      "isSelection": false
+    },
+    {
+      "__index": 73,
+      "name": "Fleeting Glance",
+      "desc": "At 9th level, you can turn invisible for a number of {g|Encyclopedia:Combat_Round}rounds{/g} per day equal to your sorcerer level. This ability functions as greater invisibility. These rounds need not be consecutive.\nGreater Invisibility: This {g|Encyclopedia:Spell}spell{/g} functions like invisibility, except that it doesn\u0027t end if the subject {g|Encyclopedia:Attack}attacks{/g}.\nInvisibility: The creature becomes invisible. If a {g|Encyclopedia:Check}check{/g} is required, an invisible creature has a \u002B20 {g|Encyclopedia:Bonus}bonus{/g} on its {g|Encyclopedia:Stealth}Stealth checks{/g}. The spell ends if the subject attacks any creature. For purposes of this spell, an attack includes any {g|Encyclopedia:Spell_Target}spell targeting{/g} a foe or whose area or effect includes a foe. Exactly who is a foe depends on the invisible character\u0027s {g|Encyclopedia:Perception}perceptions{/g}. {g|Encyclopedia:CA_Types}Actions{/g} directed at unattended objects do not break the spell. Causing harm indirectly is not an attack. Thus, an invisible being can open doors, talk, eat, climb stairs, summon monsters and have them attack, cut the ropes holding a rope bridge while enemies are on the bridge, remotely trigger traps, open a portcullis to release attack dogs, and so forth. If the subject attacks directly, however, it immediately becomes visible along with all its gear. Spells such as bless that specifically affect allies but not foes are not attacks for this purpose, even when they include foes in their area.",
+      "icon": "5ac2b4db004f798458e19515e9740c67",
+      "isSelection": false
+    },
+    {
+      "__index": 74,
+      "name": "Poison",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nPoison: Calling upon the venomous powers of natural predators, you infect the subject with a horrible poison by making a successful melee {g|Encyclopedia:TouchAttack}touch attack{/g}. This poison deals {g|Encyclopedia:Dice}1d3{/g} {g|Encyclopedia:Constitution}Constitution{/g} {g|Encyclopedia:Damage}damage{/g} per {g|Encyclopedia:Combat_Round}round{/g} for 6 rounds. Poisoned creatures can make a {g|Encyclopedia:Saving_Throw}Fortitude save{/g} each round to negate the damage and end the affliction.",
+      "icon": "8fca0308b10532345aff54162e174c26",
+      "isSelection": false
+    },
+    {
+      "__index": 75,
+      "name": "Vinetrap",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nVinetrap: Vines choked with thorns, blossoms, leaflets, and other floral debris burst to life on and around the subject of this spell. When this spell is cast, the subject becomes paralyzed and entangled, though a successful {g|Encyclopedia:Saving_Throw}Reflex save{/g} negates the paralysis. Each {g|Encyclopedia:Combat_Round}round{/g} on its turn, the subject may attempt a new saving throw to end both the paralysis and entangle effects.\nThe subject takes {g|Encyclopedia:Dice}2d4{/g} points of {g|Encyclopedia:Damage_Type}piercing damage{/g} each turn from the sharp thorns. This {g|Encyclopedia:Damage}damage{/g} is considered to be cold iron for the purposes of overcoming {g|Encyclopedia:Damage_Reduction}damage reduction{/g}.",
+      "icon": "05c8fdf387bda094b8a191c587d190a1",
+      "isSelection": false
+    },
+    {
+      "__index": 76,
+      "name": "Dispel Magic, Greater",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nDispel Magic, Greater: This functions as a targeted dispel magic, but it can dispel multiple spells, starting with the highest level spells and proceeding to lower level spells.",
+      "icon": "c9f183e1d73013c4e871045c7e6b48a9",
+      "isSelection": false
+    },
+    {
+      "__index": 77,
+      "name": "Changestaff",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nChangestaff: This spell changes an ordinary quarterstaff into a treant creature. It appears where you designate and acts according to its {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best of its ability.",
+      "icon": "d4960a0f7e7cc6843bf6d675985fd381",
+      "isSelection": false
+    },
+    {
+      "__index": 78,
+      "name": "Fey Magic",
+      "desc": "At 15th level, you get a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Caster_Level}caster level{/g} {g|Encyclopedia:Check}checks{/g} ({g|Encyclopedia:Dice}1d20{/g} \u002B caster level) made to overcome a creature\u0027s {g|Encyclopedia:Spell_Resistance}spell resistance{/g}. This bonus stacks with the one from the {g|Encyclopedia:Spell}Spell{/g} Penetration and Greater Spell Penetration {g|Encyclopedia:Feat}feats{/g}.",
+      "icon": "2335fc93079149c44a1801592f6df9fc",
+      "isSelection": false
+    },
+    {
+      "__index": 79,
+      "name": "Summon Nereid",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nSummon Nereid: This spell summons to your side a natural nereid. The summoned ally appears where you designate and acts according to its {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best of its ability.",
+      "icon": "77b3a39fb33ba5b4086cd4616e4a220b",
+      "isSelection": false
+    },
+    {
+      "__index": 80,
+      "name": "Summon Hamadryad",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nSummon Hamadryad: This spell summons to your side a natural hamadryad. The summoned ally appears where you designate and acts according to its {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best of its ability.",
+      "icon": "77b3a39fb33ba5b4086cd4616e4a220b",
+      "isSelection": false
+    },
+    {
+      "__index": 81,
+      "name": "Soul of the Fey",
+      "desc": "At 20th level, your soul becomes one with the world of the fey. You gain immunity to poison and {g|Encyclopedia:Damage_Reduction}DR{/g} 10/cold iron. Once per day, you can cast cloak of dreams as a {g|Encyclopedia:Special_Abilities}spell-like ability{/g} using your sorcerer level as your {g|Encyclopedia:Caster_Level}caster level{/g}.",
+      "icon": "c5abd8f958a8afb409faa5d31acddb72",
+      "isSelection": false
+    },
+    {
+      "__index": 82,
+      "name": "Sylvan Bloodline",
+      "desc": "Your ties to nature have more to do with creatures than with capriciousness.",
+      "icon": "736cb7b0def6ff147b921c75c54a81a0",
+      "isSelection": false
+    },
+    {
+      "__index": 83,
+      "name": "Class Skill \u2014 Lore (Nature)",
+      "desc": "Additional class skill from the fey bloodline.",
+      "icon": "a6dc79e6b9d54114180425123ec2cd9f",
+      "isSelection": false
+    },
+    {
+      "__index": 84,
+      "name": "Woodland Stride",
+      "desc": "At 3rd level, you can move through any sort difficult terrain at your normal {g|Encyclopedia:Speed}speed{/g} and without taking {g|Encyclopedia:Damage}damage{/g} or suffering any other impairment.",
+      "icon": "b38e3032f469bc14696d7270d6e7b5f2",
+      "isSelection": false
+    },
+    {
+      "__index": 85,
+      "name": "Entangle",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nEntangle: This spell causes tall grass, weeds, and other plants to wrap around creatures in the area of effect or those that enter the area. Creatures that fail their {g|Encyclopedia:Saving_Throw}save{/g} gain the entangled condition for 1 {g|Encyclopedia:Combat_Round}round{/g}.\nThe entire area of effect is considered difficult terrain while the effect lasts.",
+      "icon": "6d9403c18a2ccfc4bbd0917562f51866",
+      "isSelection": false
+    },
+    {
+      "__index": 86,
+      "name": "Hideous Laughter",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nHideous Laughter: This spell afflicts the subject with uncontrollable laughter. It collapses into gales of manic laughter, falling prone. The subject can take no {g|Encyclopedia:CA_Types}actions{/g} while laughing, but is not considered {g|Encyclopedia:Helpless}helpless{/g}. After the spell ends, it can act normally. On the creature\u0027s next turn, it may attempt a new {g|Encyclopedia:Saving_Throw}saving throw{/g} to end the effect. A creature with an {g|Encyclopedia:Intelligence}Intelligence{/g} score of 2 or lower is not affected.",
+      "icon": "07619639fbbb20f4eaffcc9991db57d9",
+      "isSelection": false
+    },
+    {
+      "__index": 87,
+      "name": "Deep Slumber",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nDeep Slumber: This spell causes a magical slumber to come upon 10 HD of creatures; those who are closest to the spell\u0027s point of origin are affected first. HD that are not sufficient to affect a creature are wasted. Sleeping creatures are {g|Encyclopedia:Helpless}helpless{/g}. Slapping or wounding awakens an affected creature, but normal noise does not. This spell does not target {g|Encyclopedia:Injury_Death}unconscious{/g} creatures, constructs, or undead creatures.",
+      "icon": "b88deef1945a43748aea4fc474a3f80c",
+      "isSelection": false
+    },
+    {
+      "__index": 88,
+      "name": "Fleeting Glance",
+      "desc": "At 9th level, you can turn invisible for a number of {g|Encyclopedia:Combat_Round}rounds{/g} per day equal to your sorcerer level. This ability functions as greater invisibility. These rounds need not be consecutive.\nGreater Invisibility: This {g|Encyclopedia:Spell}spell{/g} functions like invisibility, except that it doesn\u0027t end if the subject {g|Encyclopedia:Attack}attacks{/g}.\nInvisibility: The creature becomes invisible. If a {g|Encyclopedia:Check}check{/g} is required, an invisible creature has a \u002B20 {g|Encyclopedia:Bonus}bonus{/g} on its {g|Encyclopedia:Stealth}Stealth checks{/g}. The spell ends if the subject attacks any creature. For purposes of this spell, an attack includes any {g|Encyclopedia:Spell_Target}spell targeting{/g} a foe or whose area or effect includes a foe. Exactly who is a foe depends on the invisible character\u0027s {g|Encyclopedia:Perception}perceptions{/g}. {g|Encyclopedia:CA_Types}Actions{/g} directed at unattended objects do not break the spell. Causing harm indirectly is not an attack. Thus, an invisible being can open doors, talk, eat, climb stairs, summon monsters and have them attack, cut the ropes holding a rope bridge while enemies are on the bridge, remotely trigger traps, open a portcullis to release attack dogs, and so forth. If the subject attacks directly, however, it immediately becomes visible along with all its gear. Spells such as bless that specifically affect allies but not foes are not attacks for this purpose, even when they include foes in their area.",
+      "icon": "5ac2b4db004f798458e19515e9740c67",
+      "isSelection": false
+    },
+    {
+      "__index": 89,
+      "name": "Poison",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nPoison: Calling upon the venomous powers of natural predators, you infect the subject with a horrible poison by making a successful melee {g|Encyclopedia:TouchAttack}touch attack{/g}. This poison deals {g|Encyclopedia:Dice}1d3{/g} {g|Encyclopedia:Constitution}Constitution{/g} {g|Encyclopedia:Damage}damage{/g} per {g|Encyclopedia:Combat_Round}round{/g} for 6 rounds. Poisoned creatures can make a {g|Encyclopedia:Saving_Throw}Fortitude save{/g} each round to negate the damage and end the affliction.",
+      "icon": "8fca0308b10532345aff54162e174c26",
+      "isSelection": false
+    },
+    {
+      "__index": 90,
+      "name": "Vinetrap",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nVinetrap: Vines choked with thorns, blossoms, leaflets, and other floral debris burst to life on and around the subject of this spell. When this spell is cast, the subject becomes paralyzed and entangled, though a successful {g|Encyclopedia:Saving_Throw}Reflex save{/g} negates the paralysis. Each {g|Encyclopedia:Combat_Round}round{/g} on its turn, the subject may attempt a new saving throw to end both the paralysis and entangle effects.\nThe subject takes {g|Encyclopedia:Dice}2d4{/g} points of {g|Encyclopedia:Damage_Type}piercing damage{/g} each turn from the sharp thorns. This {g|Encyclopedia:Damage}damage{/g} is considered to be cold iron for the purposes of overcoming {g|Encyclopedia:Damage_Reduction}damage reduction{/g}.",
+      "icon": "05c8fdf387bda094b8a191c587d190a1",
+      "isSelection": false
+    },
+    {
+      "__index": 91,
+      "name": "Dispel Magic, Greater",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nDispel Magic, Greater: This functions as a targeted dispel magic, but it can dispel multiple spells, starting with the highest level spells and proceeding to lower level spells.",
+      "icon": "c9f183e1d73013c4e871045c7e6b48a9",
+      "isSelection": false
+    },
+    {
+      "__index": 92,
+      "name": "Changestaff",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nChangestaff: This spell changes an ordinary quarterstaff into a treant creature. It appears where you designate and acts according to its {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best of its ability.",
+      "icon": "d4960a0f7e7cc6843bf6d675985fd381",
+      "isSelection": false
+    },
+    {
+      "__index": 93,
+      "name": "Fey Magic",
+      "desc": "At 15th level, you get a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Caster_Level}caster level{/g} {g|Encyclopedia:Check}checks{/g} ({g|Encyclopedia:Dice}1d20{/g} \u002B caster level) made to overcome a creature\u0027s {g|Encyclopedia:Spell_Resistance}spell resistance{/g}. This bonus stacks with the one from the {g|Encyclopedia:Spell}Spell{/g} Penetration and Greater Spell Penetration {g|Encyclopedia:Feat}feats{/g}.",
+      "icon": "2335fc93079149c44a1801592f6df9fc",
+      "isSelection": false
+    },
+    {
+      "__index": 94,
+      "name": "Summon Nereid",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nSummon Nereid: This spell summons to your side a natural nereid. The summoned ally appears where you designate and acts according to its {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best of its ability.",
+      "icon": "77b3a39fb33ba5b4086cd4616e4a220b",
+      "isSelection": false
+    },
+    {
+      "__index": 95,
+      "name": "Summon Hamadryad",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nSummon Hamadryad: This spell summons to your side a natural hamadryad. The summoned ally appears where you designate and acts according to its {g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}check{/g} results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best of its ability.",
+      "icon": "77b3a39fb33ba5b4086cd4616e4a220b",
+      "isSelection": false
+    },
+    {
+      "__index": 96,
+      "name": "Soul of the Fey",
+      "desc": "At 20th level, your soul becomes one with the world of the fey. You gain immunity to poison and {g|Encyclopedia:Damage_Reduction}DR{/g} 10/cold iron. Once per day, you can cast cloak of dreams as a {g|Encyclopedia:Special_Abilities}spell-like ability{/g} using your sorcerer level as your {g|Encyclopedia:Caster_Level}caster level{/g}.",
+      "icon": "c5abd8f958a8afb409faa5d31acddb72",
+      "isSelection": false
+    },
+    {
+      "__index": 97,
+      "name": "Bloodline Arcana",
+      "desc": "Unlike most sorcerers whose innate magic is powered by force of personality, you use pure willpower to master and fuel your magic. You use your {g|Encyclopedia:Wisdom}Wisdom{/g}, rather than your {g|Encyclopedia:Charisma}Charisma{/g}, to determine all class features and effects relating to your sorcerer class, such as bonus {g|Encyclopedia:Spell}spells{/g} per day, maximum spell level you can cast, and the {g|Encyclopedia:Saving_Throw}save{/g} DCs of your spells. You gain a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Lore_Religion}Lore (religion){/g} {g|Encyclopedia:Check}checks{/g}.",
+      "icon": "f5ed62d8b87132444a4d10a54ba821ea",
+      "isSelection": false
+    },
+    {
+      "__index": 98,
+      "name": "Cantrips",
+      "desc": "Sorcerers can cast a number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
+      "icon": "gen__C",
+      "isSelection": false
+    },
+    {
+      "__index": 99,
+      "name": "Cantrips",
+      "desc": "Sorcerers can cast a number of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g}, or 0-level {g|Encyclopedia:Spell}spells{/g}. These spells are cast like any other spell, but they are not expended when cast and may be used again.",
+      "icon": "gen__C",
+      "isSelection": false
+    },
+    {
+      "__index": 100,
+      "name": "Bloodline Class Skill Selection",
+      "desc": "You can choose any knowlege {g|Encyclopedia:Skills}skill{/g} to add to your class skills.",
+      "icon": "gen__BC",
+      "isSelection": true
+    },
+    {
+      "__index": 101,
+      "name": "Arcane Bloodline Arcana",
+      "desc": "Whenever you apply a metamagic {g|Encyclopedia:Feat}feat{/g} to a {g|Encyclopedia:Spell}spell{/g} that increases the slot used by at least one level, increase the spell\u0027s {g|Encyclopedia:DC}DC{/g} by \u002B1. This {g|Encyclopedia:Bonus}bonus{/g} does not stack with itself and does not apply to spells modified by the Heighten Spell feat.",
+      "icon": "95b1c040e64d64b42bee8b08d380b4ae",
+      "isSelection": false
+    },
+    {
+      "__index": 102,
+      "name": "Bloodline Arcana",
+      "desc": "Unlike most sorcerers, whose innate magic is powered by force of personality, you use your intellect to understand and master your mystic powers. You use your {g|Encyclopedia:Intelligence}Intelligence{/g}, rather than your {g|Encyclopedia:Charisma}Charisma{/g}, to determine all class features and effects relating to your sorcerer class, such as bonus {g|Encyclopedia:Spell}spells{/g} per day, the maximum spell level you can cast, the {g|Encyclopedia:Saving_Throw}save{/g} DCs of your spells, and the number of daily uses of your bloodline powers. You gain a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Knowledge_Arcana}Knowledge (arcana){/g}.",
+      "icon": "75adafb59a8fa904f885a9a4fa16fc95",
+      "isSelection": false
+    },
+    {
+      "__index": 103,
+      "name": "Animal Companion",
+      "desc": "Unlike normal animals of its kind, an animal companion\u0027s {g|Encyclopedia:Hit_Dice}Hit Dice{/g}, abilities, {g|Encyclopedia:Skills}skills{/g}, and {g|Encyclopedia:Feat}feats{/g} advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in {g|Encyclopedia:Size}size{/g} when their druid reaches 4th or 7th level, depending on the companion.",
+      "icon": "736cb7b0def6ff147b921c75c54a81a0",
+      "isSelection": true
+    },
+    {
+      "__index": 104,
+      "name": "Sage Sorcerer",
+      "desc": "Your magic comes from the knowledge and traditions that your bloodline accumulated through the generations, not just from force of personality. You use your {g|Encyclopedia:Intelligence}Intelligence{/g}, rather than your {g|Encyclopedia:Charisma}Charisma{/g}, to determine all class features and effects relating to your sorcerer class, such as bonus {g|Encyclopedia:Spell}spells{/g} per day, the maximum spell level you can cast, the {g|Encyclopedia:Saving_Throw}save{/g} DCs of your spells, and the number of daily uses of your bloodline powers.",
+      "icon": "15d11c952fdc96b45849f312f3931192",
+      "isSelection": false
+    },
+    {
+      "__index": 105,
+      "name": "Arcane Bolt",
+      "desc": "Starting at 1st level, you can unleash a bolt of magic force as a {g|Encyclopedia:Standard_Actions}standard action{/g}, targeting any foe within 30 feet as a ranged {g|Encyclopedia:TouchAttack}touch attack{/g}. This bolt deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Damage}damage{/g} \u002B 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 \u002B your {g|Encyclopedia:Intelligence}Intelligence{/g} modifier.",
+      "icon": "5468ef95e31f00042a9cc5cda1aa9e71",
+      "isSelection": false
+    },
+    {
+      "__index": 106,
+      "name": "Bloodline Arcana",
+      "desc": "Unlike most sorcerers, whose innate magic is powered by force of personality, you use your intellect to understand and master your mystic powers. You use your {g|Encyclopedia:Intelligence}Intelligence{/g}, rather than your {g|Encyclopedia:Charisma}Charisma{/g}, to determine all class features and effects relating to your sorcerer class, such as bonus {g|Encyclopedia:Spell}spells{/g} per day, the maximum spell level you can cast, the {g|Encyclopedia:Saving_Throw}save{/g} DCs of your spells, and the number of daily uses of your bloodline powers. You gain a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Knowledge_Arcana}Knowledge (arcana){/g}.",
+      "icon": "75adafb59a8fa904f885a9a4fa16fc95",
+      "isSelection": false
+    },
+    {
+      "__index": 107,
+      "name": "Bloodline Class Skill Selection",
+      "desc": "You can choose any knowlege {g|Encyclopedia:Skills}skill{/g} to add to your class skills.",
+      "icon": "gen__BC",
+      "isSelection": true
+    },
+    {
+      "__index": 108,
+      "name": "Combat Casting Adept",
+      "desc": "Combat Casting Adept: At 3rd level, you get a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Concentration}concentration checks{/g} made to cast a {g|Encyclopedia:Spell}spell{/g} or use a {g|Encyclopedia:Special_Abilities}spell-like ability{/g}. At 9th level, your concentration {g|Encyclopedia:Check}check{/g} bonus increases to \u002B3, and at 15th level, it increases to \u002B4. At 20th level, this ability is replaced by arcane apotheosis.",
+      "icon": "d7f95c54ea7a4b24f91b3f01cd84e251",
+      "isSelection": false
+    },
+    {
+      "__index": 109,
+      "name": "Magic Missile",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nMagic Missile: A missile of magical energy darts forth from your fingertip and strikes its target, dealing {g|Encyclopedia:Dice}1d4{/g}\u002B1 points of force {g|Encyclopedia:Damage}damage{/g}.\nThe missile strikes unerringly, even if the target is in melee combat, so long as it has less than total cover or total {g|Encyclopedia:Concealment}concealment{/g}.\nFor every two {g|Encyclopedia:Caster_Level}caster levels{/g} beyond 1st, you gain an additional missile \u2014 two at 3rd level, three at 5th, four at 7th, and the maximum of five missiles at 9th level or higher.",
+      "icon": "27854775588ed38478599af5cbb73556",
+      "isSelection": false
+    },
+    {
+      "__index": 110,
+      "name": "Invisibility",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nInvisibility: The touched creature becomes invisible.\nIf a {g|Encyclopedia:Check}check{/g} is required, an invisible creature has a \u002B20 {g|Encyclopedia:Bonus}bonus{/g} on its {g|Encyclopedia:Stealth}Stealth checks{/g}. The spell ends if the subject {g|Encyclopedia:Attack}attacks{/g} any creature. For the purposes of this spell, an attack includes any {g|Encyclopedia:Spell_Target}spell targeting{/g} a foe or whose area or effect includes a foe. {g|Encyclopedia:CA_Types}Actions{/g} directed at unattended objects do not break the spell. Causing harm indirectly is not an attack. Thus, an invisible being can open doors, talk, eat, climb stairs, summon monsters and have them attack, cut the ropes holding a rope bridge while enemies are on the bridge, remotely trigger traps, open a portcullis to release attack dogs, and so forth. If the subject attacks directly, however, it immediately becomes visible along with all its gear. Spells such as bless that specifically affect allies but not foes are not attacks for this purpose, even when they include foes in their area.",
+      "icon": "57a5e3232472df44bac5df62ed9f8cdd",
+      "isSelection": false
+    },
+    {
+      "__index": 111,
+      "name": "Dispel Magic",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nDispel Magic: You can use dispel magic to end one ongoing spell that has been cast on a creature.\nYou make one dispel {g|Encyclopedia:Check}check{/g} ({g|Encyclopedia:Dice}1d20{/g} \u002B your {g|Encyclopedia:Caster_Level}caster level{/g}) and compare that to the spell with highest caster level ({g|Encyclopedia:DC}DC{/g} = 11 \u002B the spell\u0027s caster level). If successful, that spell ends. If not, compare the same result to the spell with the next highest caster level. Repeat this process until you have dispelled one spell affecting the target, or you have failed to dispel every spell.",
+      "icon": "c9f183e1d73013c4e871045c7e6b48a9",
+      "isSelection": false
+    },
+    {
+      "__index": 112,
+      "name": "Dimension Door",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nDimension Door: You instantly transfer yourself from your current location to any other spot within range.",
+      "icon": "fbca144bd0f43c543932158f73a6130a",
+      "isSelection": false
+    },
+    {
+      "__index": 113,
+      "name": "New Arcana",
+      "desc": "At 9th level, you can add any one {g|Encyclopedia:Spell}spell{/g} from the sorcerer/wizard spell list to your list of spells known. This spell must be of a level that you are capable of casting. You can also add one additional spell at 13th level and 17th level.",
+      "icon": "e1200c46a59db0945919ae5288d22ba4",
+      "isSelection": true
+    },
+    {
+      "__index": 114,
+      "name": "Break Enchantment",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nBreak Enchantment: This spell frees victims from enchantments, transmutations, and curses. Break enchantment can reverse even an instantaneous effect. For each such effect, you make a {g|Encyclopedia:Caster_Level}caster level{/g} {g|Encyclopedia:Check}check{/g} ({g|Encyclopedia:Dice}1d20{/g} \u002B caster level, maximum \u002B15) against a {g|Encyclopedia:DC}DC{/g} of 11 \u002B caster level of the effect. Success means that the creature is free of the spell, curse, or effect.",
+      "icon": "4c7dd20d902574a4f9ebf62ac95d9b9b",
+      "isSelection": false
+    },
+    {
+      "__index": 115,
+      "name": "True Seeing",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nTrue Seeing: You confer on the subject the ability to see all things as they actually are. The subject sees through normal and magical darkness, notices secret doors hidden by magic, sees the exact locations of creatures or objects under blur or displacement effects, sees invisible creatures or objects normally, sees through illusions, and sees the true form of polymorphed, changed, or transmuted things.",
+      "icon": "efdb8e3899fcdd044bc3eeab8e127ee6",
+      "isSelection": false
+    },
+    {
+      "__index": 116,
+      "name": "Banishment",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nBanishment: This spell is a more powerful version of the dismissal spell. It enables you to force extraplanar creatures out of your home plane. As many as 2 {g|Encyclopedia:Hit_Dice}Hit Dice{/g} of creatures per {g|Encyclopedia:Caster_Level}caster level{/g} can be banished in a 30-foot radius; creatures who are closest to the burst\u0027s point of origin are affected first.\nDismissal: This spell forces an extraplanar creature back to its proper plane if it fails a {g|Encyclopedia:Saving_Throw}Will save{/g}. If the spell is successful, the creature is instantly whisked away.",
+      "icon": "5f31e79573fa7ab43a1b4de6bb210182",
+      "isSelection": false
+    },
+    {
+      "__index": 117,
+      "name": "School Power",
+      "desc": "At 15th level, pick one {g|Encyclopedia:Magic_School}school of magic{/g}. The {g|Encyclopedia:DC}DC{/g} for any {g|Encyclopedia:Spell}spells{/g} you cast from that school increases by \u002B2. This {g|Encyclopedia:Bonus}bonus{/g} stacks with the bonus granted by Spell Focus.",
+      "icon": "e27dd6c9eccc3f54cac0247a93b8a34d",
+      "isSelection": true
+    },
+    {
+      "__index": 118,
+      "name": "Power Word Stun",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nPower Word Stun: You utter a single word of power that instantly causes one creature of your choice to become stunned, whether the creature can hear the word or not. The duration of the spell depends on the target\u0027s current hit point total. Any creature that currently has 151 or more {g|Encyclopedia:HP}hit points{/g} is unaffected by power word stun.",
+      "icon": "7f1b2c99decf9f441b7a9281d8ce3733",
+      "isSelection": false
+    },
+    {
+      "__index": 119,
+      "name": "Clashing Rocks",
+      "desc": "At 3rd level, and every two levels thereafter, a sorcerer learns an additional {g|Encyclopedia:Spell}spell{/g}, derived from her bloodline. These spells are in addition to the number of spells given at new levels.\nClashing Rocks: You create two Colossal-sized masses of rock, dirt, and stone and slam them together against a single creature between them. The clashing rocks appear up to 30 feet away from the target on opposite sides and rush toward it with a mighty grinding crash. You must make a ranged {g|Encyclopedia:TouchAttack}touch attack{/g} to hit the target with the rocks. The clashing rocks ignore {g|Encyclopedia:Concealment}concealment{/g} and cover. A creature struck by the clashing rocks takes {g|Encyclopedia:Dice}20d6{/g} points of {g|Encyclopedia:Damage_Type}bludgeoning damage{/g} and is knocked prone.\nIf the clashing rocks miss the target, the target still takes 10d6 points of bludgeoning {g|Encyclopedia:Damage}damage{/g} from falling rocks and is knocked prone. A successful {g|Encyclopedia:Saving_Throw}Reflex save{/g} reduces this damage to half and the target remains standing. Creatures other than the target that occupy the spaces where the clashing rocks appear or within their path must also make Reflex saves or take 10d6 points of bludgeoning damage and be knocked prone (save for half and remain standing).",
+      "icon": "10e4ff844bb3f71439a69c8f35c35087",
+      "isSelection": false
+    },
+    {
+      "__index": 120,
+      "name": "Arcane Apotheosis",
+      "desc": "At 20th level, your body surges with arcane power. All your {g|Encyclopedia:Concentration}concentration checks{/g} made to cast a {g|Encyclopedia:Spell}spell{/g} or use a {g|Encyclopedia:Special_Abilities}spell-like ability{/g} are automatic successes.",
+      "icon": "15d11c952fdc96b45849f312f3931192",
+      "isSelection": false
+    },
+    {
+      "__index": 121,
+      "name": "Secondary Bloodline",
+      "desc": "A crossblooded sorcerer gains additional bloodline as a secondary bloodline. She receives only {g|Encyclopedia:Bonus}bonus{/g} class {g|Encyclopedia:Skills}skill{/g} and bonus {g|Encyclopedia:Spell}spells{/g} from this bloodline.",
+      "icon": "gen__SB",
+      "isSelection": true
+    },
+    {
+      "__index": 122,
+      "name": "Reduced Spellbook",
+      "desc": "A crossblooded sorcerer has one fewer spell known at each level than regular sorcerer.",
+      "icon": "gen__RS",
+      "isSelection": false
+    },
+    {
+      "__index": 123,
+      "name": "Seeker\u0027s Trapfinding",
+      "desc": "Seekers often look to ancient devices, old tomes, and strange magical items in order to learn more about their oracle mysteries. As a result of this curiosity and thanks to an innate knack at deciphering the strange and weird, a seeker gains {g|Encyclopedia:Trickery}Trickery{/g} as a class {g|Encyclopedia:Skills}skill{/g}. In addition, at 1st level, a seeker adds half his oracle level on Trickery skill {g|Encyclopedia:Check}checks{/g} (minimum \u002B1).",
+      "icon": "gen__ST",
+      "isSelection": false
+    },
+    {
+      "__index": 124,
+      "name": "Bloodline",
+      "desc": "Each sorcerer has a source of magic somewhere in her heritage that grants her {g|Encyclopedia:Spell}spells{/g}, bonus {g|Encyclopedia:Feat}feats{/g}, an additional class {g|Encyclopedia:Skills}skill{/g}, and other {g|Encyclopedia:Special_Abilities}special abilities{/g}. This source can represent a blood relation or an extreme event involving a creature somewhere in the family\u0027s past. For example, a sorcerer might have a dragon as a distant relative or her grandfather might have signed a terrible contract with a devil. Regardless of the source, this influence manifests in a number of ways as the sorcerer gains levels. A sorcerer must pick one bloodline upon taking her first level of sorcerer. Once made, this choice cannot be changed.\nFilled with magical power that screams for release, sorcery is not so much a calling as a blessing \u2014 or a curse. For some sorcerers, this arcane birthright manifests in subtle and carefully controlled ways, assisting in their manipulation of others or the pursuit of lofty goals. For others, it is wild and unpredictable, the primal and explosive lashing out of a power greater than themselves.\nAt 3rd level, and every two levels thereafter, a sorcerer learns an additional spell, derived from her bloodline. These spells are in addition to the number of spells given at new levels. These spells cannot be exchanged for different spells at higher levels.\nAt 7th level, and every six levels thereafter, a sorcerer receives one bonus feat, chosen from a list specific to each bloodline. The sorcerer must meet the prerequisites for these bonus feats.",
+      "icon": "gen__B",
+      "isSelection": true
+    },
+    {
+      "__index": 125,
+      "name": "Seeker Bonus Feat",
+      "desc": "At 5th, 10th and 15th level, Seeker gains a bonus {g|Encyclopedia:Feat}feat{/g} from the list:",
+      "icon": "gen__SBF",
+      "isSelection": true
+    },
+    {
+      "__index": 126,
+      "name": "Bloodline (Nine-Tailed Heir)",
+      "desc": "A nine tailed heir chooses sorcerer\u0027s bloodline as usual, but she will not learn additional {g|Encyclopedia:Spell}spells{/g} derived from her bloodline.\nAt 7th level, and every six levels thereafter, a nine-tailed heir receives one bonus {g|Encyclopedia:Feat}feat{/g}, chosen from a list specific to each bloodline. The nine-tailed heir must meet the prerequisites for these bonus feats.",
+      "icon": "gen__BN",
+      "isSelection": true
+    },
+    {
+      "__index": 127,
+      "name": "Magical Tail",
+      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
+      "icon": "8be423c9d9d24ef46918d747408e9192",
+      "isSelection": false
+    },
+    {
+      "__index": 128,
+      "name": "Magical Tail",
+      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
+      "icon": "8be423c9d9d24ef46918d747408e9192",
+      "isSelection": false
+    },
+    {
+      "__index": 129,
+      "name": "Magical Tail",
+      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
+      "icon": "8be423c9d9d24ef46918d747408e9192",
+      "isSelection": false
+    },
+    {
+      "__index": 130,
+      "name": "Magical Tail",
+      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
+      "icon": "8be423c9d9d24ef46918d747408e9192",
+      "isSelection": false
+    },
+    {
+      "__index": 131,
+      "name": "Magical Tail",
+      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
+      "icon": "8be423c9d9d24ef46918d747408e9192",
+      "isSelection": false
+    },
+    {
+      "__index": 132,
+      "name": "Magical Tail",
+      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
+      "icon": "8be423c9d9d24ef46918d747408e9192",
+      "isSelection": false
+    },
+    {
+      "__index": 133,
+      "name": "Magical Tail",
+      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
+      "icon": "8be423c9d9d24ef46918d747408e9192",
+      "isSelection": false
+    },
+    {
+      "__index": 134,
+      "name": "Magical Tail",
+      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
+      "icon": "8be423c9d9d24ef46918d747408e9192",
+      "isSelection": false
+    },
+    {
+      "__index": 135,
+      "name": "Magical Tail",
+      "desc": "At 3rd level and every 2 levels thereafter, a nine-tailed heir gains Magical Tail as a bonus {g|Encyclopedia:Feat}feat{/g}. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.",
+      "icon": "8be423c9d9d24ef46918d747408e9192",
+      "isSelection": false
+    },
+    {
+      "__index": 136,
+      "name": "Overwhelming Penetration",
+      "desc": "At 1st level, an overwhelming mage gains a \u002B1 {g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Caster_Level}caster level{/g} {g|Encyclopedia:Check}checks{/g} made to overcome a target\u0027s {g|Encyclopedia:Spell_Resistance}spell resistance{/g}. This bonus increases by \u002B1 for every 6 levels thereafter.",
+      "icon": "gen__OP",
+      "isSelection": false
+    },
+    {
+      "__index": 137,
       "name": "Overwhelming Spell",
       "desc": "At 6th level, an overwhelming mage gains the ability to sacrifice a {g|Encyclopedia:Spell}spell{/g} slot of 3rd level or higher to increase the {g|Encyclopedia:Saving_Throw}saving throw{/g} {g|Encyclopedia:DC}DC{/g} of the next spell he casts during the next two {g|Encyclopedia:Combat_Round}rounds{/g}, equal to one third of the sacrificed spell level.",
-      "icon": "gen__OS"
+      "icon": "gen__OS",
+      "isSelection": false
     }
   ],
   "name": "Sorcerer",
   "desc": "Sorcerers excel at casting a selection of favored {g|Encyclopedia:Spell}spells{/g} frequently, making them powerful battle mages. As they become familiar with a specific and ever-widening set of spells, sorcerers often discover new and versatile ways of making use of magics other spellcasters might overlook. Their bloodlines also grant them additional abilities, assuring that no two sorcerers are ever quite alike.",
   "layout": [
-    [
-      {
-        "level": 1,
-        "feature": 0,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 1,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 2,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 3,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 7,
-        "feature": 4,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 13,
-        "feature": 4,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 19,
-        "feature": 4,
-        "rank": -1,
-        "archType": 0
-      }
-    ]
+    {
+      "name": null,
+      "rows": [
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 0,
+              "feature": 0,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 1,
+              "feature": 3,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 7,
+              "feature": 4,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 13,
+              "feature": 4,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 19,
+              "feature": 4,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 0,
+              "feature": 1,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bloodline",
+      "rows": [
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 0,
+              "feature": 2,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        }
+      ]
+    }
   ],
   "bab": [
     0,
@@ -771,72 +1556,276 @@
       "desc": "Your heavenly power derives from insight rather than force of personality.",
       "id": "aa00d945f7cf6c34c909a29a25f2df38",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 5,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 6,
-            "rank": -1,
-            "archType": 1
-          }
-        ]
+        {
+          "name": "Empyreal Bloodline",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 30,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 31,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 32,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 33,
+                  "rank": 1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 34,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 35,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 36,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 37,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 38,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 39,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 40,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 41,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 42,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 43,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 44,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 45,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 46,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 98,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bloodline",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1291,72 +2280,243 @@
       "desc": "Your ties to nature have more to do with creatures than with capriciousness.",
       "id": "711d5024ecc75f346b9cda609c3a1f83",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 7,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 8,
-            "rank": -1,
-            "archType": 1
-          }
-        ]
+        {
+          "name": "Sylvan Bloodline",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 83,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 84,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 85,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 86,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 87,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 88,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 89,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 90,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 91,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 92,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 93,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 94,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 95,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 96,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 103,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bloodline",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1378,72 +2538,287 @@
       "desc": "Your magic comes from the knowledge and traditions that your bloodline accumulated through the generations, not just from force of personality. You use your {g|Encyclopedia:Intelligence}Intelligence{/g}, rather than your {g|Encyclopedia:Charisma}Charisma{/g}, to determine all class features and effects relating to your sorcerer class, such as bonus {g|Encyclopedia:Spell}spells{/g} per day, the maximum spell level you can cast, the {g|Encyclopedia:Saving_Throw}save{/g} DCs of your spells, and the number of daily uses of your bloodline powers.",
       "id": "00b990c8be2117e45ae6514ee4ef561c",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 9,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 10,
-            "rank": -1,
-            "archType": 1
-          }
-        ]
+        {
+          "name": "Sage Sorcerer",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 105,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 106,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 107,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 108,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 109,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 110,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 111,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 112,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 113,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 114,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 115,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 113,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 116,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 117,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 118,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 113,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 119,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 120,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 99,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bloodline",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1898,72 +3273,95 @@
       "desc": "A crossblooded bloodline combines the powers of two distinct heritages. In most cases, sorcerers with this bloodline are the offspring of two sorcerers from different ancestries, but occasionally a crossblooded sorcerer arises from the conjunction of other powers. A draconic sorcerer who is also the culmination of a great destiny, an abyssal sorcerer from a family that dealt with devils, and an arcane sorcerer raised from birth by fey are all possible sources for crossblooded bloodlines.",
       "id": "e66a112ab57f69e418f1f11d5d2f3248",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 11,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 12,
-            "rank": -1,
-            "archType": 1
-          }
-        ]
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 122,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Secondary Bloodline",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 121,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bloodline",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -2418,92 +3816,108 @@
       "desc": "Sorcerers gain their magical powers through strange and mysterious ways. While most might be content with their strange powers, some adventure far and wide in search of a greater understanding of the genesis and history of their eldritch talents. These {g|Encyclopedia:Spell}spellcasters{/g} are known as seekers, after their obsession with researching ancient texts and obscure ruins for any clues they can find about their heritage and histories.",
       "id": "7229db6fc0b07af4180e783eed43c4d9",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 13,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 14,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 5,
-            "feature": 15,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 10,
-            "feature": 15,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 15,
-            "feature": 15,
-            "rank": -1,
-            "archType": 1
-          }
-        ]
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 123,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 5,
+                  "feature": 125,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 10,
+                  "feature": 125,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 15,
+                  "feature": 125,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bloodline",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 1,
+                  "feature": 124,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -2525,127 +3939,175 @@
       "desc": "Stories often tell of kitsune with multiple tails, but not many realize that fewer than one kitsune in every thousand has this potential, and those that do usually have a magical quirk in their blood or have been blessed by their {g|Encyclopedia:Race}race{/g}\u0027s deific matron. As a result, most that harness the mystic powers of their newfound tails often gain sorcerous powers, becoming nine-tailed heirs.",
       "id": "65a630aa291f65047b90a2af5df75d83",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 3,
-            "feature": 17,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 5,
-            "feature": 18,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 7,
-            "feature": 19,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 9,
-            "feature": 20,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 11,
-            "feature": 21,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 13,
-            "feature": 22,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 15,
-            "feature": 23,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 17,
-            "feature": 24,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 19,
-            "feature": 25,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 7,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 13,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 19,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 16,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 3,
+                  "feature": 127,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 5,
+                  "feature": 128,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 7,
+                  "feature": 129,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 9,
+                  "feature": 130,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 11,
+                  "feature": 131,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 13,
+                  "feature": 132,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 15,
+                  "feature": 133,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 17,
+                  "feature": 134,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 19,
+                  "feature": 135,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 7,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 13,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 19,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bloodline (Nine-Tailed Heir)",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 126,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bloodline",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -2667,89 +4129,108 @@
       "desc": "Innate magical powers are always a tempting phenomenon, and many people are content with the extent of their powers, but overwhelming mages strive to improve the sheer capacity of their powers.",
       "id": "734917ec8b8542378c1d35519439d67f",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 27,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 7,
-            "feature": 4,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 13,
-            "feature": 4,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 19,
-            "feature": 4,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 26,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 7,
-            "feature": 26,
-            "rank": 2,
-            "archType": 1
-          },
-          {
-            "level": 13,
-            "feature": 26,
-            "rank": 3,
-            "archType": 1
-          },
-          {
-            "level": 19,
-            "feature": 26,
-            "rank": 4,
-            "archType": 1
-          }
-        ],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 136,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 7,
+                  "feature": 136,
+                  "rank": 2,
+                  "archType": 1
+                },
+                {
+                  "level": 13,
+                  "feature": 136,
+                  "rank": 3,
+                  "archType": 1
+                },
+                {
+                  "level": 19,
+                  "feature": 136,
+                  "rank": 4,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 6,
+                  "feature": 137,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 7,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 13,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 19,
+                  "feature": 4,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bloodline",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 0,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,

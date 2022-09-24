@@ -5,226 +5,363 @@
       "__index": 0,
       "name": "Witch\u0027s Familiar",
       "desc": "At 1st level, a witch forms a close bond with a familiar, a creature that teaches her magic and helps to guide her along her path. Familiars also aid a witch by granting her {g|Encyclopedia:Skills}skill{/g} {g|Encyclopedia:Bonus}bonuses{/g}, additional {g|Encyclopedia:Spell}spells{/g}, and help with some types of magic.\nA witch must commune with her familiar each day to prepare her spells. Familiars store all of the spells that a witch knows, and a witch cannot prepare a spell that is not stored by her familiar. A witch\u0027s familiar begins play storing all of the 0-level witch spells plus three 1st level spells of the witch\u0027s choice. The witch also selects a number of additional 1st-level spells equal to her {g|Encyclopedia:Intelligence}Intelligence{/g} modifier to store in her familiar. At each new witch level, she adds two new spells of any spell level or levels that she can cast (based on her new witch level) to her familiar. A witch can also add additional spells to her familiar through a special ritual.",
-      "icon": "4ac7761414491a844876769879e9fbad"
+      "icon": "4ac7761414491a844876769879e9fbad",
+      "isSelection": true
     },
     {
       "__index": 1,
       "name": "Patron",
       "desc": "At 1st level, when a witch gains her familiar, she must also select a patron. This patron is a vague and mysterious force, granting the witch power for reasons that she might not entirely understand. While these forces need not be named, they typically hold influence over one of the following forces.\nAt 2nd level, and every two levels thereafter, a witch\u0027s patron adds new {g|Encyclopedia:Spell}spells{/g} to a witch\u0027s list of spells known. These spells are also automatically added to the list of spells stored by the familiar. The spells gained depend upon the patron chosen.",
-      "icon": "gen__P"
+      "icon": "gen__P",
+      "isSelection": true
     },
     {
       "__index": 2,
       "name": "Hex",
       "desc": "Witches learn a number of magic tricks, called hexes, that grant them powers or weaken foes. At 1st level, a witch gains one hex of her choice. She gains an additional hex at 2nd level and for every 2 levels attained after 2nd level. A witch cannot select an individual hex more than once.\nUsing a hex is a {g|Encyclopedia:Standard_Actions}standard action{/g} that doesn\u0027t provoke an {g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g} unless otherwise noted. The {g|Encyclopedia:Saving_Throw}saving throw{/g} {g|Encyclopedia:DC}DC{/g} to resist a hex is equal to 10 \u002B half the witch\u0027s level \u002B the witch\u0027s {g|Encyclopedia:Intelligence}Intelligence{/g} modifier. For Stigmatized Witch the saving throw use {g|Encyclopedia:Charisma}Charisma{/g} modifier instead of Intelligence modifier.",
-      "icon": "08de7d6c711522448b11138d6785d59f"
+      "icon": "08de7d6c711522448b11138d6785d59f",
+      "isSelection": true
     },
     {
       "__index": 3,
       "name": "Simple Weapon Proficiency",
       "desc": "You become proficient with all Simple Weapons.",
-      "icon": "11ab2b30adcd57341827dc076a172994"
+      "icon": "11ab2b30adcd57341827dc076a172994",
+      "isSelection": false
     },
     {
       "__index": 4,
       "name": "Improved Hex",
       "desc": "\u003Cnull-string\u003E",
-      "icon": "gen__IH"
+      "icon": "gen__IH",
+      "isSelection": false
     },
     {
       "__index": 5,
-      "name": "Oracle\u0027s Curse",
-      "desc": "Each oracle is cursed, but this curse comes with a benefit as well as a hindrance. This choice is made at 1st level, and once made, it cannot be changed. The oracle\u0027s curse cannot be removed or dispelled without the aid of a deity. An oracle\u0027s curse is based on her oracle level plus one for every two levels or {g|Encyclopedia:Hit_Dice}Hit Dice{/g} other than oracle.",
-      "icon": "1ef34a0fc900e0b4697c9558fd46957f"
+      "name": "Major Hexes",
+      "desc": "Starting at 10th level, and every two levels thereafter, a witch can choose a major hex whenever she could select a new hex.",
+      "icon": "7786ee06467b28646924873af49d9ab4",
+      "isSelection": false
     },
     {
       "__index": 6,
-      "name": "Hag\u0027s Claws",
-      "desc": "A hagbound\u0027s hands grow into a pair of hideous claws that deal {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Damage}damage{/g} for a Medium hagbound (1d3 for a Small creature).",
-      "icon": "gen__HC"
+      "name": "Grand Hex",
+      "desc": "Starting at 18th level, and every two levels thereafter, a witch can choose a grand hex whenever she could select a new hex.",
+      "icon": "2e66f42b6bb05f144ad8745b746c644f",
+      "isSelection": false
     },
     {
       "__index": 7,
-      "name": "Hagbound Patron",
-      "desc": "A hagbound must select one of the following patrons: Deception, Winter, Shadow, {g|Encyclopedia:Strength}Strength{/g}.",
-      "icon": "gen__HP"
+      "name": "Oracle\u0027s Curse",
+      "desc": "Each oracle is cursed, but this curse comes with a benefit as well as a hindrance. This choice is made at 1st level, and once made, it cannot be changed. The oracle\u0027s curse cannot be removed or dispelled without the aid of a deity. An oracle\u0027s curse is based on her oracle level plus one for every two levels or {g|Encyclopedia:Hit_Dice}Hit Dice{/g} other than oracle.",
+      "icon": "1ef34a0fc900e0b4697c9558fd46957f",
+      "isSelection": true
     },
     {
       "__index": 8,
-      "name": "Hunched Muscle",
-      "desc": "At 2nd level, warty growths and knobby muscles twist the hagbound\u0027s body. She gains a \u002B2 {g|Encyclopedia:Size}size{/g} {g|Encyclopedia:Bonus}bonus{/g} to her {g|Encyclopedia:Strength}Strength{/g} score. This bonus increases by 2 at 8th level and 14th level, to a maximum of \u002B6.",
-      "icon": "bf1d77643e89997409aa8398c1e81706"
+      "name": "Hag\u0027s Claws",
+      "desc": "A hagbound\u0027s hands grow into a pair of hideous claws that deal {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Damage}damage{/g} for a Medium hagbound (1d3 for a Small creature).",
+      "icon": "gen__HC",
+      "isSelection": false
     },
     {
       "__index": 9,
-      "name": "Vile Curse",
-      "desc": "At 10th level, the hagbound becomes exceptionally {g|Encyclopedia:Skills}skilled{/g} at cursing others. She can cast bestow curse at will, but its duration becomes 24 hours. Once a creature has been affected by this ability, it is immune to the witch\u0027s vile curse ability for 24 hours.",
-      "icon": "gen__VC"
+      "name": "Hagbound Patron",
+      "desc": "A hagbound must select one of the following patrons: Deception, Winter, Shadow, {g|Encyclopedia:Strength}Strength{/g}.",
+      "icon": "gen__HP",
+      "isSelection": true
     },
     {
       "__index": 10,
-      "name": "Hag Transformation",
-      "desc": "At 20th level, the hagbound transforms into a true hag, purging all goodness and light from her in exchange for dark power. Her type changes to monstrous humanoid; she gains immunity to charm and fear effects. She also gains {g|Encyclopedia:Spell_Resistance}spell resistance{/g} 31.",
-      "icon": "aff5891248f0e56438127eed99174c4b"
+      "name": "Hunched Muscle",
+      "desc": "At 2nd level, warty growths and knobby muscles twist the hagbound\u0027s body. She gains a \u002B2 {g|Encyclopedia:Size}size{/g} {g|Encyclopedia:Bonus}bonus{/g} to her {g|Encyclopedia:Strength}Strength{/g} score. This bonus increases by 2 at 8th level and 14th level, to a maximum of \u002B6.",
+      "icon": "bf1d77643e89997409aa8398c1e81706",
+      "isSelection": false
     },
     {
       "__index": 11,
-      "name": "Channel Energy",
-      "desc": "At 2nd level, a hex channeler can call upon her patron to release a wave of energy from herself. A good witch channels positive energy (like a good cleric), and an evil witch channels negative energy (like an evil cleric). A witch who is neither good nor evil must choose whether she channels positive or negative energy; once this choice is made, it cannot be reversed.\nChanneling energy causes a burst that affects all creatures of one type (either undead or living) in a 30-foot radius centered on the witch. The witch can channel energy a number of times per day equal to 3 \u002B her {g|Encyclopedia:Charisma}Charisma{/g} modifier (minimum 1). The hex channeler uses her witch level as her cleric level for all other effects dependent upon channel energy (except increasing the amount of {g|Encyclopedia:Damage}damage{/g} {g|Encyclopedia:Healing}healed{/g} or dealt). The hex channeler can choose whether or not to include herself or her familiar in this effect.\nThis burst heals or deals {g|Encyclopedia:Dice}1d6{/g} points of damage. Every time the hex channeler is able to learn a new hex (including major or grand hexes), she can instead increase her channel energy amount by 1d6.",
-      "icon": "gen__CE"
+      "name": "Vile Curse",
+      "desc": "At 10th level, the hagbound becomes exceptionally {g|Encyclopedia:Skills}skilled{/g} at cursing others. She can cast bestow curse at will, but its duration becomes 24 hours. Once a creature has been affected by this ability, it is immune to the witch\u0027s vile curse ability for 24 hours.",
+      "icon": "gen__VC",
+      "isSelection": false
     },
     {
       "__index": 12,
-      "name": "Conduit Surge",
-      "desc": "At 1st level, a ley line guardian is adept at channeling energy from ley lines to enhance her own {g|Encyclopedia:Spell}spells{/g}. As a {g|Encyclopedia:Swift_Action}swift action{/g}, she can increase her effective {g|Encyclopedia:Caster_Level}caster level{/g} for the next spell she casts in that {g|Encyclopedia:Combat_Round}round{/g} by {g|Encyclopedia:Dice}1d4{/g}\u20131 levels. After performing a conduit surge, the ley line guardian must succeed at a {g|Encyclopedia:Saving_Throw}Fortitude save{/g} ({g|Encyclopedia:DC}DC{/g} = 10 \u002B level of spell cast \u002B number of additional caster levels granted) or become staggered for a number of minutes equal to the level of the spell cast. At 8th level, the caster level increase becomes 1d4. She can use this ability a number of times per day equal to 3 \u002B her {g|Encyclopedia:Charisma}Charisma{/g} modifier.",
-      "icon": "gen__CS"
+      "name": "Hag Transformation",
+      "desc": "At 20th level, the hagbound transforms into a true hag, purging all goodness and light from her in exchange for dark power. Her type changes to monstrous humanoid; she gains immunity to charm and fear effects. She also gains {g|Encyclopedia:Spell_Resistance}spell resistance{/g} 31.",
+      "icon": "aff5891248f0e56438127eed99174c4b",
+      "isSelection": false
     },
     {
       "__index": 13,
-      "name": "Ley Line Powered",
-      "desc": "Instead of preparing her {g|Encyclopedia:Spell}spells{/g}, a ley line guardian draws the power casting spells directly from ley lines. A ley line guardian is a spontaneous spellcaster. She knows the same number of spells and receives the same number of spell slots per day as a sorcerer of her witch level. Bonus spells granted by a ley line guardian\u0027s patron are added to the ley line guardian\u0027s total spells known at the appropriate levels.",
-      "icon": "ce284d0b5a1938d47b65280bee963126"
+      "name": "Channel Energy",
+      "desc": "At 2nd level, a hex channeler can call upon her patron to release a wave of energy from herself. A good witch channels positive energy (like a good cleric), and an evil witch channels negative energy (like an evil cleric). A witch who is neither good nor evil must choose whether she channels positive or negative energy; once this choice is made, it cannot be reversed.\nChanneling energy causes a burst that affects all creatures of one type (either undead or living) in a 30-foot radius centered on the witch. The witch can channel energy a number of times per day equal to 3 \u002B her {g|Encyclopedia:Charisma}Charisma{/g} modifier (minimum 1). The hex channeler uses her witch level as her cleric level for all other effects dependent upon channel energy (except increasing the amount of {g|Encyclopedia:Damage}damage{/g} {g|Encyclopedia:Healing}healed{/g} or dealt). The hex channeler can choose whether or not to include herself or her familiar in this effect.\nThis burst heals or deals {g|Encyclopedia:Dice}1d6{/g} points of damage. Every time the hex channeler is able to learn a new hex (including major or grand hexes), she can instead increase her channel energy amount by 1d6.",
+      "icon": "gen__CE",
+      "isSelection": true
     },
     {
       "__index": 14,
-      "name": "Deception",
-      "desc": "\u003Cnull-string\u003E",
-      "icon": "gen__D"
+      "name": "Conduit Surge",
+      "desc": "At 1st level, a ley line guardian is adept at channeling energy from ley lines to enhance her own {g|Encyclopedia:Spell}spells{/g}. As a {g|Encyclopedia:Swift_Action}swift action{/g}, she can increase her effective {g|Encyclopedia:Caster_Level}caster level{/g} for the next spell she casts in that {g|Encyclopedia:Combat_Round}round{/g} by {g|Encyclopedia:Dice}1d4{/g}\u20131 levels. After performing a conduit surge, the ley line guardian must succeed at a {g|Encyclopedia:Saving_Throw}Fortitude save{/g} ({g|Encyclopedia:DC}DC{/g} = 10 \u002B level of spell cast \u002B number of additional caster levels granted) or become staggered for a number of minutes equal to the level of the spell cast. At 8th level, the caster level increase becomes 1d4. She can use this ability a number of times per day equal to 3 \u002B her {g|Encyclopedia:Charisma}Charisma{/g} modifier.",
+      "icon": "gen__CS",
+      "isSelection": false
     },
     {
       "__index": 15,
-      "name": "Secrecy",
-      "desc": "Witch of the Veil gains {g|Encyclopedia:Stealth}Stealth{/g} and {g|Encyclopedia:Trickery}Trickery{/g} as class {g|Encyclopedia:Skills}skills{/g}.",
-      "icon": "gen__S"
+      "name": "Ley Line Powered",
+      "desc": "Instead of preparing her {g|Encyclopedia:Spell}spells{/g}, a ley line guardian draws the power casting spells directly from ley lines. A ley line guardian is a spontaneous spellcaster. She knows the same number of spells and receives the same number of spell slots per day as a sorcerer of her witch level. Bonus spells granted by a ley line guardian\u0027s patron are added to the ley line guardian\u0027s total spells known at the appropriate levels.",
+      "icon": "ce284d0b5a1938d47b65280bee963126",
+      "isSelection": false
     },
     {
       "__index": 16,
-      "name": "Shrouded Step",
-      "desc": "At 2nd level, Witch of the Veil gains the ability to become invisible for a number of {g|Encyclopedia:Combat_Round}rounds{/g} equal to her {g|Encyclopedia:Intelligence}Intelligence{/g} {g|Encyclopedia:Bonus}bonus{/g} as a {g|Encyclopedia:Swift_Action}swift action{/g}.\nAt 8th level, she also can teleport 30 feet and then become invisible, as per invisibility {g|Encyclopedia:Spell}spell{/g}.\nAt 16th level, she gains the benefits of greater Invisibility spell instead.",
-      "icon": "gen__SS"
+      "name": "Deception",
+      "desc": "\u003Cnull-string\u003E",
+      "icon": "gen__D",
+      "isSelection": false
     },
     {
       "__index": 17,
-      "name": "Elemental Patron",
-      "desc": "At 1st level, when a witch gains her familiar, she must also select a patron. This patron is a vague and mysterious force, granting the witch power for reasons that she might not entirely understand. While these forces need not be named, they typically hold influence over one of the following forces.\nAt 2nd level, and every two levels thereafter, a witch\u0027s patron adds new {g|Encyclopedia:Spell}spells{/g} to a witch\u0027s list of spells known. These spells are also automatically added to the list of spells stored by the familiar. The spells gained depend upon the patron chosen.",
-      "icon": "gen__EP"
+      "name": "Patron Spells",
+      "desc": "At 2nd level, and every two levels thereafter, a witch\u0027s patron adds new {g|Encyclopedia:Spell}spells{/g} to a witch\u0027s list of spells known. These spells are also automatically added to the list of spells stored by the familiar. The spells gained depend upon the patron chosen. Each patron is listed by its theme. The witch might never know its actual name.",
+      "icon": "gen__PS",
+      "isSelection": false
     },
     {
       "__index": 18,
-      "name": "Elemental Ray",
-      "desc": "At 1st level, elemental witch selects one type of energy. She gains the ability to use this energy to create a ray of destruction, dealing {g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Energy_Damage}energy damage{/g} plus 1d6 of additional {g|Encyclopedia:Damage}damage{/g} for every 3 witch levels as a ranged {g|Encyclopedia:TouchAttack}touch attack{/g}.\nAt 11th level, she selects one more energy type.",
-      "icon": "gen__ER"
+      "name": "Patron Spells",
+      "desc": "At 2nd level, and every two levels thereafter, a witch\u0027s patron adds new {g|Encyclopedia:Spell}spells{/g} to a witch\u0027s list of spells known. These spells are also automatically added to the list of spells stored by the familiar. The spells gained depend upon the patron chosen. Each patron is listed by its theme. The witch might never know its actual name.",
+      "icon": "gen__PS",
+      "isSelection": false
     },
     {
       "__index": 19,
+      "name": "Patron Spells",
+      "desc": "At 2nd level, and every two levels thereafter, a witch\u0027s patron adds new {g|Encyclopedia:Spell}spells{/g} to a witch\u0027s list of spells known. These spells are also automatically added to the list of spells stored by the familiar. The spells gained depend upon the patron chosen. Each patron is listed by its theme. The witch might never know its actual name.",
+      "icon": "gen__PS",
+      "isSelection": false
+    },
+    {
+      "__index": 20,
+      "name": "Patron Spells",
+      "desc": "At 2nd level, and every two levels thereafter, a witch\u0027s patron adds new {g|Encyclopedia:Spell}spells{/g} to a witch\u0027s list of spells known. These spells are also automatically added to the list of spells stored by the familiar. The spells gained depend upon the patron chosen. Each patron is listed by its theme. The witch might never know its actual name.",
+      "icon": "gen__PS",
+      "isSelection": false
+    },
+    {
+      "__index": 21,
+      "name": "Patron Spells",
+      "desc": "At 2nd level, and every two levels thereafter, a witch\u0027s patron adds new {g|Encyclopedia:Spell}spells{/g} to a witch\u0027s list of spells known. These spells are also automatically added to the list of spells stored by the familiar. The spells gained depend upon the patron chosen. Each patron is listed by its theme. The witch might never know its actual name.",
+      "icon": "gen__PS",
+      "isSelection": false
+    },
+    {
+      "__index": 22,
+      "name": "Patron Spells",
+      "desc": "At 2nd level, and every two levels thereafter, a witch\u0027s patron adds new {g|Encyclopedia:Spell}spells{/g} to a witch\u0027s list of spells known. These spells are also automatically added to the list of spells stored by the familiar. The spells gained depend upon the patron chosen. Each patron is listed by its theme. The witch might never know its actual name.",
+      "icon": "gen__PS",
+      "isSelection": false
+    },
+    {
+      "__index": 23,
+      "name": "Patron Spells",
+      "desc": "At 2nd level, and every two levels thereafter, a witch\u0027s patron adds new {g|Encyclopedia:Spell}spells{/g} to a witch\u0027s list of spells known. These spells are also automatically added to the list of spells stored by the familiar. The spells gained depend upon the patron chosen. Each patron is listed by its theme. The witch might never know its actual name.",
+      "icon": "gen__PS",
+      "isSelection": false
+    },
+    {
+      "__index": 24,
+      "name": "Patron Spells",
+      "desc": "At 2nd level, and every two levels thereafter, a witch\u0027s patron adds new {g|Encyclopedia:Spell}spells{/g} to a witch\u0027s list of spells known. These spells are also automatically added to the list of spells stored by the familiar. The spells gained depend upon the patron chosen. Each patron is listed by its theme. The witch might never know its actual name.",
+      "icon": "gen__PS",
+      "isSelection": false
+    },
+    {
+      "__index": 25,
+      "name": "Patron Spells",
+      "desc": "At 2nd level, and every two levels thereafter, a witch\u0027s patron adds new {g|Encyclopedia:Spell}spells{/g} to a witch\u0027s list of spells known. These spells are also automatically added to the list of spells stored by the familiar. The spells gained depend upon the patron chosen. Each patron is listed by its theme. The witch might never know its actual name.",
+      "icon": "gen__PS",
+      "isSelection": false
+    },
+    {
+      "__index": 26,
+      "name": "Secrecy",
+      "desc": "Witch of the Veil gains {g|Encyclopedia:Stealth}Stealth{/g} and {g|Encyclopedia:Trickery}Trickery{/g} as class {g|Encyclopedia:Skills}skills{/g}.",
+      "icon": "gen__S",
+      "isSelection": false
+    },
+    {
+      "__index": 27,
+      "name": "Shrouded Step",
+      "desc": "At 2nd level, Witch of the Veil gains the ability to become invisible for a number of {g|Encyclopedia:Combat_Round}rounds{/g} equal to her {g|Encyclopedia:Intelligence}Intelligence{/g} {g|Encyclopedia:Bonus}bonus{/g} as a {g|Encyclopedia:Swift_Action}swift action{/g}.\nAt 8th level, she also can teleport 30 feet and then become invisible, as per invisibility {g|Encyclopedia:Spell}spell{/g}.\nAt 16th level, she gains the benefits of greater Invisibility spell instead.",
+      "icon": "gen__SS",
+      "isSelection": false
+    },
+    {
+      "__index": 28,
+      "name": "Elemental Patron",
+      "desc": "At 1st level, when a witch gains her familiar, she must also select a patron. This patron is a vague and mysterious force, granting the witch power for reasons that she might not entirely understand. While these forces need not be named, they typically hold influence over one of the following forces.\nAt 2nd level, and every two levels thereafter, a witch\u0027s patron adds new {g|Encyclopedia:Spell}spells{/g} to a witch\u0027s list of spells known. These spells are also automatically added to the list of spells stored by the familiar. The spells gained depend upon the patron chosen.",
+      "icon": "gen__EP",
+      "isSelection": true
+    },
+    {
+      "__index": 29,
       "name": "Elemental Ray",
       "desc": "At 1st level, elemental witch selects one type of energy. She gains the ability to use this energy to create a ray of destruction, dealing {g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Energy_Damage}energy damage{/g} plus 1d6 of additional {g|Encyclopedia:Damage}damage{/g} for every 3 witch levels as a ranged {g|Encyclopedia:TouchAttack}touch attack{/g}.\nAt 11th level, she selects one more energy type.",
-      "icon": "gen__ER"
+      "icon": "gen__ER",
+      "isSelection": true
+    },
+    {
+      "__index": 30,
+      "name": "Elemental Ray",
+      "desc": "At 1st level, elemental witch selects one type of energy. She gains the ability to use this energy to create a ray of destruction, dealing {g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Energy_Damage}energy damage{/g} plus 1d6 of additional {g|Encyclopedia:Damage}damage{/g} for every 3 witch levels as a ranged {g|Encyclopedia:TouchAttack}touch attack{/g}.\nAt 11th level, she selects one more energy type.",
+      "icon": "gen__ER",
+      "isSelection": true
     }
   ],
   "name": "Witch",
   "desc": "Some gain power through study, some through devotion, others through blood, but the witch gains power from her communion with the unknown. Generally feared and misunderstood, the witch draws her magic from a pact made with an otherworldly power. Communing with that source, using her familiar as a conduit, the witch gains not only a host of {g|Encyclopedia:Spell}spells{/g}, but a number of strange abilities known as hexes. As a witch grows in power, she might learn about the source of her magic, but some remain blissfully unaware. Some are even afraid of that source, fearful of what it might be or where its true purposes lie.\nWhile many witches are recluses, living on the edge of civilization, some live within society, openly or in hiding. The blend of witches\u0027 spells makes them adept at filling a number of different roles, from seer to {g|Encyclopedia:Healing}healer{/g}, and their hexes grant them a number of abilities that are useful in a fight. Some witches travel about, seeking greater knowledge and better understanding of the mysterious powers that guide them.",
   "layout": [
-    [
-      {
-        "level": 1,
-        "feature": 0,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 1,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 2,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 2,
-        "feature": 2,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 4,
-        "feature": 2,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 6,
-        "feature": 2,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 8,
-        "feature": 2,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 10,
-        "feature": 2,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 12,
-        "feature": 2,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 14,
-        "feature": 2,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 16,
-        "feature": 2,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 18,
-        "feature": 2,
-        "rank": -1,
-        "archType": 0
-      },
-      {
-        "level": 20,
-        "feature": 2,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 3,
-        "rank": -1,
-        "archType": 0
-      }
-    ],
-    [
-      {
-        "level": 1,
-        "feature": 4,
-        "rank": -1,
-        "archType": 0
-      }
-    ]
+    {
+      "name": null,
+      "rows": [
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 1,
+              "feature": 0,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": true,
+          "features": [
+            {
+              "level": 1,
+              "feature": 2,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 2,
+              "feature": 2,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 4,
+              "feature": 2,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 6,
+              "feature": 2,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 8,
+              "feature": 2,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 10,
+              "feature": 2,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 12,
+              "feature": 2,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 14,
+              "feature": 2,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 16,
+              "feature": 2,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 18,
+              "feature": 2,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 20,
+              "feature": 2,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 1,
+              "feature": 3,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Improved Hex",
+      "rows": [
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 10,
+              "feature": 5,
+              "rank": -1,
+              "archType": 0
+            },
+            {
+              "level": 18,
+              "feature": 6,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        },
+        {
+          "lines": false,
+          "features": []
+        }
+      ]
+    },
+    {
+      "name": "Patron",
+      "rows": [
+        {
+          "lines": false,
+          "features": [
+            {
+              "level": 1,
+              "feature": 1,
+              "rank": -1,
+              "archType": 0
+            }
+          ]
+        }
+      ]
+    }
   ],
   "bab": [
     0,
@@ -664,114 +801,162 @@
       "desc": "Some witches think of their magic not as a gift, but as a curse. Her body is tarnished with a mark of her ill fate. Maybe the patron of such a witch was cruel and decided that power mustn\u0027t come cheap, or, maybe, they mercifully helped the witch to turn the adversities that befell her into a source of new {g|Encyclopedia:Strength}strength{/g}. A stigmatized witch relies on intuition, her magic is based not on the sharpness of her wit, but on the strength of her character. Instead of the regular powers granted by a patron, such a witch gets a curse like an oracle, and she casts her {g|Encyclopedia:Spell}spells{/g} spontaneously \u2014 like a sorcerer, rather than a wizard.",
       "id": "c5f6e53e71059fb4d802ce81a277a12d",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 16,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 5,
-            "rank": -1,
-            "archType": 1
-          }
-        ]
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Improved Hex",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 10,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Oracle\u0027s Curse",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 7,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Patron",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1114,156 +1299,216 @@
       "desc": "Whether a changeling in the process of succumbing to her mother\u0027s call, a witch cursed by a hag to become her instrument of torment, a vain and petty witch overeager for power, or some other unfortunate soul, a hagbound witch finds its soul has been infected by a hag\u0027s spite and powerful, corrupt arcane magic. Her mind and body begin to transform to reflect her new being. Hagbound witches suffer a slow transformative taint that is similar to the accursed corruption and make ideal candidates for this additional power \u2014 and tragedy.",
       "id": "96e4c06b6add0a64a8ad8976f9c38c37",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 9,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 20,
-            "feature": 10,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 2,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 4,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 12,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 16,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 6,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 7,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 8,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 8,
-            "feature": 8,
-            "rank": 2,
-            "archType": 1
-          },
-          {
-            "level": 14,
-            "feature": 8,
-            "rank": 3,
-            "archType": 1
-          }
-        ],
-        [],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 8,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 10,
+                  "feature": 11,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 20,
+                  "feature": 12,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 10,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 8,
+                  "feature": 10,
+                  "rank": 2,
+                  "archType": 1
+                },
+                {
+                  "level": 14,
+                  "feature": 10,
+                  "rank": 3,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 2,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 4,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 12,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 16,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Improved Hex",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 10,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Hagbound Patron",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 9,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Patron",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1285,113 +1530,156 @@
       "desc": "A hex channeler is a witch who devotes herself to either life \u2014 {g|Encyclopedia:Healing}healing{/g} the wounded and destroying the undead \u2014 or {g|Encyclopedia:Injury_Death}death{/g}, slaying the living and aiding undead.",
       "id": "191b4be2152fde541ac8984c7f36e91d",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 11,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 4,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 16,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 13,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 4,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Improved Hex",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 10,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Patron",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1413,128 +1701,174 @@
       "desc": "Some witches tap into the power of their patrons not through a special connection with a familiar, but rather directly through the vast network of ley lines that crosses the planes. These witches can harness the latent powers of ley lines without even needing to be near one of the points where ley lines\u0027 powers are accessible to mortal {g|Encyclopedia:Spell}spellcasters{/g}.",
       "id": "ee92a9813c04b1440a3af3c766b6b02d",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 2,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 16,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 12,
-            "rank": 1,
-            "archType": 1
-          },
-          {
-            "level": 8,
-            "feature": 12,
-            "rank": 2,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 13,
-            "rank": -1,
-            "archType": 1
-          }
-        ]
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 14,
+                  "rank": 1,
+                  "archType": 1
+                },
+                {
+                  "level": 8,
+                  "feature": 14,
+                  "rank": 2,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 15,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 2,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Improved Hex",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 10,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Patron",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -1877,142 +2211,284 @@
       "desc": "Secrets, mysteries and shrouds are the ever-changing backbone of the witch of the veil. She always strives to discover new arcane knowledge of this universe, while guarding their secrecy.",
       "id": "08045a390a764d71b2150fd122e05e19",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 2,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 4,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 8,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 10,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 12,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 16,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 18,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 20,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 14,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 15,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 2,
-            "feature": 16,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 8,
-            "feature": 16,
-            "rank": -1,
-            "archType": 1
-          },
-          {
-            "level": 16,
-            "feature": 16,
-            "rank": -1,
-            "archType": 1
-          }
-        ]
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 26,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 2,
+                  "feature": 27,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 8,
+                  "feature": 27,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 16,
+                  "feature": 27,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 2,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 4,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 8,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 10,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 12,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 16,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 18,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 20,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Deception",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 17,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 18,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 19,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 20,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 21,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 22,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 23,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 24,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 25,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Improved Hex",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 10,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Patron",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
@@ -2034,129 +2510,183 @@
       "desc": "Witches sometimes dive deep into elemental energies, allowing to evoke destructive powers upon their enemies.",
       "id": "d7c7cdbc760041fabaedc1623a53a431",
       "layout": [
-        [
-          {
-            "level": 1,
-            "feature": 0,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 11,
-            "feature": 19,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 1,
-            "rank": -1,
-            "archType": -1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 2,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 4,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 6,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 8,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 10,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 12,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 14,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 16,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          },
-          {
-            "level": 18,
-            "feature": 2,
-            "rank": -1,
-            "archType": -1
-          },
-          {
-            "level": 20,
-            "feature": 2,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 3,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 4,
-            "rank": -1,
-            "archType": 0
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 17,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        [
-          {
-            "level": 1,
-            "feature": 18,
-            "rank": -1,
-            "archType": 1
-          }
-        ],
-        []
+        {
+          "name": null,
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 29,
+                  "rank": -1,
+                  "archType": 1
+                },
+                {
+                  "level": 11,
+                  "feature": 30,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 0,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": true,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 2,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 4,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 6,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 8,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 10,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 12,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 14,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 16,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": -1
+                },
+                {
+                  "level": 20,
+                  "feature": 2,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 3,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Improved Hex",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 10,
+                  "feature": 5,
+                  "rank": -1,
+                  "archType": 0
+                },
+                {
+                  "level": 18,
+                  "feature": 6,
+                  "rank": -1,
+                  "archType": 0
+                }
+              ]
+            },
+            {
+              "lines": false,
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Elemental Patron",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 28,
+                  "rank": -1,
+                  "archType": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Patron",
+          "rows": [
+            {
+              "lines": false,
+              "features": [
+                {
+                  "level": 1,
+                  "feature": 1,
+                  "rank": -1,
+                  "archType": -1
+                }
+              ]
+            }
+          ]
+        }
       ],
       "bab": null,
       "fort": null,
