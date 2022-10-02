@@ -42,20 +42,19 @@
     [
       2,
       12,
-      34,
       9,
       4,
       8,
       14
     ],
     [
-      35,
-      36
+      34,
+      35
     ],
     [
+      36,
       37,
-      38,
-      39
+      38
     ]
   ],
   "features": [
@@ -298,25 +297,32 @@
       "isSelection": false
     },
     {
-      "__index": 35,
+      "__index": 34,
       "name": "Sentence",
       "desc": "At 5th level, Judge gains the ability to sentence a target. As a {g|Encyclopedia:Swift_Action}swift action{/g}, until the end of combat all {g|Encyclopedia:Attack}attacks{/g} against the target made by your allies deal additional {g|Encyclopedia:Damage}damage{/g} equal to one per three inquisitor levels. You can use this ability once, plus one time for every 5 levels thereafter.",
       "icon": "8afdbffbeba03a84c9ad0ee6b879b5dd",
       "isSelection": false
     },
     {
-      "__index": 36,
+      "__index": 35,
       "name": "Greater Sentence",
       "desc": "At 12th level, your Sentence ability also make all your {g|Encyclopedia:Attack}attacks{/g} ignore Sentence target\u0027s {g|Encyclopedia:Concealment}concealment{/g}.",
       "icon": "8afdbffbeba03a84c9ad0ee6b879b5dd",
       "isSelection": false
     },
     {
-      "__index": 37,
+      "__index": 36,
       "name": "Sworn Enemy",
       "desc": "A faith hunter chooses a single {g|Encyclopedia:Alignment}alignment{/g} that opposes her own along either the law/chaos axis or the good/evil axis. Creatures of this alignment are her sworn enemies.",
       "icon": "gen__SE",
       "isSelection": true
+    },
+    {
+      "__index": 37,
+      "name": "Sworn Enemy \u2014 Smite",
+      "desc": "At 6th level, once per day as a {g|Encyclopedia:Swift_Action}swift action{/g}, a faith hunter can smite one foe she can see. If the foe is of the faith hunter\u0027s sworn enemy {g|Encyclopedia:Alignment}alignment{/g}, the faith hunter gains a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g} against that foe and a bonus equal to half her inquisitor level on {g|Encyclopedia:Damage}damage rolls{/g} made against the foe. Smites against targets of the faith hunter\u0027s sworn enemy alignment automatically bypass any {g|Encyclopedia:Damage_Reduction}DR{/g} the creature might possess. If the faith hunter targets a creature that is not of her sworn enemy alignment, the smite is wasted with no effect.\nThe smite effect remains until the foe is dead or the next time the faith hunter rests and regains her uses of this ability. At 10th level and every 4 inquisitor levels thereafter, a faith hunter can smite her enemies one additional time per day, to a maximum of four times per day at 18th level.",
+      "icon": "gen__SES",
+      "isSelection": false
     },
     {
       "__index": 38,
@@ -327,16 +333,16 @@
     },
     {
       "__index": 39,
-      "name": "Sworn Enemy \u2014 Smite",
-      "desc": "At 6th level, once per day as a {g|Encyclopedia:Swift_Action}swift action{/g}, a faith hunter can smite one foe she can see. If the foe is of the faith hunter\u0027s sworn enemy {g|Encyclopedia:Alignment}alignment{/g}, the faith hunter gains a \u002B4 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g} against that foe and a bonus equal to half her inquisitor level on {g|Encyclopedia:Damage}damage rolls{/g} made against the foe. Smites against targets of the faith hunter\u0027s sworn enemy alignment automatically bypass any {g|Encyclopedia:Damage_Reduction}DR{/g} the creature might possess. If the faith hunter targets a creature that is not of her sworn enemy alignment, the smite is wasted with no effect.\nThe smite effect remains until the foe is dead or the next time the faith hunter rests and regains her uses of this ability. At 10th level and every 4 inquisitor levels thereafter, a faith hunter can smite her enemies one additional time per day, to a maximum of four times per day at 18th level.",
-      "icon": "gen__SES",
-      "isSelection": false
-    },
-    {
-      "__index": 40,
       "name": "Deity Selection",
       "desc": "A deity, also known as a god or goddess, is a being or force of incredible power capable of granting its power to mortal beings through divine magic. A deity is strongly associated with a specific {g|Encyclopedia:Alignment}alignment{/g}, several domains, and a plane.\nEach deity also limits the choice of your starting alignment and the choices for certain classes. Deity choice cannot be changed later.",
       "icon": "gen__DS",
+      "isSelection": true
+    },
+    {
+      "__index": 40,
+      "name": "Favored Enemy",
+      "desc": "At 1st level, a ranger selects a creature type from the ranger favored enemies list. He gets a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on weapon {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} against them.\nAt 5th level and every five levels thereafter (10th, 15th, and 20th level), the ranger may select an additional favored enemy. In addition, at each such interval, the bonus against any one favored enemy (including the one just selected, if so desired) increases by \u002B2.\nIf the ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated on the table below. If a specific creature falls into more than one category of favored enemy, the ranger\u0027s bonuses do not stack; he simply uses whichever bonus is higher.",
+      "icon": "d27bdc1511ba53a41a0b5849c0e9a9a7",
       "isSelection": true
     },
     {
@@ -348,31 +354,31 @@
     },
     {
       "__index": 42,
-      "name": "Favored Enemy",
-      "desc": "At 1st level, a ranger selects a creature type from the ranger favored enemies list. He gets a \u002B2 {g|Encyclopedia:Bonus}bonus{/g} on weapon {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g} against them.\nAt 5th level and every five levels thereafter (10th, 15th, and 20th level), the ranger may select an additional favored enemy. In addition, at each such interval, the bonus against any one favored enemy (including the one just selected, if so desired) increases by \u002B2.\nIf the ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated on the table below. If a specific creature falls into more than one category of favored enemy, the ranger\u0027s bonuses do not stack; he simply uses whichever bonus is higher.",
-      "icon": "d27bdc1511ba53a41a0b5849c0e9a9a7",
-      "isSelection": true
-    },
-    {
-      "__index": 43,
       "name": "Studied Target",
       "desc": "At 1st level, a sanctified slayer gains the slayer\u0027s studied target class feature. She uses her inquisitor level as her effective slayer level to determine the effects of studied target.",
       "icon": "gen__ST",
       "isSelection": false
     },
     {
-      "__index": 44,
+      "__index": 43,
       "name": "Sneak Attack",
       "desc": "If a character can catch an opponent when he is unable to defend himself effectively from her {g|Encyclopedia:Attack}attack{/g}, she can strike a vital spot for extra {g|Encyclopedia:Damage}damage{/g}.\nThe character\u0027s attack deals extra damage anytime her target would be denied a {g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} (whether the target actually has a Dexterity bonus or not), or when the character {g|Encyclopedia:Flanking}flanks{/g} her target. This extra damage is {g|Encyclopedia:Dice}1d6{/g} and increases by 1d6 at later levels. This additional damage is precision damage and is not multiplied on a {g|Encyclopedia:Critical}critical hit{/g}.\nThe character must be able to see the target well enough to pick out a vital spot and must be able to {g|Encyclopedia:Reach}reach{/g} such a spot.",
       "icon": "02ef137cda22e9b4aa9af681fba45909",
       "isSelection": false
     },
     {
-      "__index": 45,
+      "__index": 44,
       "name": "Talented Slayer",
       "desc": "At 8th, 16th, 17th, and 20th levels, a sanctified slayer can gain a single slayer talent, including those from the list of rogue talents that a slayer can take, but not an advanced slayer talent.",
       "icon": "gen__TS",
       "isSelection": false
+    },
+    {
+      "__index": 45,
+      "name": "Slayer Talents",
+      "desc": "As a slayer gains {g|Encyclopedia:XP}experience{/g}, he learns a number of talents that aid him and confound his foes. Starting at 2nd level and every 2 levels thereafter, a slayer gains one slayer talent.\nSlayer can take rogue talents as slayer talents, counting his slayer level as rogue level.\nAfter 2nd level, the slayer can select a ranger combat style (such as archery or two-weapon combat) and gains a combat {g|Encyclopedia:Feat}feat{/g} from the first feat list of that style. He can choose feats from his selected combat style, even if he does not have the normal prerequisites. After 6th level, he may select this talent again and add the 6th-level ranger combat feats from his chosen style to the list. After 10th level, he may select this talent again and add the 10th-level ranger combat feats from his chosen style to the list.",
+      "icon": "3d7633270d8a4764085cac3081afff97",
+      "isSelection": true
     },
     {
       "__index": 46,
@@ -383,13 +389,6 @@
     },
     {
       "__index": 47,
-      "name": "Slayer Talents",
-      "desc": "As a slayer gains {g|Encyclopedia:XP}experience{/g}, he learns a number of talents that aid him and confound his foes. Starting at 2nd level and every 2 levels thereafter, a slayer gains one slayer talent.\nSlayer can take rogue talents as slayer talents, counting his slayer level as rogue level.\nAfter 2nd level, the slayer can select a ranger combat style (such as archery or two-weapon combat) and gains a combat {g|Encyclopedia:Feat}feat{/g} from the first feat list of that style. He can choose feats from his selected combat style, even if he does not have the normal prerequisites. After 6th level, he may select this talent again and add the 6th-level ranger combat feats from his chosen style to the list. After 10th level, he may select this talent again and add the 10th-level ranger combat feats from his chosen style to the list.",
-      "icon": "3d7633270d8a4764085cac3081afff97",
-      "isSelection": true
-    },
-    {
-      "__index": 48,
       "name": "Judgement Aura",
       "desc": "At 3rd level, Judge gains the ability to share his judgements with all allies in a 30-foot radius. He can use this ability as a {g|Encyclopedia:Swift_Action}swift action{/g} once plus one time for every six levels thereafter. The {g|Encyclopedia:Bonus}bonuses{/g} work until the end of combat.",
       "icon": "gen__JA",
@@ -971,31 +970,31 @@
               "features": [
                 {
                   "level": 1,
-                  "feature": 37,
+                  "feature": 36,
                   "rank": -1,
                   "archType": 1
                 },
                 {
                   "level": 6,
-                  "feature": 38,
+                  "feature": 37,
                   "rank": -1,
                   "archType": 1
                 },
                 {
                   "level": 10,
-                  "feature": 39,
+                  "feature": 38,
                   "rank": 1,
                   "archType": 1
                 },
                 {
                   "level": 14,
-                  "feature": 39,
+                  "feature": 38,
                   "rank": 2,
                   "archType": 1
                 },
                 {
                   "level": 18,
-                  "feature": 39,
+                  "feature": 38,
                   "rank": 3,
                   "archType": 1
                 }
@@ -1833,25 +1832,25 @@
               "features": [
                 {
                   "level": 5,
-                  "feature": 41,
+                  "feature": 40,
                   "rank": -1,
                   "archType": 1
                 },
                 {
                   "level": 10,
-                  "feature": 41,
+                  "feature": 40,
                   "rank": -1,
                   "archType": 1
                 },
                 {
                   "level": 15,
-                  "feature": 41,
+                  "feature": 40,
                   "rank": -1,
                   "archType": 1
                 },
                 {
                   "level": 20,
-                  "feature": 41,
+                  "feature": 40,
                   "rank": -1,
                   "archType": 1
                 }
@@ -1862,19 +1861,19 @@
               "features": [
                 {
                   "level": 10,
-                  "feature": 42,
+                  "feature": 41,
                   "rank": -1,
                   "archType": 1
                 },
                 {
                   "level": 15,
-                  "feature": 42,
+                  "feature": 41,
                   "rank": -1,
                   "archType": 1
                 },
                 {
                   "level": 20,
-                  "feature": 42,
+                  "feature": 41,
                   "rank": -1,
                   "archType": 1
                 }
@@ -2032,13 +2031,13 @@
               "features": [
                 {
                   "level": 1,
-                  "feature": 43,
+                  "feature": 42,
                   "rank": -1,
                   "archType": 1
                 },
                 {
                   "level": 8,
-                  "feature": 46,
+                  "feature": 45,
                   "rank": -1,
                   "archType": 1
                 },
@@ -2061,37 +2060,37 @@
                 },
                 {
                   "level": 4,
-                  "feature": 44,
+                  "feature": 43,
                   "rank": 1,
                   "archType": 1
                 },
                 {
                   "level": 7,
-                  "feature": 44,
+                  "feature": 43,
                   "rank": 2,
                   "archType": 1
                 },
                 {
                   "level": 10,
-                  "feature": 44,
+                  "feature": 43,
                   "rank": 3,
                   "archType": 1
                 },
                 {
                   "level": 13,
-                  "feature": 44,
+                  "feature": 43,
                   "rank": 4,
                   "archType": 1
                 },
                 {
                   "level": 16,
-                  "feature": 44,
+                  "feature": 43,
                   "rank": 5,
                   "archType": 1
                 },
                 {
                   "level": 19,
-                  "feature": 44,
+                  "feature": 43,
                   "rank": 6,
                   "archType": 1
                 }
@@ -2102,25 +2101,25 @@
               "features": [
                 {
                   "level": 8,
-                  "feature": 45,
+                  "feature": 44,
                   "rank": -1,
                   "archType": 1
                 },
                 {
                   "level": 16,
-                  "feature": 45,
+                  "feature": 44,
                   "rank": -1,
                   "archType": 1
                 },
                 {
                   "level": 17,
-                  "feature": 45,
+                  "feature": 44,
                   "rank": -1,
                   "archType": 1
                 },
                 {
                   "level": 20,
-                  "feature": 45,
+                  "feature": 44,
                   "rank": -1,
                   "archType": 1
                 }
@@ -2131,19 +2130,19 @@
               "features": [
                 {
                   "level": 16,
-                  "feature": 47,
+                  "feature": 46,
                   "rank": -1,
                   "archType": 1
                 },
                 {
                   "level": 17,
-                  "feature": 47,
+                  "feature": 46,
                   "rank": -1,
                   "archType": 1
                 },
                 {
                   "level": 20,
-                  "feature": 47,
+                  "feature": 46,
                   "rank": -1,
                   "archType": 1
                 }
@@ -2357,7 +2356,7 @@
               "features": [
                 {
                   "level": 3,
-                  "feature": 48,
+                  "feature": 47,
                   "rank": -1,
                   "archType": 1
                 },
@@ -2374,13 +2373,13 @@
               "features": [
                 {
                   "level": 5,
-                  "feature": 35,
+                  "feature": 34,
                   "rank": -1,
                   "archType": 1
                 },
                 {
                   "level": 12,
-                  "feature": 36,
+                  "feature": 35,
                   "rank": -1,
                   "archType": 1
                 }
